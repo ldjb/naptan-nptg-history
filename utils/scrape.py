@@ -30,7 +30,7 @@ for local_authority in local_authorities:
     atco_code_prefix = local_authority['atcoCodePrefix']
     print(f'Downloading NaPTAN files for {local_authority_name}')
     for format in ('xml', 'csv'):
-        download(f'https://naptan.api.dft.gov.uk/v1/access-nodes?atcoAreaCodes={atco_code_prefix}&dataFormat={format}')
+        download(f'https://naptan.api.dft.gov.uk/v1/access-nodes?atcoAreaCodes={atco_code_prefix}&dataFormat={format}', session)
 print('Downloading NPTG files')
-download('https://naptan.api.dft.gov.uk/v1/nptg')
-download('https://naptan.api.dft.gov.uk/v1/nptg/localities')
+download('https://naptan.api.dft.gov.uk/v1/nptg', session)
+download('https://naptan.api.dft.gov.uk/v1/nptg/localities', session)
