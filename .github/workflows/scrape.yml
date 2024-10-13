@@ -13,10 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install --upgrade requests
     - name: Fetch latest data
       run: |-
-        curl -OJ 'https://naptan.api.dft.gov.uk/v1/{access-nodes?dataFormat=xml,access-nodes?dataFormat=csv,nptg,nptg/localities}'
+        python utils/scrape.py
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
