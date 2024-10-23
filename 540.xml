@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-08T14:22:43.4651493Z" ModificationDateTime="2024-10-08T14:22:43.4651493Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-22T17:00:57.1921612Z" ModificationDateTime="2024-10-22T17:00:57.1921612Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-18T15:04:26" ModificationDateTime="2024-04-18T15:04:40" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5400ABC19999</AtcoCode>
@@ -13843,7 +13843,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-22T17:53:56" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>5400AWD70751</AtcoCode>
       <NaptanCode>gwngamj</NaptanCode>
       <Descriptor>
@@ -13852,7 +13852,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:34:07" ModificationDateTime="2024-04-26T16:34:07" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:34:07" ModificationDateTime="2024-10-22T17:53:56" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">Pen-y-pass YHA</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:34:07" ModificationDateTime="2024-04-26T16:34:07" Modification="new">
@@ -13865,10 +13865,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>264759</Easting>
+            <Easting>264738</Easting>
             <Northing>355615</Northing>
-            <Longitude>-4.020472394</Longitude>
-            <Latitude>53.080582768</Latitude>
+            <Longitude>-4.020785557</Longitude>
+            <Latitude>53.080572859</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -13887,6 +13887,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-22T17:53:56" ModificationDateTime="2024-10-22T17:53:56" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-22</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:12" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5400AWD70752</AtcoCode>
@@ -51274,6 +51282,49 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2024-10-22T15:27:31" ModificationDateTime="2024-10-22T15:25:34" Modification="new" Status="active">
+      <AtcoCode>5400AWP2702</AtcoCode>
+      <NaptanCode>gwnwata</NaptanCode>
+      <Descriptor>
+        <CommonName>Premier Inn</CommonName>
+        <Landmark>Premier Inn</Landmark>
+        <Street>Ffordd Y Parc</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037478</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>254577</Easting>
+            <Northing>369659</Northing>
+            <Longitude>-4.178742109</Longitude>
+            <Latitude>53.204050839</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-22T15:27:31" ModificationDateTime="2024-10-22T15:27:31" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-22</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:35" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5400AWQ26294</AtcoCode>
       <NaptanCode>gwnjtag</NaptanCode>
@@ -68816,7 +68867,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-06-29T16:31:44" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-22T17:48:00" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5400GYX17387</AtcoCode>
       <NaptanCode>gwnamjw</NaptanCode>
       <Descriptor>
@@ -68827,10 +68878,10 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:34:54" ModificationDateTime="2024-06-29T16:31:44" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2024-04-26T16:34:54" ModificationDateTime="2024-10-22T15:40:08" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Ysgol y Faenol</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:34:54" ModificationDateTime="2024-04-26T16:34:54" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:34:54" ModificationDateTime="2024-10-22T17:48:00" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Ysgol y Faenol</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -68866,6 +68917,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BANGOR</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-22T15:40:08" ModificationDateTime="2024-10-22T15:40:08" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-22</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:38" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5400GYX17389</AtcoCode>
@@ -71010,7 +71069,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-22T17:55:12" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5400GYX17437</AtcoCode>
       <NaptanCode>gwngamp</NaptanCode>
       <Descriptor>
@@ -71019,7 +71078,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:34:07" ModificationDateTime="2024-04-26T16:34:07" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:34:07" ModificationDateTime="2024-10-22T17:55:12" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pen-y-pass YHA</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:34:07" ModificationDateTime="2024-04-26T16:34:07" Modification="new">
@@ -71032,10 +71091,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>264741</Easting>
-            <Northing>355639</Northing>
-            <Longitude>-4.020751036</Longitude>
-            <Latitude>53.080793809</Latitude>
+            <Easting>264750</Easting>
+            <Northing>355609</Northing>
+            <Longitude>-4.020604005</Longitude>
+            <Latitude>53.080521999</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -71047,13 +71106,21 @@
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>SE</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-22T17:55:12" ModificationDateTime="2024-10-22T17:55:12" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-22</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:12" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5400GYX17438</AtcoCode>
