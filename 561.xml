@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-08T16:41:34.5774751Z" ModificationDateTime="2024-10-08T16:41:34.5774751Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-23T15:04:46.8813409Z" ModificationDateTime="2024-10-23T15:04:46.8813409Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:56" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -6364,7 +6364,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:03" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-23T16:04:24" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5610AWE90049</AtcoCode>
       <NaptanCode>powjdma</NaptanCode>
       <Descriptor>
@@ -6375,10 +6375,10 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2024-04-26T16:57:03" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2024-10-23T16:02:51" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Maes Parcio Smithfield</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2024-04-26T16:57:03" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2024-10-23T16:04:24" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Maes Parcio Smithfield</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -6411,6 +6411,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-23T16:02:51" ModificationDateTime="2024-10-23T16:02:51" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-23</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:24" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610AWE90050</AtcoCode>
