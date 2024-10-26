@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-04-25T13:58:18.145" ModificationDateTime="2024-04-25T13:58:18.145" Modification="new" RevisionNumber="0" FileName="NaPTAN078.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-10-25T12:05:50.091" ModificationDateTime="2024-10-25T12:05:50.091" Modification="new" RevisionNumber="0" FileName="NaPTAN078.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-09-09T00:00:00.000" ModificationDateTime="2009-09-09T00:00:00.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>07806073</AtcoCode>
@@ -2995,14 +2995,14 @@
 </StopClassification>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-09-29T13:58:24.098" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-06T14:51:39.664" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>078074017A</AtcoCode>
 <NaptanCode>recdgap</NaptanCode>
 <Descriptor>
 <CommonName>Humber Close</CommonName>
 <Landmark>Tees Street</Landmark>
 <Street>Tweed Street</Street>
-<Indicator>A</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0053623</NptgLocalityRef>
@@ -3021,14 +3021,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 <Degrees>90</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -9022,14 +9022,14 @@
 </StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-10-06T13:46:49.026" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-09T09:49:19.614" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>078074663A</AtcoCode>
 <NaptanCode>recdmga</NaptanCode>
 <Descriptor>
 <CommonName>Poplar Place</CommonName>
 <Landmark>Poplar Place</Landmark>
 <Street>Woodhouse Road</Street>
-<Indicator>A</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0053621</NptgLocalityRef>
@@ -9048,14 +9048,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 <Degrees>270</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -16924,14 +16924,14 @@
 </StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-10-17T10:52:56.208" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-08-30T14:26:02.702" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>078074747A</AtcoCode>
 <NaptanCode>recgada</NaptanCode>
 <Descriptor>
 <CommonName>Barns Farm</CommonName>
 <Landmark>Barns Farm</Landmark>
 <Street>Skelton Ellers</Street>
-<Indicator>A</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0041565</NptgLocalityRef>
@@ -16950,14 +16950,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 <Degrees>45</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -17340,7 +17340,7 @@
 </StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-10-17T12:39:28.759" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-30T08:36:46.964" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>078074752A</AtcoCode>
 <NaptanCode>recgagm</NaptanCode>
 <Descriptor>
@@ -17377,12 +17377,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">078G74752</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-10-17T12:56:18.139" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-30T08:37:00.756" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>078074752B</AtcoCode>
 <NaptanCode>recgagp</NaptanCode>
 <Descriptor>
@@ -29986,7 +29983,7 @@
 </StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-11-22T10:47:10.288" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-12T09:40:59.342" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>078074893B</AtcoCode>
 <NaptanCode>recgwga</NaptanCode>
 <Descriptor>
@@ -30012,14 +30009,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 <Degrees>0</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -36202,14 +36199,14 @@
 </StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-12-07T12:00:27.890" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-16T12:45:50.470" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>078074970A</AtcoCode>
 <NaptanCode>recjgja</NaptanCode>
 <Descriptor>
 <CommonName>Highcliff Grove</CommonName>
 <Landmark>Westfield Walk</Landmark>
 <Street>Westfield Way</Street>
-<Indicator>A</Indicator>
+<Indicator>Northbound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0053623</NptgLocalityRef>
@@ -36228,14 +36225,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 <Degrees>0</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -36244,14 +36241,14 @@
 </StopAreas>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2017-12-07T12:14:34.036" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2024-09-16T12:46:12.091" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>078074970B</AtcoCode>
 <NaptanCode>recjgjd</NaptanCode>
 <Descriptor>
 <CommonName>Highcliff Grove</CommonName>
 <Landmark>Westfield Walk</Landmark>
 <Street>Westfield Way</Street>
-<Indicator>B</Indicator>
+<Indicator>Southbound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0053623</NptgLocalityRef>
@@ -36270,14 +36267,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 <Degrees>180</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -46592,7 +46589,7 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2007-05-14T00:00:00.000" Modification="revise" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2007-05-14T00:00:00.000" Modification="revise" RevisionNumber="0" Status="inactive">
 <StopAreaCode>078G74752</StopAreaCode>
 <Name>Cherry Tree House</Name>
 <AdministrativeAreaRef>047</AdministrativeAreaRef>
