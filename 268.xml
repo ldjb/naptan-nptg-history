@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-24T12:56:07.074" ModificationDateTime="2024-10-24T12:56:07.074" Modification="new" RevisionNumber="0" FileName="NaPTAN268.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-28T16:45:31.174" ModificationDateTime="2024-10-28T16:45:31.174" Modification="new" RevisionNumber="0" FileName="NaPTAN268.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2013-05-13T10:11:47.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>268060001</AtcoCode>
@@ -12169,6 +12169,50 @@
 </DateRange>
 <Active />
 <Note>New stop created IJ</Note>
+</StopValidity>
+</StopAvailability>
+</StopPoint>
+<StopPoint CreationDateTime="2024-10-28T16:44:59.524" ModificationDateTime="2024-10-28T16:44:59.524" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>268060256</AtcoCode>
+<NaptanCode>rtladtap</NaptanCode>
+<Descriptor>
+<CommonName>Village store</CommonName>
+<Street>Main Street</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053659</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>488732</Easting>
+<Northing>316453</Northing>
+<Longitude>-0.6871954</Longitude>
+<Latitude>52.7384544</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>049</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2024-10-28</StartDate>
+</DateRange>
+<Active />
 </StopValidity>
 </StopAvailability>
 </StopPoint>
