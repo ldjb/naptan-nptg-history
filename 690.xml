@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-10-04T15:12:57.134" ModificationDateTime="2024-10-04T15:12:57.134" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-29T13:37:41.777" ModificationDateTime="2024-10-29T13:37:41.777" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -1765,11 +1765,11 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2014-05-06T11:17:16.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2024-10-18T13:00:54.618" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001044</AtcoCode>
 <NaptanCode>72725728</NaptanCode>
 <Descriptor>
-<CommonName>Post Office</CommonName>
+<CommonName>Eastgate Post Office</CommonName>
 <ShortCommonName>PO</ShortCommonName>
 <Landmark>Post Office</Landmark>
 <Street>Eastgate</Street>
@@ -14780,13 +14780,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-06T00:00:00.000" ModificationDateTime="2018-02-08T10:18:45.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-01-06T00:00:00.000" ModificationDateTime="2024-10-25T12:37:06.062" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>69001376</AtcoCode>
 <NaptanCode>72725467</NaptanCode>
 <Descriptor>
 <CommonName>Galashiels Academy Footpath</CommonName>
+<ShortCommonName>Gala Academy Ft-path</ShortCommonName>
 <Landmark>Footpath to Galashiels Academy</Landmark>
-<Street>LIVINGSTONE PLACE</Street>
+<Street>Livingstone Place</Street>
 <Indicator>At</Indicator>
 </Descriptor>
 <Place>
@@ -14818,7 +14819,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-06T00:00:00.000" ModificationDateTime="2024-04-22T14:43:29.223" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-01-06T00:00:00.000" ModificationDateTime="2024-10-25T12:35:33.785" Modification="revise" RevisionNumber="10" Status="inactive">
 <AtcoCode>69001377</AtcoCode>
 <NaptanCode>72725647</NaptanCode>
 <Descriptor>
@@ -36289,7 +36290,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-13T00:00:00.000" ModificationDateTime="2018-02-12T09:20:49.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2003-11-13T00:00:00.000" ModificationDateTime="2024-10-25T12:34:23.267" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>6900323</AtcoCode>
 <NaptanCode>72724289</NaptanCode>
 <Descriptor>
@@ -36328,7 +36329,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-13T00:00:00.000" ModificationDateTime="2009-04-13T00:00:00.000" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2003-11-13T00:00:00.000" ModificationDateTime="2024-10-25T12:34:08.935" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>6900324</AtcoCode>
 <NaptanCode>72724296</NaptanCode>
 <Descriptor>
@@ -36926,14 +36927,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-06-26T14:24:51.001" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-10-28T14:05:12.787" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>6900349</AtcoCode>
 <NaptanCode>72723879</NaptanCode>
 <Descriptor>
 <CommonName>Archies Walk</CommonName>
 <Landmark>Kingsknowes Roundabout</Landmark>
 <Street>Abbotsford Road</Street>
-<Indicator>At</Indicator>
+<Indicator>Opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0078864</NptgLocalityRef>
@@ -56766,6 +56767,114 @@
 <CompassPoint>SW</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-10-28T13:53:43.954" ModificationDateTime="2024-10-28T13:53:43.954" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002349</AtcoCode>
+<NaptanCode>7272349</NaptanCode>
+<Descriptor>
+<CommonName>A697 Greenlaw to Orange Lane Hail &amp; Ride</CommonName>
+<ShortCommonName>Greenlaw - Orange Ln H&amp;R</ShortCommonName>
+<Landmark>A697</Landmark>
+<Street>A697</Street>
+<Indicator>SE-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001667</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>375429</Easting>
+<Northing>644295</Northing>
+<Longitude>-2.3924171</Longitude>
+<Latitude>55.6914891</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>374056</Easting>
+<Northing>645606</Northing>
+<Longitude>-2.4143650</Longitude>
+<Latitude>55.7031997</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>377344</Easting>
+<Northing>642654</Northing>
+<Longitude>-2.3618178</Longitude>
+<Latitude>55.6768413</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-10-28T14:01:10.104" ModificationDateTime="2024-10-28T14:01:10.104" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002354</AtcoCode>
+<NaptanCode>7272354</NaptanCode>
+<Descriptor>
+<CommonName>A697 Orange Lane to Greenlaw Hail &amp; Ride</CommonName>
+<ShortCommonName>A697 Orange Ln to Greenlaw H&amp;R</ShortCommonName>
+<Landmark>A697</Landmark>
+<Street>A697</Street>
+<Indicator>NW-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001667</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>375395</Easting>
+<Northing>644258</Northing>
+<Longitude>-2.3929505</Longitude>
+<Latitude>55.6911589</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>377324</Easting>
+<Northing>642649</Northing>
+<Longitude>-2.3621236</Longitude>
+<Latitude>55.6767982</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>374056</Easting>
+<Northing>645568</Northing>
+<Longitude>-2.4143728</Longitude>
+<Latitude>55.7028613</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
