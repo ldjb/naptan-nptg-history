@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-08-21T14:49:48.046" ModificationDateTime="2024-08-21T14:49:48.046" Modification="new" RevisionNumber="0" FileName="NaPTAN669.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-10-30T10:30:37.317" ModificationDateTime="2024-10-30T10:30:37.317" Modification="new" RevisionNumber="0" FileName="NaPTAN669.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2015-03-13T15:51:58.000" ModificationDateTime="2015-03-19T10:33:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>669001320011</AtcoCode>
@@ -68331,6 +68331,80 @@
 <Northing>678438</Northing>
 <Longitude>-3.942636</Longitude>
 <Latitude>55.983572</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>125</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-08-30T16:06:51.811" ModificationDateTime="2024-08-30T16:06:51.811" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>669070001136</AtcoCode>
+<NaptanCode>32527555</NaptanCode>
+<Descriptor>
+<CommonName>Avonside Drive</CommonName>
+<Street>Avonside Drive</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001164</NptgLocalityRef>
+<Suburb>Dunipace</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>280590</Easting>
+<Northing>684150</Northing>
+<Longitude>-3.9180059</Longitude>
+<Latitude>56.0352914</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>125</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-08-30T16:14:39.778" ModificationDateTime="2024-08-30T16:14:39.778" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>669070001137</AtcoCode>
+<NaptanCode>32527560</NaptanCode>
+<Descriptor>
+<CommonName>Stirling Street</CommonName>
+<Street>Stirling Street</Street>
+<Indicator>after</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001164</NptgLocalityRef>
+<Suburb>Dunipace</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>280624</Easting>
+<Northing>684178</Northing>
+<Longitude>-3.9174774</Longitude>
+<Latitude>56.0355550</Latitude>
 </Translation>
 </Location>
 </Place>

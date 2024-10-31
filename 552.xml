@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-09-03T13:59:54.1535524Z" ModificationDateTime="2024-09-03T13:59:54.1535524Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T19:34:45.4987834Z" ModificationDateTime="2024-10-30T19:34:45.4987834Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2020-09-11T11:06:06" ModificationDateTime="2024-05-02T09:43:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>55205520WDB4</AtcoCode>
@@ -35290,7 +35290,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:42" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T16:51:20" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA13979</AtcoCode>
       <NaptanCode>rhogjgm</NaptanCode>
       <Descriptor>
@@ -35301,7 +35301,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:43:43" ModificationDateTime="2024-05-02T09:43:43" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:43:43" ModificationDateTime="2024-10-30T16:51:20" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Colliers` Arms</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:43:43" ModificationDateTime="2024-05-02T09:43:43" Modification="new">
@@ -35314,10 +35314,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>297772</Easting>
-            <Northing>204649</Northing>
-            <Longitude>-3.481652849</Longitude>
-            <Latitude>51.731203601</Latitude>
+            <Easting>297783</Easting>
+            <Northing>204677</Northing>
+            <Longitude>-3.481501748</Longitude>
+            <Latitude>51.731452590</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35340,6 +35340,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T16:51:20" ModificationDateTime="2024-10-30T16:51:20" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:09" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520AWA13980</AtcoCode>
@@ -35726,7 +35734,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:28" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T16:27:56" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5520AWA13987</AtcoCode>
       <NaptanCode>rhodmwt</NaptanCode>
       <Descriptor>
@@ -35737,10 +35745,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:28" ModificationDateTime="2024-05-02T09:44:28" Modification="new">
-          <CommonName xml:lang="CY">Prince of Wales</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-05-02T09:44:28" ModificationDateTime="2024-05-02T09:44:28" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:44:28" ModificationDateTime="2024-10-30T16:27:56" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">Prince of Wales</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -35750,10 +35755,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>295757</Easting>
-            <Northing>205413</Northing>
-            <Longitude>-3.511048106</Longitude>
-            <Latitude>51.737698944</Latitude>
+            <Easting>295731</Easting>
+            <Northing>205444</Northing>
+            <Longitude>-3.511433685</Longitude>
+            <Latitude>51.737968044</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35776,6 +35781,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T16:24:58" ModificationDateTime="2024-10-30T16:24:58" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520AWA13988</AtcoCode>
@@ -38091,7 +38104,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:45:11" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T16:48:42" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA14035</AtcoCode>
       <NaptanCode>rhodmtd</NaptanCode>
       <Descriptor>
@@ -38106,10 +38119,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>296872</Easting>
-            <Northing>205514</Northing>
-            <Longitude>-3.494936602</Longitude>
-            <Latitude>51.738813231</Latitude>
+            <Easting>296893</Easting>
+            <Northing>205510</Northing>
+            <Longitude>-3.494631287</Longitude>
+            <Latitude>51.738776462</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38132,8 +38145,16 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T16:48:42" ModificationDateTime="2024-10-30T16:48:42" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:45:11" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T16:47:35" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5520AWA14036</AtcoCode>
       <NaptanCode>rhodmtg</NaptanCode>
       <Descriptor>
@@ -38148,10 +38169,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>296872</Easting>
-            <Northing>205520</Northing>
-            <Longitude>-3.494938382</Longitude>
-            <Latitude>51.738867160</Latitude>
+            <Easting>296901</Easting>
+            <Northing>205517</Northing>
+            <Longitude>-3.494517547</Longitude>
+            <Latitude>51.738840852</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38173,6 +38194,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T16:46:18" ModificationDateTime="2024-10-30T16:46:18" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:52" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA14037</AtcoCode>
@@ -45697,7 +45726,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">PTYPRID</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:16" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T17:11:14" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA14197</AtcoCode>
       <NaptanCode>rhojgwj</NaptanCode>
       <Descriptor>
@@ -45707,7 +45736,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:16" ModificationDateTime="2024-05-02T09:44:16" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:44:16" ModificationDateTime="2024-10-30T17:09:45" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Maes Chwarae</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:44:16" ModificationDateTime="2024-05-02T09:44:16" Modification="new">
@@ -45720,10 +45749,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>304807</Easting>
-            <Northing>190941</Northing>
-            <Longitude>-3.376079715</Longitude>
-            <Latitude>51.609228098</Latitude>
+            <Easting>304840</Easting>
+            <Northing>190942</Northing>
+            <Longitude>-3.375603476</Longitude>
+            <Latitude>51.609237977</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -45743,8 +45772,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T17:09:45" ModificationDateTime="2024-10-30T17:09:45" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:33" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T17:13:36" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA14198</AtcoCode>
       <NaptanCode>rhojgwm</NaptanCode>
       <Descriptor>
@@ -45756,7 +45793,7 @@
         <Descriptor CreationDateTime="2024-05-02T09:44:33" ModificationDateTime="2024-05-02T09:44:33" Modification="new">
           <CommonName xml:lang="CY">Siopau Terry</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-05-02T09:44:33" ModificationDateTime="2024-05-02T09:44:33" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:44:33" ModificationDateTime="2024-10-30T17:13:36" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Siopau Terry</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -45766,10 +45803,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>304706</Easting>
-            <Northing>190938</Northing>
-            <Longitude>-3.377536987</Longitude>
-            <Latitude>51.609184026</Latitude>
+            <Easting>304689</Easting>
+            <Northing>190934</Northing>
+            <Longitude>-3.377781213</Longitude>
+            <Latitude>51.609140496</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -45789,6 +45826,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T17:12:44" ModificationDateTime="2024-10-30T17:12:44" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:04" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA14199</AtcoCode>
@@ -66553,7 +66598,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">PTYPRID</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:59" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T14:57:54" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5520WDB21746</AtcoCode>
       <NaptanCode>rhopgjm</NaptanCode>
       <Descriptor>
@@ -66565,7 +66610,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:59" ModificationDateTime="2024-05-02T09:44:59" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:44:59" ModificationDateTime="2024-10-30T14:57:54" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">Ysgol Gynradd Rhigos</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:44:59" ModificationDateTime="2024-05-02T09:44:59" Modification="new">
@@ -66578,10 +66623,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>292280</Easting>
-            <Northing>206014</Northing>
-            <Longitude>-3.561568447</Longitude>
-            <Latitude>51.742442415</Latitude>
+            <Easting>292235</Easting>
+            <Northing>205969</Northing>
+            <Longitude>-3.562205878</Longitude>
+            <Latitude>51.742024620</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -66603,6 +66648,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-08-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T14:57:54" ModificationDateTime="2024-10-30T14:57:54" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:45:10" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB21758</AtcoCode>
@@ -69799,7 +69852,7 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:45:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T17:04:28" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5520WDB23862</AtcoCode>
       <NaptanCode>rhopjwg</NaptanCode>
       <Descriptor>
@@ -69814,10 +69867,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>303241</Easting>
-            <Northing>190976</Northing>
-            <Longitude>-3.398696817</Longitude>
-            <Latitude>51.609275444</Latitude>
+            <Easting>303288</Easting>
+            <Northing>190954</Northing>
+            <Longitude>-3.398012124</Longitude>
+            <Latitude>51.609081085</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -69837,6 +69890,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T17:03:34" ModificationDateTime="2024-10-30T17:03:34" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:57" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520WDB23888</AtcoCode>
@@ -72022,7 +72083,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-08-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:13" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T16:29:41" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520WDB25390</AtcoCode>
       <NaptanCode>rhopdta</NaptanCode>
       <Descriptor>
@@ -72033,7 +72094,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:13" ModificationDateTime="2024-05-02T09:44:13" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:44:13" ModificationDateTime="2024-10-30T16:29:41" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Lamb Inn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:44:13" ModificationDateTime="2024-05-02T09:44:13" Modification="new">
@@ -72046,10 +72107,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>295611</Easting>
-            <Northing>205596</Northing>
-            <Longitude>-3.513216644</Longitude>
-            <Latitude>51.739316536</Latitude>
+            <Easting>295651</Easting>
+            <Northing>205553</Northing>
+            <Longitude>-3.512624540</Longitude>
+            <Latitude>51.738932826</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -72072,6 +72133,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-08-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T16:29:41" ModificationDateTime="2024-10-30T16:29:41" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:27" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520WDB25418</AtcoCode>
@@ -83073,14 +83142,14 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-08-27T13:51:38" ModificationDateTime="2024-08-27T13:54:25" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-08-27T13:51:38" ModificationDateTime="2024-10-23T12:51:45" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8386</AtcoCode>
       <NaptanCode>rhotgpa</NaptanCode>
       <Descriptor>
-        <CommonName>Railway Station  E6</CommonName>
+        <CommonName>Railway Station South E6</CommonName>
         <Landmark>Sardis House</Landmark>
         <Street>Sardis Road</Street>
-        <Indicator>Opp Sardis House</Indicator>
+        <Indicator>Opp Train Station</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-08-27T13:51:38" ModificationDateTime="2024-08-27T13:51:38" Modification="new">
@@ -83123,16 +83192,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-08-27T14:01:24" ModificationDateTime="2024-08-27T13:57:38" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-08-27T14:01:24" ModificationDateTime="2024-10-23T12:48:44" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8387</AtcoCode>
       <NaptanCode>rhotgpd</NaptanCode>
       <Descriptor>
-        <CommonName>Railway Station  E5</CommonName>
+        <CommonName>Railway Station South E5</CommonName>
         <Street>Sardis Road</Street>
-        <Indicator>Opp Sardis House</Indicator>
+        <Indicator>Opp Train Station</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-08-27T14:01:24" ModificationDateTime="2024-08-27T14:01:24" Modification="new">
+        <Descriptor CreationDateTime="2024-08-27T14:01:24" ModificationDateTime="2024-10-23T12:47:56" Modification="revise" RevisionNumber="1">
           <CommonName>Gorsaf y Rheilfford i'r De E5</CommonName>
           <Street>Heol Sardis</Street>
         </Descriptor>

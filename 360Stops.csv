@@ -7,7 +7,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600FROME0,,,,Frome Rail Station,,,,,,,,,,Entrance,,,E0050788,Frome,,,,,,,false,UKOS,378450,147610,-2.31,51.22727,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T10:54:11,0,new,active
 3600HGHBRDG0,,,,Highbridge & Burnham-on-Sea Rail Station,,,,,,,,,,Entrance,,,E0022550,Highbridge,Burnham-on-Sea,,,,,,false,UKOS,332205,147027,-2.97209,51.2184,RSE,,,,,,098,2015-11-12T00:00:00,2015-11-12T09:35:07,1,new,active
 3600TAUNTON0,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322750,125430,-3.10281,51.02303,RSE,,,,,,098,2015-11-12T00:00:00,2015-11-12T09:46:14,1,new,active
-3600TAUNTON1,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322709,125486,-3.1034,51.02353,RSE,,,,,,098,2024-10-23T15:17:54.3169705+01:00,2015-11-12T09:46:14,1,new,active
+3600TAUNTON1,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322709,125486,-3.1034,51.02353,RSE,,,,,,098,2024-10-30T16:05:56.2142856Z,2015-11-12T09:46:14,1,new,active
 3600TMPCMB0,,,,Templecombe Rail Station,,,,,,,,,,Entrance,,,N0074077,Templecombe,,,,,,,false,UKOS,370810,122548,-2.41737,51.00157,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:00:29,0,new,active
 3600YOVILJN0,,,,Yeovil Junction Rail Station,,,,,,,,,,Entrance,,,E0051002,Yeovil,,,,,,,false,UKOS,357008,114084,-2.61305,50.9246,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:22:46,0,new,active
 3600YOVILPM0,,,,Yeovil Pen Mill Rail Station,,,,,,,,,,Entrance,,,E0051002,Yeovil,,,,,,,false,UKOS,357023,116331,-2.6131,50.94481,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:23:39,0,new,active
@@ -1828,8 +1828,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOB21138,sotatgdp,,,Wainbridge Farm,,,,,,,,,,E-bound,,E,E0050862,Mark,,,,,,,false,UKOS,336487,147663,-2.9109,51.22461,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:12:31,24,new,active
 3600SOB21145,sotawapw,,,Mudgely Cross,,,,,,Mudgley Hill,,,,SE-bound,,SE,E0022580,Mudgley,,,,,,,false,UKOS,344380,146139,-2.79764,51.21173,BCT,CUS,OTH,,,,098,2006-03-27T00:00:00,2024-05-02T09:12:31,23,new,active
 3600SOB21146,sotawapg,,,Mudgely Cross,,,,,,Mudgley Hill,,,,N-bound,,N,E0022580,Mudgley,,,,,,,false,UKOS,344373,146095,-2.79774,51.21134,BCT,CUS,OTH,,,,098,2006-03-27T00:00:00,2024-05-02T09:12:31,23,new,active
-3600SOB21133,sotatgwt,,,Churchlands,,,,,,Church Street,,,,NW-bound,,NW,E0050862,Mark,,,,,,,false,UKOS,338020,147874,-2.88898,51.22668,BCT,MKD,OTH,,,,098,2006-03-27T00:00:00,2024-05-02T09:12:32,34,new,active
-3600SOB21134,sotatjap,,,Churchlands,,,,,,Church Street,,,,E-bound,,E,E0050862,Mark,,,,,,,false,UKOS,338037,147880,-2.88874,51.22673,BCT,MKD,OTH,,,,098,2009-07-24T00:00:00,2024-05-02T09:12:41,34,new,active
+3600SOB21133,sotatgwt,,,Churchlands,,,,,,Church Street,,,,NW-bound,,NW,E0050862,Mark,,,,,,,false,UKOS,337898,147927,-2.89074,51.22714,BCT,MKD,OTH,,,,098,2006-03-27T00:00:00,2024-10-30T13:49:47,34,new,active
+3600SOB21134,sotatjap,,,Churchlands,,,,,,Church Street,,,,E-bound,,E,E0050862,Mark,,,,,,,false,UKOS,337901,147935,-2.8907,51.22721,BCT,MKD,OTH,,,,098,2009-07-24T00:00:00,2024-10-30T13:49:55,34,new,active
 3600SOB21132,sotatmja,,,Sexeys Cottage,,,,,,Poolbridge Road,,,,W-bound,,W,E0022641,Westham,,,,,,,false,UKOS,340326,147647,-2.85593,51.22488,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:12:39,23,new,active
 3600SOB21131,sotatmjd,,,Sexeys Cottage,,,,,,Poolbridge Road,,,,opp,,E,E0022641,Westham,,,,,,,false,UKOS,340327,147654,-2.85591,51.22494,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:12:39,23,new,active
 3600SOB21137,sotatgdm,,,Yardwall Road,,,,,,Mark Causeway,,,,W-bound,,W,E0050862,Mark,,,,,,,false,UKOS,336483,147642,-2.91095,51.22442,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T09:12:40,23,new,active
@@ -4450,6 +4450,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 360000244,sotdtwpw,,,Ash Close,,,,,,,,,,SW-bound,,SW,E0022503,Bridgwater,,,,,,,false,UKOS,331952,136946,-2.9738,51.12773,BCT,MKD,OTH,,,,098,2024-10-23T00:00:00,2024-10-23T13:43:32,42,new,active
 360000245,sotdtwta,,,Almond Tree Close,,,,,,,,,,NE-bound,,NE,E0022503,Bridgwater,,,,,,,false,UKOS,331843,136783,-2.97532,51.12625,BCT,MKD,OTH,,,,098,2024-10-23T00:00:00,2024-10-23T13:51:21,42,new,active
 360000246,sotdtwtd,,,Almond Tree Close,,,,,,,,,,SW-bound,,SW,E0022503,Bridgwater,,,,,,,false,UKOS,331861,136801,-2.97507,51.12642,BCT,MKD,OTH,,,,098,2024-10-23T00:00:00,2024-10-23T13:53:05,46,new,active
+360000247,sotdtpjm,,,RSPB Greylake,,,,,,,,,,N-bound,,N,E0022542,Greylake,,,,,,,false,UKOS,339948,134590,-2.85915,51.10745,BCT,MKD,OTH,,,,098,2024-10-30T00:00:00,2024-10-30T09:41:03,42,new,active
+360000248,sotdtpwd,,,RSPB Greylake,,,,,,,,,,S-bound,,S,E0022542,Greylake,,,,,,,false,UKOS,339956,134584,-2.85904,51.10739,BCT,MKD,OTH,,,,098,2024-10-30T00:00:00,2024-10-30T09:43:17,42,new,active
 3600SOB20310,sotajpmt,,,Shoreditch Racecourse,,,,,,Shoreditch Road,,,,N-bound,,N,E0023184,Shoreditch,Taunton,,,,,,false,UKOS,324178,122273,-3.08179,50.99484,BCT,CUS,OTH,,,,098,2006-01-04T00:00:00,2024-05-02T14:08:28,36,new,active
 3600SOB20311,sotajpta,,,Shoreditch Racecourse,,,,,,Shoreditch Road,,,,S-bound,,S,E0023184,Shoreditch,Taunton,,,,,,false,UKOS,324189,122269,-3.08163,50.9948,BCT,CUS,OTH,,,,098,2006-01-04T00:00:00,2024-05-02T14:08:29,29,new,active
 3600SOB20309,sotajmpm,,,Duddlestone Turn,,,,,,,,,,SW-bound,,SW,E0023045,Duddlestone,,,,,,,false,UKOS,323694,121012,-3.08842,50.98344,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2024-05-02T14:08:29,23,new,active

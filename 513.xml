@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-22T11:21:58.9173495Z" ModificationDateTime="2024-10-22T11:21:58.9173495Z" Modification="new" RevisionNumber="1" FileName="513.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T12:51:56.3795189Z" ModificationDateTime="2024-10-30T12:51:56.3795189Z" Modification="new" RevisionNumber="1" FileName="513.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-05-30T11:11:09" ModificationDateTime="2024-05-30T11:09:44" Modification="new" Status="active">
       <AtcoCode>5130ABC10000</AtcoCode>
@@ -5775,7 +5775,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:43" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T12:35:08" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5130AWD70293</AtcoCode>
       <NaptanCode>cnwajtw</NaptanCode>
       <Descriptor>
@@ -5785,7 +5785,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:10:43" ModificationDateTime="2024-04-26T16:10:43" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:10:43" ModificationDateTime="2024-10-30T12:35:08" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">YHA</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:10:43" ModificationDateTime="2024-04-26T16:10:43" Modification="new">
@@ -5798,10 +5798,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>277561</Easting>
-            <Northing>377440</Northing>
-            <Longitude>-3.837829255</Longitude>
-            <Latitude>53.279755569</Latitude>
+            <Easting>277531</Easting>
+            <Northing>377437</Northing>
+            <Longitude>-3.838277663</Longitude>
+            <Latitude>53.279717112</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5823,18 +5823,24 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2006-09-07T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T12:35:08" ModificationDateTime="2024-10-30T12:35:08" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:22" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T12:51:25" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5130AWD70294</AtcoCode>
       <NaptanCode>cnwajtp</NaptanCode>
       <Descriptor>
         <CommonName>Parc Sychnant</CommonName>
         <Street>Parc Sychnant</Street>
-        <Crossing>Sychnant Pass Road</Crossing>
-        <Indicator>o/s 8</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:10:22" ModificationDateTime="2024-04-26T16:10:22" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:10:22" ModificationDateTime="2024-10-30T12:48:42" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Parc Sychnant</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:10:22" ModificationDateTime="2024-04-26T16:10:22" Modification="new">
@@ -5847,10 +5853,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>277095</Easting>
-            <Northing>377268</Northing>
-            <Longitude>-3.844747901</Longitude>
-            <Latitude>53.278102409</Latitude>
+            <Easting>277158</Easting>
+            <Northing>377141</Northing>
+            <Longitude>-3.843754331</Longitude>
+            <Latitude>53.276971470</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5862,7 +5868,7 @@
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>NW</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -5872,6 +5878,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T12:48:42" ModificationDateTime="2024-10-30T12:48:42" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-29T12:44:59" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5130AWD70295</AtcoCode>
@@ -9587,7 +9601,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:41" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T10:35:16" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5130AWD71179</AtcoCode>
       <NaptanCode>cnwgapj</NaptanCode>
       <Descriptor>
@@ -9598,7 +9612,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:10:41" ModificationDateTime="2024-04-26T16:10:41" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:10:41" ModificationDateTime="2024-10-30T10:35:16" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Ty Mawr</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:10:41" ModificationDateTime="2024-04-26T16:10:41" Modification="new">
@@ -9611,10 +9625,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>278226</Easting>
-            <Northing>378934</Northing>
-            <Longitude>-3.828434186</Longitude>
-            <Latitude>53.293331153</Latitude>
+            <Easting>278278</Easting>
+            <Northing>378895</Northing>
+            <Longitude>-3.827639376</Longitude>
+            <Latitude>53.292988157</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9626,7 +9640,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NW</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
                 <Degrees>315</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -9637,6 +9651,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2014-03-18T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T10:34:55" ModificationDateTime="2024-10-30T10:34:55" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:03" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5130AWD71180</AtcoCode>
@@ -12155,7 +12177,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T11:37:35" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5130AWD71232</AtcoCode>
       <NaptanCode>cnwamgw</NaptanCode>
       <Descriptor>
@@ -12170,10 +12192,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>279305</Easting>
+            <Easting>279285</Easting>
             <Northing>381510</Northing>
-            <Longitude>-3.813235514</Longitude>
-            <Latitude>53.316721476</Latitude>
+            <Longitude>-3.813535446</Longitude>
+            <Latitude>53.316712345</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12292,13 +12314,13 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:11:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T12:20:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5130AWD71235</AtcoCode>
       <NaptanCode>cnwamtp</NaptanCode>
       <Descriptor>
         <CommonName>Vicarage Avenue</CommonName>
-        <Street>Conway Road</Street>
-        <Crossing>Vicarage Avenue</Crossing>
+        <Street>Vicarage Avenue</Street>
+        <Crossing>Conway Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <Place>
@@ -12307,10 +12329,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>279302</Easting>
-            <Northing>380973</Northing>
-            <Longitude>-3.813075980</Longitude>
-            <Latitude>53.311896286</Latitude>
+            <Easting>279295</Easting>
+            <Northing>380983</Northing>
+            <Longitude>-3.813184670</Longitude>
+            <Latitude>53.311979963</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12322,7 +12344,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>W</CompassPoint>
                 <Degrees>0</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -12333,6 +12355,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2003-09-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T12:20:29" ModificationDateTime="2024-10-30T12:20:29" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:11:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5130AWD71237</AtcoCode>
@@ -30947,7 +30977,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2008-01-04T00:00:00" Modification="new" RevisionNumber="0" Status="active">CBAY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:45" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T12:23:56" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5130AWM21044</AtcoCode>
       <NaptanCode>cnwajwp</NaptanCode>
       <Descriptor>
@@ -30958,7 +30988,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:10:45" ModificationDateTime="2024-04-26T16:10:45" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:10:45" ModificationDateTime="2024-10-30T12:23:56" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ysgol William Davies</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:10:45" ModificationDateTime="2024-04-26T16:10:45" Modification="new">
@@ -30971,10 +31001,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>278772</Easting>
-            <Northing>381029</Northing>
-            <Longitude>-3.821048032</Longitude>
-            <Latitude>53.312278248</Latitude>
+            <Easting>278777</Easting>
+            <Northing>381016</Northing>
+            <Longitude>-3.820967926</Longitude>
+            <Latitude>53.312158032</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -30986,7 +31016,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>E</CompassPoint>
+                <CompassPoint>W</CompassPoint>
                 <Degrees>90</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -30997,6 +31027,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2003-09-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T12:23:56" ModificationDateTime="2024-10-30T12:23:56" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:57" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5130AWM21045</AtcoCode>
@@ -37008,7 +37046,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2003-09-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">LUDO</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:10:17" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T11:32:45" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5130CWX02025</AtcoCode>
       <NaptanCode>cnwatjd</NaptanCode>
       <Descriptor>
@@ -37018,7 +37056,7 @@
         <Indicator>opp 16</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:10:17" ModificationDateTime="2024-04-26T16:10:17" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:10:17" ModificationDateTime="2024-10-30T11:31:36" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Nant y Coed</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:10:17" ModificationDateTime="2024-04-26T16:10:17" Modification="new">
@@ -37031,10 +37069,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>280242</Easting>
-            <Northing>378222</Northing>
-            <Longitude>-3.797935921</Longitude>
-            <Latitude>53.287394112</Latitude>
+            <Easting>280199</Easting>
+            <Northing>378255</Northing>
+            <Longitude>-3.798592940</Longitude>
+            <Latitude>53.287676299</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -54364,6 +54402,137 @@
         <StopValidity CreationDateTime="2024-10-22T12:00:12" ModificationDateTime="2024-10-22T12:00:12" Modification="new">
           <DateRange>
             <StartDate>2024-10-22</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-10-30T11:03:38" ModificationDateTime="2024-10-30T11:03:44" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5130WDB47993</AtcoCode>
+      <NaptanCode>cnwjdwt</NaptanCode>
+      <Descriptor>
+        <CommonName>Pant Teg</CommonName>
+        <Street>St George's Drive</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2024-10-30T11:03:38" ModificationDateTime="2024-10-30T11:03:44" Modification="revise" RevisionNumber="1">
+          <CommonName>Pant Teg</CommonName>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0036588</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>279091</Easting>
+            <Northing>378291</Northing>
+            <Longitude>-3.815218643</Longitude>
+            <Latitude>53.287747951</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>014</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T11:03:44" ModificationDateTime="2024-10-30T11:03:44" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-10-30T11:13:09" ModificationDateTime="2024-10-30T11:10:16" Modification="new" Status="active">
+      <AtcoCode>5130WDB47994</AtcoCode>
+      <NaptanCode>cnwjgad</NaptanCode>
+      <Descriptor>
+        <CommonName>St George's Drive</CommonName>
+        <Street>St George's Drive</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0036588</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>279027</Easting>
+            <Northing>378181</Northing>
+            <Longitude>-3.816136253</Longitude>
+            <Latitude>53.286745074</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>014</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T11:13:09" ModificationDateTime="2024-10-30T11:13:09" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-10-30T12:02:41" ModificationDateTime="2024-10-30T12:12:56" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5130WDB47995</AtcoCode>
+      <NaptanCode>cnwjgag</NaptanCode>
+      <Descriptor>
+        <CommonName>Clarence Road</CommonName>
+        <Street>Clarence Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0036548</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>279317</Easting>
+            <Northing>381446</Northing>
+            <Longitude>-3.813030974</Longitude>
+            <Latitude>53.316144658</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>014</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T12:02:41" ModificationDateTime="2024-10-30T12:02:41" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
           </DateRange>
           <Active />
         </StopValidity>

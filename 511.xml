@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-08T14:36:44.9211017Z" ModificationDateTime="2024-10-08T14:36:44.9211017Z" Modification="new" RevisionNumber="1" FileName="511.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T13:36:47.3827542Z" ModificationDateTime="2024-10-30T13:36:47.3827542Z" Modification="new" RevisionNumber="1" FileName="511.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-24T11:14:02" ModificationDateTime="2024-04-24T11:17:51" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5110ABC99960</AtcoCode>
@@ -1911,7 +1911,7 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:48" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T13:33:15" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>5110AWD70608</AtcoCode>
       <NaptanCode>dbgdmgd</NaptanCode>
       <Descriptor>
@@ -1921,7 +1921,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:48" ModificationDateTime="2024-04-26T16:16:48" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:16:48" ModificationDateTime="2024-10-30T13:32:24" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Wenffrwd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:16:48" ModificationDateTime="2024-04-26T16:16:48" Modification="new">
@@ -1957,6 +1957,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T13:32:24" ModificationDateTime="2024-10-30T13:32:24" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:42" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5110AWD70609</AtcoCode>
@@ -28698,7 +28706,7 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-27T16:52:01" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T12:53:14" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>5110WDB23970</AtcoCode>
       <NaptanCode>dbgdwmg</NaptanCode>
       <Descriptor>
@@ -28706,10 +28714,9 @@
         <Landmark>Golflinks Farm</Landmark>
         <Street>A525</Street>
         <Crossing>Lon Gwernydd</Crossing>
-        <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:41" ModificationDateTime="2024-05-27T16:52:01" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2024-04-26T16:16:41" ModificationDateTime="2024-10-30T12:53:15" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Ruthin Aldi</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:16:41" ModificationDateTime="2024-04-26T16:16:41" Modification="new">
@@ -28752,7 +28759,7 @@
           </DateRange>
           <Active />
         </StopValidity>
-        <StopValidity CreationDateTime="2015-07-14T12:04:06" ModificationDateTime="2024-05-27T16:52:01" Modification="revise" RevisionNumber="7">
+        <StopValidity CreationDateTime="2015-07-14T12:04:06" ModificationDateTime="2024-10-30T12:53:15" Modification="revise" RevisionNumber="8">
           <DateRange>
             <StartDate>2015-07-14</StartDate>
             <EndDate>2015-07-14</EndDate>
@@ -39866,7 +39873,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-08-15T15:28:50" ModificationDateTime="2024-06-02T17:17:13" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2023-08-15T15:28:50" ModificationDateTime="2024-10-30T12:59:25" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5110WDB48449</AtcoCode>
       <NaptanCode>dbgjmjt</NaptanCode>
       <Descriptor>
@@ -39874,7 +39881,7 @@
         <Street>A539</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:48" ModificationDateTime="2024-04-26T16:16:48" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:16:48" ModificationDateTime="2024-10-30T12:59:25" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Wenffrwd </CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:16:48" ModificationDateTime="2024-06-02T17:17:13" Modification="revise" RevisionNumber="1">
@@ -39885,10 +39892,10 @@
         <NptgLocalityRef>E0036796</NptgLocalityRef>
         <Location>
           <Translation>
-            <Easting>323735</Easting>
+            <Easting>323729</Easting>
             <Northing>342548</Northing>
-            <Longitude>-3.137186018</Longitude>
-            <Latitude>52.974832770</Latitude>
+            <Longitude>-3.137275350</Longitude>
+            <Latitude>52.974831915</Latitude>
           </Translation>
         </Location>
       </Place>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-25T09:19:02.88771Z" ModificationDateTime="2024-10-25T09:19:02.88771Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T10:26:57.9686752Z" ModificationDateTime="2024-10-30T10:26:57.9686752Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:48" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5510ANZ12678</AtcoCode>
@@ -28074,7 +28074,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2003-09-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:09" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T10:08:07" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5510AWA13147</AtcoCode>
       <NaptanCode>bregjag</NaptanCode>
       <Descriptor>
@@ -28086,7 +28086,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-04-26T15:53:09" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-10-30T10:08:02" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ysgol Gynradd Croesty</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-04-26T15:53:09" Modification="new">
@@ -28099,10 +28099,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>295782</Easting>
-            <Northing>181114</Northing>
-            <Longitude>-3.503446644</Longitude>
-            <Latitude>51.519300520</Latitude>
+            <Easting>295801</Easting>
+            <Northing>181168</Northing>
+            <Longitude>-3.503188781</Longitude>
+            <Latitude>51.519784699</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -28125,6 +28125,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T10:08:07" ModificationDateTime="2024-10-30T10:08:07" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:54" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5510AWA13148</AtcoCode>
@@ -33192,7 +33200,7 @@
       </StopClassification>
       <AdministrativeAreaRef>007</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:09" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T10:12:15" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5510AWZ26290</AtcoCode>
       <NaptanCode>bregjdt</NaptanCode>
       <Descriptor>
@@ -33204,10 +33212,10 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-04-26T15:53:09" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-10-30T10:11:36" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ysgol Gynradd Croesty</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-04-26T15:53:09" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:53:09" ModificationDateTime="2024-10-30T10:12:16" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Ysgol Gynradd Croesty</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -33217,10 +33225,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>295792</Easting>
-            <Northing>181108</Northing>
-            <Longitude>-3.503300685</Longitude>
-            <Latitude>51.519243737</Latitude>
+            <Easting>295777</Easting>
+            <Northing>181044</Northing>
+            <Longitude>-3.503497846</Longitude>
+            <Latitude>51.518665713</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -33243,6 +33251,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T10:12:16" ModificationDateTime="2024-10-30T10:12:16" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:36" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5510AWZ26291</AtcoCode>
@@ -37412,7 +37428,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:22" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-10-30T10:25:27" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5510WDB24091</AtcoCode>
       <NaptanCode>brejgwt</NaptanCode>
       <Descriptor>
@@ -37456,6 +37472,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-10-30T10:25:27" ModificationDateTime="2024-10-30T10:25:27" Modification="new">
+          <DateRange>
+            <StartDate>2024-10-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:22" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5510WDB24092</AtcoCode>
