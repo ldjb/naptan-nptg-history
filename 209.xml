@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.79.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-09-25T16:43:39.7323741Z" ModificationDateTime="2024-09-25T16:43:39.7323741Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-01T14:21:12.3881812Z" ModificationDateTime="2024-11-01T14:21:12.3881812Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -7947,6 +7947,81 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-01T13:30:18" ModificationDateTime="2024-11-01T13:37:26" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>2090A0106452</AtcoCode>
+      <NaptanCode>heratptdw</NaptanCode>
+      <Descriptor>
+        <CommonName>Keats Meadow</CommonName>
+        <Landmark>Hawk Rise</Landmark>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053277</NptgLocalityRef>
+        <Suburb>Hawk Rise</Suburb>
+        <Town>Ledbury</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>370769</Easting>
+            <Northing>236342</Northing>
+            <Longitude>-2.427428556</Longitude>
+            <Latitude>52.024714051</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-01T13:35:53" ModificationDateTime="2024-11-01T13:36:54" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>2090A0106454</AtcoCode>
+      <NaptanCode>heratptga</NaptanCode>
+      <Descriptor>
+        <CommonName>Hazle Close</CommonName>
+        <Street>Martins Way</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0076317</NptgLocalityRef>
+        <Suburb>Deer Park</Suburb>
+        <Town>Ledbury</Town>
+        <Location>
+          <Translation>
+            <Easting>370598</Easting>
+            <Northing>236762</Northing>
+            <Longitude>-2.429956892</Longitude>
+            <Latitude>52.028480946</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -60582,7 +60657,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2011-11-16T09:26:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2024-10-25T16:31:41" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2090A19636</AtcoCode>
       <NaptanCode>heramgjt</NaptanCode>
       <Descriptor>
@@ -60598,10 +60673,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>345653</Easting>
-            <Northing>232549</Northing>
-            <Longitude>-2.792851394</Longitude>
-            <Latitude>51.988728985</Latitude>
+            <Easting>345514</Easting>
+            <Northing>232494</Northing>
+            <Longitude>-2.794856149</Longitude>
+            <Latitude>51.988210375</Latitude>
           </Translation>
         </Location>
       </Place>

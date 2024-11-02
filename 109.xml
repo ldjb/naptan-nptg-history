@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T08:39:15.644" ModificationDateTime="2024-10-30T08:39:15.644" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-01T13:20:01.950" ModificationDateTime="2024-11-01T13:20:01.950" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-12-03T10:37:07.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>109000000535</AtcoCode>
@@ -73063,6 +73063,76 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-01T13:08:22.520" ModificationDateTime="2024-11-01T13:08:22.520" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052234</AtcoCode>
+<Descriptor>
+<CommonName>Amberley Close</CommonName>
+<Street>Riber Drive</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036813</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>438462</Easting>
+<Northing>329492</Northing>
+<Longitude>-1.4301672</Longitude>
+<Latitude>52.8615671</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-01T13:17:33.868" ModificationDateTime="2024-11-01T13:17:33.868" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052235</AtcoCode>
+<Descriptor>
+<CommonName>Supermarket</CommonName>
+<Street>Riber Drive</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036813</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>438104</Easting>
+<Northing>329501</Northing>
+<Longitude>-1.4354833</Longitude>
+<Latitude>52.8616733</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
