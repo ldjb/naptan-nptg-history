@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.74.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-07-15T12:32:45.5101487Z" ModificationDateTime="2024-07-15T12:32:45.5101487Z" Modification="new" RevisionNumber="1" FileName="NaPTAN227.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-04T10:44:34.416895Z" ModificationDateTime="2024-11-04T10:44:34.416895Z" Modification="new" RevisionNumber="1" FileName="NaPTAN227.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-09T00:00:00" ModificationDateTime="2008-12-12T11:57:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>227000010001</AtcoCode>
@@ -38720,7 +38720,7 @@
         <PlusbusZoneRef CreationDateTime="2005-08-17T00:00:00" ModificationDateTime="2009-01-08T14:10:29" Modification="revise" RevisionNumber="3" Status="active">SCNTHRP</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-17T00:00:00" ModificationDateTime="2009-01-08T10:57:31" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2005-08-17T00:00:00" ModificationDateTime="2024-11-04T10:33:11" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>227000010820</AtcoCode>
       <NaptanCode>scuwdgm</NaptanCode>
       <Descriptor>
@@ -38747,10 +38747,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488686</Easting>
-            <Northing>414255</Northing>
-            <Longitude>-0.660781307</Longitude>
-            <Latitude>53.617342349</Latitude>
+            <Easting>488504</Easting>
+            <Northing>414195</Northing>
+            <Longitude>-0.663548844</Longitude>
+            <Latitude>53.616829399</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -49345,7 +49345,7 @@
       </StopClassification>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-18T00:00:00" ModificationDateTime="2009-02-19T10:41:09" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2005-11-18T00:00:00" ModificationDateTime="2024-11-04T10:30:35" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>227000011050</AtcoCode>
       <NaptanCode>scujajm</NaptanCode>
       <Descriptor>
@@ -49372,10 +49372,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488658</Easting>
-            <Northing>414244</Northing>
-            <Longitude>-0.661207592</Longitude>
-            <Latitude>53.617248239</Latitude>
+            <Easting>488529</Easting>
+            <Northing>414186</Northing>
+            <Longitude>-0.663173584</Longitude>
+            <Latitude>53.616744308</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -51160,7 +51160,7 @@
       </StopClassification>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-08-19T16:56:12" ModificationDateTime="2011-05-10T14:40:21" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2009-08-19T16:56:12" ModificationDateTime="2024-07-16T11:17:28" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>227000011090</AtcoCode>
       <NaptanCode>scugpjp</NaptanCode>
       <Descriptor>
@@ -51176,10 +51176,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488330</Easting>
+            <Easting>488325</Easting>
             <Northing>409425</Northing>
-            <Longitude>-0.667527720</Longitude>
-            <Latitude>53.574000884</Latitude>
+            <Longitude>-0.667603191</Longitude>
+            <Latitude>53.573997176</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -62682,6 +62682,114 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>037</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-04T10:36:54" ModificationDateTime="2024-11-04T10:43:54" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>227000011307</AtcoCode>
+      <NaptanCode>scuatmd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Normanby Hall</CommonName>
+        <Landmark>Normanby Hall</Landmark>
+        <Street>Normanby Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0060116</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>488701</Easting>
+            <Northing>416876</Northing>
+            <Longitude>-0.659808584</Longitude>
+            <Latitude>53.640886923</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>037</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-04T10:40:44" ModificationDateTime="2024-11-04T10:43:14" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>227000011308</AtcoCode>
+      <NaptanCode>scuawmd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Akeferry Road</CommonName>
+        <Landmark>110</Landmark>
+        <Street>Akeferry Road</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0039881</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>477122</Easting>
+            <Northing>398738</Northing>
+            <Longitude>-0.839376104</Longitude>
+            <Latitude>53.479722355</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>037</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-04T10:42:37" ModificationDateTime="2024-11-04T10:42:52" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>227000011309</AtcoCode>
+      <NaptanCode>scudamd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Akeferry Road</CommonName>
+        <Landmark>123</Landmark>
+        <Street>Akeferry Road</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0039881</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>477144</Easting>
+            <Northing>398727</Northing>
+            <Longitude>-0.839047376</Longitude>
+            <Latitude>53.479620284</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>

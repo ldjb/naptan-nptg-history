@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T19:34:45.4987834Z" ModificationDateTime="2024-10-30T19:34:45.4987834Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-04T16:58:23.1796186Z" ModificationDateTime="2024-11-04T16:58:23.1796186Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2020-09-11T11:06:06" ModificationDateTime="2024-05-02T09:43:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>55205520WDB4</AtcoCode>
@@ -17069,7 +17069,7 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-04T16:57:14" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA13594</AtcoCode>
       <NaptanCode>rhojmdg</NaptanCode>
       <Descriptor>
@@ -17081,7 +17081,7 @@
         <Indicator>o/s former</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:43:54" ModificationDateTime="2024-05-02T09:43:54" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:43:54" ModificationDateTime="2024-11-04T16:57:14" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Garej Tappers</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:43:54" ModificationDateTime="2024-05-02T09:43:54" Modification="new">
@@ -17094,10 +17094,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>294227</Easting>
-            <Northing>198152</Northing>
-            <Longitude>-3.530991835</Longitude>
-            <Latitude>51.672150630</Latitude>
+            <Easting>294258</Easting>
+            <Northing>198104</Northing>
+            <Longitude>-3.530529056</Longitude>
+            <Latitude>51.671720358</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -17117,8 +17117,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-04T16:57:14" ModificationDateTime="2024-11-04T16:57:14" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-04</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-04T16:56:00" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5520AWA13595</AtcoCode>
       <NaptanCode>rhojmdj</NaptanCode>
       <Descriptor>
@@ -17130,7 +17138,7 @@
         <Indicator>opp former</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:43:54" ModificationDateTime="2024-05-02T09:43:54" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:43:54" ModificationDateTime="2024-11-04T16:56:01" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Garej Tappers</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:43:54" ModificationDateTime="2024-05-02T09:43:54" Modification="new">
@@ -17143,10 +17151,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>294222</Easting>
-            <Northing>198177</Northing>
-            <Longitude>-3.531071691</Longitude>
-            <Latitude>51.672374387</Latitude>
+            <Easting>294270</Easting>
+            <Northing>198105</Northing>
+            <Longitude>-3.530355894</Longitude>
+            <Latitude>51.671731607</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -17166,6 +17174,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-04T16:54:47" ModificationDateTime="2024-11-04T16:54:47" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-04</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520AWA13596</AtcoCode>
