@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-04T16:48:03.0162169Z" ModificationDateTime="2024-11-04T16:48:03.0162169Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-05T16:18:21.6329555Z" ModificationDateTime="2024-11-05T16:18:21.6329555Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -9073,22 +9073,20 @@
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:27" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-05T16:13:49" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5210AWC51176</AtcoCode>
       <NaptanCode>pemawdj</NaptanCode>
       <Descriptor>
-        <CommonName>Narberth Primary School</CommonName>
-        <Landmark>Narberth Primary School</Landmark>
-        <Street>Moorfield Road</Street>
-        <Crossing>Northfield Road</Crossing>
-        <Indicator>o/s former</Indicator>
+        <CommonName>Moorfield Road (W)</CommonName>
+        <ShortCommonName>Moorfield Road</ShortCommonName>
+        <Landmark>Outside Hwb</Landmark>
+        <Street>Moorfield Road (B4314)</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:54:48" ModificationDateTime="2024-05-02T09:39:27" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Ysgol Gynradd Arberth</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:54:48" ModificationDateTime="2024-05-02T09:39:27" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Ysgol Gynradd Arberth</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:54:48" ModificationDateTime="2024-11-05T16:12:42" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Moorfield Road (G)</CommonName>
+          <ShortCommonName>Moorfield Road</ShortCommonName>
+          <Landmark>Tu allan I Hwb</Landmark>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -9097,10 +9095,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>210847</Easting>
-            <Northing>214810</Northing>
-            <Longitude>-4.744654826</Longitude>
-            <Latitude>51.799860931</Latitude>
+            <Easting>210842</Easting>
+            <Northing>214818</Northing>
+            <Longitude>-4.744731460</Longitude>
+            <Latitude>51.799926385</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9120,6 +9118,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-05T16:12:42" ModificationDateTime="2024-11-05T16:12:42" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-05</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:49" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5210AWC51177</AtcoCode>
@@ -15744,115 +15750,28 @@
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:16" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-05T16:18:07" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5210AWC51515</AtcoCode>
       <NaptanCode>pemajma</NaptanCode>
       <Descriptor>
-        <CommonName>Somerfield</CommonName>
-        <ShortCommonName>Pembroke Castle</ShortCommonName>
-        <Landmark>Pembroke Somerfield</Landmark>
-        <Street>Main Street</Street>
-        <Crossing>Northgate Street</Crossing>
-        <Indicator>o/s former</Indicator>
+        <CommonName>Town Hall</CommonName>
+        <ShortCommonName>Town Hall</ShortCommonName>
+        <Landmark>Town Hall</Landmark>
+        <Street>Main Street (A4139)</Street>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:54:37" ModificationDateTime="2024-05-02T09:39:16" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Somerfield</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:54:37" ModificationDateTime="2024-05-02T09:39:16" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Somerfield</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:54:37" ModificationDateTime="2024-11-05T16:17:19" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Neuadd y Dref</CommonName>
+          <ShortCommonName xml:lang="CY">Neuadd y Dref</ShortCommonName>
+          <Landmark xml:lang="CY">Neuadd y Dref</Landmark>
+          <Indicator xml:lang="CY">gyf</Indicator>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0055088</NptgLocalityRef>
+        <NptgLocalityRef>E0040348</NptgLocalityRef>
         <MainNptgLocalities>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040168</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040179</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040183</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040184</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040186</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040197</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040198</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040215</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040220</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040221</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040243</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040252</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040255</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040258</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040260</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040274</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040283</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040289</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040292</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040296</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040299</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040304</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040306</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040307</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040320</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040328</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040334</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040335</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040342</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040346</NptgLocalityRef>
           <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040348</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040351</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040363</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040381</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040391</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040392</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040395</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040413</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040414</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040427</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040435</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040437</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040443</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040453</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040454</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040472</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040491</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040496</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040503</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040504</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040512</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0040520</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054472</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054475</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054478</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054479</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054482</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054487</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054494</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054495</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054499</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054508</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054520</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054524</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054536</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0054539</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0055088</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0055090</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">E0055092</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0061284</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0061285</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0061288</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0071349</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0071354</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0071358</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075893</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075898</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075905</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075914</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075915</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075923</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075924</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075931</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075944</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075954</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0075956</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:01:07" ModificationDateTime="2014-01-14T06:01:07" RevisionNumber="0">N0080168</NptgLocalityRef>
         </MainNptgLocalities>
         <LocalityCentre>true</LocalityCentre>
         <Location>
@@ -15860,8 +15779,8 @@
             <GridType>UKOS</GridType>
             <Easting>198378</Easting>
             <Northing>201512</Northing>
-            <Longitude>-4.917537442</Longitude>
-            <Latitude>51.676095204</Latitude>
+            <Longitude>-4.917537279</Longitude>
+            <Latitude>51.676090487</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -15874,23 +15793,20 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
-                <Degrees>135</Degrees>
               </Bearing>
             </MarkedPoint>
-            <AnnotatedCoachRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2019-05-21T18:45:24" Modification="revise" RevisionNumber="1">
-              <CoachRef>900014655A</CoachRef>
-              <Name>Somerfield</Name>
-              <LongName>Somerfield</LongName>
-              <Location>
-                <GridType>UKOS</GridType>
-                <Easting>198378</Easting>
-                <Northing>201512</Northing>
-              </Location>
-            </AnnotatedCoachRef>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-05T16:17:20" ModificationDateTime="2024-11-05T16:17:20" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-05</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:32" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210AWC51516</AtcoCode>

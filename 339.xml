@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-09-05T14:31:19.085" ModificationDateTime="2024-09-05T14:31:19.085" Modification="new" RevisionNumber="0" FileName="NaPTAN339.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-05T14:02:43.061" ModificationDateTime="2024-11-05T14:02:43.061" Modification="new" RevisionNumber="0" FileName="NaPTAN339.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-10-11T00:00:00.000" ModificationDateTime="2012-01-06T15:06:00.000" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>3390A1</AtcoCode>
@@ -47638,7 +47638,7 @@
 <PlusbusZoneRef CreationDateTime="2006-09-14T00:00:00.000" ModificationDateTime="2008-05-19T16:15:00.000" Modification="revise" RevisionNumber="1" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-14T00:00:00.000" ModificationDateTime="2009-01-02T10:21:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-09-14T00:00:00.000" ModificationDateTime="2024-11-05T13:47:40.518" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>3390ME53</AtcoCode>
 <NaptanCode>ntmajwdg</NaptanCode>
 <PlateCode>ME53</PlateCode>
@@ -47677,16 +47677,12 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">339GME49</StopAreaRef>
-<StopAreaRef Modification="new" Status="active">339GME53</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>039</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2006-09-14T00:00:00.000" ModificationDateTime="2009-01-02T10:21:00.000" Modification="revise" RevisionNumber="3" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-14T00:00:00.000" ModificationDateTime="2009-01-02T10:21:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-09-14T00:00:00.000" ModificationDateTime="2024-11-05T13:47:54.995" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>3390ME54</AtcoCode>
 <NaptanCode>ntmajwdj</NaptanCode>
 <PlateCode>ME54</PlateCode>
@@ -88262,6 +88258,48 @@
 <PlusbusZoneRef Modification="new" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
+<StopPoint CreationDateTime="2024-11-05T13:53:57.981" ModificationDateTime="2024-11-05T13:53:57.981" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3390ME55</AtcoCode>
+<NaptanCode>ntmwtgwm</NaptanCode>
+<PlateCode>ME55</PlateCode>
+<Descriptor>
+<CommonName>Ainsworth Drive</CommonName>
+<Landmark>Ainsworth Drive</Landmark>
+<Street>Queens Drive</Street>
+<Indicator>Stop ME55</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073070</NptgLocalityRef>
+<Town>Nottingham</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>456541</Easting>
+<Northing>338331</Northing>
+<Longitude>-1.1601332</Longitude>
+<Latitude>52.9394299</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>039</AdministrativeAreaRef>
+<PlusbusZones>
+<PlusbusZoneRef Modification="new" Status="active">NTNG</PlusbusZoneRef>
+</PlusbusZones>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2006-10-11T00:00:00.000" ModificationDateTime="2012-02-01T10:42:00.000" Modification="revise" RevisionNumber="5" Status="active">
@@ -95810,7 +95848,7 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2009-01-02T10:21:00.000" ModificationDateTime="2011-06-30T15:24:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopArea CreationDateTime="2009-01-02T10:21:00.000" ModificationDateTime="2011-06-30T15:24:00.000" Modification="revise" RevisionNumber="1" Status="inactive">
 <StopAreaCode>339GME53</StopAreaCode>
 <Name>Ainsworth Drive</Name>
 <AdministrativeAreaRef>039</AdministrativeAreaRef>
