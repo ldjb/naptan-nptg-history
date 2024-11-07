@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-23T16:13:27.4323243Z" ModificationDateTime="2024-10-23T16:13:27.4323243Z" Modification="new" RevisionNumber="1" FileName="514.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-06T13:44:54.8076446Z" ModificationDateTime="2024-11-06T13:44:54.8076446Z" Modification="new" RevisionNumber="1" FileName="514.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:46" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5140ACX17028</AtcoCode>
@@ -15443,7 +15443,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:50" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T11:20:04" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5140AWD72466</AtcoCode>
       <NaptanCode>wregaga</NaptanCode>
       <Descriptor>
@@ -15458,10 +15458,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>332875</Easting>
+            <Easting>332890</Easting>
             <Northing>349582</Northing>
-            <Longitude>-3.002561808</Longitude>
-            <Latitude>53.039281627</Latitude>
+            <Longitude>-3.002338036</Longitude>
+            <Latitude>53.039278923</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -15473,7 +15473,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>SW</CompassPoint>
                 <Degrees>45</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -15484,6 +15484,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-01-26T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-06T11:15:55" ModificationDateTime="2024-11-06T11:15:55" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-06</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:22" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5140AWD72467</AtcoCode>
@@ -27549,7 +27557,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:17" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:12:29" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB22521</AtcoCode>
       <NaptanCode>wrejmtj</NaptanCode>
       <Descriptor>
@@ -27559,7 +27567,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T10:29:17" ModificationDateTime="2024-05-02T10:29:17" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:17" ModificationDateTime="2024-11-06T13:12:29" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Iard Hen Gerbydau</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T10:29:17" ModificationDateTime="2024-05-02T10:29:17" Modification="new">
@@ -27572,10 +27580,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>336103</Easting>
-            <Northing>356447</Northing>
-            <Longitude>-2.955792073</Longitude>
-            <Latitude>53.101378968</Latitude>
+            <Easting>336082</Easting>
+            <Northing>356433</Northing>
+            <Longitude>-2.956102786</Longitude>
+            <Latitude>53.101246035</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -27598,6 +27606,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-06T12:40:14" ModificationDateTime="2024-11-06T12:40:14" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-06</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:23" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5140WDB22522</AtcoCode>
@@ -36459,7 +36475,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:20" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T10:39:03" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5140WDB22741</AtcoCode>
       <NaptanCode>wremapd</NaptanCode>
       <Descriptor>
@@ -36469,7 +36485,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T10:29:20" ModificationDateTime="2024-05-02T10:29:20" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:20" ModificationDateTime="2024-11-06T10:39:03" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Lon wern</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T10:29:20" ModificationDateTime="2024-05-02T10:29:20" Modification="new">
@@ -36483,9 +36499,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>329174</Easting>
-            <Northing>346148</Northing>
-            <Longitude>-3.056994088</Longitude>
-            <Latitude>53.007940175</Latitude>
+            <Northing>346117</Northing>
+            <Longitude>-3.056987180</Longitude>
+            <Latitude>53.007656966</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -36508,6 +36524,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-06T10:39:03" ModificationDateTime="2024-11-06T10:39:03" Modification="new">
+          <DateRange>
+            <StartDate>2024-11-06</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:16" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5140WDB22742</AtcoCode>
@@ -43252,7 +43276,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:43:46" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB25298</AtcoCode>
       <NaptanCode>wrejgtp</NaptanCode>
       <Descriptor>
@@ -43275,10 +43299,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333312</Easting>
-            <Northing>350550</Northing>
-            <Longitude>-2.996245946</Longitude>
-            <Latitude>53.048031924</Latitude>
+            <Easting>333313</Easting>
+            <Northing>350554</Northing>
+            <Longitude>-2.996231861</Longitude>
+            <Latitude>53.048068000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43303,7 +43327,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:31:58" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB25299</AtcoCode>
       <NaptanCode>wrejgtw</NaptanCode>
       <Descriptor>
@@ -43313,7 +43337,7 @@
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:31:58" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 4</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
@@ -43326,10 +43350,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333318</Easting>
-            <Northing>350559</Northing>
-            <Longitude>-2.996158421</Longitude>
-            <Latitude>53.048118153</Latitude>
+            <Easting>333327</Easting>
+            <Northing>350568</Northing>
+            <Longitude>-2.996025957</Longitude>
+            <Latitude>53.048195577</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43354,7 +43378,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:28:24" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB25300</AtcoCode>
       <NaptanCode>wrejgwa</NaptanCode>
       <Descriptor>
@@ -43367,7 +43391,7 @@
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 6</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:28:24" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 6</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -43377,10 +43401,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333324</Easting>
-            <Northing>350568</Northing>
-            <Longitude>-2.996070798</Longitude>
-            <Latitude>53.048199792</Latitude>
+            <Easting>333340</Easting>
+            <Northing>350581</Northing>
+            <Longitude>-2.995834759</Longitude>
+            <Latitude>53.048314041</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43405,7 +43429,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:26:18" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB25301</AtcoCode>
       <NaptanCode>wrejgwd</NaptanCode>
       <Descriptor>
@@ -43419,7 +43443,7 @@
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 8</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:26:18" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 8</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -43429,10 +43453,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333332</Easting>
-            <Northing>350574</Northing>
-            <Longitude>-2.995952724</Longitude>
-            <Latitude>53.048254717</Latitude>
+            <Easting>333351</Easting>
+            <Northing>350595</Northing>
+            <Longitude>-2.995673597</Longitude>
+            <Latitude>53.048441243</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43457,7 +43481,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:22:52" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB25302</AtcoCode>
       <NaptanCode>wrejgwg</NaptanCode>
       <Descriptor>
@@ -43467,7 +43491,7 @@
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:22:52" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 1</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
@@ -43480,10 +43504,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333325</Easting>
-            <Northing>350534</Northing>
-            <Longitude>-2.996048836</Longitude>
-            <Latitude>53.047894334</Latitude>
+            <Easting>333328</Easting>
+            <Northing>350546</Northing>
+            <Longitude>-2.996006482</Longitude>
+            <Latitude>53.047997972</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43508,7 +43532,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:20:48" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5140WDB25303</AtcoCode>
       <NaptanCode>wrejgwj</NaptanCode>
       <Descriptor>
@@ -43518,7 +43542,7 @@
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:20:48" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 3</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
@@ -43531,10 +43555,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333329</Easting>
-            <Northing>350543</Northing>
-            <Longitude>-2.995990946</Longitude>
-            <Latitude>53.047971134</Latitude>
+            <Easting>333340</Easting>
+            <Northing>350560</Northing>
+            <Longitude>-2.995830407</Longitude>
+            <Latitude>53.048125299</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43559,17 +43583,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:18:51" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>5140WDB25304</AtcoCode>
       <NaptanCode>wrejgwm</NaptanCode>
       <Descriptor>
-        <CommonName>Wrexham Bus Station Stand 5</CommonName>
+        <CommonName>Wrexham Bus Station 5</CommonName>
         <Street>Trinity Street</Street>
         <Crossing>Lord Street</Crossing>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:18:51" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 5</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
@@ -43582,10 +43606,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333336</Easting>
-            <Northing>350551</Northing>
-            <Longitude>-2.995888298</Longitude>
-            <Latitude>53.048048499</Latitude>
+            <Easting>333352</Easting>
+            <Northing>350573</Northing>
+            <Longitude>-2.995654124</Longitude>
+            <Latitude>53.048243638</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43610,7 +43634,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:29:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-11-06T13:18:00" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5140WDB25305</AtcoCode>
       <NaptanCode>wrejgwp</NaptanCode>
       <Descriptor>
@@ -43623,7 +43647,7 @@
         <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 7</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-05-02T10:29:08" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T10:29:08" ModificationDateTime="2024-11-06T13:18:00" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Wrecsam 7</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -43633,10 +43657,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333341</Easting>
-            <Northing>350558</Northing>
-            <Longitude>-2.995815175</Longitude>
-            <Latitude>53.048112038</Latitude>
+            <Easting>333364</Easting>
+            <Northing>350586</Northing>
+            <Longitude>-2.995477840</Longitude>
+            <Latitude>53.048361976</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -49590,7 +49614,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-01-30T16:40:37" ModificationDateTime="2024-05-02T10:29:58" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2024-01-30T16:40:37" ModificationDateTime="2024-10-25T14:02:47" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5140WDB48082</AtcoCode>
       <NaptanCode>wremwag</NaptanCode>
       <Descriptor>
@@ -49602,10 +49626,10 @@
         <NptgLocalityRef>E0054799</NptgLocalityRef>
         <Location>
           <Translation>
-            <Easting>333407</Easting>
-            <Northing>355460</Northing>
-            <Longitude>-2.995846870</Longitude>
-            <Latitude>53.092173390</Latitude>
+            <Easting>333414</Easting>
+            <Northing>355454</Northing>
+            <Longitude>-2.995741116</Longitude>
+            <Latitude>53.092120339</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -49617,7 +49641,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>SW</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -49625,11 +49649,11 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-02-13T11:05:25" ModificationDateTime="2024-02-13T11:05:25" Modification="new">
+        <StopValidity CreationDateTime="2024-10-25T14:01:11" ModificationDateTime="2024-10-25T14:01:11" Modification="new">
           <DateRange>
-            <StartDate>2024-02-13</StartDate>
+            <StartDate>2024-10-25</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
