@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-06T14:40:05.5146559Z" ModificationDateTime="2024-11-06T14:40:05.5177433Z" Modification="new" FileName="NaPTAN068.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-13T14:17:11.0616238Z" ModificationDateTime="2024-11-13T14:17:11.0772477Z" Modification="new" FileName="NaPTAN068.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="2020-11-10T15:21:25" Modification="new" RevisionNumber="10" Status="active">
 			<AtcoCode>068000000140</AtcoCode>
@@ -41,7 +41,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-06T14:40:08.7186171Z" ModificationDateTime="2024-11-06T14:40:08.7186171Z">068G000001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-13T14:17:14.171008Z" ModificationDateTime="2024-11-13T14:17:14.171008Z">068G000001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
@@ -84,7 +84,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-06T14:40:08.7466166Z" ModificationDateTime="2024-11-06T14:40:08.7466166Z">068G000002</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-13T14:17:14.2178872Z" ModificationDateTime="2024-11-13T14:17:14.2178872Z">068G000002</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
@@ -127,74 +127,82 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-06T14:40:08.7696168Z" ModificationDateTime="2024-11-06T14:40:08.7696168Z">068G000003</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-13T14:17:14.2335136Z" ModificationDateTime="2024-11-13T14:17:14.2335136Z">068G000003</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
-			<AtcoCode>0680TX000009</AtcoCode>
+		<StopPoint CreationDateTime="2024-11-07T00:00:00" ModificationDateTime="2024-11-07T10:59:35" Modification="new" RevisionNumber="41" Status="active">
+			<AtcoCode>068000000188</AtcoCode>
 			<Descriptor>
-				<CommonName xml:lang="en">MARKET STREET</CommonName>
-				<ShortCommonName xml:lang="en">MARKET STREET</ShortCommonName>
-				<Landmark xml:lang="en">MARKET STREET</Landmark>
-				<Street xml:lang="en">Market Street</Street>
+				<CommonName xml:lang="en">Queensbury Way</CommonName>
 			</Descriptor>
 			<Place>
-				<NptgLocalityRef>E0037860</NptgLocalityRef>
-				<Suburb xml:lang="en">Widnes</Suburb>
-				<Town xml:lang="en">Widnes</Town>
+				<NptgLocalityRef>E0037851</NptgLocalityRef>
 				<LocalityCentre>false</LocalityCentre>
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>351356</Easting>
-						<Northing>385257</Northing>
-						<Longitude>-2.73241</Longitude>
-						<Latitude>53.36194</Latitude>
+						<Easting>350240</Easting>
+						<Northing>388095</Northing>
+						<Longitude>-2.74963</Longitude>
+						<Latitude>53.38734</Latitude>
 					</Translation>
 				</Location>
 			</Place>
 			<StopClassification>
-				<StopType>TXR</StopType>
+				<StopType>BCT</StopType>
 				<OnStreet>
-					<Taxi>
-						<TaxiRank />
-					</Taxi>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
 				</OnStreet>
 			</StopClassification>
+			<StopAreas>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-13T14:17:14.2491395Z" ModificationDateTime="2024-11-13T14:17:14.2491395Z">068G000004</StopAreaRef>
+			</StopAreas>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
-			<AtcoCode>0680TX000018</AtcoCode>
+		<StopPoint CreationDateTime="2024-11-07T00:00:00" ModificationDateTime="2024-11-07T10:59:49" Modification="new" RevisionNumber="39" Status="active">
+			<AtcoCode>068000000189</AtcoCode>
 			<Descriptor>
-				<CommonName xml:lang="en">MARKET STREET</CommonName>
-				<ShortCommonName xml:lang="en">MARKET STREET</ShortCommonName>
-				<Landmark xml:lang="en">MARKET STREET</Landmark>
-				<Street xml:lang="en">Market Street</Street>
+				<CommonName xml:lang="en">Queensbury Way</CommonName>
 			</Descriptor>
 			<Place>
-				<NptgLocalityRef>E0037860</NptgLocalityRef>
-				<Suburb xml:lang="en">Widnes</Suburb>
-				<Town xml:lang="en">Widnes</Town>
+				<NptgLocalityRef>E0037851</NptgLocalityRef>
 				<LocalityCentre>false</LocalityCentre>
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>351356</Easting>
-						<Northing>385257</Northing>
-						<Longitude>-2.73241</Longitude>
-						<Latitude>53.36194</Latitude>
+						<Easting>350241</Easting>
+						<Northing>388177</Northing>
+						<Longitude>-2.74962</Longitude>
+						<Latitude>53.38808</Latitude>
 					</Translation>
 				</Location>
 			</Place>
 			<StopClassification>
-				<StopType>TXR</StopType>
+				<StopType>BCT</StopType>
 				<OnStreet>
-					<Taxi>
-						<TaxiRank />
-					</Taxi>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>S</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
 				</OnStreet>
 			</StopClassification>
+			<StopAreas>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-13T14:17:14.2491395Z" ModificationDateTime="2024-11-13T14:17:14.2491395Z">068G000004</StopAreaRef>
+			</StopAreas>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
 		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
@@ -1279,7 +1287,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:09.1373654Z" ModificationDateTime="2024-01-11T12:29:34" Modification="new" RevisionNumber="0" Status="active">
+		<StopPoint CreationDateTime="2024-11-13T14:17:14.6241407Z" ModificationDateTime="2024-01-11T12:29:34" Modification="new" RevisionNumber="0" Status="active">
 			<AtcoCode>06800000565A</AtcoCode>
 			<NaptanCode>halagtda</NaptanCode>
 			<Descriptor>
@@ -23990,41 +23998,67 @@
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
 		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
-			<AtcoCode>068000000592</AtcoCode>
-			<NaptanCode>halagaja</NaptanCode>
+			<AtcoCode>0680TX000006</AtcoCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Campbell Avenue</CommonName>
-				<ShortCommonName xml:lang="en">Campbell Ave</ShortCommonName>
-				<Landmark xml:lang="en">Campbell Ave</Landmark>
-				<Street xml:lang="en">Moughland Lane</Street>
+				<CommonName xml:lang="en">HALE ROAD</CommonName>
+				<ShortCommonName xml:lang="en">HALE ROAD</ShortCommonName>
+				<Landmark xml:lang="en">HALE ROAD</Landmark>
+				<Street xml:lang="en">Hale Road</Street>
 			</Descriptor>
 			<Place>
-				<NptgLocalityRef>E0037841</NptgLocalityRef>
-				<Suburb xml:lang="en">Runcorn</Suburb>
-				<Town xml:lang="en">Runcorn</Town>
+				<NptgLocalityRef>E0037819</NptgLocalityRef>
+				<Suburb xml:lang="en">Ditton</Suburb>
+				<Town xml:lang="en">Widnes</Town>
 				<LocalityCentre>false</LocalityCentre>
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>351260</Easting>
-						<Northing>381746</Northing>
-						<Longitude>-2.73331</Longitude>
-						<Latitude>53.33037</Latitude>
+						<Easting>349492</Easting>
+						<Northing>385712</Northing>
+						<Longitude>-2.76049</Longitude>
+						<Latitude>53.36585</Latitude>
 					</Translation>
 				</Location>
 			</Place>
 			<StopClassification>
-				<StopType>BCT</StopType>
+				<StopType>TXR</StopType>
 				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>SE</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
+					<Taxi>
+						<TaxiRank />
+					</Taxi>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>021</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
+			<AtcoCode>0680TX000015</AtcoCode>
+			<Descriptor>
+				<CommonName xml:lang="en">HALE ROAD</CommonName>
+				<ShortCommonName xml:lang="en">HALE ROAD</ShortCommonName>
+				<Landmark xml:lang="en">HALE ROAD</Landmark>
+				<Street xml:lang="en">Hale Road</Street>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0037819</NptgLocalityRef>
+				<Suburb xml:lang="en">Ditton</Suburb>
+				<Town xml:lang="en">Widnes</Town>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>349492</Easting>
+						<Northing>385712</Northing>
+						<Longitude>-2.76049</Longitude>
+						<Latitude>53.36585</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>TXR</StopType>
+				<OnStreet>
+					<Taxi>
+						<TaxiRank />
+					</Taxi>
 				</OnStreet>
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
@@ -26688,7 +26722,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:14.5244319Z" ModificationDateTime="2019-09-03T13:20:57" Modification="new" RevisionNumber="12" Status="active">
+		<StopPoint CreationDateTime="2024-11-13T14:17:19.9054144Z" ModificationDateTime="2019-09-03T13:20:57" Modification="new" RevisionNumber="12" Status="active">
 			<AtcoCode>068000002</AtcoCode>
 			<Descriptor>
 				<CommonName xml:lang="en">Cheshire And Merseyside Treatment Centre</CommonName>
@@ -26737,7 +26771,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:14.5622086Z" ModificationDateTime="2019-09-02T16:05:35" Modification="new" RevisionNumber="9" Status="active">
+		<StopPoint CreationDateTime="2024-11-13T14:17:19.9366644Z" ModificationDateTime="2019-09-02T16:05:35" Modification="new" RevisionNumber="9" Status="active">
 			<AtcoCode>068000001</AtcoCode>
 			<Descriptor>
 				<CommonName xml:lang="en">Halton Hospital (Main Entrance)</CommonName>
@@ -26786,7 +26820,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:14.5723041Z" ModificationDateTime="2024-01-11T12:29:34" Modification="new" RevisionNumber="0" Status="active">
+		<StopPoint CreationDateTime="2024-11-13T14:17:19.9366644Z" ModificationDateTime="2024-01-11T12:29:34" Modification="new" RevisionNumber="0" Status="active">
 			<AtcoCode>068000000691</AtcoCode>
 			<NaptanCode>halagpwp</NaptanCode>
 			<Descriptor>
@@ -26823,7 +26857,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:14.5905404Z" ModificationDateTime="2024-03-01T11:33:12" Modification="new" RevisionNumber="0" Status="active">
+		<StopPoint CreationDateTime="2024-11-13T14:17:19.9522891Z" ModificationDateTime="2024-03-01T11:33:12" Modification="new" RevisionNumber="0" Status="active">
 			<AtcoCode>068000000692</AtcoCode>
 			<NaptanCode>halagtad</NaptanCode>
 			<Descriptor>
@@ -26860,7 +26894,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:14.5955412Z" ModificationDateTime="2019-09-27T10:34:22" Modification="delete" RevisionNumber="8" Status="inactive">
+		<StopPoint CreationDateTime="2024-11-13T14:17:19.9679138Z" ModificationDateTime="2019-09-27T10:34:22" Modification="delete" RevisionNumber="8" Status="inactive">
 			<AtcoCode>06800000901</AtcoCode>
 			<Descriptor>
 				<CommonName xml:lang="en">Woodland Avenue</CommonName>
@@ -26911,7 +26945,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2024-11-06T14:40:14.6036388Z" ModificationDateTime="2024-01-11T12:29:34" Modification="new" RevisionNumber="0" Status="active">
+		<StopPoint CreationDateTime="2024-11-13T14:17:19.9835418Z" ModificationDateTime="2024-01-11T12:29:34" Modification="new" RevisionNumber="0" Status="active">
 			<AtcoCode>068000000898</AtcoCode>
 			<NaptanCode>halagtdg</NaptanCode>
 			<Descriptor>
@@ -27264,72 +27298,6 @@
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
 		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
-			<AtcoCode>0680TX000006</AtcoCode>
-			<Descriptor>
-				<CommonName xml:lang="en">HALE ROAD</CommonName>
-				<ShortCommonName xml:lang="en">HALE ROAD</ShortCommonName>
-				<Landmark xml:lang="en">HALE ROAD</Landmark>
-				<Street xml:lang="en">Hale Road</Street>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>E0037819</NptgLocalityRef>
-				<Suburb xml:lang="en">Ditton</Suburb>
-				<Town xml:lang="en">Widnes</Town>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>349492</Easting>
-						<Northing>385712</Northing>
-						<Longitude>-2.76049</Longitude>
-						<Latitude>53.36585</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>TXR</StopType>
-				<OnStreet>
-					<Taxi>
-						<TaxiRank />
-					</Taxi>
-				</OnStreet>
-			</StopClassification>
-			<AdministrativeAreaRef>021</AdministrativeAreaRef>
-		</StopPoint>
-		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
-			<AtcoCode>0680TX000015</AtcoCode>
-			<Descriptor>
-				<CommonName xml:lang="en">HALE ROAD</CommonName>
-				<ShortCommonName xml:lang="en">HALE ROAD</ShortCommonName>
-				<Landmark xml:lang="en">HALE ROAD</Landmark>
-				<Street xml:lang="en">Hale Road</Street>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>E0037819</NptgLocalityRef>
-				<Suburb xml:lang="en">Ditton</Suburb>
-				<Town xml:lang="en">Widnes</Town>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>349492</Easting>
-						<Northing>385712</Northing>
-						<Longitude>-2.76049</Longitude>
-						<Latitude>53.36585</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>TXR</StopType>
-				<OnStreet>
-					<Taxi>
-						<TaxiRank />
-					</Taxi>
-				</OnStreet>
-			</StopClassification>
-			<AdministrativeAreaRef>021</AdministrativeAreaRef>
-		</StopPoint>
-		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
 			<AtcoCode>068000000733</AtcoCode>
 			<NaptanCode>halpmawt</NaptanCode>
 			<Descriptor>
@@ -27404,6 +27372,46 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>SW</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>021</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
+			<AtcoCode>068000000592</AtcoCode>
+			<NaptanCode>halagaja</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Campbell Avenue</CommonName>
+				<ShortCommonName xml:lang="en">Campbell Ave</ShortCommonName>
+				<Landmark xml:lang="en">Campbell Ave</Landmark>
+				<Street xml:lang="en">Moughland Lane</Street>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0037841</NptgLocalityRef>
+				<Suburb xml:lang="en">Runcorn</Suburb>
+				<Town xml:lang="en">Runcorn</Town>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>351260</Easting>
+						<Northing>381746</Northing>
+						<Longitude>-2.73331</Longitude>
+						<Latitude>53.33037</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>SE</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
@@ -27543,6 +27551,72 @@
 			</StopClassification>
 			<AdministrativeAreaRef>021</AdministrativeAreaRef>
 		</StopPoint>
+		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
+			<AtcoCode>0680TX000009</AtcoCode>
+			<Descriptor>
+				<CommonName xml:lang="en">MARKET STREET</CommonName>
+				<ShortCommonName xml:lang="en">MARKET STREET</ShortCommonName>
+				<Landmark xml:lang="en">MARKET STREET</Landmark>
+				<Street xml:lang="en">Market Street</Street>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0037860</NptgLocalityRef>
+				<Suburb xml:lang="en">Widnes</Suburb>
+				<Town xml:lang="en">Widnes</Town>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>351356</Easting>
+						<Northing>385257</Northing>
+						<Longitude>-2.73241</Longitude>
+						<Latitude>53.36194</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>TXR</StopType>
+				<OnStreet>
+					<Taxi>
+						<TaxiRank />
+					</Taxi>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>021</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="1969-12-31T23:00:00" Modification="new" RevisionNumber="0" Status="active">
+			<AtcoCode>0680TX000018</AtcoCode>
+			<Descriptor>
+				<CommonName xml:lang="en">MARKET STREET</CommonName>
+				<ShortCommonName xml:lang="en">MARKET STREET</ShortCommonName>
+				<Landmark xml:lang="en">MARKET STREET</Landmark>
+				<Street xml:lang="en">Market Street</Street>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0037860</NptgLocalityRef>
+				<Suburb xml:lang="en">Widnes</Suburb>
+				<Town xml:lang="en">Widnes</Town>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>351356</Easting>
+						<Northing>385257</Northing>
+						<Longitude>-2.73241</Longitude>
+						<Latitude>53.36194</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>TXR</StopType>
+				<OnStreet>
+					<Taxi>
+						<TaxiRank />
+					</Taxi>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>021</AdministrativeAreaRef>
+		</StopPoint>
 	</StopPoints>
 	<StopAreas>
 		<StopArea CreationDateTime="1969-12-31T00:00:00" ModificationDateTime="2020-11-10T15:34:31" Modification="new" RevisionNumber="32" Status="active">
@@ -27587,6 +27661,21 @@
 					<Northing>381323</Northing>
 					<Longitude>-2.69882</Longitude>
 					<Latitude>53.32677</Latitude>
+				</Translation>
+			</Location>
+		</StopArea>
+		<StopArea CreationDateTime="2024-11-07T00:00:00" ModificationDateTime="2024-11-07T10:59:54" Modification="new" RevisionNumber="99" Status="active">
+			<StopAreaCode>068G000004</StopAreaCode>
+			<Name xml:lang="en">Cronton Road</Name>
+			<AdministrativeAreaRef>021</AdministrativeAreaRef>
+			<StopAreaType>GPBS</StopAreaType>
+			<Location>
+				<Translation>
+					<GridType>UKOS</GridType>
+					<Easting>350243</Easting>
+					<Northing>388130</Northing>
+					<Longitude>-2.74959</Longitude>
+					<Latitude>53.38765</Latitude>
 				</Translation>
 			</Location>
 		</StopArea>
