@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-01T13:25:16.565" ModificationDateTime="2024-11-01T13:25:16.565" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-18T14:57:40.774" ModificationDateTime="2024-11-18T14:57:40.774" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -783,17 +783,18 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-02-23T00:00:00.000" ModificationDateTime="2020-04-13T11:49:46.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-02-23T00:00:00.000" ModificationDateTime="2024-11-12T12:00:30.212" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001019</AtcoCode>
 <NaptanCode>72725868</NaptanCode>
 <Descriptor>
 <CommonName>Memorial Clock</CommonName>
 <Landmark>Crosshill</Landmark>
-<Street>MAIN STREET WEST END</Street>
+<Street>Main Street West End</Street>
 <Indicator>At</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000715</NptgLocalityRef>
+<Town>Chrinside</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -2052,6 +2053,7 @@
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001279</NptgLocalityRef>
+<Town>Ednam</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -2915,11 +2917,11 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-23T00:00:00.000" ModificationDateTime="2009-04-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-03-23T00:00:00.000" ModificationDateTime="2024-11-12T12:11:51.727" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001073</AtcoCode>
 <NaptanCode>72726768</NaptanCode>
 <Descriptor>
-<CommonName>Post Office</CommonName>
+<CommonName>Walkerburn Post Office</CommonName>
 <Landmark>Post Office</Landmark>
 <Street>Galashiels Road</Street>
 <Indicator>opp</Indicator>
@@ -3231,25 +3233,26 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-24T00:00:00.000" ModificationDateTime="2011-02-23T16:05:38.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-03-24T00:00:00.000" ModificationDateTime="2024-11-12T12:31:47.356" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001081</AtcoCode>
 <NaptanCode>72726574</NaptanCode>
 <Descriptor>
-<CommonName>Dovecot Park</CommonName>
-<Landmark>Near Victoria Halls</Landmark>
+<CommonName>Victoria Halls</CommonName>
+<Landmark>Outside Victoria Halls</Landmark>
 <Street>Scotts Place</Street>
-<Indicator>Opp</Indicator>
+<Indicator>at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES003285</NptgLocalityRef>
+<Town>Selkirk</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>347241</Easting>
-<Northing>628775</Northing>
-<Longitude>-2.837782</Longitude>
-<Latitude>55.549808</Latitude>
+<Easting>347232</Easting>
+<Northing>628754</Northing>
+<Longitude>-2.837922</Longitude>
+<Latitude>55.549611</Latitude>
 </Translation>
 </Location>
 </Place>
