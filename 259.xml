@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.58.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-07-23T09:35:19.6422003Z" ModificationDateTime="2024-07-23T09:35:19.6422003Z" Modification="new" RevisionNumber="1" FileName="259.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-18T08:37:00.0643715Z" ModificationDateTime="2024-11-18T08:37:00.0643715Z" Modification="new" RevisionNumber="1" FileName="259.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2013-12-18T11:31:00" Modification="delete" RevisionNumber="5" Status="inactive">
       <AtcoCode>2590B0001</AtcoCode>
@@ -25758,7 +25758,7 @@
         <PlusbusZoneRef CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2010-11-17T11:46:00" Modification="revise" RevisionNumber="1" Status="active">BLCKPLN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2024-05-16T09:40:29" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2024-11-18T08:29:11" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>2590B0763</AtcoCode>
       <NaptanCode>blpajadt</NaptanCode>
       <Descriptor>
@@ -25782,10 +25782,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>330822</Easting>
-            <Northing>436451</Northing>
-            <Longitude>-3.052287993</Longitude>
-            <Latitude>53.819708698</Latitude>
+            <Easting>330947</Easting>
+            <Northing>436518</Northing>
+            <Longitude>-3.050404672</Longitude>
+            <Latitude>53.820327430</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35568,13 +35568,13 @@
         <PlusbusZoneRef CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2010-11-17T11:56:00" Modification="revise" RevisionNumber="2" Status="active">BLCKPLN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2023-10-09T11:10:27" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2024-11-18T08:28:23" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>2590B1600</AtcoCode>
       <NaptanCode>blpajpaw</NaptanCode>
       <Descriptor>
-        <CommonName>Talbot Road</CommonName>
+        <CommonName>Talbot Gatweay</CommonName>
         <Landmark>Bus Station</Landmark>
-        <Street>Cookson Street</Street>
+        <Street>Talbot Road</Street>
         <Indicator>TA1</Indicator>
       </Descriptor>
       <Place>
@@ -35585,10 +35585,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>330955</Easting>
-            <Northing>436523</Northing>
-            <Longitude>-3.050284298</Longitude>
-            <Latitude>53.820373426</Latitude>
+            <Easting>330991</Easting>
+            <Northing>436521</Northing>
+            <Longitude>-3.049737105</Longitude>
+            <Latitude>53.820360241</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35608,6 +35608,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>003</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-18T08:11:52" ModificationDateTime="2024-11-18T08:28:23" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2024-11-18</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2023-10-09T08:36:35" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2590B1601</AtcoCode>
@@ -40750,7 +40758,7 @@
         <PlusbusZoneRef CreationDateTime="2012-07-05T12:45:00" ModificationDateTime="2012-07-05T12:45:00" Modification="new" RevisionNumber="0" Status="active">BLCKPLN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2013-07-31T16:23:00" ModificationDateTime="2022-09-12T08:55:04" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2013-07-31T16:23:00" ModificationDateTime="2024-11-18T08:36:02" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2590BTA01313</AtcoCode>
       <NaptanCode>blpampdm</NaptanCode>
       <Descriptor>
@@ -40767,10 +40775,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>330846</Easting>
-            <Northing>436481</Northing>
-            <Longitude>-3.051930258</Longitude>
-            <Latitude>53.819981488</Latitude>
+            <Easting>330961</Easting>
+            <Northing>436547</Northing>
+            <Longitude>-3.050198569</Longitude>
+            <Latitude>53.820589898</Latitude>
           </Translation>
         </Location>
       </Place>

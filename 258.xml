@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.58.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-08-01T09:00:37.9006765Z" ModificationDateTime="2024-08-01T09:00:37.9006765Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-15T15:10:16.0944167Z" ModificationDateTime="2024-11-15T15:10:16.0944167Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-11T09:08:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580AUD0001</AtcoCode>
@@ -1944,13 +1944,14 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-05-30T09:45:34" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2024-11-15T10:31:21" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2580BHY0006</AtcoCode>
       <NaptanCode>bladajt</NaptanCode>
       <Descriptor>
-        <CommonName>Park Brow</CommonName>
+        <CommonName>Bluebell Way</CommonName>
+        <Landmark>Bluebell Way</Landmark>
         <Street>Gib Lane</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-05-30T09:45:34" Modification="revise" RevisionNumber="3" Status="active">
@@ -1967,10 +1968,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>366228</Easting>
-            <Northing>425237</Northing>
-            <Longitude>-2.513279718</Longitude>
-            <Latitude>53.722439131</Latitude>
+            <Easting>366219</Easting>
+            <Northing>425293</Northing>
+            <Longitude>-2.513422155</Longitude>
+            <Latitude>53.722937324</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -2388,6 +2389,196 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2009-12-17T10:34:00" ModificationDateTime="2014-02-14T09:30:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:27:59" ModificationDateTime="2024-11-15T10:27:14" Modification="new" Status="active">
+      <AtcoCode>2580BHY0015</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">The Sycamores</CommonName>
+        <Landmark>The Sycamores</Landmark>
+        <Street>Gib Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035179</NptgLocalityRef>
+        <Suburb>Bank Hey</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>366275</Easting>
+            <Northing>424896</Northing>
+            <Longitude>-2.512530117</Longitude>
+            <Latitude>53.719372837</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:30:28" ModificationDateTime="2024-11-15T10:29:31" Modification="new" Status="active">
+      <AtcoCode>2580BHY0016</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Bluebell Way</CommonName>
+        <Landmark>Bluebell Way</Landmark>
+        <Street>Gib Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035179</NptgLocalityRef>
+        <Suburb>Bank Hey </Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>366213</Easting>
+            <Northing>425277</Northing>
+            <Longitude>-2.513511327</Longitude>
+            <Latitude>53.722793130</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:32:30" ModificationDateTime="2024-11-15T10:31:46" Modification="new" Status="active">
+      <AtcoCode>2580BHY0017</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Buckthorn Lane</CommonName>
+        <Landmark>Buckthorn Lane</Landmark>
+        <Street>Gib Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035179</NptgLocalityRef>
+        <Suburb>Bank Hey</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>366201</Easting>
+            <Northing>425481</Northing>
+            <Longitude>-2.513715533</Longitude>
+            <Latitude>53.724625843</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:29:03" ModificationDateTime="2024-11-15T10:28:22" Modification="new" Status="active">
+      <AtcoCode>2580BHY0018</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">The Sycamores</CommonName>
+        <Landmark>The Sycamores</Landmark>
+        <Street>Gib Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035179</NptgLocalityRef>
+        <Suburb>Bank Hey</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>366284</Easting>
+            <Northing>424868</Northing>
+            <Longitude>-2.512390681</Longitude>
+            <Latitude>53.719121765</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:33:38" ModificationDateTime="2024-11-15T10:33:07" Modification="new" Status="active">
+      <AtcoCode>2580BHY0019</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Buckthorn Lane</CommonName>
+        <Landmark>Buckthorn Lane</Landmark>
+        <Street>Gib Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035179</NptgLocalityRef>
+        <Suburb>Bank Hey</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>366191</Easting>
+            <Northing>425479</Northing>
+            <Longitude>-2.513866861</Longitude>
+            <Latitude>53.724607217</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-07-03T08:14:53" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580BLA0001</AtcoCode>
@@ -11720,6 +11911,44 @@
       </StopClassification>
       <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:17:40" ModificationDateTime="2024-11-15T10:16:54" Modification="new" Status="active">
+      <AtcoCode>2580BPT0004</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Hornby Court</CommonName>
+        <Landmark>Hornby Court</Landmark>
+        <Street>Lancaster Street</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035180</NptgLocalityRef>
+        <Suburb>Bank Top</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>367090</Easting>
+            <Northing>427647</Northing>
+            <Longitude>-2.500474264</Longitude>
+            <Latitude>53.744150246</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BRH0001</AtcoCode>
       <NaptanCode>bladtdg</NaptanCode>
@@ -13475,11 +13704,12 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2024-11-15T10:22:03" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580BTP0003</AtcoCode>
       <NaptanCode>bladapd</NaptanCode>
       <Descriptor>
         <CommonName>Belgrave Close</CommonName>
+        <Landmark>Belgrave Close</Landmark>
         <Street>Phillips St</Street>
         <Indicator>by</Indicator>
       </Descriptor>
@@ -14004,6 +14234,44 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2012-06-20T07:54:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T10:24:28" ModificationDateTime="2024-11-15T15:09:43" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>2580BTP0014</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Bridgewater Court</CommonName>
+        <Landmark>Bridgewater Court</Landmark>
+        <Street>Bath Street</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035180</NptgLocalityRef>
+        <Suburb>Bank Top</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>367057</Easting>
+            <Northing>427530</Northing>
+            <Longitude>-2.500962089</Longitude>
+            <Latitude>53.743096594</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BTW0001</AtcoCode>
@@ -40010,14 +40278,13 @@
         <PlusbusZoneRef CreationDateTime="2009-01-27T16:16:00" ModificationDateTime="2009-01-27T16:16:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-01-27T16:24:00" ModificationDateTime="2019-05-08T11:40:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2009-01-27T16:24:00" ModificationDateTime="2024-11-15T10:34:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580MHL0019</AtcoCode>
       <NaptanCode>blajpgp</NaptanCode>
       <Descriptor>
-        <CommonName>Aqueduct Road</CommonName>
-        <ShortCommonName>Aqueduct Road</ShortCommonName>
-        <Landmark>St Aidans Ave</Landmark>
-        <Street>Aqueduct Road</Street>
+        <CommonName>Springbank Court</CommonName>
+        <Landmark>Springbank Court</Landmark>
+        <Street>Springbank Close</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
@@ -40035,10 +40302,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>367524</Easting>
-            <Northing>426573</Northing>
-            <Longitude>-2.493780905</Longitude>
-            <Latitude>53.734529289</Latitude>
+            <Easting>367243</Easting>
+            <Northing>426589</Northing>
+            <Longitude>-2.498042015</Longitude>
+            <Latitude>53.734650924</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -40050,7 +40317,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NW</CompassPoint>
+                <CompassPoint>W</CompassPoint>
                 <Degrees>315</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -40601,6 +40868,82 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T09:45:25" ModificationDateTime="2024-11-15T09:44:07" Modification="new" Status="active">
+      <AtcoCode>2580MRG0006</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Albion Mill</CommonName>
+        <Landmark>Albion Mill</Landmark>
+        <Street>Albion Street</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035236</NptgLocalityRef>
+        <Suburb>Moorgate</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>367364</Easting>
+            <Northing>426208</Northing>
+            <Longitude>-2.496167505</Longitude>
+            <Latitude>53.731234217</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-15T09:47:01" ModificationDateTime="2024-11-15T09:46:10" Modification="new" Status="active">
+      <AtcoCode>2580MRG0007</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Brackendale Court</CommonName>
+        <Landmark>Brackendale Court</Landmark>
+        <Street>Albion Street</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035236</NptgLocalityRef>
+        <Suburb>Moorgate</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>367399</Easting>
+            <Northing>426121</Northing>
+            <Longitude>-2.495627803</Longitude>
+            <Latitude>53.730454481</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580PLG0001</AtcoCode>
