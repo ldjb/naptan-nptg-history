@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2023-12-05T16:45:22.928" ModificationDateTime="2023-12-05T16:45:22.928" Modification="new" RevisionNumber="0" FileName="NaPTAN680.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-19T15:21:18.260" ModificationDateTime="2024-11-19T15:21:18.260" Modification="new" RevisionNumber="0" FileName="NaPTAN680.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-05-31T00:00:00.000" ModificationDateTime="2015-11-17T14:40:00.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>680000622222</AtcoCode>
@@ -28841,11 +28841,11 @@
 <PlusbusZoneRef Modification="new" Status="active">DUMFRES</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-17T00:00:00.000" ModificationDateTime="2006-06-13T08:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2003-06-17T00:00:00.000" ModificationDateTime="2024-01-19T17:26:22.356" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>680000001517</AtcoCode>
 <NaptanCode>34238492</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Railway Station</CommonName>
+<CommonName xml:lang="en">Dumfries Railway Station</CommonName>
 <Landmark xml:lang="en">Station Hotel</Landmark>
 <Street xml:lang="en">Station Road</Street>
 <Indicator xml:lang="en">o/s Station</Indicator>
@@ -33225,13 +33225,13 @@
 </StopAreas>
 <AdministrativeAreaRef>118</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-05-06T10:08:00.000" ModificationDateTime="2014-05-21T14:27:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2014-05-06T10:08:00.000" ModificationDateTime="2024-06-04T17:33:38.828" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>680000189503</AtcoCode>
 <NaptanCode>34239345</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">D&amp;G Regional Boundary</CommonName>
 <Landmark xml:lang="en">Foulbog</Landmark>
-<Street xml:lang="en">A709</Street>
+<Street xml:lang="en">B709</Street>
 <Indicator xml:lang="en">at</Indicator>
 </Descriptor>
 <Place>
@@ -87522,6 +87522,111 @@
 <CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-02-28T10:58:39.597" ModificationDateTime="2024-02-28T10:58:39.597" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>680000298223</AtcoCode>
+<Descriptor>
+<CommonName>Solway Street</CommonName>
+<Street>Hecklegirth</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000097</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>319891</Easting>
+<Northing>566120</Northing>
+<Longitude>-3.2533250</Longitude>
+<Latitude>54.9832115</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-19T10:04:29.395" ModificationDateTime="2024-11-19T10:04:29.395" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>680000113222</AtcoCode>
+<Descriptor>
+<CommonName>Dalmacallan View</CommonName>
+<Street>A702</Street>
+<Indicator>Moniaive</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0068627</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>278331</Easting>
+<Northing>590736</Northing>
+<Longitude>-3.9129467</Longitude>
+<Latitude>55.1958586</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-19T10:10:30.923" ModificationDateTime="2024-11-19T10:10:30.923" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>680000113333</AtcoCode>
+<Descriptor>
+<CommonName>Thorngower</CommonName>
+<Street>A702</Street>
+<Indicator>Thorngower</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0068627</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>278181</Easting>
+<Northing>590813</Northing>
+<Longitude>-3.9153264</Longitude>
+<Latitude>55.1965152</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-07-30T12:59:55.122" ModificationDateTime="2024-07-30T12:59:55.122" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-20T15:17:14.647" ModificationDateTime="2024-11-20T15:17:14.647" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2010-11-15T17:04:00.000" ModificationDateTime="2014-11-12T17:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>049000000801</AtcoCode>
@@ -73502,12 +73502,12 @@
 </StopClassification>
 <AdministrativeAreaRef>032</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2024-07-30T12:26:56.428" ModificationDateTime="2024-07-30T12:26:56.428" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2024-07-30T12:26:56.428" ModificationDateTime="2024-10-10T10:11:24.456" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>049070005918</AtcoCode>
 <NaptanCode>mltagwgd</NaptanCode>
 <Descriptor>
 <CommonName>Payne Road</CommonName>
-<Street>Burney Drive</Street>
+<Street>Burney Street</Street>
 <Crossing>Payne Road</Crossing>
 </Descriptor>
 <Place>
@@ -73517,10 +73517,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>491510</Easting>
-<Northing>237912</Northing>
-<Longitude>-0.6674826</Longitude>
-<Latitude>52.0320865</Latitude>
+<Easting>491456</Easting>
+<Northing>237896</Northing>
+<Longitude>-0.668274</Longitude>
+<Latitude>52.031952</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -73632,6 +73632,77 @@
 <Northing>237715</Northing>
 <Longitude>-0.6722566</Longitude>
 <Latitude>52.0303691</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-20T15:02:12.010" ModificationDateTime="2024-11-20T15:10:38.043" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>049070005928</AtcoCode>
+<NaptanCode>mltagpgj</NaptanCode>
+<Descriptor>
+<CommonName>Apollo Avenue</CommonName>
+<Street>Apollo Avenue</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0080870</NptgLocalityRef>
+<Town>Milton Keynes</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>479835</Easting>
+<Northing>239171</Northing>
+<Longitude>-0.837334</Longitude>
+<Latitude>52.045204</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-20T15:14:28.640" ModificationDateTime="2024-11-20T15:14:28.640" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070005929</AtcoCode>
+<NaptanCode>mltagpgm</NaptanCode>
+<Descriptor>
+<CommonName>Apollo Avenue</CommonName>
+<Street>Laelia Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0080870</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>479825</Easting>
+<Northing>239243</Northing>
+<Longitude>-0.8374629</Longitude>
+<Latitude>52.0458529</Latitude>
 </Translation>
 </Location>
 </Place>
