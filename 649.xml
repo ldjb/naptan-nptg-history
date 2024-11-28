@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2024-06-06T17:33:12" ModificationDateTime="2024-06-06T17:33:12" Modification="revise" RevisionNumber="208" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN649.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2024-11-27T16:56:29" ModificationDateTime="2024-11-27T16:56:29" Modification="revise" RevisionNumber="209" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN649.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-12-12T13:43:21" ModificationDateTime="2011-12-12T13:43:21" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>6490IM1953</AtcoCode>
@@ -3329,7 +3329,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-03-09T00:00:00" ModificationDateTime="2010-01-14T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-03-09T00:00:00" ModificationDateTime="2024-11-27T13:21:05" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM1335</AtcoCode>
       <NaptanCode>26426434</NaptanCode>
       <Descriptor>
@@ -3343,8 +3343,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>362830</Easting>
-          <Northing>741911</Northing>
+          <Easting>362802</Easting>
+          <Northing>741885</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -3397,7 +3397,40 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-20T00:00:00" ModificationDateTime="2010-01-14T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2024-11-27T13:52:36" ModificationDateTime="2024-11-27T13:52:36" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM1374</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Elm Grove</CommonName>
+        <ShortCommonName xml:lang="en">Elm Grove</ShortCommonName>
+        <Street xml:lang="en">Elmfield Avenue</Street>
+        <Indicator xml:lang="en">near</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000115</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>363027</Easting>
+          <Northing>741823</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2005-06-20T00:00:00" ModificationDateTime="2024-11-27T13:55:19" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM1412</AtcoCode>
       <NaptanCode>26425898</NaptanCode>
       <Descriptor>
@@ -3411,8 +3444,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>363006</Easting>
-          <Northing>741841</Northing>
+          <Easting>363034</Easting>
+          <Northing>741827</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -3426,6 +3459,39 @@
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-27T14:49:28" ModificationDateTime="2024-11-27T14:49:28" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM1375</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Elm Hill</CommonName>
+        <ShortCommonName xml:lang="en">Elm Hill</ShortCommonName>
+        <Street xml:lang="en">Elmfield Avenue</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000115</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>363097</Easting>
+          <Northing>741723</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -3465,7 +3531,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2010-01-18T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2024-10-09T11:43:18" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM669</AtcoCode>
       <NaptanCode>26423465</NaptanCode>
       <Descriptor>
@@ -3479,8 +3545,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>362686</Easting>
-          <Northing>741881</Northing>
+          <Easting>362697</Easting>
+          <Northing>741874</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -3539,7 +3605,7 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2010-01-18T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2024-10-09T11:41:22" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM564</AtcoCode>
       <NaptanCode>26423463</NaptanCode>
       <Descriptor>
@@ -3553,8 +3619,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>362700</Easting>
-          <Northing>741900</Northing>
+          <Easting>362647</Easting>
+          <Northing>741922</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -4120,7 +4186,7 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2010-03-26T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-10T16:35:09" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>6490IM1241</AtcoCode>
       <NaptanCode>26424652</NaptanCode>
       <Descriptor>
@@ -4157,7 +4223,7 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2010-06-16T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-10T16:36:18" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>6490IM1242</AtcoCode>
       <NaptanCode>26424653</NaptanCode>
       <Descriptor>
@@ -4171,8 +4237,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>362192</Easting>
-          <Northing>740560</Northing>
+          <Easting>362194</Easting>
+          <Northing>740550</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -8889,7 +8955,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2008-05-06T00:00:00" ModificationDateTime="2009-03-26T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2008-05-06T00:00:00" ModificationDateTime="2024-10-08T13:16:07" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM962</AtcoCode>
       <NaptanCode>26426476</NaptanCode>
       <Descriptor>
@@ -8903,8 +8969,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>353580</Easting>
-          <Northing>750520</Northing>
+          <Easting>353573</Easting>
+          <Northing>750549</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -8923,7 +8989,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-02-12T00:00:00" ModificationDateTime="2010-06-08T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-02-12T00:00:00" ModificationDateTime="2024-10-08T13:15:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM983</AtcoCode>
       <NaptanCode>26423645</NaptanCode>
       <Descriptor>
@@ -8937,8 +9003,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>353591</Easting>
-          <Northing>750558</Northing>
+          <Easting>353581</Easting>
+          <Northing>750556</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -11887,7 +11953,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-02-12T00:00:00" ModificationDateTime="2009-03-12T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-02-12T00:00:00" ModificationDateTime="2024-10-08T12:46:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM982</AtcoCode>
       <NaptanCode>26423695</NaptanCode>
       <Descriptor>
@@ -11900,8 +11966,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>350568</Easting>
-          <Northing>751277</Northing>
+          <Easting>350571</Easting>
+          <Northing>751288</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -11912,7 +11978,7 @@
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -11920,7 +11986,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2008-05-06T00:00:00" ModificationDateTime="2010-06-15T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2008-05-06T00:00:00" ModificationDateTime="2024-10-08T12:49:07" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>6490IM1070</AtcoCode>
       <NaptanCode>26426489</NaptanCode>
       <Descriptor>
@@ -11933,8 +11999,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>350581</Easting>
-          <Northing>751277</Northing>
+          <Easting>350578</Easting>
+          <Northing>751281</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -19304,33 +19370,6 @@
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-11T00:00:00" ModificationDateTime="2010-06-11T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
-      <AtcoCode>6490TX009</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">The Cross</CommonName>
-        <Landmark xml:lang="en">at Council Offices</Landmark>
-        <Street xml:lang="en">Castle Street</Street>
-        <Indicator xml:lang="en">at</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>ES001415</NptgLocalityRef>
-        <LocalityCentre>1</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>345603</Easting>
-          <Northing>750719</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>TXR</StopType>
-        <OnStreet>
-          <Taxi>
-            <TaxiRank />
-          </Taxi>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>113</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2004-05-11T00:00:00" ModificationDateTime="2010-06-11T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>6490TX0010</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="en">Castle Street Taxi Rank</CommonName>
@@ -19345,6 +19384,33 @@
           <GridType>UKOS</GridType>
           <Easting>345592</Easting>
           <Northing>750693</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>TXR</StopType>
+        <OnStreet>
+          <Taxi>
+            <TaxiRank />
+          </Taxi>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2004-05-11T00:00:00" ModificationDateTime="2010-06-11T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>6490TX009</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">The Cross</CommonName>
+        <Landmark xml:lang="en">at Council Offices</Landmark>
+        <Street xml:lang="en">Castle Street</Street>
+        <Indicator xml:lang="en">at</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES001415</NptgLocalityRef>
+        <LocalityCentre>1</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>345603</Easting>
+          <Northing>750719</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -20785,7 +20851,7 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2010-06-11T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2024-10-09T11:32:03" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM439</AtcoCode>
       <NaptanCode>26423964</NaptanCode>
       <Descriptor>
@@ -20799,8 +20865,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>360546</Easting>
-          <Northing>744969</Northing>
+          <Easting>360555</Easting>
+          <Northing>744971</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -24924,6 +24990,40 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2024-11-27T12:57:20" ModificationDateTime="2024-11-27T12:57:20" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM1373</AtcoCode>
+      <NaptanCode>26428472</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Elmbank Crescent near 49</CommonName>
+        <ShortCommonName xml:lang="en">No 49</ShortCommonName>
+        <Street xml:lang="en">Elmbank Crescent</Street>
+        <Indicator xml:lang="en">near</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000115</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>362808</Easting>
+          <Northing>741883</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2008-05-15T00:00:00" ModificationDateTime="2010-06-15T00:00:00" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>6490IM266</AtcoCode>
       <NaptanCode>26426927</NaptanCode>
@@ -26654,7 +26754,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2008-05-09T00:00:00" ModificationDateTime="2013-03-18T11:37:25" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2008-05-09T00:00:00" ModificationDateTime="2024-10-08T12:57:05" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>6490IM142</AtcoCode>
       <NaptanCode>26426747</NaptanCode>
       <Descriptor>
@@ -26668,8 +26768,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>347890</Easting>
-          <Northing>750742</Northing>
+          <Easting>347909</Easting>
+          <Northing>750727</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -31658,7 +31758,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2009-08-03T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-09T11:04:05" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>6490IM1204</AtcoCode>
       <NaptanCode>26426238</NaptanCode>
       <Descriptor>
@@ -31672,8 +31772,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>359240</Easting>
-          <Northing>749653</Northing>
+          <Easting>359256</Easting>
+          <Northing>749658</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -31692,7 +31792,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2009-08-03T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-09T11:05:43" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM1205</AtcoCode>
       <NaptanCode>26426372</NaptanCode>
       <Descriptor>
@@ -31706,8 +31806,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>359421</Easting>
-          <Northing>749686</Northing>
+          <Easting>359430</Easting>
+          <Northing>749683</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -31760,7 +31860,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2009-08-03T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-09T11:02:51" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>6490IM1203</AtcoCode>
       <NaptanCode>26426373</NaptanCode>
       <Descriptor>
@@ -31774,8 +31874,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>359268</Easting>
-          <Northing>749675</Northing>
+          <Easting>359239</Easting>
+          <Northing>749668</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -31794,7 +31894,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2009-08-03T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-09T11:07:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM1206</AtcoCode>
       <NaptanCode>26426253</NaptanCode>
       <Descriptor>
@@ -31808,8 +31908,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>359404</Easting>
-          <Northing>749665</Northing>
+          <Easting>359425</Easting>
+          <Northing>749672</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -31828,7 +31928,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2009-08-03T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-09T11:22:06" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>6490IM1208</AtcoCode>
       <NaptanCode>26426248</NaptanCode>
       <Descriptor>
@@ -31842,8 +31942,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>359661</Easting>
-          <Northing>749687</Northing>
+          <Easting>359633</Easting>
+          <Northing>749689</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -33646,7 +33746,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2013-12-04T14:56:26" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2024-10-09T10:50:15" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>6490IM445</AtcoCode>
       <NaptanCode>26424627</NaptanCode>
       <Descriptor>
@@ -33660,8 +33760,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>356995</Easting>
-          <Northing>749903</Northing>
+          <Easting>356988</Easting>
+          <Northing>749906</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -33684,7 +33784,7 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2010-03-25T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-11-29T00:00:00" ModificationDateTime="2024-10-09T10:49:25" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM260</AtcoCode>
       <NaptanCode>26424625</NaptanCode>
       <Descriptor>
@@ -33698,8 +33798,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>356964</Easting>
-          <Northing>749925</Northing>
+          <Easting>356992</Easting>
+          <Northing>749917</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -34199,40 +34299,6 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2013-04-10T15:14:01" ModificationDateTime="2013-04-30T13:48:14" Modification="revise" RevisionNumber="1" Status="active">
-      <AtcoCode>6490IM480</AtcoCode>
-      <NaptanCode>26427925</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Hillhead of Hedderwick</CommonName>
-        <Landmark xml:lang="en">cottage</Landmark>
-        <Street xml:lang="en">unclassified road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>ES001765</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>369273</Easting>
-          <Northing>761698</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>SE</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>113</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2013-04-10T15:10:01" ModificationDateTime="2013-04-30T13:47:39" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>6490IM478</AtcoCode>
       <NaptanCode>26427924</NaptanCode>
@@ -34260,6 +34326,40 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2013-04-10T15:14:01" ModificationDateTime="2013-04-30T13:48:14" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>6490IM480</AtcoCode>
+      <NaptanCode>26427925</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Hillhead of Hedderwick</CommonName>
+        <Landmark xml:lang="en">cottage</Landmark>
+        <Street xml:lang="en">unclassified road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES001765</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>369273</Easting>
+          <Northing>761698</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -43028,39 +43128,6 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2019-07-16T17:08:35" ModificationDateTime="2019-07-16T17:08:35" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>6490IM1355</AtcoCode>
-      <NaptanCode>26428379</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Little Lour RE</CommonName>
-        <Street xml:lang="en">unclassified road</Street>
-        <Indicator xml:lang="en">at</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0072171</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>348076</Easting>
-          <Northing>744912</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>N</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>113</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2019-07-16T17:03:45" ModificationDateTime="2019-07-16T17:03:45" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>6490IM1353</AtcoCode>
       <NaptanCode>26428378</NaptanCode>
@@ -43088,6 +43155,39 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2019-07-16T17:08:35" ModificationDateTime="2019-07-16T17:08:35" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM1355</AtcoCode>
+      <NaptanCode>26428379</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Little Lour RE</CommonName>
+        <Street xml:lang="en">unclassified road</Street>
+        <Indicator xml:lang="en">at</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0072171</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>348076</Easting>
+          <Northing>744912</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -45740,7 +45840,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2010-06-16T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-07-23T00:00:00" ModificationDateTime="2024-10-08T17:03:08" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>6490IM1226</AtcoCode>
       <NaptanCode>26425923</NaptanCode>
       <Descriptor>
@@ -45754,8 +45854,8 @@
         <LocalityCentre>1</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>354589</Easting>
-          <Northing>750282</Northing>
+          <Easting>354662</Easting>
+          <Northing>750340</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -45774,7 +45874,7 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-12-22T00:00:00" ModificationDateTime="2010-06-08T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-12-22T00:00:00" ModificationDateTime="2024-10-08T17:03:51" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM934</AtcoCode>
       <NaptanCode>26424967</NaptanCode>
       <Descriptor>
@@ -45788,8 +45888,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>354626</Easting>
-          <Northing>750348</Northing>
+          <Easting>354663</Easting>
+          <Northing>750351</Northing>
         </Location>
       </Place>
       <StopClassification>
