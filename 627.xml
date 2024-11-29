@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-12T10:17:57.589" ModificationDateTime="2024-11-12T10:17:57.589" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-28T15:40:29.298" ModificationDateTime="2024-11-28T15:40:29.298" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -47314,6 +47314,80 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-28T10:16:38.876" ModificationDateTime="2024-11-28T15:37:11.146" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>627070001189</AtcoCode>
+<NaptanCode>5821189</NaptanCode>
+<Descriptor>
+<CommonName>Fox Lake</CommonName>
+<ShortCommonName>Fox Lake</ShortCommonName>
+<Street>A199</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073116</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>363432</Easting>
+<Northing>677611</Northing>
+<Longitude>-2.587742</Longitude>
+<Latitude>55.990053</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-11-28T10:26:07.835" ModificationDateTime="2024-11-28T15:37:30.834" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>627070001190</AtcoCode>
+<NaptanCode>5821190</NaptanCode>
+<Descriptor>
+<CommonName>Fox Lake</CommonName>
+<ShortCommonName>Fox Lake</ShortCommonName>
+<Street>A199</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073116</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>363415</Easting>
+<Northing>677599</Northing>
+<Longitude>-2.5880108</Longitude>
+<Latitude>55.9899464</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

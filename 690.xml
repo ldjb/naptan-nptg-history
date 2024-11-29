@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-20T11:24:38.189" ModificationDateTime="2024-11-20T11:24:38.189" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-28T12:44:39.919" ModificationDateTime="2024-11-28T12:44:39.919" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -4894,12 +4894,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-24T00:00:00.000" ModificationDateTime="2024-09-26T12:00:39.783" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2005-05-24T00:00:00.000" ModificationDateTime="2024-11-28T11:04:53.485" Modification="revise" RevisionNumber="17" Status="active">
 <AtcoCode>69001122</AtcoCode>
 <NaptanCode>72725464</NaptanCode>
 <Descriptor>
-<CommonName>Boleside Hail &amp; Ride Section</CommonName>
-<ShortCommonName>Boleside</ShortCommonName>
+<CommonName>A7 Boleside Hail &amp; Ride</CommonName>
+<ShortCommonName>A7 Boleside H&amp;R</ShortCommonName>
 <Landmark>A7</Landmark>
 <Street>A7</Street>
 <Indicator>N-Bound</Indicator>
@@ -5239,7 +5239,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T11:00:47.226" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T10:15:17.748" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>6900113</AtcoCode>
 <NaptanCode>72723236</NaptanCode>
 <Descriptor>
@@ -5270,30 +5270,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>HAR</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<HailAndRideSection>
-<StartPoint>
-<Translation>
-<Easting>369805</Easting>
-<Northing>606801</Northing>
-<Longitude>-2.4777684</Longitude>
-<Latitude>55.3542961</Latitude>
-</Translation>
-</StartPoint>
-<EndPoint>
-<Translation>
-<Easting>368788</Easting>
-<Northing>608154</Northing>
-<Longitude>-2.4939493</Longitude>
-<Latitude>55.3663888</Latitude>
-</Translation>
-</EndPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
 <Degrees>315</Degrees>
 </Bearing>
-</HailAndRideSection>
+</UnmarkedPoint>
 <AnnotatedCoachRef CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">
 <CoachRef>900066248C</CoachRef>
 <Name>Carter Bar Layby</Name>
@@ -9008,13 +8992,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-07-09T11:04:02.635" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-11-28T11:00:26.375" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>69001230</AtcoCode>
 <NaptanCode>72725626</NaptanCode>
 <Descriptor>
-<CommonName>Linthaugh</CommonName>
-<ShortCommonName>Linthaugh</ShortCommonName>
-<Landmark>B6357 junction</Landmark>
+<CommonName>A68 Linthaugh Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Linthaugh H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -9064,12 +9048,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-07-09T11:09:03.734" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-11-28T10:59:22.831" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>69001231</AtcoCode>
 <NaptanCode>72725635</NaptanCode>
 <Descriptor>
-<CommonName>Ferniehirst Mill Lodge</CommonName>
-<Landmark>Ferniehirst Mill Lodge Road End</Landmark>
+<CommonName>A68 Ferniehirst Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Ferniehirst H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -9119,12 +9104,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-07-09T10:53:58.901" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-11-28T10:58:44.413" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001232</AtcoCode>
 <NaptanCode>72725827</NaptanCode>
 <Descriptor>
-<CommonName>Mossburnford</CommonName>
-<Landmark>Jedwater Caravan Park S jct</Landmark>
+<CommonName>A68 Mossburnford Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Mossburnford H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -9175,12 +9161,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-07-09T11:10:15.061" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-11-28T10:21:37.540" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001233</AtcoCode>
 <NaptanCode>72725343</NaptanCode>
 <Descriptor>
-<CommonName>Edgerston School House</CommonName>
-<Landmark>Edgerston School House</Landmark>
+<CommonName>A68 Edgerston Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Edgerston H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -9229,12 +9216,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-07-09T11:10:39.181" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2024-11-28T10:19:55.144" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>69001234</AtcoCode>
 <NaptanCode>72725347</NaptanCode>
 <Descriptor>
-<CommonName>Letham Rd End</CommonName>
-<Landmark>Road End</Landmark>
+<CommonName>A68 Lethem Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Lethem H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -15702,14 +15690,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-12T00:00:00.000" ModificationDateTime="2018-02-02T13:43:05.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-01-12T00:00:00.000" ModificationDateTime="2024-11-28T12:31:04.574" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001401</AtcoCode>
 <NaptanCode>72725862</NaptanCode>
 <Descriptor>
-<CommonName>Longrow Rd End</CommonName>
-<Landmark>Longrow Road End</Landmark>
+<CommonName>B6357 Longrow Hail &amp; Ride</CommonName>
+<ShortCommonName>B6357 Longrow H&amp;R</ShortCommonName>
+<Landmark>B6357</Landmark>
 <Street>B6357</Street>
-<Indicator>At</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002801</NptgLocalityRef>
@@ -15728,26 +15717,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>346284</Easting>
+<Northing>581626</Northing>
+<Longitude>-2.8438846</Longitude>
+<Latitude>55.1260928</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>345213</Easting>
+<Northing>580730</Northing>
+<Longitude>-2.8604986</Longitude>
+<Latitude>55.1179166</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>SW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-12T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-01-12T00:00:00.000" ModificationDateTime="2024-11-28T12:40:02.171" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001402</AtcoCode>
 <NaptanCode>72725859</NaptanCode>
 <Descriptor>
-<CommonName>Longrow Rd End</CommonName>
-<Landmark>Longrow Road End</Landmark>
+<CommonName>B6357 Longrow Hail &amp; Ride</CommonName>
+<ShortCommonName>B6357 Longrow H&amp;R</ShortCommonName>
+<Landmark>B6357</Landmark>
 <Street>B6357</Street>
-<Indicator>Opp</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002801</NptgLocalityRef>
@@ -15766,13 +15772,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>345215</Easting>
+<Northing>580739</Northing>
+<Longitude>-2.8604760</Longitude>
+<Latitude>55.1180034</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>346292</Easting>
+<Northing>581656</Northing>
+<Longitude>-2.8437658</Longitude>
+<Latitude>55.1263601</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -18029,14 +18051,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-05T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-05T00:00:00.000" ModificationDateTime="2024-11-28T12:28:00.501" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001466</AtcoCode>
 <NaptanCode>72725835</NaptanCode>
 <Descriptor>
-<CommonName>Under Burnmouth Farm</CommonName>
-<Landmark>Kershopefoot Road End</Landmark>
+<CommonName>B6357 Kershopefoot Hail &amp; Ride</CommonName>
+<ShortCommonName>B6357 Kershopefoot H&amp;R</ShortCommonName>
+<Landmark>B6357</Landmark>
 <Street>B6399</Street>
-<Indicator>Opp</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002801</NptgLocalityRef>
@@ -18055,26 +18078,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>347936</Easting>
+<Northing>586831</Northing>
+<Longitude>-2.8189368</Longitude>
+<Latitude>55.1730353</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>346297</Easting>
+<Northing>581657</Northing>
+<Longitude>-2.8436923</Longitude>
+<Latitude>55.1263716</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>SW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-05T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-09-05T00:00:00.000" ModificationDateTime="2024-11-28T12:29:47.914" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001467</AtcoCode>
 <NaptanCode>72725845</NaptanCode>
 <Descriptor>
-<CommonName>Under Burnmouth Farm</CommonName>
-<Landmark>Kershopefoot Road End</Landmark>
+<CommonName>B6357 Kershopefoot Hail &amp; Ride</CommonName>
+<ShortCommonName>B6357 Kershopefoot H&amp;R</ShortCommonName>
+<Landmark>B6357</Landmark>
 <Street>B6399</Street>
-<Indicator>O/s</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002801</NptgLocalityRef>
@@ -18093,13 +18133,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>346298</Easting>
+<Northing>581665</Northing>
+<Longitude>-2.8436696</Longitude>
+<Latitude>55.1264446</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>347932</Easting>
+<Northing>586832</Northing>
+<Longitude>-2.8189972</Longitude>
+<Latitude>55.1730374</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -19145,14 +19201,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T11:17:28.740" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001497</AtcoCode>
 <NaptanCode>72725874</NaptanCode>
 <Descriptor>
-<CommonName>Castle Rd Jct</CommonName>
-<Landmark>Bridge</Landmark>
+<CommonName>B6399 Hermitage Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Hermitage H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>At</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001753</NptgLocalityRef>
@@ -19171,26 +19228,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>348713</Easting>
+<Northing>588328</Northing>
+<Longitude>-2.8070139</Longitude>
+<Latitude>55.1865597</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>351681</Easting>
+<Northing>598485</Northing>
+<Longitude>-2.7621497</Longitude>
+<Latitude>55.2781274</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T11:18:49.409" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001498</AtcoCode>
 <NaptanCode>72725876</NaptanCode>
 <Descriptor>
-<CommonName>Castle Rd Jct</CommonName>
-<Landmark>Bridge</Landmark>
+<CommonName>B6399 Hermitage Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Hermitage H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>Opp</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001753</NptgLocalityRef>
@@ -19209,26 +19283,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>351690</Easting>
+<Northing>598488</Northing>
+<Longitude>-2.7620011</Longitude>
+<Latitude>55.2781556</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>348717</Easting>
+<Northing>588327</Northing>
+<Longitude>-2.8069495</Longitude>
+<Latitude>55.1865545</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2011-08-03T15:29:57.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T11:22:05.400" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001499</AtcoCode>
 <NaptanCode>72726878</NaptanCode>
 <Descriptor>
-<CommonName>Shankend Farm Rd End</CommonName>
-<Landmark>Shankend Farm</Landmark>
+<CommonName>B6399 Shankend Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Shankend H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>At</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079306</NptgLocalityRef>
@@ -19247,26 +19338,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>352924</Easting>
+<Northing>605082</Northing>
+<Longitude>-2.7436856</Longitude>
+<Latitude>55.3375201</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>352629</Easting>
+<Northing>607070</Northing>
+<Longitude>-2.7486872</Longitude>
+<Latitude>55.3553489</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2010-06-14T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T11:24:21.707" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001501</AtcoCode>
 <NaptanCode>72726879</NaptanCode>
 <Descriptor>
-<CommonName>Cogsmill Rd End</CommonName>
-<Landmark>Cogsmill</Landmark>
+<CommonName>B6399 Cogsmill Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Cogsmill H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>At</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -19285,26 +19393,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>351430</Easting>
+<Northing>608643</Northing>
+<Longitude>-2.7678582</Longitude>
+<Latitude>55.3693643</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>352637</Easting>
+<Northing>607711</Northing>
+<Longitude>-2.7486590</Longitude>
+<Latitude>55.3611135</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2010-06-14T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T11:23:27.392" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001502</AtcoCode>
 <NaptanCode>72726869</NaptanCode>
 <Descriptor>
-<CommonName>Cogsmill Rd End</CommonName>
-<Landmark>Cogsmill</Landmark>
+<CommonName>B6399 Cogsmill Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Cogsmill H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>Opp</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -19323,26 +19448,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>352629</Easting>
+<Northing>607708</Northing>
+<Longitude>-2.7487943</Longitude>
+<Latitude>55.3610866</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>351427</Easting>
+<Northing>608632</Northing>
+<Longitude>-2.7679023</Longitude>
+<Latitude>55.3692629</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2011-08-03T15:31:05.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T12:01:29.518" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001503</AtcoCode>
 <NaptanCode>72726435</NaptanCode>
 <Descriptor>
-<CommonName>Newmill House</CommonName>
-<Landmark>Road Junction</Landmark>
+<CommonName>B6399 Colislinn Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Colislinn H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>Opp</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -19361,26 +19503,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>350693</Easting>
+<Northing>611654</Northing>
+<Longitude>-2.7800174</Longitude>
+<Latitude>55.3963448</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>350584</Easting>
+<Northing>610061</Northing>
+<Longitude>-2.7814597</Longitude>
+<Latitude>55.3820214</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2011-08-03T15:36:19.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T11:58:18.267" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001504</AtcoCode>
 <NaptanCode>72726429</NaptanCode>
 <Descriptor>
-<CommonName>Newmill House</CommonName>
-<Landmark>Road Junction</Landmark>
+<CommonName>B6399 Colislinn Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Colislinn H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>At</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -19399,26 +19558,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>350578</Easting>
+<Northing>610055</Northing>
+<Longitude>-2.7815607</Longitude>
+<Latitude>55.3819638</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>350688</Easting>
+<Northing>611646</Northing>
+<Longitude>-2.7800942</Longitude>
+<Latitude>55.3962736</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2011-08-03T15:36:49.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T12:03:21.880" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001505</AtcoCode>
 <NaptanCode>72726497</NaptanCode>
 <Descriptor>
-<CommonName>Flex Rd End</CommonName>
-<Landmark>Flex Road End</Landmark>
+<CommonName>B6399 Flex Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Flex H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>Nr</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -19437,26 +19613,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>350687</Easting>
+<Northing>611650</Northing>
+<Longitude>-2.7801081</Longitude>
+<Latitude>55.3963125</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>350593</Easting>
+<Northing>613353</Northing>
+<Longitude>-2.7819047</Longitude>
+<Latitude>55.4116001</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2011-08-03T15:37:45.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-09-25T00:00:00.000" ModificationDateTime="2024-11-28T12:04:17.521" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001506</AtcoCode>
 <NaptanCode>72726495</NaptanCode>
 <Descriptor>
-<CommonName>Flex Rd End</CommonName>
-<Landmark>Flex Road End</Landmark>
+<CommonName>B6399 Flex Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Flex H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>Opp</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -19475,13 +19668,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>350595</Easting>
+<Northing>613356</Northing>
+<Longitude>-2.7818677</Longitude>
+<Latitude>55.4116262</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>350695</Easting>
+<Northing>611653</Northing>
+<Longitude>-2.7799825</Longitude>
+<Latitude>55.3963390</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -21180,14 +21389,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2009-04-18T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-11-28T11:27:17.423" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001555</AtcoCode>
 <NaptanCode>72728387</NaptanCode>
 <Descriptor>
-<CommonName>Black Lodge</CommonName>
-<Landmark>Castle</Landmark>
+<CommonName>B6399 Stobs Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Stobs H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>at</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -21206,26 +21416,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>351425</Easting>
+<Northing>608634</Northing>
+<Longitude>-2.7679343</Longitude>
+<Latitude>55.3692821</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>350626</Easting>
+<Northing>610032</Northing>
+<Longitude>-2.7807903</Longitude>
+<Latitude>55.3817644</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2010-02-23T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-11-28T11:26:19.743" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001556</AtcoCode>
 <NaptanCode>72728439</NaptanCode>
 <Descriptor>
-<CommonName>Black Lodge</CommonName>
-<Landmark>Castle</Landmark>
+<CommonName>B6399 Stobs Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Stobs H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>opp</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067341</NptgLocalityRef>
@@ -21244,24 +21471,41 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>350625</Easting>
+<Northing>610043</Northing>
+<Longitude>-2.7808094</Longitude>
+<Latitude>55.3818686</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>351428</Easting>
+<Northing>608644</Northing>
+<Longitude>-2.7678877</Longitude>
+<Latitude>55.3693714</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-06-07T16:07:27.620" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-11-28T11:13:11.023" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001557</AtcoCode>
 <NaptanCode>72728393</NaptanCode>
 <Descriptor>
-<CommonName>Whitrope Cottages</CommonName>
-<Landmark>Whitrope Cottages</Landmark>
+<CommonName>B6399 Whitrope Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Whitrope H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -21282,24 +21526,41 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>351678</Easting>
+<Northing>598493</Northing>
+<Longitude>-2.7622050</Longitude>
+<Latitude>55.2781972</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>353583</Easting>
+<Northing>601916</Northing>
+<Longitude>-2.7327849</Longitude>
+<Latitude>55.3091351</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-06-07T16:07:58.059" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-11-28T11:14:38.967" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001558</AtcoCode>
 <NaptanCode>72728435</NaptanCode>
 <Descriptor>
-<CommonName>Whitrope Cottages</CommonName>
-<Landmark>Cottages</Landmark>
+<CommonName>B6399 Whitrope Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Whitrope H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -21320,26 +21581,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>353598</Easting>
+<Northing>601913</Northing>
+<Longitude>-2.7325440</Longitude>
+<Latitude>55.3091071</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>351692</Easting>
+<Northing>598499</Northing>
+<Longitude>-2.7619732</Longitude>
+<Latitude>55.2782522</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2011-08-04T11:11:48.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-09-14T00:00:00.000" ModificationDateTime="2024-11-28T11:21:03.561" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001559</AtcoCode>
 <NaptanCode>72747842</NaptanCode>
 <Descriptor>
-<CommonName>Shankend Farm Rd End</CommonName>
-<Landmark>Shankend Farm</Landmark>
+<CommonName>B6399 Shankend Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 Shankend H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>Opp</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079306</NptgLocalityRef>
@@ -21358,13 +21636,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>352633</Easting>
+<Northing>607713</Northing>
+<Longitude>-2.7487271</Longitude>
+<Latitude>55.3611284</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>352932</Easting>
+<Northing>605089</Northing>
+<Longitude>-2.7435692</Longitude>
+<Latitude>55.3375823</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -26710,12 +27004,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2024-09-26T12:32:36.117" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2024-11-28T11:05:09.993" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>69001703</AtcoCode>
 <NaptanCode>72798428</NaptanCode>
 <Descriptor>
-<CommonName>Boleside Hail &amp; Ride Section</CommonName>
-<ShortCommonName>Boleside</ShortCommonName>
+<CommonName>A7 Boleside Hail &amp; Ride</CommonName>
+<ShortCommonName>A7 Boleside H&amp;R</ShortCommonName>
 <Landmark>A7</Landmark>
 <Street>A7</Street>
 <Indicator>S-Bound</Indicator>
@@ -26765,14 +27059,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2024-07-09T13:37:36.008" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2024-11-28T11:06:38.204" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001704</AtcoCode>
 <NaptanCode>72798429</NaptanCode>
 <Descriptor>
-<CommonName>Torwoodlee Mains</CommonName>
-<Landmark>Torwoodlee Mains H&amp;R section</Landmark>
+<CommonName>A72 Torwoodlee Hail &amp; Ride</CommonName>
+<ShortCommonName>A72 Torwoodlee H&amp;R</ShortCommonName>
+<Landmark>A72</Landmark>
 <Street>A72</Street>
-<Indicator>At</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079309</NptgLocalityRef>
@@ -26819,14 +27114,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2024-07-09T13:39:24.316" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2024-11-28T11:07:15.581" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001705</AtcoCode>
 <NaptanCode>72798432</NaptanCode>
 <Descriptor>
-<CommonName>Torwoodlee Mains</CommonName>
-<Landmark>Torwoodlee Mains H&amp;R section</Landmark>
+<CommonName>A72 Torwoodlee Hail &amp; Ride</CommonName>
+<ShortCommonName>A72 Torwoodlee H&amp;R</ShortCommonName>
+<Landmark>A72</Landmark>
 <Street>A72</Street>
-<Indicator>Opp</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079309</NptgLocalityRef>
@@ -28567,12 +28863,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T11:09:48.313" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T10:56:58.019" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6900175</AtcoCode>
 <NaptanCode>72723242</NaptanCode>
 <Descriptor>
-<CommonName>Camptown Cottages</CommonName>
-<Landmark>Camptown Telephone Box</Landmark>
+<CommonName>A68 Camptown Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Camptown H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -29397,12 +29694,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-17T00:00:00.000" ModificationDateTime="2024-07-09T11:09:36.885" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-11-17T00:00:00.000" ModificationDateTime="2024-11-28T10:57:34.374" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6900177</AtcoCode>
 <NaptanCode>72723239</NaptanCode>
 <Descriptor>
-<CommonName>Camptown Cottages</CommonName>
-<Landmark>Camptown Telephone Box</Landmark>
+<CommonName>A68 Camptown Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Camptown H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -33695,12 +33993,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T11:10:03.074" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T10:21:08.832" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6900281</AtcoCode>
 <NaptanCode>72723238</NaptanCode>
 <Descriptor>
-<CommonName>Edgerston School House</CommonName>
-<Landmark>Edgerston School House</Landmark>
+<CommonName>A68 Edgerston Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Edgerston H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -39923,13 +40222,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T11:04:43.305" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T11:00:53.240" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>6900497</AtcoCode>
 <NaptanCode>72723287</NaptanCode>
 <Descriptor>
-<CommonName>Linthaugh</CommonName>
-<ShortCommonName>Linthaugh</ShortCommonName>
-<Landmark>B6357</Landmark>
+<CommonName>A68 Linthaugh Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Linthaugh H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>S-bound</Indicator>
 </Descriptor>
@@ -39979,12 +40278,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T11:02:34.422" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T10:59:51.344" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6900498</AtcoCode>
 <NaptanCode>72723286</NaptanCode>
 <Descriptor>
-<CommonName>Ferniehirst Mill Lodge</CommonName>
-<Landmark>Ferniehirst Mill Lodge Road End</Landmark>
+<CommonName>A68 Ferniehirst Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Ferniehirst H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -42881,12 +43181,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T10:53:11.513" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T10:58:12.181" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>6900659</AtcoCode>
 <NaptanCode>72723265</NaptanCode>
 <Descriptor>
-<CommonName>Mossburnford</CommonName>
-<Landmark>Jedwater Caravan Park S road jct</Landmark>
+<CommonName>A68 Mossburnford Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Mossburnford H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -46425,12 +46726,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-07-09T11:10:29.910" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2024-11-28T10:19:12.954" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>6900837</AtcoCode>
 <NaptanCode>72723237</NaptanCode>
 <Descriptor>
-<CommonName>Letham Rd End</CommonName>
-<Landmark>Letham Road End</Landmark>
+<CommonName>A68 Lethem Hail &amp; Ride</CommonName>
+<ShortCommonName>A68 Lethem H&amp;R</ShortCommonName>
+<Landmark>A68</Landmark>
 <Street>A68</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -46459,10 +46761,10 @@
 <HailAndRideSection>
 <StartPoint>
 <Translation>
-<Easting>368787</Easting>
-<Northing>608152</Northing>
-<Longitude>-2.4939719</Longitude>
-<Latitude>55.3663700</Latitude>
+<Easting>369380</Easting>
+<Northing>606963</Northing>
+<Longitude>-2.4844873</Longitude>
+<Latitude>55.3557216</Latitude>
 </Translation>
 </StartPoint>
 <EndPoint>
@@ -56454,15 +56756,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2024-07-12T11:41:40.210" ModificationDateTime="2024-07-12T15:47:24.699" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2024-07-12T11:41:40.210" ModificationDateTime="2024-11-28T11:09:26.163" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69002342</AtcoCode>
 <NaptanCode>7272342</NaptanCode>
 <Descriptor>
-<CommonName>Langburnshiels Farm</CommonName>
-<ShortCommonName>L-burnshiels</ShortCommonName>
-<Landmark>Lanburnshiels Farm</Landmark>
+<CommonName>B6399 Langburnshiels Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 L-burnshiels H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>at</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079313</NptgLocalityRef>
@@ -56485,15 +56787,19 @@
 <HailAndRideSection Modification="new" Status="active">
 <StartPoint>
 <Translation>
-<Easting>353602</Easting>
-<Northing>601924</Northing>
-<Longitude>-2.7324852</Longitude>
-<Latitude>55.3092050</Latitude>
+<Easting>352944</Easting>
+<Northing>605081</Northing>
+<Longitude>-2.7433813</Longitude>
+<Latitude>55.3375112</Latitude>
 </Translation>
 </StartPoint>
 <EndPoint>
-<Longitude>-2.7353068</Longitude>
-<Latitude>55.3283409</Latitude>
+<Translation>
+<Easting>353600</Easting>
+<Northing>601921</Northing>
+<Longitude>-2.7325188</Longitude>
+<Latitude>55.3091784</Latitude>
+</Translation>
 </EndPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
@@ -56504,15 +56810,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2024-07-12T11:43:29.625" ModificationDateTime="2024-07-12T15:48:17.080" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2024-07-12T11:43:29.625" ModificationDateTime="2024-11-28T11:10:20.339" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>69002343</AtcoCode>
 <NaptanCode>7272343</NaptanCode>
 <Descriptor>
-<CommonName>Langburnshiels Farm</CommonName>
-<ShortCommonName>l-burnshiels</ShortCommonName>
-<Landmark>Langburnshiels Farm</Landmark>
+<CommonName>B6399 Langburnshiels Hail &amp; Ride</CommonName>
+<ShortCommonName>B6399 L-burnshiels H&amp;R</ShortCommonName>
+<Landmark>B6399</Landmark>
 <Street>B6399</Street>
-<Indicator>opp</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079313</NptgLocalityRef>

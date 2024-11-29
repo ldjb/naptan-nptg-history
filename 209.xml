@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.79.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-12T16:04:21.7470703Z" ModificationDateTime="2024-11-12T16:04:21.7470703Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-28T15:15:07.0417771Z" ModificationDateTime="2024-11-28T15:15:07.0417771Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -8029,7 +8029,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-12T15:50:49" ModificationDateTime="2024-11-12T15:40:00" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-12T15:50:49" ModificationDateTime="2024-11-28T14:24:37" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2090A0106456</AtcoCode>
       <NaptanCode>heratptgd</NaptanCode>
       <Descriptor>
@@ -8039,6 +8039,7 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053343</NptgLocalityRef>
+        <Suburb>St Mary's Garden Village</Suburb>
         <Town>Ross-on-Wye</Town>
         <Location>
           <Translation>
@@ -8074,7 +8075,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-12T16:03:14" ModificationDateTime="2024-11-12T16:01:18" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-12T16:03:14" ModificationDateTime="2024-11-28T14:27:10" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2090A0106458</AtcoCode>
       <NaptanCode>heratptgj</NaptanCode>
       <Descriptor>
@@ -8084,6 +8085,7 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053343</NptgLocalityRef>
+        <Suburb>St Mary's Garden Village </Suburb>
         <Town>Ross-on-Wye</Town>
         <Location>
           <Translation>
@@ -8112,6 +8114,98 @@
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
       <StopAvailability>
         <StopValidity CreationDateTime="2024-11-12T16:03:14" ModificationDateTime="2024-11-12T16:03:14" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-26</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-28T14:18:43" ModificationDateTime="2024-11-28T15:07:56" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>2090A0106460</AtcoCode>
+      <NaptanCode>heratptgm</NaptanCode>
+      <Descriptor>
+        <CommonName>Old Tannery Way</CommonName>
+        <Street>A40</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053343</NptgLocalityRef>
+        <Suburb>St Mary's Garden Village</Suburb>
+        <Town>Ross-on-Wye</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>360828</Easting>
+            <Northing>224918</Northing>
+            <Longitude>-2.570995860</Longitude>
+            <Latitude>51.921394040</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-28T14:45:27" ModificationDateTime="2024-11-28T14:45:27" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-26</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-11-28T14:40:30" ModificationDateTime="2024-11-28T15:09:03" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>2090A0106462</AtcoCode>
+      <NaptanCode>heratptgp</NaptanCode>
+      <Descriptor>
+        <CommonName>Old Tannery Way</CommonName>
+        <Street>A40</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053343</NptgLocalityRef>
+        <Suburb>St Mary's Garden Village</Suburb>
+        <Town>Ross-on-Wye</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>360852</Easting>
+            <Northing>224912</Northing>
+            <Longitude>-2.570646217</Longitude>
+            <Latitude>51.921341791</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-11-28T14:40:30" ModificationDateTime="2024-11-28T14:40:30" Modification="new">
           <DateRange>
             <StartDate>2025-01-26</StartDate>
           </DateRange>
