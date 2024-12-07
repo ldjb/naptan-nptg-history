@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-05T16:18:21.6329555Z" ModificationDateTime="2024-11-05T16:18:21.6329555Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-06T15:09:51.2290539Z" ModificationDateTime="2024-12-06T15:09:51.2290539Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -50366,6 +50366,49 @@
         <StopValidity CreationDateTime="2024-11-04T16:44:07" ModificationDateTime="2024-11-04T16:44:07" Modification="new">
           <DateRange>
             <StartDate>2024-11-04</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-06T14:20:04" ModificationDateTime="2024-12-06T14:26:21" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5210WDB48414</AtcoCode>
+      <NaptanCode>pemjamd</NaptanCode>
+      <Descriptor>
+        <CommonName>Tasker Way</CommonName>
+        <Street>Scarrowscant Lane</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055084</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>193975</Easting>
+            <Northing>214696</Northing>
+            <Longitude>-4.988933891</Longitude>
+            <Latitude>51.792870051</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-06T14:20:04" ModificationDateTime="2024-12-06T14:20:04" Modification="new">
+          <DateRange>
+            <StartDate>2024-12-06</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
