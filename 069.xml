@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-09-25T08:53:37.1224572Z" ModificationDateTime="2024-09-25T08:53:37.1224572Z" Modification="new" RevisionNumber="1" FileName="069.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-09T09:52:46.3416787Z" ModificationDateTime="2024-12-09T09:52:46.3416787Z" Modification="new" RevisionNumber="1" FileName="069 09.12.24.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-09-25T09:53:15" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>069000003706</AtcoCode>
@@ -61901,6 +61901,147 @@
         <StopValidity CreationDateTime="2024-02-20T08:33:16" ModificationDateTime="2024-02-20T08:33:16" Modification="new">
           <DateRange>
             <StartDate>2024-02-20</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T09:27:24" ModificationDateTime="2024-12-09T09:33:02" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>0690WNA09278</AtcoCode>
+      <NaptanCode>wrgmtgm</NaptanCode>
+      <Descriptor>
+        <CommonName>Edward Road</CommonName>
+        <ShortCommonName>Edward Rd</ShortCommonName>
+        <Street>Liverpool Road</Street>
+        <Crossing>Liverpool Road</Crossing>
+        <Indicator>Layby</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053805</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>355696</Easting>
+            <Northing>388691</Northing>
+            <Longitude>-2.667683580</Longitude>
+            <Latitude>53.393179749</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>063</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T09:27:24" ModificationDateTime="2024-12-09T09:27:24" Modification="new">WRGT</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-09T09:27:24" ModificationDateTime="2024-12-09T09:27:24" Modification="new">
+          <DateRange>
+            <StartDate>2024-12-09</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T09:45:30" ModificationDateTime="2024-12-09T09:35:36" Modification="new" Status="active">
+      <AtcoCode>0690WNA09279</AtcoCode>
+      <NaptanCode>wrgmtgp</NaptanCode>
+      <Descriptor>
+        <CommonName>Trigger Pond</CommonName>
+        <ShortCommonName>Trigger Pd</ShortCommonName>
+        <Street>Lingley Green Avenue</Street>
+        <Crossing>Lingley Green Avenue</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053805</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>355542</Easting>
+            <Northing>388938</Northing>
+            <Longitude>-2.670034054</Longitude>
+            <Latitude>53.395386797</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>063</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T09:45:30" ModificationDateTime="2024-12-09T09:45:30" Modification="new">WRGT</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-09T09:45:30" ModificationDateTime="2024-12-09T09:45:30" Modification="new">
+          <DateRange>
+            <StartDate>2024-12-09</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T09:50:36" ModificationDateTime="2024-12-09T09:47:48" Modification="new" Status="active">
+      <AtcoCode>0690WNA09280</AtcoCode>
+      <NaptanCode>wrgmtgt</NaptanCode>
+      <Descriptor>
+        <CommonName>Stanley Avenue</CommonName>
+        <ShortCommonName>Stanley Ave</ShortCommonName>
+        <Street>Park Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053805</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>355950</Easting>
+            <Northing>389019</Northing>
+            <Longitude>-2.663910247</Longitude>
+            <Latitude>53.396149105</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>063</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T09:50:36" ModificationDateTime="2024-12-09T09:50:36" Modification="new">WRGT</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-09T09:50:36" ModificationDateTime="2024-12-09T09:50:36" Modification="new">
+          <DateRange>
+            <StartDate>2024-12-09</StartDate>
           </DateRange>
           <Active />
         </StopValidity>

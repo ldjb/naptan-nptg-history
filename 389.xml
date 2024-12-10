@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-06-27T08:20:49.8283104Z" ModificationDateTime="2024-06-27T08:20:49.8283104Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-12-09T09:02:18.0573635Z" ModificationDateTime="2024-12-09T09:02:18.0573635Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2013-06-14T07:52:34" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>3890D000100</AtcoCode>
@@ -55829,6 +55829,373 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:44:18" ModificationDateTime="2024-12-09T08:41:16" Modification="new" Status="active">
+      <AtcoCode>3890D065402</AtcoCode>
+      <NaptanCode>stoapwat</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Forge Lane</CommonName>
+        <Landmark>Forge Lane</Landmark>
+        <Street>Festival Way</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386749</Easting>
+            <Northing>348006</Northing>
+            <Longitude>-2.199028297</Longitude>
+            <Latitude>53.029170002</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:44:18" ModificationDateTime="2024-12-09T08:44:18" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:46:44" ModificationDateTime="2024-12-09T08:51:36" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>3890D065501</AtcoCode>
+      <NaptanCode>stoapwaw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Lakeside</CommonName>
+        <Landmark>Lakeside</Landmark>
+        <Street>Festival Way</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386705</Easting>
+            <Northing>348142</Northing>
+            <Longitude>-2.199690006</Longitude>
+            <Latitude>53.030391414</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+                <Degrees>0</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:46:44" ModificationDateTime="2024-12-09T08:46:44" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:48:30" ModificationDateTime="2024-12-09T08:47:16" Modification="new" Status="active">
+      <AtcoCode>3890D065502</AtcoCode>
+      <NaptanCode>stoapwda</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Lakeside</CommonName>
+        <Landmark>Lakeside</Landmark>
+        <Street>Festival Way</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386742</Easting>
+            <Northing>348306</Northing>
+            <Longitude>-2.199145108</Longitude>
+            <Latitude>53.031866547</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:48:30" ModificationDateTime="2024-12-09T08:48:30" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:51:03" ModificationDateTime="2024-12-09T08:49:01" Modification="new" Status="active">
+      <AtcoCode>3890D065601</AtcoCode>
+      <NaptanCode>stoapwdg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Spitfire island</CommonName>
+        <Landmark>Spitfire island</Landmark>
+        <Street>Festival Way</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386519</Easting>
+            <Northing>348400</Northing>
+            <Longitude>-2.202474285</Longitude>
+            <Latitude>53.032705898</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+                <Degrees>270</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:51:03" ModificationDateTime="2024-12-09T08:51:03" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:53:52" ModificationDateTime="2024-12-09T08:52:19" Modification="new" Status="active">
+      <AtcoCode>3890D065602</AtcoCode>
+      <NaptanCode>stoapwdj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Spitfire island</CommonName>
+        <Landmark>Spitfire island</Landmark>
+        <Street>Shelton Boulevard</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386391</Easting>
+            <Northing>348362</Northing>
+            <Longitude>-2.204381348</Longitude>
+            <Latitude>53.032361045</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+                <Degrees>0</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:53:52" ModificationDateTime="2024-12-09T08:53:52" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:55:46" ModificationDateTime="2024-12-09T08:54:21" Modification="new" Status="active">
+      <AtcoCode>3890D065701</AtcoCode>
+      <NaptanCode>stoapwdm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">OverclockersUK</CommonName>
+        <Landmark>OverclockersUK</Landmark>
+        <Street>Shelton Boulevard</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386387</Easting>
+            <Northing>348227</Northing>
+            <Longitude>-2.204435247</Longitude>
+            <Latitude>53.031147420</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:55:46" ModificationDateTime="2024-12-09T08:55:46" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:58:02" ModificationDateTime="2024-12-09T08:56:19" Modification="new" Status="active">
+      <AtcoCode>3890D065702</AtcoCode>
+      <NaptanCode>stoapwdp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">OverclockersUK</CommonName>
+        <Landmark>OverclockersUK</Landmark>
+        <Street>Shelton Boulevard</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386375</Easting>
+            <Northing>348173</Northing>
+            <Longitude>-2.204611879</Longitude>
+            <Latitude>53.030661702</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:58:02" ModificationDateTime="2024-12-09T08:58:02" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T08:59:35" ModificationDateTime="2024-12-09T08:58:26" Modification="new" Status="active">
+      <AtcoCode>3890D065801</AtcoCode>
+      <NaptanCode>stoapwdt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Fowlea Road</CommonName>
+        <Landmark>Fowlea Road</Landmark>
+        <Street>Shelton Boulevard</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386465</Easting>
+            <Northing>347881</Northing>
+            <Longitude>-2.203257546</Longitude>
+            <Latitude>53.028039200</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T08:59:35" ModificationDateTime="2024-12-09T08:59:35" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-09T09:01:16" ModificationDateTime="2024-12-09T09:00:00" Modification="new" Status="active">
+      <AtcoCode>3890D065802</AtcoCode>
+      <NaptanCode>stoapwga</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Fowlea Road</CommonName>
+        <Landmark>Fowlea Road</Landmark>
+        <Street>Shelton Boulevard</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0073171</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>386461</Easting>
+            <Northing>347818</Northing>
+            <Longitude>-2.203314519</Longitude>
+            <Latitude>53.027472786</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2024-12-09T09:01:16" ModificationDateTime="2024-12-09T09:01:16" Modification="new">STOKEOT</PlusbusZoneRef>
+      </PlusbusZones>
     </StopPoint>
     <StopPoint CreationDateTime="2002-12-24T00:00:00" ModificationDateTime="2011-03-22T15:18:36" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>3890D080101</AtcoCode>
