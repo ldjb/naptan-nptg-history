@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-09T09:52:46.3416787Z" ModificationDateTime="2024-12-09T09:52:46.3416787Z" Modification="new" RevisionNumber="1" FileName="069 09.12.24.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-11T15:50:36.2661186Z" ModificationDateTime="2024-12-11T15:50:36.2661186Z" Modification="new" RevisionNumber="1" FileName="069 11.12.24.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-09-25T09:53:15" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>069000003706</AtcoCode>
@@ -56,7 +56,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-02-29T09:58:47" Modification="revise" RevisionNumber="14" Status="inactive">
+    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-12-11T15:31:40" Modification="revise" RevisionNumber="15" Status="active">
       <AtcoCode>069000010180</AtcoCode>
       <NaptanCode>wrgmdat</NaptanCode>
       <Descriptor>
@@ -103,11 +103,11 @@
         <PlusbusZoneRef RevisionNumber="0">WRGT</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-02-29T09:58:47" ModificationDateTime="2024-02-29T09:58:47" Modification="new">
+        <StopValidity CreationDateTime="2024-02-29T09:58:47" ModificationDateTime="2024-12-11T15:31:40" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-02-29</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -167,7 +167,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-02-29T09:59:16" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-12-11T15:22:34" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>069000010182</AtcoCode>
       <NaptanCode>wrgmdga</NaptanCode>
       <Descriptor>
@@ -214,11 +214,11 @@
         <PlusbusZoneRef RevisionNumber="0">WRGT</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-02-29T09:59:16" ModificationDateTime="2024-02-29T09:59:16" Modification="new">
+        <StopValidity CreationDateTime="2024-02-29T09:59:16" ModificationDateTime="2024-12-11T15:22:35" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-02-29</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -41518,7 +41518,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2010-12-20T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-12-11T15:30:14" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>069000024290</AtcoCode>
       <NaptanCode>wrgmdjt</NaptanCode>
       <Descriptor>
@@ -41564,6 +41564,14 @@
       <PlusbusZones>
         <PlusbusZoneRef RevisionNumber="0">WRGT</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-11T15:30:14" ModificationDateTime="2024-12-11T15:30:14" Modification="new">
+          <DateRange>
+            <StartDate>2024-12-11</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2010-12-20T00:00:00" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>069000024300</AtcoCode>

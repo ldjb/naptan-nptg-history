@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.79.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-28T15:15:07.0417771Z" ModificationDateTime="2024-11-28T15:15:07.0417771Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-10T19:01:03.5778932Z" ModificationDateTime="2024-12-10T19:01:03.5778932Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -8208,6 +8208,96 @@
         <StopValidity CreationDateTime="2024-11-28T14:40:30" ModificationDateTime="2024-11-28T14:40:30" Modification="new">
           <DateRange>
             <StartDate>2025-01-26</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-10T18:41:37" ModificationDateTime="2024-12-10T18:59:03" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>2090A0106464</AtcoCode>
+      <NaptanCode>heratptgt</NaptanCode>
+      <Descriptor>
+        <CommonName>Rugby Club</CommonName>
+        <Street>A449</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053277</NptgLocalityRef>
+        <Town>Ledbury</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>369930</Easting>
+            <Northing>236697</Northing>
+            <Longitude>-2.439687207</Longitude>
+            <Latitude>52.027860620</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-10T18:41:37" ModificationDateTime="2024-12-10T18:41:37" Modification="new">
+          <DateRange>
+            <StartDate>2025-02-02</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-10T18:55:49" ModificationDateTime="2024-12-10T18:43:38" Modification="new" Status="active">
+      <AtcoCode>2090A0106466</AtcoCode>
+      <NaptanCode>heratptgw</NaptanCode>
+      <Descriptor>
+        <CommonName>Rugby Club</CommonName>
+        <Street>A449</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053277</NptgLocalityRef>
+        <Town>Ledbury</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>369943</Easting>
+            <Northing>236671</Northing>
+            <Longitude>-2.439495443</Longitude>
+            <Latitude>52.027627577</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2024-12-10T18:55:49" ModificationDateTime="2024-12-10T18:55:49" Modification="new">
+          <DateRange>
+            <StartDate>2025-02-02</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
