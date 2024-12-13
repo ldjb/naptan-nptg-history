@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-28T12:44:39.919" ModificationDateTime="2024-11-28T12:44:39.919" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-12-12T13:31:35.698" ModificationDateTime="2024-12-12T13:31:35.698" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -2241,12 +2241,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-23T00:00:00.000" ModificationDateTime="2020-04-20T10:09:19.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-03-23T00:00:00.000" ModificationDateTime="2024-12-12T11:00:30.476" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001056</AtcoCode>
 <NaptanCode>72725643</NaptanCode>
 <Descriptor>
-<CommonName>Burnbank Crossroads</CommonName>
-<Landmark>Cross Roads</Landmark>
+<CommonName>A6105 Burnbank Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 Burnbank H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
 <Street>A6105</Street>
 <Indicator>E-bound</Indicator>
 </Descriptor>
@@ -2267,14 +2268,30 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>391939</Easting>
+<Northing>655967</Northing>
+<Longitude>-2.1301382</Longitude>
+<Latitude>55.7969210</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>392611</Easting>
+<Northing>655861</Northing>
+<Longitude>-2.1194097</Longitude>
+<Latitude>55.7959879</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 <Degrees>90</Degrees>
 </Bearing>
-</MarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -4950,7 +4967,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-29T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-06-29T00:00:00.000" ModificationDateTime="2024-11-29T15:16:23.602" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>69001123</AtcoCode>
 <NaptanCode>72725649</NaptanCode>
 <Descriptor>
@@ -4989,7 +5006,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-29T00:00:00.000" ModificationDateTime="2010-02-25T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-06-29T00:00:00.000" ModificationDateTime="2024-11-29T15:16:31.908" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>69001124</AtcoCode>
 <NaptanCode>72725654</NaptanCode>
 <Descriptor>
@@ -7832,7 +7849,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-03T00:00:00.000" ModificationDateTime="2024-06-10T10:32:12.463" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-10-03T00:00:00.000" ModificationDateTime="2024-11-29T15:06:24.512" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001200</AtcoCode>
 <NaptanCode>72726972</NaptanCode>
 <Descriptor>
@@ -7848,10 +7865,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>343268</Easting>
-<Northing>628170</Northing>
-<Longitude>-2.900621</Longitude>
-<Latitude>55.543917</Latitude>
+<Easting>343289</Easting>
+<Northing>628152</Northing>
+<Longitude>-2.900277</Longitude>
+<Latitude>55.543762</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -8722,7 +8739,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-07T00:00:00.000" ModificationDateTime="2011-08-03T14:38:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-10-07T00:00:00.000" ModificationDateTime="2024-11-29T10:01:02.211" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>69001224</AtcoCode>
 <NaptanCode>72725782</NaptanCode>
 <Descriptor>
@@ -8760,7 +8777,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-07T00:00:00.000" ModificationDateTime="2011-08-03T14:38:39.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-10-07T00:00:00.000" ModificationDateTime="2024-11-29T10:01:12.074" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>69001225</AtcoCode>
 <NaptanCode>72725764</NaptanCode>
 <Descriptor>
@@ -11254,7 +11271,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2021-03-08T13:44:51.001" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2024-11-29T09:46:17.484" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>69001286</AtcoCode>
 <NaptanCode>72726757</NaptanCode>
 <Descriptor>
@@ -13513,12 +13530,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2020-04-20T10:10:01.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-12-12T11:01:51.912" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001342</AtcoCode>
 <NaptanCode>72725642</NaptanCode>
 <Descriptor>
-<CommonName>Burnbank Crossroads</CommonName>
-<Landmark>Cross Roads</Landmark>
+<CommonName>A6105 Burnbank Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 Burnbank H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
 <Street>A6105</Street>
 <Indicator>W-bound</Indicator>
 </Descriptor>
@@ -13539,13 +13557,31 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>392273</Easting>
+<Northing>656002</Northing>
+<Longitude>-2.124815</Longitude>
+<Latitude>55.79724</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>392273</Easting>
+<Northing>656002</Northing>
+<Longitude>-2.124815</Longitude>
+<Latitude>55.79724</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -13627,14 +13663,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2020-04-20T10:32:04.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-12-12T11:03:55.477" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001345</AtcoCode>
 <NaptanCode>72725634</NaptanCode>
 <Descriptor>
-<CommonName>West Foulden Cotts</CommonName>
-<Landmark>Cottages</Landmark>
+<CommonName>A6105 West Foulden Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 W.Foulden H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
 <Street>A6105</Street>
-<Indicator>O/s</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001448</NptgLocalityRef>
@@ -13653,26 +13690,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>390010</Easting>
+<Northing>656033</Northing>
+<Longitude>-2.1608977</Longitude>
+<Latitude>55.7974835</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>391193</Easting>
+<Northing>655911</Northing>
+<Longitude>-2.1420299</Longitude>
+<Latitude>55.7964075</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2020-04-20T10:34:29.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-12-12T11:05:46.870" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001346</AtcoCode>
 <NaptanCode>72725632</NaptanCode>
 <Descriptor>
-<CommonName>West Foulden Cotts</CommonName>
-<Landmark>Cottages</Landmark>
+<CommonName>A6105 West Foulden Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 W.Foulden H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
 <Street>A6105</Street>
-<Indicator>Opp</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001448</NptgLocalityRef>
@@ -13691,26 +13745,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>391244</Easting>
+<Northing>655901</Northing>
+<Longitude>-2.1412095</Longitude>
+<Latitude>55.7963187</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>390002</Easting>
+<Northing>656022</Northing>
+<Longitude>-2.1610315</Longitude>
+<Latitude>55.7973855</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2020-04-20T10:53:10.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-12-12T11:24:53.162" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001347</AtcoCode>
 <NaptanCode>72725698</NaptanCode>
 <Descriptor>
-<CommonName>Edington Mill Rd End</CommonName>
-<Landmark>Edington Mill Road End</Landmark>
+<CommonName>A6105 Edington Mill Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 Edington Mill H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
 <Street>A6105</Street>
-<Indicator>At</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000715</NptgLocalityRef>
@@ -13718,10 +13789,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>389670</Easting>
-<Northing>656228</Northing>
-<Longitude>-2.166342</Longitude>
-<Latitude>55.799221</Latitude>
+<Easting>389677</Easting>
+<Northing>656221</Northing>
+<Longitude>-2.166225</Longitude>
+<Latitude>55.799162</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -13729,26 +13800,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>388959</Easting>
+<Northing>656381</Northing>
+<Longitude>-2.1776770</Longitude>
+<Latitude>55.8005870</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>390490</Easting>
+<Northing>655924</Northing>
+<Longitude>-2.1532426</Longitude>
+<Latitude>55.7965125</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2020-04-20T10:47:59.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-12-12T11:21:21.111" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001348</AtcoCode>
 <NaptanCode>72725724</NaptanCode>
 <Descriptor>
-<CommonName>Edington Mill Rd End</CommonName>
-<Landmark>Edington Mill Road End</Landmark>
+<CommonName>A6105 Edington Mill Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 Edington Mill H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
 <Street>A6105</Street>
-<Indicator>Opp</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000715</NptgLocalityRef>
@@ -13756,10 +13844,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>389633</Easting>
-<Northing>656253</Northing>
-<Longitude>-2.166933</Longitude>
-<Latitude>55.799445</Latitude>
+<Easting>389617</Easting>
+<Northing>656266</Northing>
+<Longitude>-2.167184</Longitude>
+<Latitude>55.799567</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -13767,13 +13855,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>388955</Easting>
+<Northing>656401</Northing>
+<Longitude>-2.1777394</Longitude>
+<Latitude>55.8007691</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>390514</Easting>
+<Northing>655931</Northing>
+<Longitude>-2.1528688</Longitude>
+<Latitude>55.7965722</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -13969,7 +14073,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2014-01-08T11:53:26.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-11-29T09:57:20.770" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>69001354</AtcoCode>
 <NaptanCode>72726538</NaptanCode>
 <Descriptor>
@@ -14007,7 +14111,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2014-01-08T11:53:55.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-11-29T09:57:37.083" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>69001355</AtcoCode>
 <NaptanCode>72726539</NaptanCode>
 <Descriptor>
@@ -14045,7 +14149,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2021-03-08T13:51:36.809" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-11-29T09:46:50.500" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>69001356</AtcoCode>
 <NaptanCode>72726747</NaptanCode>
 <Descriptor>
@@ -14083,7 +14187,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2021-03-08T13:50:30.133" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-12-13T00:00:00.000" ModificationDateTime="2024-11-29T09:46:39.228" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>69001357</AtcoCode>
 <NaptanCode>72726745</NaptanCode>
 <Descriptor>
@@ -14617,7 +14721,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-22T00:00:00.000" ModificationDateTime="2021-03-08T13:55:41.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-12-22T00:00:00.000" ModificationDateTime="2024-11-29T09:49:57.040" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>69001371</AtcoCode>
 <NaptanCode>72726749</NaptanCode>
 <Descriptor>
@@ -14655,7 +14759,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-12-22T00:00:00.000" ModificationDateTime="2021-03-08T13:56:30.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-12-22T00:00:00.000" ModificationDateTime="2024-11-29T09:50:11.063" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>69001372</AtcoCode>
 <NaptanCode>72726752</NaptanCode>
 <Descriptor>
@@ -15308,6 +15412,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2008</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2006-01-10T00:00:00.000" ModificationDateTime="2009-04-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
@@ -20740,7 +20847,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-05-25T00:00:00.000" ModificationDateTime="2024-06-07T13:46:11.289" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2007-05-25T00:00:00.000" ModificationDateTime="2024-11-29T10:00:01.601" Modification="revise" RevisionNumber="8" Status="inactive">
 <AtcoCode>69001538</AtcoCode>
 <NaptanCode>72732828</NaptanCode>
 <Descriptor>
@@ -20778,7 +20885,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-05-25T00:00:00.000" ModificationDateTime="2024-06-07T13:45:18.590" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2007-05-25T00:00:00.000" ModificationDateTime="2024-11-29T10:00:10.439" Modification="revise" RevisionNumber="8" Status="inactive">
 <AtcoCode>69001539</AtcoCode>
 <NaptanCode>72796745</NaptanCode>
 <Descriptor>
@@ -24563,7 +24670,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-20T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2009-01-20T00:00:00.000" ModificationDateTime="2024-11-28T17:20:25.371" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001643</AtcoCode>
 <NaptanCode>72798752</NaptanCode>
 <Descriptor>
@@ -24639,7 +24746,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-20T00:00:00.000" ModificationDateTime="2022-12-06T12:06:23.935" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2009-01-20T00:00:00.000" ModificationDateTime="2024-11-28T17:20:02.673" Modification="revise" RevisionNumber="8" Status="inactive">
 <AtcoCode>69001645</AtcoCode>
 <NaptanCode>72798756</NaptanCode>
 <Descriptor>
@@ -27980,6 +28087,7 @@
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">690G2001</StopAreaRef>
+<StopAreaRef Modification="new" Status="active">690G2004</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
@@ -28022,7 +28130,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-03-03T00:00:00.000" ModificationDateTime="2020-04-13T14:20:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2009-03-03T00:00:00.000" ModificationDateTime="2024-11-29T15:13:49.140" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>69001728</AtcoCode>
 <NaptanCode>72798475</NaptanCode>
 <Descriptor>
@@ -29008,7 +29116,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-07-02T00:00:00.000" ModificationDateTime="2011-08-04T11:43:18.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2009-07-02T00:00:00.000" ModificationDateTime="2024-11-29T10:01:43.660" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>69001752</AtcoCode>
 <NaptanCode>72798529</NaptanCode>
 <Descriptor>
@@ -29046,7 +29154,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-07-02T00:00:00.000" ModificationDateTime="2011-08-04T11:43:43.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2009-07-02T00:00:00.000" ModificationDateTime="2024-11-29T10:01:52.456" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001753</AtcoCode>
 <NaptanCode>72798532</NaptanCode>
 <Descriptor>
@@ -29878,7 +29986,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-08-03T10:07:16.000" ModificationDateTime="2014-01-08T13:15:17.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2011-08-03T10:07:16.000" ModificationDateTime="2024-11-29T15:08:10.940" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001773</AtcoCode>
 <NaptanCode>72798639</NaptanCode>
 <Descriptor>
@@ -30765,7 +30873,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T15:09:02.000" ModificationDateTime="2014-01-08T13:20:28.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2011-09-29T15:09:02.000" ModificationDateTime="2024-11-28T17:22:37.583" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001806</AtcoCode>
 <NaptanCode>72798685</NaptanCode>
 <Descriptor>
@@ -30803,7 +30911,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T15:12:42.000" ModificationDateTime="2014-01-08T13:20:46.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2011-09-29T15:12:42.000" ModificationDateTime="2024-11-28T17:22:45.838" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001807</AtcoCode>
 <NaptanCode>72798686</NaptanCode>
 <Descriptor>
@@ -30841,7 +30949,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T15:21:34.000" ModificationDateTime="2014-01-08T13:21:10.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2011-09-29T15:21:34.000" ModificationDateTime="2024-11-28T17:22:59.533" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>69001808</AtcoCode>
 <NaptanCode>72798687</NaptanCode>
 <Descriptor>
@@ -30879,7 +30987,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T15:31:46.000" ModificationDateTime="2014-01-08T13:21:31.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2011-09-29T15:31:46.000" ModificationDateTime="2024-11-28T17:23:18.103" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>69001809</AtcoCode>
 <NaptanCode>72798689</NaptanCode>
 <Descriptor>
@@ -30917,7 +31025,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T16:02:12.000" ModificationDateTime="2014-01-08T13:27:05.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2011-09-29T16:02:12.000" ModificationDateTime="2024-11-28T17:23:40.248" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>69001810</AtcoCode>
 <NaptanCode>72798692</NaptanCode>
 <Descriptor>
@@ -30955,7 +31063,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T16:15:06.000" ModificationDateTime="2022-12-07T10:01:45.880" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2011-09-29T16:15:06.000" ModificationDateTime="2024-11-28T17:24:17.437" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>69001811</AtcoCode>
 <NaptanCode>72798693</NaptanCode>
 <Descriptor>
@@ -30994,7 +31102,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T16:19:41.000" ModificationDateTime="2022-12-07T09:58:44.782" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2011-09-29T16:19:41.000" ModificationDateTime="2024-11-28T17:24:40.755" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001812</AtcoCode>
 <NaptanCode>72798694</NaptanCode>
 <Descriptor>
@@ -31033,7 +31141,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-29T16:22:20.000" ModificationDateTime="2022-12-07T09:51:32.417" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2011-09-29T16:22:20.000" ModificationDateTime="2024-11-28T17:25:23.259" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69001813</AtcoCode>
 <NaptanCode>72798695</NaptanCode>
 <Descriptor>
@@ -32792,7 +32900,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-10T09:44:25.000" ModificationDateTime="2015-07-28T10:02:37.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2015-07-10T09:44:25.000" ModificationDateTime="2024-11-29T15:18:06.955" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>69002103</AtcoCode>
 <NaptanCode>72728510</NaptanCode>
 <Descriptor>
@@ -32830,7 +32938,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-10T10:34:38.000" ModificationDateTime="2015-07-28T10:03:16.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2015-07-10T10:34:38.000" ModificationDateTime="2024-11-29T15:18:25.617" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69002104</AtcoCode>
 <NaptanCode>72798991</NaptanCode>
 <Descriptor>
@@ -32868,7 +32976,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-10T10:45:20.000" ModificationDateTime="2015-07-10T10:45:20.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2015-07-10T10:45:20.000" ModificationDateTime="2024-11-29T15:18:38.608" Modification="revise" RevisionNumber="1" Status="inactive">
 <AtcoCode>69002105</AtcoCode>
 <NaptanCode>72798992</NaptanCode>
 <Descriptor>
@@ -32906,7 +33014,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-10T10:54:21.000" ModificationDateTime="2015-07-10T10:54:21.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2015-07-10T10:54:21.000" ModificationDateTime="2024-11-29T15:18:47.902" Modification="revise" RevisionNumber="1" Status="inactive">
 <AtcoCode>69002106</AtcoCode>
 <NaptanCode>72798993</NaptanCode>
 <Descriptor>
@@ -34455,7 +34563,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-23T13:04:56.000" ModificationDateTime="2022-12-06T14:00:13.800" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2011-02-23T13:04:56.000" ModificationDateTime="2024-11-29T15:14:29.672" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>690030422</AtcoCode>
 <NaptanCode>72798567</NaptanCode>
 <Descriptor>
@@ -34496,7 +34604,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-23T14:19:51.000" ModificationDateTime="2022-12-06T13:59:20.571" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2011-02-23T14:19:51.000" ModificationDateTime="2024-11-29T15:14:13.211" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>690030424</AtcoCode>
 <NaptanCode>72798568</NaptanCode>
 <Descriptor>
@@ -45530,9 +45638,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">690G2005</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2024-06-07T16:38:29.396" Modification="revise" RevisionNumber="5" Status="active">
@@ -46371,6 +46476,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2008</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2003-06-10T00:00:00.000" ModificationDateTime="2024-06-19T14:27:10.504" Modification="revise" RevisionNumber="4" Status="active">
@@ -53640,7 +53748,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2017-09-11T10:38:57.000" ModificationDateTime="2022-12-06T13:58:21.508" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2017-09-11T10:38:57.000" ModificationDateTime="2024-11-29T15:13:57.185" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>69002049</AtcoCode>
 <NaptanCode>7272049</NaptanCode>
 <Descriptor>
@@ -53678,7 +53786,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2017-09-11T10:56:03.000" ModificationDateTime="2022-12-06T13:55:50.052" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2017-09-11T10:56:03.000" ModificationDateTime="2024-11-29T15:14:05.525" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>69002052</AtcoCode>
 <NaptanCode>7272052</NaptanCode>
 <Descriptor>
@@ -56112,6 +56220,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2005</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2024-05-22T10:41:37.001" ModificationDateTime="2024-05-22T11:03:08.000" Modification="revise" RevisionNumber="1" Status="active">
@@ -57203,6 +57314,222 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2024-12-12T11:10:07.736" ModificationDateTime="2024-12-12T11:10:07.736" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002356</AtcoCode>
+<NaptanCode>7272356</NaptanCode>
+<Descriptor>
+<CommonName>A6105 New Mains Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 New Mains H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
+<Street>A6105</Street>
+<Indicator>E-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001448</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>391533</Easting>
+<Northing>655921</Northing>
+<Longitude>-2.136622</Longitude>
+<Latitude>55.796503</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>391245</Easting>
+<Northing>655915</Northing>
+<Longitude>-2.1411939</Longitude>
+<Latitude>55.7964440</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>391936</Easting>
+<Northing>655966</Northing>
+<Longitude>-2.1301841</Longitude>
+<Latitude>55.7969167</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-12-12T11:14:58.911" ModificationDateTime="2024-12-12T11:14:58.911" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002357</AtcoCode>
+<NaptanCode>7272357</NaptanCode>
+<Descriptor>
+<CommonName>A6105 New Mains Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 New Mains H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
+<Street>A6105</Street>
+<Indicator>W-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001448</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>391533</Easting>
+<Northing>655908</Northing>
+<Longitude>-2.1366231</Longitude>
+<Latitude>55.7963854</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>391941</Easting>
+<Northing>655959</Northing>
+<Longitude>-2.1300998</Longitude>
+<Latitude>55.7968493</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>391250</Easting>
+<Northing>655906</Northing>
+<Longitude>-2.1411230</Longitude>
+<Latitude>55.7963692</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-12-12T11:28:59.022" ModificationDateTime="2024-12-12T11:28:59.022" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002358</AtcoCode>
+<NaptanCode>7272358</NaptanCode>
+<Descriptor>
+<CommonName>A6105 Chirnside Hall Hotel Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 Chirnside Hall Hotel H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
+<Street>A6105</Street>
+<Indicator>E-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000715</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>388301</Easting>
+<Northing>656360</Northing>
+<Longitude>-2.1881912</Longitude>
+<Latitude>55.8003795</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>387559</Easting>
+<Northing>656243</Northing>
+<Longitude>-2.2000150</Longitude>
+<Latitude>55.7993100</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>388961</Easting>
+<Northing>656398</Northing>
+<Longitude>-2.1776550</Longitude>
+<Latitude>55.8007363</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-12-12T11:34:10.661" ModificationDateTime="2024-12-12T11:34:10.661" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002359</AtcoCode>
+<NaptanCode>7272359</NaptanCode>
+<Descriptor>
+<CommonName>A6105 Chirnside Hall Hotel Hail &amp; Ride</CommonName>
+<ShortCommonName>A6105 Chirnside Hall Hotel H&amp;R</ShortCommonName>
+<Landmark>A6105</Landmark>
+<Street>A6105</Street>
+<Indicator>W-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000715</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>388315</Easting>
+<Northing>656351</Northing>
+<Longitude>-2.1879647</Longitude>
+<Latitude>55.8002921</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>388963</Easting>
+<Northing>656384</Northing>
+<Longitude>-2.1776252</Longitude>
+<Latitude>55.8006148</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>387560</Easting>
+<Northing>656228</Northing>
+<Longitude>-2.1999827</Longitude>
+<Latitude>55.7991748</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2017-06-14T16:57:27.000" ModificationDateTime="2021-07-05T14:31:00.939" Modification="revise" RevisionNumber="1" Status="active">
@@ -57235,7 +57562,7 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2017-12-18T13:30:16.000" ModificationDateTime="2017-12-18T13:30:16.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2017-12-18T13:30:16.000" ModificationDateTime="2024-11-28T16:32:47.091" Modification="revise" RevisionNumber="1" Status="inactive">
 <StopAreaCode>690G2001</StopAreaCode>
 <Name>East End Ayton</Name>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
@@ -57265,7 +57592,7 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2018-01-10T10:46:03.000" ModificationDateTime="2018-01-10T10:46:03.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2018-01-10T10:46:03.000" ModificationDateTime="2024-11-28T16:20:29.294" Modification="revise" RevisionNumber="1" Status="inactive">
 <StopAreaCode>690G2003</StopAreaCode>
 <Name>Galashiels Transport Interchange</Name>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
@@ -57290,7 +57617,7 @@
 <GridType>UKOS</GridType>
 <Easting>392446</Easting>
 <Northing>660987</Northing>
-<Longitude>-2.122197</Longitude>
+<Longitude>-2.122189</Longitude>
 <Latitude>55.842032</Latitude>
 </Translation>
 </Location>
@@ -57303,10 +57630,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>307751</Easting>
-<Northing>639344</Northing>
-<Longitude>-3.467053</Longitude>
-<Latitude>55.638857</Latitude>
+<Easting>307637</Easting>
+<Northing>639097</Northing>
+<Longitude>-3.468777</Longitude>
+<Latitude>55.636615</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -57337,6 +57664,21 @@
 <Northing>630603</Northing>
 <Longitude>-2.456866</Longitude>
 <Latitude>55.568237</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2024-11-28T16:25:16.815" ModificationDateTime="2024-11-28T16:25:16.815" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>690G2008</StopAreaCode>
+<Name>Town Yetholm</Name>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+<StopAreaType>GBCS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>381980</Easting>
+<Northing>628051</Northing>
+<Longitude>-2.2871479</Longitude>
+<Latitude>55.5458293</Latitude>
 </Translation>
 </Location>
 </StopArea>
