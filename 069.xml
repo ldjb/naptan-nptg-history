@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-11T15:50:36.2661186Z" ModificationDateTime="2024-12-11T15:50:36.2661186Z" Modification="new" RevisionNumber="1" FileName="069 11.12.24.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-13T13:12:46.9262663Z" ModificationDateTime="2024-12-13T13:12:46.9262663Z" Modification="new" RevisionNumber="1" FileName="069 13.12.24.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-09-25T09:53:15" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>069000003706</AtcoCode>
@@ -15087,7 +15087,7 @@
         <PlusbusZoneRef RevisionNumber="0">WRGT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2020-03-03T14:30:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-12-13T13:09:43" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>069000013706</AtcoCode>
       <NaptanCode>wrgatjp</NaptanCode>
       <Descriptor>
@@ -15130,12 +15130,11 @@
         <PlusbusZoneRef RevisionNumber="0">WRGT</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2010-04-20T00:00:00" ModificationDateTime="2020-03-03T14:30:55" Modification="revise" RevisionNumber="3">
+        <StopValidity CreationDateTime="2010-04-20T00:00:00" ModificationDateTime="2024-12-13T13:09:43" Modification="revise" RevisionNumber="4">
           <DateRange>
             <StartDate>2010-04-21</StartDate>
           </DateRange>
-          <Suspended />
-          <Note xml:lang="en    ">Duplicate stop with 069000003706.</Note>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
