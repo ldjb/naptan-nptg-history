@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-05T12:32:53.717" ModificationDateTime="2024-11-05T12:32:53.717" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-18T14:28:17.306" ModificationDateTime="2024-12-18T14:28:17.306" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-04-14T00:00:00.000" ModificationDateTime="2012-04-19T09:04:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3100ALNMOTH0</AtcoCode>
@@ -111413,7 +111413,7 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2020-09-18T12:38:17.393" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2024-11-07T12:20:39.862" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>3100Z310799</AtcoCode>
 <NaptanCode>nldgjgad</NaptanCode>
 <PlateCode>Z310799</PlateCode>
@@ -120600,7 +120600,7 @@
 </StopAreas>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2016-09-27T11:15:01.214" ModificationDateTime="2019-03-06T09:37:13.460" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2016-09-27T11:15:01.214" ModificationDateTime="2024-12-03T16:00:41.301" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3100Y93963E</AtcoCode>
 <NaptanCode>nldwdpmw</NaptanCode>
 <PlateCode>Y93963E</PlateCode>
@@ -124446,6 +124446,82 @@
 <CompassPoint>NE</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>094</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-12-18T14:17:42.370" ModificationDateTime="2024-12-18T14:17:42.370" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3100Z296760</AtcoCode>
+<NaptanCode>nldpjatw</NaptanCode>
+<PlateCode>Z296760</PlateCode>
+<Descriptor>
+<CommonName>Railway Station</CommonName>
+<Street>A192</Street>
+<Indicator>o/s</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0019875</NptgLocalityRef>
+<Town>Seaton Delaval</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>429646</Easting>
+<Northing>575806</Northing>
+<Longitude>-1.5372227</Longitude>
+<Latitude>55.075836</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>094</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2024-12-18T14:24:05.827" ModificationDateTime="2024-12-18T14:24:05.827" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3100Z297758</AtcoCode>
+<NaptanCode>nldpjawd</NaptanCode>
+<PlateCode>Z297758</PlateCode>
+<Descriptor>
+<CommonName>Railway Station</CommonName>
+<Street>A192</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0019875</NptgLocalityRef>
+<Town>Seaton Delaval</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>429726</Easting>
+<Northing>575817</Northing>
+<Longitude>-1.5359724</Longitude>
+<Latitude>55.0759257</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-11-27T14:38:36.798692Z" ModificationDateTime="2024-11-27T14:38:36.798692Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-12-18T15:28:25.1510479Z" ModificationDateTime="2024-12-18T15:28:25.1510479Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-10-04T00:00:00" ModificationDateTime="2016-10-04T13:11:26" Modification="new" RevisionNumber="3" Status="active">
 			<AtcoCode>4680SDON0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-27T14:38:41.6136078Z" ModificationDateTime="2024-11-27T14:38:41.6136078Z">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-12-18T15:28:30.1915206Z" ModificationDateTime="2024-12-18T15:28:30.1915206Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-11-27T14:38:41.6136078Z" ModificationDateTime="2024-11-27T14:38:41.6136078Z">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-12-18T15:28:30.2106732Z" ModificationDateTime="2024-12-18T15:28:30.2106732Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -10156,7 +10156,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2006-12-27T00:00:00" ModificationDateTime="2019-10-23T15:11:58" Modification="new" RevisionNumber="2" Status="active">
+		<StopPoint CreationDateTime="2006-12-27T00:00:00" ModificationDateTime="2024-12-18T13:06:15" Modification="delete" RevisionNumber="34" Status="inactive">
 			<AtcoCode>4680SWA10984</AtcoCode>
 			<NaptanCode>swijtmj</NaptanCode>
 			<Descriptor>
@@ -10193,7 +10193,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2009-07-01T00:00:00" ModificationDateTime="2019-10-23T15:11:58" Modification="new" RevisionNumber="2" Status="active">
+		<StopPoint CreationDateTime="2009-07-01T00:00:00" ModificationDateTime="2024-12-18T13:06:22" Modification="delete" RevisionNumber="34" Status="inactive">
 			<AtcoCode>4680SWA10985</AtcoCode>
 			<NaptanCode>swijtmw</NaptanCode>
 			<Descriptor>
@@ -42267,11 +42267,48 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2019-10-23T15:16:34" Modification="new" RevisionNumber="78" Status="active">
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T13:07:50" Modification="new" RevisionNumber="44" Status="active">
+			<AtcoCode>468000038</AtcoCode>
+			<NaptanCode>swimtpj</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Biddestone Avenue East</CommonName>
+				<Street xml:lang="en">Homington Avenue</Street>
+				<Indicator xml:lang="en">S-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0080888</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418575</Easting>
+						<Northing>182522</Northing>
+						<Longitude>-1.73356</Longitude>
+						<Latitude>51.54129</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>S</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2024-12-13T12:38:53" Modification="new" RevisionNumber="112" Status="active">
 			<AtcoCode>4680SWA90917</AtcoCode>
 			<NaptanCode>swimpjg</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Lordswood Road</CommonName>
+				<CommonName xml:lang="en">Lordswood</CommonName>
 				<Street xml:lang="en">Biddestone Avenue</Street>
 				<Indicator xml:lang="en">SW-bound</Indicator>
 			</Descriptor>
@@ -42304,11 +42341,11 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2019-10-23T15:16:34" Modification="new" RevisionNumber="78" Status="active">
+		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2024-12-13T12:38:43" Modification="new" RevisionNumber="112" Status="active">
 			<AtcoCode>4680SWA90918</AtcoCode>
 			<NaptanCode>swimpjm</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Lordswood Road</CommonName>
+				<CommonName xml:lang="en">Lordswood</CommonName>
 				<Street xml:lang="en">Biddestone Avenue</Street>
 				<Indicator xml:lang="en">NE-bound</Indicator>
 			</Descriptor>
@@ -42341,11 +42378,11 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2021-08-02T10:12:08" Modification="new" RevisionNumber="88" Status="active">
+		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2024-12-13T12:37:33" Modification="new" RevisionNumber="122" Status="active">
 			<AtcoCode>4680SWA90919</AtcoCode>
 			<NaptanCode>swimpjp</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Biddestone Avenue West</CommonName>
+				<CommonName xml:lang="en">Fairwood</CommonName>
 				<Street xml:lang="en">Biddestone Avenue</Street>
 				<Indicator xml:lang="en">N-bound</Indicator>
 			</Descriptor>
@@ -42378,11 +42415,11 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2021-08-02T10:12:19" Modification="new" RevisionNumber="88" Status="active">
+		<StopPoint CreationDateTime="2016-11-23T00:00:00" ModificationDateTime="2024-12-13T12:37:45" Modification="new" RevisionNumber="122" Status="active">
 			<AtcoCode>4680SWA90920</AtcoCode>
 			<NaptanCode>swimpjt</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Biddestone Avenue West</CommonName>
+				<CommonName xml:lang="en">Fairwood</CommonName>
 				<Street xml:lang="en">Biddestone Avenue</Street>
 				<Indicator xml:lang="en">S-bound</Indicator>
 			</Descriptor>
@@ -43505,6 +43542,262 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T12:49:45" Modification="new" RevisionNumber="42" Status="active">
+			<AtcoCode>468000031</AtcoCode>
+			<NaptanCode>swimtmj</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Lucknam Cresent</CommonName>
+				<Indicator xml:lang="en">N-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>419118</Easting>
+						<Northing>181487</Northing>
+						<Longitude>-1.72578</Longitude>
+						<Latitude>51.53197</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T12:50:06" Modification="new" RevisionNumber="38" Status="active">
+			<AtcoCode>468000032</AtcoCode>
+			<NaptanCode>swimtmp</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Lucknam Cresent</CommonName>
+				<Street xml:lang="en">Homington Avenue</Street>
+				<Indicator xml:lang="en">S-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>419148</Easting>
+						<Northing>181433</Northing>
+						<Longitude>-1.72535</Longitude>
+						<Latitude>51.53148</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>S</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T12:53:37" Modification="new" RevisionNumber="42" Status="active">
+			<AtcoCode>468000033</AtcoCode>
+			<NaptanCode>swimtmt</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Oare Lane</CommonName>
+				<Street xml:lang="en">Homington Avenue</Street>
+				<Indicator xml:lang="en">NE-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>419037</Easting>
+						<Northing>181232</Northing>
+						<Longitude>-1.72696</Longitude>
+						<Latitude>51.52968</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>NE</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T12:56:28" Modification="new" RevisionNumber="40" Status="active">
+			<AtcoCode>468000034</AtcoCode>
+			<NaptanCode>swimtmw</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Bolehyde Close</CommonName>
+				<Indicator xml:lang="en">N-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>419088</Easting>
+						<Northing>181748</Northing>
+						<Longitude>-1.7262</Longitude>
+						<Latitude>51.53432</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T12:58:32" Modification="new" RevisionNumber="40" Status="active">
+			<AtcoCode>468000035</AtcoCode>
+			<NaptanCode>swimtpa</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Berryfield</CommonName>
+				<Street xml:lang="en">Homington Avenue</Street>
+				<Indicator xml:lang="en">S-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>419017</Easting>
+						<Northing>181881</Northing>
+						<Longitude>-1.72722</Longitude>
+						<Latitude>51.53552</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>S</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T13:00:48" Modification="new" RevisionNumber="40" Status="active">
+			<AtcoCode>468000036</AtcoCode>
+			<NaptanCode>swimtpd</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Axford Close</CommonName>
+				<Street xml:lang="en">Homington Avenue</Street>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418871</Easting>
+						<Northing>182010</Northing>
+						<Longitude>-1.72932</Longitude>
+						<Latitude>51.53668</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2024-12-13T00:00:00" ModificationDateTime="2024-12-13T13:02:57" Modification="new" RevisionNumber="40" Status="active">
+			<AtcoCode>468000037</AtcoCode>
+			<NaptanCode>swimtpg</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Rainscombe Road</CommonName>
+				<Indicator xml:lang="en">N-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0073251</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418685</Easting>
+						<Northing>182180</Northing>
+						<Longitude>-1.73199</Longitude>
+						<Latitude>51.53822</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>

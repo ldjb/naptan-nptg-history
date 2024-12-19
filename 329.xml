@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN CreationDateTime="2022-11-29T10:29:53" ModificationDateTime="2022-11-29T10:29:53" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\City of York\2022-11-29 - 1145\NaPTAN329.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
+<NaPTAN CreationDateTime="2024-12-18T03:14:47" ModificationDateTime="2024-12-18T03:14:47" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\City of York\2024-12-18 - 1254\NaPTAN329.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-01-31T12:00:00" RevisionNumber="0" Status="active">
       <AtcoCode>3290YYA00000</AtcoCode>
@@ -7,16 +7,16 @@
       <PlateCode>32900000</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RE</ShortCommonName>
-        <Landmark>Royal York Hotel</Landmark>
+        <ShortCommonName>Rail Station Re</ShortCommonName>
+        <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Queen Street</Crossing>
-        <Indicator>RE</Indicator>
+        <Indicator>Stop RE</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -82,7 +82,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -147,8 +147,8 @@
       <NaptanCode>32900003</NaptanCode>
       <PlateCode>32900003</PlateCode>
       <Descriptor>
-        <CommonName>Wheatlands</CommonName>
-        <ShortCommonName>Wheatlands</ShortCommonName>
+        <CommonName>Langley Gate</CommonName>
+        <ShortCommonName>Langley Gate</ShortCommonName>
         <Landmark>Wheatlands House</Landmark>
         <Street>Boroughbridge Road A59</Street>
         <Crossing>A1237 Outer Ring Road</Crossing>
@@ -156,8 +156,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053940</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Upper Poppleton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -193,16 +193,16 @@
       <NaptanCode>32900004</NaptanCode>
       <PlateCode>32900004</PlateCode>
       <Descriptor>
-        <CommonName>Wheatlands</CommonName>
-        <ShortCommonName>Wheatlands</ShortCommonName>
-        <Landmark>N/A</Landmark>
+        <CommonName>Langley Gate</CommonName>
+        <ShortCommonName>Langley Gate</ShortCommonName>
+        <Landmark>Muddy Boots Nursery</Landmark>
         <Street>Boroughbridge Road A59</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053931</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Nether Poppleton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -1323,7 +1323,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -1369,7 +1369,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
@@ -1507,7 +1507,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
@@ -1919,6 +1919,433 @@
       </StopClassification>
       <AdministrativeAreaRef>068</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2024-08-12T12:00:00" ModificationDateTime="2024-08-12T11:56:26" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03690</AtcoCode>
+      <NaptanCode>32903690</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Porter Avenue</CommonName>
+        <ShortCommonName>Porter Avenue</ShortCommonName>
+        <Landmark>Germany Beck Visitor Car Park</Landmark>
+        <Street>Porter Avenue</Street>
+        <Crossing>Washburn Close</Crossing>
+        <Indicator>adj 8</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053933</NptgLocalityRef>
+        <Suburb>Germany Beck</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>461366</Easting>
+            <Northing>449014</Northing>
+            <Longitude>-1.066810903</Longitude>
+            <Latitude>53.933621971</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-10-07T12:00:00" ModificationDateTime="2024-10-07T12:40:00" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03691</AtcoCode>
+      <NaptanCode>32903691</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Newton Way</CommonName>
+        <ShortCommonName>Newton Way</ShortCommonName>
+        <Landmark>Car Park</Landmark>
+        <Street>Newton Way</Street>
+        <Crossing>N.a.</Crossing>
+        <Indicator>opp Athletics Stadium</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053933</NptgLocalityRef>
+        <Suburb>University of York</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>462238</Easting>
+            <Northing>450196</Northing>
+            <Longitude>-1.053290916</Longitude>
+            <Latitude>53.944140149</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-10-11T12:00:00" ModificationDateTime="2024-10-11T09:16:50" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03692</AtcoCode>
+      <NaptanCode>32903692</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Osbaldwick Link Road</CommonName>
+        <ShortCommonName>Osbaldwick Link Rd</ShortCommonName>
+        <Landmark>Industrial Estate</Landmark>
+        <Street>Osbaldwick Link Road</Street>
+        <Crossing>Link Road Court</Crossing>
+        <Indicator>03692</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053933</NptgLocalityRef>
+        <Suburb>Osbaldwick</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>463866</Easting>
+            <Northing>451855</Northing>
+            <Longitude>-1.028145699</Longitude>
+            <Latitude>53.958850686</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T12:15:02" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03693</AtcoCode>
+      <NaptanCode>32903693</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>NRM</CommonName>
+        <ShortCommonName>NRM</ShortCommonName>
+        <Landmark>National Railway Museum</Landmark>
+        <Street>Cinder Street</Street>
+        <Crossing>Hudson Boulevard</Crossing>
+        <Indicator>03693</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>459387</Easting>
+            <Northing>451737</Northing>
+            <Longitude>-1.096420582</Longitude>
+            <Latitude>53.958322835</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T12:30:34" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03694</AtcoCode>
+      <NaptanCode>32903694</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>NRM</CommonName>
+        <ShortCommonName>NRM</ShortCommonName>
+        <Landmark>National Railway Museum</Landmark>
+        <Street>Cinder Street</Street>
+        <Crossing>Hudson Boulevard</Crossing>
+        <Indicator>03694</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>459399</Easting>
+            <Northing>451733</Northing>
+            <Longitude>-1.096238503</Longitude>
+            <Latitude>53.958285514</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T12:33:47" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03695</AtcoCode>
+      <NaptanCode>32903695</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Cinder Street</CommonName>
+        <ShortCommonName>Cinder Street</ShortCommonName>
+        <Landmark>Footbridge</Landmark>
+        <Street>Cinder Street</Street>
+        <Indicator>03695</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>459076</Easting>
+            <Northing>451963</Northing>
+            <Longitude>-1.101115949</Longitude>
+            <Latitude>53.960389346</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T12:55:20" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03696</AtcoCode>
+      <NaptanCode>32903696</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Cinder Street</CommonName>
+        <ShortCommonName>Cinder Street</ShortCommonName>
+        <Landmark>Footbridge</Landmark>
+        <Street>Cinder Street</Street>
+        <Indicator>03696</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>459109</Easting>
+            <Northing>451689</Northing>
+            <Longitude>-1.100666051</Longitude>
+            <Latitude>53.957923254</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T12:57:49" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03697</AtcoCode>
+      <NaptanCode>32903697</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Park Street</CommonName>
+        <ShortCommonName>Park Street</ShortCommonName>
+        <Landmark>N/A</Landmark>
+        <Street>Park Street</Street>
+        <Crossing>Leeman Road West</Crossing>
+        <Indicator>03697</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>458733</Easting>
+            <Northing>451960</Northing>
+            <Longitude>-1.106343455</Longitude>
+            <Latitude>53.960401367</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T01:01:49" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03698</AtcoCode>
+      <NaptanCode>32903698</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Park Street</CommonName>
+        <ShortCommonName>Park Street</ShortCommonName>
+        <Landmark>N/A</Landmark>
+        <Street>Park Street</Street>
+        <Crossing>Hudson Boulevard</Crossing>
+        <Indicator>03698</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>458899</Easting>
+            <Northing>451803</Northing>
+            <Longitude>-1.103844056</Longitude>
+            <Latitude>53.958971632</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T01:04:57" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03699</AtcoCode>
+      <NaptanCode>32903699</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Leeman Road West</CommonName>
+        <ShortCommonName>Leeman Road West</ShortCommonName>
+        <Landmark>Leeman Road Underbridge</Landmark>
+        <Street>Leeman Road Link</Street>
+        <Indicator>03699</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>458696</Easting>
+            <Northing>452085</Northing>
+            <Longitude>-1.106883288</Longitude>
+            <Latitude>53.961528885</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-01-31T12:00:00" RevisionNumber="0" Status="active">
       <AtcoCode>3290YYA00037</AtcoCode>
       <NaptanCode>32900037</NaptanCode>
@@ -1964,6 +2391,48 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2009-06-30T12:00:00" Modification="new" RevisionNumber="0" Status="active">YORK</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2024-12-17T12:00:00" ModificationDateTime="2024-12-17T01:09:49" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03700</AtcoCode>
+      <NaptanCode>32903700</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Leeman Road West</CommonName>
+        <ShortCommonName>Leeman Road West</ShortCommonName>
+        <Landmark>Leeman Road Underbridge</Landmark>
+        <Street>Leeman Road Link</Street>
+        <Indicator>03700</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>York Central</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>458730</Easting>
+            <Northing>452083</Northing>
+            <Longitude>-1.106365537</Longitude>
+            <Latitude>53.961507061</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-01-31T12:00:00" RevisionNumber="0" Status="active">
       <AtcoCode>3290YYA00038</AtcoCode>
@@ -2391,16 +2860,16 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043585</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Dringhouses</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>458622</Easting>
-            <Northing>449468</Northing>
-            <Longitude>-1.108512584</Longitude>
-            <Latitude>53.938019232</Latitude>
+            <Easting>458653</Easting>
+            <Northing>449526</Northing>
+            <Longitude>-1.108029317</Longitude>
+            <Latitude>53.938536954</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -2437,16 +2906,16 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043585</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Dringhouses</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>458629</Easting>
-            <Northing>449509</Northing>
-            <Longitude>-1.108398115</Longitude>
-            <Latitude>53.938386894</Latitude>
+            <Easting>458643</Easting>
+            <Northing>449531</Northing>
+            <Longitude>-1.108180668</Longitude>
+            <Latitude>53.938583018</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -2483,16 +2952,16 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043585</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Dringhouses</Suburb>
+        <Town>York</Town>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>458743</Easting>
-            <Northing>449683</Northing>
-            <Longitude>-1.106628401</Longitude>
-            <Latitude>53.939937673</Latitude>
+            <Easting>458730</Easting>
+            <Northing>449663</Northing>
+            <Longitude>-1.106830248</Longitude>
+            <Latitude>53.939759412</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3007,7 +3476,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -3924,7 +4393,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -3951,16 +4420,16 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043583</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>460335</Easting>
-            <Northing>452948</Northing>
-            <Longitude>-1.081735837</Longitude>
-            <Latitude>53.969096066</Latitude>
+            <Easting>460327</Easting>
+            <Northing>453000</Northing>
+            <Longitude>-1.081847503</Longitude>
+            <Latitude>53.969564298</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3969,7 +4438,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -5671,7 +6140,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -5983,7 +6452,7 @@
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Avenue</Street>
         <Crossing>Leeman Road</Crossing>
-        <Indicator>RM</Indicator>
+        <Indicator>Stop RM</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
@@ -6025,16 +6494,16 @@
       <PlateCode>32900133</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RF</ShortCommonName>
+        <ShortCommonName>Rail Station</ShortCommonName>
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Tea Room Square</Crossing>
-        <Indicator>RF</Indicator>
+        <Indicator>Stop RF</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6074,16 +6543,16 @@
       <PlateCode>32900134</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RG</ShortCommonName>
+        <ShortCommonName>Rail Station</ShortCommonName>
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Tea Room Square</Crossing>
-        <Indicator>RG</Indicator>
+        <Indicator>Stop RG</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6123,16 +6592,16 @@
       <PlateCode>32900136</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RH</ShortCommonName>
+        <ShortCommonName>Rail Station</ShortCommonName>
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Queen Street</Crossing>
-        <Indicator>RH</Indicator>
+        <Indicator>Stop RH</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6172,15 +6641,15 @@
       <PlateCode>32900137</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RJ</ShortCommonName>
-        <Landmark>Rail Station</Landmark>
+        <ShortCommonName>Rail Station</ShortCommonName>
+        <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
-        <Indicator>RJ</Indicator>
+        <Indicator>Stop RJ</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6265,16 +6734,16 @@
       <PlateCode>32900140</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RA</ShortCommonName>
+        <ShortCommonName>Rail Station</ShortCommonName>
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Queen Street</Crossing>
-        <Indicator>RA</Indicator>
+        <Indicator>Stop RA</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6314,16 +6783,16 @@
       <PlateCode>32900141</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RB</ShortCommonName>
+        <ShortCommonName>Rail Station</ShortCommonName>
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Queen Street</Crossing>
-        <Indicator>RB</Indicator>
+        <Indicator>Stop RB</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6367,7 +6836,7 @@
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
         <Crossing>Queen Street</Crossing>
-        <Indicator>RC</Indicator>
+        <Indicator>Stop RC</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
@@ -6412,15 +6881,15 @@
       <PlateCode>32900145</PlateCode>
       <Descriptor>
         <CommonName>Rail Station</CommonName>
-        <ShortCommonName>Rail Station RD</ShortCommonName>
+        <ShortCommonName>Rail Station</ShortCommonName>
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Road</Street>
-        <Indicator>RD</Indicator>
+        <Indicator>Stop RD</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -6624,7 +7093,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
@@ -6716,7 +7185,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
@@ -6946,7 +7415,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -7038,7 +7507,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -9259,7 +9728,7 @@
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Leeman Road</Street>
         <Crossing>Station Rise</Crossing>
-        <Indicator>RL</Indicator>
+        <Indicator>Stop RL</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
@@ -10255,16 +10724,16 @@
       <NaptanCode>32900234</NaptanCode>
       <PlateCode>234</PlateCode>
       <Descriptor>
-        <CommonName>College of Law</CommonName>
-        <ShortCommonName>College of Law</ShortCommonName>
-        <Landmark>College of Law</Landmark>
+        <CommonName>Oneschool Global</CommonName>
+        <ShortCommonName>Oneschool Global</ShortCommonName>
+        <Landmark>Bustardthorpe Allotments</Landmark>
         <Street>Bishopthorpe Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043604</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Middlethorpe</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -10300,16 +10769,16 @@
       <NaptanCode>32900235</NaptanCode>
       <PlateCode>235</PlateCode>
       <Descriptor>
-        <CommonName>College of Law</CommonName>
-        <ShortCommonName>College of Law</ShortCommonName>
-        <Landmark>College of Law</Landmark>
+        <CommonName>Oneschool Global</CommonName>
+        <ShortCommonName>Oneschool Global</ShortCommonName>
+        <Landmark>Bustardthorpe Allotments</Landmark>
         <Street>Bishopthorpe Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043604</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Middlethorpe</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -13919,8 +14388,8 @@
       <NaptanCode>32900315</NaptanCode>
       <PlateCode>315</PlateCode>
       <Descriptor>
-        <CommonName>Nestle Rowntree</CommonName>
-        <ShortCommonName>Nestle Rowntree</ShortCommonName>
+        <CommonName>Jo Rowntree Theatre</CommonName>
+        <ShortCommonName>Joseph Rowntree The</ShortCommonName>
         <Landmark>Rowntree Theatre</Landmark>
         <Street>Haxby Road</Street>
         <Crossing>Haley's Terrace</Crossing>
@@ -13928,8 +14397,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043583</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -13965,8 +14434,8 @@
       <NaptanCode>32900316</NaptanCode>
       <PlateCode>316</PlateCode>
       <Descriptor>
-        <CommonName>Nestle Rowntree</CommonName>
-        <ShortCommonName>Nestle Rowntree</ShortCommonName>
+        <CommonName>Jo Rowntree Theatre</CommonName>
+        <ShortCommonName>Joseph Rowntree The</ShortCommonName>
         <Landmark>Rowntree Theatre</Landmark>
         <Street>Haxby Road</Street>
         <Crossing>Haley's Terrace</Crossing>
@@ -13974,8 +14443,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043583</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -15414,7 +15883,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
@@ -15460,7 +15929,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -16605,7 +17074,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -16651,7 +17120,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -16731,9 +17200,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>459735</Easting>
-            <Northing>453571</Northing>
-            <Longitude>-1.090759176</Longitude>
-            <Latitude>53.974764215</Latitude>
+            <Northing>452945</Northing>
+            <Longitude>-1.090881605</Longitude>
+            <Latitude>53.969138628</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -16762,23 +17231,23 @@
       <PlateCode>378</PlateCode>
       <Descriptor>
         <CommonName>The Coach Yard</CommonName>
-        <ShortCommonName>The Coach Yard</ShortCommonName>
-        <Landmark>Vicarage</Landmark>
+        <ShortCommonName>Burton Croft</ShortCommonName>
+        <Landmark>Grosvenor Park</Landmark>
         <Street>Burton Stone Lane</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043583</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>459661</Easting>
-            <Northing>452839</Northing>
-            <Longitude>-1.092030214</Longitude>
-            <Latitude>53.968194578</Latitude>
+            <Easting>459724</Easting>
+            <Northing>452944</Northing>
+            <Longitude>-1.091049463</Longitude>
+            <Latitude>53.969130909</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -17245,7 +17714,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -17291,7 +17760,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -17383,7 +17852,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -17429,7 +17898,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
@@ -17475,7 +17944,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -17540,8 +18009,8 @@
       <NaptanCode>32900395</NaptanCode>
       <PlateCode>395</PlateCode>
       <Descriptor>
-        <CommonName>Canon Lee School</CommonName>
-        <ShortCommonName>Canon Lee School</ShortCommonName>
+        <CommonName>Vale of York Academy</CommonName>
+        <ShortCommonName>Vale of York Acad</ShortCommonName>
         <Landmark>Canon Lee School</Landmark>
         <Street>Rawcliffe Drive</Street>
         <Crossing>Rawcliffe Lane</Crossing>
@@ -17549,8 +18018,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053915</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton Without</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -17705,7 +18174,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
@@ -17889,7 +18358,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
@@ -19910,7 +20379,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -28769,16 +29238,16 @@
       <NaptanCode>32900648</NaptanCode>
       <PlateCode>648</PlateCode>
       <Descriptor>
-        <CommonName>Mille Crux</CommonName>
-        <ShortCommonName>Mille Crux</ShortCommonName>
+        <CommonName>Foss Park Hospital</CommonName>
+        <ShortCommonName>Foss Park Hospital</ShortCommonName>
         <Landmark>Rugby Football Ground</Landmark>
         <Street>Haxby Road</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053932</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>New Earswick</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -28814,16 +29283,16 @@
       <NaptanCode>32900649</NaptanCode>
       <PlateCode>649</PlateCode>
       <Descriptor>
-        <CommonName>Mille Crux</CommonName>
-        <ShortCommonName>Mille Crux</ShortCommonName>
+        <CommonName>Foss Park Hospital</CommonName>
+        <ShortCommonName>Foss Park Hospital</ShortCommonName>
         <Landmark>Rugby Football Ground</Landmark>
         <Street>Haxby Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053932</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>New Earswick</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -29162,7 +29631,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -29208,7 +29677,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -30402,16 +30871,16 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053936</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Skelton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>456887</Easting>
-            <Northing>455941</Northing>
-            <Longitude>-1.133732900</Longitude>
-            <Latitude>53.996383132</Latitude>
+            <Easting>456825</Easting>
+            <Northing>456034</Northing>
+            <Longitude>-1.134661205</Longitude>
+            <Latitude>53.997225698</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -30420,7 +30889,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -30466,7 +30935,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -30512,7 +30981,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
@@ -30648,7 +31117,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -31149,7 +31618,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -35412,8 +35881,8 @@
       <NaptanCode>32900801</NaptanCode>
       <PlateCode>32900801</PlateCode>
       <Descriptor>
-        <CommonName>Canon Lee School</CommonName>
-        <ShortCommonName>Canon Lee School</ShortCommonName>
+        <CommonName>Vale of York Academy</CommonName>
+        <ShortCommonName>Vale of York Acad</ShortCommonName>
         <Landmark>Canon Lee School</Landmark>
         <Street>Rawcliffe Drive</Street>
         <Crossing>Rawcliffe Lane</Crossing>
@@ -35421,8 +35890,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053915</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton Without</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -37988,7 +38457,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -38763,7 +39232,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
@@ -38855,7 +39324,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
@@ -39150,17 +39619,17 @@
       <NaptanCode>32900906</NaptanCode>
       <PlateCode>32900906</PlateCode>
       <Descriptor>
-        <CommonName>The Corner House</CommonName>
-        <ShortCommonName>The Corner House</ShortCommonName>
-        <Landmark>The Corner House PH</Landmark>
+        <CommonName>Cromer Street</CommonName>
+        <ShortCommonName>Cromer Street</ShortCommonName>
+        <Landmark>Heron Foods</Landmark>
         <Street>Burton Stone Lane</Street>
         <Crossing>Cromer Street</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043583</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -39196,17 +39665,17 @@
       <NaptanCode>32900907</NaptanCode>
       <PlateCode>32900907</PlateCode>
       <Descriptor>
-        <CommonName>The Corner House</CommonName>
-        <ShortCommonName>The Corner House</ShortCommonName>
-        <Landmark>N/A</Landmark>
+        <CommonName>Cromer Street</CommonName>
+        <ShortCommonName>Cromer Street</ShortCommonName>
+        <Landmark>Heron Foods</Landmark>
         <Street>Burton Stone Lane</Street>
         <Crossing>Burton Avenue</Crossing>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043583</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Clifton</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -39941,7 +40410,7 @@
         <Landmark>Rail Station Interchange</Landmark>
         <Street>Station Rise</Street>
         <Crossing>Leeman Road</Crossing>
-        <Indicator>RK</Indicator>
+        <Indicator>Stop RK</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
@@ -40008,7 +40477,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
@@ -40191,7 +40660,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -40925,7 +41394,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -41427,7 +41896,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -41473,7 +41942,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -45186,16 +45655,16 @@
       <PlateCode>32901080</PlateCode>
       <Descriptor>
         <CommonName>Piccadilly</CommonName>
-        <ShortCommonName>Piccadilly</ShortCommonName>
+        <ShortCommonName>Piccadilly Pd</ShortCommonName>
         <Landmark>Banana Warehouse</Landmark>
         <Street>Piccadilly</Street>
         <Crossing>Merchantgate</Crossing>
-        <Indicator>Setting Down Only</Indicator>
+        <Indicator>PD</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055251</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>York</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -45793,7 +46262,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -45835,7 +46304,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -45969,7 +46438,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -46015,7 +46484,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -46153,7 +46622,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
@@ -46199,7 +46668,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
@@ -47325,7 +47794,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
@@ -47462,7 +47931,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>CUS</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -47553,7 +48022,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -49007,7 +49476,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
@@ -50652,16 +51121,16 @@
       <NaptanCode>32901644</NaptanCode>
       <PlateCode>1644</PlateCode>
       <Descriptor>
-        <CommonName>The Four Alls</CommonName>
-        <ShortCommonName>The Four Alls</ShortCommonName>
-        <Landmark>The Four Alls PH</Landmark>
+        <CommonName>Sandburn Wood</CommonName>
+        <ShortCommonName>Sandburn Wood</ShortCommonName>
+        <Landmark>Neptune Furniture Shop</Landmark>
         <Street>A64</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043594</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Hazelbush</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -50694,16 +51163,16 @@
       <NaptanCode>32901645</NaptanCode>
       <PlateCode>1645</PlateCode>
       <Descriptor>
-        <CommonName>The Four Alls</CommonName>
-        <ShortCommonName>The Four Alls</ShortCommonName>
-        <Landmark>The Four Alls PH</Landmark>
+        <CommonName>Sandburn Wood</CommonName>
+        <ShortCommonName>Sandburn Wood</ShortCommonName>
+        <Landmark>Neptune Furniture Shop</Landmark>
         <Street>A64</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043594</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Hazelbush</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -52986,7 +53455,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
