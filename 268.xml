@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-28T16:45:31.174" ModificationDateTime="2024-10-28T16:45:31.174" Modification="new" RevisionNumber="0" FileName="NaPTAN268.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-19T09:10:57.879" ModificationDateTime="2024-12-19T09:10:57.879" Modification="new" RevisionNumber="0" FileName="NaPTAN268.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2013-05-13T10:11:47.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>268060001</AtcoCode>
@@ -9371,14 +9371,14 @@
 </StopAreas>
 <AdministrativeAreaRef>049</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-04-18T00:00:00.000" ModificationDateTime="2012-02-23T12:24:31.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-04-18T00:00:00.000" ModificationDateTime="2024-12-17T17:47:47.331" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>268060212</AtcoCode>
 <NaptanCode>rtladgtg</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Melton Road</CommonName>
 <Landmark xml:lang="en">Coach House</Landmark>
 <Street xml:lang="en">Melton Road</Street>
-<Indicator xml:lang="en">opp</Indicator>
+<Indicator xml:lang="en">westbound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0053653</NptgLocalityRef>
@@ -9386,10 +9386,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>484280</Easting>
-<Northing>310914</Northing>
-<Longitude>-0.754534</Longitude>
-<Latitude>52.689386</Latitude>
+<Easting>484278</Easting>
+<Northing>310916</Northing>
+<Longitude>-0.754564</Longitude>
+<Latitude>52.689404</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -9398,10 +9398,10 @@
 <OnStreet>
 <Bus>
 <BusStopType>MKD</BusStopType>
-<TimingStatus>OTH</TimingStatus>
+<TimingStatus>TIP</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>SW</CompassPoint>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -9937,7 +9937,7 @@
 </StopClassification>
 <AdministrativeAreaRef>049</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-22T00:00:00.000" ModificationDateTime="2014-10-21T15:26:34.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-08-22T00:00:00.000" ModificationDateTime="2024-12-16T18:12:37.442" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>268060222</AtcoCode>
 <NaptanCode>rtladmdw</NaptanCode>
 <Descriptor>
@@ -9952,10 +9952,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>503350</Easting>
-<Northing>311292</Northing>
-<Longitude>-0.472377</Longitude>
-<Latitude>52.689485</Latitude>
+<Easting>503450</Easting>
+<Northing>311254</Northing>
+<Longitude>-0.470905</Longitude>
+<Latitude>52.68912</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -9969,19 +9969,19 @@
 <StartPoint>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>503190</Easting>
-<Northing>311264</Northing>
-<Longitude>-0.4747525</Longitude>
-<Latitude>52.6892638</Latitude>
+<Easting>503356</Easting>
+<Northing>311285</Northing>
+<Longitude>-0.4722820</Longitude>
+<Latitude>52.6894275</Latitude>
 </Translation>
 </StartPoint>
 <EndPoint>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>503522</Easting>
-<Northing>311254</Northing>
-<Longitude>-0.4698457</Longitude>
-<Latitude>52.6891107</Latitude>
+<Easting>503523</Easting>
+<Northing>311248</Northing>
+<Longitude>-0.4698272</Longitude>
+<Latitude>52.6890635</Latitude>
 </Translation>
 </EndPoint>
 <Bearing>
@@ -10012,7 +10012,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-22T00:00:00.000" ModificationDateTime="2014-10-21T15:28:11.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2005-08-22T00:00:00.000" ModificationDateTime="2024-12-16T18:06:26.808" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>268060223</AtcoCode>
 <NaptanCode>rtladmga</NaptanCode>
 <Descriptor>
@@ -10027,10 +10027,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>503364</Easting>
-<Northing>311263</Northing>
-<Longitude>-0.47218</Longitude>
-<Latitude>52.689222</Latitude>
+<Easting>503478</Easting>
+<Northing>311232</Northing>
+<Longitude>-0.470504</Longitude>
+<Latitude>52.688924</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -10038,31 +10038,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>HAR</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>TIP</TimingStatus>
-<HailAndRideSection Modification="new" Status="active">
-<StartPoint>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>503510</Easting>
-<Northing>311220</Northing>
-<Longitude>-0.4700338</Longitude>
-<Latitude>52.6888075</Latitude>
-</Translation>
-</StartPoint>
-<EndPoint>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>503206</Easting>
-<Northing>311235</Northing>
-<Longitude>-0.4745250</Longitude>
-<Latitude>52.6890002</Latitude>
-</Translation>
-</EndPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</HailAndRideSection>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -12211,6 +12193,50 @@
 <StopValidity Modification="new" Status="active">
 <DateRange>
 <StartDate>2024-10-28</StartDate>
+</DateRange>
+<Active />
+</StopValidity>
+</StopAvailability>
+</StopPoint>
+<StopPoint CreationDateTime="2024-12-17T17:55:14.075" ModificationDateTime="2024-12-17T17:55:14.075" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>268060257</AtcoCode>
+<NaptanCode>rtlajpwt</NaptanCode>
+<Descriptor>
+<CommonName>Melton Road</CommonName>
+<Street>Melton Road</Street>
+<Indicator>eastbound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053653</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484277</Easting>
+<Northing>310927</Northing>
+<Longitude>-0.7545696</Longitude>
+<Latitude>52.6895060</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>049</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2024-12-17</StartDate>
 </DateRange>
 <Active />
 </StopValidity>
