@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN CreationDateTime="2024-12-30T10:21:38" ModificationDateTime="2024-12-30T10:21:38" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\City of York\2024-12-30 - 1256\NaPTAN329.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
+<NaPTAN CreationDateTime="2025-01-07T12:00:52" ModificationDateTime="2025-01-07T12:00:52" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\City of York\2025-01-07 - 1257\NaPTAN329.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-01-31T12:00:00" RevisionNumber="0" Status="active">
       <AtcoCode>3290YYA00000</AtcoCode>
@@ -2053,8 +2053,8 @@
       <NaptanCode>32903693</NaptanCode>
       <PlateCode />
       <Descriptor>
-        <CommonName>Nrm</CommonName>
-        <ShortCommonName>Nrm</ShortCommonName>
+        <CommonName>NRM</CommonName>
+        <ShortCommonName>NRM</ShortCommonName>
         <Landmark>National Railway Museum</Landmark>
         <Street>Cinder Street</Street>
         <Crossing>Hudson Boulevard</Crossing>
@@ -2096,8 +2096,8 @@
       <NaptanCode>32903694</NaptanCode>
       <PlateCode />
       <Descriptor>
-        <CommonName>Nrm</CommonName>
-        <ShortCommonName>Nrm</ShortCommonName>
+        <CommonName>NRM</CommonName>
+        <ShortCommonName>NRM</ShortCommonName>
         <Landmark>National Railway Museum</Landmark>
         <Street>Cinder Street</Street>
         <Crossing>Hudson Boulevard</Crossing>
@@ -2427,6 +2427,49 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-01-06T12:00:00" ModificationDateTime="2025-01-06T04:50:40" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03701</AtcoCode>
+      <NaptanCode>32903701</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Bowness Drive</CommonName>
+        <ShortCommonName>Bowness Drive</ShortCommonName>
+        <Landmark>N/A</Landmark>
+        <Street>Eastholme Drive</Street>
+        <Crossing>Bowness Drive</Crossing>
+        <Indicator>03701</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053911</NptgLocalityRef>
+        <Suburb>Rawcliffe</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>458237</Easting>
+            <Northing>454471</Northing>
+            <Longitude>-1.113423205</Longitude>
+            <Latitude>53.983022729</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
