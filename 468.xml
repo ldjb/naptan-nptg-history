@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-12-18T15:28:25.1510479Z" ModificationDateTime="2024-12-18T15:28:25.1510479Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-08T14:15:03.177569Z" ModificationDateTime="2025-01-08T14:15:03.1810664Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-10-04T00:00:00" ModificationDateTime="2016-10-04T13:11:26" Modification="new" RevisionNumber="3" Status="active">
 			<AtcoCode>4680SDON0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-12-18T15:28:30.1915206Z" ModificationDateTime="2024-12-18T15:28:30.1915206Z">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-01-08T14:15:08.3682505Z" ModificationDateTime="2025-01-08T14:15:08.3682505Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2024-12-18T15:28:30.2106732Z" ModificationDateTime="2024-12-18T15:28:30.2106732Z">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-01-08T14:15:08.3732496Z" ModificationDateTime="2025-01-08T14:15:08.3737482Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -28546,43 +28546,6 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2022-07-20T00:00:00" ModificationDateTime="2022-07-20T09:52:21" Modification="new" RevisionNumber="64" Status="active">
-			<AtcoCode>468000004</AtcoCode>
-			<NaptanCode>swimtap</NaptanCode>
-			<Descriptor>
-				<CommonName xml:lang="en">Torun Way</CommonName>
-				<Street xml:lang="en">Thursday Street</Street>
-				<Indicator xml:lang="en">E-bound</Indicator>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>N0061233</NptgLocalityRef>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>412694</Easting>
-						<Northing>188897</Northing>
-						<Longitude>-1.81813</Longitude>
-						<Latitude>51.59878</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>BCT</StopType>
-				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>E</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
-				</OnStreet>
-			</StopClassification>
-			<AdministrativeAreaRef>057</AdministrativeAreaRef>
-		</StopPoint>
 		<StopPoint CreationDateTime="2009-04-27T00:00:00" ModificationDateTime="2019-10-23T15:11:54" Modification="new" RevisionNumber="2" Status="active">
 			<AtcoCode>4680SWA01174</AtcoCode>
 			<NaptanCode>swimgwm</NaptanCode>
@@ -43798,6 +43761,43 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2022-07-20T00:00:00" ModificationDateTime="2024-12-30T11:40:56" Modification="new" RevisionNumber="99" Status="active">
+			<AtcoCode>468000004</AtcoCode>
+			<NaptanCode>swimtap</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Kopernik Road</CommonName>
+				<Street xml:lang="en">Thursday Street</Street>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061233</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>412694</Easting>
+						<Northing>188897</Northing>
+						<Longitude>-1.81813</Longitude>
+						<Latitude>51.59878</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
