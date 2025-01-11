@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-16T09:59:16.4784672Z" ModificationDateTime="2024-12-16T09:59:16.4784672Z" Modification="new" RevisionNumber="1" FileName="069 16.12.24.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-10T09:51:09.6356044Z" ModificationDateTime="2025-01-10T09:51:09.6356044Z" Modification="new" RevisionNumber="1" FileName="069 10.01.25.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2024-09-25T09:53:15" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>069000003706</AtcoCode>
@@ -62049,6 +62049,52 @@
         <StopValidity CreationDateTime="2024-12-09T09:50:36" ModificationDateTime="2024-12-09T09:50:36" Modification="new">
           <DateRange>
             <StartDate>2024-12-09</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-01-10T09:50:09" ModificationDateTime="2025-01-10T09:47:02" Modification="new" Status="active">
+      <AtcoCode>0690WNA09281</AtcoCode>
+      <NaptanCode>WRGMTGW</NaptanCode>
+      <Descriptor>
+        <CommonName>Jubilee Way Orford</CommonName>
+        <ShortCommonName>Jubilee Way</ShortCommonName>
+        <Street>Jubilee Way</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043038</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>360682</Easting>
+            <Northing>389953</Northing>
+            <Longitude>-2.592869268</Longitude>
+            <Latitude>53.404918567</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>063</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-01-10T09:50:10" ModificationDateTime="2025-01-10T09:50:10" Modification="new">WRGT</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-10T09:50:10" ModificationDateTime="2025-01-10T09:50:10" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-10</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
