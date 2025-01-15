@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-20T15:13:03.235" ModificationDateTime="2024-12-20T15:13:03.235" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-14T15:30:50.571" ModificationDateTime="2025-01-14T15:30:50.571" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-07-19T00:00:00.000" ModificationDateTime="2009-02-26T14:12:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>228000001961</AtcoCode>
@@ -12257,7 +12257,7 @@
 <PlusbusZoneRef CreationDateTime="2003-11-12T00:00:00.000" ModificationDateTime="2009-03-16T09:11:00.000" Modification="revise" RevisionNumber="2" Status="active">GRMSBYT</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-12T00:00:00.000" ModificationDateTime="2018-10-11T15:29:50.001" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2003-11-12T00:00:00.000" ModificationDateTime="2025-01-14T15:30:12.761" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>228000048523</AtcoCode>
 <NaptanCode>griawdt</NaptanCode>
 <Descriptor>
@@ -35364,7 +35364,7 @@
 <PlusbusZoneRef CreationDateTime="2007-10-10T15:10:00.000" ModificationDateTime="2009-03-17T12:18:00.000" Modification="revise" RevisionNumber="4" Status="active">GRMSBYT</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-10-10T15:14:00.000" ModificationDateTime="2016-06-24T15:37:59.001" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2007-10-10T15:14:00.000" ModificationDateTime="2025-01-14T15:29:29.470" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>22800656027</AtcoCode>
 <NaptanCode>gripwgm</NaptanCode>
 <Descriptor>
@@ -35391,13 +35391,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
