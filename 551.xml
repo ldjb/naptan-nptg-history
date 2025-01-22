@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T10:26:57.9686752Z" ModificationDateTime="2024-10-30T10:26:57.9686752Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-21T16:04:06.7124256Z" ModificationDateTime="2025-01-21T16:04:06.7124256Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:48" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5510ANZ12678</AtcoCode>
@@ -21083,7 +21083,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:32" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-01-21T16:03:04" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5510AWA13003</AtcoCode>
       <NaptanCode>bregpat</NaptanCode>
       <Descriptor>
@@ -21094,7 +21094,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:52:32" ModificationDateTime="2024-04-26T15:52:32" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:52:32" ModificationDateTime="2025-01-21T16:03:04" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Cwrt Blaen Ogwr</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T15:52:32" ModificationDateTime="2024-04-26T15:52:32" Modification="new">
@@ -21133,6 +21133,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-21T16:03:04" ModificationDateTime="2025-01-21T16:03:04" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-21</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:26" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5510AWA13005</AtcoCode>
@@ -22473,7 +22481,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:26" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-01-21T16:02:38" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5510AWA13033</AtcoCode>
       <NaptanCode>bregpaw</NaptanCode>
       <Descriptor>
@@ -22484,7 +22492,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:52:26" ModificationDateTime="2024-04-26T15:52:26" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:52:26" ModificationDateTime="2025-01-21T16:02:38" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Capel Hope</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T15:52:26" ModificationDateTime="2024-04-26T15:52:26" Modification="new">
@@ -22499,8 +22507,8 @@
             <GridType>UKOS</GridType>
             <Easting>293740</Easting>
             <Northing>192065</Northing>
-            <Longitude>-3.536180918</Longitude>
-            <Latitude>51.617348669</Latitude>
+            <Longitude>-3.536180806</Longitude>
+            <Latitude>51.617343976</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -22522,6 +22530,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-21T16:01:40" ModificationDateTime="2025-01-21T16:01:40" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-21</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5510AWA13034</AtcoCode>
