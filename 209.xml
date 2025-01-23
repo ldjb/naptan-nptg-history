@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.79.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-10T19:01:03.5778932Z" ModificationDateTime="2024-12-10T19:01:03.5778932Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-22T23:09:54.3565624Z" ModificationDateTime="2025-01-22T23:09:54.3565624Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -7580,11 +7580,11 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-11-09T10:08:02" ModificationDateTime="2023-11-09T10:02:37" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2023-11-09T10:08:02" ModificationDateTime="2024-12-13T18:21:34" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2090A0106432</AtcoCode>
       <NaptanCode>heratptam</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Station Medical Centre</CommonName>
+        <CommonName>Station Medical Centre</CommonName>
         <Landmark>Station Medical Centre</Landmark>
         <Street>Station Approach</Street>
         <Indicator>adj</Indicator>
@@ -7605,13 +7605,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -8029,7 +8029,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-12T15:50:49" ModificationDateTime="2024-11-28T14:24:37" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-11-12T15:50:49" ModificationDateTime="2025-01-22T23:08:26" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2090A0106456</AtcoCode>
       <NaptanCode>heratptgd</NaptanCode>
       <Descriptor>
@@ -8044,10 +8044,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>360829</Easting>
-            <Northing>225370</Northing>
-            <Longitude>-2.571032906</Longitude>
-            <Latitude>51.925457755</Latitude>
+            <Easting>360832</Easting>
+            <Northing>225353</Northing>
+            <Longitude>-2.570987342</Longitude>
+            <Latitude>51.925305131</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8075,7 +8075,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-12T16:03:14" ModificationDateTime="2024-11-28T14:27:10" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-11-12T16:03:14" ModificationDateTime="2025-01-22T23:06:56" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2090A0106458</AtcoCode>
       <NaptanCode>heratptgj</NaptanCode>
       <Descriptor>
@@ -8090,10 +8090,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>360799</Easting>
-            <Northing>225382</Northing>
-            <Longitude>-2.571470513</Longitude>
-            <Latitude>51.925563522</Latitude>
+            <Easting>360806</Easting>
+            <Northing>225360</Northing>
+            <Longitude>-2.571366212</Longitude>
+            <Latitude>51.925366228</Latitude>
           </Translation>
         </Location>
       </Place>
