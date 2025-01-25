@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-21T12:11:07.488" ModificationDateTime="2025-01-21T12:11:07.488" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-24T13:15:43.100" ModificationDateTime="2025-01-24T13:15:43.100" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -9288,12 +9288,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2025-01-24T10:59:59.061" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001235</AtcoCode>
 <NaptanCode>72725745</NaptanCode>
 <Descriptor>
-<CommonName>Thornielee Rd End</CommonName>
-<Landmark>Thornielee Road End</Landmark>
+<CommonName>Thornylee Road End</CommonName>
+<ShortCommonName>Thornylee Rd End</ShortCommonName>
+<Landmark>Thornylee Road End</Landmark>
 <Street>A72</Street>
 <Indicator>At</Indicator>
 </Descriptor>
@@ -9326,12 +9327,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-10-10T00:00:00.000" ModificationDateTime="2025-01-24T10:57:46.356" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001236</AtcoCode>
 <NaptanCode>72725742</NaptanCode>
 <Descriptor>
-<CommonName>Thornielee Rd End</CommonName>
-<Landmark>Thornielee Road End</Landmark>
+<CommonName>Thornylee Road End</CommonName>
+<ShortCommonName>Thornylee Rd End</ShortCommonName>
+<Landmark>Thornylee Road End</Landmark>
 <Street>A72</Street>
 <Indicator>Opp</Indicator>
 </Descriptor>
@@ -9710,14 +9712,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-13T00:00:00.000" ModificationDateTime="2018-08-23T13:41:41.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-10-13T00:00:00.000" ModificationDateTime="2025-01-24T10:51:25.963" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001246</AtcoCode>
 <NaptanCode>72726764</NaptanCode>
 <Descriptor>
-<CommonName>Holylee Lodge</CommonName>
-<Landmark>Holylee Lodge</Landmark>
+<CommonName>Holylee Lodge Hail &amp; Ride</CommonName>
+<ShortCommonName>Holylee Lodge H&amp;R</ShortCommonName>
+<Landmark>A72 near Holylee Lodge</Landmark>
 <Street>A72</Street>
-<Indicator>O/s</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES003775</NptgLocalityRef>
@@ -9725,10 +9728,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>339059</Easting>
+<Easting>339052</Easting>
 <Northing>637469</Northing>
-<Longitude>-2.96937</Longitude>
-<Latitude>55.626951</Latitude>
+<Longitude>-2.969477</Longitude>
+<Latitude>55.62695</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -9736,26 +9739,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>338226</Easting>
+<Northing>637759</Northing>
+<Longitude>-2.9826517</Longitude>
+<Latitude>55.6294544</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>339346</Easting>
+<Northing>637414</Northing>
+<Longitude>-2.9647887</Longitude>
+<Latitude>55.6265015</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-13T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-10-13T00:00:00.000" ModificationDateTime="2025-01-24T10:53:01.758" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001247</AtcoCode>
 <NaptanCode>72726763</NaptanCode>
 <Descriptor>
-<CommonName>Holylee Lodge</CommonName>
-<Landmark>Holylee Lodge</Landmark>
+<CommonName>Holylee Lodge Hail &amp; Ride</CommonName>
+<ShortCommonName>Holylee Lodge H&amp;R</ShortCommonName>
+<Landmark>A72 near Holylee Lodge</Landmark>
 <Street>A72</Street>
-<Indicator>Opp</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES003775</NptgLocalityRef>
@@ -9774,13 +9794,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>339339</Easting>
+<Northing>637408</Northing>
+<Longitude>-2.9649082</Longitude>
+<Latitude>55.6264434</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>338248</Easting>
+<Northing>637737</Northing>
+<Longitude>-2.9823007</Longitude>
+<Latitude>55.6292657</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -11579,14 +11615,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-23T13:59:40.358" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001293</AtcoCode>
 <NaptanCode>72725352</NaptanCode>
 <Descriptor>
-<CommonName>Portmore Estate</CommonName>
-<Landmark>Estate Entrance</Landmark>
+<CommonName>Portmore Estate Hail &amp; Ride</CommonName>
+<Landmark>A703 Eddleston to Portmore Estate</Landmark>
 <Street>A703</Street>
-<Indicator>At</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001266</NptgLocalityRef>
@@ -11605,26 +11641,42 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>324391</Easting>
+<Northing>648904</Northing>
+<Longitude>-3.2054046</Longitude>
+<Latitude>55.7276159</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>324300</Easting>
+<Northing>647345</Northing>
+<Longitude>-3.2064168</Longitude>
+<Latitude>55.7136024</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-23T14:01:11.031" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001294</AtcoCode>
 <NaptanCode>72725349</NaptanCode>
 <Descriptor>
-<CommonName>Portmore Estate</CommonName>
-<Landmark>Estate Entrance</Landmark>
+<CommonName>Portmore Estate Hail &amp; Ride</CommonName>
+<Landmark>A703 Eddleston to Portmore Estate</Landmark>
 <Street>A703</Street>
-<Indicator>Opp</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001266</NptgLocalityRef>
@@ -11643,26 +11695,42 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>324301</Easting>
+<Northing>647363</Northing>
+<Longitude>-3.2064134</Longitude>
+<Latitude>55.7137638</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>324376</Easting>
+<Northing>648917</Northing>
+<Longitude>-3.2056563</Longitude>
+<Latitude>55.7277290</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2011-08-03T14:47:56.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-23T13:45:19.542" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001295</AtcoCode>
 <NaptanCode>72725375</NaptanCode>
 <Descriptor>
-<CommonName>Fala Toll</CommonName>
+<CommonName>Falla Toll</CommonName>
 <Landmark>Temple Road End</Landmark>
 <Street>A703</Street>
-<Indicator>At</Indicator>
+<Indicator>S-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079310</NptgLocalityRef>
@@ -11694,14 +11762,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2011-08-03T14:48:26.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-23T13:45:39.092" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001296</AtcoCode>
 <NaptanCode>72725378</NaptanCode>
 <Descriptor>
-<CommonName>Fala Toll</CommonName>
-<Landmark>Temple Road End</Landmark>
+<CommonName>Falla Toll</CommonName>
+<Landmark>Waterheads Road End</Landmark>
 <Street>A703</Street>
-<Indicator>Opp</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079310</NptgLocalityRef>
@@ -11709,10 +11777,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>324464</Easting>
-<Northing>651150</Northing>
-<Longitude>-3.204877</Longitude>
-<Latitude>55.747799</Latitude>
+<Easting>324481</Easting>
+<Northing>651012</Northing>
+<Longitude>-3.204565</Longitude>
+<Latitude>55.74656</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -11916,12 +11984,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2011-08-03T14:49:11.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-24T12:19:25.780" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001301</AtcoCode>
 <NaptanCode>72727252</NaptanCode>
 <Descriptor>
-<CommonName>Glentress Hotel</CommonName>
-<Landmark>Glentress Road End</Landmark>
+<CommonName>Glentress Hotel Hail &amp; Ride</CommonName>
+<ShortCommonName>Glentress H&amp;R</ShortCommonName>
+<Landmark>A72 near Glentress Hotel</Landmark>
 <Street>A72</Street>
 <Indicator>opp</Indicator>
 </Descriptor>
@@ -11942,13 +12011,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>328638</Easting>
+<Northing>639295</Northing>
+<Longitude>-3.1352944</Longitude>
+<Latitude>55.6419461</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>328194</Easting>
+<Northing>639609</Northing>
+<Longitude>-3.1424251</Longitude>
+<Latitude>55.6447007</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -11992,12 +12077,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2022-12-06T15:14:24.718" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-24T10:27:07.994" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001303</AtcoCode>
 <NaptanCode>72726939</NaptanCode>
 <Descriptor>
 <CommonName>Linnburn</CommonName>
-<Landmark>Linnburn</Landmark>
+<Landmark>Linnburn Bus Shelter</Landmark>
 <Street>A72</Street>
 <Indicator>Opp</Indicator>
 </Descriptor>
@@ -12031,12 +12116,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2022-12-06T15:15:33.517" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-01-24T10:23:38.217" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001304</AtcoCode>
 <NaptanCode>72726982</NaptanCode>
 <Descriptor>
 <CommonName>Linnburn</CommonName>
-<Landmark>Linnburn</Landmark>
+<Landmark>Linnburn Road End</Landmark>
 <Street>A72</Street>
 <Indicator>At</Indicator>
 </Descriptor>
@@ -24816,14 +24901,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2025-01-24T11:53:28.495" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>69001646</AtcoCode>
 <NaptanCode>72798757</NaptanCode>
 <Descriptor>
-<CommonName>The Nest Kennels</CommonName>
-<Landmark>Kennels</Landmark>
+<CommonName>The Nest Kennels Hail &amp; Ride</CommonName>
+<ShortCommonName>Nest Kennels H&amp;R</ShortCommonName>
+<Landmark>A72 near The Nest Kennels</Landmark>
 <Street>A72</Street>
-<Indicator>At</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067257</NptgLocalityRef>
@@ -24842,26 +24928,43 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>342128</Easting>
+<Northing>636201</Northing>
+<Longitude>-2.9203630</Longitude>
+<Latitude>55.6159393</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>343440</Easting>
+<Northing>635290</Northing>
+<Longitude>-2.8993422</Longitude>
+<Latitude>55.6079088</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2025-01-24T11:54:58.885" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>69001647</AtcoCode>
 <NaptanCode>72798758</NaptanCode>
 <Descriptor>
-<CommonName>The Nest Kennels</CommonName>
-<Landmark>Kennels</Landmark>
+<CommonName>The Nest Kennels Hail &amp; Ride</CommonName>
+<ShortCommonName>Nest Kennels H&amp;R</ShortCommonName>
+<Landmark>A72 near The Nest Kennels</Landmark>
 <Street>A72</Street>
-<Indicator>Opp</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067257</NptgLocalityRef>
@@ -24880,13 +24983,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>343413</Easting>
+<Northing>635268</Northing>
+<Longitude>-2.8997714</Longitude>
+<Latitude>55.6077110</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>342144</Easting>
+<Northing>636162</Northing>
+<Longitude>-2.9201041</Longitude>
+<Latitude>55.6155917</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -26182,14 +26301,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2022-12-06T15:23:51.687" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2009-01-23T00:00:00.000" ModificationDateTime="2025-01-24T12:20:42.866" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001679</AtcoCode>
 <NaptanCode>72798424</NaptanCode>
 <Descriptor>
-<CommonName>Eshiels Mill</CommonName>
-<Landmark>Eshiels Mill</Landmark>
+<CommonName>Eshiels Mill Hail &amp; Ride</CommonName>
+<ShortCommonName>Eshiels Mill H&amp;R</ShortCommonName>
+<Landmark>A72 near Eshiels Mill</Landmark>
 <Street>A72</Street>
-<Indicator>at</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0079290</NptgLocalityRef>
@@ -26208,13 +26328,29 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<Easting>327759</Easting>
+<Northing>639691</Northing>
+<Longitude>-3.1493606</Longitude>
+<Latitude>55.6453665</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>327314</Easting>
+<Northing>639839</Northing>
+<Longitude>-3.1564702</Longitude>
+<Latitude>55.6466351</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -55563,18 +55699,20 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-12-19T14:44:14.001" ModificationDateTime="2022-12-19T14:44:14.001" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2022-12-19T14:44:14.001" ModificationDateTime="2025-01-24T13:12:00.511" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>69002119</AtcoCode>
 <NaptanCode>7272119</NaptanCode>
 <Descriptor>
 <CommonName>Hillside Garage</CommonName>
-<Landmark>Hillside Garage</Landmark>
-<Street>HILLSIDE TERRACE</Street>
+<ShortCommonName>Hillside Garage</ShortCommonName>
+<Landmark>Hillside Petrol Station</Landmark>
+<Street>Hillside Terrace</Street>
 <Crossing>A699</Crossing>
 <Indicator>Opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES003285</NptgLocalityRef>
+<Town>Selkirk</Town>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -57555,6 +57693,438 @@
 </EndPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T11:04:34.417" ModificationDateTime="2025-01-24T11:04:34.417" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002362</AtcoCode>
+<NaptanCode>7272362</NaptanCode>
+<Descriptor>
+<CommonName>Thornielee Forest Hail &amp; Ride</CommonName>
+<ShortCommonName>Thornielee Forest H&amp;R</ShortCommonName>
+<Landmark>A72 near Thornielee Forest</Landmark>
+<Street>A72</Street>
+<Indicator>E-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067257</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>340503</Easting>
+<Northing>636375</Northing>
+<Longitude>-2.9461979</Longitude>
+<Latitude>55.6173062</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>339351</Easting>
+<Northing>637410</Northing>
+<Longitude>-2.9647134</Longitude>
+<Latitude>55.6264609</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>340883</Easting>
+<Northing>636284</Northing>
+<Longitude>-2.9401402</Longitude>
+<Latitude>55.6165357</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T11:11:56.879" ModificationDateTime="2025-01-24T11:11:56.879" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002363</AtcoCode>
+<NaptanCode>7272363</NaptanCode>
+<Descriptor>
+<CommonName>Thornielee Forest Hail &amp; Ride</CommonName>
+<ShortCommonName>Thornielee Forest H&amp;R</ShortCommonName>
+<Landmark>A72 near Thornielee Forest</Landmark>
+<Street>A72</Street>
+<Indicator>W-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067257</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>340500</Easting>
+<Northing>636366</Northing>
+<Longitude>-2.9462439</Longitude>
+<Latitude>55.6172222</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>340862</Easting>
+<Northing>636281</Northing>
+<Longitude>-2.9404712</Longitude>
+<Latitude>55.6165114</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>339339</Easting>
+<Northing>637409</Northing>
+<Longitude>-2.9648982</Longitude>
+<Latitude>55.6264545</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T12:32:52.387" ModificationDateTime="2025-01-24T12:32:52.387" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002364</AtcoCode>
+<NaptanCode>7272364</NaptanCode>
+<Descriptor>
+<CommonName>Redscarhead Hail &amp; Ride</CommonName>
+<ShortCommonName>Redscarhead H&amp;R</ShortCommonName>
+<Landmark>A703 near Redscarhead</Landmark>
+<Street>A703</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>323993</Easting>
+<Northing>644067</Northing>
+<Longitude>-3.2104117</Longitude>
+<Latitude>55.6841005</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>323918</Easting>
+<Northing>644450</Northing>
+<Longitude>-3.2116990</Longitude>
+<Latitude>55.6875372</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>324433</Easting>
+<Northing>643083</Northing>
+<Longitude>-3.2031332</Longitude>
+<Latitude>55.6753369</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T12:37:16.960" ModificationDateTime="2025-01-24T12:37:16.960" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002365</AtcoCode>
+<NaptanCode>7272365</NaptanCode>
+<Descriptor>
+<CommonName>Redscarhead Hail &amp; Ride</CommonName>
+<ShortCommonName>Redscarhead H&amp;R</ShortCommonName>
+<Landmark>A703 near Redscarhead</Landmark>
+<Street>A703</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>323978</Easting>
+<Northing>644063</Northing>
+<Longitude>-3.2106388</Longitude>
+<Latitude>55.6840611</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>324423</Easting>
+<Northing>643069</Northing>
+<Longitude>-3.2032796</Longitude>
+<Latitude>55.6752018</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>323900</Easting>
+<Northing>644479</Northing>
+<Longitude>-3.2119844</Longitude>
+<Latitude>55.6877894</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T12:42:06.605" ModificationDateTime="2025-01-24T12:42:06.605" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002367</AtcoCode>
+<NaptanCode>7272367</NaptanCode>
+<Descriptor>
+<CommonName>Milkieston Hail &amp; Ride</CommonName>
+<ShortCommonName>Milkieston H&amp;R</ShortCommonName>
+<Landmark>A703 near Milkieston</Landmark>
+<Street>A703</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001266</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>323921</Easting>
+<Northing>645996</Northing>
+<Longitude>-3.2120825</Longitude>
+<Latitude>55.7014210</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>324178</Easting>
+<Northing>646737</Northing>
+<Longitude>-3.2082009</Longitude>
+<Latitude>55.7081197</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>323857</Easting>
+<Northing>644964</Northing>
+<Longitude>-3.2128041</Longitude>
+<Latitude>55.6921370</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T12:44:30.543" ModificationDateTime="2025-01-24T12:44:30.543" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002368</AtcoCode>
+<NaptanCode>7272368</NaptanCode>
+<Descriptor>
+<CommonName>Milkieston Hail &amp; Ride</CommonName>
+<ShortCommonName>Milkieston H&amp;R</ShortCommonName>
+<Landmark>A703 near Milkieston</Landmark>
+<Street>A703</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001266</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>323912</Easting>
+<Northing>645995</Northing>
+<Longitude>-3.2122262</Longitude>
+<Latitude>55.7014094</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>323836</Easting>
+<Northing>644969</Northing>
+<Longitude>-3.2131407</Longitude>
+<Latitude>55.6921784</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>324168</Easting>
+<Northing>646736</Northing>
+<Longitude>-3.2083563</Longitude>
+<Latitude>55.7081044</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T13:00:36.170" ModificationDateTime="2025-01-24T13:00:36.170" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002372</AtcoCode>
+<NaptanCode>7272372</NaptanCode>
+<Descriptor>
+<CommonName>Earlypier Hail &amp; Ride</CommonName>
+<ShortCommonName>Earlypier H&amp;R</ShortCommonName>
+<Landmark>A703 near Earlypier</Landmark>
+<Street>A703</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0079310</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324407</Easting>
+<Northing>650429</Northing>
+<Longitude>-3.2055885</Longitude>
+<Latitude>55.7413106</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>324493</Easting>
+<Northing>650997</Northing>
+<Longitude>-3.2043563</Longitude>
+<Latitude>55.7464388</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>324390</Easting>
+<Northing>649044</Northing>
+<Longitude>-3.2054604</Longitude>
+<Latitude>55.7288770</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-24T13:02:45.885" ModificationDateTime="2025-01-24T13:02:45.885" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002373</AtcoCode>
+<NaptanCode>7272373</NaptanCode>
+<Descriptor>
+<CommonName>Earlypier Hail &amp; Ride</CommonName>
+<ShortCommonName>Earlypier H&amp;R</ShortCommonName>
+<Landmark>A703 near Earlypier</Landmark>
+<Street>A703</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0079310</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324387</Easting>
+<Northing>650437</Northing>
+<Longitude>-3.2059053</Longitude>
+<Latitude>55.7413863</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>324473</Easting>
+<Northing>650896</Northing>
+<Longitude>-3.2046527</Longitude>
+<Latitude>55.7455282</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>324386</Easting>
+<Northing>650437</Northing>
+<Longitude>-3.2059053</Longitude>
+<Latitude>55.7413863</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
 </Bearing>
 </HailAndRideSection>
 </Bus>
