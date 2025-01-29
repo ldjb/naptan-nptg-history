@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-03T15:35:09.252" ModificationDateTime="2024-12-03T15:35:09.252" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-28T16:21:09.269" ModificationDateTime="2025-01-28T16:21:09.269" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -92545,7 +92545,7 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-08T10:35:00.000" ModificationDateTime="2022-03-02T16:45:03.313" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-09-08T10:35:00.000" ModificationDateTime="2025-01-28T16:08:38.742" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>630067541</AtcoCode>
 <NaptanCode>23628983</NaptanCode>
 <Descriptor>
@@ -92561,10 +92561,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>376379</Easting>
-<Northing>797013</Northing>
-<Longitude>-2.391122</Longitude>
-<Latitude>57.063542</Latitude>
+<Easting>376467</Easting>
+<Northing>797047</Northing>
+<Longitude>-2.389675</Longitude>
+<Latitude>57.06385</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -92572,19 +92572,19 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-09-08T10:38:00.000" ModificationDateTime="2022-03-02T16:45:53.726" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-09-08T10:38:00.000" ModificationDateTime="2025-01-28T16:11:43.198" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>630067542</AtcoCode>
 <NaptanCode>23628985</NaptanCode>
 <Descriptor>
@@ -92600,10 +92600,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>376385</Easting>
-<Northing>797003</Northing>
-<Longitude>-2.391022</Longitude>
-<Latitude>57.063452</Latitude>
+<Easting>376429</Easting>
+<Northing>797020</Northing>
+<Longitude>-2.390299</Longitude>
+<Latitude>57.063606</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -92611,13 +92611,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
-<CompassPoint>W</CompassPoint>
+<CompassPoint>SW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -113381,6 +113381,43 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-01-28T13:46:00.767" ModificationDateTime="2025-01-28T13:46:00.767" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630060249</AtcoCode>
+<NaptanCode>23634936</NaptanCode>
+<Descriptor>
+<CommonName>Aldi</CommonName>
+<Street>Duff Street</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002523</NptgLocalityRef>
+<Town>Macduff</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>370870</Easting>
+<Northing>863622</Northing>
+<Longitude>-2.489871</Longitude>
+<Latitude>57.661531</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
