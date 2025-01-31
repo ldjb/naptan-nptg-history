@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-19T10:10:22.8586454Z" ModificationDateTime="2024-11-19T10:10:22.8586454Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-30T11:45:34.565555Z" ModificationDateTime="2025-01-30T11:45:34.565555Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2020-09-11T11:06:06" ModificationDateTime="2024-05-02T09:43:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>55205520WDB4</AtcoCode>
@@ -70207,7 +70207,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-11-01T00:00:00" Modification="new" RevisionNumber="0" Status="active">PTYPRID</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-09-03T14:56:03" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-12-06T11:57:29" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5520WDB23891</AtcoCode>
       <NaptanCode>rhopjwt</NaptanCode>
       <Descriptor>
@@ -70216,7 +70216,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:07" ModificationDateTime="2024-09-03T14:56:03" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2024-05-02T09:44:07" ModificationDateTime="2024-12-06T11:57:29" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Hafan Heulog</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:44:07" ModificationDateTime="2024-05-02T09:44:07" Modification="new">
@@ -70229,10 +70229,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>307664</Easting>
+            <Easting>307665</Easting>
             <Northing>192976</Northing>
-            <Longitude>-3.335370833</Longitude>
-            <Latitude>51.627992051</Latitude>
+            <Longitude>-3.335356390</Longitude>
+            <Latitude>51.627992215</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -82957,15 +82957,15 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:01:37" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:01:37" ModificationDateTime="2025-01-30T11:41:51" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8377</AtcoCode>
       <NaptanCode>rhotgjg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 1</CommonName>
+        <CommonName>Porth Interchange Bay 1</CommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:01:37" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:01:37" ModificationDateTime="2025-01-30T11:41:51" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 1</CommonName>
           <ShortCommonName>Porth Bae 1</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -82998,17 +82998,25 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:41:51" ModificationDateTime="2025-01-30T11:41:51" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:07:44" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:07:44" ModificationDateTime="2025-01-30T11:42:06" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8378</AtcoCode>
       <NaptanCode>rhotgjm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 2</CommonName>
+        <CommonName>Porth Interchange Bay 2</CommonName>
         <ShortCommonName>Porth Bay 2</ShortCommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:07:44" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:07:44" ModificationDateTime="2025-01-30T11:42:06" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 2</CommonName>
           <ShortCommonName>Porth Bae 2</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -83041,17 +83049,25 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:42:06" ModificationDateTime="2025-01-30T11:42:06" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:10:59" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:10:59" ModificationDateTime="2025-01-30T11:42:18" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8379</AtcoCode>
       <NaptanCode>rhotgjp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 3</CommonName>
+        <CommonName>Porth Interchange Bay 3</CommonName>
         <ShortCommonName>Porth Bay 3</ShortCommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:10:59" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:10:59" ModificationDateTime="2025-01-30T11:42:18" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 3</CommonName>
           <ShortCommonName>Porth Bae 3</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -83084,17 +83100,25 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:42:18" ModificationDateTime="2025-01-30T11:42:18" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:13:19" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:13:19" ModificationDateTime="2025-01-30T11:42:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520WDB8380</AtcoCode>
       <NaptanCode>rhotgjt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 4</CommonName>
+        <CommonName>Porth Interchange Bay 4</CommonName>
         <ShortCommonName>Porth Bay 4</ShortCommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:13:19" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:13:19" ModificationDateTime="2025-01-30T11:42:28" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 4</CommonName>
           <ShortCommonName>Porth Bae 4</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -83127,17 +83151,25 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:42:28" ModificationDateTime="2025-01-30T11:42:28" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:15:46" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:15:46" ModificationDateTime="2025-01-30T11:42:43" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520WDB8381</AtcoCode>
       <NaptanCode>rhotgjw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 5</CommonName>
+        <CommonName>Porth Interchange Bay 5</CommonName>
         <ShortCommonName>Porth Bay 5</ShortCommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:15:46" ModificationDateTime="2024-05-02T09:43:59" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:15:46" ModificationDateTime="2025-01-30T11:42:43" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 5</CommonName>
           <ShortCommonName>Porth Bae 5</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -83170,17 +83202,25 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:42:43" ModificationDateTime="2025-01-30T11:42:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:18:27" ModificationDateTime="2024-05-02T09:44:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:18:27" ModificationDateTime="2025-01-30T11:45:07" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8382</AtcoCode>
       <NaptanCode>rhotgma</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 6</CommonName>
+        <CommonName>Porth Interchange Bay 6</CommonName>
         <ShortCommonName>Porth Bay 6</ShortCommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:18:27" ModificationDateTime="2024-05-02T09:44:00" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:18:27" ModificationDateTime="2025-01-30T11:45:07" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 6</CommonName>
           <ShortCommonName>Porth Bae 6</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -83213,17 +83253,25 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:45:07" ModificationDateTime="2025-01-30T11:45:07" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-10-03T15:21:39" ModificationDateTime="2024-05-02T09:44:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2023-10-03T15:21:39" ModificationDateTime="2025-01-30T11:45:21" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB8383</AtcoCode>
       <NaptanCode>rhotgmd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Porth Interchange Bay 7</CommonName>
+        <CommonName>Porth Interchange Bay 7</CommonName>
         <ShortCommonName>Porth Bay 7</ShortCommonName>
         <Street>Porth Street</Street>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-10-03T15:21:39" ModificationDateTime="2024-05-02T09:44:00" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2023-10-03T15:21:39" ModificationDateTime="2025-01-30T11:45:21" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Gorsaf Bws Porth 7</CommonName>
           <ShortCommonName>Porth Bae 7</ShortCommonName>
           <Street>Heol y Porth</Street>
@@ -83256,6 +83304,14 @@
         </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-30T11:45:21" ModificationDateTime="2025-01-30T11:45:21" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-30</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2024-08-08T14:39:57" ModificationDateTime="2024-08-08T14:50:38" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520WDB8384</AtcoCode>
