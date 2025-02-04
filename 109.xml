@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-07T18:24:35.198" ModificationDateTime="2025-01-07T18:24:35.198" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-03T15:55:44.003" ModificationDateTime="2025-02-03T15:55:44.003" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-12-03T10:37:07.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>109000000535</AtcoCode>
@@ -24710,14 +24710,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T07:56:56.000" Modification="revise" RevisionNumber="3" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T07:58:34.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T14:47:42.053" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>109000009253</AtcoCode>
 <NaptanCode>dbyadwjd</NaptanCode>
 <Descriptor>
 <CommonName>Friar Gate</CommonName>
 <Landmark>George Street</Landmark>
 <Street>Friar Gate</Street>
-<Indicator>Stop B11</Indicator>
+<Indicator>Stop B7</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -28354,14 +28354,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2009-07-16T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T07:41:46.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T13:43:39.790" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>109000009330</AtcoCode>
 <NaptanCode>dbyadwtj</NaptanCode>
 <Descriptor>
 <CommonName>Albert Street</CommonName>
 <Landmark>Exchange Street</Landmark>
 <Street>Albert Street</Street>
-<Indicator>Stop B2</Indicator>
+<Indicator>Stop B1</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -28489,14 +28489,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T07:40:35.000" Modification="revise" RevisionNumber="3" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2024-07-22T10:51:23.029" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T13:48:14.811" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>109000009334</AtcoCode>
 <NaptanCode>dbyajamt</NaptanCode>
 <Descriptor>
 <CommonName>Victoria Street</CommonName>
 <Landmark>Green Lane</Landmark>
 <Street>Victoria Street</Street>
-<Indicator>Stop B4</Indicator>
+<Indicator>Stop B2</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -56474,51 +56474,6 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T08:22:30.000" Modification="revise" RevisionNumber="2" Status="active">
-<AtcoCode>109000013100</AtcoCode>
-<NaptanCode>dbyamdwg</NaptanCode>
-<Descriptor>
-<CommonName>Derwent Street</CommonName>
-<Landmark>Full Street</Landmark>
-<Street>Derwent Street</Street>
-<Indicator>Stop C7</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>E0054915</NptgLocalityRef>
-<LocalityCentre>1</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>435428</Easting>
-<Northing>336380</Northing>
-<Longitude>-1.474482</Longitude>
-<Latitude>52.92369</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
-<TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>NE</CompassPoint>
-<Degrees>45</Degrees>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">109G52603</StopAreaRef>
-</StopAreas>
-<AdministrativeAreaRef>017</AdministrativeAreaRef>
-<PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T08:22:30.000" Modification="revise" RevisionNumber="2" Status="active">DRBY</PlusbusZoneRef>
-</PlusbusZones>
-</StopPoint>
 <StopPoint CreationDateTime="2006-05-04T00:00:00.000" ModificationDateTime="2013-01-16T08:30:15.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>109000015654</AtcoCode>
 <NaptanCode>dbyamdwj</NaptanCode>
@@ -59151,14 +59106,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T08:11:47.000" Modification="revise" RevisionNumber="2" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T08:17:19.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T13:01:24.843" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>109000022164</AtcoCode>
 <NaptanCode>dbyampgj</NaptanCode>
 <Descriptor>
 <CommonName>Corporation Street</CommonName>
 <Landmark>Market Place</Landmark>
 <Street>Corporation Street</Street>
-<Indicator>Stop C3</Indicator>
+<Indicator>Stop C2</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -59196,14 +59151,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T08:17:19.000" Modification="revise" RevisionNumber="2" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2022-04-29T09:51:31.411" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T12:30:44.722" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>109000022165</AtcoCode>
 <NaptanCode>dbyampgm</NaptanCode>
 <Descriptor>
 <CommonName>Corporation Street</CommonName>
 <Landmark>Market Place</Landmark>
 <Street>Corporation Street</Street>
-<Indicator>Stop J3</Indicator>
+<Indicator>Stop C3</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -59247,14 +59202,14 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2024-03-28T09:35:44.494" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T13:38:30.959" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>109000022166</AtcoCode>
 <NaptanCode>dbyampgp</NaptanCode>
 <Descriptor>
 <CommonName>Corporation Street</CommonName>
 <Landmark>Council House</Landmark>
 <Street>Corporation Street</Street>
-<Indicator>Stop J4</Indicator>
+<Indicator>Stop C9</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -59400,14 +59355,14 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2022-02-23T14:05:48.186" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T12:36:32.342" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>109000022169</AtcoCode>
 <NaptanCode>dbyampja</NaptanCode>
 <Descriptor>
 <CommonName>Derwent Street</CommonName>
 <Landmark>Exeter Bridge</Landmark>
 <Street>Derwent Street</Street>
-<Indicator>C10</Indicator>
+<Indicator>C7</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -64343,14 +64298,14 @@
 <PlusbusZoneRef CreationDateTime="2010-08-05T00:00:00.000" ModificationDateTime="2010-08-05T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-12-10T00:00:00.000" ModificationDateTime="2013-11-12T08:00:33.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2010-12-10T00:00:00.000" ModificationDateTime="2025-02-03T14:50:04.375" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>109053486</AtcoCode>
 <NaptanCode>dbyapgdp</NaptanCode>
 <Descriptor>
 <CommonName>Friar Gate</CommonName>
 <Landmark>George Street</Landmark>
 <Street>Friar Gate</Street>
-<Indicator>Stop B12</Indicator>
+<Indicator>Stop B8</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -69726,14 +69681,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T07:24:41.000" Modification="revise" RevisionNumber="3" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T10:10:51.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T12:47:02.664" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1090DDVS1224</AtcoCode>
 <NaptanCode>dbyajadp</NaptanCode>
 <Descriptor>
 <CommonName>Victoria Street</CommonName>
 <Landmark>Strand</Landmark>
 <Street>Victoria Street</Street>
-<Indicator>Stop B7</Indicator>
+<Indicator>Stop B4</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -69816,14 +69771,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T08:07:09.000" Modification="revise" RevisionNumber="3" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T10:09:48.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T13:52:48.104" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1090DDVS1302</AtcoCode>
 <NaptanCode>dbyajagj</NaptanCode>
 <Descriptor>
 <CommonName>Victoria Street</CommonName>
 <Landmark>Green Lane</Landmark>
 <Street>Victoria Street</Street>
-<Indicator>Stop B5</Indicator>
+<Indicator>Stop B3</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -69964,14 +69919,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-11-12T07:54:01.000" Modification="revise" RevisionNumber="2" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2024-07-22T10:53:15.680" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-02-03T14:37:53.799" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1090DDWN1755</AtcoCode>
 <NaptanCode>dbyajagp</NaptanCode>
 <Descriptor>
 <CommonName>Wardwick</CommonName>
 <Landmark>Curzon Street</Landmark>
 <Street>Wardwick</Street>
-<Indicator>Stop B9</Indicator>
+<Indicator>Stop B5</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
@@ -72251,13 +72206,13 @@
 </StopClassification>
 <AdministrativeAreaRef>017</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-06-07T10:19:25.300" ModificationDateTime="2024-01-12T15:31:37.348" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2022-06-07T10:19:25.300" ModificationDateTime="2025-02-03T14:54:21.891" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>109055202</AtcoCode>
 <NaptanCode>dbyapjmj</NaptanCode>
 <Descriptor>
 <CommonName>Bold Lane Car Park</CommonName>
 <Street>Bold Lane</Street>
-<Indicator>adj</Indicator>
+<Indicator>B6</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0054915</NptgLocalityRef>
