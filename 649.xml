@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2024-11-28T14:40:43" ModificationDateTime="2024-11-28T14:40:43" Modification="revise" RevisionNumber="210" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN649.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2025-02-04T18:36:40" ModificationDateTime="2025-02-04T18:36:40" Modification="revise" RevisionNumber="211" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN649.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-12-12T13:43:21" ModificationDateTime="2011-12-12T13:43:21" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>6490IM1953</AtcoCode>
@@ -728,6 +728,76 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-04T18:26:29" ModificationDateTime="2025-02-04T18:26:29" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM20824</AtcoCode>
+      <NaptanCode>26428483</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Buick Drive</CommonName>
+        <ShortCommonName xml:lang="en">Buick Drive</ShortCommonName>
+        <Landmark xml:lang="en">19 Buick Drive</Landmark>
+        <Street xml:lang="en">Bearfaulds Road</Street>
+        <Indicator xml:lang="en">nr</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000115</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>365012</Easting>
+          <Northing>742665</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-04T18:22:22" ModificationDateTime="2025-02-04T18:22:22" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM20822</AtcoCode>
+      <NaptanCode>26428482</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Buick Drive</CommonName>
+        <ShortCommonName xml:lang="en">Buick Drive</ShortCommonName>
+        <Landmark xml:lang="en">No 41 Buick Drive</Landmark>
+        <Street xml:lang="en">Bearfaulds Road</Street>
+        <Indicator xml:lang="en">nr</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000115</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>365189</Easting>
+          <Northing>742619</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -17658,6 +17728,76 @@
       </StopAreas>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-02-04T17:58:31" ModificationDateTime="2025-02-04T17:58:31" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM20818</AtcoCode>
+      <NaptanCode>26428478</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Greenlaw Park</CommonName>
+        <ShortCommonName xml:lang="en">Greenlaw Park</ShortCommonName>
+        <Landmark xml:lang="en">Greenlaw Park</Landmark>
+        <Street xml:lang="en">C1</Street>
+        <Indicator xml:lang="en">at</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000632</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>354074</Easting>
+          <Northing>735063</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-04T18:02:17" ModificationDateTime="2025-02-04T18:02:17" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM20820</AtcoCode>
+      <NaptanCode>26428479</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Greenlaw Park</CommonName>
+        <ShortCommonName xml:lang="en">Greenlaw Park</ShortCommonName>
+        <Landmark xml:lang="en">Greenlaw Park</Landmark>
+        <Street xml:lang="en">C1</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES000632</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>354068</Easting>
+          <Northing>735060</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2008-06-27T00:00:00" ModificationDateTime="2010-02-16T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>6490IM2815</AtcoCode>
       <NaptanCode>26426938</NaptanCode>
@@ -34301,40 +34441,6 @@
       </StopClassification>
       <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2013-04-10T15:10:01" ModificationDateTime="2013-04-30T13:47:39" Modification="revise" RevisionNumber="1" Status="active">
-      <AtcoCode>6490IM478</AtcoCode>
-      <NaptanCode>26427924</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Hillhead of Hedderwick</CommonName>
-        <Landmark xml:lang="en">cottage</Landmark>
-        <Street xml:lang="en">unclassified road</Street>
-        <Indicator xml:lang="en">at</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>ES001765</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>369260</Easting>
-          <Northing>761686</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>NW</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>113</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2013-04-10T15:14:01" ModificationDateTime="2013-04-30T13:48:14" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>6490IM480</AtcoCode>
       <NaptanCode>26427925</NaptanCode>
@@ -34362,6 +34468,40 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2013-04-10T15:10:01" ModificationDateTime="2013-04-30T13:47:39" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>6490IM478</AtcoCode>
+      <NaptanCode>26427924</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Hillhead of Hedderwick</CommonName>
+        <Landmark xml:lang="en">cottage</Landmark>
+        <Street xml:lang="en">unclassified road</Street>
+        <Indicator xml:lang="en">at</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES001765</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>369260</Easting>
+          <Northing>761686</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -48776,6 +48916,41 @@
         <PlusbusZoneRef>DUNDETB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-02-04T12:29:31" ModificationDateTime="2025-02-04T12:29:31" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM20814</AtcoCode>
+      <NaptanCode>26428475</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Angus Wynd</CommonName>
+        <ShortCommonName xml:lang="en">Angus Wynd</ShortCommonName>
+        <Landmark xml:lang="en">Angus Wynd</Landmark>
+        <Street xml:lang="en">Victoria Street</Street>
+        <Indicator xml:lang="en">nr</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES002649</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>349042</Easting>
+          <Northing>733508</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2001-11-05T00:00:00" ModificationDateTime="2010-01-27T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>6490IM836</AtcoCode>
       <NaptanCode>26425285</NaptanCode>
@@ -48815,6 +48990,41 @@
       <PlusbusZones>
         <PlusbusZoneRef>DUNDETB</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-04T12:50:41" ModificationDateTime="2025-02-04T12:50:41" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>6490IM20816</AtcoCode>
+      <NaptanCode>26428476</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Angus Wynd</CommonName>
+        <ShortCommonName xml:lang="en">Angus Wynd</ShortCommonName>
+        <Landmark xml:lang="en">Angus Wynd</Landmark>
+        <Street xml:lang="en">Victoria Street</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>ES002649</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>349052</Easting>
+          <Northing>733515</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>113</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-11-23T00:00:00" ModificationDateTime="2010-06-07T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>6490IM11321</AtcoCode>
