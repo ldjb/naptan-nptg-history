@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-22T08:29:06.2867979Z" ModificationDateTime="2025-01-22T08:29:06.2867979Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-05T15:00:07.772916Z" ModificationDateTime="2025-02-05T15:00:07.772916Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2013-06-14T07:52:34" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>3890D000100</AtcoCode>
@@ -83179,14 +83179,14 @@
         <PlusbusZoneRef CreationDateTime="2006-12-18T00:00:00" ModificationDateTime="2010-02-09T16:15:00" Modification="revise" RevisionNumber="1" Status="active">STOKEOT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-12-24T00:00:00" ModificationDateTime="2002-12-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2002-12-24T00:00:00" ModificationDateTime="2025-02-05T14:59:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3890D124701</AtcoCode>
       <NaptanCode>stoapmgw</NaptanCode>
       <Descriptor>
-        <CommonName>The Lea</CommonName>
-        <Landmark>Road</Landmark>
-        <Street>The Lea</Street>
-        <Indicator>hail and ride</Indicator>
+        <CommonName>World of Wedgwood</CommonName>
+        <Landmark>World of Wedgwood</Landmark>
+        <Street>coach bay</Street>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0042192</NptgLocalityRef>
@@ -83194,10 +83194,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>387701</Easting>
-            <Northing>341309</Northing>
-            <Longitude>-2.184576437</Longitude>
-            <Latitude>52.968997403</Latitude>
+            <Easting>388701</Easting>
+            <Northing>339842</Northing>
+            <Longitude>-2.169635012</Longitude>
+            <Latitude>52.955827894</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -83205,31 +83205,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="2016-05-24T20:16:37" Modification="new" RevisionNumber="0" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>387907</Easting>
-                  <Northing>341127</Northing>
-                  <Longitude>-2.181504162</Longitude>
-                  <Latitude>52.967380457</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>387455</Easting>
-                  <Northing>341157</Northing>
-                  <Longitude>-2.188235391</Longitude>
-                  <Latitude>52.967639674</Latitude>
-                </Translation>
-              </EndPoint>
+            <MarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -83237,6 +83219,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2002-12-24T00:00:00" ModificationDateTime="2002-12-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">STOKEOT</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-02-05T14:59:22" ModificationDateTime="2025-02-05T14:59:22" Modification="new">
+          <DateRange>
+            <StartDate>2025-02-05</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-12-05T00:00:00" ModificationDateTime="2006-12-05T00:00:00" Modification="delete" RevisionNumber="0" Status="inactive">
       <AtcoCode>3890D124801</AtcoCode>

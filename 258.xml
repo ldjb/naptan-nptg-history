@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.58.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-13T14:01:49.9101371Z" ModificationDateTime="2024-12-13T14:01:49.9101371Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-05T08:18:02.4874746Z" ModificationDateTime="2025-02-05T08:18:02.4874746Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-11T09:08:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580AUD0001</AtcoCode>
@@ -4781,7 +4781,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-08-04T08:49:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2018-03-05T12:17:14" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-14T07:36:14" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2580BLA0050</AtcoCode>
       <NaptanCode>bladmat</NaptanCode>
       <Descriptor>
@@ -4832,6 +4832,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-06-15T09:27:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-14T07:36:14" ModificationDateTime="2025-01-14T07:36:14" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2018-03-05T12:13:10" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580BLA0051</AtcoCode>
@@ -4984,7 +4992,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-29T08:01:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:50:26" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BLA0054</AtcoCode>
       <NaptanCode>bladmdj</NaptanCode>
       <Descriptor>
@@ -5008,10 +5016,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369960</Easting>
-            <Northing>428538</Northing>
-            <Longitude>-2.457046742</Longitude>
-            <Latitude>53.752336749</Latitude>
+            <Easting>369867</Easting>
+            <Northing>428670</Northing>
+            <Longitude>-2.458469916</Longitude>
+            <Latitude>53.753513209</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5035,7 +5043,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-29T08:01:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-29T08:01:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:49:20" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BLA0055</AtcoCode>
       <NaptanCode>bladmdm</NaptanCode>
       <Descriptor>
@@ -5059,10 +5067,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369945</Easting>
-            <Northing>428523</Northing>
-            <Longitude>-2.457272749</Longitude>
-            <Latitude>53.752201065</Latitude>
+            <Easting>369856</Easting>
+            <Northing>428670</Northing>
+            <Longitude>-2.458636734</Longitude>
+            <Latitude>53.753512570</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5086,13 +5094,13 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-29T08:01:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:52:46" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BLA0056</AtcoCode>
       <NaptanCode>bladmdp</NaptanCode>
       <Descriptor>
-        <CommonName>Burnley Road</CommonName>
+        <CommonName>Tesco's</CommonName>
         <Street>Gorse Street</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="2" Status="active">
@@ -5109,10 +5117,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>370052</Easting>
-            <Northing>428392</Northing>
-            <Longitude>-2.455637370</Longitude>
-            <Latitude>53.751029853</Latitude>
+            <Easting>370008</Easting>
+            <Northing>428461</Northing>
+            <Longitude>-2.456311246</Longitude>
+            <Latitude>53.751642935</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5124,7 +5132,7 @@
             <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>SE</CompassPoint>
+                <CompassPoint>S</CompassPoint>
                 <Degrees>135</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -5136,11 +5144,11 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:51:48" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BLA0057</AtcoCode>
       <NaptanCode>bladmdt</NaptanCode>
       <Descriptor>
-        <CommonName>Tesco</CommonName>
+        <CommonName>Tesco's</CommonName>
         <Street>Gorse Street</Street>
         <Indicator>by</Indicator>
       </Descriptor>
@@ -5159,10 +5167,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>370039</Easting>
-            <Northing>428386</Northing>
-            <Longitude>-2.455833922</Longitude>
-            <Latitude>53.750975177</Latitude>
+            <Easting>369989</Easting>
+            <Northing>428468</Northing>
+            <Longitude>-2.456600055</Longitude>
+            <Latitude>53.751704752</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5174,7 +5182,7 @@
             <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NW</CompassPoint>
+                <CompassPoint>N</CompassPoint>
                 <Degrees>315</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -6295,7 +6303,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2012-09-17T15:08:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2024-05-07T11:59:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:56:12" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>2580BLA0080</AtcoCode>
       <NaptanCode>bladmta</NaptanCode>
       <Descriptor>
@@ -6318,10 +6326,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>368836</Easting>
-            <Northing>426026</Northing>
-            <Longitude>-2.473837718</Longitude>
-            <Latitude>53.729688791</Latitude>
+            <Easting>368807</Easting>
+            <Northing>426063</Northing>
+            <Longitude>-2.474281005</Longitude>
+            <Latitude>53.730019598</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14273,14 +14281,13 @@
       </StopClassification>
       <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:54:01" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580BTW0001</AtcoCode>
       <NaptanCode>bladatp</NaptanCode>
       <Descriptor>
-        <CommonName>Beachwood WMC</CommonName>
-        <Landmark>Beachwood Working Mans Club</Landmark>
+        <CommonName>Harwood Gate</CommonName>
         <Street>Beechwood Road</Street>
-        <Indicator>o/s</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
@@ -14297,10 +14304,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369315</Easting>
-            <Northing>429051</Northing>
-            <Longitude>-2.466879200</Longitude>
-            <Latitude>53.756909735</Latitude>
+            <Easting>369450</Easting>
+            <Northing>429043</Northing>
+            <Longitude>-2.464830854</Longitude>
+            <Latitude>53.756841262</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14425,11 +14432,11 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:55:04" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BTW0004</AtcoCode>
       <NaptanCode>bladawd</NaptanCode>
       <Descriptor>
-        <CommonName>Beachwood WMC</CommonName>
+        <CommonName>Harwood Gate</CommonName>
         <Landmark>Opp Beachwood Working Mans Club</Landmark>
         <Street>Beechwood Road</Street>
         <Indicator>opp</Indicator>
@@ -14449,10 +14456,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369322</Easting>
-            <Northing>429062</Northing>
-            <Longitude>-2.466774132</Longitude>
-            <Latitude>53.757009013</Latitude>
+            <Easting>369461</Easting>
+            <Northing>429047</Northing>
+            <Longitude>-2.464664420</Longitude>
+            <Latitude>53.756877860</Latitude>
           </Translation>
         </Location>
       </Place>
