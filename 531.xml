@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-12-06T12:48:25.5145568Z" ModificationDateTime="2024-12-06T12:48:25.5145568Z" Modification="new" RevisionNumber="1" FileName="531.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-06T13:59:26.6670369Z" ModificationDateTime="2025-02-06T13:59:26.6670369Z" Modification="new" RevisionNumber="1" FileName="531.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-22T09:37:25" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5310ANZ12863</AtcoCode>
@@ -47180,6 +47180,57 @@
         <StopValidity CreationDateTime="2024-02-27T13:42:48" ModificationDateTime="2024-02-27T13:42:48" Modification="new">
           <DateRange>
             <StartDate>2024-02-27</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-06T13:46:41" ModificationDateTime="2025-02-06T13:56:37" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>5310WDB48019</AtcoCode>
+      <NaptanCode>nwpjagw</NaptanCode>
+      <Descriptor>
+        <CommonName>ONS Car Park</CommonName>
+        <Street>Cardiff Road</Street>
+        <Indicator>Grounds</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-02-06T13:48:46" ModificationDateTime="2025-02-06T13:48:46" Modification="new">
+          <CommonName>Maes Parcio SYG</CommonName>
+          <Landmark>Maes Parcio SYG</Landmark>
+          <Street>tiroedd</Street>
+          <Indicator>tu fewn</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>N0071309</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>328994</Easting>
+            <Northing>185773</Northing>
+            <Longitude>-3.025818199</Longitude>
+            <Latitude>51.566338648</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>035</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-02-06T13:48:46" ModificationDateTime="2025-02-06T13:48:46" Modification="new">
+          <DateRange>
+            <StartDate>2025-02-06</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
