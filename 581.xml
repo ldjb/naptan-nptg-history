@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-21T16:15:27.956614Z" ModificationDateTime="2025-01-21T16:15:27.956614Z" Modification="new" RevisionNumber="1" FileName="581.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-11T14:32:48.8263181Z" ModificationDateTime="2025-02-11T14:32:48.8263181Z" Modification="new" RevisionNumber="1" FileName="581.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:52:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5810AWC50002</AtcoCode>
@@ -91300,6 +91300,49 @@
         <StopValidity CreationDateTime="2025-01-21T16:15:03" ModificationDateTime="2025-01-21T16:15:03" Modification="new">
           <DateRange>
             <StartDate>2025-01-21</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-11T14:27:35" ModificationDateTime="2025-02-11T14:19:19" Modification="new" Status="active">
+      <AtcoCode>5810WDB48136</AtcoCode>
+      <NaptanCode>swatpdp</NaptanCode>
+      <Descriptor>
+        <CommonName>Gowerton Train Station </CommonName>
+        <Street>Gorwydd Road</Street>
+        <Indicator>Opp Woodlands </Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0071516</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>259213</Easting>
+            <Northing>196268</Northing>
+            <Longitude>-4.036271245</Longitude>
+            <Latitude>51.647527920</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>056</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-02-11T14:27:35" ModificationDateTime="2025-02-11T14:27:35" Modification="new">
+          <DateRange>
+            <StartDate>2025-02-11</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
