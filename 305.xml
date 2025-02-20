@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-10T15:50:04.2824073Z" ModificationDateTime="2025-02-10T15:50:04.2824073Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-19T18:07:38.7723308Z" ModificationDateTime="2025-02-19T18:07:38.7723308Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-12-27T16:02:48" ModificationDateTime="2024-12-27T16:00:25" Modification="new" Status="active">
       <AtcoCode>3050000042LK</AtcoCode>
@@ -1201,48 +1201,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2024-09-30T11:34:45" ModificationDateTime="2024-09-30T11:24:13" Modification="new" Status="active">
-      <AtcoCode>3050000269AR</AtcoCode>
-      <NaptanCode>ntndwjgj</NaptanCode>
-      <Descriptor>
-        <CommonName>The Riverside Hotel</CommonName>
-        <ShortCommonName>A427</ShortCommonName>
-        <Street>Station Road</Street>
-        <Crossing>Laxton Drive</Crossing>
-        <Indicator>After</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0049710</NptgLocalityRef>
-        <Suburb>Oundle</Suburb>
-        <Town>Oundle</Town>
-        <Location>
-          <Translation>
-            <Easting>504603</Easting>
-            <Northing>288933</Northing>
-            <Longitude>-0.460901715</Longitude>
-            <Latitude>52.488287827</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>153</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2024-09-30T11:34:45" ModificationDateTime="2024-09-30T11:34:45" Modification="new">CORBY</PlusbusZoneRef>
-      </PlusbusZones>
     </StopPoint>
     <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2024-07-03T14:04:37" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>305000042BC</AtcoCode>
@@ -10111,6 +10069,118 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-02-13T16:41:41" ModificationDateTime="2025-02-13T16:40:49" Modification="new" Status="active">
+      <AtcoCode>305000143MR</AtcoCode>
+      <NaptanCode>ntnagtmt</NaptanCode>
+      <Descriptor>
+        <CommonName>Parsons Close</CommonName>
+        <Landmark>Parsons Close</Landmark>
+        <Street>Manor Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049845</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>487811</Easting>
+            <Northing>260211</Northing>
+            <Longitude>-0.715639796</Longitude>
+            <Latitude>52.233099787</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-13T16:43:53" ModificationDateTime="2025-02-13T16:42:57" Modification="new" Status="active">
+      <AtcoCode>305000143OS</AtcoCode>
+      <NaptanCode>ntnagtmw</NaptanCode>
+      <Descriptor>
+        <CommonName>Primary School</CommonName>
+        <Landmark>Primary School</Landmark>
+        <Street>Main Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049845</NptgLocalityRef>
+        <Suburb>Grendon</Suburb>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>487895</Easting>
+            <Northing>260313</Northing>
+            <Longitude>-0.714383671</Longitude>
+            <Latitude>52.234003186</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-13T16:46:00" ModificationDateTime="2025-02-13T16:45:06" Modification="new" Status="active">
+      <AtcoCode>305000143SC</AtcoCode>
+      <NaptanCode>ntnagtpa</NaptanCode>
+      <Descriptor>
+        <CommonName>Primary School</CommonName>
+        <Landmark>Primary School</Landmark>
+        <Street>Main Road</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049845</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>487884</Easting>
+            <Northing>260321</Northing>
+            <Longitude>-0.714542622</Longitude>
+            <Latitude>52.234076844</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2024-07-03T14:04:37" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>305000163CE</AtcoCode>
       <NaptanCode>ntnajtpm</NaptanCode>
@@ -15333,6 +15403,49 @@
         <StopAreaRef RevisionNumber="0">305G211A</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-19T18:07:18" ModificationDateTime="2025-02-19T18:06:15" Modification="new" Status="active">
+      <AtcoCode>305000269AR</AtcoCode>
+      <NaptanCode>ntndwjgj</NaptanCode>
+      <Descriptor>
+        <CommonName>The Riverside Hotel</CommonName>
+        <ShortCommonName>A427</ShortCommonName>
+        <Street>Station Road</Street>
+        <Crossing>Laxton Drive</Crossing>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049710</NptgLocalityRef>
+        <Suburb>Oundle</Suburb>
+        <Town>Oundle</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>504603</Easting>
+            <Northing>288933</Northing>
+            <Longitude>-0.460906625</Longitude>
+            <Latitude>52.488291779</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-02-19T18:07:18" ModificationDateTime="2025-02-19T18:07:18" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
     </StopPoint>
     <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2024-07-03T14:04:37" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>305000269BE</AtcoCode>
