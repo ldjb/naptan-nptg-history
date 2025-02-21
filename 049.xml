@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-07T09:15:20.126" ModificationDateTime="2025-02-07T09:15:20.126" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-20T14:55:37.375" ModificationDateTime="2025-02-20T14:55:37.375" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2010-11-15T17:04:00.000" ModificationDateTime="2014-11-12T17:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>049000000801</AtcoCode>
@@ -1601,47 +1601,6 @@
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">049G00005075</StopAreaRef>
 </StopAreas>
-<AdministrativeAreaRef>032</AdministrativeAreaRef>
-</StopPoint>
-<StopPoint CreationDateTime="2009-03-23T16:43:00.000" ModificationDateTime="2021-12-31T14:50:22.640" Modification="revise" RevisionNumber="3" Status="inactive">
-<AtcoCode>049000005095</AtcoCode>
-<NaptanCode>mltagapw</NaptanCode>
-<Descriptor>
-<CommonName>Brooklands Farm</CommonName>
-<Landmark>Brooklands Farm</Landmark>
-<Street>Newport Road</Street>
-<Indicator>o/s</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>E0053444</NptgLocalityRef>
-<Suburb>Brooklands</Suburb>
-<Town>Milton Keynes</Town>
-<LocalityCentre>0</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>489813</Easting>
-<Northing>239837</Northing>
-<Longitude>-0.6917099</Longitude>
-<Latitude>52.0496670</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>SE</CompassPoint>
-<Degrees>135</Degrees>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
 <AdministrativeAreaRef>032</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2009-03-23T16:44:00.000" ModificationDateTime="2021-12-31T14:50:44.645" Modification="revise" RevisionNumber="1" Status="inactive">
@@ -73911,6 +73870,111 @@
 <Northing>237517</Northing>
 <Longitude>-0.677234</Longitude>
 <Latitude>52.028645</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-20T13:36:38.715" ModificationDateTime="2025-02-20T13:36:38.715" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070005834</AtcoCode>
+<NaptanCode>mltajadw</NaptanCode>
+<Descriptor>
+<CommonName>Robinson Crescent</CommonName>
+<Street>Burney Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0081098</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>492410</Easting>
+<Northing>238133</Northing>
+<Longitude>-0.6543076</Longitude>
+<Latitude>52.0339239</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-20T14:41:35.508" ModificationDateTime="2025-02-20T14:41:35.508" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070005025</AtcoCode>
+<NaptanCode>mltajaga</NaptanCode>
+<Descriptor>
+<CommonName>Henry Hoare Drive</CommonName>
+<Street>Elmswell Gate</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053475</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>490685</Easting>
+<Northing>237634</Northing>
+<Longitude>-0.6795787</Longitude>
+<Latitude>52.0297231</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-20T14:48:28.059" ModificationDateTime="2025-02-20T14:48:28.059" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070005839</AtcoCode>
+<NaptanCode>mltajagd</NaptanCode>
+<Descriptor>
+<CommonName>Henry Hoare Drive</CommonName>
+<Street>Elmswell Gate</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053475</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>490661</Easting>
+<Northing>237662</Northing>
+<Longitude>-0.6799210</Longitude>
+<Latitude>52.0299787</Latitude>
 </Translation>
 </Location>
 </Place>
