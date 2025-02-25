@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-23T16:04:48.318" ModificationDateTime="2025-01-23T16:04:48.318" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-24T15:48:58.522" ModificationDateTime="2025-02-24T15:48:58.522" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-10-29T00:00:00.000" ModificationDateTime="2010-05-20T11:35:26.000" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>629028120</AtcoCode>
@@ -45000,6 +45000,80 @@
 <Northing>674206</Northing>
 <Longitude>-3.463614</Longitude>
 <Latitude>55.952168</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-24T15:02:05.808" ModificationDateTime="2025-02-24T15:08:23.945" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>6290W57</AtcoCode>
+<NaptanCode>956991</NaptanCode>
+<Descriptor>
+<CommonName>Heartlands Junction</CommonName>
+<Street>B7066</Street>
+<Indicator>before</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003847</NptgLocalityRef>
+<Town>Whitburn</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>293042</Easting>
+<Northing>664704</Northing>
+<Longitude>-3.7105512</Longitude>
+<Latitude>55.8635989</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-24T15:06:39.543" ModificationDateTime="2025-02-24T15:06:39.543" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>6290W58</AtcoCode>
+<NaptanCode>956992</NaptanCode>
+<Descriptor>
+<CommonName>Heartlands Junction</CommonName>
+<Street>B7066</Street>
+<Indicator>after</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003847</NptgLocalityRef>
+<Town>Whitburn</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>293070</Easting>
+<Northing>664694</Northing>
+<Longitude>-3.7101001</Longitude>
+<Latitude>55.8635153</Latitude>
 </Translation>
 </Location>
 </Place>
