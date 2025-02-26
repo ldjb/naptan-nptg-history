@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-22T14:15:57.798" ModificationDateTime="2025-01-22T14:15:57.798" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-25T10:43:46.422" ModificationDateTime="2025-02-25T10:43:46.422" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -45,7 +45,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2024-06-28T23:06:09.455" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2025-02-21T16:17:19.954" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>627001010030</AtcoCode>
 <NaptanCode>58232493</NaptanCode>
 <Descriptor>
@@ -60,10 +60,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>336966</Easting>
-<Northing>672422</Northing>
-<Longitude>-3.010704</Longitude>
-<Latitude>55.940685</Latitude>
+<Easting>336956</Easting>
+<Northing>672398</Northing>
+<Longitude>-3.01085</Longitude>
+<Latitude>55.940475</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -7036,13 +7036,13 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2022-11-14T11:35:27.753" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2025-02-21T16:14:48.857" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>627001060080</AtcoCode>
 <NaptanCode>58232486</NaptanCode>
 <Descriptor>
 <CommonName>Park Drive</CommonName>
 <ShortCommonName>Park Drive</ShortCommonName>
-<Street>SALTER'S ROAD</Street>
+<Street>Salters Road</Street>
 <Indicator>adj</Indicator>
 </Descriptor>
 <Place>
@@ -7051,10 +7051,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>336539</Easting>
-<Northing>671854</Northing>
-<Longitude>-3.017407</Longitude>
-<Latitude>55.935529</Latitude>
+<Easting>336519</Easting>
+<Northing>671827</Northing>
+<Longitude>-3.017712</Longitude>
+<Latitude>55.935286</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -47490,6 +47490,154 @@
 <CompassPoint>SW</CompassPoint>
 </Bearing>
 </HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-25T10:14:43.164" ModificationDateTime="2025-02-25T10:14:43.164" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001222</AtcoCode>
+<NaptanCode>5821222</NaptanCode>
+<Descriptor>
+<CommonName>Queen Margaret Drive</CommonName>
+<ShortCommonName>Queen Margaret Drive</ShortCommonName>
+<Street>Queen Margaret University Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002734</NptgLocalityRef>
+<Town>Musselburgh</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>332787</Easting>
+<Northing>671469</Northing>
+<Longitude>-3.077351</Longitude>
+<Latitude>55.931556</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-25T10:17:56.520" ModificationDateTime="2025-02-25T10:17:56.520" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001223</AtcoCode>
+<NaptanCode>5821223</NaptanCode>
+<Descriptor>
+<CommonName>Queen Margaret Drive</CommonName>
+<ShortCommonName>Queen Margaret Drive</ShortCommonName>
+<Street>Queen Margaret University Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002734</NptgLocalityRef>
+<Town>Musselburgh</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>332784</Easting>
+<Northing>671475</Northing>
+<Longitude>-3.0773936</Longitude>
+<Latitude>55.9316166</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-25T10:37:45.587" ModificationDateTime="2025-02-25T10:37:45.587" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001224</AtcoCode>
+<NaptanCode>5821224</NaptanCode>
+<Descriptor>
+<CommonName>Queen Margaret University</CommonName>
+<ShortCommonName>Queen Margaret University</ShortCommonName>
+<Street>Queen Margaret University Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002734</NptgLocalityRef>
+<Town>Musselburgh</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>333074</Easting>
+<Northing>671603</Northing>
+<Longitude>-3.0727893</Longitude>
+<Latitude>55.9328038</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-25T10:41:00.944" ModificationDateTime="2025-02-25T10:41:00.944" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001225</AtcoCode>
+<NaptanCode>5821225</NaptanCode>
+<Descriptor>
+<CommonName>Queen Margaret University</CommonName>
+<ShortCommonName>Queen Margaret University</ShortCommonName>
+<Street>Queen Margaret University Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002734</NptgLocalityRef>
+<Town>Musselburgh</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>333064</Easting>
+<Northing>671602</Northing>
+<Longitude>-3.072955</Longitude>
+<Latitude>55.932792</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

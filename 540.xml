@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-28T16:49:06.7172097Z" ModificationDateTime="2025-01-28T16:49:06.7172097Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-25T13:48:36.2045056Z" ModificationDateTime="2025-02-25T13:48:36.2045056Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-18T15:04:26" ModificationDateTime="2024-04-18T15:04:40" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5400ABC19999</AtcoCode>
@@ -96735,6 +96735,72 @@
         <StopValidity CreationDateTime="2024-10-28T16:16:10" ModificationDateTime="2024-10-28T16:16:10" Modification="new">
           <DateRange>
             <StartDate>2024-10-28</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-02-25T13:44:21" ModificationDateTime="2025-02-25T13:37:30" Modification="new" Status="active">
+      <AtcoCode>5400WDB48386</AtcoCode>
+      <NaptanCode>gwnwatj</NaptanCode>
+      <Descriptor>
+        <CommonName>Tai'r Gelli</CommonName>
+        <Street>Cwmbowydd Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-02-25T13:44:21" ModificationDateTime="2025-02-25T13:44:21" Modification="new">
+          <CommonName>Tai'r Gelli</CommonName>
+          <ShortCommonName>Tai'r Gelli</ShortCommonName>
+          <Street>Ffordd Cwmbowydd Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054958</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>270407</Easting>
+            <Northing>345448</Northing>
+            <Longitude>-3.932117397</Longitude>
+            <Latitude>52.990639454</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-02-25T13:44:21" ModificationDateTime="2025-02-25T13:44:21" Modification="new">
+              <StartPoint>
+                <Translation>
+                  <Easting>270407</Easting>
+                  <Northing>345448</Northing>
+                  <Longitude>-3.932117397</Longitude>
+                  <Latitude>52.990639454</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <Easting>270407</Easting>
+                  <Northing>345448</Northing>
+                  <Longitude>-3.932117397</Longitude>
+                  <Latitude>52.990639454</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-02-25T13:44:21" ModificationDateTime="2025-02-25T13:44:21" Modification="new">
+          <DateRange>
+            <StartDate>2025-02-25</StartDate>
           </DateRange>
           <Active />
         </StopValidity>

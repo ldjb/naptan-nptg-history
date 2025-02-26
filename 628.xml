@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-03-19T15:25:23.992" ModificationDateTime="2024-03-19T15:25:23.992" Modification="new" RevisionNumber="0" FileName="NaPTAN628.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-25T11:14:42.620" ModificationDateTime="2025-02-25T11:14:42.620" Modification="new" RevisionNumber="0" FileName="NaPTAN628.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-01-27T00:00:00.000" ModificationDateTime="2011-03-24T14:56:15.000" Modification="revise" RevisionNumber="9" Status="inactive">
 <AtcoCode>6280000001</AtcoCode>
@@ -14360,7 +14360,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2008-01-27T00:00:00.000" ModificationDateTime="2013-01-31T13:49:26.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2008-01-27T00:00:00.000" ModificationDateTime="2024-04-16T16:07:12.613" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>6280301119</AtcoCode>
 <NaptanCode>64323485</NaptanCode>
 <Descriptor>
@@ -14375,10 +14375,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>331289</Easting>
-<Northing>667623</Northing>
-<Longitude>-3.1003464</Longitude>
-<Latitude>55.8967987</Latitude>
+<Easting>331356</Easting>
+<Northing>667607</Northing>
+<Longitude>-3.099261</Longitude>
+<Latitude>55.896665</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -38158,6 +38158,44 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>130</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-25T11:08:13.689" ModificationDateTime="2025-02-25T11:08:13.689" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>628070001227</AtcoCode>
+<NaptanCode>64323241</NaptanCode>
+<Descriptor>
+<CommonName>Charles Wilson Avenue</CommonName>
+<ShortCommonName>Charles Wilson Ave</ShortCommonName>
+<Landmark>A701 at Pedestrian Crossing</Landmark>
+<Street>A701</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000354</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>326119</Easting>
+<Northing>664120</Northing>
+<Longitude>-3.1820464</Longitude>
+<Latitude>55.8645627</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
