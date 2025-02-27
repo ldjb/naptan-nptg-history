@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-13T09:55:21.407" ModificationDateTime="2025-02-13T09:55:21.407" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-26T08:52:56.506" ModificationDateTime="2025-02-26T08:52:56.506" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-04-14T00:00:00.000" ModificationDateTime="2012-04-19T09:04:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3100ALNMOTH0</AtcoCode>
@@ -9131,7 +9131,7 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-03-01T00:00:00.000" ModificationDateTime="2018-04-03T09:55:41.929" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-03-01T00:00:00.000" ModificationDateTime="2025-02-25T09:19:50.923" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>3100T994535</AtcoCode>
 <NaptanCode>nldgmtdm</NaptanCode>
 <PlateCode>T994535</PlateCode>
@@ -124714,6 +124714,45 @@
 <CompassPoint>W</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>094</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-02-26T08:50:08.309" ModificationDateTime="2025-02-26T08:50:08.309" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3100U124348</AtcoCode>
+<NaptanCode>nldpjdgm</NaptanCode>
+<PlateCode>U124348</PlateCode>
+<Descriptor>
+<CommonName>Easington Farm</CommonName>
+<Street>Unknown Road</Street>
+<Indicator>o/s</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049902</NptgLocalityRef>
+<Suburb>Belford</Suburb>
+<Town>Belford</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>412495</Easting>
+<Northing>634893</Northing>
+<Longitude>-1.8032288</Longitude>
+<Latitude>55.6074820</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
