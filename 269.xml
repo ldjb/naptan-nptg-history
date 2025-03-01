@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-05T13:46:46.568" ModificationDateTime="2025-02-05T13:46:46.568" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-28T15:35:04.326" ModificationDateTime="2025-02-28T15:35:04.326" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-03-22T00:00:00.000" ModificationDateTime="2011-05-11T11:44:23.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>269000T01</AtcoCode>
@@ -56854,7 +56854,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-15T16:53:42.235" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-25T09:53:06.978" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269053045</AtcoCode>
 <NaptanCode>lecdawtp</NaptanCode>
 <Descriptor>
@@ -56880,13 +56880,31 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<HailAndRideSection>
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>461996</Easting>
+<Northing>307800</Northing>
+<Longitude>-1.084752</Longitude>
+<Latitude>52.664399</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>461996</Easting>
+<Northing>307800</Northing>
+<Longitude>-1.084752</Longitude>
+<Latitude>52.664399</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 </Bearing>
-</MarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -56900,7 +56918,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-15T16:55:21.793" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:18:36.104" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>269053046</AtcoCode>
 <NaptanCode>lecdawtw</NaptanCode>
 <Descriptor>
@@ -56949,7 +56967,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-15T17:12:12.826" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:19:20.530" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>269053047</AtcoCode>
 <NaptanCode>lecdgada</NaptanCode>
 <Descriptor>
@@ -56998,7 +57016,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-15T16:54:44.353" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:20:07.451" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>269053048</AtcoCode>
 <NaptanCode>lecdgadg</NaptanCode>
 <Descriptor>
@@ -57044,7 +57062,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-15T16:52:31.994" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:21:23.374" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>269053049</AtcoCode>
 <NaptanCode>lecdgadj</NaptanCode>
 <Descriptor>
