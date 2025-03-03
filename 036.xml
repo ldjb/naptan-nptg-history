@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-02-21T20:34:45" Modification="revise" RevisionNumber="3" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-03-02T22:40:28" Modification="revise" RevisionNumber="4" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-02-17T16:46:48" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -2973,6 +2973,1091 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T16:47:56" ModificationDateTime="2025-03-02T16:47:56" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000076</AtcoCode>
+      <NaptanCode>wingptp</NaptanCode>
+      <Descriptor>
+        <CommonName>High Street</CommonName>
+        <ShortCommonName>High St</ShortCommonName>
+        <Landmark>Church Cottages</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Mill Lane</Crossing>
+        <Indicator>Stop HG</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482598</Easting>
+            <Northing>183842</Northing>
+            <Longitude>-0.8101949969669442</Longitude>
+            <Latitude>51.54744325750106</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T16:49:22" ModificationDateTime="2025-03-02T16:49:22" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000077</AtcoCode>
+      <NaptanCode>wingptw</NaptanCode>
+      <Descriptor>
+        <CommonName>High Street</CommonName>
+        <ShortCommonName>High St</ShortCommonName>
+        <Landmark>Church Cottages</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Mill Lane</Crossing>
+        <Indicator>Stop HH</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482608</Easting>
+            <Northing>183839</Northing>
+            <Longitude>-0.8100482203011629</Longitude>
+            <Latitude>51.54741500609123</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T16:56:24" ModificationDateTime="2025-03-02T17:01:54" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>036000000078</AtcoCode>
+      <NaptanCode>wingpwa</NaptanCode>
+      <Descriptor>
+        <CommonName>Hurley House</CommonName>
+        <Landmark>Hurley House Hotel</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>Apple Hill</Crossing>
+        <Indicator>Stop UR</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>483951</Easting>
+            <Northing>182464</Northing>
+            <Longitude>-0.7910222084842579</Longitude>
+            <Latitude>51.53485340804767</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T16:57:23" ModificationDateTime="2025-03-02T17:02:08" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>036000000079</AtcoCode>
+      <NaptanCode>wingpwd</NaptanCode>
+      <Descriptor>
+        <CommonName>Hurley House</CommonName>
+        <Landmark>Hurley House Hotel</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>Apple Hill</Crossing>
+        <Indicator>Stop US</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>483961</Easting>
+            <Northing>182469</Northing>
+            <Longitude>-0.7908757676317735</Longitude>
+            <Latitude>51.53489789971729</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T17:16:28" ModificationDateTime="2025-03-02T17:16:28" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000080</AtcoCode>
+      <NaptanCode>wingpwj</NaptanCode>
+      <Descriptor>
+        <CommonName>Park Office</CommonName>
+        <Landmark>Hurley Riverside Park Office</Landmark>
+        <Street>Private Road</Street>
+        <Crossing>Hurleyford Farm Drive</Crossing>
+        <Indicator>Stop KO</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482439</Easting>
+            <Northing>183977</Northing>
+            <Longitude>-0.8124514375957095</Longitude>
+            <Latitude>51.54867375511154</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T17:17:30" ModificationDateTime="2025-03-02T17:17:30" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000081</AtcoCode>
+      <NaptanCode>wingpwm</NaptanCode>
+      <Descriptor>
+        <CommonName>Park Office</CommonName>
+        <Landmark>Hurley Riverside Park Office</Landmark>
+        <Street>Private Road</Street>
+        <Crossing>Hurleyford Farm Drive</Crossing>
+        <Indicator>Stop KP</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482443</Easting>
+            <Northing>183972</Northing>
+            <Longitude>-0.8123934863828011</Longitude>
+            <Latitude>51.54863250853956</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T18:34:17" ModificationDateTime="2025-03-02T18:34:17" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000082</AtcoCode>
+      <NaptanCode>wingpwp</NaptanCode>
+      <Descriptor>
+        <CommonName>Prospect Place</CommonName>
+        <ShortCommonName>Prospect Pl.</ShortCommonName>
+        <Landmark>Haycroft</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Prospect Place</Crossing>
+        <Indicator>Stop PO</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482727</Easting>
+            <Northing>183210</Northing>
+            <Longitude>-0.8084850099250596</Longitude>
+            <Latitude>51.54173797146117</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T18:36:32" ModificationDateTime="2025-03-02T18:36:32" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000083</AtcoCode>
+      <NaptanCode>wingpwt</NaptanCode>
+      <Descriptor>
+        <CommonName>Prospect Place</CommonName>
+        <ShortCommonName>Prospect Pl.</ShortCommonName>
+        <Landmark>Haycroft</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Prospect Place</Crossing>
+        <Indicator>Stop PP</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053885</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482749</Easting>
+            <Northing>183168</Northing>
+            <Longitude>-0.8081744117516387</Longitude>
+            <Latitude>51.54136429643156</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T18:56:19" ModificationDateTime="2025-03-02T18:56:19" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000084</AtcoCode>
+      <NaptanCode>wingtad</NaptanCode>
+      <Descriptor>
+        <CommonName>Thicket Bridge</CommonName>
+        <ShortCommonName>Thicket Br.</ShortCommonName>
+        <Landmark>Maidenhead Thicket car park</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>Footpath No. 85</Crossing>
+        <Indicator>Stop TH</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055222</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>485766</Easting>
+            <Northing>180959</Northing>
+            <Longitude>-0.76521974121482</Longitude>
+            <Latitude>51.52105323717075</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T18:57:17" ModificationDateTime="2025-03-02T18:57:17" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000085</AtcoCode>
+      <NaptanCode>wingtag</NaptanCode>
+      <Descriptor>
+        <CommonName>Thicket Bridge</CommonName>
+        <ShortCommonName>Thicket Br.</ShortCommonName>
+        <Landmark>Maidenhead Thicket car park</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>Footpath No. 85</Crossing>
+        <Indicator>Stop TG</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055222</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>485776</Easting>
+            <Northing>180967</Northing>
+            <Longitude>-0.7650782816539549</Longitude>
+            <Latitude>51.52112788760865</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:07:48" ModificationDateTime="2025-03-02T19:07:48" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000086</AtcoCode>
+      <NaptanCode>wingtaj</NaptanCode>
+      <Descriptor>
+        <CommonName>Adkins Road</CommonName>
+        <ShortCommonName>Adkins Rd</ShortCommonName>
+        <Landmark>Burdons Farm</Landmark>
+        <Street>Milley Road</Street>
+        <Crossing>Burdons Farm driveway</Crossing>
+        <Indicator>Stop AC</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053890</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482405</Easting>
+            <Northing>176981</Northing>
+            <Longitude>-0.8145775619270014</Longitude>
+            <Latitude>51.48579653086523</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:08:50" ModificationDateTime="2025-03-02T19:08:50" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000087</AtcoCode>
+      <NaptanCode>wingtam</NaptanCode>
+      <Descriptor>
+        <CommonName>Adkins Road</CommonName>
+        <ShortCommonName>Adkins Rd</ShortCommonName>
+        <Landmark>Burdons Farm</Landmark>
+        <Street>Milley Road</Street>
+        <Crossing>Burdons Farm driveway</Crossing>
+        <Indicator>Stop AD</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053890</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482402</Easting>
+            <Northing>176990</Northing>
+            <Longitude>-0.8146255190183596</Longitude>
+            <Latitude>51.48587534500907</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:12:50" ModificationDateTime="2025-03-02T19:12:50" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000088</AtcoCode>
+      <NaptanCode>wingtap</NaptanCode>
+      <Descriptor>
+        <CommonName>Milley Bridge</CommonName>
+        <ShortCommonName>Milley Br.</ShortCommonName>
+        <Landmark>railway bridge</Landmark>
+        <Street>Milley Road</Street>
+        <Crossing>Footpath No. 9</Crossing>
+        <Indicator>Stop BD</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053890</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>481694</Easting>
+            <Northing>177114</Northing>
+            <Longitude>-0.824787540440164</Longitude>
+            <Latitude>51.48709327568034</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:14:12" ModificationDateTime="2025-03-02T19:14:12" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000089</AtcoCode>
+      <NaptanCode>wingtat</NaptanCode>
+      <Descriptor>
+        <CommonName>Milley Bridge</CommonName>
+        <ShortCommonName>Milley Br.</ShortCommonName>
+        <Landmark>railway bridge</Landmark>
+        <Street>Milley Road</Street>
+        <Crossing>Footpath No. 9</Crossing>
+        <Indicator>Stop BE</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053890</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>481708</Easting>
+            <Northing>177123</Northing>
+            <Longitude>-0.8245906275439954</Longitude>
+            <Latitude>51.48716899093977</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:19:26" ModificationDateTime="2025-03-02T19:19:26" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000090</AtcoCode>
+      <NaptanCode>wingtaw</NaptanCode>
+      <Descriptor>
+        <CommonName>Milley Road</CommonName>
+        <ShortCommonName>Milley Rd</ShortCommonName>
+        <Landmark>Beauly House</Landmark>
+        <Street>Milley Road</Street>
+        <Crossing>Beauly House driveway</Crossing>
+        <Indicator>Stop MR</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053890</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482036</Easting>
+            <Northing>176982</Northing>
+            <Longitude>-0.8198939581304511</Longitude>
+            <Latitude>51.4858517530043</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:21:37" ModificationDateTime="2025-03-02T19:21:37" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000091</AtcoCode>
+      <NaptanCode>wingtda</NaptanCode>
+      <Descriptor>
+        <CommonName>Milley Road</CommonName>
+        <ShortCommonName>Milley Rd</ShortCommonName>
+        <Landmark>Beauly House</Landmark>
+        <Street>Milley Road</Street>
+        <Crossing>Beauly House driveway</Crossing>
+        <Indicator>Stop MQ</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053890</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>482005</Easting>
+            <Northing>176993</Northing>
+            <Longitude>-0.8203320609881027</Longitude>
+            <Latitude>51.485955516064884</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:37:27" ModificationDateTime="2025-03-02T19:37:27" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000092</AtcoCode>
+      <NaptanCode>wingtdg</NaptanCode>
+      <Descriptor>
+        <CommonName>Camley Corner</CommonName>
+        <ShortCommonName>Camley Cnr</ShortCommonName>
+        <Landmark>Camley Corner</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>Stubbings Lane</Crossing>
+        <Indicator>Stop CM</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043295</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>485156</Easting>
+            <Northing>181492</Northing>
+            <Longitude>-0.7738867059143618</Longitude>
+            <Latitude>51.52593863171808</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:38:37" ModificationDateTime="2025-03-02T19:38:37" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000093</AtcoCode>
+      <NaptanCode>wingtdj</NaptanCode>
+      <Descriptor>
+        <CommonName>Camley Corner</CommonName>
+        <ShortCommonName>Camley Cnr</ShortCommonName>
+        <Landmark>Camley Corner</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>Stubbings Lane</Crossing>
+        <Indicator>Stop CL</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043295</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>485146</Easting>
+            <Northing>181485</Northing>
+            <Longitude>-0.7740317170990219</Longitude>
+            <Latitude>51.52587845194388</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:45:15" ModificationDateTime="2025-03-02T19:45:15" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000094</AtcoCode>
+      <NaptanCode>wingtdm</NaptanCode>
+      <Descriptor>
+        <CommonName>St James-the-Less</CommonName>
+        <Landmark>St James-the-Less Church</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>church layby</Crossing>
+        <Indicator>Stop JM</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043295</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>484942</Easting>
+            <Northing>181637</Northing>
+            <Longitude>-0.7769276143958836</Longitude>
+            <Latitude>51.52727630005594</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:46:25" ModificationDateTime="2025-03-02T19:46:25" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000095</AtcoCode>
+      <NaptanCode>wingtdp</NaptanCode>
+      <Descriptor>
+        <CommonName>St James-the-Less</CommonName>
+        <Landmark>St James-the-Less Church</Landmark>
+        <Street>Henley Road</Street>
+        <Crossing>church layby</Crossing>
+        <Indicator>Stop JL</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043295</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>484999</Easting>
+            <Northing>181620</Northing>
+            <Longitude>-0.7761183809226726</Longitude>
+            <Latitude>51.52710775964377</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T19:51:01" ModificationDateTime="2025-03-02T19:51:01" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000096</AtcoCode>
+      <NaptanCode>wingtdt</NaptanCode>
+      <Descriptor>
+        <CommonName>Stubbings House &amp; Nursery</CommonName>
+        <ShortCommonName>Stubbings Nursery</ShortCommonName>
+        <Landmark>Stubbings Nursery</Landmark>
+        <Street>Stubbings Lane</Street>
+        <Crossing>Nursery car park</Crossing>
+        <Indicator>Stop ST</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043295</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>484678</Easting>
+            <Northing>181068</Northing>
+            <Longitude>-0.7808729194792142</Longitude>
+            <Latitude>51.52219933451354</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T20:34:04" ModificationDateTime="2025-03-02T21:00:17" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>036000000097</AtcoCode>
+      <NaptanCode>wingtdw</NaptanCode>
+      <Descriptor>
+        <CommonName>Duke's Lane Hail &amp; Ride</CommonName>
+        <ShortCommonName>Duke's Ln.</ShortCommonName>
+        <Landmark>Apple Tree Cottage</Landmark>
+        <Street>Duke's Lane</Street>
+        <Indicator>Northbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495883</Easting>
+            <Northing>171548</Northing>
+            <Longitude>-0.62200033396983</Longitude>
+            <Latitude>51.43483326324745</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T20:34:04" ModificationDateTime="2025-03-02T20:34:04" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495122</Easting>
+                  <Northing>170393</Northing>
+                  <Longitude>-0.6332569543747081</Longitude>
+                  <Latitude>51.424581647623555</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495894</Easting>
+                  <Northing>171566</Northing>
+                  <Longitude>-0.6218351757786468</Longitude>
+                  <Latitude>51.43499601416748</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T20:36:39" ModificationDateTime="2025-03-02T21:00:02" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>036000000098</AtcoCode>
+      <NaptanCode>wingtga</NaptanCode>
+      <Descriptor>
+        <CommonName>Duke's Lane Hail &amp; Ride</CommonName>
+        <ShortCommonName>Duke's Ln.</ShortCommonName>
+        <Landmark>Apple Tree Cottage</Landmark>
+        <Street>Duke's Lane</Street>
+        <Indicator>Southbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495144</Easting>
+            <Northing>170406</Northing>
+            <Longitude>-0.6329298042862487</Longitude>
+            <Latitude>51.424692518820464</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T20:36:39" ModificationDateTime="2025-03-02T20:36:39" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495902</Easting>
+                  <Northing>171563</Northing>
+                  <Longitude>-0.6217206396281229</Longitude>
+                  <Latitude>51.43496501067271</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495128</Easting>
+                  <Northing>170384</Northing>
+                  <Longitude>-0.633165411900487</Longitude>
+                  <Latitude>51.42450095084099</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T20:52:55" ModificationDateTime="2025-03-02T20:52:55" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000099</AtcoCode>
+      <NaptanCode>wingtgd</NaptanCode>
+      <Descriptor>
+        <CommonName>The Royal School Hail &amp; Ride</CommonName>
+        <ShortCommonName>The Royal Sch.</ShortCommonName>
+        <Landmark>The Royal School</Landmark>
+        <Indicator>Northbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055224</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>496611</Easting>
+            <Northing>171637</Northing>
+            <Longitude>-0.6115026255168934</Longitude>
+            <Latitude>51.43551345485219</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T20:52:55" ModificationDateTime="2025-03-02T20:52:55" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495925</Easting>
+                  <Northing>171570</Northing>
+                  <Longitude>-0.6213909863266666</Longitude>
+                  <Latitude>51.435025623447345</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496638</Easting>
+                  <Northing>171649</Northing>
+                  <Longitude>-0.6111112434328915</Longitude>
+                  <Latitude>51.43561419726161</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-02T20:54:50" ModificationDateTime="2025-03-02T20:54:50" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000100</AtcoCode>
+      <NaptanCode>wingtgj</NaptanCode>
+      <Descriptor>
+        <CommonName>The Royal School Hail &amp; Ride</CommonName>
+        <ShortCommonName>The Royal Sch.</ShortCommonName>
+        <Landmark>The Royal School</Landmark>
+        <Indicator>Southbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055224</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495924</Easting>
+            <Northing>171556</Northing>
+            <Longitude>-0.621409391209984</Longitude>
+            <Latitude>51.43489589704898</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T20:54:50" ModificationDateTime="2025-03-02T20:54:50" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496659</Easting>
+                  <Northing>171645</Northing>
+                  <Longitude>-0.6108108694784821</Longitude>
+                  <Latitude>51.4355696087162</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495934</Easting>
+                  <Northing>171551</Northing>
+                  <Longitude>-0.6212614918165117</Longitude>
+                  <Latitude>51.43485172577645</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
     <StopPoint CreationDateTime="2022-09-01T13:04:02" ModificationDateTime="2022-09-07T06:29:38" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000366</AtcoCode>
       <NaptanCode>wingmag</NaptanCode>
@@ -3048,13 +4133,15 @@
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2022-09-02T09:55:24" ModificationDateTime="2022-09-02T10:31:34" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2022-09-02T09:55:24" ModificationDateTime="2025-03-02T20:08:33" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036000000368</AtcoCode>
       <NaptanCode>wingmam</NaptanCode>
       <Descriptor>
-        <CommonName>Lowbrook Drive</CommonName>
+        <CommonName>Loosen Drive</CommonName>
+        <ShortCommonName>Loosen Drv.</ShortCommonName>
         <Street>Lowbrook Drive</Street>
-        <Indicator>opp No 40</Indicator>
+        <Crossing>Loosen Drive</Crossing>
+        <Indicator>Stop LL</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043321</NptgLocalityRef>
@@ -3062,10 +4149,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486309</Easting>
-            <Northing>179235</Northing>
-            <Longitude>-0.757835</Longitude>
-            <Latitude>51.505471</Latitude>
+            <Easting>486422</Easting>
+            <Northing>179200</Northing>
+            <Longitude>-0.756201687414746</Longitude>
+            <Latitude>51.50514553771459</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3078,13 +4165,14 @@
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
-                <CompassPoint>E</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2022-09-02T10:17:10" ModificationDateTime="2022-09-02T10:30:05" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000369</AtcoCode>
@@ -3124,14 +4212,16 @@
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-22T14:02:44" ModificationDateTime="2014-12-15T12:07:05" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2014-10-22T14:02:44" ModificationDateTime="2025-03-02T22:23:20" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036000001390</AtcoCode>
       <NaptanCode>wingjgd</NaptanCode>
       <Descriptor>
-        <CommonName>Peewit Gate</CommonName>
-        <Landmark>Dukes Lane</Landmark>
+        <CommonName>Peewit Gate Hail &amp; Ride</CommonName>
+        <ShortCommonName>Peewit Gate</ShortCommonName>
+        <Landmark>Copper Horse</Landmark>
         <Street>The Reading Road</Street>
-        <Indicator>eastbound</Indicator>
+        <Crossing>Duke's Lane</Crossing>
+        <Indicator>Eastbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -3139,10 +4229,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496144</Easting>
-            <Northing>172714</Northing>
-            <Longitude>-0.617943</Longitude>
-            <Latitude>51.445269</Latitude>
+            <Easting>496136</Easting>
+            <Northing>172709</Northing>
+            <Longitude>-0.6180393520585636</Longitude>
+            <Latitude>51.445229202746766</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3150,26 +4240,45 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:23:20" ModificationDateTime="2025-03-02T22:23:20" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495282</Easting>
+                  <Northing>172683</Northing>
+                  <Longitude>-0.6303326523727782</Longitude>
+                  <Latitude>51.44514178546508</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496127</Easting>
+                  <Northing>172704</Northing>
+                  <Longitude>-0.6181759507216046</Longitude>
+                  <Latitude>51.445185946991124</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-22T13:54:41" ModificationDateTime="2014-12-15T12:06:26" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2014-10-22T13:54:41" ModificationDateTime="2025-03-02T21:53:53" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036000001392</AtcoCode>
       <NaptanCode>wingjdw</NaptanCode>
       <Descriptor>
-        <CommonName>Cumberland Lodge</CommonName>
-        <Street>un-named road</Street>
-        <Indicator>eastbound</Indicator>
+        <CommonName>Cumberland Lodge Hail &amp; Ride</CommonName>
+        <ShortCommonName>Cumberland Lodge</ShortCommonName>
+        <Landmark>Cumberland Lodge</Landmark>
+        <Indicator>Westbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -3177,10 +4286,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496664</Easting>
-            <Northing>171723</Northing>
-            <Longitude>-0.610733</Longitude>
-            <Latitude>51.436268</Latitude>
+            <Easting>496662</Easting>
+            <Northing>171703</Northing>
+            <Longitude>-0.610758829462006</Longitude>
+            <Latitude>51.436095751717595</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3188,27 +4297,29 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>E</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-22T14:11:20" ModificationDateTime="2014-12-15T12:05:30" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2014-10-22T14:11:20" ModificationDateTime="2025-03-02T22:21:52" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036000002390</AtcoCode>
       <NaptanCode>wingjgj</NaptanCode>
       <Descriptor>
-        <CommonName>Peewit Gate</CommonName>
-        <Landmark>Dukes Lane</Landmark>
+        <CommonName>Peewit Gate Hail &amp; Ride</CommonName>
+        <ShortCommonName>Peewit Gate</ShortCommonName>
+        <Landmark>Copper Horse</Landmark>
         <Street>The Reading Road</Street>
-        <Indicator>westbound</Indicator>
+        <Crossing>Duke's Lane</Crossing>
+        <Indicator>Westbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -3216,10 +4327,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496144</Easting>
-            <Northing>172693</Northing>
-            <Longitude>-0.617959</Longitude>
-            <Latitude>51.445082</Latitude>
+            <Easting>495271</Easting>
+            <Northing>172674</Northing>
+            <Longitude>-0.6305008778623767</Longitude>
+            <Latitude>51.44505666712475</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3227,26 +4338,45 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:21:52" ModificationDateTime="2025-03-02T22:21:52" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496147</Easting>
+                  <Northing>172695</Northing>
+                  <Longitude>-0.6178902731211889</Longitude>
+                  <Latitude>51.44510166408539</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495276</Easting>
+                  <Northing>172667</Northing>
+                  <Longitude>-0.6304316288297686</Longitude>
+                  <Latitude>51.444994673567194</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-22T13:56:57" ModificationDateTime="2014-12-15T12:04:52" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2014-10-22T13:56:57" ModificationDateTime="2025-03-02T21:54:59" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036000002392</AtcoCode>
       <NaptanCode>wingjga</NaptanCode>
       <Descriptor>
-        <CommonName>Cumberland Lodge</CommonName>
-        <Street>un-named road</Street>
-        <Indicator>westbound</Indicator>
+        <CommonName>Cumberland Lodge Hail &amp; Ride</CommonName>
+        <ShortCommonName>Cumberland Lodge</ShortCommonName>
+        <Landmark>Cumberland Lodge</Landmark>
+        <Indicator>Eastbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -3254,10 +4384,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496658</Easting>
-            <Northing>171708</Northing>
-            <Longitude>-0.610832</Longitude>
-            <Latitude>51.436133</Latitude>
+            <Easting>496667</Easting>
+            <Northing>171716</Northing>
+            <Longitude>-0.6106723376274514</Longitude>
+            <Latitude>51.436211053506305</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3265,26 +4395,29 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2020-08-20T13:54:44" ModificationDateTime="2020-08-20T13:55:22" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2020-08-20T13:54:44" ModificationDateTime="2025-03-02T18:43:02" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036000002424</AtcoCode>
       <NaptanCode>wingjtm</NaptanCode>
       <Descriptor>
-        <CommonName>High Street</CommonName>
+        <CommonName>Shepherds Close</CommonName>
+        <ShortCommonName>Shepherds Cl.</ShortCommonName>
+        <Landmark>Bowes House</Landmark>
         <Street>High Street</Street>
-        <Indicator>Northbound</Indicator>
+        <Crossing>Shepherds Close</Crossing>
+        <Indicator>Stop SE</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053885</NptgLocalityRef>
@@ -3314,6 +4447,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2008-02-16T10:05:00" ModificationDateTime="2008-02-16T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000003079</AtcoCode>
@@ -3357,12 +4491,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T11:51:24" ModificationDateTime="2015-01-05T09:04:47" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-12-15T11:51:24" ModificationDateTime="2025-03-02T22:18:51" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036000005390</AtcoCode>
+      <NaptanCode>wingtgm</NaptanCode>
       <Descriptor>
-        <CommonName>Peewit Gate</CommonName>
-        <Street>The Redaing Road</Street>
-        <Indicator>eastbound</Indicator>
+        <CommonName>Richardson's Lawn Hail &amp; Ride</CommonName>
+        <ShortCommonName>Richardson's Lawn</ShortCommonName>
+        <Landmark>Richardson's Lawn</Landmark>
+        <Street>Duke's Lane</Street>
+        <Crossing>The Reading Road</Crossing>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -3370,10 +4508,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496144</Easting>
-            <Northing>172714</Northing>
-            <Longitude>-0.617949</Longitude>
-            <Latitude>51.445266</Latitude>
+            <Easting>496052</Easting>
+            <Northing>172149</Northing>
+            <Longitude>-0.6194092140803598</Longitude>
+            <Latitude>51.440211049818885</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3381,101 +4519,44 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:18:51" ModificationDateTime="2025-03-02T22:18:51" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496170</Easting>
+                  <Northing>172697</Northing>
+                  <Longitude>-0.6175580637752366</Longitude>
+                  <Latitude>51.44511462000244</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496054</Easting>
+                  <Northing>172164</Northing>
+                  <Longitude>-0.619366588681829</Longitude>
+                  <Latitude>51.44034480193668</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T11:56:51" ModificationDateTime="2014-12-15T11:56:51" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2014-12-15T11:56:51" ModificationDateTime="2025-03-02T21:57:45" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000005392</AtcoCode>
       <NaptanCode>wingjgp</NaptanCode>
       <Descriptor>
-        <CommonName>Cumberland Lodge</CommonName>
-        <Street>Un-named Street</Street>
-        <Indicator>Eastbound</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0043318</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>496664</Easting>
-            <Northing>171722</Northing>
-            <Longitude>-0.610739</Longitude>
-            <Latitude>51.436261</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>065</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T12:00:44" ModificationDateTime="2015-01-05T09:05:01" Modification="revise" RevisionNumber="1" Status="active">
-      <AtcoCode>036000006390</AtcoCode>
-      <NaptanCode>wingjgt</NaptanCode>
-      <Descriptor>
-        <CommonName>Peewit Gate</CommonName>
-        <Street>The Reading Road</Street>
-        <Indicator>westbound</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0043318</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>496143</Easting>
-            <Northing>172693</Northing>
-            <Longitude>-0.617969</Longitude>
-            <Latitude>51.445078</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>065</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T12:04:34" ModificationDateTime="2014-12-15T12:04:34" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>036000006392</AtcoCode>
-      <NaptanCode>wingjgw</NaptanCode>
-      <Descriptor>
-        <CommonName>Cumberland Lodge</CommonName>
-        <Street>un-named street</Street>
+        <CommonName>Gravel Hill Hail &amp; Ride</CommonName>
+        <ShortCommonName>Gravel Hill</ShortCommonName>
+        <Landmark>Gravel Hill</Landmark>
         <Indicator>Westbound</Indicator>
       </Descriptor>
       <Place>
@@ -3484,10 +4565,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496657</Easting>
-            <Northing>171707</Northing>
-            <Longitude>-0.610844</Longitude>
-            <Latitude>51.436127</Latitude>
+            <Easting>496052</Easting>
+            <Northing>172115</Northing>
+            <Longitude>-0.6194093465917817</Longitude>
+            <Latitude>51.439898959884694</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -3495,18 +4576,152 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <HailAndRideSection CreationDateTime="2025-03-02T21:57:45" ModificationDateTime="2025-03-02T21:57:45" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496633</Easting>
+                  <Northing>171715</Northing>
+                  <Longitude>-0.611162784688295</Longitude>
+                  <Latitude>51.4362090331206</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496066</Easting>
+                  <Northing>172105</Northing>
+                  <Longitude>-0.6192221778930418</Longitude>
+                  <Latitude>51.43980533293761</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2014-12-15T12:00:44" ModificationDateTime="2025-03-02T22:20:13" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>036000006390</AtcoCode>
+      <NaptanCode>wingjgt</NaptanCode>
+      <Descriptor>
+        <CommonName>Richardson's Lawn Hail &amp; Ride</CommonName>
+        <ShortCommonName>Richardson's Lawn</ShortCommonName>
+        <Landmark>Richardson's Lawn</Landmark>
+        <Street>Duke's Lane</Street>
+        <Crossing>The Reading Road</Crossing>
+        <Indicator>Northbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>496152</Easting>
+            <Northing>172684</Northing>
+            <Longitude>-0.6178284322480265</Longitude>
+            <Latitude>51.444997390202964</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:20:13" ModificationDateTime="2025-03-02T22:20:13" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496038</Easting>
+                  <Northing>172161</Northing>
+                  <Longitude>-0.6196022773706545</Longitude>
+                  <Latitude>51.440318051544466</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496152</Easting>
+                  <Northing>172687</Northing>
+                  <Longitude>-0.6178189866008023</Longitude>
+                  <Latitude>51.445023232581796</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2014-12-15T12:04:34" ModificationDateTime="2025-03-02T21:59:51" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>036000006392</AtcoCode>
+      <NaptanCode>wingjgw</NaptanCode>
+      <Descriptor>
+        <CommonName>Gravel Hill Hail &amp; Ride</CommonName>
+        <ShortCommonName>Gravel Hill</ShortCommonName>
+        <Landmark>Gravel Hill</Landmark>
+        <Indicator>Eastbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>496479</Easting>
+            <Northing>171759</Northing>
+            <Longitude>-0.613372634522198</Longitude>
+            <Latitude>51.43663080604359</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T21:59:51" ModificationDateTime="2025-03-02T21:59:51" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496054</Easting>
+                  <Northing>172135</Northing>
+                  <Longitude>-0.6193844337622824</Longitude>
+                  <Latitude>51.44008112877544</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496609</Easting>
+                  <Northing>171738</Northing>
+                  <Longitude>-0.6115018392361128</Longitude>
+                  <Latitude>51.436416157819586</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2009-04-24T13:40:00" ModificationDateTime="2009-04-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>036000601451</AtcoCode>
@@ -5193,15 +6408,15 @@
         <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2008-12-14T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2025-03-02T20:00:25" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001105</AtcoCode>
       <NaptanCode>winadga</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Bell</CommonName>
-        <Landmark xml:lang="en">Church</Landmark>
-        <Street xml:lang="en">The Street</Street>
-        <Crossing xml:lang="en">482941</Crossing>
-        <Indicator xml:lang="en">o/s</Indicator>
+        <CommonName>The Bell</CommonName>
+        <Landmark>St Lawrence's Church</Landmark>
+        <Street>Halls Lane</Street>
+        <Crossing>The Street</Crossing>
+        <Indicator>Stop SL</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053890</NptgLocalityRef>
@@ -5209,10 +6424,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>482941</Easting>
-            <Northing>176897</Northing>
-            <Longitude>-0.806903</Longitude>
-            <Latitude>51.484955</Latitude>
+            <Easting>482944</Easting>
+            <Northing>176929</Northing>
+            <Longitude>-0.8068328723256314</Longitude>
+            <Latitude>51.48524935174438</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5224,22 +6439,24 @@
             <TimingStatus>TIP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>NW</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:27:50" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T19:25:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001108</AtcoCode>
       <NaptanCode>winajdg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">White Hart PH</CommonName>
-        <Landmark xml:lang="en">White Hart PH</Landmark>
-        <Street xml:lang="en">The Street</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>White Hart</CommonName>
+        <Landmark>White Hart pub</Landmark>
+        <Street>The Street</Street>
+        <Crossing>The Straight Mile</Crossing>
+        <Indicator>Stop WH</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043298</NptgLocalityRef>
@@ -5258,31 +6475,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>483285</Easting>
-                  <Northing>174191</Northing>
-                  <Longitude>-0.802587</Longitude>
-                  <Latitude>51.460578</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>483273</Easting>
-                  <Northing>174379</Northing>
-                  <Longitude>-0.802716</Longitude>
-                  <Latitude>51.46227</Latitude>
-                </Translation>
-              </EndPoint>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -5290,6 +6489,7 @@
         <StopAreaRef Modification="new">036G00000108</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:30:38" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006001109</AtcoCode>
@@ -5395,14 +6595,15 @@
         <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2004-04-21T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-03-02T20:13:13" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006001129</AtcoCode>
       <NaptanCode>winamwj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Holyport Turn</CommonName>
-        <Landmark xml:lang="en">Bray Court</Landmark>
-        <Street xml:lang="en">Windsor Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Holyport Turn</CommonName>
+        <Landmark>motorway overbridge</Landmark>
+        <Street>Windsor Road</Street>
+        <Crossing>Bray Court</Crossing>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043245</NptgLocalityRef>
@@ -5410,10 +6611,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>490115</Easting>
-            <Northing>178608</Northing>
-            <Longitude>-0.703176</Longitude>
-            <Latitude>51.499239</Latitude>
+            <Easting>490260</Easting>
+            <Northing>178522</Northing>
+            <Longitude>-0.7010930880690093</Longitude>
+            <Latitude>51.49844690780124</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5436,9 +6637,7 @@
         <StopAreaRef Modification="new">036G00006200</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006001132</AtcoCode>
@@ -7276,14 +8475,14 @@
         <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2014-10-22T13:26:49" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:28:50" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006001387</AtcoCode>
       <NaptanCode>winadpd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Village</CommonName>
-        <Landmark xml:lang="en">Queen Annes Ride</Landmark>
-        <Street xml:lang="en">The Village</Street>
-        <Indicator xml:lang="en">northbound</Indicator>
+        <CommonName>The Village Hail &amp; Ride</CommonName>
+        <ShortCommonName>The Village</ShortCommonName>
+        <Landmark>Post Office</Landmark>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -7302,13 +8501,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:28:50" ModificationDateTime="2025-03-02T22:28:50" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496010</Easting>
+                  <Northing>172145</Northing>
+                  <Longitude>-0.6200181108729064</Longitude>
+                  <Latitude>51.44018067746581</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495243</Easting>
+                  <Northing>172646</Northing>
+                  <Longitude>-0.630910449583595</Longitude>
+                  <Latitude>51.44481189765479</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -7316,18 +8533,20 @@
         <StopAreaRef Modification="new">036G00000387</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2016-02-11T15:05:02" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:07:16" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001388</AtcoCode>
       <NaptanCode>winadpg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Copper Horse</CommonName>
-        <Landmark xml:lang="en">The Long Walk</Landmark>
-        <Street xml:lang="en">Spring Hill</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Bishops Gate Hail &amp; Ride</CommonName>
+        <ShortCommonName>Bishops Gate</ShortCommonName>
+        <Landmark>Bishops Gate</Landmark>
+        <Street>Bishopsgate Road</Street>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2016-02-11T15:05:02" Modification="new" Status="active">
+        <Descriptor CreationDateTime="2016-02-11T15:05:02" Modification="new">
           <CommonName>George III Statue</CommonName>
           <ShortCommonName>George III Statue</ShortCommonName>
         </Descriptor>
@@ -7338,10 +8557,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496862</Easting>
-            <Northing>172797</Northing>
-            <Longitude>-0.607598</Longitude>
-            <Latitude>51.44589</Latitude>
+            <Easting>497801</Easting>
+            <Northing>172225</Northing>
+            <Longitude>-0.5942304047299697</Longitude>
+            <Latitude>51.44058827155766</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7349,13 +8568,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:07:16" ModificationDateTime="2025-03-02T22:07:16" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497600</Easting>
+                  <Northing>172208</Northing>
+                  <Longitude>-0.5971196589611539</Longitude>
+                  <Latitude>51.440475906684085</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497780</Easting>
+                  <Northing>172226</Northing>
+                  <Longitude>-0.5945257153637962</Longitude>
+                  <Latitude>51.44060053204949</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>NW</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -7363,6 +8600,7 @@
         <StopAreaRef Modification="new">036G00000388</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-06-03T00:00:00" ModificationDateTime="2010-11-17T14:01:24" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006001389</AtcoCode>
@@ -7551,14 +8789,14 @@
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-06-10T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:02:54" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006001400</AtcoCode>
       <NaptanCode>winadpm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Royal Lodge</CommonName>
-        <Landmark xml:lang="en">Bishops Gate</Landmark>
-        <Street xml:lang="en">Spring Hill</Street>
-        <Indicator xml:lang="en">N-bound</Indicator>
+        <CommonName>Royal Lodge Hail &amp; Ride</CommonName>
+        <ShortCommonName>Royal Lodge</ShortCommonName>
+        <Landmark>Royal Lodge</Landmark>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -7566,10 +8804,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>497579</Easting>
-            <Northing>172221</Northing>
-            <Longitude>-0.597442</Longitude>
-            <Latitude>51.44059</Latitude>
+            <Easting>497580</Easting>
+            <Northing>172178</Northing>
+            <Longitude>-0.5974216723876613</Longitude>
+            <Latitude>51.44021105022706</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7577,13 +8815,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:02:54" ModificationDateTime="2025-03-02T22:02:54" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496741</Easting>
+                  <Northing>171709</Northing>
+                  <Longitude>-0.6096221899614053</Longitude>
+                  <Latitude>51.4361354630472</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497584</Easting>
+                  <Northing>172189</Northing>
+                  <Longitude>-0.5973591237871823</Longitude>
+                  <Latitude>51.44030202894552</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -7591,15 +8847,16 @@
         <StopAreaRef Modification="new">036G00000400</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T20:57:49" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001401</AtcoCode>
       <NaptanCode>winadpt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Royal Primary School</CommonName>
-        <Landmark xml:lang="en">The Vinery</Landmark>
-        <Street xml:lang="en">Gravel Hill</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>The Royal School Hail &amp; Ride</CommonName>
+        <ShortCommonName>The Royal Sch.</ShortCommonName>
+        <Landmark>The Vinery</Landmark>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -7607,10 +8864,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496388</Easting>
-            <Northing>171513</Northing>
-            <Longitude>-0.614766</Longitude>
-            <Latitude>51.434429</Latitude>
+            <Easting>496646</Easting>
+            <Northing>171653</Northing>
+            <Longitude>-0.6109907664550974</Longitude>
+            <Latitude>51.43564945022235</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7618,13 +8875,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <HailAndRideSection CreationDateTime="2025-03-02T20:57:49" ModificationDateTime="2025-03-02T20:57:49" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495924</Easting>
+                  <Northing>171571</Northing>
+                  <Longitude>-0.6214053240235763</Longitude>
+                  <Latitude>51.43503008290805</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496661</Easting>
+                  <Northing>171665</Northing>
+                  <Longitude>-0.6107749960471566</Longitude>
+                  <Latitude>51.435752421210424</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -7632,15 +8907,16 @@
         <StopAreaRef Modification="new">036G00000401</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:35:53" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006001402</AtcoCode>
       <NaptanCode>winadpw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Norfolk Farm</CommonName>
-        <Landmark xml:lang="en">Mill Covert</Landmark>
-        <Street xml:lang="en">Norfolk Plantation</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Norfolk Farm</CommonName>
+        <Landmark>Mill Covert</Landmark>
+        <Street>Norfolk Plantation</Street>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -7670,6 +8946,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2006-09-07T00:00:00" ModificationDateTime="2007-02-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006001408</AtcoCode>
@@ -8069,14 +9346,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2014-12-23T16:31:17" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2025-03-02T18:42:38" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001424</AtcoCode>
       <NaptanCode>winapgp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">High Street</CommonName>
-        <Landmark xml:lang="en">Shepherds Close</Landmark>
-        <Street xml:lang="en">Hurley High Street</Street>
-        <Indicator xml:lang="en">southbound</Indicator>
+        <CommonName>Shepherds Close</CommonName>
+        <ShortCommonName>Shepherds Cl.</ShortCommonName>
+        <Landmark>Green Shutters</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Shepherds Close</Crossing>
+        <Indicator>Stop SD</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053885</NptgLocalityRef>
@@ -8096,7 +9375,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -8107,6 +9386,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2004-05-25T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006001425</AtcoCode>
@@ -10867,14 +12147,15 @@
         <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:31:36" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T19:26:20" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006002108</AtcoCode>
       <NaptanCode>winajgm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">White Hart PH</CommonName>
-        <Landmark xml:lang="en">White Hart PH</Landmark>
-        <Street xml:lang="en">The Street</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>White Hart</CommonName>
+        <Landmark>White Hart pub</Landmark>
+        <Street>The Street</Street>
+        <Crossing>The Straight Mile</Crossing>
+        <Indicator>Stop WI</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043298</NptgLocalityRef>
@@ -10883,9 +12164,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>483296</Easting>
-            <Northing>174303</Northing>
-            <Longitude>-0.802403</Longitude>
-            <Latitude>51.461583</Latitude>
+            <Northing>174223</Northing>
+            <Longitude>-0.8023941608089903</Longitude>
+            <Latitude>51.46086846164003</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10893,31 +12174,14 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>483289</Easting>
-                  <Northing>174396</Northing>
-                  <Longitude>-0.802481</Longitude>
-                  <Latitude>51.46242</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>483302</Easting>
-                  <Northing>174189</Northing>
-                  <Longitude>-0.802343</Longitude>
-                  <Latitude>51.460558</Latitude>
-                </Translation>
-              </EndPoint>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -10925,6 +12189,7 @@
         <StopAreaRef Modification="new">036G00000108</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:32:48" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006002109</AtcoCode>
@@ -12865,14 +14130,14 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2014-10-22T13:27:05" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:30:06" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006002387</AtcoCode>
       <NaptanCode>winagja</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Village</CommonName>
-        <Landmark xml:lang="en">Queen Annes Ride</Landmark>
-        <Street xml:lang="en">The Village</Street>
-        <Indicator xml:lang="en">southbound</Indicator>
+        <CommonName>The Village Hail &amp; Ride</CommonName>
+        <ShortCommonName>The Village</ShortCommonName>
+        <Landmark>Post Office</Landmark>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -12891,13 +14156,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:30:06" ModificationDateTime="2025-03-02T22:30:06" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495261</Easting>
+                  <Northing>172659</Northing>
+                  <Longitude>-0.6306481408295773</Longitude>
+                  <Latitude>51.44492961552723</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496026</Easting>
+                  <Northing>172162</Northing>
+                  <Longitude>-0.6197809577021652</Longitude>
+                  <Latitude>51.440326968207536</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>E</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -12905,18 +14188,20 @@
         <StopAreaRef Modification="new">036G00000387</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2016-02-11T15:05:53" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:09:03" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006002388</AtcoCode>
       <NaptanCode>winagjd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Copper Horse</CommonName>
-        <Landmark xml:lang="en">The Long Walk</Landmark>
-        <Street xml:lang="en">Spring Hill</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Bishops Gate Hail &amp; Ride</CommonName>
+        <ShortCommonName>Bishops Gate</ShortCommonName>
+        <Landmark>Bishops Gate</Landmark>
+        <Street>Bishopsgate Road</Street>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2016-02-11T15:05:53" Modification="new" Status="active">
+        <Descriptor CreationDateTime="2016-02-11T15:05:53" Modification="new">
           <CommonName>George III Statue</CommonName>
           <ShortCommonName>George III Statue</ShortCommonName>
         </Descriptor>
@@ -12927,10 +14212,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496850</Easting>
-            <Northing>172840</Northing>
-            <Longitude>-0.607759</Longitude>
-            <Latitude>51.446279</Latitude>
+            <Easting>497608</Easting>
+            <Northing>172197</Northing>
+            <Longitude>-0.597009490542746</Longitude>
+            <Latitude>51.440373363655134</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12938,13 +14223,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:09:03" ModificationDateTime="2025-03-02T22:09:03" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497792</Easting>
+                  <Northing>172213</Northing>
+                  <Longitude>-0.594368752392056</Longitude>
+                  <Latitude>51.440487052372106</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497606</Easting>
+                  <Northing>172197</Northing>
+                  <Longitude>-0.5970376106405962</Longitude>
+                  <Latitude>51.440373363451044</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>SE</CompassPoint>
+                <CompassPoint>W</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -12952,6 +14255,7 @@
         <StopAreaRef Modification="new">036G00000388</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-06-03T00:00:00" ModificationDateTime="2019-08-29T08:01:44" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036006002391</AtcoCode>
@@ -12990,14 +14294,14 @@
         <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-06-10T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:04:47" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006002400</AtcoCode>
       <NaptanCode>winagjg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Royal Lodge</CommonName>
-        <Landmark xml:lang="en">Bishops Gate</Landmark>
-        <Street xml:lang="en">Spring Hill</Street>
-        <Indicator xml:lang="en">S-bound</Indicator>
+        <CommonName>Royal Lodge Hail &amp; Ride</CommonName>
+        <ShortCommonName>Royal Lodge</ShortCommonName>
+        <Landmark>Royal Lodge</Landmark>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -13005,10 +14309,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>497593</Easting>
-            <Northing>172225</Northing>
-            <Longitude>-0.59724</Longitude>
-            <Latitude>51.440623</Latitude>
+            <Easting>497047</Easting>
+            <Northing>171664</Northing>
+            <Longitude>-0.6052258823894997</Longitude>
+            <Latitude>51.43567662131534</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -13016,13 +14320,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:04:47" ModificationDateTime="2025-03-02T22:04:47" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497596</Easting>
+                  <Northing>172189</Northing>
+                  <Longitude>-0.5971899629808597</Longitude>
+                  <Latitude>51.440302029149585</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496779</Easting>
+                  <Northing>171693</Northing>
+                  <Longitude>-0.6090682777308222</Longitude>
+                  <Latitude>51.43598428154965</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -13030,15 +14352,16 @@
         <StopAreaRef Modification="new">036G00000400</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T20:59:39" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006002401</AtcoCode>
       <NaptanCode>winagjm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Royal Primary School</CommonName>
-        <Landmark xml:lang="en">The Vinery</Landmark>
-        <Street xml:lang="en">Gravel Hill</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>The Royal School Hail &amp; Ride</CommonName>
+        <ShortCommonName>The Royal Sch.</ShortCommonName>
+        <Landmark>The Vinery</Landmark>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -13046,10 +14369,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496404</Easting>
-            <Northing>171503</Northing>
-            <Longitude>-0.614538</Longitude>
-            <Latitude>51.434336</Latitude>
+            <Easting>495920</Easting>
+            <Northing>171558</Northing>
+            <Longitude>-0.6214600789072634</Longitude>
+            <Latitude>51.43491596263457</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -13057,13 +14380,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <HailAndRideSection CreationDateTime="2025-03-02T20:59:39" ModificationDateTime="2025-03-02T20:59:39" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496668</Easting>
+                  <Northing>171655</Northing>
+                  <Longitude>-0.6106799480344561</Longitude>
+                  <Latitude>51.43566059729229</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495921</Easting>
+                  <Northing>171557</Northing>
+                  <Longitude>-0.6214548562042533</Longitude>
+                  <Latitude>51.434909692420675</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -13071,6 +14412,7 @@
         <StopAreaRef Modification="new">036G00000401</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2006-07-14T00:00:00" ModificationDateTime="2007-02-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006002408</AtcoCode>
@@ -21784,14 +23126,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2014-03-03T00:00:00" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2025-03-02T19:00:17" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006150150</AtcoCode>
       <NaptanCode>windamj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Thicket Corner</CommonName>
-        <Landmark xml:lang="en">Thicket Roundabout</Landmark>
-        <Street xml:lang="en">Bath Road A4</Street>
-        <Indicator xml:lang="en">W-bound</Indicator>
+        <CommonName>Thicket Corner</CommonName>
+        <ShortCommonName>Thicket Cnr</ShortCommonName>
+        <Landmark>Thicket Roundabout</Landmark>
+        <Street>Bath Road</Street>
+        <Crossing>A404(M) motorway</Crossing>
+        <Indicator>Stop TJ</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055222</NptgLocalityRef>
@@ -21825,27 +23169,27 @@
         <StopAreaRef Modification="new">036G00006150</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
       <StopAvailability>
-        <StopValidity CreationDateTime="2014-02-28T15:48:58" ModificationDateTime="2014-02-28T15:48:58" Modification="new">
+        <StopValidity CreationDateTime="2014-02-28T15:48:58" ModificationDateTime="2025-03-02T19:00:17" Modification="delete" RevisionNumber="1">
           <DateRange>
             <StartDate>2014-02-28</StartDate>
           </DateRange>
           <Suspended />
-          <Note xml:lang="en">Redundant</Note>
+          <Note>Redundant</Note>
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2014-03-03T00:00:00" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2025-03-02T19:01:03" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006150151</AtcoCode>
       <NaptanCode>windamp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Thicket Corner</CommonName>
-        <Landmark xml:lang="en">Thicket Roundabout</Landmark>
-        <Street xml:lang="en">Bath Road A4</Street>
-        <Indicator xml:lang="en">E-bound</Indicator>
+        <CommonName>Thicket Corner</CommonName>
+        <ShortCommonName>Thicket Cnr</ShortCommonName>
+        <Landmark>Thicket Roundabout</Landmark>
+        <Street>Bath Road</Street>
+        <Crossing>A404(M) motorway</Crossing>
+        <Indicator>Stop TK</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0055222</NptgLocalityRef>
@@ -21879,16 +23223,14 @@
         <StopAreaRef Modification="new">036G00006150</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
       <StopAvailability>
-        <StopValidity CreationDateTime="2014-02-28T15:47:52" ModificationDateTime="2014-02-28T15:47:52" Modification="new">
+        <StopValidity CreationDateTime="2014-02-28T15:47:52" ModificationDateTime="2025-03-02T19:01:03" Modification="delete" RevisionNumber="1">
           <DateRange>
             <StartDate>2014-02-28</StartDate>
           </DateRange>
           <Suspended />
-          <Note xml:lang="en">no service</Note>
+          <Note>no service</Note>
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -33915,14 +35257,16 @@
         <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2025-03-02T18:46:08" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006723723</AtcoCode>
       <NaptanCode>windtwd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Novello</CommonName>
-        <Landmark xml:lang="en">Bottle Lane</Landmark>
-        <Street xml:lang="en">Bath Road A4</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Bottle Lane</CommonName>
+        <ShortCommonName>Bottle Ln.</ShortCommonName>
+        <Landmark>Novello</Landmark>
+        <Street>Bath Road</Street>
+        <Crossing>Bottle Lane</Crossing>
+        <Indicator>Stop NU</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043279</NptgLocalityRef>
@@ -33956,18 +35300,18 @@
         <StopAreaRef Modification="new">036G00006723</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2025-03-02T18:46:43" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006723724</AtcoCode>
       <NaptanCode>windtwg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Novello</CommonName>
-        <Landmark xml:lang="en">Bottle Lane</Landmark>
-        <Street xml:lang="en">Bath Road A4</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Bottle Lane</CommonName>
+        <ShortCommonName>Bottle Ln.</ShortCommonName>
+        <Landmark>Novello</Landmark>
+        <Street>Bath Road</Street>
+        <Crossing>Bottle Lane</Crossing>
+        <Indicator>Stop NV</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043279</NptgLocalityRef>
@@ -34001,9 +35345,7 @@
         <StopAreaRef Modification="new">036G00006723</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006723725</AtcoCode>
@@ -34353,14 +35695,15 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-28T00:00:00" ModificationDateTime="2004-05-28T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-28T00:00:00" ModificationDateTime="2025-03-02T17:05:15" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006729729</AtcoCode>
       <NaptanCode>winagta</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Caravan Site</CommonName>
-        <Landmark xml:lang="en">Caravan Site</Landmark>
-        <Street xml:lang="en">Private Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Hurley Riverside Park</CommonName>
+        <Landmark>Hurley Riverside caravan park</Landmark>
+        <Street>Private Road</Street>
+        <Crossing>Willow Field</Crossing>
+        <Indicator>Stop RP</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053885</NptgLocalityRef>
@@ -34368,10 +35711,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>481738</Easting>
-            <Northing>183754</Northing>
-            <Longitude>-0.822637</Longitude>
-            <Latitude>51.546772</Latitude>
+            <Easting>481598</Easting>
+            <Northing>183713</Northing>
+            <Longitude>-0.8246377409865625</Longitude>
+            <Latitude>51.54642644124221</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -34390,13 +35733,17 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2020-08-20T13:51:31" ModificationDateTime="2020-08-20T13:51:31" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2020-08-20T13:51:31" ModificationDateTime="2025-03-02T17:06:42" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006729730</AtcoCode>
+      <NaptanCode>wingpwg</NaptanCode>
       <Descriptor>
-        <CommonName>Caravan Site</CommonName>
-        <Street>Frogmill Spinney</Street>
-        <Indicator>opp</Indicator>
+        <CommonName>Hurley Riverside Park</CommonName>
+        <Landmark>Hurley Riverside caravan park</Landmark>
+        <Street>Private Road</Street>
+        <Crossing>Willow Field</Crossing>
+        <Indicator>Stop RQ</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053885</NptgLocalityRef>
@@ -34404,10 +35751,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>481741</Easting>
-            <Northing>183731</Northing>
-            <Longitude>-0.822593</Longitude>
-            <Latitude>51.54656</Latitude>
+            <Easting>481607</Easting>
+            <Northing>183708</Northing>
+            <Longitude>-0.8245206696577513</Longitude>
+            <Latitude>51.54638074461109</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -34426,6 +35773,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2008-05-28T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006730730</AtcoCode>
@@ -37597,14 +38945,14 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:45:49" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:05:15" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006826826</AtcoCode>
       <NaptanCode>winajwd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Church View</CommonName>
-        <Landmark xml:lang="en">Church View</Landmark>
-        <Street xml:lang="en">Waltham Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Church View</CommonName>
+        <Landmark>Church View</Landmark>
+        <Street>Waltham Road</Street>
+        <Indicator>Stop CW</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053891</NptgLocalityRef>
@@ -37623,31 +38971,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>485667</Easting>
-                  <Northing>178072</Northing>
-                  <Longitude>-0.767369</Longitude>
-                  <Latitude>51.495112</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>485447</Easting>
-                  <Northing>177687</Northing>
-                  <Longitude>-0.77063</Longitude>
-                  <Latitude>51.491684</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -37655,15 +38985,16 @@
         <StopAreaRef Modification="new">036G00006826</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:46:11" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:06:11" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006826827</AtcoCode>
       <NaptanCode>winajwg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Church View</CommonName>
-        <Landmark xml:lang="en">Church View</Landmark>
-        <Street xml:lang="en">Waltham Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Church View</CommonName>
+        <Landmark>Church View</Landmark>
+        <Street>Waltham Road</Street>
+        <Indicator>Stop CX</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053891</NptgLocalityRef>
@@ -37682,31 +39013,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>485435</Easting>
-                  <Northing>177688</Northing>
-                  <Longitude>-0.770803</Longitude>
-                  <Latitude>51.491695</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>485657</Easting>
-                  <Northing>178084</Northing>
-                  <Longitude>-0.76751</Longitude>
-                  <Latitude>51.495221</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -37714,6 +39027,7 @@
         <StopAreaRef Modification="new">036G00006826</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-02-21T20:01:06" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006827827</AtcoCode>
@@ -38096,14 +39410,14 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:40:46" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:01:50" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006831831</AtcoCode>
       <NaptanCode>winamam</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Paradise House</CommonName>
-        <Landmark xml:lang="en">East Lane</Landmark>
-        <Street xml:lang="en">The Street</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>The Street</CommonName>
+        <Landmark>Paradise Cottages</Landmark>
+        <Street>The Street</Street>
+        <Indicator>Stop PR</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053890</NptgLocalityRef>
@@ -38122,31 +39436,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>483063</Easting>
-                  <Northing>176494</Northing>
-                  <Longitude>-0.805241</Longitude>
-                  <Latitude>51.481314</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>482976</Easting>
-                  <Northing>176838</Northing>
-                  <Longitude>-0.806413</Longitude>
-                  <Latitude>51.484419</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -38154,15 +39450,16 @@
         <StopAreaRef Modification="new">036G00006831</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:41:30" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:02:34" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006831832</AtcoCode>
       <NaptanCode>winamap</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Paradise House</CommonName>
-        <Landmark xml:lang="en">East Lane</Landmark>
-        <Street xml:lang="en">The Street</Street>
-        <Indicator xml:lang="en">Opp</Indicator>
+        <CommonName>The Street</CommonName>
+        <Landmark>Paradise Cottages</Landmark>
+        <Street>The Street</Street>
+        <Indicator>Stop PS</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053890</NptgLocalityRef>
@@ -38181,31 +39478,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>482991</Easting>
-                  <Northing>176838</Northing>
-                  <Longitude>-0.806197</Longitude>
-                  <Latitude>51.484417</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>483081</Easting>
-                  <Northing>176494</Northing>
-                  <Longitude>-0.804982</Longitude>
-                  <Latitude>51.481311</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -38213,6 +39492,7 @@
         <StopAreaRef Modification="new">036G00006831</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-11-08T11:26:06" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006834834</AtcoCode>
@@ -38447,14 +39727,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-08-05T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:16:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006840840</AtcoCode>
       <NaptanCode>winamdj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Foxley Green Farm</CommonName>
-        <Landmark xml:lang="en">farm track</Landmark>
-        <Street xml:lang="en">Touchen End Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Foxley Green</CommonName>
+        <ShortCommonName>Foxley Grn</ShortCommonName>
+        <Landmark>Foxley Green Farm</Landmark>
+        <Street>Touchen End Road</Street>
+        <Crossing>Foxley Green Farm Lane</Crossing>
+        <Indicator>Stop FX</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043287</NptgLocalityRef>
@@ -38473,31 +39755,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>488297</Easting>
-                  <Northing>176902</Northing>
-                  <Longitude>-0.729786</Longitude>
-                  <Latitude>51.48419</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>487805</Easting>
-                  <Northing>176592</Northing>
-                  <Longitude>-0.736947</Longitude>
-                  <Latitude>51.48148</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -38505,6 +39769,7 @@
         <StopAreaRef Modification="new">036G00006840</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2010-08-05T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006840841</AtcoCode>
@@ -38565,14 +39830,15 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2015-07-29T10:54:21" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:20:59" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>036006841841</AtcoCode>
       <NaptanCode>winamdp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Touchen End</CommonName>
-        <Landmark xml:lang="en">Long Lane Farm track</Landmark>
-        <Street xml:lang="en">Hawthorn Hill Road</Street>
-        <Indicator xml:lang="en">S-bound</Indicator>
+        <CommonName>Hind's Head</CommonName>
+        <Landmark>High Winds</Landmark>
+        <Street>Ascot Road</Street>
+        <Crossing>Paley Street</Crossing>
+        <Indicator>Stop HH</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043293</NptgLocalityRef>
@@ -38580,10 +39846,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>487633</Easting>
-            <Northing>176303</Northing>
-            <Longitude>-0.739495</Longitude>
-            <Latitude>51.478908</Latitude>
+            <Easting>487722</Easting>
+            <Northing>176496</Northing>
+            <Longitude>-0.7381499127877823</Longitude>
+            <Latitude>51.48063274285644</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38591,44 +39857,28 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>487684</Easting>
-                  <Northing>176412</Northing>
-                  <Longitude>-0.7387334</Longitude>
-                  <Latitude>51.4798804</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>487542</Easting>
-                  <Northing>176123</Northing>
-                  <Longitude>-0.7408492</Longitude>
-                  <Latitude>51.4773044</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2015-07-29T10:54:51" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-03-02T20:21:50" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>036006841842</AtcoCode>
       <NaptanCode>winamdt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Touchen End</CommonName>
-        <Landmark xml:lang="en">Long Lane Farm track</Landmark>
-        <Street xml:lang="en">Hawthorn Hill Road</Street>
-        <Indicator xml:lang="en">N-bound</Indicator>
+        <CommonName>Hind's Head</CommonName>
+        <Landmark>High Winds</Landmark>
+        <Street>Ascot Road</Street>
+        <Crossing>Paley Street</Crossing>
+        <Indicator>Stop HI</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043293</NptgLocalityRef>
@@ -38636,10 +39886,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>487628</Easting>
-            <Northing>176319</Northing>
-            <Longitude>-0.739563</Longitude>
-            <Latitude>51.479053</Latitude>
+            <Easting>487714</Easting>
+            <Northing>176507</Northing>
+            <Longitude>-0.7382567718057166</Longitude>
+            <Latitude>51.480730740880865</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38647,31 +39897,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <HailAndRideSection Modification="new" Status="active">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>487533</Easting>
-                  <Northing>176128</Northing>
-                  <Longitude>-0.7409775</Longitude>
-                  <Latitude>51.4773507</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>487663</Easting>
-                  <Northing>176415</Northing>
-                  <Longitude>-0.739035</Longitude>
-                  <Latitude>51.4799106</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -38679,6 +39911,7 @@
         <StopAreaRef Modification="new">036G00006841</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2015-07-29T10:55:20" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>036006842842</AtcoCode>
@@ -39025,14 +40258,14 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-05-28T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:38:51" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006848848</AtcoCode>
       <NaptanCode>winagtm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Cavalry Exercise Ground car park</CommonName>
-        <Landmark xml:lang="en">Cavalry Exercise Ground</Landmark>
-        <Street xml:lang="en">Sheet Street Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Cavalry Exercise Ground</CommonName>
+        <Landmark>Cavalry Exercise Ground car park</Landmark>
+        <Street>Sheet Street Road</Street>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39065,15 +40298,16 @@
         <StopAreaRef Modification="new">036G00000383</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-05-28T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:38:40" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006848849</AtcoCode>
       <NaptanCode>winagtp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Cavalry Exercise Ground car park</CommonName>
-        <Landmark xml:lang="en">Cavalry Exercise Ground</Landmark>
-        <Street xml:lang="en">Sheet Street Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Cavalry Exercise Ground</CommonName>
+        <Landmark>Cavalry Exercise Ground car park</Landmark>
+        <Street>Sheet Street Road</Street>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39106,16 +40340,17 @@
         <StopAreaRef Modification="new">036G00000383</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2014-05-30T14:16:27" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:36:29" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006849849</AtcoCode>
       <NaptanCode>winagtw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Rangers Gate</CommonName>
-        <Landmark xml:lang="en">Rangers Gate</Landmark>
-        <Street xml:lang="en">Sheet Street Road</Street>
+        <CommonName>Rangers Gate</CommonName>
+        <Landmark>Rangers Gate</Landmark>
+        <Street>Sheet Street Road</Street>
         <Crossing>Prince Consort's Drive</Crossing>
-        <Indicator xml:lang="en">opp</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39148,15 +40383,16 @@
         <StopAreaRef Modification="new">036G00000384</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2014-05-30T14:17:56" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:36:48" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006849850</AtcoCode>
       <NaptanCode>winagwa</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Rangers Gate</CommonName>
-        <Landmark xml:lang="en">Rangers Gate</Landmark>
-        <Street xml:lang="en">Sheet Street Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Rangers Gate</CommonName>
+        <Landmark>Rangers Gate</Landmark>
+        <Street>Sheet Street Road</Street>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39189,15 +40425,17 @@
         <StopAreaRef Modification="new">036G00000384</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2014-05-30T14:21:09" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:33:48" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036006850850</AtcoCode>
       <NaptanCode>winagwd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Rangers Lodge</CommonName>
-        <Landmark xml:lang="en">Rangers Lodge</Landmark>
-        <Street xml:lang="en">PRINCE CONSORT'S DRIVE  </Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Ranger's Lodge Hail &amp; Ride</CommonName>
+        <ShortCommonName>Ranger's Lodge</ShortCommonName>
+        <Landmark>Ranger's Lodge</Landmark>
+        <Street>Prince Consort's Drive</Street>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39205,10 +40443,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>495408</Easting>
-            <Northing>173275</Northing>
-            <Longitude>-0.628385</Longitude>
-            <Latitude>51.450432</Latitude>
+            <Easting>495361</Easting>
+            <Northing>173178</Northing>
+            <Longitude>-0.6290631695507743</Longitude>
+            <Latitude>51.449570105496846</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -39216,13 +40454,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:33:48" ModificationDateTime="2025-03-02T22:33:48" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495398</Easting>
+                  <Northing>173378</Northing>
+                  <Longitude>-0.6284757005767473</Longitude>
+                  <Latitude>51.45136198404684</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495259</Easting>
+                  <Northing>172713</Northing>
+                  <Longitude>-0.6306653090562176</Longitude>
+                  <Latitude>51.445408842551444</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>SW</CompassPoint>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -39230,15 +40486,17 @@
         <StopAreaRef Modification="new">036G00000385</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2014-05-30T14:21:24" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:32:28" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036006850851</AtcoCode>
       <NaptanCode>winagwg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Rangers Lodge</CommonName>
-        <Landmark xml:lang="en">Rangers Lodge</Landmark>
-        <Street xml:lang="en">PRINCE CONSORT'S DRIVE  </Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Ranger's Lodge Hail &amp; Ride</CommonName>
+        <ShortCommonName>Ranger's Lodge</ShortCommonName>
+        <Landmark>Ranger's Lodge</Landmark>
+        <Street>Prince Consort's Drive</Street>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39246,10 +40504,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>495365</Easting>
-            <Northing>173273</Northing>
-            <Longitude>-0.629002</Longitude>
-            <Latitude>51.450427</Latitude>
+            <Easting>495382</Easting>
+            <Northing>173319</Northing>
+            <Longitude>-0.6287308267718174</Longitude>
+            <Latitude>51.45083357933535</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -39257,13 +40515,31 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <HailAndRideSection CreationDateTime="2025-03-02T22:32:28" ModificationDateTime="2025-03-02T22:32:28" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495246</Easting>
+                  <Northing>172711</Northing>
+                  <Longitude>-0.6308516039790658</Longitude>
+                  <Latitude>51.445397697860486</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495379</Easting>
+                  <Northing>173337</Northing>
+                  <Longitude>-0.6287654728367943</Longitude>
+                  <Latitude>51.45100358612147</Latitude>
+                </Translation>
+              </EndPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </HailAndRideSection>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -39271,15 +40547,16 @@
         <StopAreaRef Modification="new">036G00000385</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-10-29T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:34:50" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006851851</AtcoCode>
       <NaptanCode>winagwj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Forest Gate</CommonName>
-        <Landmark xml:lang="en">Lime Avenue</Landmark>
-        <Street xml:lang="en">Sheet Street Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Forest Gate</CommonName>
+        <Landmark>Lime Avenue</Landmark>
+        <Street>Sheet Street Road</Street>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39312,15 +40589,16 @@
         <StopAreaRef Modification="new">036G00000386</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2008-10-29T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:35:18" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006851852</AtcoCode>
       <NaptanCode>winagwm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Forest Gate</CommonName>
-        <Landmark xml:lang="en">Lime Avenue</Landmark>
-        <Street xml:lang="en">Sheet Street Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Forest Gate</CommonName>
+        <Landmark>Lime Avenue</Landmark>
+        <Street>Sheet Street Road</Street>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043318</NptgLocalityRef>
@@ -39353,6 +40631,7 @@
         <StopAreaRef Modification="new">036G00000386</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-02-21T15:45:14" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006856856</AtcoCode>
