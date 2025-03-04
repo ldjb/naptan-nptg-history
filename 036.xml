@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-03-02T22:40:28" Modification="revise" RevisionNumber="4" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-03-03T11:12:37" Modification="revise" RevisionNumber="5" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-02-17T16:46:48" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -3886,7 +3886,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-03-02T20:36:39" ModificationDateTime="2025-03-02T21:00:02" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2025-03-02T20:36:39" ModificationDateTime="2025-03-03T11:06:26" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036000000098</AtcoCode>
       <NaptanCode>wingtga</NaptanCode>
       <Descriptor>
@@ -3902,10 +3902,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>495144</Easting>
-            <Northing>170406</Northing>
-            <Longitude>-0.6329298042862487</Longitude>
-            <Latitude>51.424692518820464</Latitude>
+            <Easting>495883</Easting>
+            <Northing>171526</Northing>
+            <Longitude>-0.6220122663116846</Longitude>
+            <Latitude>51.434633237780055</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4212,7 +4212,7 @@
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-22T14:02:44" ModificationDateTime="2025-03-02T22:23:20" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2014-10-22T14:02:44" ModificationDateTime="2025-03-03T10:58:17" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036000001390</AtcoCode>
       <NaptanCode>wingjgd</NaptanCode>
       <Descriptor>
@@ -4240,31 +4240,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="2025-03-02T22:23:20" ModificationDateTime="2025-03-02T22:23:20" Modification="new" RevisionNumber="0">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>495282</Easting>
-                  <Northing>172683</Northing>
-                  <Longitude>-0.6303326523727782</Longitude>
-                  <Latitude>51.44514178546508</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>496127</Easting>
-                  <Northing>172704</Northing>
-                  <Longitude>-0.6181759507216046</Longitude>
-                  <Latitude>51.445185946991124</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -4310,7 +4292,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-22T14:11:20" ModificationDateTime="2025-03-02T22:21:52" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2014-10-22T14:11:20" ModificationDateTime="2025-03-03T10:59:50" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036000002390</AtcoCode>
       <NaptanCode>wingjgj</NaptanCode>
       <Descriptor>
@@ -4327,10 +4309,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>495271</Easting>
-            <Northing>172674</Northing>
-            <Longitude>-0.6305008778623767</Longitude>
-            <Latitude>51.44505666712475</Latitude>
+            <Easting>496140</Easting>
+            <Northing>172695</Northing>
+            <Longitude>-0.6179968971336282</Longitude>
+            <Latitude>51.44509678833992</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4338,31 +4320,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>HAR</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="2025-03-02T22:21:52" ModificationDateTime="2025-03-02T22:21:52" Modification="new" RevisionNumber="0">
-              <StartPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>496147</Easting>
-                  <Northing>172695</Northing>
-                  <Longitude>-0.6178902731211889</Longitude>
-                  <Latitude>51.44510166408539</Latitude>
-                </Translation>
-              </StartPoint>
-              <EndPoint>
-                <Translation>
-                  <GridType>UKOS</GridType>
-                  <Easting>495276</Easting>
-                  <Northing>172667</Northing>
-                  <Longitude>-0.6304316288297686</Longitude>
-                  <Latitude>51.444994673567194</Latitude>
-                </Translation>
-              </EndPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </HailAndRideSection>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -4491,7 +4455,7 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T11:51:24" ModificationDateTime="2025-03-02T22:18:51" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2014-12-15T11:51:24" ModificationDateTime="2025-03-03T11:10:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036000005390</AtcoCode>
       <NaptanCode>wingtgm</NaptanCode>
       <Descriptor>
@@ -4508,10 +4472,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496052</Easting>
-            <Northing>172149</Northing>
-            <Longitude>-0.6194092140803598</Longitude>
-            <Latitude>51.440211049818885</Latitude>
+            <Easting>496096</Easting>
+            <Northing>172312</Northing>
+            <Longitude>-0.6187220444399499</Longitude>
+            <Latitude>51.441668926769246</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4550,7 +4514,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T11:56:51" ModificationDateTime="2025-03-02T21:57:45" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-12-15T11:56:51" ModificationDateTime="2025-03-03T11:08:59" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036000005392</AtcoCode>
       <NaptanCode>wingjgp</NaptanCode>
       <Descriptor>
@@ -4565,10 +4529,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496052</Easting>
-            <Northing>172115</Northing>
-            <Longitude>-0.6194093465917817</Longitude>
-            <Latitude>51.439898959884694</Latitude>
+            <Easting>496446</Easting>
+            <Northing>171755</Northing>
+            <Longitude>-0.6138515654839273</Longitude>
+            <Latitude>51.43659959457729</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4607,7 +4571,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T12:00:44" ModificationDateTime="2025-03-02T22:20:13" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2014-12-15T12:00:44" ModificationDateTime="2025-03-03T11:10:14" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036000006390</AtcoCode>
       <NaptanCode>wingjgt</NaptanCode>
       <Descriptor>
@@ -4624,10 +4588,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496152</Easting>
-            <Northing>172684</Northing>
-            <Longitude>-0.6178284322480265</Longitude>
-            <Latitude>51.444997390202964</Latitude>
+            <Easting>496090</Easting>
+            <Northing>172351</Northing>
+            <Longitude>-0.6188085665373967</Longitude>
+            <Latitude>51.44202112832221</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4666,7 +4630,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-12-15T12:04:34" ModificationDateTime="2025-03-02T21:59:51" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-12-15T12:04:34" ModificationDateTime="2025-03-03T11:09:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036000006392</AtcoCode>
       <NaptanCode>wingjgw</NaptanCode>
       <Descriptor>
@@ -8789,7 +8753,7 @@
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:02:54" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-03T10:38:12" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006001400</AtcoCode>
       <NaptanCode>winadpm</NaptanCode>
       <Descriptor>
@@ -8817,14 +8781,14 @@
           <Bus>
             <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="2025-03-02T22:02:54" ModificationDateTime="2025-03-02T22:02:54" Modification="new" RevisionNumber="0">
+            <HailAndRideSection CreationDateTime="2025-03-02T22:02:54" ModificationDateTime="2025-03-03T10:38:12" Modification="revise" RevisionNumber="1">
               <StartPoint>
                 <Translation>
                   <GridType>UKOS</GridType>
-                  <Easting>496741</Easting>
-                  <Northing>171709</Northing>
-                  <Longitude>-0.6096221899614053</Longitude>
-                  <Latitude>51.4361354630472</Latitude>
+                  <Easting>497283</Easting>
+                  <Northing>171839</Northing>
+                  <Longitude>-0.6017839414835492</Longitude>
+                  <Latitude>51.43721044088551</Latitude>
                 </Translation>
               </StartPoint>
               <EndPoint>
@@ -8849,7 +8813,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T20:57:49" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-03T11:12:26" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006001401</AtcoCode>
       <NaptanCode>winadpt</NaptanCode>
       <Descriptor>
@@ -8864,10 +8828,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496646</Easting>
-            <Northing>171653</Northing>
-            <Longitude>-0.6109907664550974</Longitude>
-            <Latitude>51.43564945022235</Latitude>
+            <Easting>496426</Easting>
+            <Northing>171524</Northing>
+            <Longitude>-0.6141963714216093</Longitude>
+            <Latitude>51.43452622273668</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14190,7 +14154,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:09:03" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-03T11:07:58" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006002388</AtcoCode>
       <NaptanCode>winagjd</NaptanCode>
       <Descriptor>
@@ -14212,10 +14176,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>497608</Easting>
-            <Northing>172197</Northing>
-            <Longitude>-0.597009490542746</Longitude>
-            <Latitude>51.440373363655134</Latitude>
+            <Easting>497778</Easting>
+            <Northing>172215</Northing>
+            <Longitude>-0.5945691803413934</Longitude>
+            <Latitude>51.44050934435225</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14294,7 +14258,7 @@
         <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T22:04:47" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-03T10:39:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006002400</AtcoCode>
       <NaptanCode>winagjg</NaptanCode>
       <Descriptor>
@@ -14309,10 +14273,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>497047</Easting>
-            <Northing>171664</Northing>
-            <Longitude>-0.6052258823894997</Longitude>
-            <Latitude>51.43567662131534</Latitude>
+            <Easting>497582</Easting>
+            <Northing>172111</Northing>
+            <Longitude>-0.5974065763712444</Longitude>
+            <Latitude>51.43960470224428</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14322,7 +14286,7 @@
           <Bus>
             <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="2025-03-02T22:04:47" ModificationDateTime="2025-03-02T22:04:47" Modification="new" RevisionNumber="0">
+            <HailAndRideSection CreationDateTime="2025-03-02T22:04:47" ModificationDateTime="2025-03-03T10:39:32" Modification="revise" RevisionNumber="1">
               <StartPoint>
                 <Translation>
                   <GridType>UKOS</GridType>
@@ -14335,10 +14299,10 @@
               <EndPoint>
                 <Translation>
                   <GridType>UKOS</GridType>
-                  <Easting>496779</Easting>
-                  <Northing>171693</Northing>
-                  <Longitude>-0.6090682777308222</Longitude>
-                  <Latitude>51.43598428154965</Latitude>
+                  <Easting>497291</Easting>
+                  <Northing>171826</Northing>
+                  <Longitude>-0.601671781330404</Longitude>
+                  <Latitude>51.43708963788477</Latitude>
                 </Translation>
               </EndPoint>
               <Bearing>
@@ -14354,7 +14318,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-02T20:59:39" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-08-25T00:00:00" ModificationDateTime="2025-03-03T11:12:07" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006002401</AtcoCode>
       <NaptanCode>winagjm</NaptanCode>
       <Descriptor>
@@ -14369,10 +14333,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>495920</Easting>
-            <Northing>171558</Northing>
-            <Longitude>-0.6214600789072634</Longitude>
-            <Latitude>51.43491596263457</Latitude>
+            <Easting>496384</Easting>
+            <Northing>171501</Northing>
+            <Longitude>-0.6148022934451447</Longitude>
+            <Latitude>51.434329609792506</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -41359,6 +41323,352 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-03T10:46:54" ModificationDateTime="2025-03-03T10:48:15" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>036090000001</AtcoCode>
+      <NaptanCode>wingtgp</NaptanCode>
+      <Descriptor>
+        <CommonName>Queen Victoria's Avenue Hail &amp; Ride</CommonName>
+        <ShortCommonName>Queen Victoria's Avenue</ShortCommonName>
+        <Landmark>Cow Pond</Landmark>
+        <Street>Queen Victoria's Avenue</Street>
+        <Indicator>Northbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>497251</Easting>
+            <Northing>171625</Northing>
+            <Longitude>-0.6023010114417594</Longitude>
+            <Latitude>51.43529274030343</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-03T10:46:54" ModificationDateTime="2025-03-03T10:46:54" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497251</Easting>
+                  <Northing>171608</Northing>
+                  <Longitude>-0.6023115228185283</Longitude>
+                  <Latitude>51.43513890832058</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497262</Easting>
+                  <Northing>171807</Northing>
+                  <Longitude>-0.6020980278178302</Longitude>
+                  <Latitude>51.436931353188726</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-03T10:49:41" ModificationDateTime="2025-03-03T10:49:41" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036090000002</AtcoCode>
+      <NaptanCode>wingtgt</NaptanCode>
+      <Descriptor>
+        <CommonName>Queen Victoria's Avenue Hail &amp; Ride</CommonName>
+        <ShortCommonName>Queen Victoria's Avenue</ShortCommonName>
+        <Landmark>Cow Pond</Landmark>
+        <Street>Queen Victoria's Avenue</Street>
+        <Indicator>Southbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>497266</Easting>
+            <Northing>171617</Northing>
+            <Longitude>-0.6020903961714353</Longitude>
+            <Latitude>51.43521916855017</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-03T10:49:41" ModificationDateTime="2025-03-03T10:49:41" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497279</Easting>
+                  <Northing>171799</Northing>
+                  <Longitude>-0.6018560130568386</Longitude>
+                  <Latitude>51.43685374336032</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497263</Easting>
+                  <Northing>171607</Northing>
+                  <Longitude>-0.6021401959943208</Longitude>
+                  <Latitude>51.43512553160192</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-03T10:53:57" ModificationDateTime="2025-03-03T10:53:57" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036090000003</AtcoCode>
+      <NaptanCode>wingtgw</NaptanCode>
+      <Descriptor>
+        <CommonName>Greenboom Covert Hail &amp; Ride</CommonName>
+        <ShortCommonName>Greenboom Covert</ShortCommonName>
+        <Landmark>Greenboom Covert</Landmark>
+        <Indicator>Northbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>497051</Easting>
+            <Northing>171685</Northing>
+            <Longitude>-0.6051655716385064</Longitude>
+            <Latitude>51.43586793356244</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-03T10:53:57" ModificationDateTime="2025-03-03T10:53:57" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496770</Easting>
+                  <Northing>171710</Northing>
+                  <Longitude>-0.6092004054442723</Longitude>
+                  <Latitude>51.436142151055044</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497233</Easting>
+                  <Northing>171618</Northing>
+                  <Longitude>-0.6025691933120904</Longitude>
+                  <Latitude>51.435232545241405</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-03T10:55:45" ModificationDateTime="2025-03-03T10:55:45" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036090000004</AtcoCode>
+      <NaptanCode>wingtja</NaptanCode>
+      <Descriptor>
+        <CommonName>Greenboom Covert Hail &amp; Ride</CommonName>
+        <ShortCommonName>Greenboom Covert</ShortCommonName>
+        <Landmark>Greenboom Covert</Landmark>
+        <Indicator>Southbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>497042</Easting>
+            <Northing>171674</Northing>
+            <Longitude>-0.6052904401859284</Longitude>
+            <Latitude>51.43576983896424</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-03T10:55:45" ModificationDateTime="2025-03-03T10:55:45" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>497210</Easting>
+                  <Northing>171612</Northing>
+                  <Longitude>-0.6029022556037568</Longitude>
+                  <Latitude>51.43517903845301</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496753</Easting>
+                  <Northing>171697</Northing>
+                  <Longitude>-0.6094532445286017</Longitude>
+                  <Latitude>51.436024410531196</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-03T11:03:59" ModificationDateTime="2025-03-03T11:03:59" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036090000005</AtcoCode>
+      <NaptanCode>wingtjd</NaptanCode>
+      <Descriptor>
+        <CommonName>Russel's Plantation Hail &amp; Ride</CommonName>
+        <ShortCommonName>Russel's Plantation</ShortCommonName>
+        <Landmark>Russel's Plantation</Landmark>
+        <Street>The Reading Road</Street>
+        <Indicator>Eastbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495668</Easting>
+            <Northing>172599</Northing>
+            <Longitude>-0.6248102098605535</Longitude>
+            <Latitude>51.444321101320966</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-03T11:03:59" ModificationDateTime="2025-03-03T11:03:59" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495271</Easting>
+                  <Northing>172687</Northing>
+                  <Longitude>-0.6305013016291584</Longitude>
+                  <Latitude>51.44517703107261</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496078</Easting>
+                  <Northing>172678</Northing>
+                  <Longitude>-0.6188952224559375</Longitude>
+                  <Latitude>51.44495901014149</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-03T11:05:22" ModificationDateTime="2025-03-03T11:05:22" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036090000006</AtcoCode>
+      <NaptanCode>wingtjg</NaptanCode>
+      <Descriptor>
+        <CommonName>Russel's Plantation Hail &amp; Ride</CommonName>
+        <ShortCommonName>Russel's Plantation</ShortCommonName>
+        <Landmark>Russel's Plantation</Landmark>
+        <Street>The Reading Road</Street>
+        <Indicator>Westbound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043318</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495667</Easting>
+            <Northing>172590</Northing>
+            <Longitude>-0.6248217081678799</Longitude>
+            <Latitude>51.44423417005811</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>HAR</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <HailAndRideSection CreationDateTime="2025-03-03T11:05:22" ModificationDateTime="2025-03-03T11:05:22" Modification="new" RevisionNumber="0">
+              <StartPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>496078</Easting>
+                  <Northing>172659</Northing>
+                  <Longitude>-0.6188941295836848</Longitude>
+                  <Latitude>51.44478514987903</Latitude>
+                </Translation>
+              </StartPoint>
+              <EndPoint>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>495289</Easting>
+                  <Northing>172665</Northing>
+                  <Longitude>-0.6302450150995599</Longitude>
+                  <Latitude>51.4449723839804</Latitude>
+                </Translation>
+              </EndPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-12-07T00:00:00" ModificationDateTime="2004-12-07T00:00:00" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>0360ASCOT0</AtcoCode>
