@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-26T14:28:23.3023471Z" ModificationDateTime="2025-02-26T14:28:23.3053492Z" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-05T16:33:42.7359885Z" ModificationDateTime="2025-03-05T16:33:42.7359885Z" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-11-10T00:00:00" ModificationDateTime="2016-11-10T10:12:48" Modification="new" RevisionNumber="15" Status="active">
 			<AtcoCode>1290BOMO0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-02-26T14:28:34.4381108Z" ModificationDateTime="2025-02-26T14:28:34.4386111Z">910GBOMO</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-03-05T16:33:53.7360402Z" ModificationDateTime="2025-03-05T16:33:53.7360402Z">910GBOMO</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-02-26T14:28:34.4561112Z" ModificationDateTime="2025-02-26T14:28:34.4561112Z">910GPOKSDWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-03-05T16:33:53.7516626Z" ModificationDateTime="2025-03-05T16:33:53.7516626Z">910GPOKSDWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -93,7 +93,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-02-26T14:28:34.472611Z" ModificationDateTime="2025-02-26T14:28:34.472611Z">930GMSB</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-03-05T16:33:53.7672882Z" ModificationDateTime="2025-03-05T16:33:53.7672882Z">930GMSB</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -125,7 +125,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-02-26T14:28:34.4881088Z" ModificationDateTime="2025-02-26T14:28:34.4881088Z">930GTUK</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-03-05T16:33:53.7829151Z" ModificationDateTime="2025-03-05T16:33:53.7829151Z">930GTUK</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -157,7 +157,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-02-26T14:28:34.4881088Z" ModificationDateTime="2025-02-26T14:28:34.4881088Z">930GWIC</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-03-05T16:33:53.7985397Z" ModificationDateTime="2025-03-05T16:33:53.7985397Z">930GWIC</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -31980,7 +31980,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2025-02-25T00:00:00" ModificationDateTime="2025-02-25T12:45:20" Modification="new" RevisionNumber="44" Status="active">
+		<StopPoint CreationDateTime="2025-02-25T00:00:00" ModificationDateTime="2025-02-28T12:52:55" Modification="new" RevisionNumber="50" Status="active">
 			<AtcoCode>1290BCP90002</AtcoCode>
 			<NaptanCode>boujadw</NaptanCode>
 			<Descriptor>
@@ -32009,6 +32009,114 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>S</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>005</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-02-28T00:00:00" ModificationDateTime="2025-02-28T12:05:44" Modification="new" RevisionNumber="44" Status="active">
+			<AtcoCode>1290BCP90003</AtcoCode>
+			<NaptanCode>boujaga</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Boscombe Pier Seafront</CommonName>
+				<Indicator xml:lang="en">W-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0035366</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>411092</Easting>
+						<Northing>91144</Northing>
+						<Longitude>-1.84424</Longitude>
+						<Latitude>50.71982</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>W</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>005</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-02-28T00:00:00" ModificationDateTime="2025-02-28T12:36:10" Modification="new" RevisionNumber="45" Status="active">
+			<AtcoCode>1290BCP90004</AtcoCode>
+			<NaptanCode>boujagd</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Bournemouth Pier Seafront (East)</CommonName>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0057149</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>408936</Easting>
+						<Northing>90745</Northing>
+						<Longitude>-1.87479</Longitude>
+						<Latitude>50.71627</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>005</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-02-28T00:00:00" ModificationDateTime="2025-03-05T15:53:27" Modification="new" RevisionNumber="46" Status="active">
+			<AtcoCode>1290BCP90005</AtcoCode>
+			<NaptanCode>boujagj</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Bournemouth Pier Seafront (West)</CommonName>
+				<Indicator xml:lang="en">W-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0057149</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>408831</Easting>
+						<Northing>90709</Northing>
+						<Longitude>-1.87628</Longitude>
+						<Latitude>50.71594</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>W</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
