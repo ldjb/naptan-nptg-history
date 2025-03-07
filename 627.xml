@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-25T10:43:46.422" ModificationDateTime="2025-02-25T10:43:46.422" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-06T16:21:42.033" ModificationDateTime="2025-03-06T16:21:42.033" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -2873,13 +2873,14 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2011-04-08T08:57:01.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2025-03-05T11:17:37.948" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>627001020070</AtcoCode>
 <NaptanCode>58232474</NaptanCode>
 <Descriptor>
-<CommonName>Fa'side Inn</CommonName>
-<Street>Salter's Road</Street>
-<Indicator>o/s</Indicator>
+<CommonName>Drummohr Avenue</CommonName>
+<ShortCommonName>Drummohr Ave</ShortCommonName>
+<Street>Salters Road</Street>
+<Indicator>at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067355</NptgLocalityRef>
@@ -2887,10 +2888,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>336626</Easting>
-<Northing>671979</Northing>
-<Longitude>-3.01604</Longitude>
-<Latitude>55.936663</Latitude>
+<Easting>336655</Easting>
+<Northing>672000</Northing>
+<Longitude>-3.01558</Longitude>
+<Latitude>55.936856</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -2914,7 +2915,7 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2023-01-30T10:00:30.714" Modification="revise" RevisionNumber="4" Status="active">
@@ -6485,7 +6486,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2023-01-31T10:24:06.727" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2025-03-06T16:19:51.136" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>627001040480</AtcoCode>
 <NaptanCode>58232857</NaptanCode>
 <Descriptor>
