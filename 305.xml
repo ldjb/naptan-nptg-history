@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-24T14:18:43.2795726Z" ModificationDateTime="2025-02-24T14:18:43.2795726Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-10T16:38:24.9719722Z" ModificationDateTime="2025-03-10T16:38:24.9719722Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-12-27T16:02:48" ModificationDateTime="2024-12-27T16:00:25" Modification="new" Status="active">
       <AtcoCode>3050000042LK</AtcoCode>
@@ -18103,6 +18103,44 @@
       <StopAreas>
         <StopAreaRef RevisionNumber="0">305G260D</StopAreaRef>
       </StopAreas>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-10T16:00:35" ModificationDateTime="2025-03-10T15:57:05" Modification="new" Status="active">
+      <AtcoCode>305000293TH</AtcoCode>
+      <NaptanCode>ntndpdwg</NaptanCode>
+      <Descriptor>
+        <CommonName>58 London Road</CommonName>
+        <Street>London Road</Street>
+        <Indicator>Outside</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049713</NptgLocalityRef>
+        <Suburb>Raunds</Suburb>
+        <Town>Wellingborough</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>499105</Easting>
+            <Northing>272399</Northing>
+            <Longitude>-0.546741033</Longitude>
+            <Latitude>52.340723361</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2024-10-10T10:48:58" Modification="revise" RevisionNumber="5" Status="active">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-28T15:35:04.326" ModificationDateTime="2025-02-28T15:35:04.326" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-10T15:46:05.531" ModificationDateTime="2025-03-10T15:46:05.531" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-03-22T00:00:00.000" ModificationDateTime="2011-05-11T11:44:23.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>269000T01</AtcoCode>
@@ -35577,13 +35577,13 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2011-02-15T00:00:00.000" Modification="revise" RevisionNumber="1" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T11:00:43.921" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269043026</AtcoCode>
 <NaptanCode>lecdgpmp</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Collett Road</CommonName>
-<Landmark xml:lang="en">Collett Road &amp; o/s 695</Landmark>
-<Street xml:lang="en">Beaumont Leys Lane</Street>
+<CommonName xml:lang="en">Mountain Road</CommonName>
+<Landmark xml:lang="en">Mountain Road</Landmark>
+<Street xml:lang="en">Barkbythorpe Road</Street>
 <Indicator xml:lang="en">opposite </Indicator>
 </Descriptor>
 <Place>
@@ -35592,10 +35592,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>462323</Easting>
+<Northing>308039</Northing>
+<Longitude>-1.079872</Longitude>
+<Latitude>52.666509</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -35607,7 +35607,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>S</CompassPoint>
+<CompassPoint>NE</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -35617,21 +35617,21 @@
 <StopAvailability>
 <StopValidity CreationDateTime="2006-05-26T00:00:00.000" ModificationDateTime="2006-05-26T09:38:43.000" Modification="new" Status="active">
 <DateRange>
-<StartDate>2006-05-26</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
+<Active />
+<Note xml:lang="en">Reused from Graveyard list RH</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2011-02-15T00:00:00.000" Modification="revise" RevisionNumber="1" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T11:09:44.722" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269043027</AtcoCode>
 <NaptanCode>lecdgpmt</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Churchward Avenue</CommonName>
-<Landmark xml:lang="en">Churchward Avenue</Landmark>
-<Street xml:lang="en">Beaumont Leys Lane</Street>
-<Indicator xml:lang="en">opposite </Indicator>
+<CommonName xml:lang="en">Mountain Road</CommonName>
+<Landmark xml:lang="en">Mountain Road</Landmark>
+<Street xml:lang="en">Barkbythorpe Road</Street>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0057189</NptgLocalityRef>
@@ -35639,10 +35639,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>462284</Easting>
+<Northing>308007</Northing>
+<Longitude>-1.080455</Longitude>
+<Latitude>52.666226</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -35650,13 +35650,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
-<CompassPoint>SE</CompassPoint>
+<CompassPoint>SW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -35668,6 +35668,13 @@
 </DateRange>
 <Suspended />
 <Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
+</StopValidity>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2025-03-03</StartDate>
+</DateRange>
+<Active />
+<Note>reused from graveyard list RH</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
@@ -52490,25 +52497,25 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-03-22T00:00:00.000" ModificationDateTime="2011-02-24T14:18:23.000" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2006-03-22T00:00:00.000" ModificationDateTime="2025-03-03T09:25:15.782" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>269051034</AtcoCode>
 <NaptanCode>lecdgwaw</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Charles Frears Campus</CommonName>
-<Landmark xml:lang="en">Charles Frears Campus</Landmark>
-<Street xml:lang="en">Holmfield Road</Street>
+<CommonName xml:lang="en">Knightwood Road</CommonName>
+<Landmark xml:lang="en">Knighthorpe Rpad</Landmark>
+<Street xml:lang="en">Barkbythorpe Road</Street>
 <Indicator xml:lang="en">opposite</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>E0039076</NptgLocalityRef>
+<NptgLocalityRef>E0057189</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>462531</Easting>
+<Northing>308130</Northing>
+<Longitude>-1.07678</Longitude>
+<Latitude>52.667303</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -52516,13 +52523,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
 <Bearing>
-<CompassPoint>W</CompassPoint>
+<CompassPoint>SW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -52530,32 +52537,32 @@
 <StopAvailability>
 <StopValidity CreationDateTime="2011-02-24T14:18:23.000" ModificationDateTime="2011-02-24T14:18:23.000" Modification="new" Status="active">
 <DateRange>
-<StartDate>2011-02-24</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
-<Note xml:lang="en">Not a real stop RG</Note>
+<Active />
+<Note xml:lang="en">ATCO reused RH</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-03-22T00:00:00.000" ModificationDateTime="2011-02-24T14:17:00.000" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2006-03-22T00:00:00.000" ModificationDateTime="2025-03-03T09:43:27.817" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>269051035</AtcoCode>
 <NaptanCode>lecdgwda</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Charles Frears Campus</CommonName>
-<Landmark xml:lang="en">Charles Frears Campus</Landmark>
-<Street xml:lang="en">Holmfield Road</Street>
+<CommonName xml:lang="en">Knightwood Road</CommonName>
+<Landmark xml:lang="en">Knightwood Road</Landmark>
+<Street xml:lang="en">Barkbythorpe Road</Street>
 <Indicator xml:lang="en">adjacent</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>E0039076</NptgLocalityRef>
+<NptgLocalityRef>E0057189</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>462549</Easting>
+<Northing>308148</Northing>
+<Longitude>-1.07651</Longitude>
+<Latitude>52.667463</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -52563,13 +52570,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
 <Bearing>
-<CompassPoint>E</CompassPoint>
+<CompassPoint>NE</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -52577,10 +52584,10 @@
 <StopAvailability>
 <StopValidity CreationDateTime="2011-02-24T14:17:00.000" ModificationDateTime="2011-02-24T14:17:00.000" Modification="new" Status="active">
 <DateRange>
-<StartDate>2011-02-24</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
-<Note xml:lang="en">Not a real stop RG</Note>
+<Active />
+<Note xml:lang="en">Stop reused from graveyard list RH</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
@@ -56816,7 +56823,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2011-02-15T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T09:15:08.875" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>269053044</AtcoCode>
 <NaptanCode>lecdawtm</NaptanCode>
 <Descriptor>
@@ -56853,8 +56860,16 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2025-03-03</StartDate>
+</DateRange>
+<Active />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-25T09:53:06.978" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-06T12:23:01.497" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>269053045</AtcoCode>
 <NaptanCode>lecdawtp</NaptanCode>
 <Descriptor>
@@ -56912,13 +56927,13 @@
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2016-04-18</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
+<Active />
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:18:36.104" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T09:11:36.240" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269053046</AtcoCode>
 <NaptanCode>lecdawtw</NaptanCode>
 <Descriptor>
@@ -56961,13 +56976,13 @@
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2016-04-18</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
+<Active />
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:19:20.530" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T09:19:11.972" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269053047</AtcoCode>
 <NaptanCode>lecdgada</NaptanCode>
 <Descriptor>
@@ -57010,13 +57025,13 @@
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2016-04-18</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
+<Active />
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:20:07.451" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T09:17:26.091" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269053048</AtcoCode>
 <NaptanCode>lecdgadg</NaptanCode>
 <Descriptor>
@@ -57056,13 +57071,13 @@
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2016-04-18</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
+<Active />
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-02-24T14:21:23.374" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2025-03-03T09:14:17.399" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269053049</AtcoCode>
 <NaptanCode>lecdgadj</NaptanCode>
 <Descriptor>
@@ -57102,9 +57117,9 @@
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2016-04-18</StartDate>
+<StartDate>2025-03-03</StartDate>
 </DateRange>
-<Suspended />
+<Active />
 </StopValidity>
 </StopAvailability>
 </StopPoint>
