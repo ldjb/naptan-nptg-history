@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-06T16:21:42.033" ModificationDateTime="2025-03-06T16:21:42.033" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-11T14:23:20.927" ModificationDateTime="2025-03-11T14:23:20.927" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -14213,7 +14213,7 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2022-11-07T10:25:05.591" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2025-03-11T12:33:17.242" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>627004010070</AtcoCode>
 <NaptanCode>58234258</NaptanCode>
 <Descriptor>
@@ -14228,10 +14228,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>344238</Easting>
-<Northing>672931</Northing>
-<Longitude>-2.894398</Longitude>
-<Latitude>55.946158</Latitude>
+<Easting>344190</Easting>
+<Northing>672906</Northing>
+<Longitude>-2.895174</Longitude>
+<Latitude>55.945932</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -47637,6 +47637,43 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-11T14:19:09.114" ModificationDateTime="2025-03-11T14:22:34.800" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>627070001231</AtcoCode>
+<NaptanCode>5821231</NaptanCode>
+<Descriptor>
+<CommonName>Macmerry Business Park</CommonName>
+<ShortCommonName>Macmerry Business Park</ShortCommonName>
+<Street>Macmerry Business Park</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002526</NptgLocalityRef>
+<Town>Macmerry</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>344115</Easting>
+<Northing>672911</Northing>
+<Longitude>-2.896371</Longitude>
+<Latitude>55.94597</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
