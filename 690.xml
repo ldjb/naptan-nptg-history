@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-24T09:49:59.359" ModificationDateTime="2025-02-24T09:49:59.359" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-13T14:56:59.878" ModificationDateTime="2025-03-13T14:56:59.878" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -1837,6 +1837,7 @@
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -1865,17 +1866,18 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2010-06-11T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2025-03-13T14:28:05.198" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001047</AtcoCode>
 <NaptanCode>72726947</NaptanCode>
 <Descriptor>
-<CommonName>The Loanings</CommonName>
+<CommonName>Loaning Crescent</CommonName>
 <Landmark>The Loanings</Landmark>
 <Street>Edderston Road</Street>
 <Indicator>Opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -1904,14 +1906,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2025-02-14T15:45:50.663" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2025-03-13T14:24:46.606" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001048</AtcoCode>
 <NaptanCode>72726949</NaptanCode>
 <Descriptor>
 <CommonName>Edderston Road</CommonName>
 <Landmark>Edderston Road</Landmark>
 <Street>Edderston Road</Street>
-<Indicator>Opp 35</Indicator>
+<Indicator>O/s 27</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002985</NptgLocalityRef>
@@ -1920,10 +1922,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>324652</Easting>
-<Northing>639986</Northing>
-<Longitude>-3.198809</Longitude>
-<Latitude>55.647541</Latitude>
+<Easting>324648</Easting>
+<Northing>640056</Northing>
+<Longitude>-3.198882</Longitude>
+<Latitude>55.648174</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1935,7 +1937,7 @@
 <TimingStatus>PPT</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>S</CompassPoint>
+<CompassPoint>N</CompassPoint>
 <Degrees>180</Degrees>
 </Bearing>
 </MarkedPoint>
@@ -1944,25 +1946,26 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2010-06-11T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-03-07T00:00:00.000" ModificationDateTime="2025-03-13T14:21:14.228" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001049</AtcoCode>
 <NaptanCode>72725725</NaptanCode>
 <Descriptor>
-<CommonName>Edderston Road</CommonName>
+<CommonName>Caledonian Road</CommonName>
 <Landmark>Edderston Road</Landmark>
 <Street>Caledonian Road</Street>
-<Indicator>Adj</Indicator>
+<Indicator>E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>324714</Easting>
-<Northing>640181</Northing>
-<Longitude>-3.197877</Longitude>
-<Latitude>55.649302</Latitude>
+<Easting>324760</Easting>
+<Northing>640185</Northing>
+<Longitude>-3.19714</Longitude>
+<Latitude>55.649347</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1974,7 +1977,7 @@
 <TimingStatus>PPT</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>W</CompassPoint>
+<CompassPoint>E</CompassPoint>
 <Degrees>270</Degrees>
 </Bearing>
 </MarkedPoint>
@@ -8658,7 +8661,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-05T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-10-05T00:00:00.000" ModificationDateTime="2025-03-10T10:38:32.455" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>69001220</AtcoCode>
 <NaptanCode>72726562</NaptanCode>
 <Descriptor>
@@ -37890,12 +37893,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-13T00:00:00.000" ModificationDateTime="2024-06-26T14:08:51.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-06-13T00:00:00.000" ModificationDateTime="2025-03-06T15:00:43.482" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6900352</AtcoCode>
 <NaptanCode>72724238</NaptanCode>
 <Descriptor>
 <CommonName>Hawthorn Road</CommonName>
-<Landmark>Langlee Rd jct</Landmark>
+<Landmark>Hawthorn Road</Landmark>
 <Street>Melrose Road</Street>
 <Indicator>Opp</Indicator>
 </Descriptor>
@@ -58785,6 +58788,279 @@
 <CompassPoint>NE</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:34:19.018" ModificationDateTime="2025-03-13T14:34:19.018" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002382</AtcoCode>
+<NaptanCode>7272382</NaptanCode>
+<Descriptor>
+<CommonName>Edderston Ridge</CommonName>
+<ShortCommonName>Edderston Ridge</ShortCommonName>
+<Landmark>Edderston Ridge</Landmark>
+<Street>South Parks</Street>
+<Indicator>o/s 9</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324525</Easting>
+<Northing>640192</Northing>
+<Longitude>-3.2008760</Longitude>
+<Latitude>55.6493706</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:38:15.515" ModificationDateTime="2025-03-13T14:38:15.515" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002383</AtcoCode>
+<NaptanCode>7272383</NaptanCode>
+<Descriptor>
+<CommonName>Manor Way</CommonName>
+<ShortCommonName>Manor Way</ShortCommonName>
+<Landmark>Manor Way</Landmark>
+<Street>Hamilton View</Street>
+<Indicator>o/s 1</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324339</Easting>
+<Northing>640082</Northing>
+<Longitude>-3.2038063</Longitude>
+<Latitude>55.6483521</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:41:18.058" ModificationDateTime="2025-03-13T14:41:18.058" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002384</AtcoCode>
+<NaptanCode>7272384</NaptanCode>
+<Descriptor>
+<CommonName>Neidpath Place</CommonName>
+<ShortCommonName>Neidpath Pl</ShortCommonName>
+<Landmark>Neidpath Place</Landmark>
+<Street>South Parks</Street>
+<Indicator>Opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324218</Easting>
+<Northing>640136</Northing>
+<Longitude>-3.2057362</Longitude>
+<Latitude>55.6488251</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:44:33.163" ModificationDateTime="2025-03-13T14:44:33.163" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002385</AtcoCode>
+<NaptanCode>7272385</NaptanCode>
+<Descriptor>
+<CommonName>South Park Industrial Estate</CommonName>
+<ShortCommonName>South Park Ind Est</ShortCommonName>
+<Landmark>South Park Industrial Estate</Landmark>
+<Street>South Parks</Street>
+<Indicator>At</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324330</Easting>
+<Northing>640159</Northing>
+<Longitude>-3.2039695</Longitude>
+<Latitude>55.6490428</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:47:22.708" ModificationDateTime="2025-03-13T14:47:22.708" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002386</AtcoCode>
+<NaptanCode>7272386</NaptanCode>
+<Descriptor>
+<CommonName>Edderston Ridge</CommonName>
+<ShortCommonName>Edderston Ridge</ShortCommonName>
+<Landmark>Edderston Ridge</Landmark>
+<Street>South Parks</Street>
+<Indicator>opp 9</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324523</Easting>
+<Northing>640198</Northing>
+<Longitude>-3.2009092</Longitude>
+<Latitude>55.6494263</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:50:37.304" ModificationDateTime="2025-03-13T14:50:37.304" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002387</AtcoCode>
+<NaptanCode>7272387</NaptanCode>
+<Descriptor>
+<CommonName>John Buchan Way</CommonName>
+<ShortCommonName>John Buchan Way</ShortCommonName>
+<Landmark>John Buchan Way</Landmark>
+<Street>Craigerne Lane</Street>
+<Indicator>At</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>324902</Easting>
+<Northing>639619</Northing>
+<Longitude>-3.1947396</Longitude>
+<Latitude>55.6442852</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>PTP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T14:56:29.343" ModificationDateTime="2025-03-13T14:56:29.343" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002376</AtcoCode>
+<NaptanCode>7272376</NaptanCode>
+<Descriptor>
+<CommonName>Bonnington Road</CommonName>
+<ShortCommonName>Bonnington Rd</ShortCommonName>
+<Landmark>Bonnington Road</Landmark>
+<Street>Bonnington Road</Street>
+<Indicator>o/s Lidalia</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002985</NptgLocalityRef>
+<Town>Peebles</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>325249</Easting>
+<Northing>639730</Northing>
+<Longitude>-3.1892496</Longitude>
+<Latitude>55.6453383</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

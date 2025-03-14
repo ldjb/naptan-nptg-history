@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-10T16:38:24.9719722Z" ModificationDateTime="2025-03-10T16:38:24.9719722Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-13T09:34:22.9880737Z" ModificationDateTime="2025-03-13T09:34:22.9880737Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-12-27T16:02:48" ModificationDateTime="2024-12-27T16:00:25" Modification="new" Status="active">
       <AtcoCode>3050000042LK</AtcoCode>
@@ -781,6 +781,43 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:21:40" ModificationDateTime="2025-03-12T13:26:20" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>305000011FZ2</AtcoCode>
+      <Descriptor>
+        <CommonName>Demand Responsive Area</CommonName>
+        <Landmark>Armston</Landmark>
+        <Street>Demand Responsive Area</Street>
+        <Indicator>Area</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0019284</NptgLocalityRef>
+        <Town>Armston</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>505967</Easting>
+            <Northing>286091</Northing>
+            <Longitude>-0.441729080</Longitude>
+            <Latitude>52.462488848</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2024-12-20T18:01:54" ModificationDateTime="2024-12-20T18:04:25" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>305000011M</AtcoCode>
       <NaptanCode>ntndpajg</NaptanCode>
@@ -1183,6 +1220,299 @@
             <Northing>260223</Northing>
             <Longitude>-0.715636683</Longitude>
             <Latitude>52.233207644</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:29:02" ModificationDateTime="2025-03-12T13:27:47" Modification="new" Status="active">
+      <AtcoCode>3050000143SW</AtcoCode>
+      <NaptanCode>ntnagtpd</NaptanCode>
+      <Descriptor>
+        <CommonName>Sweetacre Close</CommonName>
+        <Landmark>Sweetacre Close</Landmark>
+        <Street>Yardley Road</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049845</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>487877</Easting>
+            <Northing>259916</Northing>
+            <Longitude>-0.714750220</Longitude>
+            <Latitude>52.230437789</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:31:36" ModificationDateTime="2025-03-12T13:30:19" Modification="new" Status="active">
+      <AtcoCode>3050000163AK</AtcoCode>
+      <NaptanCode>ntnajtpg</NaptanCode>
+      <Descriptor>
+        <CommonName>41 Kings Avenue</CommonName>
+        <Landmark>Number</Landmark>
+        <Street>Kings Avenue</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>496229</Easting>
+            <Northing>269120</Northing>
+            <Longitude>-0.589878696</Longitude>
+            <Latitude>52.311764947</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:38:28" ModificationDateTime="2025-03-12T13:37:07" Modification="new" Status="active">
+      <AtcoCode>3050000163AL</AtcoCode>
+      <NaptanCode>ntnajtpj</NaptanCode>
+      <Descriptor>
+        <CommonName>Linden Avenue</CommonName>
+        <Landmark>Oaks Drive</Landmark>
+        <Street>Linden Avenue</Street>
+        <Indicator>N-bound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495646</Easting>
+            <Northing>268966</Northing>
+            <Longitude>-0.598471413</Longitude>
+            <Latitude>52.310482609</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:40:03" ModificationDateTime="2025-03-12T13:39:16" Modification="new" Status="active">
+      <AtcoCode>3050000163CH</AtcoCode>
+      <NaptanCode>ntnajtpt</NaptanCode>
+      <Descriptor>
+        <CommonName>Garage</CommonName>
+        <ShortCommonName>Cemetery Lane</ShortCommonName>
+        <Landmark>Garage</Landmark>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495986</Easting>
+            <Northing>268743</Northing>
+            <Longitude>-0.593549384</Longitude>
+            <Latitude>52.308419138</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:42:24" ModificationDateTime="2025-03-12T13:41:22" Modification="new" Status="active">
+      <AtcoCode>3050000163CS</AtcoCode>
+      <NaptanCode>ntnajtwa</NaptanCode>
+      <Descriptor>
+        <CommonName>10d Chichele Street</CommonName>
+        <Landmark>Number 10d</Landmark>
+        <Street>Chichele Street</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>496300</Easting>
+            <Northing>268954</Northing>
+            <Longitude>-0.588885011</Longitude>
+            <Latitude>52.310260591</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T13:44:53" ModificationDateTime="2025-03-12T14:14:10" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>3050000163DM</AtcoCode>
+      <NaptanCode>ntnajtwd</NaptanCode>
+      <Descriptor>
+        <CommonName>6 Meadow Drive</CommonName>
+        <Landmark>Number 6</Landmark>
+        <Street>Meadow Drive</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>495547</Easting>
+            <Northing>268877</Northing>
+            <Longitude>-0.599948325</Longitude>
+            <Latitude>52.309699933</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T14:18:35" ModificationDateTime="2025-03-12T14:17:43" Modification="new" Status="active">
+      <AtcoCode>3050000163DO</AtcoCode>
+      <NaptanCode>ntnajtwg</NaptanCode>
+      <Descriptor>
+        <CommonName>97 Oaks Drive</CommonName>
+        <Landmark>Number 97</Landmark>
+        <Street>Oaks Drive</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>495790</Easting>
+            <Northing>268932</Northing>
+            <Longitude>-0.596369550</Longitude>
+            <Latitude>52.310151962</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-12T14:23:48" ModificationDateTime="2025-03-12T14:22:09" Modification="new" Status="active">
+      <AtcoCode>3050000163E</AtcoCode>
+      <NaptanCode>ntnajtwj</NaptanCode>
+      <Descriptor>
+        <CommonName>40 Elizabeth Way</CommonName>
+        <Landmark>Andrew Close</Landmark>
+        <Street>Elizabeth Way</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049698</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>496316</Easting>
+            <Northing>269442</Northing>
+            <Longitude>-0.588510896</Longitude>
+            <Latitude>52.314643681</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -85585,6 +85915,100 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-03-13T08:54:21" ModificationDateTime="2025-03-13T09:27:53" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>3050DS001NW</AtcoCode>
+      <NaptanCode>ntndsaan</NaptanCode>
+      <Descriptor>
+        <CommonName>(Desbo') Dunlin Drive</CommonName>
+        <ShortCommonName>B576</ShortCommonName>
+        <Street>Harborough Road</Street>
+        <Crossing>Dunlin Drive</Crossing>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049737</NptgLocalityRef>
+        <Suburb>Desborough</Suburb>
+        <Town>Kettering</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>479652</Easting>
+            <Northing>284362</Northing>
+            <Longitude>-0.829362058</Longitude>
+            <Latitude>52.451415237</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2025-03-13T09:20:43" ModificationDateTime="2025-03-13T09:20:43" Modification="new">305GDS001N2S</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-13T08:54:21" ModificationDateTime="2025-03-13T08:54:21" Modification="new">CORBY</PlusbusZoneRef>
+        <PlusbusZoneRef CreationDateTime="2025-03-13T08:54:21" ModificationDateTime="2025-03-13T08:54:21" Modification="new">KETR</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-13T09:20:24" ModificationDateTime="2025-03-13T09:33:48" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>3050DS002SE</AtcoCode>
+      <NaptanCode>ntndsabs</NaptanCode>
+      <Descriptor>
+        <CommonName>(Desbo') Dunlin Drive</CommonName>
+        <ShortCommonName>B576</ShortCommonName>
+        <Street>Harborough Road</Street>
+        <Crossing>Dunlin Drive</Crossing>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049737</NptgLocalityRef>
+        <Suburb>Desborough</Suburb>
+        <Town>Kettering</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>479699</Easting>
+            <Northing>284321</Northing>
+            <Longitude>-0.828680394</Longitude>
+            <Latitude>52.451039880</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2025-03-13T09:20:43" ModificationDateTime="2025-03-13T09:20:43" Modification="new">305GDS001N2S</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-13T09:20:24" ModificationDateTime="2025-03-13T09:20:24" Modification="new">CORBY</PlusbusZoneRef>
+        <PlusbusZoneRef CreationDateTime="2025-03-13T09:20:24" ModificationDateTime="2025-03-13T09:20:24" Modification="new">KETR</PlusbusZoneRef>
+      </PlusbusZones>
+    </StopPoint>
     <StopPoint CreationDateTime="2024-09-30T17:28:09" ModificationDateTime="2024-10-07T09:34:35" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>3050DT001DR</AtcoCode>
       <NaptanCode>ntndtaad</NaptanCode>
@@ -99076,6 +99500,21 @@
           <Northing>278110</Northing>
           <Longitude>-0.682194232</Longitude>
           <Latitude>52.393657703</Latitude>
+        </Translation>
+      </Location>
+    </StopArea>
+    <StopArea CreationDateTime="2025-03-13T09:20:43" ModificationDateTime="2025-03-13T09:18:37" Modification="new" Status="active">
+      <StopAreaCode>305GDS001N2S</StopAreaCode>
+      <Name xml:lang="en">Dunlin Drive</Name>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <StopAreaType>GPBS</StopAreaType>
+      <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>479652</Easting>
+          <Northing>284362</Northing>
+          <Longitude>-0.829362058</Longitude>
+          <Latitude>52.451415237</Latitude>
         </Translation>
       </Location>
     </StopArea>

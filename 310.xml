@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-07T12:11:37.552" ModificationDateTime="2025-03-07T12:11:37.552" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-13T12:20:57.640" ModificationDateTime="2025-03-13T12:20:57.640" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-04-14T00:00:00.000" ModificationDateTime="2012-04-19T09:04:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3100ALNMOTH0</AtcoCode>
@@ -28468,7 +28468,7 @@
 <PlusbusZoneRef CreationDateTime="2005-04-11T00:00:00.000" ModificationDateTime="2010-02-19T14:13:00.000" Modification="revise" RevisionNumber="1" Status="active">ALNMOTH</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-28T00:00:00.000" ModificationDateTime="2016-02-24T10:58:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-01-28T00:00:00.000" ModificationDateTime="2025-03-07T14:19:06.547" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>3100U245108</AtcoCode>
 <NaptanCode>nldamadm</NaptanCode>
 <PlateCode>U245108</PlateCode>
@@ -82365,7 +82365,7 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2016-02-18T15:16:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2025-03-07T14:48:13.155" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>3100Z206822</AtcoCode>
 <NaptanCode>nldajpwt</NaptanCode>
 <PlateCode>Z206822</PlateCode>
@@ -82405,7 +82405,7 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2016-02-18T15:15:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2025-03-07T14:31:07.616" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>3100Z206823</AtcoCode>
 <NaptanCode>nldawmjd</NaptanCode>
 <PlateCode>Z206823</PlateCode>
@@ -124751,6 +124751,43 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>094</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-13T12:14:39.504" ModificationDateTime="2025-03-13T12:14:39.504" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3100Z304786</AtcoCode>
+<NaptanCode>nldjdgm</NaptanCode>
+<PlateCode>Z304786.NwsmStn</PlateCode>
+<Descriptor>
+<CommonName>Newsham Railway Station</CommonName>
+<Street>SOUTH NEWSHAM ROAD</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0019881</NptgLocalityRef>
+<Suburb>South Newsham</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>430468</Easting>
+<Northing>578863</Northing>
+<Longitude>-1.52403</Longitude>
+<Latitude>55.10325</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
