@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-30T11:45:34.565555Z" ModificationDateTime="2025-01-30T11:45:34.565555Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-14T13:23:17.3792575Z" ModificationDateTime="2025-03-14T13:23:17.3792575Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2020-09-11T11:06:06" ModificationDateTime="2024-05-02T09:43:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>55205520WDB4</AtcoCode>
@@ -83476,6 +83476,151 @@
         <StopValidity CreationDateTime="2024-08-27T14:01:24" ModificationDateTime="2024-08-27T14:01:24" Modification="new">
           <DateRange>
             <StartDate>2024-08-27</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-14T13:14:19" ModificationDateTime="2025-03-14T13:16:02" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5520WDB8388</AtcoCode>
+      <NaptanCode>rhotgpg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Pentrebach Road South</CommonName>
+        <ShortCommonName xml:lang="EN">Pentrebach Road South</ShortCommonName>
+        <Street>Pentrebach Road</Street>
+        <Crossing>near Cemetary Road</Crossing>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-03-14T13:14:19" ModificationDateTime="2025-03-14T13:14:19" Modification="new">
+          <CommonName xml:lang="CY">Heol Pentrebach</CommonName>
+          <ShortCommonName xml:lang="CY">Heol Pentrebach</ShortCommonName>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041637</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>308388</Easting>
+            <Northing>189572</Northing>
+            <Longitude>-3.324023422</Longitude>
+            <Latitude>51.597512382</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-14T13:14:19" ModificationDateTime="2025-03-14T13:14:19" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-14</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-14T13:18:08" ModificationDateTime="2025-03-14T13:19:00" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5520WDB8389</AtcoCode>
+      <NaptanCode>rhotgpj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Pentrebach Road North</CommonName>
+        <ShortCommonName xml:lang="EN">Pentrebach Road North</ShortCommonName>
+        <Street>Pentrebach Road</Street>
+        <Crossing>near Cemetary Road</Crossing>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-03-14T13:18:08" ModificationDateTime="2025-03-14T13:18:08" Modification="new">
+          <CommonName xml:lang="CY">Heol Pentrebach</CommonName>
+          <ShortCommonName xml:lang="CY">Heol Pentrebach</ShortCommonName>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041637</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>308348</Easting>
+            <Northing>189598</Northing>
+            <Longitude>-3.324607548</Longitude>
+            <Latitude>51.597739578</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-14T13:18:08" ModificationDateTime="2025-03-14T13:18:08" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-14</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-14T13:22:00" ModificationDateTime="2025-03-14T13:20:20" Modification="new" Status="active">
+      <AtcoCode>5520WDB8390</AtcoCode>
+      <NaptanCode>rhotgpm</NaptanCode>
+      <Descriptor>
+        <CommonName>Lamb and Flag</CommonName>
+        <ShortCommonName>Lamb and Flag</ShortCommonName>
+        <Landmark>Lamb and Flag</Landmark>
+        <Street>Brecon Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054668</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>295623</Easting>
+            <Northing>205600</Northing>
+            <Longitude>-3.513044009</Longitude>
+            <Latitude>51.739350040</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-14T13:22:00" ModificationDateTime="2025-03-14T13:22:00" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-14</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
