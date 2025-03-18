@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-08T13:38:35.2328873Z" ModificationDateTime="2025-01-08T13:38:35.2328873Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-17T12:49:31.4911178Z" ModificationDateTime="2025-03-17T12:49:31.4921193Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -50502,6 +50502,104 @@
         <StopValidity CreationDateTime="2025-01-08T13:36:36" ModificationDateTime="2025-01-08T13:36:36" Modification="new">
           <DateRange>
             <StartDate>2025-01-08</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T12:16:58" ModificationDateTime="2025-03-17T12:02:36" Modification="new" Status="active">
+      <AtcoCode>5210WDB48417</AtcoCode>
+      <NaptanCode>pemjamp</NaptanCode>
+      <Descriptor>
+        <CommonName>Narberth CP School</CommonName>
+        <Street>Jesse Road</Street>
+        <Indicator>Nr Wayfield</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-03-17T12:16:58" ModificationDateTime="2025-03-17T12:16:58" Modification="new">
+          <CommonName>Ysgol Gynradd Arberth</CommonName>
+          <Street>Jesse Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054516</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>211480</Easting>
+            <Northing>214900</Northing>
+            <Longitude>-4.735534650</Longitude>
+            <Latitude>51.800878328</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T12:16:58" ModificationDateTime="2025-03-17T12:16:58" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T12:37:33" ModificationDateTime="2025-03-17T12:30:30" Modification="new" Status="active">
+      <AtcoCode>5210WDB48418</AtcoCode>
+      <NaptanCode>pemjamt</NaptanCode>
+      <Descriptor>
+        <CommonName>Narberth CP School</CommonName>
+        <Street>Jesse Road</Street>
+        <Indicator>Nr 14 Jesse Road</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-03-17T12:37:33" ModificationDateTime="2025-03-17T12:37:33" Modification="new">
+          <CommonName>Ysgol Gynradd Arberth</CommonName>
+          <Street>Jesse Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054516</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>211463</Easting>
+            <Northing>214886</Northing>
+            <Longitude>-4.735773284</Longitude>
+            <Latitude>51.800746864</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T12:37:33" ModificationDateTime="2025-03-17T12:37:33" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
