@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-13T09:34:22.9880737Z" ModificationDateTime="2025-03-13T09:34:22.9880737Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-19T16:51:44.1611235Z" ModificationDateTime="2025-03-19T16:51:44.1611235Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-12-27T16:02:48" ModificationDateTime="2024-12-27T16:00:25" Modification="new" Status="active">
       <AtcoCode>3050000042LK</AtcoCode>
@@ -87331,6 +87331,607 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T12:17:07" ModificationDateTime="2025-03-17T12:33:22" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>3050PH001NW</AtcoCode>
+      <NaptanCode>ntnphaaw</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Falcon Road</CommonName>
+        <Street>Kestrel Road</Street>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>491972</Easting>
+            <Northing>291275</Northing>
+            <Longitude>-0.646220846</Longitude>
+            <Latitude>52.511613060</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T12:17:07" ModificationDateTime="2025-03-17T12:17:07" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T12:17:07" ModificationDateTime="2025-03-17T12:17:07" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T12:32:34" ModificationDateTime="2025-03-17T12:25:47" Modification="new" Status="active">
+      <AtcoCode>3050PH002SE</AtcoCode>
+      <NaptanCode>ntnphabe</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Kite Road</CommonName>
+        <Street>Kestrel Road</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Weldon</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492021</Easting>
+            <Northing>291277</Northing>
+            <Longitude>-0.645498497</Longitude>
+            <Latitude>52.511622776</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T12:32:34" ModificationDateTime="2025-03-17T12:32:34" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T12:32:34" ModificationDateTime="2025-03-17T12:32:34" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T12:47:53" ModificationDateTime="2025-03-17T12:39:19" Modification="new" Status="active">
+      <AtcoCode>3050PH003SE</AtcoCode>
+      <NaptanCode>ntnphace</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Merlin Road</CommonName>
+        <Street>Kestrel Road</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492365</Easting>
+            <Northing>291141</Northing>
+            <Longitude>-0.640468915</Longitude>
+            <Latitude>52.510342391</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T12:47:53" ModificationDateTime="2025-03-17T12:47:53" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T12:47:53" ModificationDateTime="2025-03-17T12:47:53" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T12:58:51" ModificationDateTime="2025-03-17T12:50:19" Modification="new" Status="active">
+      <AtcoCode>3050PH004NW</AtcoCode>
+      <NaptanCode>ntnphadw</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Redwing Place</CommonName>
+        <Street>Kestrel Road</Street>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492459</Easting>
+            <Northing>290987</Northing>
+            <Longitude>-0.639127038</Longitude>
+            <Latitude>52.508942422</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T12:58:51" ModificationDateTime="2025-03-17T12:58:51" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T12:58:51" ModificationDateTime="2025-03-17T12:58:51" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:07:28" ModificationDateTime="2025-03-17T13:00:16" Modification="new" Status="active">
+      <AtcoCode>3050PH005NE</AtcoCode>
+      <NaptanCode>ntnphaen</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) The Avenue</CommonName>
+        <Street>Kestrel Road</Street>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492456</Easting>
+            <Northing>290766</Northing>
+            <Longitude>-0.639232568</Longitude>
+            <Latitude>52.506956719</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:07:28" ModificationDateTime="2025-03-17T13:07:28" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:07:28" ModificationDateTime="2025-03-17T13:07:28" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:12:13" ModificationDateTime="2025-03-17T13:08:13" Modification="new" Status="active">
+      <AtcoCode>3050PH006SW</AtcoCode>
+      <NaptanCode>ntnphafs</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) The Avenue</CommonName>
+        <Street>Kestrel Road</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492457</Easting>
+            <Northing>290759</Northing>
+            <Longitude>-0.639219782</Longitude>
+            <Latitude>52.506893638</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:12:13" ModificationDateTime="2025-03-17T13:12:13" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:12:13" ModificationDateTime="2025-03-17T13:12:13" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:20:15" ModificationDateTime="2025-03-17T13:13:38" Modification="new" Status="active">
+      <AtcoCode>3050PH007NN</AtcoCode>
+      <NaptanCode>ntnphagn</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Wentworth Drive</CommonName>
+        <Street>London Road</Street>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492301</Easting>
+            <Northing>290356</Northing>
+            <Longitude>-0.641629148</Longitude>
+            <Latitude>52.503298117</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:20:15" ModificationDateTime="2025-03-17T13:20:15" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:20:15" ModificationDateTime="2025-03-17T13:20:15" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:26:50" ModificationDateTime="2025-03-17T13:21:33" Modification="new" Status="active">
+      <AtcoCode>3050PH008SS</AtcoCode>
+      <NaptanCode>ntnphahs</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Wentworth Drive</CommonName>
+        <Street>London Road</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492314</Easting>
+            <Northing>290343</Northing>
+            <Longitude>-0.641441289</Longitude>
+            <Latitude>52.503179083</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:26:50" ModificationDateTime="2025-03-17T13:26:50" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:26:50" ModificationDateTime="2025-03-17T13:26:50" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:42:45" ModificationDateTime="2025-03-17T13:35:52" Modification="new" Status="active">
+      <AtcoCode>3050PH009SW</AtcoCode>
+      <NaptanCode>ntnphais</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Flaxland Way</CommonName>
+        <Street>London Road</Street>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492571</Easting>
+            <Northing>290121</Northing>
+            <Longitude>-0.637717949</Longitude>
+            <Latitude>52.501140372</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:42:45" ModificationDateTime="2025-03-17T13:42:45" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:42:45" ModificationDateTime="2025-03-17T13:42:45" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:49:25" ModificationDateTime="2025-03-17T13:46:08" Modification="new" Status="active">
+      <AtcoCode>3050PH010NE</AtcoCode>
+      <NaptanCode>ntnphajn</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Flaxland Way</CommonName>
+        <Street>London Road</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492613</Easting>
+            <Northing>290153</Northing>
+            <Longitude>-0.637090522</Longitude>
+            <Latitude>52.501420846</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:49:25" ModificationDateTime="2025-03-17T13:49:25" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:49:25" ModificationDateTime="2025-03-17T13:49:25" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T13:56:29" ModificationDateTime="2025-03-17T13:50:29" Modification="new" Status="active">
+      <AtcoCode>3050PH011NW</AtcoCode>
+      <NaptanCode>ntnphakw</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Arnold Drive</CommonName>
+        <Landmark>Quarry View Play Area</Landmark>
+        <Street>Levatts Way</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>492958</Easting>
+            <Northing>290185</Northing>
+            <Longitude>-0.632000760</Longitude>
+            <Latitude>52.501649818</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T13:56:29" ModificationDateTime="2025-03-17T13:56:29" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T13:56:29" ModificationDateTime="2025-03-17T13:56:29" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-17T15:04:05" ModificationDateTime="2025-03-17T13:57:17" Modification="new" Status="active">
+      <AtcoCode>3050PH012SE</AtcoCode>
+      <NaptanCode>ntnphale</NaptanCode>
+      <Descriptor>
+        <CommonName>(Priors Hall) Quarry View Play Area</CommonName>
+        <Street>Levatts Way</Street>
+        <Indicator>After</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077196</NptgLocalityRef>
+        <Suburb>Priors Hall</Suburb>
+        <Town>Corby</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>493009</Easting>
+            <Northing>290131</Northing>
+            <Longitude>-0.631264748</Longitude>
+            <Latitude>52.501155816</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-03-17T15:04:05" ModificationDateTime="2025-03-17T15:04:05" Modification="new">CORBY</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-17T15:04:05" ModificationDateTime="2025-03-17T15:04:05" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2024-09-30T17:08:31" ModificationDateTime="2024-10-07T10:08:43" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>3050PI001DR</AtcoCode>

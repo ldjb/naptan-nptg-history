@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-07T11:13:57.9936134Z" ModificationDateTime="2025-02-07T11:13:57.9936134Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-19T08:56:11.8294637Z" ModificationDateTime="2025-03-19T08:56:11.8294637Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2013-06-14T07:52:34" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>3890D000100</AtcoCode>
@@ -63235,7 +63235,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2018-09-14T10:43:02" Modification="revise" RevisionNumber="1" Status="inactive">
+    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2025-03-19T08:55:52" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3890D105801</AtcoCode>
       <NaptanCode>stoamtgm</NaptanCode>
       <Descriptor>
@@ -63263,14 +63263,14 @@
           <Bus>
             <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="2016-05-24T20:16:37" Modification="new" RevisionNumber="0" Status="active">
+            <HailAndRideSection CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="2025-03-19T08:55:52" Modification="revise" RevisionNumber="1" Status="active">
               <StartPoint>
                 <Translation>
                   <GridType>UKOS</GridType>
                   <Easting>386548</Easting>
                   <Northing>349495</Northing>
-                  <Longitude>-2.202089987</Longitude>
-                  <Latitude>53.042570779</Latitude>
+                  <Longitude>-2.202087926</Longitude>
+                  <Latitude>53.042549645</Latitude>
                 </Translation>
               </StartPoint>
               <EndPoint>
@@ -63278,8 +63278,8 @@
                   <GridType>UKOS</GridType>
                   <Easting>386354</Easting>
                   <Northing>349325</Northing>
-                  <Longitude>-2.204976324</Longitude>
-                  <Latitude>53.041037648</Latitude>
+                  <Longitude>-2.204974171</Longitude>
+                  <Latitude>53.041016551</Latitude>
                 </Translation>
               </EndPoint>
               <Bearing>
@@ -63300,15 +63300,21 @@
           </DateRange>
           <Suspended />
         </StopValidity>
+        <StopValidity CreationDateTime="2025-03-19T08:55:52" ModificationDateTime="2025-03-19T08:55:52" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-19</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2018-09-14T10:43:16" Modification="revise" RevisionNumber="1" Status="inactive">
+    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2025-03-19T08:53:20" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3890D105901</AtcoCode>
       <NaptanCode>stoamtgp</NaptanCode>
       <Descriptor>
-        <CommonName>Slater Street</CommonName>
+        <CommonName>Supreme Street</CommonName>
         <Landmark>Road</Landmark>
-        <Street>Slater Street</Street>
+        <Street>Supreme Street</Street>
         <Indicator>hail and ride</Indicator>
       </Descriptor>
       <Place>
@@ -63367,15 +63373,21 @@
           </DateRange>
           <Suspended />
         </StopValidity>
+        <StopValidity CreationDateTime="2025-03-19T08:53:20" ModificationDateTime="2025-03-19T08:53:20" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-19</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2002-12-22T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2025-03-19T08:53:52" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>3890D106001</AtcoCode>
       <NaptanCode>stoamtgt</NaptanCode>
       <Descriptor>
-        <CommonName>Clews Street</CommonName>
+        <CommonName>Angels Way</CommonName>
         <Landmark>Road</Landmark>
-        <Street>Clews Street</Street>
+        <Street>Angels Way</Street>
         <Indicator>hail and ride</Indicator>
       </Descriptor>
       <Place>
@@ -63397,14 +63409,14 @@
           <Bus>
             <BusStopType>HAR</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <HailAndRideSection CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="2016-05-24T20:16:37" Modification="new" RevisionNumber="0" Status="active">
+            <HailAndRideSection CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="2025-03-19T08:53:52" Modification="revise" RevisionNumber="1" Status="active">
               <StartPoint>
                 <Translation>
                   <GridType>UKOS</GridType>
                   <Easting>386468</Easting>
                   <Northing>349096</Northing>
-                  <Longitude>-2.203266347</Longitude>
-                  <Latitude>53.038982015</Latitude>
+                  <Longitude>-2.203264231</Longitude>
+                  <Latitude>53.038960980</Latitude>
                 </Translation>
               </StartPoint>
               <EndPoint>
@@ -63412,8 +63424,8 @@
                   <GridType>UKOS</GridType>
                   <Easting>386408</Easting>
                   <Northing>349066</Northing>
-                  <Longitude>-2.204159922</Longitude>
-                  <Latitude>53.038710804</Latitude>
+                  <Longitude>-2.204157779</Longitude>
+                  <Latitude>53.038689775</Latitude>
                 </Translation>
               </EndPoint>
               <Bearing>
