@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-02-24T16:23:21.727" ModificationDateTime="2025-02-24T16:23:21.727" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-20T13:18:39.352" ModificationDateTime="2025-03-20T13:18:39.352" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-12-03T10:37:07.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>109000000535</AtcoCode>
@@ -8400,7 +8400,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2024-07-22T10:33:04.588" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>109000008908</AtcoCode>
-<NaptanCode>dbyapajm</NaptanCode>
 <Descriptor>
 <CommonName>All Saints Court</CommonName>
 <Landmark>All Saints Court</Landmark>
@@ -11245,50 +11244,6 @@
 <AdministrativeAreaRef>017</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2009-07-17T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">DRBY</PlusbusZoneRef>
-</PlusbusZones>
-</StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2015-08-12T16:34:06.000" Modification="revise" RevisionNumber="2" Status="active">
-<AtcoCode>109000008969</AtcoCode>
-<NaptanCode>dbyajtgd</NaptanCode>
-<Descriptor>
-<CommonName>Moorgate</CommonName>
-<Landmark>Moorgate</Landmark>
-<Street>Radbourne Lane</Street>
-<Indicator>Opp</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>N0073290</NptgLocalityRef>
-<LocalityCentre>0</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>431393</Easting>
-<Northing>336729</Northing>
-<Longitude>-1.534463</Longitude>
-<Latitude>52.927077</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
-<Bearing>
-<CompassPoint>NE</CompassPoint>
-</Bearing>
-</UnmarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">109G00015442</StopAreaRef>
-</StopAreas>
-<AdministrativeAreaRef>017</AdministrativeAreaRef>
-<PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2008-02-25T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2015-08-12T16:18:52.000" Modification="revise" RevisionNumber="2" Status="active">
@@ -22443,7 +22398,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2020-10-07T12:26:45.000" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>109000009206</AtcoCode>
-<NaptanCode>dbyagwdt</NaptanCode>
 <Descriptor>
 <CommonName>Peet Street</CommonName>
 <Landmark>Peet Street</Landmark>
@@ -24757,7 +24711,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2024-07-22T10:49:25.621" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>109000009254</AtcoCode>
-<NaptanCode>dbyadwjg</NaptanCode>
 <Descriptor>
 <CommonName>Great Northern Road</CommonName>
 <Landmark>Great Northern Road</Landmark>
@@ -36170,14 +36123,14 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2008-08-11T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">DRBY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-05-04T00:00:00.000" ModificationDateTime="2009-07-24T00:00:00.000" Modification="revise" RevisionNumber="7" Status="inactive">
+<StopPoint CreationDateTime="2006-05-04T00:00:00.000" ModificationDateTime="2025-03-20T09:54:04.396" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>109000009503</AtcoCode>
 <NaptanCode>dbyajdmw</NaptanCode>
 <Descriptor>
-<CommonName>Celanese Road</CommonName>
+<CommonName>Spondon Station</CommonName>
 <Landmark>Car Park</Landmark>
-<Street>Celanese Road</Street>
-<Indicator>SE-bound</Indicator>
+<Street>Holme Lane</Street>
+<Indicator>opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0036836</NptgLocalityRef>
@@ -36185,10 +36138,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>439521</Easting>
-<Northing>335120</Northing>
-<Longitude>-1.413758</Longitude>
-<Latitude>52.91208</Latitude>
+<Easting>439648</Easting>
+<Northing>335107</Northing>
+<Longitude>-1.411867</Longitude>
+<Latitude>52.911957</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -36200,7 +36153,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>SE</CompassPoint>
+<CompassPoint>NW</CompassPoint>
 <Degrees>135</Degrees>
 </Bearing>
 </MarkedPoint>
@@ -73125,6 +73078,226 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T10:21:56.271" ModificationDateTime="2025-03-20T10:21:56.271" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052238</AtcoCode>
+<NaptanCode>dbyapjwp</NaptanCode>
+<Descriptor>
+<CommonName>Kingsway Bridge</CommonName>
+<Street>Brackensdale Avenue</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073290</NptgLocalityRef>
+<Town>Derby</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>432845</Easting>
+<Northing>336458</Northing>
+<Longitude>-1.512894</Longitude>
+<Latitude>52.924559</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T10:26:45.758" ModificationDateTime="2025-03-20T10:26:45.758" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052239</AtcoCode>
+<NaptanCode>dbyapjwt</NaptanCode>
+<Descriptor>
+<CommonName>The Great Northern</CommonName>
+<Street>Station Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036824</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>430869</Easting>
+<Northing>335976</Northing>
+<Longitude>-1.542324</Longitude>
+<Latitude>52.920339</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T10:30:18.176" ModificationDateTime="2025-03-20T10:30:18.176" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052240</AtcoCode>
+<NaptanCode>dbyapmad</NaptanCode>
+<Descriptor>
+<CommonName>Hyde Park Road</CommonName>
+<Street>Holborn Drive</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073290</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>432593</Easting>
+<Northing>337041</Northing>
+<Longitude>-1.516588</Longitude>
+<Latitude>52.929812</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T10:35:12.267" ModificationDateTime="2025-03-20T10:35:12.267" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052241</AtcoCode>
+<NaptanCode>dbyapmag</NaptanCode>
+<Descriptor>
+<CommonName>Foragers Way</CommonName>
+<Street>Station Road</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036824</NptgLocalityRef>
+<Town>Derby</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>430867</Easting>
+<Northing>335798</Northing>
+<Longitude>-1.542375</Longitude>
+<Latitude>52.918738</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T10:40:50.465" ModificationDateTime="2025-03-20T10:40:50.465" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052242</AtcoCode>
+<NaptanCode>dbyapmaj</NaptanCode>
+<Descriptor>
+<CommonName>Foragers Way</CommonName>
+<Street>Station Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036824</NptgLocalityRef>
+<Town>Derby</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>430854</Easting>
+<Northing>335767</Northing>
+<Longitude>-1.542567</Longitude>
+<Latitude>52.918462</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T10:43:50.054" ModificationDateTime="2025-03-20T10:43:50.054" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052243</AtcoCode>
+<NaptanCode>dbyapmam</NaptanCode>
+<Descriptor>
+<CommonName>Inglewood Avenue</CommonName>
+<Street>Station Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036824</NptgLocalityRef>
+<Town>Derby</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>430838</Easting>
+<Northing>335479</Northing>
+<Longitude>-1.542833</Longitude>
+<Latitude>52.91587</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

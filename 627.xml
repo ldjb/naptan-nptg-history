@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-11T14:23:20.927" ModificationDateTime="2025-03-11T14:23:20.927" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-20T19:46:47.633" ModificationDateTime="2025-03-20T19:46:47.633" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -28954,24 +28954,26 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2012-06-19T14:20:14.000" ModificationDateTime="2017-02-07T13:17:15.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2012-06-19T14:20:14.000" ModificationDateTime="2025-03-14T15:35:54.410" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>627009060380</AtcoCode>
 <NaptanCode>58235354</NaptanCode>
 <Descriptor>
-<CommonName>Council Houses</CommonName>
+<CommonName>Bolton Parish Church</CommonName>
+<ShortCommonName>Bolton Parish Church</ShortCommonName>
 <Street>B6368</Street>
-<Indicator>opp</Indicator>
+<Indicator>at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000402</NptgLocalityRef>
+<Town>Bolton Haddington</Town>
 <LocalityCentre>1</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>350666</Easting>
-<Northing>669966</Northing>
-<Longitude>-2.790953</Longitude>
-<Latitude>55.920227</Latitude>
+<Easting>350716</Easting>
+<Northing>670072</Northing>
+<Longitude>-2.790172</Longitude>
+<Latitude>55.921186</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -38696,12 +38698,12 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2017-02-06T15:18:16.000" ModificationDateTime="2022-05-26T09:28:42.474" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2017-02-06T15:18:16.000" ModificationDateTime="2025-03-20T19:20:12.824" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>627033005</AtcoCode>
 <NaptanCode>5827825</NaptanCode>
 <Descriptor>
-<CommonName>Clerkington Mill RE</CommonName>
-<ShortCommonName>Clerkington Mill RE</ShortCommonName>
+<CommonName>Bothwell Avenue</CommonName>
+<ShortCommonName>Bothwell Avenue</ShortCommonName>
 <Landmark>Clerkington Mill RE</Landmark>
 <Street>A6093</Street>
 <Indicator>opp</Indicator>
@@ -38738,12 +38740,12 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2017-02-06T15:19:09.000" ModificationDateTime="2022-05-26T09:22:50.061" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2017-02-06T15:19:09.000" ModificationDateTime="2025-03-20T19:21:23.633" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>627033007</AtcoCode>
 <NaptanCode>5827925</NaptanCode>
 <Descriptor>
-<CommonName>Dovecot</CommonName>
-<ShortCommonName>Dovecot</ShortCommonName>
+<CommonName>Bothwell Avenue</CommonName>
+<ShortCommonName>Bothwell Avenue</ShortCommonName>
 <Street>A6093</Street>
 <Indicator>at</Indicator>
 </Descriptor>
@@ -47674,6 +47676,462 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T14:20:11.559" ModificationDateTime="2025-03-14T14:20:11.559" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001239</AtcoCode>
+<NaptanCode>5821239</NaptanCode>
+<Descriptor>
+<CommonName>Roodlands Court</CommonName>
+<ShortCommonName>Roodlands Court</ShortCommonName>
+<Street>Haldane Avenue</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001692</NptgLocalityRef>
+<Town>Haddington</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>350215</Easting>
+<Northing>674250</Northing>
+<Longitude>-2.7989658</Longitude>
+<Latitude>55.9586659</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T14:25:00.099" ModificationDateTime="2025-03-14T14:25:00.099" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001240</AtcoCode>
+<NaptanCode>5821240</NaptanCode>
+<Descriptor>
+<CommonName>Roodlands Court</CommonName>
+<ShortCommonName>Roodlands Court</ShortCommonName>
+<Street>Haldane Avenue</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001692</NptgLocalityRef>
+<Town>Haddington</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>350215</Easting>
+<Northing>674246</Northing>
+<Longitude>-2.7989590</Longitude>
+<Latitude>55.9586318</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T14:34:07.413" ModificationDateTime="2025-03-14T14:34:07.413" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001242</AtcoCode>
+<NaptanCode>5821242</NaptanCode>
+<Descriptor>
+<CommonName>Long Cram</CommonName>
+<ShortCommonName>Long Cram</ShortCommonName>
+<Street>Pencaitland Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001692</NptgLocalityRef>
+<Town>Haddington</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>350500</Easting>
+<Northing>673547</Northing>
+<Longitude>-2.7942624</Longitude>
+<Latitude>55.9523814</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T14:36:41.096" ModificationDateTime="2025-03-14T14:36:41.096" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001243</AtcoCode>
+<NaptanCode>5821243</NaptanCode>
+<Descriptor>
+<CommonName>Long Cram</CommonName>
+<ShortCommonName>Long Cram</ShortCommonName>
+<Street>Pencaitland Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001692</NptgLocalityRef>
+<Town>Haddington</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>350505</Easting>
+<Northing>673544</Northing>
+<Longitude>-2.7941891</Longitude>
+<Latitude>55.9523523</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T14:47:27.316" ModificationDateTime="2025-03-20T08:36:02.599" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>627070001244</AtcoCode>
+<NaptanCode>5821244</NaptanCode>
+<Descriptor>
+<CommonName>Netherlaw</CommonName>
+<ShortCommonName>Netherlaw</ShortCommonName>
+<Street>Grange Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002849</NptgLocalityRef>
+<Town>North Berwick</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>354755</Easting>
+<Northing>684548</Northing>
+<Longitude>-2.7279851</Longitude>
+<Latitude>56.0516323</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T14:50:55.314" ModificationDateTime="2025-03-20T08:34:52.282" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>627070001245</AtcoCode>
+<NaptanCode>5821245</NaptanCode>
+<Descriptor>
+<CommonName>Netherlaw</CommonName>
+<ShortCommonName>Netherlaw</ShortCommonName>
+<Street>Grange Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002849</NptgLocalityRef>
+<Town>North Berwick</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>354753</Easting>
+<Northing>684543</Northing>
+<Longitude>-2.7280261</Longitude>
+<Latitude>56.0515863</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T15:17:07.795" ModificationDateTime="2025-03-14T15:17:07.795" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001248</AtcoCode>
+<NaptanCode>5821248</NaptanCode>
+<Descriptor>
+<CommonName>Farquharson Rest</CommonName>
+<ShortCommonName>Farquharson Rest</ShortCommonName>
+<Street>Pilgrims Way</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002849</NptgLocalityRef>
+<Town>North Berwick</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>354793</Easting>
+<Northing>684308</Northing>
+<Longitude>-2.7273425</Longitude>
+<Latitude>56.0494831</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T15:18:48.397" ModificationDateTime="2025-03-14T15:18:48.397" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001249</AtcoCode>
+<NaptanCode>5821249</NaptanCode>
+<Descriptor>
+<CommonName>Farquharson Rest</CommonName>
+<ShortCommonName>Farquharson Rest</ShortCommonName>
+<Street>Pilgrims Way</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002849</NptgLocalityRef>
+<Town>North Berwick</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>354785</Easting>
+<Northing>684321</Northing>
+<Longitude>-2.7274692</Longitude>
+<Latitude>56.0496001</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-14T15:47:47.199" ModificationDateTime="2025-03-14T15:47:47.199" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001250</AtcoCode>
+<NaptanCode>5821250</NaptanCode>
+<Descriptor>
+<CommonName>Brand Court</CommonName>
+<ShortCommonName>Brand Court</ShortCommonName>
+<Street>Yosemite Park</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001106</NptgLocalityRef>
+<Town>Dunbar</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>366971</Easting>
+<Northing>677934</Northing>
+<Longitude>-2.5310537</Longitude>
+<Latitude>55.9932128</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T09:11:41.946" ModificationDateTime="2025-03-20T09:11:41.946" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001251</AtcoCode>
+<NaptanCode>5821251</NaptanCode>
+<Descriptor>
+<CommonName>The Paddock</CommonName>
+<ShortCommonName>The Paddock</ShortCommonName>
+<Street>Grange Road</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002849</NptgLocalityRef>
+<Town>North Berwick</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>355184</Easting>
+<Northing>684725</Northing>
+<Longitude>-2.7211281</Longitude>
+<Latitude>56.0532633</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T19:34:58.830" ModificationDateTime="2025-03-20T19:34:58.830" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001252</AtcoCode>
+<NaptanCode>5821252</NaptanCode>
+<Descriptor>
+<CommonName>Museum of Flight Road End</CommonName>
+<ShortCommonName>Museum of Flight Road End</ShortCommonName>
+<Street>B1347</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073109</NptgLocalityRef>
+<Town>East Fortune</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>354261</Easting>
+<Northing>678102</Northing>
+<Longitude>-2.7348123</Longitude>
+<Latitude>55.9936791</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-20T19:44:15.112" ModificationDateTime="2025-03-20T19:44:15.112" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001253</AtcoCode>
+<NaptanCode>5821253</NaptanCode>
+<Descriptor>
+<CommonName>Museum of Flight Road End</CommonName>
+<ShortCommonName>Museum of Flight Road End</ShortCommonName>
+<Street>B1347</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073109</NptgLocalityRef>
+<Town>East Fortune</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>354273</Easting>
+<Northing>678139</Northing>
+<Longitude>-2.7346335</Longitude>
+<Latitude>55.9940128</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
