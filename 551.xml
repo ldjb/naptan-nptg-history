@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-01-21T16:04:06.7124256Z" ModificationDateTime="2025-01-21T16:04:06.7124256Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-21T12:54:12.5818881Z" ModificationDateTime="2025-03-21T12:54:12.5818881Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:48" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5510ANZ12678</AtcoCode>
@@ -49986,6 +49986,57 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>007</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-03-21T12:50:43" ModificationDateTime="2025-03-21T12:51:14" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5510WDB48792</AtcoCode>
+      <NaptanCode>brematp</NaptanCode>
+      <Descriptor>
+        <CommonName>Hendre Road</CommonName>
+        <ShortCommonName xml:lang="CY">Hendre Road</ShortCommonName>
+        <Street xml:lang="CY">Hendre Road</Street>
+        <Indicator>opp Social Club</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-03-21T12:50:43" ModificationDateTime="2025-03-21T12:51:14" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Heol Hendre</CommonName>
+          <ShortCommonName xml:lang="CY">Heol Hendre</ShortCommonName>
+          <Street xml:lang="CY">Heol Hendre</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0053966</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>295767</Easting>
+            <Northing>181658</Northing>
+            <Longitude>-3.503823746</Longitude>
+            <Latitude>51.524182700</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>007</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-03-21T12:50:43" ModificationDateTime="2025-03-21T12:50:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-21</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-04T10:11:36" ModificationDateTime="2024-04-26T15:52:39" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5510WLDMILL0</AtcoCode>
