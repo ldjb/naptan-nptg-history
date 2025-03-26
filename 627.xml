@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-20T19:46:47.633" ModificationDateTime="2025-03-20T19:46:47.633" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-25T08:26:14.518" ModificationDateTime="2025-03-25T08:26:14.518" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -48132,6 +48132,43 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-25T08:25:56.401" ModificationDateTime="2025-03-25T08:25:56.401" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001254</AtcoCode>
+<NaptanCode>5821254</NaptanCode>
+<Descriptor>
+<CommonName>Dovecot</CommonName>
+<ShortCommonName>Dovecot</ShortCommonName>
+<Street>A6093</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001692</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>350159</Easting>
+<Northing>673141</Northing>
+<Longitude>-2.7996480</Longitude>
+<Latitude>55.9486989</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
