@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-01-28T16:21:09.269" ModificationDateTime="2025-01-28T16:21:09.269" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-27T16:03:31.766" ModificationDateTime="2025-03-27T16:03:31.766" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -37948,7 +37948,7 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-10-26T00:00:00.000" ModificationDateTime="2010-03-24T09:44:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2004-10-26T00:00:00.000" ModificationDateTime="2025-03-04T10:45:13.122" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630032251</AtcoCode>
 <NaptanCode>23624547</NaptanCode>
 <Descriptor>
@@ -37965,10 +37965,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>369935</Easting>
-<Northing>811079</Northing>
-<Longitude>-2.499071</Longitude>
-<Latitude>57.189516</Latitude>
+<Easting>369932</Easting>
+<Northing>811083</Northing>
+<Longitude>-2.499122</Longitude>
+<Latitude>57.18955</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -53645,7 +53645,7 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-11-09T00:00:00.000" ModificationDateTime="2010-06-03T14:22:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2004-11-09T00:00:00.000" ModificationDateTime="2025-03-27T12:39:01.674" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630042681</AtcoCode>
 <NaptanCode>23624263</NaptanCode>
 <Descriptor>
@@ -53662,10 +53662,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>365787</Easting>
-<Northing>768589</Northing>
-<Longitude>-2.561913</Longitude>
-<Latitude>56.807545</Latitude>
+<Easting>365789</Easting>
+<Northing>768595</Northing>
+<Longitude>-2.561881</Longitude>
+<Latitude>56.807598</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -113418,6 +113418,44 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-27T15:23:30.281" ModificationDateTime="2025-03-27T15:23:30.281" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630061282</AtcoCode>
+<NaptanCode>23634937</NaptanCode>
+<Descriptor>
+<CommonName>Primary School</CommonName>
+<Landmark>Primary School</Landmark>
+<Street>School Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0066886</NptgLocalityRef>
+<Town>Luthermuir</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>366443</Easting>
+<Northing>768915</Northing>
+<Longitude>-2.5512134</Longitude>
+<Latitude>56.8105203</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
