@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-27T16:03:31.766" ModificationDateTime="2025-03-27T16:03:31.766" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-28T14:58:17.750" ModificationDateTime="2025-03-28T14:58:17.750" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -113456,6 +113456,44 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-03-28T13:54:23.514" ModificationDateTime="2025-03-28T13:54:23.514" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630061283</AtcoCode>
+<NaptanCode>23634938</NaptanCode>
+<Descriptor>
+<CommonName>Primary School</CommonName>
+<Landmark>Primary School</Landmark>
+<Street>School Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0066886</NptgLocalityRef>
+<Town>Luthermuir</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>366455</Easting>
+<Northing>768914</Northing>
+<Longitude>-2.5510168</Longitude>
+<Latitude>56.8105121</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
