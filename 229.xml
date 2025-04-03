@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN CreationDateTime="2025-03-14T09:45:44" ModificationDateTime="2025-03-14T09:45:44" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\Hull\2025-03-14 - 1206\NaPTAN229.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
+<NaPTAN CreationDateTime="2025-04-02T05:33:54" ModificationDateTime="2025-04-02T05:33:54" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\Hull\2025-04-02 - 1207\NaPTAN229.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2011-10-07T12:00:00" ModificationDateTime="2019-11-05T12:00:00" RevisionNumber="0" Status="active">
       <AtcoCode>2290HULL0</AtcoCode>
@@ -369,7 +369,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -1224,8 +1224,8 @@
       <NaptanCode>22900026</NaptanCode>
       <PlateCode />
       <Descriptor>
-        <CommonName>MKM Stadium</CommonName>
-        <ShortCommonName>MKM Stadium</ShortCommonName>
+        <CommonName>Mkm Stadium</CommonName>
+        <ShortCommonName>Mkm Stadium</ShortCommonName>
         <Landmark>N/A</Landmark>
         <Street>Anlaby Road</Street>
       </Descriptor>
@@ -1237,10 +1237,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>507472</Easting>
-            <Northing>428743</Northing>
-            <Longitude>-0.371889673</Longitude>
-            <Latitude>53.743996930</Latitude>
+            <Easting>507477</Easting>
+            <Northing>428744</Northing>
+            <Longitude>-0.371813544</Longitude>
+            <Latitude>53.744004885</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -1281,10 +1281,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>507976</Easting>
-            <Northing>428692</Northing>
-            <Longitude>-0.364268776</Longitude>
-            <Latitude>53.743434714</Latitude>
+            <Easting>507979</Easting>
+            <Northing>428685</Northing>
+            <Longitude>-0.364225751</Longitude>
+            <Latitude>53.743371203</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -1325,10 +1325,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>508193</Easting>
-            <Northing>428683</Northing>
-            <Longitude>-0.360983092</Longitude>
-            <Latitude>53.743308923</Latitude>
+            <Easting>508191</Easting>
+            <Northing>428678</Northing>
+            <Longitude>-0.361015152</Longitude>
+            <Latitude>53.743264416</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4345,7 +4345,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2011-06-22T12:00:00" Modification="new" RevisionNumber="0" Status="active">HULL</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-11-05T12:00:00" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-11-05T12:00:00" RevisionNumber="0" Status="inactive">
       <AtcoCode>2290YHA00097</AtcoCode>
       <NaptanCode>22900097</NaptanCode>
       <PlateCode />
@@ -4434,7 +4434,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2011-06-22T12:00:00" Modification="new" RevisionNumber="0" Status="active">HULL</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-11-05T12:00:00" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-11-05T12:00:00" RevisionNumber="0" Status="inactive">
       <AtcoCode>2290YHA00099</AtcoCode>
       <NaptanCode>22900099</NaptanCode>
       <PlateCode />
@@ -22227,22 +22227,23 @@
       <PlateCode>22900537</PlateCode>
       <Descriptor>
         <CommonName>Ferries Street</CommonName>
+        <ShortCommonName>Ferries Street</ShortCommonName>
         <Landmark>N/A</Landmark>
         <Street>Hedon Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0078368</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Hedon Rd</Suburb>
+        <Town>Kingston</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>511923</Easting>
-            <Northing>429238</Northing>
-            <Longitude>-0.304252319</Longitude>
-            <Latitude>53.747508659</Latitude>
+            <Easting>511884</Easting>
+            <Northing>429239</Northing>
+            <Longitude>-0.304843077</Longitude>
+            <Latitude>53.747526006</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -22271,21 +22272,22 @@
       <PlateCode>22900538</PlateCode>
       <Descriptor>
         <CommonName>Lee Smith Street</CommonName>
+        <ShortCommonName>Lee Smith Street</ShortCommonName>
         <Landmark>N/A</Landmark>
         <Street>Hedon Road</Street>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0078368</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Hedon Rd</Suburb>
+        <Town>Kingston</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>512212</Easting>
-            <Northing>429257</Northing>
-            <Longitude>-0.299865082</Longitude>
-            <Latitude>53.747617300</Latitude>
+            <Easting>512224</Easting>
+            <Northing>429262</Northing>
+            <Longitude>-0.299681385</Longitude>
+            <Latitude>53.747659640</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -47723,21 +47725,22 @@
       <PlateCode>22901178</PlateCode>
       <Descriptor>
         <CommonName>Ainthorpe Grove</CommonName>
+        <ShortCommonName>Ainthorpe Grove</ShortCommonName>
         <Landmark>N/A</Landmark>
         <Street>Willerby Road</Street>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0078623</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Derringham</Suburb>
+        <Town>Kingston</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>505332</Easting>
-            <Northing>429614</Northing>
-            <Longitude>-0.404027765</Longitude>
-            <Latitude>53.752258685</Latitude>
+            <Easting>505403</Easting>
+            <Northing>429618</Northing>
+            <Longitude>-0.402950085</Longitude>
+            <Latitude>53.752280287</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -51313,10 +51316,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>507010</Easting>
-            <Northing>427806</Northing>
-            <Longitude>-0.379215814</Longitude>
-            <Latitude>53.735673423</Latitude>
+            <Easting>507004</Easting>
+            <Northing>427809</Northing>
+            <Longitude>-0.379305697</Longitude>
+            <Latitude>53.735701606</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -54693,7 +54696,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
@@ -61238,7 +61241,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-13T10:44:17.475" ModificationDateTime="2025-03-13T10:44:17.475" Modification="new" RevisionNumber="0" FileName="NaPTAN159.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-02T17:02:02.115" ModificationDateTime="2025-04-02T17:02:02.115" Modification="new" RevisionNumber="0" FileName="NaPTAN159.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-11-08T00:00:00.000" ModificationDateTime="2018-07-26T12:11:00.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1590000101</AtcoCode>
@@ -12852,7 +12852,7 @@
 </StopClassification>
 <AdministrativeAreaRef>059</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-11-08T00:00:00.000" ModificationDateTime="2025-02-14T18:30:26.598" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2004-11-08T00:00:00.000" ModificationDateTime="2025-04-02T16:41:11.507" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1590033601</AtcoCode>
 <NaptanCode>thuatdt</NaptanCode>
 <Descriptor>
@@ -12868,10 +12868,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>565039</Easting>
-<Northing>179042</Northing>
-<Longitude>0.375633</Longitude>
-<Latitude>51.486248</Latitude>
+<Easting>565042</Easting>
+<Northing>179029</Northing>
+<Longitude>0.375669</Longitude>
+<Latitude>51.486134</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -18522,7 +18522,7 @@
 </StopAreas>
 <AdministrativeAreaRef>059</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-11-08T00:00:00.000" ModificationDateTime="2022-09-05T13:37:22.105" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2004-11-08T00:00:00.000" ModificationDateTime="2025-04-02T16:43:22.566" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1590047501</AtcoCode>
 <NaptanCode>thudagw</NaptanCode>
 <Descriptor>
@@ -18540,8 +18540,8 @@
 <GridType>UKOS</GridType>
 <Easting>561739</Easting>
 <Northing>180727</Northing>
-<Longitude>0.328924</Longitude>
-<Latitude>51.502345</Latitude>
+<Longitude>0.328917</Longitude>
+<Latitude>51.502343</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -24370,7 +24370,7 @@
 </StopAreas>
 <AdministrativeAreaRef>059</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2008-07-02T16:41:00.000" ModificationDateTime="2009-06-23T12:06:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2008-07-02T16:41:00.000" ModificationDateTime="2025-04-02T16:44:55.639" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>15907075106</AtcoCode>
 <NaptanCode>thuadp</NaptanCode>
 <Descriptor>
@@ -24386,10 +24386,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>567075</Easting>
-<Northing>183029</Northing>
-<Longitude>0.406821</Longitude>
-<Latitude>51.521469</Latitude>
+<Easting>567098</Easting>
+<Northing>182951</Northing>
+<Longitude>0.40711</Longitude>
+<Latitude>51.520765</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -28745,6 +28745,42 @@
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">159G0700401</StopAreaRef>
 </StopAreas>
+<AdministrativeAreaRef>059</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-02T16:53:03.567" ModificationDateTime="2025-04-02T17:01:44.545" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>1590705235</AtcoCode>
+<NaptanCode>thudtgt</NaptanCode>
+<Descriptor>
+<CommonName>Aluric Close</CommonName>
+<Street>Waterson Road</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042659</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>564758</Easting>
+<Northing>178540</Northing>
+<Longitude>0.3713545</Longitude>
+<Latitude>51.4818239</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
 <AdministrativeAreaRef>059</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
