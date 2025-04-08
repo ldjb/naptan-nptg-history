@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T13:56:41.5539075Z" ModificationDateTime="2024-10-30T13:56:41.5539075Z" Modification="new" RevisionNumber="1" FileName="512.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-07T12:45:01.0433587Z" ModificationDateTime="2025-04-07T12:45:01.0433587Z" Modification="new" RevisionNumber="1" FileName="512.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-16T11:53:24" ModificationDateTime="2024-04-16T11:54:57" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5120ABC80775</AtcoCode>
@@ -1050,7 +1050,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2005-06-10T00:00:00" Modification="new" RevisionNumber="0" Status="active">CHST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-30T16:57:11" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-03-27T15:29:20" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5120AWD71263</AtcoCode>
       <NaptanCode>flijadj</NaptanCode>
       <Descriptor>
@@ -1059,6 +1059,11 @@
         <Street>High Street</Street>
         <Crossing>Victoria Road</Crossing>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-03-27T15:29:20" ModificationDateTime="2025-03-27T15:29:20" Modification="new">
+          <CommonName xml:lang="CY">St Davids Retail Park</CommonName>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054253</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -13874,7 +13879,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:52" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-01-20T14:41:48" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80634</AtcoCode>
       <NaptanCode>fliadta</NaptanCode>
       <Descriptor>
@@ -13915,6 +13920,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-01-20T14:41:48" ModificationDateTime="2025-01-20T14:41:48" Modification="new">
+          <DateRange>
+            <StartDate>2025-01-20</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-08T11:46:34" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5120AWF80635</AtcoCode>
@@ -23834,7 +23847,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-08T14:31:33" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-03-27T15:24:56" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80958</AtcoCode>
       <NaptanCode>fliamwa</NaptanCode>
       <Descriptor>
@@ -23845,9 +23858,6 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:56" ModificationDateTime="2024-04-26T16:19:56" Modification="new">
-          <CommonName xml:lang="CY">Cylchfan Dobshill</CommonName>
-        </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:56" ModificationDateTime="2024-04-26T16:19:56" Modification="new">
           <CommonName xml:lang="CY">Cylchfan Dobshill</CommonName>
         </Descriptor>
@@ -54506,7 +54516,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:08" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-03-27T15:25:52" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5120WDB47491</AtcoCode>
       <NaptanCode>flimtaj</NaptanCode>
       <Descriptor>
@@ -54515,11 +54525,8 @@
         <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:08" ModificationDateTime="2024-04-26T16:20:08" Modification="new">
-          <CommonName xml:lang="CY">Groeffordd</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:20:08" ModificationDateTime="2024-04-26T16:20:08" Modification="new">
-          <CommonName xml:lang="CY">Groeffordd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:08" ModificationDateTime="2025-03-27T15:25:52" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Groesffordd</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -54559,7 +54566,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-19T15:46:46" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-03-27T15:25:15" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5120WDB47492</AtcoCode>
       <NaptanCode>flimtam</NaptanCode>
       <Descriptor>
@@ -54568,11 +54575,8 @@
         <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:08" ModificationDateTime="2024-05-19T15:46:46" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Groeffordd</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:20:08" ModificationDateTime="2024-05-19T15:46:46" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Groeffordd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:08" ModificationDateTime="2025-03-27T15:25:10" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Groesffordd</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>

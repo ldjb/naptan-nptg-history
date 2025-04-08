@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-10-30T13:36:47.3827542Z" ModificationDateTime="2024-10-30T13:36:47.3827542Z" Modification="new" RevisionNumber="1" FileName="511.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-07T12:43:34.5577242Z" ModificationDateTime="2025-04-07T12:43:34.5577242Z" Modification="new" RevisionNumber="1" FileName="511.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-24T11:14:02" ModificationDateTime="2024-04-24T11:17:51" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5110ABC99960</AtcoCode>
@@ -228,63 +228,6 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
       </PlusbusZones>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:21" Modification="revise" RevisionNumber="6" Status="inactive">
-      <AtcoCode>5110ANZ12831</AtcoCode>
-      <NaptanCode>dbgadad</NaptanCode>
-      <Descriptor>
-        <CommonName>Berwyn Llangollen Railway Station</CommonName>
-        <ShortCommonName>King`s Bridge</ShortCommonName>
-        <Landmark>Berwyn Llangollen Railway Stn</Landmark>
-        <Street>Berwyn Road</Street>
-        <Crossing>B5103</Crossing>
-        <Indicator>opp</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:21" ModificationDateTime="2024-04-26T16:16:21" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Berwyn Llangollen</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:21" ModificationDateTime="2024-04-26T16:16:21" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Berwyn Llangollen</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>N0071191</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>319863</Easting>
-            <Northing>343154</Northing>
-            <Longitude>-3.194984752</Longitude>
-            <Latitude>52.979713444</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-                <Degrees>225</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T16:59:04" ModificationDateTime="2023-08-15T16:59:04" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:22" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5110ANZ12832</AtcoCode>
@@ -864,60 +807,6 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:38" Modification="revise" RevisionNumber="7" Status="inactive">
-      <AtcoCode>5110AWD70586</AtcoCode>
-      <NaptanCode>dbgagag</NaptanCode>
-      <Descriptor>
-        <CommonName>Pont Corwen</CommonName>
-        <Street>A5</Street>
-        <Crossing>B4401</Crossing>
-        <Indicator>before</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:38" ModificationDateTime="2024-04-26T16:16:38" Modification="new">
-          <CommonName xml:lang="CY">Pont Corwen</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:38" ModificationDateTime="2024-04-26T16:16:38" Modification="new">
-          <CommonName xml:lang="CY">Pont Corwen</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054194</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>307119</Easting>
-            <Northing>343331</Northing>
-            <Longitude>-3.384784672</Longitude>
-            <Latitude>52.979249342</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-06-13T13:14:19" ModificationDateTime="2023-12-11T15:40:03" Modification="revise" RevisionNumber="2">
-          <DateRange>
-            <StartDate>2023-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:48" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5110AWD70587</AtcoCode>
       <NaptanCode>dbgagaw</NaptanCode>
@@ -1014,62 +903,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:49" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5110AWD70589</AtcoCode>
-      <NaptanCode>dbgagam</NaptanCode>
-      <Descriptor>
-        <CommonName>The Square</CommonName>
-        <ShortCommonName>St Mael &amp; St Sulien`s Church</ShortCommonName>
-        <Street>London Road</Street>
-        <Crossing>Green Lane</Crossing>
-        <Indicator>before</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:49" ModificationDateTime="2024-04-26T16:16:49" Modification="new">
-          <CommonName xml:lang="CY">Y Sgwar</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:49" ModificationDateTime="2024-04-26T16:16:49" Modification="new">
-          <CommonName xml:lang="CY">Y Sgwar</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054194</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>307962</Easting>
-            <Northing>343424</Northing>
-            <Longitude>-3.372259771</Longitude>
-            <Latitude>52.980230678</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>NW</CompassPoint>
-                <Degrees>315</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-06-13T13:15:45" ModificationDateTime="2023-06-13T13:15:45" Modification="new">
-          <DateRange>
-            <StartDate>2023-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:04" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5110AWD70590</AtcoCode>
@@ -1353,52 +1186,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:17:05" Modification="revise" RevisionNumber="6" Status="inactive">
-      <AtcoCode>5110AWD70596</AtcoCode>
-      <NaptanCode>dbgatwj</NaptanCode>
-      <Descriptor>
-        <CommonName>Triangle Bend</CommonName>
-        <ShortCommonName>RAC Call Box</ShortCommonName>
-        <Street>A5</Street>
-        <Indicator>after</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0075616</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>318480</Easting>
-            <Northing>343303</Northing>
-            <Longitude>-3.215615318</Longitude>
-            <Latitude>52.980843697</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>SE</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T16:57:37" ModificationDateTime="2023-08-15T16:57:37" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:21" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5110AWD70597</AtcoCode>
@@ -1719,62 +1506,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:25" Modification="revise" RevisionNumber="3" Status="inactive">
-      <AtcoCode>5110AWD70604</AtcoCode>
-      <NaptanCode>dbgapga</NaptanCode>
-      <Descriptor>
-        <CommonName>Old Post Office</CommonName>
-        <Landmark>Llangollen Old Post Office</Landmark>
-        <Street>Berwyn Street</Street>
-        <Crossing>West Street</Crossing>
-        <Indicator>nr</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:25" ModificationDateTime="2024-04-26T16:16:25" Modification="new">
-          <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:25" ModificationDateTime="2024-04-26T16:16:25" Modification="new">
-          <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054212</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>321302</Easting>
-            <Northing>341955</Northing>
-            <Longitude>-3.173265687</Longitude>
-            <Latitude>52.969151156</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>NW</CompassPoint>
-                <Degrees>315</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T17:00:14" ModificationDateTime="2023-08-15T17:00:14" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:02" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5110AWD70605</AtcoCode>
@@ -2296,62 +2027,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:44" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5110AWD71442</AtcoCode>
-      <NaptanCode>dbgdjgj</NaptanCode>
-      <Descriptor>
-        <CommonName>Railway Terrace</CommonName>
-        <Street>Station Road</Street>
-        <Crossing>Well Street</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:44" ModificationDateTime="2024-04-26T16:16:44" Modification="new">
-          <CommonName xml:lang="CY">Teras Rheilffordd</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:44" ModificationDateTime="2024-04-26T16:16:44" Modification="new">
-          <CommonName xml:lang="CY">Teras Rheilffordd</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054221</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>312654</Easting>
-            <Northing>358221</Northing>
-            <Longitude>-3.306413615</Longitude>
-            <Latitude>53.113993852</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>N</CompassPoint>
-                <Degrees>0</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2015-07-14T12:04:32" ModificationDateTime="2021-08-15T16:27:05" Modification="revise" RevisionNumber="3">
-          <DateRange>
-            <StartDate>2015-07-14</StartDate>
-            <EndDate>2015-07-14</EndDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:34" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5110AWD71443</AtcoCode>
@@ -4033,62 +3708,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:41" Modification="revise" RevisionNumber="6" Status="inactive">
-      <AtcoCode>5110AWD71481</AtcoCode>
-      <NaptanCode>dbgdgwj</NaptanCode>
-      <Descriptor>
-        <CommonName>St Asaph Co-Op</CommonName>
-        <ShortCommonName>Garage</ShortCommonName>
-        <Landmark>St Asaph Kwik Save</Landmark>
-        <Street>Lower Denbigh Road</Street>
-        <Crossing>Llwyn Elwy</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:41" ModificationDateTime="2024-04-26T16:16:41" Modification="new">
-          <CommonName xml:lang="CY">St Asaph Co-Op</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:41" ModificationDateTime="2024-04-26T16:16:41" Modification="new">
-          <CommonName xml:lang="CY">St Asaph Co-Op</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0036794</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>303455</Easting>
-            <Northing>374151</Northing>
-            <Longitude>-3.448619523</Longitude>
-            <Latitude>53.255549089</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2017-06-13T08:27:10" ModificationDateTime="2017-06-13T08:27:10" Modification="new">
-          <DateRange>
-            <StartDate>2017-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:53" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5110AWD71482</AtcoCode>
@@ -9838,61 +9457,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:11" Modification="revise" RevisionNumber="3" Status="inactive">
-      <AtcoCode>5110AWD71945</AtcoCode>
-      <NaptanCode>dbgatwa</NaptanCode>
-      <Descriptor>
-        <CommonName>Crown Hotel</CommonName>
-        <Landmark>Crown Hotel PH</Landmark>
-        <Street>A525</Street>
-        <Indicator>opp</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:11" ModificationDateTime="2024-04-26T16:16:11" Modification="new">
-          <CommonName xml:lang="CY">Crown Hotel</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:11" ModificationDateTime="2024-04-26T16:16:11" Modification="new">
-          <CommonName xml:lang="CY">Crown Hotel</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0036765</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>319721</Easting>
-            <Northing>351781</Northing>
-            <Longitude>-3.199247858</Longitude>
-            <Latitude>53.057229057</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-                <Degrees>90</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2024-01-11T11:05:44" ModificationDateTime="2024-01-11T11:05:44" Modification="new">
-          <DateRange>
-            <StartDate>2024-01-08</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:43" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5110AWD71946</AtcoCode>
@@ -18814,121 +18378,6 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">PSTA</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-26T16:21:57" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110AWF80107</AtcoCode>
-      <NaptanCode>dbgatpj</NaptanCode>
-      <Descriptor>
-        <CommonName>Bryn Ffynnon Bach</CommonName>
-        <ShortCommonName>Bryn Ffynnon Bach</ShortCommonName>
-        <Street>A5151</Street>
-        <Indicator>nr</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:03" ModificationDateTime="2024-05-26T16:21:57" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Bryn Ffynnon Bach</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:03" ModificationDateTime="2024-04-26T16:16:03" Modification="new">
-          <CommonName xml:lang="CY">Bryn Ffynnon Bach</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054219</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>303635</Easting>
-            <Northing>377996</Northing>
-            <Longitude>-3.447089209</Longitude>
-            <Latitude>53.290137126</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-                <Degrees>90</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2008-06-03T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2017-03-29T13:24:08" ModificationDateTime="2017-03-29T13:24:08" Modification="new">
-          <DateRange>
-            <StartDate>2017-03-29</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-26T16:21:58" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110AWF80108</AtcoCode>
-      <NaptanCode>dbgatpd</NaptanCode>
-      <Descriptor>
-        <CommonName>Bodrhyddan Hall</CommonName>
-        <Street>A5151</Street>
-        <Indicator>o/s Gate</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:33" ModificationDateTime="2024-05-26T16:21:58" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Neuadd Bodrhyddan</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:33" ModificationDateTime="2024-04-26T16:16:33" Modification="new">
-          <CommonName xml:lang="CY">Neuadd Bodrhyddan</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054219</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>304210</Easting>
-            <Northing>378447</Northing>
-            <Longitude>-3.438602361</Longitude>
-            <Latitude>53.294289535</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-                <Degrees>90</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2008-06-03T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2018-02-13T08:51:46" ModificationDateTime="2018-02-13T08:51:46" Modification="new">
-          <DateRange>
-            <StartDate>2018-02-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:15" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5110AWF80109</AtcoCode>
       <NaptanCode>dbgagwt</NaptanCode>
@@ -21944,63 +21393,6 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:40" Modification="revise" RevisionNumber="3" Status="inactive">
-      <AtcoCode>5110AWQ26433</AtcoCode>
-      <NaptanCode>dbgapgp</NaptanCode>
-      <Descriptor>
-        <CommonName>Royal Hotel</CommonName>
-        <ShortCommonName>Llangollen Bridge</ShortCommonName>
-        <Landmark>Royal Hotel PH</Landmark>
-        <Street>Castle Street</Street>
-        <Crossing>Bridge Street</Crossing>
-        <Indicator>o/s former</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:40" ModificationDateTime="2024-04-26T16:16:40" Modification="new">
-          <CommonName xml:lang="CY">Royal Hotel</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:40" ModificationDateTime="2024-04-26T16:16:40" Modification="new">
-          <CommonName xml:lang="CY">Royal Hotel</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054212</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>321511</Easting>
-            <Northing>342123</Northing>
-            <Longitude>-3.170195167</Longitude>
-            <Latitude>52.970691705</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-                <Degrees>180</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T17:01:37" ModificationDateTime="2023-08-15T17:01:37" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:36" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5110AWQ26465</AtcoCode>
       <NaptanCode>dbgdgwp</NaptanCode>
@@ -23069,56 +22461,6 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-07-23T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:17:03" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5110AWQ26531</AtcoCode>
-      <NaptanCode>dbgdgmg</NaptanCode>
-      <Descriptor>
-        <CommonName>St Helen`s Place</CommonName>
-        <Street>High Street</Street>
-        <Crossing>St Helen`s Place</Crossing>
-        <Indicator>nr</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0054220</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>300911</Easting>
-            <Northing>381371</Northing>
-            <Longitude>-3.488993699</Longitude>
-            <Latitude>53.319960950</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SE</CompassPoint>
-                <Degrees>135</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2005-07-01T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2015-08-04T14:02:20" ModificationDateTime="2018-02-12T15:10:01" Modification="revise" RevisionNumber="2">
-          <DateRange>
-            <StartDate>2015-08-04</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:43" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5110AWQ26532</AtcoCode>
       <NaptanCode>dbgdmpa</NaptanCode>
@@ -23286,62 +22628,6 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:47" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5110AWQ26536</AtcoCode>
-      <NaptanCode>dbgagat</NaptanCode>
-      <Descriptor>
-        <CommonName>Queen`s House</CommonName>
-        <ShortCommonName>Owen Glyndwr Hotel</ShortCommonName>
-        <Street>Green Lane</Street>
-        <Crossing>London Road</Crossing>
-        <Indicator>nr</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:47" ModificationDateTime="2024-04-26T16:16:47" Modification="new">
-          <CommonName xml:lang="CY">Ty'r Frenhines</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:47" ModificationDateTime="2024-04-26T16:16:47" Modification="new">
-          <CommonName xml:lang="CY">Ty'r Frenhines</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054194</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>307903</Easting>
-            <Northing>343485</Northing>
-            <Longitude>-3.373155626</Longitude>
-            <Latitude>52.980768715</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>N</CompassPoint>
-                <Degrees>0</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-06-13T13:11:10" ModificationDateTime="2023-06-13T13:11:10" Modification="new">
-          <DateRange>
-            <StartDate>2023-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:25" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5110AWQ26537</AtcoCode>
       <NaptanCode>dbgagja</NaptanCode>
@@ -23435,82 +22721,6 @@
             </MarkedPoint>
           </Bus>
         </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:14:05" ModificationDateTime="2024-04-26T16:16:21" Modification="revise" RevisionNumber="1" Status="inactive">
-      <AtcoCode>5110BCKY0</AtcoCode>
-      <Descriptor>
-        <CommonName>Buckley Rail Station</CommonName>
-        <Street>Dirty Mile</Street>
-        <Indicator>West Entrance</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:21" ModificationDateTime="2024-04-26T16:16:21" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:21" ModificationDateTime="2024-04-26T16:16:21" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054229</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>329540</Easting>
-            <Northing>363363</Northing>
-            <Longitude>-3.055330015</Longitude>
-            <Latitude>53.162721453</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:14:36" ModificationDateTime="2024-04-26T16:16:21" Modification="revise" RevisionNumber="1" Status="inactive">
-      <AtcoCode>5110BCKY1</AtcoCode>
-      <Descriptor>
-        <CommonName>Buckley Rail Station</CommonName>
-        <Street>Little Mountain Road</Street>
-        <Indicator>East Entrance</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:21" ModificationDateTime="2024-04-26T16:16:21" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:21" ModificationDateTime="2024-04-26T16:16:21" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>N0075638</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>329554</Easting>
-            <Northing>363363</Northing>
-            <Longitude>-3.055120651</Longitude>
-            <Latitude>53.162723308</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
@@ -25848,57 +25058,6 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:20" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB21738</AtcoCode>
-      <NaptanCode>dbgdtgd</NaptanCode>
-      <Descriptor>
-        <CommonName>Bus Station Q</CommonName>
-        <ShortCommonName>Prestatyn Bus Station</ShortCommonName>
-        <Street>Penisardre Road</Street>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:20" ModificationDateTime="2024-04-26T16:16:20" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf Bws</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:20" ModificationDateTime="2024-04-26T16:16:20" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf Bws</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054218</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>306454</Easting>
-            <Northing>382939</Northing>
-            <Longitude>-3.406273437</Longitude>
-            <Latitude>53.335060429</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCS</StopType>
-        <OffStreet>
-          <BusAndCoach>
-            <Bay />
-          </BusAndCoach>
-        </OffStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2008-07-21T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">PSTA</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2015-10-05T09:08:04" ModificationDateTime="2019-05-31T11:04:26" Modification="revise" RevisionNumber="1">
-          <DateRange>
-            <StartDate>2015-10-05</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:23" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5110WDB21742</AtcoCode>
       <NaptanCode>dbgdtgj</NaptanCode>
@@ -26966,60 +26125,6 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:38" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5110WDB22952</AtcoCode>
-      <NaptanCode>dbgdtpw</NaptanCode>
-      <Descriptor>
-        <CommonName>Pont Corwen</CommonName>
-        <Street>A5</Street>
-        <Crossing>B4401</Crossing>
-        <Indicator>after</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:38" ModificationDateTime="2024-04-26T16:16:38" Modification="new">
-          <CommonName xml:lang="CY">Pont Corwen</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:38" ModificationDateTime="2024-04-26T16:16:38" Modification="new">
-          <CommonName xml:lang="CY">Pont Corwen</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054194</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>307126</Easting>
-            <Northing>343344</Northing>
-            <Longitude>-3.384684075</Longitude>
-            <Latitude>52.979362787</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>NE</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T16:52:37" ModificationDateTime="2023-12-11T15:39:36" Modification="revise" RevisionNumber="1">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:48" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5110WDB22953</AtcoCode>
       <NaptanCode>dbgdtwa</NaptanCode>
@@ -27113,61 +26218,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:35" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB22955</AtcoCode>
-      <NaptanCode>dbgdtwg</NaptanCode>
-      <Descriptor>
-        <CommonName>Parc House</CommonName>
-        <Street>A5</Street>
-        <Crossing>B5437</Crossing>
-        <Indicator>o/s</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:35" ModificationDateTime="2024-04-26T16:16:35" Modification="new">
-          <CommonName xml:lang="CY">Parc House</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:35" ModificationDateTime="2024-04-26T16:16:35" Modification="new">
-          <CommonName xml:lang="CY">Parc House</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>N0075609</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>311857</Easting>
-            <Northing>343336</Northing>
-            <Longitude>-3.314240669</Longitude>
-            <Latitude>52.980090705</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-                <Degrees>90</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T16:53:53" ModificationDateTime="2023-08-15T16:53:53" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:07" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5110WDB22958</AtcoCode>
@@ -27590,51 +26640,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:17:05" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB22967</AtcoCode>
-      <NaptanCode>dbgdwat</NaptanCode>
-      <Descriptor>
-        <CommonName>Triangle Bend</CommonName>
-        <Street>A5</Street>
-        <Indicator>before</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0075616</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>318377</Easting>
-            <Northing>343322</Northing>
-            <Longitude>-3.217153833</Longitude>
-            <Latitude>52.980998757</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>NW</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-15T16:56:32" ModificationDateTime="2023-08-15T16:56:32" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-15</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:34" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5110WDB22968</AtcoCode>
@@ -32358,56 +31363,6 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:58" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB47562</AtcoCode>
-      <NaptanCode>dbgjagw</NaptanCode>
-      <Descriptor>
-        <CommonName>Kinmel Street</CommonName>
-        <ShortCommonName>Rhyl Bus Station</ShortCommonName>
-        <Street>Kinmel Street</Street>
-        <Crossing>Elwy Street</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0054220</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>300776</Easting>
-            <Northing>381181</Northing>
-            <Longitude>-3.490960052</Longitude>
-            <Latitude>53.318228370</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2017-03-29T13:23:08" ModificationDateTime="2017-03-29T13:23:08" Modification="new">
-          <DateRange>
-            <StartDate>2017-03-29</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-06-02T16:42:11" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5110WDB47563</AtcoCode>
       <NaptanCode>dbgjaja</NaptanCode>
@@ -32456,56 +31411,6 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2008-12-16T00:00:00" Modification="new" RevisionNumber="0" Status="active">PSTA</PlusbusZoneRef>
       </PlusbusZones>
-    </StopPoint>
-    <StopPoint CreationDateTime="2008-12-31T14:27:33" ModificationDateTime="2024-04-26T16:16:54" Modification="revise" RevisionNumber="7" Status="inactive">
-      <AtcoCode>5110WDB47565</AtcoCode>
-      <NaptanCode>dbgjajd</NaptanCode>
-      <Descriptor>
-        <CommonName>Bodfor Street</CommonName>
-        <ShortCommonName>Bus Station</ShortCommonName>
-        <Street>Bodfor Street</Street>
-        <Crossing>Kinmel Street</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0054220</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>300831</Easting>
-            <Northing>381305</Northing>
-            <Longitude>-3.490173553</Longitude>
-            <Latitude>53.319352904</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>N</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2008-12-31T14:27:33" ModificationDateTime="2009-05-20T00:00:00" Modification="new" RevisionNumber="0" Status="active">RHYL</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2015-08-04T14:01:19" ModificationDateTime="2018-02-12T15:25:12" Modification="revise" RevisionNumber="3">
-          <DateRange>
-            <StartDate>2015-08-04</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:17:03" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5110WDB48296</AtcoCode>
@@ -34814,181 +33719,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2011-10-12T15:58:12" ModificationDateTime="2024-04-26T16:16:39" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB48342</AtcoCode>
-      <NaptanCode>dbgjdjm</NaptanCode>
-      <Descriptor>
-        <CommonName>Prestatyn TBS</CommonName>
-        <ShortCommonName>Temporary Bus Station S1</ShortCommonName>
-        <Street>Kings' Avenue</Street>
-        <Crossing>High Street</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:39" ModificationDateTime="2024-04-26T16:16:39" Modification="new">
-          <CommonName xml:lang="CY">Prestatyn TBS</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:39" ModificationDateTime="2024-04-26T16:16:39" Modification="new">
-          <CommonName xml:lang="CY">Prestatyn TBS</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054218</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>306594</Easting>
-            <Northing>382852</Northing>
-            <Longitude>-3.404146019</Longitude>
-            <Latitude>53.334303410</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2011-10-12T15:58:12" ModificationDateTime="2011-10-12T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">PSTA</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-20T12:30:48" ModificationDateTime="2019-06-20T12:30:48" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-20</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2011-10-12T16:01:20" ModificationDateTime="2024-04-26T16:16:39" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB48343</AtcoCode>
-      <NaptanCode>dbgjdjp</NaptanCode>
-      <Descriptor>
-        <CommonName>Prestatyn TBS</CommonName>
-        <ShortCommonName>Temporary Bus Station S2</ShortCommonName>
-        <Street>Kings' Avenue</Street>
-        <Crossing>High Street</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:39" ModificationDateTime="2024-04-26T16:16:39" Modification="new">
-          <CommonName xml:lang="CY">Prestatyn TBS</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:39" ModificationDateTime="2024-04-26T16:16:39" Modification="new">
-          <CommonName xml:lang="CY">Prestatyn TBS</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054218</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>306587</Easting>
-            <Northing>382846</Northing>
-            <Longitude>-3.404249332</Longitude>
-            <Latitude>53.334248257</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2011-10-12T16:01:20" ModificationDateTime="2011-10-12T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">PSTA</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-20T12:30:59" ModificationDateTime="2019-06-20T12:30:59" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-20</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2011-10-12T16:02:53" ModificationDateTime="2024-04-26T16:16:39" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WDB48344</AtcoCode>
-      <NaptanCode>dbgjdjt</NaptanCode>
-      <Descriptor>
-        <CommonName>Prestatyn TBS</CommonName>
-        <ShortCommonName>Temporary Bus Station S3</ShortCommonName>
-        <Street>Kings' Avenue</Street>
-        <Crossing>High Street</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:39" ModificationDateTime="2024-04-26T16:16:39" Modification="new">
-          <CommonName xml:lang="CY">Prestatyn TBS</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:39" ModificationDateTime="2024-04-26T16:16:39" Modification="new">
-          <CommonName xml:lang="CY">Prestatyn TBS</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054218</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>306582</Easting>
-            <Northing>382841</Northing>
-            <Longitude>-3.404322916</Longitude>
-            <Latitude>53.334202444</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-                <Degrees>225</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2011-10-12T16:02:53" ModificationDateTime="2011-10-12T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">PSTA</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-20T12:31:12" ModificationDateTime="2019-06-20T12:31:12" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-20</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2012-06-19T14:52:44" ModificationDateTime="2024-04-26T16:16:35" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5110WDB48345</AtcoCode>
@@ -37377,60 +36107,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2013-12-04T21:03:24" ModificationDateTime="2024-04-26T16:16:24" Modification="revise" RevisionNumber="3" Status="inactive">
-      <AtcoCode>5110WDB48397</AtcoCode>
-      <NaptanCode>dbgjgjg</NaptanCode>
-      <Descriptor>
-        <CommonName>Hafan Deg</CommonName>
-        <Street>Bridge Street</Street>
-        <Indicator>nr</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:25" ModificationDateTime="2024-04-26T16:16:25" Modification="new">
-          <CommonName xml:lang="CY">Hafan Deg</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:25" ModificationDateTime="2024-04-26T16:16:25" Modification="new">
-          <CommonName xml:lang="CY">Hafan Deg</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054194</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>307678</Easting>
-            <Northing>343487</Northing>
-            <Longitude>-3.376506328</Longitude>
-            <Latitude>52.980747935</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-                <Degrees>90</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-06-13T13:12:37" ModificationDateTime="2023-06-13T13:12:37" Modification="new">
-          <DateRange>
-            <StartDate>2023-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2013-12-04T21:10:31" ModificationDateTime="2024-04-26T16:16:44" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5110WDB48398</AtcoCode>
@@ -40638,62 +39314,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:10" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5110WRX02157</AtcoCode>
-      <NaptanCode>dbgapjd</NaptanCode>
-      <Descriptor>
-        <CommonName>Llangollen War Memorial</CommonName>
-        <Landmark>Llangollen War Memorial</Landmark>
-        <Street>Castle Street</Street>
-        <Crossing>Parade Street</Crossing>
-        <Indicator>after</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:16:10" ModificationDateTime="2024-04-26T16:16:10" Modification="new">
-          <CommonName xml:lang="CY">Cofeb Rhyfel Llangollen</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:16:10" ModificationDateTime="2024-04-26T16:16:10" Modification="new">
-          <CommonName xml:lang="CY">Cofeb Rhyfel Llangollen</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054212</NptgLocalityRef>
-        <LocalityCentre>false</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>321506</Easting>
-            <Northing>342065</Northing>
-            <Longitude>-3.170255621</Longitude>
-            <Latitude>52.970174302</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-                <Degrees>180</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>016</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-06-13T13:16:09" ModificationDateTime="2023-06-13T13:16:09" Modification="new">
-          <DateRange>
-            <StartDate>2023-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2024-01-19T13:34:37" ModificationDateTime="2024-06-02T17:17:16" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5110WRX02158</AtcoCode>
