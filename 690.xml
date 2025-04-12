@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-03-13T14:56:59.878" ModificationDateTime="2025-03-13T14:56:59.878" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-11T13:41:32.944" ModificationDateTime="2025-04-11T13:41:32.944" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -4531,17 +4531,18 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-04-19T00:00:00.000" ModificationDateTime="2014-02-19T11:05:24.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-04-19T00:00:00.000" ModificationDateTime="2025-03-14T11:11:51.688" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001111</AtcoCode>
 <NaptanCode>72726857</NaptanCode>
 <Descriptor>
-<CommonName>Wester Dawyck Rd End</CommonName>
+<CommonName>Wester Dawyck Road End</CommonName>
 <Landmark>Wester Dawyck Rd End</Landmark>
 <Street>B712</Street>
 <Indicator>Opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067277</NptgLocalityRef>
+<Town>Drumelzier</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -12280,15 +12281,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-02-07T16:25:43.554" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-11-15T00:00:00.000" ModificationDateTime="2025-03-26T17:07:20.753" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001306</AtcoCode>
 <NaptanCode>72726287</NaptanCode>
 <Descriptor>
-<CommonName>Inch Road</CommonName>
-<ShortCommonName>Inch Rd</ShortCommonName>
-<Landmark>Inch Road</Landmark>
+<CommonName>Parish Church</CommonName>
+<ShortCommonName>Parish Church</ShortCommonName>
+<Landmark>Parish Church</Landmark>
 <Street>Bowmont Street</Street>
-<Indicator>Nr</Indicator>
+<Indicator>o/s</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001935</NptgLocalityRef>
@@ -36817,12 +36818,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-10T11:47:52.000" ModificationDateTime="2025-02-24T09:44:35.730" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2014-02-10T11:47:52.000" ModificationDateTime="2025-03-14T11:13:02.482" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>690031774</AtcoCode>
 <NaptanCode>72723310</NaptanCode>
 <Descriptor>
-<CommonName>Dawyck Lodge</CommonName>
-<Landmark>Dawyck Lodge</Landmark>
+<CommonName>Dawyck Botanic Garden Entrance</CommonName>
+<ShortCommonName>Dawyck Garden</ShortCommonName>
+<Landmark>Dawyck Botanic Garden Entrance</Landmark>
 <Street>B712</Street>
 <Indicator>At</Indicator>
 </Descriptor>
@@ -36845,7 +36847,7 @@
 <OnStreet>
 <Bus>
 <BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
+<TimingStatus>PPT</TimingStatus>
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>SW</CompassPoint>
@@ -36896,17 +36898,19 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-19T11:35:04.000" ModificationDateTime="2017-01-30T09:50:10.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2014-02-19T11:35:04.000" ModificationDateTime="2025-03-14T11:10:06.054" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>690031797</AtcoCode>
 <NaptanCode>72723312</NaptanCode>
 <Descriptor>
-<CommonName>Dawyck Lodge</CommonName>
-<Landmark>Dawyck Lodge</Landmark>
+<CommonName>Dawyck Botanic Garden Entrance</CommonName>
+<ShortCommonName>Dawyck Garden</ShortCommonName>
+<Landmark>Dawyck Botanic Garden Entrance</Landmark>
 <Street>B712</Street>
 <Indicator>Opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0067277</NptgLocalityRef>
+<Town>Drumelzier</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -36923,7 +36927,7 @@
 <OnStreet>
 <Bus>
 <BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
+<TimingStatus>PPT</TimingStatus>
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>

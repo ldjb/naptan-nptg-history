@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-02-24T15:48:58.522" ModificationDateTime="2025-02-24T15:48:58.522" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-11T11:28:27.755" ModificationDateTime="2025-04-11T11:28:27.755" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-10-29T00:00:00.000" ModificationDateTime="2010-05-20T11:35:26.000" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>629028120</AtcoCode>
@@ -45086,6 +45086,42 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-11T11:27:11.899" ModificationDateTime="2025-04-11T11:27:11.899" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>6290US07</AtcoCode>
+<NaptanCode>9562470</NaptanCode>
+<Descriptor>
+<CommonName>Drumshoreland Road</CommonName>
+<Street>Uphall Station Road</Street>
+<Indicator>before</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067215</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>306684</Easting>
+<Northing>669379</Northing>
+<Longitude>-3.4942811</Longitude>
+<Latitude>55.9084252</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

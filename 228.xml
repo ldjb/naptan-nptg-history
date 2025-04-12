@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-24T14:24:14.732" ModificationDateTime="2025-03-24T14:24:14.732" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-11T08:56:07.103" ModificationDateTime="2025-04-11T08:56:07.103" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-07-19T00:00:00.000" ModificationDateTime="2009-02-26T14:12:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>228000001961</AtcoCode>
@@ -37680,6 +37680,294 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:28:30.643" ModificationDateTime="2025-04-10T13:28:30.643" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056129</AtcoCode>
+<NaptanCode>gridagw</NaptanCode>
+<Descriptor>
+<CommonName>Westside Road</CommonName>
+<Street>Moody Lane</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>526210</Easting>
+<Northing>410654</Northing>
+<Longitude>-0.0952658</Longitude>
+<Latitude>53.5773236</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:33:40.009" ModificationDateTime="2025-04-10T13:59:31.286" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>2280056130</AtcoCode>
+<NaptanCode>gridjgw</NaptanCode>
+<Descriptor>
+<CommonName>Westside Road</CommonName>
+<Street>Moody Lane</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>526237</Easting>
+<Northing>410671</Northing>
+<Longitude>-0.0948514</Longitude>
+<Latitude>53.5774699</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:38:53.848" ModificationDateTime="2025-04-10T13:59:57.191" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>2280056131</AtcoCode>
+<NaptanCode>gridmgw</NaptanCode>
+<Descriptor>
+<CommonName>Anglian Water</CommonName>
+<Street>Moody Lane</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>526070</Easting>
+<Northing>410984</Northing>
+<Longitude>-0.0972459</Longitude>
+<Latitude>53.5803217</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:43:24.728" ModificationDateTime="2025-04-10T14:00:21.086" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>2280056132</AtcoCode>
+<NaptanCode>gridpgw</NaptanCode>
+<Descriptor>
+<CommonName>Anglian Water</CommonName>
+<Street>Moody Lane</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>526002</Easting>
+<Northing>411016</Northing>
+<Longitude>-0.0982666</Longitude>
+<Latitude>53.5806230</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:47:30.212" ModificationDateTime="2025-04-10T13:47:30.212" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056133</AtcoCode>
+<NaptanCode>gridtgw</NaptanCode>
+<Descriptor>
+<CommonName>Estuary Way</CommonName>
+<Street>Gilbey Road</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>525810</Easting>
+<Northing>410957</Northing>
+<Longitude>-0.1011816</Longitude>
+<Latitude>53.5801415</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:49:35.096" ModificationDateTime="2025-04-10T13:49:35.096" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056134</AtcoCode>
+<NaptanCode>gridwgw</NaptanCode>
+<Descriptor>
+<CommonName>Estuary Way</CommonName>
+<Street>Gilbey Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>525767</Easting>
+<Northing>410916</Northing>
+<Longitude>-0.1018472</Longitude>
+<Latitude>53.5797835</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:52:15.446" ModificationDateTime="2025-04-10T13:52:15.446" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056135</AtcoCode>
+<NaptanCode>grijagw</NaptanCode>
+<Descriptor>
+<CommonName>Athena Drive</CommonName>
+<Street>Gilbey Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>525491</Easting>
+<Northing>410731</Northing>
+<Longitude>-0.1060878</Longitude>
+<Latitude>53.5781876</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-04-10T13:54:10.603" ModificationDateTime="2025-04-10T13:54:10.603" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056136</AtcoCode>
+<NaptanCode>grijdgw</NaptanCode>
+<Descriptor>
+<CommonName>Athena Drive</CommonName>
+<Street>Gilbey Road</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073052</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>525430</Easting>
+<Northing>410761</Northing>
+<Longitude>-0.1069903</Longitude>
+<Latitude>53.5784737</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
