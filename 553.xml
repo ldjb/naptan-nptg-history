@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-07T12:49:45.7260308Z" ModificationDateTime="2025-04-07T12:49:45.7260308Z" Modification="new" RevisionNumber="1" FileName="553.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-14T14:43:44.1508266Z" ModificationDateTime="2025-04-14T14:43:44.1508266Z" Modification="new" RevisionNumber="1" FileName="553.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:38:09" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5530ANZ12715</AtcoCode>
@@ -7931,16 +7931,13 @@
       </StopClassification>
       <AdministrativeAreaRef>030</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:38:40" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-14T15:41:17" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5530AWB33779</AtcoCode>
       <NaptanCode>mtyatjg</NaptanCode>
       <Descriptor>
         <CommonName>Station Square</CommonName>
-        <ShortCommonName>Merthyr Vale Railway Station</ShortCommonName>
-        <Landmark>Merthyr Vale Railway Station</Landmark>
-        <Street>Wesley Place</Street>
-        <Crossing>Station Square</Crossing>
-        <Indicator>o/s</Indicator>
+        <Street>Cardiff Road</Street>
+        <Crossing>Wesley Pl</Crossing>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0054368</NptgLocalityRef>
@@ -7948,10 +7945,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>307680</Easting>
-            <Northing>199557</Northing>
-            <Longitude>-3.336879914</Longitude>
-            <Latitude>51.687154486</Latitude>
+            <Easting>307722</Easting>
+            <Northing>199528</Northing>
+            <Longitude>-3.336264747</Longitude>
+            <Latitude>51.686896037</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7971,16 +7968,22 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>030</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-14T15:40:20" ModificationDateTime="2025-04-14T15:40:20" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-14</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:38:40" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-14T15:43:28" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5530AWB33781</AtcoCode>
       <NaptanCode>mtyatjm</NaptanCode>
       <Descriptor>
         <CommonName>Station Square</CommonName>
-        <ShortCommonName>Merthyr Vale Railway Station</ShortCommonName>
-        <Landmark>Merthyr Vale Railway Station</Landmark>
-        <Street>Wesley Place</Street>
-        <Crossing>Station Square</Crossing>
+        <Landmark>Hand Wash Garage</Landmark>
+        <Street>Cardiff Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
@@ -7989,10 +7992,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>307692</Easting>
-            <Northing>199560</Northing>
-            <Longitude>-3.336707170</Longitude>
-            <Latitude>51.687183427</Latitude>
+            <Easting>307702</Easting>
+            <Northing>199719</Northing>
+            <Longitude>-3.336604554</Longitude>
+            <Latitude>51.688609592</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8012,6 +8015,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>030</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-14T15:43:28" ModificationDateTime="2025-04-14T15:43:28" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-14</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:38:07" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5530AWB33782</AtcoCode>
@@ -14148,7 +14159,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">MERTHYR</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:38:30" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-14T14:20:30" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5530AWB33933</AtcoCode>
       <NaptanCode>mtyamgj</NaptanCode>
       <Descriptor>
@@ -14167,10 +14178,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>304245</Easting>
-            <Northing>206353</Northing>
-            <Longitude>-3.388424575</Longitude>
-            <Latitude>51.747664265</Latitude>
+            <Easting>304316</Easting>
+            <Northing>206337</Northing>
+            <Longitude>-3.387391942</Longitude>
+            <Latitude>51.747527910</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14182,7 +14193,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>SE</CompassPoint>
+                <CompassPoint>E</CompassPoint>
                 <Degrees>135</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -14193,6 +14204,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">MERTHYR</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-14T14:20:30" ModificationDateTime="2025-04-14T14:20:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-14</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:38:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5530AWB33935</AtcoCode>
@@ -27092,6 +27111,51 @@
         <StopValidity CreationDateTime="2025-02-18T15:42:03" ModificationDateTime="2025-02-18T15:42:03" Modification="new">
           <DateRange>
             <StartDate>2025-02-18</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-14T13:47:05" ModificationDateTime="2025-04-14T13:48:52" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5530WDB47513</AtcoCode>
+      <NaptanCode>mtygdtw</NaptanCode>
+      <Descriptor>
+        <CommonName>Christ Church 1</CommonName>
+        <ShortCommonName>Christ Church 1</ShortCommonName>
+        <Landmark>Merthyr Tydfil Christ Church</Landmark>
+        <Street>Aberdare Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0039193</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>304298</Easting>
+            <Northing>206333</Northing>
+            <Longitude>-3.387651489</Longitude>
+            <Latitude>51.747488878</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>030</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-14T13:47:05" ModificationDateTime="2025-04-14T13:47:05" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-14</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
