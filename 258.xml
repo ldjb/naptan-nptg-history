@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created by Omnibus OmniFLAG (4.0.58.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-26T09:56:25.333487Z" ModificationDateTime="2025-03-26T09:56:25.333487Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<!--Created by Omnibus OmniFLAG (4.0.84.0)-->
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-24T13:43:59.6392947Z" ModificationDateTime="2025-04-24T13:43:59.6392947Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-11T09:08:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580AUD0001</AtcoCode>
@@ -6353,7 +6353,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2024-05-07T11:58:51" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-04-01T11:05:39" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BLA0081</AtcoCode>
       <NaptanCode>bladmtd</NaptanCode>
       <Descriptor>
@@ -6376,10 +6376,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>368846</Easting>
-            <Northing>426031</Northing>
-            <Longitude>-2.473686657</Longitude>
-            <Latitude>53.729734329</Latitude>
+            <Easting>368812</Easting>
+            <Northing>426073</Northing>
+            <Longitude>-2.474206233</Longitude>
+            <Latitude>53.730109775</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9700,16 +9700,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-10-05T13:50:29" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-04-24T07:59:37" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2580BLC0003</AtcoCode>
       <NaptanCode>bladgta</NaptanCode>
       <Descriptor>
         <CommonName>Blackamoor Road</CommonName>
-        <Street>Blackamoor Road</Street>
+        <Street>Issa Way</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-10-05T13:50:29" Modification="revise" RevisionNumber="2" Status="inactive">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-04-24T07:59:37" Modification="revise" RevisionNumber="4" Status="inactive">
           <CommonName>Blackamoor Road</CommonName>
           <Landmark>Blackamoor Road</Landmark>
           <Street>Blackamoor Road</Street>
@@ -9723,10 +9723,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369792</Easting>
-            <Northing>425442</Northing>
-            <Longitude>-2.459290785</Longitude>
-            <Latitude>53.724500913</Latitude>
+            <Easting>369963</Easting>
+            <Northing>425580</Northing>
+            <Longitude>-2.456712680</Longitude>
+            <Latitude>53.725746602</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9738,7 +9738,7 @@
             <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>SW</CompassPoint>
+                <CompassPoint>W</CompassPoint>
                 <Degrees>225</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -9750,24 +9750,30 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2020-10-05T13:50:29" ModificationDateTime="2020-10-05T13:50:29" Modification="new" RevisionNumber="0">
+        <StopValidity CreationDateTime="2020-10-05T13:50:29" ModificationDateTime="2025-03-26T13:30:25" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2020-10-05</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2025-03-26T13:30:25" ModificationDateTime="2025-03-26T13:30:25" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-26</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-10-05T13:50:13" Modification="revise" RevisionNumber="1" Status="inactive">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-04-24T07:58:57" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2580BLC0004</AtcoCode>
       <NaptanCode>bladgtd</NaptanCode>
       <Descriptor>
         <CommonName>Blackamoor Road</CommonName>
-        <Street>Blackamoor Road</Street>
-        <Indicator>by</Indicator>
+        <Street>Issa Way</Street>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-10-05T13:50:13" Modification="revise" RevisionNumber="1" Status="inactive">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-04-24T07:58:57" Modification="revise" RevisionNumber="3" Status="inactive">
           <CommonName>Blackamoor Road</CommonName>
           <Landmark>Blackamoor Road</Landmark>
           <Street>Blackamoor Road</Street>
@@ -9781,10 +9787,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369839</Easting>
-            <Northing>425486</Northing>
-            <Longitude>-2.458582814</Longitude>
-            <Latitude>53.724899104</Latitude>
+            <Easting>369976</Easting>
+            <Northing>425594</Northing>
+            <Longitude>-2.456517025</Longitude>
+            <Latitude>53.725873182</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9796,7 +9802,7 @@
             <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>E</CompassPoint>
                 <Degrees>45</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -9808,11 +9814,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2020-10-05T13:50:13" ModificationDateTime="2020-10-05T13:50:13" Modification="new" RevisionNumber="0">
+        <StopValidity CreationDateTime="2020-10-05T13:50:13" ModificationDateTime="2025-03-26T13:31:30" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2020-10-05</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2025-03-26T13:31:30" ModificationDateTime="2025-03-26T13:31:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-03-26</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>

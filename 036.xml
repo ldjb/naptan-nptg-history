@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-03-03T11:12:37" Modification="revise" RevisionNumber="5" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-04-24T12:28:59" Modification="revise" RevisionNumber="6" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-02-17T16:46:48" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -1723,15 +1723,16 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T15:01:17" ModificationDateTime="2025-02-21T15:05:56" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T15:01:17" ModificationDateTime="2025-04-10T16:27:50" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036000000045</AtcoCode>
       <NaptanCode>wingpdj</NaptanCode>
       <Descriptor>
-        <CommonName>Longmead</CommonName>
-        <Landmark>corner shop</Landmark>
+        <CommonName>Cawcott Drive</CommonName>
+        <ShortCommonName>Cawcott Dr.</ShortCommonName>
+        <Landmark>Bridleway No. 2</Landmark>
         <Street>Longmead</Street>
-        <Crossing>Burnetts Road</Crossing>
-        <Indicator>Stop LO</Indicator>
+        <Crossing>Cawcott Drive</Crossing>
+        <Indicator>Stop CC</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043262</NptgLocalityRef>
@@ -1739,10 +1740,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>494314</Easting>
-            <Northing>176736</Northing>
-            <Longitude>-0.643185698709825</Longitude>
-            <Latitude>51.48173075476288</Latitude>
+            <Easting>494095</Easting>
+            <Northing>176751</Northing>
+            <Longitude>-0.6463288514604583</Longitude>
+            <Latitude>51.481904474378126</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -2410,13 +2411,13 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T17:59:06" ModificationDateTime="2025-02-21T17:59:06" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T17:59:06" ModificationDateTime="2025-04-10T16:34:53" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000062</AtcoCode>
       <NaptanCode>wingpjt</NaptanCode>
       <Descriptor>
         <CommonName>Gallys Road</CommonName>
         <ShortCommonName>Gallys Rd</ShortCommonName>
-        <Street>Longmead</Street>
+        <Street>Testwood Road</Street>
         <Crossing>Gallys Road</Crossing>
         <Indicator>Stop GZ</Indicator>
       </Descriptor>
@@ -2426,10 +2427,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>494005</Easting>
-            <Northing>176759</Northing>
-            <Longitude>-0.6476186051503064</Longitude>
-            <Latitude>51.48198667072481</Latitude>
+            <Easting>493952</Easting>
+            <Northing>176803</Northing>
+            <Longitude>-0.6483828709808682</Longitude>
+            <Latitude>51.48239535384891</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -2450,13 +2451,13 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T18:01:17" ModificationDateTime="2025-02-21T18:01:17" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T18:01:17" ModificationDateTime="2025-04-10T16:36:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000063</AtcoCode>
       <NaptanCode>wingpjw</NaptanCode>
       <Descriptor>
         <CommonName>Gallys Road</CommonName>
         <ShortCommonName>Gallys Rd</ShortCommonName>
-        <Street>Longmead</Street>
+        <Street>Testwood Road</Street>
         <Crossing>Gallys Road</Crossing>
         <Indicator>Stop GY</Indicator>
       </Descriptor>
@@ -2466,10 +2467,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>494013</Easting>
-            <Northing>176767</Northing>
-            <Longitude>-0.6475088453263168</Longitude>
-            <Latitude>51.48206483046458</Latitude>
+            <Easting>493959</Easting>
+            <Northing>176810</Northing>
+            <Longitude>-0.6482750377721459</Longitude>
+            <Latitude>51.482455939148146</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4052,6 +4053,46 @@
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
             </HailAndRideSection>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-10T16:31:30" ModificationDateTime="2025-04-10T16:31:30" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000101</AtcoCode>
+      <NaptanCode>wingtjm</NaptanCode>
+      <Descriptor>
+        <CommonName>Cawcott Drive</CommonName>
+        <ShortCommonName>Cawcott Dr.</ShortCommonName>
+        <Street>Longmead</Street>
+        <Crossing>Cawcott Drive</Crossing>
+        <Indicator>Stop CD</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043262</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>494164</Easting>
+            <Northing>176754</Northing>
+            <Longitude>-0.6453333656938588</Longitude>
+            <Latitude>51.481922082968836</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -13199,14 +13240,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-09-28T00:00:00" ModificationDateTime="2020-09-16T15:23:51" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-09-28T00:00:00" ModificationDateTime="2025-04-24T12:28:51" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>036006002300</AtcoCode>
       <NaptanCode>winagag</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Broomhall Lane</CommonName>
-        <Landmark xml:lang="en">Cedar Drive</Landmark>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">northbound</Indicator>
+        <CommonName>Broomhall Lane for Sunningdale Rail Station</CommonName>
+        <ShortCommonName>Broomhall Ln</ShortCommonName>
+        <Landmark>Sunningdale Rail Station</Landmark>
+        <Street>Broomhall Lane</Street>
+        <Crossing>Cedar Drive</Crossing>
+        <Indicator>Stop RY</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0057286</NptgLocalityRef>
@@ -13214,10 +13257,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>495068</Easting>
-            <Northing>167406</Northing>
-            <Longitude>-0.634856</Longitude>
-            <Latitude>51.397734</Latitude>
+            <Easting>495378</Easting>
+            <Northing>166865</Northing>
+            <Longitude>-0.6305154386010715</Longitude>
+            <Latitude>51.39282183219388</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -13225,13 +13268,14 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -13239,6 +13283,7 @@
         <StopAreaRef Modification="new">036G00006617</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-09-28T00:00:00" ModificationDateTime="2025-02-20T13:31:57" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006002301</AtcoCode>
@@ -28795,14 +28840,14 @@
         <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2004-05-05T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2025-04-10T16:36:50" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006316316</AtcoCode>
       <NaptanCode>windmap</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Pierson Road</CommonName>
-        <Landmark xml:lang="en">Pierson Road</Landmark>
-        <Street xml:lang="en">Testwood Road</Street>
-        <Indicator xml:lang="en">nr</Indicator>
+        <CommonName>Pierson Road</CommonName>
+        <Landmark>Pierson Road</Landmark>
+        <Street>Testwood Road</Street>
+        <Indicator>nr</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043262</NptgLocalityRef>
@@ -28833,9 +28878,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2015-01-22T12:46:17" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006318318</AtcoCode>
@@ -29242,14 +29285,15 @@
         <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2004-05-05T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2025-04-10T16:19:22" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006327327</AtcoCode>
       <NaptanCode>windmga</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Longmead</CommonName>
-        <Landmark xml:lang="en">Longmead</Landmark>
-        <Street xml:lang="en">Smiths Lane</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Longmead</CommonName>
+        <Landmark>Smiths Lane Clinic</Landmark>
+        <Street>Smiths Lane</Street>
+        <Crossing>Longmead</Crossing>
+        <Indicator>Stop LO</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043262</NptgLocalityRef>
@@ -29258,9 +29302,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>494370</Easting>
-            <Northing>176725</Northing>
-            <Longitude>-0.642398</Longitude>
-            <Latitude>51.48162</Latitude>
+            <Northing>176734</Northing>
+            <Longitude>-0.6423825481462498</Longitude>
+            <Latitude>51.48170338486574</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -29283,18 +29327,17 @@
         <StopAreaRef Modification="new">036G00006327</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2004-05-05T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2025-04-10T16:20:21" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006327328</AtcoCode>
       <NaptanCode>windmgd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Longmead</CommonName>
-        <Landmark xml:lang="en">Longmead</Landmark>
-        <Street xml:lang="en">Smiths Lane</Street>
-        <Indicator xml:lang="en">nr</Indicator>
+        <CommonName>Longmead</CommonName>
+        <Landmark>Smiths Lane Clinic</Landmark>
+        <Street>Smiths Lane</Street>
+        <Crossing>Longmead</Crossing>
+        <Indicator>Stop LN</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043262</NptgLocalityRef>
@@ -29328,9 +29371,7 @@
         <StopAreaRef Modification="new">036G00006327</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2008-06-10T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006328328</AtcoCode>
@@ -33777,14 +33818,16 @@
         <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-19T00:00:00" ModificationDateTime="2014-10-22T13:20:24" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2004-05-19T00:00:00" ModificationDateTime="2025-04-11T10:13:50" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>036006617617</AtcoCode>
       <NaptanCode>windtdp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Broomhall Lane</CommonName>
-        <Landmark xml:lang="en">Cedar Drive</Landmark>
-        <Street xml:lang="en">Broomhall Lane</Street>
-        <Indicator xml:lang="en">southbound</Indicator>
+        <CommonName>Broomhall Lane for Sunningdale Rail Station</CommonName>
+        <ShortCommonName>Broomhall Ln</ShortCommonName>
+        <Landmark>Sunningdale Rail Station</Landmark>
+        <Street>Broomhall Lane</Street>
+        <Crossing>Cedar Drive</Crossing>
+        <Indicator>Stop RZ</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0057286</NptgLocalityRef>
@@ -33804,11 +33847,11 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -33818,6 +33861,7 @@
         <StopAreaRef Modification="new">036G00006617</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2016-02-11T15:36:59" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006618618</AtcoCode>
