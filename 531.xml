@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-17T12:57:04.1199593Z" ModificationDateTime="2025-04-17T12:57:04.1199593Z" Modification="new" RevisionNumber="1" FileName="531.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-25T15:32:57.2341709Z" ModificationDateTime="2025-04-25T15:32:57.2341709Z" Modification="new" RevisionNumber="1" FileName="531.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-22T09:37:25" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5310ANZ12863</AtcoCode>
@@ -26235,15 +26235,15 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-01-12T00:00:00" Modification="new" RevisionNumber="0" Status="active">NWPTRTG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:33:56" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-25T16:27:57" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5310AWB31040</AtcoCode>
       <NaptanCode>nwpdmgw</NaptanCode>
       <Descriptor>
-        <CommonName>Lee Way</CommonName>
+        <CommonName>Leeway Court</CommonName>
         <ShortCommonName>Queensway Meadows</ShortCommonName>
-        <Street>Lee Way</Street>
-        <Crossing>Broadwater Road</Crossing>
-        <Indicator>after</Indicator>
+        <Landmark>outside Unit 23</Landmark>
+        <Street>Leeway</Street>
+        <Indicator>opposite</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0054451</NptgLocalityRef>
@@ -26251,10 +26251,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>334410</Easting>
-            <Northing>186199</Northing>
-            <Longitude>-2.947771761</Longitude>
-            <Latitude>51.570830235</Latitude>
+            <Easting>334415</Easting>
+            <Northing>186294</Northing>
+            <Longitude>-2.947717303</Longitude>
+            <Latitude>51.571680182</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -26266,17 +26266,21 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
-                <Degrees>45</Degrees>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>035</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-01-12T00:00:00" Modification="new" RevisionNumber="0" Status="active">NWPTRTG</PlusbusZoneRef>
-      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T16:27:57" ModificationDateTime="2025-04-25T16:27:57" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:33:23" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5310AWB31041</AtcoCode>
@@ -39370,21 +39374,20 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:33:29" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-25T16:23:55" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5310WDB21514</AtcoCode>
       <NaptanCode>nwpgjap</NaptanCode>
       <Descriptor>
-        <CommonName>International Sports Village</CommonName>
-        <Street>Velodrome Way</Street>
-        <Crossing>Langland Way</Crossing>
-        <Indicator>at</Indicator>
+        <CommonName>Sports Village Swimming Pool</CommonName>
+        <Landmark>Regional Pool and Tennis Centre</Landmark>
+        <Street>Spytty Boulevard</Street>
+        <Indicator>outside</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2023-05-10T12:55:30" ModificationDateTime="2024-05-02T09:33:30" Modification="revise" RevisionNumber="2">
-          <CommonName xml:lang="CY">Pentref Chwaraeon Rhyngwladol</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2023-05-10T12:55:30" ModificationDateTime="2024-05-02T09:33:30" Modification="revise" RevisionNumber="2">
-          <CommonName xml:lang="CY">Pentref Chwaraeon Rhyngwladol</CommonName>
+        <Descriptor CreationDateTime="2023-05-10T12:55:30" ModificationDateTime="2025-04-25T16:22:56" Modification="revise" RevisionNumber="3">
+          <CommonName xml:lang="CY">Pwll Nofio Pentref Chwaraeon</CommonName>
+          <Landmark xml:lang="CY">Canolfan Tenis a Phwll Nofio Ranbarthol</Landmark>
+          <Indicator xml:lang="CY">tu allan</Indicator>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -39393,10 +39396,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>333445</Easting>
-            <Northing>186507</Northing>
-            <Longitude>-2.961751790</Longitude>
-            <Latitude>51.573485894</Latitude>
+            <Easting>333520</Easting>
+            <Northing>186223</Northing>
+            <Longitude>-2.960615813</Longitude>
+            <Latitude>51.570936877</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -39404,20 +39407,25 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>035</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-07-30T00:00:00" Modification="new" RevisionNumber="0" Status="active">NWPTRTG</PlusbusZoneRef>
-      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T16:22:56" ModificationDateTime="2025-04-25T16:22:56" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:33:57" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5310WDB21569</AtcoCode>
@@ -47232,6 +47240,248 @@
         <StopValidity CreationDateTime="2025-02-06T13:48:46" ModificationDateTime="2025-02-06T13:48:46" Modification="new">
           <DateRange>
             <StartDate>2025-02-06</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-25T15:00:09" ModificationDateTime="2025-04-25T15:34:56" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5310WDB48020</AtcoCode>
+      <NaptanCode>nwpjaja</NaptanCode>
+      <Descriptor>
+        <CommonName>Newport Medieval Ship</CommonName>
+        <Street>Estuary Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-04-25T15:34:56" ModificationDateTime="2025-04-25T15:34:56" Modification="new">
+          <CommonName xml:lang="CY">Long Canoloesol Casnewydd</CommonName>
+          <Street>Estuary Road</Street>
+          <Indicator xml:lang="CY">gyferbyn â</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054451</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>334510</Easting>
+            <Northing>186198</Northing>
+            <Longitude>-2.946328828</Longitude>
+            <Latitude>51.570828193</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>035</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T15:00:09" ModificationDateTime="2025-04-25T15:00:09" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-25T15:26:05" ModificationDateTime="2025-04-25T15:06:26" Modification="new" Status="active">
+      <AtcoCode>5310WDB48021</AtcoCode>
+      <NaptanCode>nwpjajd</NaptanCode>
+      <Descriptor>
+        <CommonName>Newport Medieval Ship</CommonName>
+        <Street>Estuary Road</Street>
+        <Indicator>Before</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-04-25T15:26:05" ModificationDateTime="2025-04-25T15:26:05" Modification="new">
+          <CommonName xml:lang="CY">Llong Canoloesol Casnewydd</CommonName>
+          <Street>Estuary Road</Street>
+          <Indicator>Tu flaen </Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054451</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>334504</Easting>
+            <Northing>186179</Northing>
+            <Longitude>-2.946411839</Longitude>
+            <Latitude>51.570656682</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>035</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T15:26:05" ModificationDateTime="2025-04-25T15:26:05" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-25T16:16:21" ModificationDateTime="2025-04-25T16:14:54" Modification="new" Status="active">
+      <AtcoCode>5310WDB48022</AtcoCode>
+      <NaptanCode>nwpjajg</NaptanCode>
+      <Descriptor>
+        <CommonName>IAC Factory</CommonName>
+        <Street>Meadows Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-04-25T16:16:21" ModificationDateTime="2025-04-25T16:16:21" Modification="new">
+          <CommonName xml:lang="CY">Ffatri IAC</CommonName>
+          <Indicator xml:lang="CY">Gyferbyn â </Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0039789</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>334514</Easting>
+            <Northing>185523</Northing>
+            <Longitude>-2.946145109</Longitude>
+            <Latitude>51.564760320</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>035</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T16:16:21" ModificationDateTime="2025-04-25T16:16:21" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-25T16:19:21" ModificationDateTime="2025-04-25T16:17:42" Modification="new" Status="active">
+      <AtcoCode>5310WDB48023</AtcoCode>
+      <NaptanCode>nwpjajm</NaptanCode>
+      <Descriptor>
+        <CommonName>IAC Factory</CommonName>
+        <Street>Meadows Road</Street>
+        <Indicator>After Junction</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-04-25T16:19:21" ModificationDateTime="2025-04-25T16:19:21" Modification="new">
+          <CommonName xml:lang="CY">Ffatri IAC</CommonName>
+          <Street>Meadows Road</Street>
+          <Indicator xml:lang="CY">Ar ôl y gyffordd</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0039789</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>334491</Easting>
+            <Northing>185434</Northing>
+            <Longitude>-2.946460259</Longitude>
+            <Latitude>51.563957521</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>035</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T16:19:21" ModificationDateTime="2025-04-25T16:19:21" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-04-25T16:30:37" ModificationDateTime="2025-04-25T16:29:14" Modification="new" Status="active">
+      <AtcoCode>5310WDB48024</AtcoCode>
+      <NaptanCode>nwpjajp</NaptanCode>
+      <Descriptor>
+        <CommonName>Leeway Court</CommonName>
+        <Street>Leeway</Street>
+        <Indicator>after junction</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054451</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>334421</Easting>
+            <Northing>186327</Northing>
+            <Longitude>-2.947636913</Longitude>
+            <Latitude>51.571977555</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>035</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-25T16:30:37" ModificationDateTime="2025-04-25T16:30:37" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-25</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
