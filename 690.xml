@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-11T13:41:32.944" ModificationDateTime="2025-04-11T13:41:32.944" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-29T10:02:51.596" ModificationDateTime="2025-04-29T10:02:51.596" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -12706,6 +12706,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2009</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2005-11-16T00:00:00.000" ModificationDateTime="2020-04-16T09:21:15.000" Modification="revise" RevisionNumber="4" Status="active">
@@ -25728,6 +25731,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2009</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2011-08-04T11:21:42.000" Modification="revise" RevisionNumber="3" Status="active">
@@ -37466,7 +37472,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2003-11-13T00:00:00.000" ModificationDateTime="2025-02-14T15:37:31.343" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6900332</AtcoCode>
-<NaptanCode>72724294</NaptanCode>
 <Descriptor>
 <CommonName>Bank Street Gardens</CommonName>
 <Landmark>Bank Street Gardens</Landmark>
@@ -37506,7 +37511,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2003-11-13T00:00:00.000" ModificationDateTime="2024-07-02T12:36:15.371" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>6900333</AtcoCode>
-<NaptanCode>72724326</NaptanCode>
 <Descriptor>
 <CommonName>Iceland Galashiels</CommonName>
 <Landmark>Iceland</Landmark>
@@ -43407,6 +43411,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2010</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2025-02-10T12:56:27.182" Modification="revise" RevisionNumber="7" Status="active">
@@ -43447,6 +43454,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690G2010</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2023-11-13T14:09:07.926" Modification="revise" RevisionNumber="7" Status="active">
@@ -51015,14 +51025,15 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-12-15T00:00:00.000" ModificationDateTime="2021-03-23T10:24:10.001" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2004-12-15T00:00:00.000" ModificationDateTime="2025-04-29T10:02:29.024" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>6900935</AtcoCode>
 <NaptanCode>72726827</NaptanCode>
 <Descriptor>
-<CommonName>Post Office</CommonName>
-<Landmark>Post Office</Landmark>
+<CommonName>Blyth Square</CommonName>
+<ShortCommonName>Blyth Sq</ShortCommonName>
+<Landmark>Blyth Square</Landmark>
 <Street>Main Street</Street>
-<Indicator>o/s</Indicator>
+<Indicator>nr</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES003816</NptgLocalityRef>
@@ -52421,7 +52432,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2005-01-19T00:00:00.000" ModificationDateTime="2025-02-07T14:00:03.096" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>6900970</AtcoCode>
-<NaptanCode>72725357</NaptanCode>
 <Descriptor>
 <CommonName>Horseshoe Inn</CommonName>
 <Landmark>Horseshoe Inn</Landmark>
@@ -52461,7 +52471,6 @@
 </StopPoint>
 <StopPoint CreationDateTime="2005-01-19T00:00:00.000" ModificationDateTime="2025-02-07T09:29:04.128" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6900971</AtcoCode>
-<NaptanCode>72725353</NaptanCode>
 <Descriptor>
 <CommonName>Horseshoe Inn</CommonName>
 <ShortCommonName>Horseshoe Inn</ShortCommonName>
@@ -59219,6 +59228,36 @@
 <Northing>628051</Northing>
 <Longitude>-2.2871479</Longitude>
 <Latitude>55.5458293</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2025-04-21T17:24:54.046" ModificationDateTime="2025-04-21T17:24:54.046" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>690G2009</StopAreaCode>
+<Name>Blyth Bridge Bus Shelter</Name>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>313205</Easting>
+<Northing>645290</Northing>
+<Longitude>-3.3823224</Longitude>
+<Latitude>55.6932709</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2025-04-24T14:21:06.781" ModificationDateTime="2025-04-24T14:21:06.781" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>690G2010</StopAreaCode>
+<Name>Lowood Bridge</Name>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>352935</Easting>
+<Northing>634739</Northing>
+<Longitude>-2.7485538</Longitude>
+<Latitude>55.6039724</Latitude>
 </Translation>
 </Location>
 </StopArea>
