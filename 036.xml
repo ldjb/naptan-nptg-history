@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-04-24T12:28:59" Modification="revise" RevisionNumber="6" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-04-30T11:21:37" Modification="revise" RevisionNumber="7" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-02-17T16:46:48" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -9393,14 +9393,16 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2004-05-25T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2025-04-30T11:21:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001425</AtcoCode>
       <NaptanCode>winapgt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Crown PH</CommonName>
-        <Landmark xml:lang="en">Hall Place Lane</Landmark>
-        <Street xml:lang="en">Burchetts Green Road</Street>
-        <Indicator xml:lang="en">NE-bound</Indicator>
+        <CommonName>The Crown</CommonName>
+        <ShortCommonName>The Crown</ShortCommonName>
+        <Landmark>Burchetts Green House</Landmark>
+        <Street>Burchetts Green Road</Street>
+        <Crossing>Burchetts Green Lane</Crossing>
+        <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043250</NptgLocalityRef>
@@ -9408,10 +9410,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>483955</Easting>
-            <Northing>181407</Northing>
-            <Longitude>-0.791231</Longitude>
-            <Latitude>51.525348</Latitude>
+            <Easting>483874</Easting>
+            <Northing>181296</Northing>
+            <Longitude>-0.7923990811361704</Longitude>
+            <Latitude>51.524363291373135</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9419,14 +9421,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -9434,6 +9435,7 @@
         <StopAreaRef Modification="new">036G00000425</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-09-28T00:00:00" ModificationDateTime="2014-12-23T16:23:52" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006001426</AtcoCode>
@@ -14820,14 +14822,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2025-04-30T11:15:54" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006002425</AtcoCode>
       <NaptanCode>winatgd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Crown PH</CommonName>
-        <Landmark xml:lang="en">Hall Place Lane</Landmark>
-        <Street xml:lang="en">Burchetts Green Road</Street>
-        <Indicator xml:lang="en">o/s</Indicator>
+        <CommonName>The Crown</CommonName>
+        <ShortCommonName>The Crown</ShortCommonName>
+        <Landmark>The Crown Pub</Landmark>
+        <Street>Burchetts Green Road</Street>
+        <Crossing>Burchetts Green Lane</Crossing>
+        <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043250</NptgLocalityRef>
@@ -14846,14 +14850,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -14861,6 +14864,7 @@
         <StopAreaRef Modification="new">036G00000425</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-09-28T00:00:00" ModificationDateTime="2008-02-03T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006002426</AtcoCode>
@@ -17314,14 +17318,16 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-05-25T00:00:00" ModificationDateTime="2025-04-30T11:16:44" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006003425</AtcoCode>
       <NaptanCode>wingdat</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Crown PH</CommonName>
-        <Landmark xml:lang="en">Burchetts Green Road</Landmark>
-        <Street xml:lang="en">Burchetts Green Lane</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>The Crown</CommonName>
+        <ShortCommonName>The Crown</ShortCommonName>
+        <Landmark>The Crown Pub</Landmark>
+        <Street>Burchetts Green Lane</Street>
+        <Crossing>Burchetts Green Road</Crossing>
+        <Indicator>Eastbound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043250</NptgLocalityRef>
@@ -17340,14 +17346,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -17355,6 +17360,7 @@
         <StopAreaRef Modification="new">036G00000425</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2006-05-10T00:00:00" ModificationDateTime="2010-08-10T00:00:00" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006003440</AtcoCode>
