@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-25T09:37:03.1091855Z" ModificationDateTime="2025-04-25T09:37:03.1091855Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-01T12:38:34.1112579Z" ModificationDateTime="2025-05-01T12:38:34.1112579Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -910,7 +910,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:44" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T13:48:16" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610AWA17102</AtcoCode>
       <NaptanCode>powjmag</NaptanCode>
       <Descriptor>
@@ -921,10 +921,10 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:45" ModificationDateTime="2024-04-26T16:57:45" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:45" ModificationDateTime="2025-04-30T13:45:43" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ysbyty Bwthyn</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:45" ModificationDateTime="2024-04-26T16:57:45" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:45" ModificationDateTime="2025-04-30T13:48:16" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ysbyty Bwthyn</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -936,8 +936,8 @@
             <GridType>UKOS</GridType>
             <Easting>303654</Easting>
             <Northing>250861</Northing>
-            <Longitude>-3.409471868</Longitude>
-            <Latitude>52.147604037</Latitude>
+            <Longitude>-3.409471759</Longitude>
+            <Latitude>52.147599380</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -956,6 +956,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T13:45:43" ModificationDateTime="2025-04-30T13:45:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:42" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610AWA17112</AtcoCode>
@@ -1528,7 +1536,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:30" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:22:35" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610AWA20004</AtcoCode>
       <NaptanCode>powdwgj</NaptanCode>
       <Descriptor>
@@ -1537,10 +1545,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2024-04-26T16:57:30" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2025-04-29T16:21:15" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Sycharth</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2024-04-26T16:57:30" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2025-04-29T16:22:35" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Sycharth</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1552,8 +1560,8 @@
             <GridType>UKOS</GridType>
             <Easting>320509</Easting>
             <Northing>325137</Northing>
-            <Longitude>-3.180953924</Longitude>
-            <Latitude>52.817888397</Latitude>
+            <Longitude>-3.180953822</Longitude>
+            <Latitude>52.817883790</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -1573,8 +1581,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:21:15" ModificationDateTime="2025-04-29T16:21:15" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:30" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:24:12" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610AWA20005</AtcoCode>
       <NaptanCode>powdwgm</NaptanCode>
       <Descriptor>
@@ -1583,7 +1599,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2024-04-26T16:57:30" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2025-04-29T16:24:12" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Sycharth</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:30" ModificationDateTime="2024-04-26T16:57:30" Modification="new">
@@ -1598,8 +1614,8 @@
             <GridType>UKOS</GridType>
             <Easting>320516</Easting>
             <Northing>325137</Northing>
-            <Longitude>-3.180850080</Longitude>
-            <Latitude>52.817889430</Latitude>
+            <Longitude>-3.180849977</Longitude>
+            <Latitude>52.817884823</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -1619,6 +1635,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:22:56" ModificationDateTime="2025-04-29T16:22:56" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:21" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610AWA20006</AtcoCode>
@@ -7700,7 +7724,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:38" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T09:00:31" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610AWE90073</AtcoCode>
       <NaptanCode>powgtwm</NaptanCode>
       <Descriptor>
@@ -7709,7 +7733,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-30T08:56:14" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tro Maesderw </CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
@@ -7724,8 +7748,8 @@
             <GridType>UKOS</GridType>
             <Easting>326067</Easting>
             <Northing>313176</Northing>
-            <Longitude>-3.095796818</Longitude>
-            <Latitude>52.711176428</Latitude>
+            <Longitude>-3.095796718</Longitude>
+            <Latitude>52.711171813</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7745,8 +7769,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T08:56:14" ModificationDateTime="2025-04-30T08:56:14" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:38" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T09:06:55" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5610AWE90074</AtcoCode>
       <NaptanCode>powgtwp</NaptanCode>
       <Descriptor>
@@ -7755,10 +7787,10 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-30T09:03:24" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tro Maesderw </CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-30T09:06:55" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Tro Maesderw </CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7770,8 +7802,8 @@
             <GridType>UKOS</GridType>
             <Easting>326059</Easting>
             <Northing>313191</Northing>
-            <Longitude>-3.095918590</Longitude>
-            <Latitude>52.711310153</Latitude>
+            <Longitude>-3.095918490</Longitude>
+            <Latitude>52.711305537</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7791,6 +7823,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T09:03:24" ModificationDateTime="2025-04-30T09:03:24" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:45" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>5610AWE90075</AtcoCode>
@@ -9198,7 +9238,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:03" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:13:36" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610AWE90105</AtcoCode>
       <NaptanCode>powgapj</NaptanCode>
       <Descriptor>
@@ -9208,7 +9248,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2024-04-26T16:57:03" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2025-04-29T16:11:49" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Maes y Llan</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:03" ModificationDateTime="2024-04-26T16:57:03" Modification="new">
@@ -9223,8 +9263,8 @@
             <GridType>UKOS</GridType>
             <Easting>320960</Easting>
             <Northing>327967</Northing>
-            <Longitude>-3.174949667</Longitude>
-            <Latitude>52.843389506</Latitude>
+            <Longitude>-3.174949564</Longitude>
+            <Latitude>52.843384901</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9244,6 +9284,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:11:49" ModificationDateTime="2025-04-29T16:11:49" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:40" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610AWE90106</AtcoCode>
@@ -15208,7 +15256,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:56" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T13:28:59" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610AWE90215</AtcoCode>
       <NaptanCode>powgmaw</NaptanCode>
       <Descriptor>
@@ -15225,8 +15273,8 @@
             <GridType>UKOS</GridType>
             <Easting>322434</Easting>
             <Northing>296297</Northing>
-            <Longitude>-3.145590289</Longitude>
-            <Latitude>52.558960194</Latitude>
+            <Longitude>-3.145590189</Longitude>
+            <Latitude>52.558955567</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -15246,8 +15294,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T13:25:06" ModificationDateTime="2025-04-29T13:25:06" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:56" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T13:33:24" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610AWE90216</AtcoCode>
       <NaptanCode>powgmda</NaptanCode>
       <Descriptor>
@@ -15264,8 +15320,8 @@
             <GridType>UKOS</GridType>
             <Easting>322432</Easting>
             <Northing>296290</Northing>
-            <Longitude>-3.145618145</Longitude>
-            <Latitude>52.558896992</Latitude>
+            <Longitude>-3.145618044</Longitude>
+            <Latitude>52.558892365</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -15285,6 +15341,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T13:29:42" ModificationDateTime="2025-04-29T13:29:42" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-21T13:45:40" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5610AWE90217</AtcoCode>
@@ -18814,7 +18878,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:31" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:00:48" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>5610AWE90293</AtcoCode>
       <NaptanCode>powgamd</NaptanCode>
       <Descriptor>
@@ -18823,10 +18887,10 @@
         <Indicator>opp Spar</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:31" ModificationDateTime="2024-04-26T16:56:31" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:31" ModificationDateTime="2025-04-29T14:39:40" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Cofeb Rhyfel Rhayader</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:56:31" ModificationDateTime="2024-04-26T16:56:31" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:31" ModificationDateTime="2025-04-29T15:00:48" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Cofeb Rhyfel Rhayader</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18860,11 +18924,11 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2018-06-13T10:54:31" ModificationDateTime="2018-06-13T10:54:31" Modification="new">
+        <StopValidity CreationDateTime="2018-06-13T10:54:31" ModificationDateTime="2025-04-29T14:39:40" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2018-06-13</StartDate>
           </DateRange>
-          <Active />
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -28178,7 +28242,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:08" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T13:54:04" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610AWM21050</AtcoCode>
       <NaptanCode>powamda</NaptanCode>
       <Descriptor>
@@ -28187,10 +28251,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:08" ModificationDateTime="2024-04-26T16:57:08" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:08" ModificationDateTime="2025-04-30T13:49:01" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Oaklands</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:08" ModificationDateTime="2024-04-26T16:57:08" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:08" ModificationDateTime="2025-04-30T13:54:04" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Oaklands</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -28202,8 +28266,8 @@
             <GridType>UKOS</GridType>
             <Easting>304585</Easting>
             <Northing>251015</Northing>
-            <Longitude>-3.395913394</Longitude>
-            <Latitude>52.149149967</Latitude>
+            <Longitude>-3.395913285</Longitude>
+            <Latitude>52.149145310</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -28223,6 +28287,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T13:49:01" ModificationDateTime="2025-04-30T13:49:01" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:45" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5610AWM21058</AtcoCode>
@@ -28751,7 +28823,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:22" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:21:52" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610AWQ26429</AtcoCode>
       <NaptanCode>powgawg</NaptanCode>
       <Descriptor>
@@ -28761,10 +28833,10 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:22" ModificationDateTime="2024-04-26T16:57:22" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:22" ModificationDateTime="2025-04-29T15:18:43" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Sgwar Llanwrin</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:22" ModificationDateTime="2024-04-26T16:57:22" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:22" ModificationDateTime="2025-04-29T15:21:52" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Sgwar Llanwrin</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -28776,8 +28848,8 @@
             <GridType>UKOS</GridType>
             <Easting>278851</Easting>
             <Northing>303485</Northing>
-            <Longitude>-3.790825444</Longitude>
-            <Latitude>52.615582713</Latitude>
+            <Longitude>-3.790825320</Longitude>
+            <Latitude>52.615578091</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -28797,6 +28869,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:18:43" ModificationDateTime="2025-04-29T15:18:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610AWZ26252</AtcoCode>
@@ -31180,7 +31260,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:36" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:39:26" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18373</AtcoCode>
       <NaptanCode>powdamd</NaptanCode>
       <Descriptor>
@@ -31189,7 +31269,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:37" ModificationDateTime="2024-04-26T16:56:37" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:37" ModificationDateTime="2025-04-29T16:38:01" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Dolley Green</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:37" ModificationDateTime="2024-04-26T16:56:37" Modification="new">
@@ -31204,8 +31284,8 @@
             <GridType>UKOS</GridType>
             <Easting>328364</Easting>
             <Northing>265520</Northing>
-            <Longitude>-3.051530718</Longitude>
-            <Latitude>52.283134607</Latitude>
+            <Longitude>-3.051530621</Longitude>
+            <Latitude>52.283129960</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -31224,6 +31304,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:38:01" ModificationDateTime="2025-04-29T16:38:01" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:07" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610PWX18375</AtcoCode>
@@ -32876,7 +32964,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:52" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:06:16" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18427</AtcoCode>
       <NaptanCode>powdtpj</NaptanCode>
       <Descriptor>
@@ -32894,8 +32982,8 @@
             <GridType>UKOS</GridType>
             <Easting>306404</Easting>
             <Northing>251312</Northing>
-            <Longitude>-3.369418805</Longitude>
-            <Latitude>52.152131007</Latitude>
+            <Longitude>-3.369418698</Longitude>
+            <Latitude>52.152126351</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -32914,6 +33002,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:04:07" ModificationDateTime="2025-04-29T16:04:07" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:04" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5610PWX18429</AtcoCode>
@@ -33902,7 +33998,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:53" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:37:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610PWX18471</AtcoCode>
       <NaptanCode>powdamg</NaptanCode>
       <Descriptor>
@@ -33912,7 +34008,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2024-04-26T16:56:53" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2025-04-29T16:37:38" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Hen Eglwys Maesyfed</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2024-04-26T16:56:53" Modification="new">
@@ -33927,8 +34023,8 @@
             <GridType>UKOS</GridType>
             <Easting>324959</Easting>
             <Northing>259021</Northing>
-            <Longitude>-3.099988254</Longitude>
-            <Latitude>52.224262375</Latitude>
+            <Longitude>-3.099988156</Longitude>
+            <Latitude>52.224257723</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -33947,6 +34043,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:36:18" ModificationDateTime="2025-04-29T16:36:18" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:35" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610PWX18472</AtcoCode>
@@ -34771,7 +34875,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:13" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:00:32" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610PWX18522</AtcoCode>
       <NaptanCode>powawma</NaptanCode>
       <Descriptor>
@@ -34780,7 +34884,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:13" ModificationDateTime="2024-04-26T16:57:13" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:13" ModificationDateTime="2025-04-29T13:58:52" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Aber-Bidno</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:13" ModificationDateTime="2024-04-26T16:57:13" Modification="new">
@@ -34795,8 +34899,8 @@
             <GridType>UKOS</GridType>
             <Easting>289268</Easting>
             <Northing>280393</Northing>
-            <Longitude>-3.629339565</Longitude>
-            <Latitude>52.410298150</Latitude>
+            <Longitude>-3.629339447</Longitude>
+            <Latitude>52.410293512</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -34816,8 +34920,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T13:58:52" ModificationDateTime="2025-04-29T13:58:52" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:00" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:03:24" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610PWX18523</AtcoCode>
       <NaptanCode>powdwjp</NaptanCode>
       <Descriptor>
@@ -34826,7 +34938,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:00" ModificationDateTime="2024-04-26T16:57:00" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:00" ModificationDateTime="2025-04-29T14:01:17" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Llwyn-yr-hyddod</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:00" ModificationDateTime="2024-04-26T16:57:00" Modification="new">
@@ -34841,8 +34953,8 @@
             <GridType>UKOS</GridType>
             <Easting>287417</Easting>
             <Northing>281219</Northing>
-            <Longitude>-3.656817827</Longitude>
-            <Latitude>52.417342720</Latitude>
+            <Longitude>-3.656817708</Longitude>
+            <Latitude>52.417338083</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -34862,8 +34974,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:01:17" ModificationDateTime="2025-04-29T14:01:17" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:44" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:29:05" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18524</AtcoCode>
       <NaptanCode>powdwtg</NaptanCode>
       <Descriptor>
@@ -34873,7 +34993,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:45" ModificationDateTime="2024-04-26T16:56:45" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:45" ModificationDateTime="2025-04-29T14:29:06" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Glansevern Arms Hotel</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -34885,8 +35005,8 @@
             <GridType>UKOS</GridType>
             <Easting>284769</Easting>
             <Northing>282467</Northing>
-            <Longitude>-3.696165540</Longitude>
-            <Latitude>52.428005437</Latitude>
+            <Longitude>-3.696165420</Longitude>
+            <Latitude>52.428000801</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -34906,6 +35026,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:24:07" ModificationDateTime="2025-04-29T14:24:07" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610PWX18525</AtcoCode>
@@ -34999,7 +35127,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:36" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:05:41" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18528</AtcoCode>
       <NaptanCode>powdwjg</NaptanCode>
       <Descriptor>
@@ -35008,10 +35136,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2025-04-29T15:04:31" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Dolhelfa-ganol</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2025-04-29T15:05:41" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Dolhelfa-ganol</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -35023,8 +35151,8 @@
             <GridType>UKOS</GridType>
             <Easting>292795</Easting>
             <Northing>273893</Northing>
-            <Longitude>-3.575428193</Longitude>
-            <Latitude>52.352587753</Latitude>
+            <Longitude>-3.575428078</Longitude>
+            <Latitude>52.352583111</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35043,6 +35171,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:04:32" ModificationDateTime="2025-04-29T15:04:32" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:26" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5610PWX18529</AtcoCode>
@@ -35152,7 +35288,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:42" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T10:44:18" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18531</AtcoCode>
       <NaptanCode>powdajp</NaptanCode>
       <Descriptor>
@@ -35162,7 +35298,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2025-04-30T10:44:18" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Fferm Bryndu</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
@@ -35177,8 +35313,8 @@
             <GridType>UKOS</GridType>
             <Easting>296544</Easting>
             <Northing>283276</Northing>
-            <Longitude>-3.523307891</Longitude>
-            <Latitude>52.437632945</Latitude>
+            <Longitude>-3.523307777</Longitude>
+            <Latitude>52.437628309</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35198,6 +35334,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T10:43:10" ModificationDateTime="2025-04-30T10:43:10" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:24" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18532</AtcoCode>
@@ -35254,7 +35398,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:38" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T13:58:22" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18533</AtcoCode>
       <NaptanCode>powgmpw</NaptanCode>
       <Descriptor>
@@ -35263,10 +35407,10 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-29T13:55:46" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tro Oldchapel</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-29T13:58:22" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tro Oldchapel</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -35278,8 +35422,8 @@
             <GridType>UKOS</GridType>
             <Easting>297830</Easting>
             <Northing>281997</Northing>
-            <Longitude>-3.504005948</Longitude>
-            <Latitude>52.426380816</Latitude>
+            <Longitude>-3.504005835</Longitude>
+            <Latitude>52.426376180</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -35298,6 +35442,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T13:55:46" ModificationDateTime="2025-04-29T13:55:46" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:38" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610PWX18534</AtcoCode>
@@ -36612,7 +36764,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:43" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T10:40:32" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18610</AtcoCode>
       <NaptanCode>powgdja</NaptanCode>
       <Descriptor>
@@ -36621,7 +36773,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:43" ModificationDateTime="2024-04-26T16:56:43" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:43" ModificationDateTime="2025-04-29T10:33:57" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Fferm Snead</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:43" ModificationDateTime="2024-04-26T16:56:43" Modification="new">
@@ -36636,8 +36788,8 @@
             <GridType>UKOS</GridType>
             <Easting>331681</Easting>
             <Northing>292180</Northing>
-            <Longitude>-3.008365871</Longitude>
-            <Latitude>52.523196037</Latitude>
+            <Longitude>-3.008365775</Longitude>
+            <Latitude>52.523191407</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -36656,6 +36808,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T10:33:57" ModificationDateTime="2025-04-29T10:33:57" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:23" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5610PWX18611</AtcoCode>
@@ -38854,7 +39014,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:38" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:18:20" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18697</AtcoCode>
       <NaptanCode>powdawp</NaptanCode>
       <Descriptor>
@@ -38863,10 +39023,10 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-29T16:16:37" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tro Lledrod</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2024-04-26T16:57:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:38" ModificationDateTime="2025-04-29T16:18:20" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tro Lledrod</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -38878,8 +39038,8 @@
             <GridType>UKOS</GridType>
             <Easting>322473</Easting>
             <Northing>329674</Northing>
-            <Longitude>-3.152897698</Longitude>
-            <Latitude>52.858951485</Latitude>
+            <Longitude>-3.152897596</Longitude>
+            <Latitude>52.858946881</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38899,8 +39059,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:16:37" ModificationDateTime="2025-04-29T16:16:37" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:17" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:15:53" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18698</AtcoCode>
       <NaptanCode>powgatd</NaptanCode>
       <Descriptor>
@@ -38909,10 +39077,10 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:17" ModificationDateTime="2024-04-26T16:57:17" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:17" ModificationDateTime="2025-04-29T16:14:22" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Ty-newydd</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:17" ModificationDateTime="2024-04-26T16:57:17" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:17" ModificationDateTime="2025-04-29T16:15:53" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Ty-newydd</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -38924,8 +39092,8 @@
             <GridType>UKOS</GridType>
             <Easting>320750</Easting>
             <Northing>327099</Northing>
-            <Longitude>-3.177855658</Longitude>
-            <Latitude>52.835557452</Latitude>
+            <Longitude>-3.177855555</Longitude>
+            <Latitude>52.835552847</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38945,6 +39113,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:14:22" ModificationDateTime="2025-04-29T16:14:22" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:06" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610PWX18699</AtcoCode>
@@ -40479,7 +40655,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:37" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:28:37" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18750</AtcoCode>
       <NaptanCode>powdgjg</NaptanCode>
       <Descriptor>
@@ -40489,7 +40665,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:37" ModificationDateTime="2024-04-26T16:56:37" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:37" ModificationDateTime="2025-04-29T15:28:37" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Efail</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:37" ModificationDateTime="2024-04-26T16:56:37" Modification="new">
@@ -40504,8 +40680,8 @@
             <GridType>UKOS</GridType>
             <Easting>276266</Easting>
             <Northing>300049</Northing>
-            <Longitude>-3.827699423</Longitude>
-            <Latitude>52.584126327</Latitude>
+            <Longitude>-3.827699298</Longitude>
+            <Latitude>52.584121702</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -40524,6 +40700,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:28:37" ModificationDateTime="2025-04-29T15:28:37" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:09" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18751</AtcoCode>
@@ -40631,7 +40815,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:42" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:33:58" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18753</AtcoCode>
       <NaptanCode>powdgjd</NaptanCode>
       <Descriptor>
@@ -40640,7 +40824,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2025-04-29T15:31:43" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Felin-y-coed</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
@@ -40655,8 +40839,8 @@
             <GridType>UKOS</GridType>
             <Easting>278292</Easting>
             <Northing>298964</Northing>
-            <Longitude>-3.797413620</Longitude>
-            <Latitude>52.574834864</Latitude>
+            <Longitude>-3.797413496</Longitude>
+            <Latitude>52.574830238</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -40676,6 +40860,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:31:43" ModificationDateTime="2025-04-29T15:31:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:37" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5610PWX18754</AtcoCode>
@@ -40944,7 +41136,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:31" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:07:24" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18759</AtcoCode>
       <NaptanCode>powjajw</NaptanCode>
       <Descriptor>
@@ -40953,10 +41145,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:31" ModificationDateTime="2024-04-26T16:57:31" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:31" ModificationDateTime="2025-04-29T15:06:27" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tal-y-Wern</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:31" ModificationDateTime="2024-04-26T16:57:31" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:31" ModificationDateTime="2025-04-29T15:07:24" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Tal-y-Wern</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -40971,8 +41163,8 @@
             <GridType>UKOS</GridType>
             <Easting>282784</Easting>
             <Northing>300283</Northing>
-            <Longitude>-3.731628261</Longitude>
-            <Latitude>52.587674488</Latitude>
+            <Longitude>-3.731628139</Longitude>
+            <Latitude>52.587669863</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -40992,8 +41184,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:06:27" ModificationDateTime="2025-04-29T15:06:27" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:40" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:49:16" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5610PWX18760</AtcoCode>
       <NaptanCode>powdadp</NaptanCode>
       <Descriptor>
@@ -41004,7 +41204,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:40" ModificationDateTime="2024-04-26T16:56:40" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:40" ModificationDateTime="2025-04-29T15:47:13" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Eglwys St Tudur</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:40" ModificationDateTime="2024-04-26T16:56:40" Modification="new">
@@ -41039,6 +41239,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:47:13" ModificationDateTime="2025-04-29T15:47:13" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:31" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5610PWX18761</AtcoCode>
@@ -41256,7 +41464,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:17:56" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18766</AtcoCode>
       <NaptanCode>powgawj</NaptanCode>
       <Descriptor>
@@ -41266,7 +41474,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2024-04-26T16:56:59" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2025-04-29T15:17:56" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Llanwrin</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2024-04-26T16:56:59" Modification="new">
@@ -41281,8 +41489,8 @@
             <GridType>UKOS</GridType>
             <Easting>278723</Easting>
             <Northing>303501</Northing>
-            <Longitude>-3.792720894</Longitude>
-            <Latitude>52.615697887</Latitude>
+            <Longitude>-3.792720770</Longitude>
+            <Latitude>52.615693264</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -41301,6 +41509,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:15:06" ModificationDateTime="2025-04-29T15:15:06" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:26:28" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610PWX18768</AtcoCode>
@@ -42163,7 +42379,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:50" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:25:48" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18793</AtcoCode>
       <NaptanCode>powapwd</NaptanCode>
       <Descriptor>
@@ -42173,10 +42389,10 @@
         <Indicator>opp junction</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:50" ModificationDateTime="2024-04-26T16:57:50" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:50" ModificationDateTime="2025-04-29T16:24:46" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ystad y Castell</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:50" ModificationDateTime="2024-04-26T16:57:50" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:50" ModificationDateTime="2025-04-29T16:25:48" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ystad y Castell</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -42188,8 +42404,8 @@
             <GridType>UKOS</GridType>
             <Easting>321362</Easting>
             <Northing>243586</Northing>
-            <Longitude>-3.149056622</Longitude>
-            <Latitude>52.085020164</Latitude>
+            <Longitude>-3.149056523</Longitude>
+            <Latitude>52.085015502</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -42208,6 +42424,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:24:46" ModificationDateTime="2025-04-29T16:24:46" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:46" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5610PWX18795</AtcoCode>
@@ -43046,7 +43270,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:52" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:30:34" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18824</AtcoCode>
       <NaptanCode>powdwtw</NaptanCode>
       <Descriptor>
@@ -43055,7 +43279,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:52" ModificationDateTime="2024-04-26T16:56:52" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:52" ModificationDateTime="2025-04-29T16:30:34" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Groesffordd Llanigon</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:52" ModificationDateTime="2024-04-26T16:56:52" Modification="new">
@@ -43070,8 +43294,8 @@
             <GridType>UKOS</GridType>
             <Easting>321245</Easting>
             <Northing>240010</Northing>
-            <Longitude>-3.149937474</Longitude>
-            <Latitude>52.052859654</Latitude>
+            <Longitude>-3.149937375</Longitude>
+            <Latitude>52.052854990</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43091,6 +43315,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:29:25" ModificationDateTime="2025-04-29T16:29:25" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:48" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610PWX18825</AtcoCode>
@@ -44260,7 +44492,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:55" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T13:49:19" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18854</AtcoCode>
       <NaptanCode>powgpgd</NaptanCode>
       <Descriptor>
@@ -44269,7 +44501,7 @@
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:55" ModificationDateTime="2024-04-26T16:56:55" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:55" ModificationDateTime="2025-04-29T13:49:19" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Hen Ystog</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:55" ModificationDateTime="2024-04-26T16:56:55" Modification="new">
@@ -44284,8 +44516,8 @@
             <GridType>UKOS</GridType>
             <Easting>328743</Easting>
             <Northing>295193</Northing>
-            <Longitude>-3.052307986</Longitude>
-            <Latitude>52.549901059</Latitude>
+            <Longitude>-3.052307889</Longitude>
+            <Latitude>52.549896431</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -44304,8 +44536,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T13:47:26" ModificationDateTime="2025-04-29T13:47:26" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:55" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T13:51:30" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18872</AtcoCode>
       <NaptanCode>powgpgj</NaptanCode>
       <Descriptor>
@@ -44314,7 +44554,7 @@
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:55" ModificationDateTime="2024-04-26T16:56:55" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:55" ModificationDateTime="2025-04-29T13:51:30" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Hen Ystog</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:55" ModificationDateTime="2024-04-26T16:56:55" Modification="new">
@@ -44329,8 +44569,8 @@
             <GridType>UKOS</GridType>
             <Easting>328751</Easting>
             <Northing>295189</Northing>
-            <Longitude>-3.052189166</Longitude>
-            <Latitude>52.549866154</Latitude>
+            <Longitude>-3.052189069</Longitude>
+            <Latitude>52.549861527</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -44349,6 +44589,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T13:49:42" ModificationDateTime="2025-04-29T13:49:42" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:38" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5610PWX18873</AtcoCode>
@@ -45375,7 +45623,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:28" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T11:09:06" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18899</AtcoCode>
       <NaptanCode>powaptd</NaptanCode>
       <Descriptor>
@@ -45385,7 +45633,7 @@
         <Indicator>Grounds</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:28" ModificationDateTime="2024-04-26T16:57:28" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:28" ModificationDateTime="2025-04-29T11:07:36" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Swyddfa Bost</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:28" ModificationDateTime="2024-04-26T16:57:28" Modification="new">
@@ -45400,8 +45648,8 @@
             <GridType>UKOS</GridType>
             <Easting>327839</Easting>
             <Northing>293835</Northing>
-            <Longitude>-3.065341758</Longitude>
-            <Latitude>52.537575676</Latitude>
+            <Longitude>-3.065341660</Longitude>
+            <Latitude>52.537571047</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -45420,6 +45668,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T11:07:36" ModificationDateTime="2025-04-29T11:07:36" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:22" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610PWX18900</AtcoCode>
@@ -45607,7 +45863,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:42" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T10:42:01" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610PWX18906</AtcoCode>
       <NaptanCode>powpgmj</NaptanCode>
       <Descriptor>
@@ -45619,10 +45875,10 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:42" ModificationDateTime="2024-04-26T16:57:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:42" ModificationDateTime="2025-04-30T10:40:29" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Vine Tree</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:42" ModificationDateTime="2024-04-26T16:57:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:42" ModificationDateTime="2025-04-30T10:42:01" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Vine Tree</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -45634,8 +45890,8 @@
             <GridType>UKOS</GridType>
             <Easting>321440</Easting>
             <Northing>218033</Northing>
-            <Longitude>-3.142062543</Longitude>
-            <Latitude>51.855336832</Latitude>
+            <Longitude>-3.142062445</Longitude>
+            <Latitude>51.855332155</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -45655,6 +45911,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T10:40:29" ModificationDateTime="2025-04-30T10:40:29" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:10" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5610PWX18909</AtcoCode>
@@ -45999,7 +46263,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:34" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:32:13" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610PWX18938</AtcoCode>
       <NaptanCode>powjdjp</NaptanCode>
       <Descriptor>
@@ -46009,7 +46273,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2024-04-26T16:56:34" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2025-04-29T16:31:00" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Crown Inn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2024-04-26T16:56:34" Modification="new">
@@ -46024,8 +46288,8 @@
             <GridType>UKOS</GridType>
             <Easting>325675</Easting>
             <Northing>259720</Northing>
-            <Longitude>-3.089662232</Longitude>
-            <Latitude>52.230642720</Latitude>
+            <Longitude>-3.089662134</Longitude>
+            <Latitude>52.230638069</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -46045,6 +46309,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:31:00" ModificationDateTime="2025-04-29T16:31:00" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:55" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5610PWX18939</AtcoCode>
@@ -50649,7 +50921,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:45" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:34:13" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB22405</AtcoCode>
       <NaptanCode>powjtpm</NaptanCode>
       <Descriptor>
@@ -50659,7 +50931,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:45" ModificationDateTime="2024-04-26T16:56:45" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:45" ModificationDateTime="2025-04-29T14:29:27" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Glansevern Arms Hotel</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:45" ModificationDateTime="2024-04-26T16:56:45" Modification="new">
@@ -50674,8 +50946,8 @@
             <GridType>UKOS</GridType>
             <Easting>284930</Easting>
             <Northing>282395</Northing>
-            <Longitude>-3.693773976</Longitude>
-            <Latitude>52.427392375</Latitude>
+            <Longitude>-3.693773856</Longitude>
+            <Latitude>52.427387739</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -50695,6 +50967,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:29:27" ModificationDateTime="2025-04-29T14:29:27" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:51" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB22638</AtcoCode>
@@ -50744,7 +51024,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:40" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T10:47:08" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610WDB22642</AtcoCode>
       <NaptanCode>powjtwa</NaptanCode>
       <Descriptor>
@@ -50753,10 +51033,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:40" ModificationDateTime="2024-04-26T16:57:40" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:40" ModificationDateTime="2025-04-29T10:44:38" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ty Iorwg</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:40" ModificationDateTime="2024-04-26T16:57:40" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:40" ModificationDateTime="2025-04-29T10:47:08" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ty Iorwg</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -50768,8 +51048,8 @@
             <GridType>UKOS</GridType>
             <Easting>329474</Easting>
             <Northing>293130</Northing>
-            <Longitude>-3.041090462</Longitude>
-            <Latitude>52.531453381</Latitude>
+            <Longitude>-3.041090365</Longitude>
+            <Latitude>52.531448752</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -50789,8 +51069,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T10:44:38" ModificationDateTime="2025-04-29T10:44:38" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:40" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T11:02:05" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5610WDB22643</AtcoCode>
       <NaptanCode>powjtwd</NaptanCode>
       <Descriptor>
@@ -50799,7 +51087,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:41" ModificationDateTime="2024-04-26T16:57:41" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:41" ModificationDateTime="2025-04-29T10:48:11" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Ty Iorwg</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:41" ModificationDateTime="2024-04-26T16:57:41" Modification="new">
@@ -50814,8 +51102,8 @@
             <GridType>UKOS</GridType>
             <Easting>329466</Easting>
             <Northing>293140</Northing>
-            <Longitude>-3.041210500</Longitude>
-            <Latitude>52.531542227</Latitude>
+            <Longitude>-3.041210403</Longitude>
+            <Latitude>52.531537598</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -50835,6 +51123,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T10:48:11" ModificationDateTime="2025-04-29T10:48:11" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:59" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5610WDB22884</AtcoCode>
@@ -51587,7 +51883,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:42" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-30T10:45:58" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23034</AtcoCode>
       <NaptanCode>powjwdm</NaptanCode>
       <Descriptor>
@@ -51597,10 +51893,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2025-04-30T10:45:05" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Fferm Bryndu</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2025-04-30T10:45:58" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Fferm Bryndu</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -51612,8 +51908,8 @@
             <GridType>UKOS</GridType>
             <Easting>296552</Easting>
             <Northing>283277</Northing>
-            <Longitude>-3.523190563</Longitude>
-            <Latitude>52.437643448</Latitude>
+            <Longitude>-3.523190449</Longitude>
+            <Latitude>52.437638812</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -51633,6 +51929,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-30T10:45:05" ModificationDateTime="2025-04-30T10:45:05" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-30</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:36" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23035</AtcoCode>
@@ -53782,7 +54086,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T11:17:40" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23376</AtcoCode>
       <NaptanCode>powmagd</NaptanCode>
       <Descriptor>
@@ -53799,8 +54103,8 @@
             <GridType>UKOS</GridType>
             <Easting>317446</Easting>
             <Northing>295761</Northing>
-            <Longitude>-3.219016012</Longitude>
-            <Latitude>52.553407913</Latitude>
+            <Longitude>-3.219015909</Longitude>
+            <Latitude>52.553403285</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -53819,8 +54123,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T11:15:54" ModificationDateTime="2025-04-29T11:15:54" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T11:09:53" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610WDB23377</AtcoCode>
       <NaptanCode>powmagj</NaptanCode>
       <Descriptor>
@@ -53857,6 +54169,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T11:09:53" ModificationDateTime="2025-04-29T11:09:53" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:32" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23378</AtcoCode>
@@ -55990,7 +56310,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:36" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:37:46" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23480</AtcoCode>
       <NaptanCode>powmdgd</NaptanCode>
       <Descriptor>
@@ -56000,7 +56320,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2025-04-29T14:36:42" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Dolgerddon</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
@@ -56015,8 +56335,8 @@
             <GridType>UKOS</GridType>
             <Easting>297154</Easting>
             <Northing>268214</Northing>
-            <Longitude>-3.509714142</Longitude>
-            <Latitude>52.302386120</Latitude>
+            <Longitude>-3.509714029</Longitude>
+            <Latitude>52.302381474</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -56036,8 +56356,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:36:42" ModificationDateTime="2025-04-29T14:36:42" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:36" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:36:21" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23481</AtcoCode>
       <NaptanCode>powmdgj</NaptanCode>
       <Descriptor>
@@ -56047,7 +56375,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2025-04-29T14:34:37" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Dolgerddon</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
@@ -56062,8 +56390,8 @@
             <GridType>UKOS</GridType>
             <Easting>297156</Easting>
             <Northing>268207</Northing>
-            <Longitude>-3.509682682</Longitude>
-            <Latitude>52.302323585</Latitude>
+            <Longitude>-3.509682569</Longitude>
+            <Latitude>52.302318940</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -56083,6 +56411,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:34:37" ModificationDateTime="2025-04-29T14:34:37" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:39" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610WDB23482</AtcoCode>
@@ -56178,7 +56514,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:36" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:03:45" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23484</AtcoCode>
       <NaptanCode>powmdgt</NaptanCode>
       <Descriptor>
@@ -56187,7 +56523,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2025-04-29T15:01:32" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Dolhelfa-ganol</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:36" ModificationDateTime="2024-04-26T16:56:36" Modification="new">
@@ -56202,8 +56538,8 @@
             <GridType>UKOS</GridType>
             <Easting>292813</Easting>
             <Northing>273890</Northing>
-            <Longitude>-3.575163064</Longitude>
-            <Latitude>52.352564316</Latitude>
+            <Longitude>-3.575162948</Longitude>
+            <Latitude>52.352559674</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -56222,6 +56558,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:01:32" ModificationDateTime="2025-04-29T15:01:32" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:36" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23485</AtcoCode>
@@ -56268,7 +56612,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:13" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:18:22" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23486</AtcoCode>
       <NaptanCode>powmdja</NaptanCode>
       <Descriptor>
@@ -56277,7 +56621,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:13" ModificationDateTime="2024-04-26T16:57:13" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:13" ModificationDateTime="2025-04-29T14:16:32" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Aber-Bidno</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:13" ModificationDateTime="2024-04-26T16:57:13" Modification="new">
@@ -56292,8 +56636,8 @@
             <GridType>UKOS</GridType>
             <Easting>289266</Easting>
             <Northing>280386</Northing>
-            <Longitude>-3.629366636</Longitude>
-            <Latitude>52.410234840</Latitude>
+            <Longitude>-3.629366518</Longitude>
+            <Latitude>52.410230202</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -56312,8 +56656,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:16:32" ModificationDateTime="2025-04-29T14:16:32" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T14:23:20" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23487</AtcoCode>
       <NaptanCode>powmdjd</NaptanCode>
       <Descriptor>
@@ -56322,7 +56674,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:00" ModificationDateTime="2024-04-26T16:57:00" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:00" ModificationDateTime="2025-04-29T14:23:20" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Llwyn-yr-hyddod</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:00" ModificationDateTime="2024-04-26T16:57:00" Modification="new">
@@ -56337,8 +56689,8 @@
             <GridType>UKOS</GridType>
             <Easting>287408</Easting>
             <Northing>281217</Northing>
-            <Longitude>-3.656949427</Longitude>
-            <Latitude>52.417322893</Latitude>
+            <Longitude>-3.656949308</Longitude>
+            <Latitude>52.417318256</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -56357,6 +56709,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T14:21:12" ModificationDateTime="2025-04-29T14:21:12" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:13" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23488</AtcoCode>
@@ -57421,7 +57781,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:14" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:59:39" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610WDB23513</AtcoCode>
       <NaptanCode>powmdtm</NaptanCode>
       <Descriptor>
@@ -57432,10 +57792,10 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:14" ModificationDateTime="2024-04-26T16:57:14" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:14" ModificationDateTime="2025-04-29T15:54:44" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Cwmbach</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:14" ModificationDateTime="2024-04-26T16:57:14" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:14" ModificationDateTime="2025-04-29T15:59:39" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Cwmbach</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -57447,8 +57807,8 @@
             <GridType>UKOS</GridType>
             <Easting>302887</Easting>
             <Northing>253958</Northing>
-            <Longitude>-3.421564436</Longitude>
-            <Latitude>52.175304386</Latitude>
+            <Longitude>-3.421564326</Longitude>
+            <Latitude>52.175299732</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -57467,6 +57827,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:54:44" ModificationDateTime="2025-04-29T15:54:44" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:38" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23514</AtcoCode>
@@ -57820,7 +58188,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:40" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:51:46" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5610WDB23521</AtcoCode>
       <NaptanCode>powmdwt</NaptanCode>
       <Descriptor>
@@ -57831,7 +58199,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:40" ModificationDateTime="2024-04-26T16:56:40" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:40" ModificationDateTime="2025-04-29T15:51:46" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Eglwys St Tudur</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:40" ModificationDateTime="2024-04-26T16:56:40" Modification="new">
@@ -57866,6 +58234,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:50:19" ModificationDateTime="2025-04-29T15:50:19" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:13" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23522</AtcoCode>
@@ -58120,7 +58496,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:38" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:25:40" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23527</AtcoCode>
       <NaptanCode>powmgat</NaptanCode>
       <Descriptor>
@@ -58130,7 +58506,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:38" ModificationDateTime="2024-04-26T16:56:38" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:38" ModificationDateTime="2025-04-29T15:25:40" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Efail</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:38" ModificationDateTime="2024-04-26T16:56:38" Modification="new">
@@ -58145,8 +58521,8 @@
             <GridType>UKOS</GridType>
             <Easting>276261</Easting>
             <Northing>300042</Northing>
-            <Longitude>-3.827770563</Longitude>
-            <Latitude>52.584062292</Latitude>
+            <Longitude>-3.827770438</Longitude>
+            <Latitude>52.584057667</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -58165,6 +58541,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:22:39" ModificationDateTime="2025-04-29T15:22:39" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23528</AtcoCode>
@@ -58313,7 +58697,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:42" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:31:19" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23531</AtcoCode>
       <NaptanCode>powmgdj</NaptanCode>
       <Descriptor>
@@ -58322,7 +58706,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2025-04-29T15:29:42" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Felin-y-coed</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:42" ModificationDateTime="2024-04-26T16:56:42" Modification="new">
@@ -58337,8 +58721,8 @@
             <GridType>UKOS</GridType>
             <Easting>278293</Easting>
             <Northing>298979</Northing>
-            <Longitude>-3.797404385</Longitude>
-            <Latitude>52.574969868</Latitude>
+            <Longitude>-3.797404261</Longitude>
+            <Latitude>52.574965242</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -58358,6 +58742,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:29:42" ModificationDateTime="2025-04-29T15:29:42" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:16" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23532</AtcoCode>
@@ -58674,7 +59066,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:41" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:37:17" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB23538</AtcoCode>
       <NaptanCode>powmgjg</NaptanCode>
       <Descriptor>
@@ -58683,7 +59075,7 @@
         <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:41" ModificationDateTime="2024-04-26T16:56:41" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:41" ModificationDateTime="2025-04-29T15:34:56" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Esgair Maen</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:41" ModificationDateTime="2024-04-26T16:56:41" Modification="new">
@@ -58698,8 +59090,8 @@
             <GridType>UKOS</GridType>
             <Easting>292428</Easting>
             <Northing>289330</Northing>
-            <Longitude>-3.585785831</Longitude>
-            <Latitude>52.491242091</Latitude>
+            <Longitude>-3.585785715</Longitude>
+            <Latitude>52.491237459</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -58718,6 +59110,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T15:34:56" ModificationDateTime="2025-04-29T15:34:56" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:14" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5610WDB23539</AtcoCode>
@@ -59225,7 +59625,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:44" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:40:55" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610WDB23794</AtcoCode>
       <NaptanCode>powmgpa</NaptanCode>
       <Descriptor>
@@ -59235,10 +59635,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2024-04-26T16:57:44" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2025-04-29T16:39:44" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Y Rhes</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2024-04-26T16:57:44" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2025-04-29T16:40:55" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Y Rhes</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -59250,8 +59650,8 @@
             <GridType>UKOS</GridType>
             <Easting>324553</Easting>
             <Northing>258156</Northing>
-            <Longitude>-3.105737545</Longitude>
-            <Latitude>52.216431620</Latitude>
+            <Longitude>-3.105737447</Longitude>
+            <Latitude>52.216426967</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -59271,6 +59671,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:39:44" ModificationDateTime="2025-04-29T16:39:44" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB23796</AtcoCode>
@@ -60774,7 +61182,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:18" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:11:03" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB25068</AtcoCode>
       <NaptanCode>powjgwg</NaptanCode>
       <Descriptor>
@@ -60784,7 +61192,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:18" ModificationDateTime="2024-04-26T16:57:18" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:18" ModificationDateTime="2025-04-29T16:11:03" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Powis Castle Hotel</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:18" ModificationDateTime="2024-04-26T16:57:18" Modification="new">
@@ -60799,8 +61207,8 @@
             <GridType>UKOS</GridType>
             <Easting>305481</Easting>
             <Northing>325924</Northing>
-            <Longitude>-3.404104852</Longitude>
-            <Latitude>52.822532887</Latitude>
+            <Longitude>-3.404104741</Longitude>
+            <Latitude>52.822528281</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -60820,6 +61228,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:09:39" ModificationDateTime="2025-04-29T16:09:39" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:18" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB25070</AtcoCode>
@@ -62005,7 +62421,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:20" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:27:28" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB46693</AtcoCode>
       <NaptanCode>powjpdm</NaptanCode>
       <Descriptor>
@@ -62014,10 +62430,10 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:20" ModificationDateTime="2024-04-26T16:57:20" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:20" ModificationDateTime="2025-04-29T16:26:19" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Royal Oak Inn</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:20" ModificationDateTime="2024-04-26T16:57:20" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:20" ModificationDateTime="2025-04-29T16:27:29" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Royal Oak Inn</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -62029,8 +62445,8 @@
             <GridType>UKOS</GridType>
             <Easting>323220</Easting>
             <Northing>255124</Northing>
-            <Longitude>-3.124556259</Longitude>
-            <Latitude>52.188993611</Latitude>
+            <Longitude>-3.124556160</Longitude>
+            <Latitude>52.188988957</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -62049,8 +62465,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:26:19" ModificationDateTime="2025-04-29T16:26:19" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:21" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:28:49" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB46694</AtcoCode>
       <NaptanCode>powjpdp</NaptanCode>
       <Descriptor>
@@ -62060,7 +62484,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:21" ModificationDateTime="2024-04-26T16:57:21" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:21" ModificationDateTime="2025-04-29T16:28:49" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Royal Oak Inn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:21" ModificationDateTime="2024-04-26T16:57:21" Modification="new">
@@ -62075,8 +62499,8 @@
             <GridType>UKOS</GridType>
             <Easting>323247</Easting>
             <Northing>255121</Northing>
-            <Longitude>-3.124160705</Longitude>
-            <Latitude>52.188970409</Latitude>
+            <Longitude>-3.124160606</Longitude>
+            <Latitude>52.188965755</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -62095,8 +62519,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:27:49" ModificationDateTime="2025-04-29T16:27:49" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:44" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:43:06" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610WDB46695</AtcoCode>
       <NaptanCode>powjpdt</NaptanCode>
       <Descriptor>
@@ -62105,10 +62537,10 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2024-04-26T16:57:44" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2025-04-29T16:41:30" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Y Rhes</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2024-04-26T16:57:44" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:44" ModificationDateTime="2025-04-29T16:43:06" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Y Rhes</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -62120,8 +62552,8 @@
             <GridType>UKOS</GridType>
             <Easting>323468</Easting>
             <Northing>258550</Northing>
-            <Longitude>-3.121704677</Longitude>
-            <Latitude>52.219823268</Latitude>
+            <Longitude>-3.121704578</Longitude>
+            <Latitude>52.219818616</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -62140,8 +62572,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:41:30" ModificationDateTime="2025-04-29T16:41:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:53" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:35:43" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5610WDB46696</AtcoCode>
       <NaptanCode>powjpdw</NaptanCode>
       <Descriptor>
@@ -62152,10 +62592,10 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2024-04-26T16:56:53" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2025-04-29T16:34:03" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Hen Eglwys Maesyfed</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2024-04-26T16:56:53" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:53" ModificationDateTime="2025-04-29T16:35:43" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Hen Eglwys Maesyfed</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -62188,8 +62628,16 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:34:03" ModificationDateTime="2025-04-29T16:34:03" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:34" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T16:33:35" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5610WDB46697</AtcoCode>
       <NaptanCode>powjpga</NaptanCode>
       <Descriptor>
@@ -62198,10 +62646,10 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2024-04-26T16:56:34" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2025-04-29T16:32:30" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Crown Inn</CommonName>
         </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2024-04-26T16:56:34" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:34" ModificationDateTime="2025-04-29T16:33:35" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Crown Inn</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -62213,8 +62661,8 @@
             <GridType>UKOS</GridType>
             <Easting>325608</Easting>
             <Northing>259748</Northing>
-            <Longitude>-3.090649202</Longitude>
-            <Latitude>52.230885342</Latitude>
+            <Longitude>-3.090649104</Longitude>
+            <Latitude>52.230880691</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -62234,6 +62682,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T16:32:30" ModificationDateTime="2025-04-29T16:32:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:10" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5610WDB46716</AtcoCode>
@@ -65730,7 +66186,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2011-01-04T20:53:59" ModificationDateTime="2024-04-26T16:56:39" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2011-01-04T20:53:59" ModificationDateTime="2025-04-29T11:07:12" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610WDB48349</AtcoCode>
       <NaptanCode>powmpgt</NaptanCode>
       <Descriptor>
@@ -65739,7 +66195,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:39" ModificationDateTime="2024-04-26T16:56:39" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:39" ModificationDateTime="2025-04-29T11:07:12" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Eglwys Grit Gwyn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:39" ModificationDateTime="2024-04-26T16:56:39" Modification="new">
@@ -65754,8 +66210,8 @@
             <GridType>UKOS</GridType>
             <Easting>331737</Easting>
             <Northing>297509</Northing>
-            <Longitude>-3.008638489</Longitude>
-            <Latitude>52.571102577</Latitude>
+            <Longitude>-3.008638393</Longitude>
+            <Latitude>52.571097951</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -65774,6 +66230,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-04-29T11:02:30" ModificationDateTime="2025-04-29T11:02:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2011-01-04T22:20:24" ModificationDateTime="2024-04-26T16:57:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB48350</AtcoCode>
@@ -69180,7 +69644,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-04-18T16:49:30" ModificationDateTime="2024-04-18T16:49:37" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-04-18T16:49:30" ModificationDateTime="2025-04-29T13:37:41" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5610WDB48439</AtcoCode>
       <NaptanCode>powmwda</NaptanCode>
       <Descriptor>
@@ -69214,15 +69678,21 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-04-18T16:49:38" ModificationDateTime="2024-04-18T16:49:38" Modification="new">
+        <StopValidity CreationDateTime="2024-04-18T16:49:38" ModificationDateTime="2025-04-29T13:34:35" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-04-18</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+        <StopValidity CreationDateTime="2025-04-29T13:34:35" ModificationDateTime="2025-04-29T13:34:35" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-04-18T16:55:02" ModificationDateTime="2024-04-18T16:50:59" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-04-18T16:55:02" ModificationDateTime="2025-04-29T13:46:44" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5610WDB48440</AtcoCode>
       <NaptanCode>powmwdg</NaptanCode>
       <Descriptor>
@@ -69256,9 +69726,15 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-04-18T16:55:02" ModificationDateTime="2024-04-18T16:55:02" Modification="new">
+        <StopValidity CreationDateTime="2024-04-18T16:55:02" ModificationDateTime="2025-04-29T13:44:46" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-04-18</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+        <StopValidity CreationDateTime="2025-04-29T13:44:46" ModificationDateTime="2025-04-29T13:44:46" Modification="new">
+          <DateRange>
+            <StartDate>2025-04-29</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
