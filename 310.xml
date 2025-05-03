@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-03-20T11:13:29.948" ModificationDateTime="2025-03-20T11:13:29.948" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-02T14:31:11.649" ModificationDateTime="2025-05-02T14:31:11.649" Modification="new" RevisionNumber="0" FileName="NaPTAN310.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-04-14T00:00:00.000" ModificationDateTime="2012-04-19T09:04:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3100ALNMOTH0</AtcoCode>
@@ -108738,14 +108738,14 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2009-02-10T12:44:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2025-05-02T14:13:16.705" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3100Z304788</AtcoCode>
 <NaptanCode>nldgjmpm</NaptanCode>
 <PlateCode>Z304788</PlateCode>
 <Descriptor>
 <CommonName>Blagdon Avenue</CommonName>
 <Landmark>Blagdon Avenue</Landmark>
-<Street>South Newsham Road</Street>
+<Street>SOUTH NEWSHAM ROAD</Street>
 <Indicator>opp</Indicator>
 </Descriptor>
 <Place>
@@ -108756,10 +108756,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>430474</Easting>
-<Northing>578889</Northing>
-<Longitude>-1.5239298</Longitude>
-<Latitude>55.1034877</Latitude>
+<Easting>430705</Easting>
+<Northing>579025</Northing>
+<Longitude>-1.520293</Longitude>
+<Latitude>55.10469</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -109218,14 +109218,14 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2009-02-10T12:43:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2003-03-24T00:00:00.000" ModificationDateTime="2025-05-02T14:11:42.318" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3100Z305789</AtcoCode>
 <NaptanCode>nldadwap</NaptanCode>
 <PlateCode>Z305789</PlateCode>
 <Descriptor>
 <CommonName>Blagdon Drive</CommonName>
 <Landmark>Blagdon Drive</Landmark>
-<Street>South Newsham Road</Street>
+<Street>SOUTH NEWSHAM ROAD</Street>
 <Indicator>near</Indicator>
 </Descriptor>
 <Place>
@@ -109236,10 +109236,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>430572</Easting>
-<Northing>578963</Northing>
-<Longitude>-1.5223859</Longitude>
-<Latitude>55.1041467</Latitude>
+<Easting>430702</Easting>
+<Northing>579033</Northing>
+<Longitude>-1.520348</Longitude>
+<Latitude>55.104764</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -124758,7 +124758,7 @@
 </StopClassification>
 <AdministrativeAreaRef>094</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-03-13T12:14:39.504" ModificationDateTime="2025-03-14T11:27:52.552" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2025-03-13T12:14:39.504" ModificationDateTime="2025-05-02T14:28:14.408" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>3100Z304786</AtcoCode>
 <NaptanCode>nldjdgm</NaptanCode>
 <PlateCode>Z304786.NwsmStn</PlateCode>
@@ -124776,6 +124776,80 @@
 <Northing>578863</Northing>
 <Longitude>-1.52403</Longitude>
 <Latitude>55.10325</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>094</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-05-01T09:24:02.063" ModificationDateTime="2025-05-01T09:24:02.063" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3100T988544</AtcoCode>
+<NaptanCode>nldpjdgp</NaptanCode>
+<PlateCode>T988544</PlateCode>
+<Descriptor>
+<CommonName>Loaning Meadows Retail Park</CommonName>
+<Street>Loaning Meadows</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0056417</NptgLocalityRef>
+<Suburb>Berwick Upon Tweed</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>398890</Easting>
+<Northing>654439</Northing>
+<Longitude>-2.0192656</Longitude>
+<Latitude>55.7832616</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>094</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-05-02T14:30:47.128" ModificationDateTime="2025-05-02T14:30:47.128" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3100Z304787</AtcoCode>
+<NaptanCode>nldpjdja</NaptanCode>
+<PlateCode>Z304787</PlateCode>
+<Descriptor>
+<CommonName>Newsham Railway Station</CommonName>
+<Street>South Newsham Road</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0019881</NptgLocalityRef>
+<Suburb>South Newsham</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>430468</Easting>
+<Northing>578863</Northing>
+<Longitude>-1.5240270</Longitude>
+<Latitude>55.1032510</Latitude>
 </Translation>
 </Location>
 </Place>
