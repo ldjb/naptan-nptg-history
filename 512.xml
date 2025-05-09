@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-01T12:25:56.2512866Z" ModificationDateTime="2025-05-01T12:25:56.2512866Z" Modification="new" RevisionNumber="1" FileName="512.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-08T15:35:22.7012935Z" ModificationDateTime="2025-05-08T15:35:22.7012935Z" Modification="new" RevisionNumber="1" FileName="512.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-16T11:53:24" ModificationDateTime="2024-04-16T11:54:57" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5120ABC80775</AtcoCode>
@@ -5483,7 +5483,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-08T16:33:56" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5120AWD71433</AtcoCode>
       <NaptanCode>fliagjp</NaptanCode>
       <Descriptor>
@@ -5494,7 +5494,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:04" ModificationDateTime="2024-04-26T16:20:04" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:20:04" ModificationDateTime="2025-05-08T16:33:07" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Glynne Arms</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:04" ModificationDateTime="2024-04-26T16:20:04" Modification="new">
@@ -5530,6 +5530,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-05-08T16:33:07" ModificationDateTime="2025-05-08T16:33:07" Modification="new">
+          <DateRange>
+            <StartDate>2025-05-08</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:43" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120AWD71434</AtcoCode>
@@ -46982,17 +46990,17 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-08T16:30:45" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22644</AtcoCode>
       <NaptanCode>flimptg</NaptanCode>
       <Descriptor>
         <CommonName>Crown Inn</CommonName>
-        <Landmark>Crown Inn PH</Landmark>
-        <Street>B5121</Street>
+        <Landmark>Crown Inn</Landmark>
+        <Street>Village Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2024-04-26T16:19:54" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2025-05-08T16:30:45" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Crown Inn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2024-04-26T16:19:54" Modification="new">
@@ -47028,6 +47036,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-05-08T16:30:45" ModificationDateTime="2025-05-08T16:30:45" Modification="new">
+          <DateRange>
+            <StartDate>2025-05-08</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:31" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120WDB22847</AtcoCode>
