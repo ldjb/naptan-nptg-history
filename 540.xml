@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-01T12:26:51.9210288Z" ModificationDateTime="2025-05-01T12:26:51.9210288Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-08T12:37:53.6378269Z" ModificationDateTime="2025-05-08T12:37:53.6378269Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-18T15:04:26" ModificationDateTime="2024-04-18T15:04:40" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5400ABC19999</AtcoCode>
@@ -805,60 +805,6 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2003-09-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BANGOR</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:26" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5400ANZ12828</AtcoCode>
-      <NaptanCode>gwnagtg</NaptanCode>
-      <Descriptor>
-        <CommonName>Bala BLR Station</CommonName>
-        <Street>B4403</Street>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:33:26" ModificationDateTime="2024-04-26T16:33:26" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf BLR Bala</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:33:26" ModificationDateTime="2024-04-26T16:33:26" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf BLR Bala</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054264</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>292970</Easting>
-            <Northing>334985</Northing>
-            <Longitude>-3.592674332</Longitude>
-            <Latitude>52.901612940</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>W</CompassPoint>
-                <Degrees>270</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-10T15:00:08" ModificationDateTime="2019-06-10T15:00:08" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-10</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:33" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5400ANZ12829</AtcoCode>
       <NaptanCode>gwngtap</NaptanCode>
@@ -910,61 +856,6 @@
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
       <StopAvailability>
         <StopValidity CreationDateTime="2019-06-10T15:00:19" ModificationDateTime="2019-06-10T15:00:19" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-10</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:29" Modification="revise" RevisionNumber="6" Status="inactive">
-      <AtcoCode>5400ANZ12834</AtcoCode>
-      <NaptanCode>gwnapwt</NaptanCode>
-      <Descriptor>
-        <CommonName>Blaenau Ffestiniog Station</CommonName>
-        <Landmark>Blaenau Ffestiniog Station</Landmark>
-        <Street>The Square</Street>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:33:29" ModificationDateTime="2024-04-26T16:33:29" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Blaenau Ffestiniog</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:33:29" ModificationDateTime="2024-04-26T16:33:29" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Blaenau Ffestiniog</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054958</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>269983</Easting>
-            <Northing>345898</Northing>
-            <Longitude>-3.938611299</Longitude>
-            <Latitude>52.994579470</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>NW</CompassPoint>
-                <Degrees>315</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-10T15:00:30" ModificationDateTime="2019-06-10T15:00:30" Modification="new">
           <DateRange>
             <StartDate>2019-06-10</StartDate>
           </DateRange>
@@ -2192,61 +2083,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:36" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5400AWD70022</AtcoCode>
-      <NaptanCode>gwndptp</NaptanCode>
-      <Descriptor>
-        <CommonName>Bont Fawr</CommonName>
-        <Street>Pen y Cefn Road</Street>
-        <Crossing>Smithfield Street</Crossing>
-        <Indicator>after</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:32:36" ModificationDateTime="2024-04-26T16:32:36" Modification="new">
-          <CommonName xml:lang="CY">Bont Fawr</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:32:36" ModificationDateTime="2024-04-26T16:32:36" Modification="new">
-          <CommonName xml:lang="CY">Bont Fawr</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0037537</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>272812</Easting>
-            <Northing>318043</Northing>
-            <Longitude>-3.885598266</Longitude>
-            <Latitude>52.744996939</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>W</CompassPoint>
-                <Degrees>270</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-17T17:21:37" ModificationDateTime="2023-08-17T17:21:37" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-17</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:37" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5400AWD70116</AtcoCode>
@@ -9678,7 +9514,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-06-16T15:37:13" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-02T16:40:08" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5400AWD70266</AtcoCode>
       <NaptanCode>gwnatwm</NaptanCode>
       <Descriptor>
@@ -9688,7 +9524,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:34:06" ModificationDateTime="2024-04-26T16:34:06" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:34:06" ModificationDateTime="2025-05-02T16:40:08" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pen-y-Bryn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:34:06" ModificationDateTime="2024-04-26T16:34:06" Modification="new">
@@ -9696,7 +9532,7 @@
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0037565</NptgLocalityRef>
+        <NptgLocalityRef>E0054316</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
@@ -12824,61 +12660,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-06-16T15:49:50" Modification="revise" RevisionNumber="6" Status="inactive">
-      <AtcoCode>5400AWD70730</AtcoCode>
-      <NaptanCode>gwndmag</NaptanCode>
-      <Descriptor>
-        <CommonName>Bethesda</CommonName>
-        <Landmark>Capel Bethesda</Landmark>
-        <Street>Manod Road</Street>
-        <Indicator>nr</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:32:35" ModificationDateTime="2024-04-26T16:32:35" Modification="new">
-          <CommonName xml:lang="CY">Bethesda</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:32:35" ModificationDateTime="2024-04-26T16:32:35" Modification="new">
-          <CommonName xml:lang="CY">Bethesda</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0037625</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>270585</Easting>
-            <Northing>344943</Northing>
-            <Longitude>-3.929265072</Longitude>
-            <Latitude>52.986150143</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-                <Degrees>180</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2023-08-08T17:51:04" ModificationDateTime="2023-08-08T17:51:04" Modification="new">
-          <DateRange>
-            <StartDate>2023-08-08</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-06-16T15:49:52" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>5400AWD70731</AtcoCode>
@@ -25329,60 +25110,6 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:31" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5400AWD71787</AtcoCode>
-      <NaptanCode>gwnadjd</NaptanCode>
-      <Descriptor>
-        <CommonName>Aber-Tafol</CommonName>
-        <Street>A493</Street>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:32:31" ModificationDateTime="2024-04-26T16:32:31" Modification="new">
-          <CommonName xml:lang="CY">Aber-Tafol</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:32:31" ModificationDateTime="2024-04-26T16:32:31" Modification="new">
-          <CommonName xml:lang="CY">Aber-Tafol</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054262</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>264843</Easting>
-            <Northing>296944</Northing>
-            <Longitude>-3.994925083</Longitude>
-            <Latitude>52.553508378</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-                <Degrees>90</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2018-06-13T11:56:33" ModificationDateTime="2018-06-13T11:56:33" Modification="new">
-          <DateRange>
-            <StartDate>2018-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:51" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>5400AWD71788</AtcoCode>
       <NaptanCode>gwndpaw</NaptanCode>
@@ -25476,60 +25203,6 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:20" Modification="revise" RevisionNumber="3" Status="inactive">
-      <AtcoCode>5400AWD71790</AtcoCode>
-      <NaptanCode>gwnadaj</NaptanCode>
-      <Descriptor>
-        <CommonName>Aberangell Square Q</CommonName>
-        <Street>Main Road</Street>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:34:20" ModificationDateTime="2024-04-26T16:34:20" Modification="new">
-          <CommonName xml:lang="CY">Sgwar Aberangell</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:34:20" ModificationDateTime="2024-04-26T16:34:20" Modification="new">
-          <CommonName xml:lang="CY">Sgwar Aberangell</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0037424</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>284590</Easting>
-            <Northing>309893</Northing>
-            <Longitude>-3.708344541</Longitude>
-            <Latitude>52.674414129</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-                <Degrees>225</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-05-31T10:28:10" ModificationDateTime="2019-05-31T10:28:10" Modification="new">
-          <DateRange>
-            <StartDate>2019-05-31</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:52" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5400AWD71791</AtcoCode>
@@ -46485,61 +46158,6 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:32" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5400AWP26459</AtcoCode>
-      <NaptanCode>gwngpwg</NaptanCode>
-      <Descriptor>
-        <CommonName>Afon Rhos</CommonName>
-        <Street>Glanffynnon</Street>
-        <Crossing>Afon Rhos</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:32:32" ModificationDateTime="2024-04-26T16:32:32" Modification="new">
-          <CommonName xml:lang="CY">Afon Rhos</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:32:32" ModificationDateTime="2024-04-26T16:32:32" Modification="new">
-          <CommonName xml:lang="CY">Afon Rhos</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054304</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>253566</Easting>
-            <Northing>363308</Northing>
-            <Longitude>-4.190956909</Longitude>
-            <Latitude>53.146731117</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-                <Degrees>225</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-10T16:03:36" ModificationDateTime="2019-06-10T16:03:36" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-10</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:06" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5400AWP26460</AtcoCode>
       <NaptanCode>gwngpwj</NaptanCode>
@@ -64463,60 +64081,6 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:31" Modification="revise" RevisionNumber="5" Status="inactive">
-      <AtcoCode>5400GYX17249</AtcoCode>
-      <NaptanCode>gwnadjg</NaptanCode>
-      <Descriptor>
-        <CommonName>Aber-Tafol</CommonName>
-        <Street>A493</Street>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:32:31" ModificationDateTime="2024-04-26T16:32:31" Modification="new">
-          <CommonName xml:lang="CY">Aber-Tafol</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:32:31" ModificationDateTime="2024-04-26T16:32:31" Modification="new">
-          <CommonName xml:lang="CY">Aber-Tafol</CommonName>
-        </Descriptor>
-      </AlternativeDescriptors>
-      <Place>
-        <NptgLocalityRef>E0054262</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>264809</Easting>
-            <Northing>296921</Northing>
-            <Longitude>-3.995416855</Longitude>
-            <Latitude>52.553293287</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-                <Degrees>225</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2018-06-13T11:52:29" ModificationDateTime="2018-06-13T11:52:29" Modification="new">
-          <DateRange>
-            <StartDate>2018-06-13</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:51" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>5400GYX17250</AtcoCode>
       <NaptanCode>gwndpda</NaptanCode>
@@ -67777,56 +67341,6 @@
       </PlusbusZones>
       <StopAvailability>
         <StopValidity CreationDateTime="2019-06-11T09:30:01" ModificationDateTime="2019-06-11T09:30:01" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-11</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:56" Modification="revise" RevisionNumber="4" Status="inactive">
-      <AtcoCode>5400GYX17365</AtcoCode>
-      <NaptanCode>gwngjwt</NaptanCode>
-      <Descriptor>
-        <CommonName>Bishop`s Mill Road</CommonName>
-        <Street>Penrhyn Avenue</Street>
-        <Crossing>Bishop`s Mill Road</Crossing>
-        <Indicator>not in use</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0037620</NptgLocalityRef>
-        <LocalityCentre>true</LocalityCentre>
-        <Location>
-          <Translation>
-            <GridType>UKOS</GridType>
-            <Easting>258554</Easting>
-            <Northing>371317</Northing>
-            <Longitude>-4.119978976</Longitude>
-            <Latitude>53.220022288</Latitude>
-          </Translation>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>NE</CompassPoint>
-                <Degrees>45</Degrees>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>020</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">BANGOR</PlusbusZoneRef>
-      </PlusbusZones>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-11T09:30:13" ModificationDateTime="2019-06-11T09:30:13" Modification="new">
           <DateRange>
             <StartDate>2019-06-11</StartDate>
           </DateRange>
