@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-04-24T13:43:59.6392947Z" ModificationDateTime="2025-04-24T13:43:59.6392947Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-13T09:13:59.4194372Z" ModificationDateTime="2025-05-13T09:13:59.4194372Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-11T09:08:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580AUD0001</AtcoCode>
@@ -5144,16 +5144,16 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-01-08T15:51:48" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-13T10:08:20" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2580BLA0057</AtcoCode>
       <NaptanCode>bladmdt</NaptanCode>
       <Descriptor>
         <CommonName>Tesco's</CommonName>
-        <Street>Gorse Street</Street>
+        <Street>Carl Fogarty Way</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T07:52:50" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Tesco</CommonName>
           <Landmark>Tesco</Landmark>
           <Street>Gorse Street</Street>
@@ -5167,10 +5167,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369989</Easting>
-            <Northing>428468</Northing>
-            <Longitude>-2.456600055</Longitude>
-            <Latitude>53.751704752</Latitude>
+            <Easting>369961</Easting>
+            <Northing>428333</Northing>
+            <Longitude>-2.457011488</Longitude>
+            <Latitude>53.750489788</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5182,7 +5182,7 @@
             <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
                 <Degrees>315</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -12621,7 +12621,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T07:58:14" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2580BRK0006</AtcoCode>
       <NaptanCode>bladptp</NaptanCode>
       <Descriptor>
@@ -12670,6 +12670,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-05-02T07:58:14" ModificationDateTime="2025-05-02T07:58:14" Modification="new">
+          <DateRange>
+            <StartDate>2025-05-02</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BRK0007</AtcoCode>
@@ -12721,16 +12729,16 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:12:22" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580BRK0008</AtcoCode>
       <NaptanCode>bladpwa</NaptanCode>
       <Descriptor>
-        <CommonName>Notre Dame Gardens</CommonName>
+        <CommonName>Peter Street</CommonName>
         <Street>Whalley Old Road</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:12:22" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Notre Dame Gardens</CommonName>
           <Landmark>Notre Dame Gardens</Landmark>
           <Street>Whalley Old Road</Street>
@@ -12744,10 +12752,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369117</Easting>
-            <Northing>428941</Northing>
-            <Longitude>-2.469871117</Longitude>
-            <Latitude>53.755909346</Latitude>
+            <Easting>369007</Easting>
+            <Northing>428886</Northing>
+            <Longitude>-2.471533766</Longitude>
+            <Latitude>53.755403936</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12973,16 +12981,16 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-06-26T14:20:44" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:09:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BRK0013</AtcoCode>
       <NaptanCode>bladpwp</NaptanCode>
       <Descriptor>
-        <CommonName>Notre Dame Gardens</CommonName>
+        <CommonName>Peter Street</CommonName>
         <Street>Whalley Old Road</Street>
-        <Indicator>opp</Indicator>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-06-26T14:20:44" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:09:28" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Notre Dame Gardens</CommonName>
           <Landmark>Notre Dame Gardens</Landmark>
           <Street>Whalley Old Road</Street>
@@ -12996,10 +13004,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369082</Easting>
-            <Northing>428912</Northing>
-            <Longitude>-2.470399016</Longitude>
-            <Latitude>53.755646620</Latitude>
+            <Easting>369008</Easting>
+            <Northing>428875</Northing>
+            <Longitude>-2.471517492</Longitude>
+            <Latitude>53.755305131</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -13023,7 +13031,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T07:58:44" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2580BRK0014</AtcoCode>
       <NaptanCode>bladpwt</NaptanCode>
       <Descriptor>
@@ -13032,7 +13040,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T07:58:44" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>St Michaels Court</CommonName>
           <Landmark>St Michaels Court</Landmark>
           <Street>Whalley Old Road</Street>
@@ -13072,6 +13080,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-05-02T07:58:44" ModificationDateTime="2025-05-02T07:58:44" Modification="new">
+          <DateRange>
+            <StartDate>2025-05-02</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BRK0015</AtcoCode>
@@ -35182,7 +35198,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2022-04-27T11:19:38" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:13:08" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580INT0009</AtcoCode>
       <NaptanCode>blagpmp</NaptanCode>
       <Descriptor>
@@ -35191,7 +35207,7 @@
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:13:08" Modification="revise" RevisionNumber="1" Status="active">
           <CommonName>Monmouth Road</CommonName>
           <Landmark>Monmouth Road</Landmark>
           <Street>Carluke Street</Street>
@@ -35205,10 +35221,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>370673</Easting>
-            <Northing>428640</Northing>
-            <Longitude>-2.446243848</Longitude>
-            <Latitude>53.753289729</Latitude>
+            <Easting>370665</Easting>
+            <Northing>428666</Northing>
+            <Longitude>-2.446367648</Longitude>
+            <Latitude>53.753522959</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -38549,7 +38565,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:15:47" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580LHW0023</AtcoCode>
       <NaptanCode>blagtma</NaptanCode>
       <Descriptor>
@@ -38558,7 +38574,7 @@
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:15:47" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Tintern Crescent</CommonName>
           <Landmark>Tintern Crescent</Landmark>
           <Street>Whalley Old Road</Street>
@@ -38572,10 +38588,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>369483</Easting>
-            <Northing>429774</Northing>
-            <Longitude>-2.464402962</Longitude>
-            <Latitude>53.763417755</Latitude>
+            <Easting>369476</Easting>
+            <Northing>429754</Northing>
+            <Longitude>-2.464507078</Longitude>
+            <Latitude>53.763233058</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -39462,6 +39478,44 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2012-09-14T12:52:00" ModificationDateTime="2012-09-14T12:52:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-02T08:31:57" ModificationDateTime="2025-05-02T08:30:59" Modification="new" Status="active">
+      <AtcoCode>2580LON0018</AtcoCode>
+      <NaptanCode>blamapd</NaptanCode>
+      <Descriptor>
+        <CommonName>Shops</CommonName>
+        <Street>Manxman Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035231</NptgLocalityRef>
+        <Suburb>Longshaw</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>368173</Easting>
+            <Northing>426113</Northing>
+            <Longitude>-2.483895543</Longitude>
+            <Latitude>53.730430549</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2580MHL0001</AtcoCode>
@@ -40825,17 +40879,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2012-10-23T11:23:00" Modification="revise" RevisionNumber="2" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-13T10:07:05" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580MRG0003</AtcoCode>
       <NaptanCode>blagwjt</NaptanCode>
       <Descriptor>
-        <CommonName>Brown Cow</CommonName>
-        <Landmark>Brown Cow</Landmark>
+        <CommonName>Worsten Avenue</CommonName>
+        <Landmark>Worsten Avenue</Landmark>
         <Street>Livesey Branch Road</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-13T10:07:05" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Brown Cow</CommonName>
           <Landmark>Brown Cow</Landmark>
           <Street>Livesey Branch Road</Street>
@@ -40849,10 +40903,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>367263</Easting>
-            <Northing>425977</Northing>
-            <Longitude>-2.497673925</Longitude>
-            <Latitude>53.729156237</Latitude>
+            <Easting>367342</Easting>
+            <Northing>426016</Northing>
+            <Longitude>-2.496480620</Longitude>
+            <Latitude>53.729507193</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -41092,7 +41146,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:17:05" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580PLG0002</AtcoCode>
       <NaptanCode>blagwpj</NaptanCode>
       <Descriptor>
@@ -41101,7 +41155,7 @@
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:17:05" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Carham Road</CommonName>
           <Landmark>Carham Road</Landmark>
           <Street>Pleckgate Road</Street>
@@ -41115,10 +41169,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>368111</Easting>
-            <Northing>429706</Northing>
-            <Longitude>-2.485207461</Longitude>
-            <Latitude>53.762724123</Latitude>
+            <Easting>368131</Easting>
+            <Northing>429732</Northing>
+            <Longitude>-2.484906703</Longitude>
+            <Latitude>53.762954499</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -43501,7 +43555,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:20:58" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580REV0015</AtcoCode>
       <NaptanCode>blajapw</NaptanCode>
       <Descriptor>
@@ -43510,7 +43564,7 @@
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:20:59" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Red Rake</CommonName>
           <Landmark>Red Rake</Landmark>
           <Street>Revidge Road</Street>
@@ -43524,10 +43578,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>367415</Easting>
-            <Northing>429273</Northing>
-            <Longitude>-2.495718872</Longitude>
-            <Latitude>53.758789244</Latitude>
+            <Easting>367404</Easting>
+            <Northing>429265</Northing>
+            <Longitude>-2.495884781</Longitude>
+            <Latitude>53.758712120</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -51873,7 +51927,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:23:32" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580WSF0008</AtcoCode>
       <NaptanCode>blajmdg</NaptanCode>
       <Descriptor>
@@ -51883,7 +51937,7 @@
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:23:32" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Higher Witton Rd</CommonName>
           <Landmark>Higher Witton Rd</Landmark>
           <Street>Buncer Lane</Street>
@@ -51897,10 +51951,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>366518</Easting>
-            <Northing>427678</Northing>
-            <Longitude>-2.509150247</Longitude>
-            <Latitude>53.744396852</Latitude>
+            <Easting>366513</Easting>
+            <Northing>427706</Northing>
+            <Longitude>-2.509229019</Longitude>
+            <Latitude>53.744643652</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -51924,7 +51978,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:23:07" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580WSF0009</AtcoCode>
       <NaptanCode>blajmdj</NaptanCode>
       <Descriptor>
@@ -51933,7 +51987,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:23:07" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Higher Witton Rd</CommonName>
           <Landmark>Higher Witton Rd</Landmark>
           <Street>Buncer Lane</Street>
@@ -51947,10 +52001,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>366526</Easting>
-            <Northing>427704</Northing>
-            <Longitude>-2.509031778</Longitude>
-            <Latitude>53.744631047</Latitude>
+            <Easting>366519</Easting>
+            <Northing>427718</Northing>
+            <Longitude>-2.509139352</Longitude>
+            <Latitude>53.744751891</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -52580,7 +52634,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:25:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580WSF0022</AtcoCode>
       <NaptanCode>blajmjd</NaptanCode>
       <Descriptor>
@@ -52590,7 +52644,7 @@
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-05-02T08:25:01" Modification="revise" RevisionNumber="1" Status="active">
           <CommonName>Witton Park High School</CommonName>
           <Landmark>Witton Park High School</Landmark>
           <Street>Buncer Lane</Street>
@@ -52604,10 +52658,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>366551</Easting>
-            <Northing>427429</Northing>
-            <Longitude>-2.508622867</Longitude>
-            <Latitude>53.742161044</Latitude>
+            <Easting>366559</Easting>
+            <Northing>427463</Northing>
+            <Longitude>-2.508505188</Longitude>
+            <Latitude>53.742462607</Latitude>
           </Translation>
         </Location>
       </Place>
