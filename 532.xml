@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-08T12:42:01.8482588Z" ModificationDateTime="2025-05-08T12:42:01.8482588Z" Modification="new" RevisionNumber="1" FileName="532.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-15T12:32:17.4026689Z" ModificationDateTime="2025-05-15T12:32:17.4026689Z" Modification="new" RevisionNumber="1" FileName="532.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:50:51" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5320ANZ16837</AtcoCode>
@@ -49,7 +49,7 @@
       </StopClassification>
       <AdministrativeAreaRef>004</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:50:52" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-14T14:15:47" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>5320AWA16979</AtcoCode>
       <NaptanCode>blgaptj</NaptanCode>
       <Descriptor>
@@ -61,7 +61,7 @@
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:50:52" ModificationDateTime="2024-04-26T15:50:52" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:50:52" ModificationDateTime="2025-05-14T14:15:47" Modification="revise" RevisionNumber="5">
           <CommonName xml:lang="CY">Morrisons</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T15:50:52" ModificationDateTime="2024-04-26T15:50:52" Modification="new">
@@ -74,10 +74,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>315831</Easting>
-            <Northing>211191</Northing>
-            <Longitude>-3.221817908</Longitude>
-            <Latitude>51.793015833</Latitude>
+            <Easting>315835</Easting>
+            <Northing>211164</Northing>
+            <Longitude>-3.221753262</Longitude>
+            <Latitude>51.792769052</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -89,7 +89,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>SW</CompassPoint>
                 <Degrees>45</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -97,6 +97,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>004</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-05-14T14:15:47" ModificationDateTime="2025-05-14T14:15:47" Modification="new">
+          <DateRange>
+            <StartDate>2025-05-14</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:51:15" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5320AWA17064</AtcoCode>
@@ -9091,7 +9099,7 @@
       </StopClassification>
       <AdministrativeAreaRef>004</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:50:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-14T11:47:00" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5320AWB32774</AtcoCode>
       <NaptanCode>blgamja</NaptanCode>
       <Descriptor>
@@ -9101,7 +9109,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:50:54" ModificationDateTime="2024-04-26T15:50:54" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:50:54" ModificationDateTime="2025-05-14T11:47:00" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont Cwm</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T15:50:54" ModificationDateTime="2024-04-26T15:50:54" Modification="new">
@@ -9114,10 +9122,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>318540</Easting>
-            <Northing>205441</Northing>
-            <Longitude>-3.181197419</Longitude>
-            <Latitude>51.741729937</Latitude>
+            <Easting>318556</Easting>
+            <Northing>205420</Northing>
+            <Longitude>-3.180960720</Longitude>
+            <Latitude>51.741538808</Latitude>
           </Translation>
         </Location>
       </Place>
