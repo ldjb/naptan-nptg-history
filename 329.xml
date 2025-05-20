@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN CreationDateTime="2025-05-13T04:49:14" ModificationDateTime="2025-05-13T04:49:14" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\City of York\2025-05-13 - 1267\NaPTAN329.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
+<NaPTAN CreationDateTime="2025-05-19T09:21:52" ModificationDateTime="2025-05-19T09:21:52" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\City of York\2025-05-19 - 1273\NaPTAN329.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T12:00:00" ModificationDateTime="2019-01-31T12:00:00" RevisionNumber="0" Status="active">
       <AtcoCode>3290YYA00000</AtcoCode>
@@ -2470,6 +2470,259 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-14T12:00:00" ModificationDateTime="2025-05-14T03:00:35" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03702</AtcoCode>
+      <NaptanCode>32903702</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>The Conifers</CommonName>
+        <ShortCommonName>The Conifers</ShortCommonName>
+        <Landmark>The Conifers</Landmark>
+        <Street>Wheldrake Lane</Street>
+        <Crossing>The Conifers</Crossing>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053920</NptgLocalityRef>
+        <Suburb>Elvington</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>468737</Easting>
+            <Northing>448141</Northing>
+            <Longitude>-0.954757443</Longitude>
+            <Latitude>53.924852607</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-14T12:00:00" ModificationDateTime="2025-05-14T03:04:15" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03703</AtcoCode>
+      <NaptanCode>32903703</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Scout Hut</CommonName>
+        <ShortCommonName>Scout Hut</ShortCommonName>
+        <Landmark>Allenby House</Landmark>
+        <Street>Wheldrake Lane</Street>
+        <Indicator>03703</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053920</NptgLocalityRef>
+        <Suburb>Elvington</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>468740</Easting>
+            <Northing>448088</Northing>
+            <Longitude>-0.954723664</Longitude>
+            <Latitude>53.924375938</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-14T12:00:00" ModificationDateTime="2025-05-14T03:05:48" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03704</AtcoCode>
+      <NaptanCode>32903704</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Elvington Fisheries</CommonName>
+        <ShortCommonName>Elvington Fisheries</ShortCommonName>
+        <Landmark>Elvington Fisheries</Landmark>
+        <Street>Wheldrake Lane</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053920</NptgLocalityRef>
+        <Suburb>Elvington</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>468422</Easting>
+            <Northing>446973</Northing>
+            <Longitude>-0.959814283</Longitude>
+            <Latitude>53.914398258</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-14T12:00:00" ModificationDateTime="2025-05-14T03:07:15" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03705</AtcoCode>
+      <NaptanCode>32903705</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>The Old Gatehouse</CommonName>
+        <ShortCommonName>The Old Gatehouse</ShortCommonName>
+        <Landmark>N/A</Landmark>
+        <Street>Wheldrake Lane</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053920</NptgLocalityRef>
+        <Suburb>Elvington</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>468439</Easting>
+            <Northing>446906</Northing>
+            <Longitude>-0.959570482</Longitude>
+            <Latitude>53.913793935</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-14T12:00:00" ModificationDateTime="2025-05-14T03:08:33" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03706</AtcoCode>
+      <NaptanCode>32903706</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Pool Bridge Farm</CommonName>
+        <ShortCommonName>Pool Bridge Farm</ShortCommonName>
+        <Landmark>N/A</Landmark>
+        <Street>Wheldrake Lane</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043584</NptgLocalityRef>
+        <Suburb>Crockey Hill</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>464150</Easting>
+            <Northing>446192</Northing>
+            <Longitude>-1.025004891</Longitude>
+            <Latitude>53.907925360</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>068</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-05-14T12:00:00" ModificationDateTime="2025-05-14T03:10:01" RevisionNumber="0" Status="active">
+      <AtcoCode>3290YYA03707</AtcoCode>
+      <NaptanCode>32903707</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Pool Bridge Farm</CommonName>
+        <ShortCommonName>Pool Bridge Farm</ShortCommonName>
+        <Landmark>Pool Bridge Farm</Landmark>
+        <Street>Wheldrake Lane</Street>
+        <Indicator>03707</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043584</NptgLocalityRef>
+        <Suburb>Crockey Hill</Suburb>
+        <Town>York</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>464137</Easting>
+            <Northing>446184</Northing>
+            <Longitude>-1.025204417</Longitude>
+            <Latitude>53.907855074</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -43277,8 +43530,8 @@
       <NaptanCode>32901025</NaptanCode>
       <PlateCode>1025</PlateCode>
       <Descriptor>
-        <CommonName>Yorkshire Air Museum</CommonName>
-        <ShortCommonName>Air Museum</ShortCommonName>
+        <CommonName>Halifax Way</CommonName>
+        <ShortCommonName>Halifax Way</ShortCommonName>
         <Landmark>Yorkshire Air Museum</Landmark>
         <Street>Elvington Lane</Street>
         <Crossing>Halifax Way</Crossing>
@@ -43286,8 +43539,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053920</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Elvington</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -43323,8 +43576,8 @@
       <NaptanCode>32901026</NaptanCode>
       <PlateCode>1026</PlateCode>
       <Descriptor>
-        <CommonName>Yorkshire Air Museum</CommonName>
-        <ShortCommonName>Air Museum</ShortCommonName>
+        <CommonName>Halifax Way</CommonName>
+        <ShortCommonName>Halifax Way</ShortCommonName>
         <Landmark>Yorkshire Air Museum</Landmark>
         <Street>Elvington Lane</Street>
         <Crossing>Halifax Way</Crossing>
@@ -43332,8 +43585,8 @@
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053920</NptgLocalityRef>
-        <Suburb>N/A</Suburb>
-        <Town>N/A</Town>
+        <Suburb>Elvington</Suburb>
+        <Town>York</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
