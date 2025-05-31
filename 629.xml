@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-04-11T11:28:27.755" ModificationDateTime="2025-04-11T11:28:27.755" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-05-30T09:58:18.663" ModificationDateTime="2025-05-30T09:58:18.663" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-10-29T00:00:00.000" ModificationDateTime="2010-05-20T11:35:26.000" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>629028120</AtcoCode>
@@ -45122,6 +45122,78 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-05-30T09:51:57.862" ModificationDateTime="2025-05-30T09:51:57.862" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>62903MT05</AtcoCode>
+<NaptanCode>9562369</NaptanCode>
+<Descriptor>
+<CommonName>Twelvemile Lodge</CommonName>
+<Street>B9080</Street>
+<Indicator>after</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067348</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>307102</Easting>
+<Northing>675457</Northing>
+<Longitude>-3.4896911</Longitude>
+<Latitude>55.9630966</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-05-30T09:54:02.946" ModificationDateTime="2025-05-30T09:54:02.946" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>62903MT06</AtcoCode>
+<NaptanCode>95623670</NaptanCode>
+<Descriptor>
+<CommonName>Twelvemile Lodge</CommonName>
+<Street>B9080</Street>
+<Indicator>before</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067348</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>307096</Easting>
+<Northing>675448</Northing>
+<Longitude>-3.4897841</Longitude>
+<Latitude>55.9630146</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
