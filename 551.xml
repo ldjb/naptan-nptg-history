@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-29T12:24:01.449521Z" ModificationDateTime="2025-05-29T12:24:01.449521Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-05T12:33:15.8563063Z" ModificationDateTime="2025-06-05T12:33:15.8563063Z" Modification="new" RevisionNumber="1" FileName="551.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:32" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5510ANZ12854</AtcoCode>
@@ -57,7 +57,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:31" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-03T15:22:18" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5510ANZ12855</AtcoCode>
       <NaptanCode>bregdtw</NaptanCode>
       <Descriptor>
@@ -68,7 +68,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:52:31" ModificationDateTime="2024-04-26T15:52:31" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:52:31" ModificationDateTime="2025-06-03T14:40:04" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Croesfan Caedu</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T15:52:31" ModificationDateTime="2024-04-26T15:52:31" Modification="new">
@@ -81,10 +81,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>293321</Easting>
-            <Northing>189616</Northing>
-            <Longitude>-3.541484571</Longitude>
-            <Latitude>51.595257623</Latitude>
+            <Easting>293331</Easting>
+            <Northing>189539</Northing>
+            <Longitude>-3.541316715</Longitude>
+            <Latitude>51.594562743</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -107,6 +107,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-03T15:22:18" ModificationDateTime="2025-06-03T15:22:18" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-03</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:53:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5510ANZ12856</AtcoCode>
@@ -25192,22 +25200,19 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BRGEND</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:58" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-03T11:34:25" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5510AWA13120</AtcoCode>
       <NaptanCode>breapdt</NaptanCode>
       <Descriptor>
-        <CommonName>Sarn Sainsbury</CommonName>
+        <CommonName xml:lang="CY">Sarn Sainsbury's</CommonName>
         <Landmark>Sarn Sainsbury</Landmark>
         <Street>A4061</Street>
         <Crossing>A4063</Crossing>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:52:58" ModificationDateTime="2024-04-26T15:52:58" Modification="new">
-          <CommonName xml:lang="CY">Sarn Sainsbury</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T15:52:58" ModificationDateTime="2024-04-26T15:52:58" Modification="new">
-          <CommonName xml:lang="CY">Sarn Sainsbury</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T15:52:58" ModificationDateTime="2025-06-03T11:34:25" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Sarn Sainsbury's</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -25251,22 +25256,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T15:52:58" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-03T11:35:30" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5510AWA13121</AtcoCode>
       <NaptanCode>breapdw</NaptanCode>
       <Descriptor>
-        <CommonName>Sarn Sainsbury</CommonName>
+        <CommonName>Sarn Sainsbury's</CommonName>
         <Landmark>Sarn Sainsbury</Landmark>
         <Street>A4061</Street>
         <Crossing>A4063</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:52:58" ModificationDateTime="2024-04-26T15:52:58" Modification="new">
-          <CommonName xml:lang="CY">Sarn Sainsbury</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T15:52:58" ModificationDateTime="2024-04-26T15:52:58" Modification="new">
-          <CommonName xml:lang="CY">Sarn Sainsbury</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T15:52:58" ModificationDateTime="2025-06-03T11:35:30" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Sarn Sainsbury's</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
