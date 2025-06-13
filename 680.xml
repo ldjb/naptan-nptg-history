@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2024-12-18T14:51:45.291" ModificationDateTime="2024-12-18T14:51:45.291" Modification="new" RevisionNumber="0" FileName="NaPTAN680.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-06-11T17:09:00.653" ModificationDateTime="2025-06-11T17:09:00.653" Modification="new" RevisionNumber="0" FileName="NaPTAN680.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-05-31T00:00:00.000" ModificationDateTime="2015-11-17T14:40:00.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>680000622222</AtcoCode>
@@ -58896,14 +58896,14 @@
 </StopAreas>
 <AdministrativeAreaRef>118</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-05-28T00:00:00.000" ModificationDateTime="2009-06-22T11:53:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-05-28T00:00:00.000" ModificationDateTime="2025-01-16T12:15:23.688" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>680000386222</AtcoCode>
 <NaptanCode>34232989</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Hill Court</CommonName>
 <Landmark xml:lang="en">Hill Court</Landmark>
 <Street xml:lang="en">Alexandra Drive</Street>
-<Indicator xml:lang="en">enteance</Indicator>
+<Indicator xml:lang="en">entrance</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002459</NptgLocalityRef>
@@ -75418,7 +75418,7 @@
 </StopClassification>
 <AdministrativeAreaRef>118</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-01T00:00:00.000" ModificationDateTime="2006-07-03T12:49:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2003-06-01T00:00:00.000" ModificationDateTime="2025-02-07T13:59:15.353" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>680000135507</AtcoCode>
 <NaptanCode>34232359</NaptanCode>
 <Descriptor>
@@ -87786,6 +87786,78 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>SW</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-05-09T10:51:49.624" ModificationDateTime="2025-05-09T10:58:42.470" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>680000036555</AtcoCode>
+<NaptanCode>34232500</NaptanCode>
+<Descriptor>
+<CommonName>Shawhead Primary School</CommonName>
+<Street>Shawhead Primary School</Street>
+<Indicator>opp school</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001098</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>287166</Easting>
+<Northing>575868</Northing>
+<Longitude>-3.7683091</Longitude>
+<Latitude>55.0644219</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-05-09T10:57:15.261" ModificationDateTime="2025-05-09T10:57:15.261" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>680000036666</AtcoCode>
+<NaptanCode>34232600</NaptanCode>
+<Descriptor>
+<CommonName>Shawhead Primary School</CommonName>
+<Street>Shawhead Primary School</Street>
+<Indicator>at school</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001098</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>287153</Easting>
+<Northing>575884</Northing>
+<Longitude>-3.7685189</Longitude>
+<Latitude>55.0645626</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
