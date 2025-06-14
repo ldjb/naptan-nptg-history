@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created by Omnibus OmniFLAG (4.0.58.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2024-11-18T08:37:00.0643715Z" ModificationDateTime="2024-11-18T08:37:00.0643715Z" Modification="new" RevisionNumber="1" FileName="259.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<!--Created by Omnibus OmniFLAG (4.0.84.0)-->
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-13T11:25:42.5517655Z" ModificationDateTime="2025-06-13T11:25:42.5517655Z" Modification="new" RevisionNumber="1" FileName="259.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2013-12-18T11:31:00" Modification="delete" RevisionNumber="5" Status="inactive">
       <AtcoCode>2590B0001</AtcoCode>
@@ -41803,6 +41803,44 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>003</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-13T12:25:08" ModificationDateTime="2025-06-13T12:24:14" Modification="new" Status="active">
+      <AtcoCode>2590BTA01340</AtcoCode>
+      <NaptanCode>blpamtaw</NaptanCode>
+      <Descriptor>
+        <CommonName>Redwood Point</CommonName>
+        <Landmark>Redwood Point</Landmark>
+        <Street>Progress Way</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035277</NptgLocalityRef>
+        <Suburb>Highfield</Suburb>
+        <Town>Blackpool</Town>
+        <Location>
+          <Translation>
+            <Easting>333127</Easting>
+            <Northing>432380</Northing>
+            <Longitude>-3.016396090</Longitude>
+            <Latitude>53.783426592</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
