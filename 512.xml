@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-05T12:40:00.614764Z" ModificationDateTime="2025-06-05T12:40:00.614764Z" Modification="new" RevisionNumber="1" FileName="512.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-12T12:47:15.8115512Z" ModificationDateTime="2025-06-12T12:47:15.8115512Z" Modification="new" RevisionNumber="1" FileName="512.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-16T11:53:24" ModificationDateTime="2024-04-16T11:54:57" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5120ABC80775</AtcoCode>
@@ -425,6 +425,352 @@
             <StartDate>2024-07-18</StartDate>
           </DateRange>
           <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T13:13:59" ModificationDateTime="2025-06-10T13:23:33" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>5120ABC80785</AtcoCode>
+      <NaptanCode>flipagw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Rose &amp; Crown</CommonName>
+        <Landmark xml:lang="EN">Rose &amp; Crown PH</Landmark>
+        <Street xml:lang="EN">A5119</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037347</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>325483</Easting>
+            <Northing>365455</Northing>
+            <Longitude>-3.116475283</Longitude>
+            <Latitude>53.180952067</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T13:13:59" ModificationDateTime="2025-06-10T13:13:59" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T13:28:06" ModificationDateTime="2025-06-10T13:41:59" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5120ABC80786</AtcoCode>
+      <NaptanCode>flipaja</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Crosstree Lane</CommonName>
+        <Street xml:lang="EN">Glynne Way</Street>
+        <Crossing>Crosstree Lane</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0075637</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>331693</Easting>
+            <Northing>365721</Northing>
+            <Longitude>-3.023627184</Longitude>
+            <Latitude>53.184177425</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T13:28:06" ModificationDateTime="2025-06-10T13:28:06" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T13:47:59" ModificationDateTime="2025-06-10T13:52:14" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>5120ABC80787</AtcoCode>
+      <NaptanCode>flipajd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Deeside Industrial Park</CommonName>
+        <Landmark xml:lang="EN">Deeside Industrial Park 1</Landmark>
+        <Street xml:lang="EN">Welsh Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037297</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>333648</Easting>
+            <Northing>370628</Northing>
+            <Longitude>-2.995398527</Longitude>
+            <Latitude>53.228526862</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T13:47:59" ModificationDateTime="2025-06-10T13:47:59" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T13:55:36" ModificationDateTime="2025-06-10T13:59:50" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5120ABC80788</AtcoCode>
+      <NaptanCode>flipajg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Flint Railway Station</CommonName>
+        <Landmark xml:lang="EN">Flint Railway Station</Landmark>
+        <Street xml:lang="EN">Yard</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054233</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>324508</Easting>
+            <Northing>373118</Northing>
+            <Longitude>-3.132877416</Longitude>
+            <Latitude>53.249682437</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T13:55:36" ModificationDateTime="2025-06-10T13:55:36" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T14:03:49" ModificationDateTime="2025-06-10T14:08:44" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>5120ABC80789</AtcoCode>
+      <NaptanCode>flipajm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Flaxfield</CommonName>
+        <Street xml:lang="EN">Narrow Lane</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0075629</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>317010</Easting>
+            <Northing>375078</Northing>
+            <Longitude>-3.245735999</Longitude>
+            <Latitude>53.266175402</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T14:03:49" ModificationDateTime="2025-06-10T14:03:49" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T14:12:34" ModificationDateTime="2025-06-10T14:19:43" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5120ABC80790</AtcoCode>
+      <NaptanCode>flipajp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Sandycroft School</CommonName>
+        <Landmark xml:lang="EN">Sandycroft School</Landmark>
+        <Street xml:lang="EN">Leaches Lane</Street>
+        <Crossing xml:lang="EN">Rector`s Lane</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0071207</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>332552</Easting>
+            <Northing>367407</Northing>
+            <Longitude>-3.011131551</Longitude>
+            <Latitude>53.199440069</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T14:12:34" ModificationDateTime="2025-06-10T14:12:34" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T14:23:15" ModificationDateTime="2025-06-10T14:26:35" Modification="revise" RevisionNumber="4" Status="inactive">
+      <AtcoCode>5120ABC80791</AtcoCode>
+      <NaptanCode>flipajt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Pinfold Industrial Estate</CommonName>
+        <Landmark>Pinfold Industrial Estate</Landmark>
+        <Street xml:lang="EN">The Willow</Street>
+        <Crossing xml:lang="EN">Brookhill Way</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037239</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>327635</Easting>
+            <Northing>365154</Northing>
+            <Longitude>-3.084212459</Longitude>
+            <Latitude>53.178544351</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T14:23:15" ModificationDateTime="2025-06-10T14:23:15" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-10T14:30:17" ModificationDateTime="2025-06-10T14:32:54" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5120ABC80792</AtcoCode>
+      <NaptanCode>flipajw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Liverpool Road PO</CommonName>
+        <Landmark xml:lang="EN">Liverpool Road Post Office</Landmark>
+        <Street xml:lang="EN">Ewloe Place</Street>
+        <Crossing xml:lang="EN">Liverpool Road</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054229</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>328120</Easting>
+            <Northing>364864</Northing>
+            <Longitude>-3.076891792</Longitude>
+            <Latitude>53.176003863</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>019</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T14:30:17" ModificationDateTime="2025-06-10T14:30:17" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -1570,7 +1916,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120AWD71280</AtcoCode>
       <NaptanCode>fliadwg</NaptanCode>
       <Descriptor>
@@ -1581,8 +1927,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Matthew</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Mathew</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Matthew</CommonName>
@@ -4890,7 +5236,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-06T13:17:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWD71420</AtcoCode>
       <NaptanCode>flidpga</NaptanCode>
       <Descriptor>
@@ -4901,8 +5247,8 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ioan Fedyddwir</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ioan Fedyddwyr</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ioan Fedyddwir</CommonName>
@@ -5590,7 +5936,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120AWD71435</AtcoCode>
       <NaptanCode>flidgmp</NaptanCode>
       <Descriptor>
@@ -5602,8 +5948,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ffransis</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ffransis</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ffransis</CommonName>
@@ -5878,7 +6224,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120AWF80429</AtcoCode>
       <NaptanCode>fliadaj</NaptanCode>
       <Descriptor>
@@ -5888,8 +6234,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Caergwrle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
@@ -6071,7 +6417,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80433</AtcoCode>
       <NaptanCode>flidajp</NaptanCode>
       <Descriptor>
@@ -6083,8 +6429,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Cynfarch</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Cynfarch</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Cynfarch</CommonName>
@@ -7028,7 +7374,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-11T15:34:43" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120AWF80454</AtcoCode>
       <NaptanCode>fliawdt</NaptanCode>
       <Descriptor>
@@ -7039,8 +7385,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-05-11T15:34:43" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Heol y wern</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Heol y Wern</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
           <CommonName xml:lang="CY">Heol y wern</CommonName>
@@ -10901,7 +11247,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-08T10:27:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120AWF80584</AtcoCode>
       <NaptanCode>flidawj</NaptanCode>
       <Descriptor>
@@ -10911,8 +11257,8 @@
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-05-08T10:27:04" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Bwcle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-05-08T10:27:04" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
@@ -11671,7 +12017,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5120AWF80601</AtcoCode>
       <NaptanCode>fliawmd</NaptanCode>
       <Descriptor>
@@ -11682,8 +12028,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Penarlag</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Penarlag</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Penarlag</CommonName>
@@ -12433,7 +12779,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:23" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80619</AtcoCode>
       <NaptanCode>fliawpt</NaptanCode>
       <Descriptor>
@@ -12443,8 +12789,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:23" ModificationDateTime="2024-04-26T16:20:23" Modification="new">
-          <CommonName xml:lang="CY">Pont reilffordd Aston</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:23" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Pont Reilffordd Aston</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:23" ModificationDateTime="2024-04-26T16:20:23" Modification="new">
           <CommonName xml:lang="CY">Pont reilffordd Aston</CommonName>
@@ -12989,7 +13335,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80631</AtcoCode>
       <NaptanCode>fliadpm</NaptanCode>
       <Descriptor>
@@ -12999,8 +13345,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
-          <CommonName xml:lang="CY">Croesffyrdd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Croesffyrdd y Gogledd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
           <CommonName xml:lang="CY">Croesffyrdd</CommonName>
@@ -13081,7 +13427,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80633</AtcoCode>
       <NaptanCode>fliadpt</NaptanCode>
       <Descriptor>
@@ -13091,8 +13437,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2024-04-26T16:19:54" Modification="new">
-          <CommonName xml:lang="CY">Croesffyrdd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Croesffyrdd De</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2024-04-26T16:19:54" Modification="new">
           <CommonName xml:lang="CY">Croesffyrdd</CommonName>
@@ -13327,7 +13673,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-08T11:46:33" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5120AWF80638</AtcoCode>
       <NaptanCode>flidgmj</NaptanCode>
       <Descriptor>
@@ -13339,8 +13685,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ffransis</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ffransis</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ffransis</CommonName>
@@ -15985,7 +16331,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80704</AtcoCode>
       <NaptanCode>fliawtp</NaptanCode>
       <Descriptor>
@@ -15997,8 +16343,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ethelwold</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ethelwold</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ethelwold</CommonName>
@@ -17455,7 +17801,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:59" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80743</AtcoCode>
       <NaptanCode>flidtaj</NaptanCode>
       <Descriptor>
@@ -17466,8 +17812,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Paul</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Paul</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Paul</CommonName>
@@ -18035,7 +18381,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80755</AtcoCode>
       <NaptanCode>fliagmd</NaptanCode>
       <Descriptor>
@@ -18044,8 +18390,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
-          <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gogledd Croesffordd Brynffordd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
           <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
@@ -18403,7 +18749,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:10" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80765</AtcoCode>
       <NaptanCode>flidgdm</NaptanCode>
       <Descriptor>
@@ -18413,8 +18759,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
-          <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Hen Swyddfa Bost</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
           <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
@@ -18498,7 +18844,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-07-18T16:33:30" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120AWF80767</AtcoCode>
       <NaptanCode>fliatpd</NaptanCode>
       <Descriptor>
@@ -18508,8 +18854,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:01" ModificationDateTime="2024-04-26T16:20:01" Modification="new">
-          <CommonName xml:lang="CY">fferm yr Orsedd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:01" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Fferm yr Orsedd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:01" ModificationDateTime="2024-07-18T16:33:30" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">fferm yr Orsedd</CommonName>
@@ -18609,7 +18955,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:10" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80769</AtcoCode>
       <NaptanCode>flidjdg</NaptanCode>
       <Descriptor>
@@ -18620,8 +18966,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
-          <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Hen Swyddfa Bost</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
           <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
@@ -20368,7 +20714,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80810</AtcoCode>
       <NaptanCode>flidadt</NaptanCode>
       <Descriptor>
@@ -20379,8 +20725,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Iago</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Iago</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Iago</CommonName>
@@ -22737,7 +23083,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:47" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF80966</AtcoCode>
       <NaptanCode>fliapgd</NaptanCode>
       <Descriptor>
@@ -22747,8 +23093,8 @@
         <Indicator>o/s Church</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:47" ModificationDateTime="2024-04-26T16:19:47" Modification="new">
-          <CommonName xml:lang="CY">Bythynoedd Dovey</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:47" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Bythynnod Dovey</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:47" ModificationDateTime="2024-04-26T16:19:47" Modification="new">
           <CommonName xml:lang="CY">Bythynoedd Dovey</CommonName>
@@ -25026,7 +25372,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-01-26T00:00:00" Modification="new" RevisionNumber="0" Status="active">FLINT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:37" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120AWF81012</AtcoCode>
       <NaptanCode>flidmpw</NaptanCode>
       <Descriptor>
@@ -25037,8 +25383,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:37" ModificationDateTime="2024-04-26T16:20:37" Modification="new">
-          <CommonName xml:lang="CY">Ysgol St Richard Gwyn </CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:37" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Ysgol Sant Richard Gwyn </CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:37" ModificationDateTime="2024-04-26T16:20:37" Modification="new">
           <CommonName xml:lang="CY">Ysgol St Richard Gwyn </CommonName>
@@ -25722,7 +26068,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:15:34" ModificationDateTime="2024-05-11T17:16:51" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:15:34" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120BCKY0</AtcoCode>
       <Descriptor>
         <CommonName>Buckley Rail Station</CommonName>
@@ -25730,8 +26076,8 @@
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-05-11T17:16:51" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Bwcle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-05-11T17:16:51" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
@@ -25760,7 +26106,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:15:58" ModificationDateTime="2024-05-11T17:16:52" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:15:58" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120BCKY1</AtcoCode>
       <Descriptor>
         <CommonName>Buckley Rail Station</CommonName>
@@ -25768,8 +26114,8 @@
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-05-11T17:16:52" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Bwcle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-05-11T17:16:52" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Gorsaf reilffordd Bwcle</CommonName>
@@ -25798,7 +26144,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:18:42" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:18:42" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120CAERGWL0</AtcoCode>
       <Descriptor>
         <CommonName>Caergwrle Rail Station</CommonName>
@@ -25806,8 +26152,8 @@
         <Indicator>South Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Caergwrle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
@@ -25839,7 +26185,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:18:42" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:19:10" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:19:10" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120CAERGWL1</AtcoCode>
       <Descriptor>
         <CommonName>Caergwrle Rail Station</CommonName>
@@ -25847,8 +26193,8 @@
         <Indicator>North Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Caergwrle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
@@ -25880,7 +26226,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:19:10" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:20:47" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:20:47" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120CEFNYBD0</AtcoCode>
       <Descriptor>
         <CommonName>Cefn-y-Bedd Rail Station</CommonName>
@@ -25888,8 +26234,8 @@
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Cefn-y-Bedd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Cefn-y-Bedd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Cefn-y-Bedd</CommonName>
@@ -25962,7 +26308,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:24:04" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:24:04" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120FLINT0</AtcoCode>
       <Descriptor>
         <CommonName>Flint Rail Station (Main Entrance)</CommonName>
@@ -25970,8 +26316,8 @@
         <Indicator>Main Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd y Fflint</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd y Fflint</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd y Fflint</CommonName>
@@ -26003,7 +26349,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:24:04" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">FLINT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:24:32" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:24:32" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120FLINT1</AtcoCode>
       <Descriptor>
         <CommonName>Flint Rail Station</CommonName>
@@ -26011,8 +26357,8 @@
         <Indicator>North Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd y Fflint</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd y Fflint</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd y Fflint</CommonName>
@@ -26044,7 +26390,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:24:32" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">FLINT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:25:10" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:25:10" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120FLINT2</AtcoCode>
       <Descriptor>
         <CommonName>Flint Rail Station</CommonName>
@@ -26052,8 +26398,8 @@
         <Indicator>Side Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd y Fflint</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd y Fflint</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd y Fflint</CommonName>
@@ -27073,7 +27419,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-07-31T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-11T17:48:10" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5120FLX17049</AtcoCode>
       <NaptanCode>fliajpt</NaptanCode>
       <Descriptor>
@@ -27082,8 +27428,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:20" ModificationDateTime="2024-05-11T17:48:10" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Parc Diwydiannol Glannau Dyfrdwy</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:20" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Iceland Parc Diwydiannol Glannau Dyfrdwy</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:20" ModificationDateTime="2024-05-11T17:48:10" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Parc Diwydiannol Glannau Dyfrdwy</CommonName>
@@ -27603,7 +27949,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120FLX17069</AtcoCode>
       <NaptanCode>flidjmw</NaptanCode>
       <Descriptor>
@@ -27614,8 +27960,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ioan</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ioan</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ioan</CommonName>
@@ -28674,7 +29020,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-13T12:42:59" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120FLX17099</AtcoCode>
       <NaptanCode>fliatdj</NaptanCode>
       <Descriptor>
@@ -28684,8 +29030,8 @@
         <Indicator>opp junction</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:34" ModificationDateTime="2024-04-26T16:20:34" Modification="new">
-          <CommonName xml:lang="CY">Y Gerddi </CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:34" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Y Gerddi Dwyrain</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:34" ModificationDateTime="2024-04-26T16:20:34" Modification="new">
           <CommonName xml:lang="CY">Y Gerddi </CommonName>
@@ -28876,7 +29222,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">FLINT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:21" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120FLX17104</AtcoCode>
       <NaptanCode>fliagtj</NaptanCode>
       <Descriptor>
@@ -28886,8 +29232,8 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:21" ModificationDateTime="2024-04-26T16:20:21" Modification="new">
-          <CommonName xml:lang="CY">Parc St Matthew</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:21" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Parc Sant Mathew</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:21" ModificationDateTime="2024-04-26T16:20:21" Modification="new">
           <CommonName xml:lang="CY">Parc St Matthew</CommonName>
@@ -29405,7 +29751,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:26:28" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:26:28" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120HAWARDN0</AtcoCode>
       <Descriptor>
         <CommonName>Hawarden Rail Station</CommonName>
@@ -29413,8 +29759,8 @@
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Penarlag</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Penarlag</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Penarlag</CommonName>
@@ -29443,7 +29789,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:34:26" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:34:26" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120HAWDNBG0</AtcoCode>
       <Descriptor>
         <CommonName>Hawarden Bridge Rail Station</CommonName>
@@ -29451,8 +29797,8 @@
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Pont Penarlag</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Pont Penarlag</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Pont Penarlag</CommonName>
@@ -29484,7 +29830,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:34:26" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:35:07" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:35:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120HAWDNBG1</AtcoCode>
       <Descriptor>
         <CommonName>Hawarden Bridge Rail Station</CommonName>
@@ -29492,8 +29838,8 @@
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Pont Penarlag</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Pont Penarlag</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Pont Penarlag</CommonName>
@@ -29525,7 +29871,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:35:07" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:36:08" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:36:08" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120HOPC0</AtcoCode>
       <Descriptor>
         <CommonName>Hope (Flintshire) Rail Station</CommonName>
@@ -29533,8 +29879,8 @@
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Hope</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Hope</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Hope</CommonName>
@@ -29566,7 +29912,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:36:08" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:37:26" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:37:26" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120PNYF0</AtcoCode>
       <Descriptor>
         <CommonName>Penyffordd Rail Station</CommonName>
@@ -29574,8 +29920,8 @@
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Penyffordd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Penyffordd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Penyffordd</CommonName>
@@ -29604,7 +29950,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:39:44" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:39:44" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120SHOTTHL0</AtcoCode>
       <Descriptor>
         <CommonName>Shotton Rail Station</CommonName>
@@ -29612,8 +29958,8 @@
         <Indicator>North Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Shotton</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Shotton</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Shotton</CommonName>
@@ -29645,7 +29991,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:39:44" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:40:23" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:40:23" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120SHOTTHL1</AtcoCode>
       <Descriptor>
         <CommonName>Shotton High Level Rail Station</CommonName>
@@ -29653,8 +29999,8 @@
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Lefel Uchaf Shotton</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Lefel Uchaf Shotton</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Lefel Uchaf Shotton</CommonName>
@@ -29686,7 +30032,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:40:23" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:40:59" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:40:59" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120SHOTTHL2</AtcoCode>
       <Descriptor>
         <CommonName>Shotton High Leven Rail Station</CommonName>
@@ -29694,8 +30040,8 @@
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Lefel Uchaf Shotton</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Lefel Uchaf Shotton</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -29724,7 +30070,7 @@
         <PlusbusZoneRef CreationDateTime="2014-03-04T15:40:59" ModificationDateTime="2014-03-14T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-03-04T15:38:29" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2014-03-04T15:38:29" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120SHOTTON0</AtcoCode>
       <Descriptor>
         <CommonName>Shotton Rail Station</CommonName>
@@ -29732,8 +30078,8 @@
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Shotton</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Shotton</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Shotton</CommonName>
@@ -30406,7 +30752,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5120WDB21617</AtcoCode>
       <NaptanCode>flijmam</NaptanCode>
       <Descriptor>
@@ -30416,8 +30762,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Penarlag</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Penarlag</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:07" ModificationDateTime="2024-04-26T16:20:07" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Penarlag</CommonName>
@@ -30722,7 +31068,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:54" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB21624</AtcoCode>
       <NaptanCode>flijmdm</NaptanCode>
       <Descriptor>
@@ -30732,8 +31078,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2024-04-26T16:19:54" Modification="new">
-          <CommonName xml:lang="CY">Croesffyrdd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Croesffyrdd De</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:54" ModificationDateTime="2024-04-26T16:19:54" Modification="new">
           <CommonName xml:lang="CY">Croesffyrdd</CommonName>
@@ -32186,7 +32532,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-11T15:46:34" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120WDB21841</AtcoCode>
       <NaptanCode>flijmwd</NaptanCode>
       <Descriptor>
@@ -32197,8 +32543,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-05-11T15:46:34" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Heol y wern</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Heol y Wern</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
           <CommonName xml:lang="CY">Heol y wern</CommonName>
@@ -32452,7 +32798,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120WDB22011</AtcoCode>
       <NaptanCode>flijpad</NaptanCode>
       <Descriptor>
@@ -32463,8 +32809,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ioan</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ioan</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ioan</CommonName>
@@ -33512,7 +33858,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-12T09:42:19" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22047</AtcoCode>
       <NaptanCode>flijpjg</NaptanCode>
       <Descriptor>
@@ -33523,8 +33869,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-05-12T09:42:19" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Eglwys St Ioan Fedyddwir</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Eglwys Sant Ioan Fedyddwyr</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-05-12T09:42:19" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Eglwys St Ioan Fedyddwir</CommonName>
@@ -34572,7 +34918,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:21" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5120WDB22096</AtcoCode>
       <NaptanCode>flijtaj</NaptanCode>
       <Descriptor>
@@ -34582,8 +34928,8 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:21" ModificationDateTime="2024-04-26T16:20:21" Modification="new">
-          <CommonName xml:lang="CY">Parc St Matthew</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:21" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Parc Sant Mathew</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:21" ModificationDateTime="2024-04-26T16:20:21" Modification="new">
           <CommonName xml:lang="CY">Parc St Matthew</CommonName>
@@ -36188,7 +36534,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:06" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5120WDB22142</AtcoCode>
       <NaptanCode>flijtwj</NaptanCode>
       <Descriptor>
@@ -36198,8 +36544,8 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
-          <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2025-06-11T10:46:34" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gorsaf Reilffordd Caergwrle</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:06" ModificationDateTime="2024-04-26T16:20:06" Modification="new">
           <CommonName xml:lang="CY">Gorsaf reilffordd Caergwrle</CommonName>
@@ -39000,7 +39346,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22218</AtcoCode>
       <NaptanCode>flimamj</NaptanCode>
       <Descriptor>
@@ -39012,8 +39358,8 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Cynfarch</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Cynfarch</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Cynfarch</CommonName>
@@ -40508,7 +40854,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:10" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22255</AtcoCode>
       <NaptanCode>flimdgt</NaptanCode>
       <Descriptor>
@@ -40518,8 +40864,8 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
-          <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Hen Swyddfa Bost</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
           <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
@@ -40594,7 +40940,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:20:10" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22257</AtcoCode>
       <NaptanCode>flimdja</NaptanCode>
       <Descriptor>
@@ -40605,8 +40951,8 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
-          <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2025-06-11T10:46:35" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Hen Swyddfa Bost</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:10" ModificationDateTime="2024-04-26T16:20:10" Modification="new">
           <CommonName xml:lang="CY">Hen Swyddfa bost</CommonName>
@@ -40793,7 +41139,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-07-18T16:35:35" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120WDB22261</AtcoCode>
       <NaptanCode>flimdjp</NaptanCode>
       <Descriptor>
@@ -40803,8 +41149,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:01" ModificationDateTime="2024-07-18T16:35:35" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">fferm yr Orsedd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:01" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Fferm yr Orsedd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:01" ModificationDateTime="2024-04-26T16:20:01" Modification="new">
           <CommonName xml:lang="CY">fferm yr Orsedd</CommonName>
@@ -41802,7 +42148,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-13T11:21:41" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120WDB22286</AtcoCode>
       <NaptanCode>flimdwa</NaptanCode>
       <Descriptor>
@@ -41812,8 +42158,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:34" ModificationDateTime="2024-05-13T11:21:41" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Y Gerddi </CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:34" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Y Gerddi Dwyrain</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:34" ModificationDateTime="2024-05-13T11:21:41" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Y Gerddi </CommonName>
@@ -41888,7 +42234,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22288</AtcoCode>
       <NaptanCode>flimdwg</NaptanCode>
       <Descriptor>
@@ -41899,8 +42245,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Iago</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Iago</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Iago</CommonName>
@@ -42350,7 +42696,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22306</AtcoCode>
       <NaptanCode>flimgaw</NaptanCode>
       <Descriptor>
@@ -42360,8 +42706,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
-          <CommonName xml:lang="CY">Croesffyrdd</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Croesffyrdd y Gogledd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
           <CommonName xml:lang="CY">Croesffyrdd</CommonName>
@@ -43018,7 +43364,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">SHOTTON</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-13T12:29:19" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5120WDB22327</AtcoCode>
       <NaptanCode>flimgmt</NaptanCode>
       <Descriptor>
@@ -43028,8 +43374,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:20:23" ModificationDateTime="2024-05-13T12:29:19" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Pont reilffordd Aston</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:20:23" ModificationDateTime="2025-06-11T10:46:36" Modification="revise" RevisionNumber="2">
+          <CommonName xml:lang="CY">Pont Reilffordd Aston</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:20:23" ModificationDateTime="2024-05-13T12:29:19" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Pont reilffordd Aston</CommonName>
@@ -43607,7 +43953,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:47" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22350</AtcoCode>
       <NaptanCode>flimgwd</NaptanCode>
       <Descriptor>
@@ -43617,8 +43963,8 @@
         <Indicator>opp Church</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:47" ModificationDateTime="2024-04-26T16:19:47" Modification="new">
-          <CommonName xml:lang="CY">Bythynoedd Dovey</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:47" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Bythynnod Dovey</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:47" ModificationDateTime="2024-04-26T16:19:47" Modification="new">
           <CommonName xml:lang="CY">Bythynoedd Dovey</CommonName>
@@ -45800,7 +46146,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">FLINT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22487</AtcoCode>
       <NaptanCode>flimpat</NaptanCode>
       <Descriptor>
@@ -45812,8 +46158,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Ethelwold</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Ethelwold</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:58" ModificationDateTime="2024-04-26T16:19:58" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Ethelwold</CommonName>
@@ -46440,7 +46786,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22504</AtcoCode>
       <NaptanCode>flimpjd</NaptanCode>
       <Descriptor>
@@ -46449,8 +46795,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
-          <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Gogledd Croesffordd Brynffordd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
           <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
@@ -46761,7 +47107,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:59" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB22511</AtcoCode>
       <NaptanCode>flimpmd</NaptanCode>
       <Descriptor>
@@ -46772,8 +47118,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
-          <CommonName xml:lang="CY">Eglwys St Paul</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2025-06-11T10:46:33" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Eglwys Sant Paul</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:59" ModificationDateTime="2024-04-26T16:19:59" Modification="new">
           <CommonName xml:lang="CY">Eglwys St Paul</CommonName>
@@ -48303,7 +48649,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB47476</AtcoCode>
       <NaptanCode>flimpwd</NaptanCode>
       <Descriptor>
@@ -48312,8 +48658,8 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
-          <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Croesffordd De Brynffordd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
           <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
@@ -48348,7 +48694,7 @@
       </StopClassification>
       <AdministrativeAreaRef>019</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:19:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:46:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5120WDB47477</AtcoCode>
       <NaptanCode>flimpwg</NaptanCode>
       <Descriptor>
@@ -48357,8 +48703,8 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
-          <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
+        <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2025-06-11T10:46:32" Modification="revise" RevisionNumber="1">
+          <CommonName xml:lang="CY">Croesffordd De Brynffordd</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:19:53" ModificationDateTime="2024-04-26T16:19:53" Modification="new">
           <CommonName xml:lang="CY">Croesffordd Brynford</CommonName>
