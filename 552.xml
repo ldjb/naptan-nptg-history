@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-12T12:52:00.640367Z" ModificationDateTime="2025-06-12T12:52:00.640367Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-19T14:56:19.5541827Z" ModificationDateTime="2025-06-19T14:56:19.5541827Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -76552,6 +76552,90 @@
         <StopValidity CreationDateTime="2025-06-11T15:58:40" ModificationDateTime="2025-06-11T15:58:40" Modification="new">
           <DateRange>
             <StartDate>2025-06-11</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-19T10:16:54" ModificationDateTime="2025-06-19T10:19:10" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5520WDB900</AtcoCode>
+      <NaptanCode>rhotgwd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Dyffryn Isaf</CommonName>
+        <Street xml:lang="EN">Ely Valley Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041721</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>302661</Easting>
+            <Northing>185003</Northing>
+            <Longitude>-3.405411986</Longitude>
+            <Latitude>51.555481602</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-19T10:19:10" ModificationDateTime="2025-06-19T10:19:10" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-19</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-19T10:21:38" ModificationDateTime="2025-06-19T10:25:10" Modification="revise" RevisionNumber="4" Status="inactive">
+      <AtcoCode>5520WDB901</AtcoCode>
+      <NaptanCode>rhotgwg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Dyffryn Isaf</CommonName>
+        <Street xml:lang="EN">Ely Valley Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041721</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>302771</Easting>
+            <Northing>184917</Northing>
+            <Longitude>-3.403802053</Longitude>
+            <Latitude>51.554727568</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-19T10:22:05" ModificationDateTime="2025-06-19T10:22:05" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-19</StartDate>
           </DateRange>
           <Suspended />
         </StopValidity>

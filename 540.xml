@@ -1,7 +1,222 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-12T12:47:45.3003836Z" ModificationDateTime="2025-06-12T12:47:45.3003836Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-19T14:58:47.530567Z" ModificationDateTime="2025-06-19T14:58:47.530567Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
+    <StopPoint CreationDateTime="2025-06-19T08:54:34" ModificationDateTime="2025-06-19T08:57:32" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>54000000WD48</AtcoCode>
+      <NaptanCode>gwnwdgj</NaptanCode>
+      <Descriptor>
+        <CommonName>Pont ar Ddyfi West</CommonName>
+        <Street xml:lang="EN">A493</Street>
+        <Crossing xml:lang="EN">A487</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037664</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>274376</Easting>
+            <Northing>301943</Northing>
+            <Longitude>-3.856298533</Longitude>
+            <Latitude>52.600705672</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-19T08:54:34" ModificationDateTime="2025-06-19T08:54:34" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-19</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-19T09:04:51" ModificationDateTime="2025-06-19T09:06:44" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>54000000WD49</AtcoCode>
+      <NaptanCode>gwnwdgw</NaptanCode>
+      <Descriptor>
+        <CommonName>Pont ar Ddyfi West</CommonName>
+        <Street xml:lang="EN">A493</Street>
+        <Crossing xml:lang="EN">A487</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037659</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>274343</Easting>
+            <Northing>301949</Northing>
+            <Longitude>-3.856787787</Longitude>
+            <Latitude>52.600751946</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-19T09:06:44" ModificationDateTime="2025-06-19T09:06:44" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-19</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-19T08:46:29" ModificationDateTime="2025-06-19T08:48:25" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>5400000WD484</AtcoCode>
+      <NaptanCode>gwnwdgd</NaptanCode>
+      <Descriptor>
+        <CommonName>Pont ar Ddyfi South</CommonName>
+        <Street xml:lang="EN">A487</Street>
+        <Crossing xml:lang="EN">A493</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037659</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>274418</Easting>
+            <Northing>301921</Northing>
+            <Longitude>-3.855670391</Longitude>
+            <Latitude>52.600517717</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-19T08:48:25" ModificationDateTime="2025-06-19T08:48:25" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-19</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-18T16:25:35" ModificationDateTime="2025-06-18T16:29:11" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>540000WDB484</AtcoCode>
+      <NaptanCode>gwnwdga</NaptanCode>
+      <Descriptor>
+        <CommonName>Pont ar Ddyfi East</CommonName>
+        <Street xml:lang="EN">A487</Street>
+        <Crossing xml:lang="EN">A493</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037659</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>274419</Easting>
+            <Northing>301966</Northing>
+            <Longitude>-3.855672728</Longitude>
+            <Latitude>52.600922275</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-18T16:25:35" ModificationDateTime="2025-06-18T16:25:35" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-18</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-18T16:14:31" ModificationDateTime="2025-06-18T16:16:19" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>54000WDB4840</AtcoCode>
+      <NaptanCode>gwnwdaw</NaptanCode>
+      <Descriptor>
+        <CommonName>Pont ar Ddyfi East</CommonName>
+        <Street xml:lang="EN">A487</Street>
+        <Crossing xml:lang="EN">A493</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0037664</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>274435</Easting>
+            <Northing>301959</Northing>
+            <Longitude>-3.855433960</Longitude>
+            <Latitude>52.600863080</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-18T16:15:30" ModificationDateTime="2025-06-18T16:15:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-18</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2024-04-18T15:04:26" ModificationDateTime="2024-04-18T15:04:40" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5400ABC19999</AtcoCode>
       <NaptanCode>gwnwamt</NaptanCode>

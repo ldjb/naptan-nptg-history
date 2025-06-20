@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-12T12:43:39.4532946Z" ModificationDateTime="2025-06-12T12:43:39.4532946Z" Modification="new" RevisionNumber="1" FileName="571.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-19T14:55:42.5565115Z" ModificationDateTime="2025-06-19T14:55:42.5565115Z" Modification="new" RevisionNumber="1" FileName="571.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-06T10:58:21" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5710AWA10030</AtcoCode>
@@ -38462,7 +38462,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">CRDFCEN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2016-09-20T18:11:30" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-19T11:41:36" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5710AWA11060</AtcoCode>
       <NaptanCode>cdidgpa</NaptanCode>
       <Descriptor>
@@ -38477,10 +38477,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>314303</Easting>
-            <Northing>181194</Northing>
-            <Longitude>-3.236604230</Longitude>
-            <Latitude>51.523137167</Latitude>
+            <Easting>314292</Easting>
+            <Northing>181217</Northing>
+            <Longitude>-3.236768244</Longitude>
+            <Latitude>51.523337550</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -70656,7 +70656,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2008-02-26T00:00:00" Modification="new" RevisionNumber="0" Status="active">CRDFCEN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-08T09:53:35" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-19T13:11:59" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5710AWM26306</AtcoCode>
       <NaptanCode>cdipjwg</NaptanCode>
       <Descriptor>
@@ -70672,10 +70672,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>317833</Easting>
-            <Northing>183544</Northing>
-            <Longitude>-3.186285017</Longitude>
-            <Latitude>51.544787777</Latitude>
+            <Easting>759596</Easting>
+            <Northing>195631</Northing>
+            <Longitude>3.185690761</Longitude>
+            <Latitude>51.544785075</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -85482,7 +85482,7 @@
         <PlusbusZoneRef CreationDateTime="2012-05-03T10:52:44" ModificationDateTime="2012-05-03T00:00:00" Modification="new" RevisionNumber="0" Status="active">CRDFCEN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2012-05-03T10:55:14" ModificationDateTime="2019-10-08T23:34:18" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2012-05-03T10:55:14" ModificationDateTime="2025-06-19T11:21:59" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5710WDB48444</AtcoCode>
       <NaptanCode>cditmtg</NaptanCode>
       <Descriptor>
@@ -85496,10 +85496,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>317048</Easting>
-            <Northing>181261</Northing>
-            <Longitude>-3.197063854</Longitude>
-            <Latitude>51.524149873</Latitude>
+            <Easting>317044</Easting>
+            <Northing>181298</Northing>
+            <Longitude>-3.197130123</Longitude>
+            <Latitude>51.524477195</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -90450,6 +90450,88 @@
         <StopValidity CreationDateTime="2025-06-10T09:23:59" ModificationDateTime="2025-06-10T09:23:59" Modification="new">
           <DateRange>
             <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-18T15:46:05" ModificationDateTime="2025-06-18T15:49:55" Modification="revise" RevisionNumber="4" Status="inactive">
+      <AtcoCode>5710WDB4895</AtcoCode>
+      <NaptanCode>cdiwawg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Tudor Street A</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054020</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>317842</Easting>
+            <Northing>175921</Northing>
+            <Longitude>-3.184376319</Longitude>
+            <Latitude>51.476257271</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-18T15:46:58" ModificationDateTime="2025-06-18T15:46:58" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-18</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-18T15:52:33" ModificationDateTime="2025-06-18T15:54:18" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5710WDB4896</AtcoCode>
+      <NaptanCode>cdiwawj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Tudor Street D</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054020</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>317704</Easting>
+            <Northing>175951</Northing>
+            <Longitude>-3.186369909</Longitude>
+            <Latitude>51.476506871</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-18T15:54:18" ModificationDateTime="2025-06-18T15:54:18" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-18</StartDate>
           </DateRange>
           <Suspended />
         </StopValidity>
