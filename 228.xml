@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-13T12:42:36.267" ModificationDateTime="2025-05-13T12:42:36.267" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-24T13:48:47.472" ModificationDateTime="2025-06-24T13:48:47.472" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-07-19T00:00:00.000" ModificationDateTime="2009-02-26T14:12:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>228000001961</AtcoCode>
@@ -16804,11 +16804,11 @@
 <PlusbusZoneRef CreationDateTime="2003-11-25T00:00:00.000" ModificationDateTime="2009-03-05T09:57:00.000" Modification="revise" RevisionNumber="3" Status="active">GRMSBYT</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-25T00:00:00.000" ModificationDateTime="2019-07-23T14:30:41.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2003-11-25T00:00:00.000" ModificationDateTime="2025-06-24T11:49:36.232" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>228000066228</AtcoCode>
 <NaptanCode>grijmdg</NaptanCode>
 <Descriptor>
-<CommonName>Cromwell Road</CommonName>
+<CommonName>Winter Gardens Close</CommonName>
 <Landmark>Leisure Centre</Landmark>
 <Street>Kingsway</Street>
 <Indicator>adj</Indicator>
@@ -37968,6 +37968,42 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-06-24T11:48:21.604" ModificationDateTime="2025-06-24T11:48:21.604" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056137</AtcoCode>
+<NaptanCode>grijmgw</NaptanCode>
+<Descriptor>
+<CommonName>Winter Gardens Close</CommonName>
+<Street>Kingsway</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073051</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>531360</Easting>
+<Northing>408050</Northing>
+<Longitude>-0.0186268</Longitude>
+<Latitude>53.5526695</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
