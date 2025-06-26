@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-19T14:56:01.2299152Z" ModificationDateTime="2025-06-19T14:56:01.2299152Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<!--Created by Omnibus OmniFLAG (4.0.89.0)-->
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-25T15:39:23.163054Z" ModificationDateTime="2025-06-25T15:39:23.163054Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -621,17 +621,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:56:59" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-25T16:35:01" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610ANZ16919</AtcoCode>
       <NaptanCode>powgajw</NaptanCode>
       <Descriptor>
         <CommonName>Llawrllan</CommonName>
-        <Landmark>St Bride`s Church</Landmark>
-        <Street>Llawrllan</Street>
-        <Indicator>opp 20</Indicator>
+        <Landmark>Community Centre</Landmark>
+        <Street>B4518</Street>
+        <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2024-04-26T16:56:59" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2025-06-25T16:35:01" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Llawrllan</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2024-04-26T16:56:59" Modification="new">
@@ -18986,7 +18986,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:58" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-25T16:25:11" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610AWE90294</AtcoCode>
       <NaptanCode>powgamg</NaptanCode>
       <Descriptor>
@@ -19001,7 +19001,7 @@
             <GridType>UKOS</GridType>
             <Easting>296695</Easting>
             <Northing>267934</Northing>
-            <Longitude>-3.516356969</Longitude>
+            <Longitude>-3.516356970</Longitude>
             <Latitude>52.299778862</Latitude>
           </Translation>
         </Location>
@@ -19014,7 +19014,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>E</CompassPoint>
                 <Degrees>225</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -19023,9 +19023,15 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2018-06-13T10:55:52" ModificationDateTime="2018-06-13T10:55:52" Modification="new">
+        <StopValidity CreationDateTime="2018-06-13T10:55:52" ModificationDateTime="2025-06-25T16:25:11" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2018-06-13</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+        <StopValidity CreationDateTime="2025-06-25T16:25:11" ModificationDateTime="2025-06-25T16:25:11" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-25</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
@@ -53531,7 +53537,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:05" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-25T16:19:04" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5610WDB23352</AtcoCode>
       <NaptanCode>powjwta</NaptanCode>
       <Descriptor>
@@ -53543,7 +53549,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:05" ModificationDateTime="2024-04-26T16:57:05" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T16:57:05" ModificationDateTime="2025-06-25T16:19:04" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Mynwent Rhayader</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:05" ModificationDateTime="2024-04-26T16:57:05" Modification="new">
@@ -53578,6 +53584,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-25T16:19:04" ModificationDateTime="2025-06-25T16:19:04" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:57:05" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610WDB23353</AtcoCode>
@@ -71361,6 +71375,91 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-25T15:59:30" ModificationDateTime="2025-06-25T16:13:54" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>5610WDB48473</AtcoCode>
+      <NaptanCode>powmwpt</NaptanCode>
+      <Descriptor>
+        <CommonName>Brynheulog </CommonName>
+        <Street>East Street</Street>
+        <Indicator>jct</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054644</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>297460</Easting>
+            <Northing>268254</Northing>
+            <Longitude>-3.505240251</Longitude>
+            <Latitude>52.302798233</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-25T15:59:30" ModificationDateTime="2025-06-25T15:59:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-25T16:30:20" ModificationDateTime="2025-06-25T16:31:09" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5610WDB48474</AtcoCode>
+      <NaptanCode>powmwpw</NaptanCode>
+      <Descriptor>
+        <CommonName>St Harmon Road</CommonName>
+        <Street>B4518</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054644</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>297249</Easting>
+            <Northing>268525</Northing>
+            <Longitude>-3.508416342</Longitude>
+            <Latitude>52.305194265</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-25T16:30:20" ModificationDateTime="2025-06-25T16:30:20" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-07T14:15:58" ModificationDateTime="2025-06-11T10:55:21" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5610WELSHPL0</AtcoCode>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-19T14:53:42.024446Z" ModificationDateTime="2025-06-19T14:53:42.024446Z" Modification="new" RevisionNumber="1" FileName="532.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<!--Created by Omnibus OmniFLAG (4.0.89.0)-->
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-25T12:43:54.8547178Z" ModificationDateTime="2025-06-25T12:43:54.8547178Z" Modification="new" RevisionNumber="1" FileName="532.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-29T11:52:52" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5320ANZ16837</AtcoCode>
@@ -19882,11 +19882,11 @@
       </StopClassification>
       <AdministrativeAreaRef>004</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-02T16:32:03" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-23T10:30:02" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>5320MTZ04819</AtcoCode>
       <NaptanCode>blgdatg</NaptanCode>
       <Descriptor>
-        <CommonName>Aneurin Bevan Memorial</CommonName>
+        <CommonName>Tredegar Aneurin Bevan Memorial</CommonName>
         <ShortCommonName>Aneurin Bevan</ShortCommonName>
         <Landmark>Aneurin Bevan Memorial</Landmark>
         <Street>Beaufort Road</Street>
@@ -19894,12 +19894,12 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T15:50:44" ModificationDateTime="2024-04-26T15:50:44" Modification="new">
+        <Descriptor CreationDateTime="2024-04-26T15:50:44" ModificationDateTime="2025-06-23T10:23:20" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Cofeb Aneurin Bevan</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035345</NptgLocalityRef>
+        <NptgLocalityRef>E0053950</NptgLocalityRef>
         <MainNptgLocalities>
           <NptgLocalityRef CreationDateTime="2018-10-15T16:29:28" ModificationDateTime="2018-10-15T16:29:28" Modification="new">E0053950</NptgLocalityRef>
         </MainNptgLocalities>
@@ -19907,10 +19907,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>315263</Easting>
-            <Northing>210616</Northing>
-            <Longitude>-3.229910987</Longitude>
-            <Latitude>51.787761318</Latitude>
+            <Easting>315412</Easting>
+            <Northing>210710</Northing>
+            <Longitude>-3.227774183</Longitude>
+            <Latitude>51.788624175</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -24394,6 +24394,48 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>004</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-23T08:55:17" ModificationDateTime="2025-06-23T09:01:45" Modification="revise" RevisionNumber="5" Status="active">
+      <AtcoCode>5320WDB47624</AtcoCode>
+      <NaptanCode>blgdwgp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Beaufort Close</CommonName>
+        <Street xml:lang="EN">Beaufort Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035345</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>314795</Easting>
+            <Northing>210205</Northing>
+            <Longitude>-3.236593146</Longitude>
+            <Latitude>51.783991012</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>004</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-23T09:01:45" ModificationDateTime="2025-06-23T09:01:45" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-23</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
   </StopPoints>
 </NaPTAN>

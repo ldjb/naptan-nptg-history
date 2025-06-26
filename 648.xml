@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-06T15:19:34.127" ModificationDateTime="2025-05-06T15:19:34.127" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-25T11:23:37.012" ModificationDateTime="2025-06-25T11:23:37.012" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -1366,7 +1366,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2011-07-19T14:27:01.000" ModificationDateTime="2019-01-23T13:23:24.001" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2011-07-19T14:27:01.000" ModificationDateTime="2025-06-25T10:39:09.021" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>64800271</AtcoCode>
 <NaptanCode>73739647</NaptanCode>
 <Descriptor>
@@ -1391,13 +1391,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>PTP</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NE</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -95877,6 +95877,114 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-06-25T10:57:11.778" ModificationDateTime="2025-06-25T11:09:38.920" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>64802735</AtcoCode>
+<NaptanCode>73728282</NaptanCode>
+<Descriptor>
+<CommonName>St Leonard's in the Fields</CommonName>
+<Street>King James Place</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003005</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311651</Easting>
+<Northing>723130</Northing>
+<Longitude>-3.4327191</Longitude>
+<Latitude>56.3921335</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-06-25T11:13:49.405" ModificationDateTime="2025-06-25T11:13:49.405" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802736</AtcoCode>
+<NaptanCode>73729593</NaptanCode>
+<Descriptor>
+<CommonName>St Paul's Square</CommonName>
+<Street>South Methven Street</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003005</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311553</Easting>
+<Northing>723586</Northing>
+<Longitude>-3.4344526</Longitude>
+<Latitude>56.3962111</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-06-25T11:22:30.891" ModificationDateTime="2025-06-25T11:22:30.891" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802737</AtcoCode>
+<NaptanCode>73729594</NaptanCode>
+<Descriptor>
+<CommonName>St Matthew's Church</CommonName>
+<Street>Tay Street</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003005</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>312102</Easting>
+<Northing>723594</Northing>
+<Longitude>-3.4255660</Longitude>
+<Latitude>56.3963872</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

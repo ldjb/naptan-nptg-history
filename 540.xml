@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created by Omnibus OmniFLAG (4.0.81.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-19T14:58:47.530567Z" ModificationDateTime="2025-06-19T14:58:47.530567Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<!--Created by Omnibus OmniFLAG (4.0.89.0)-->
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-25T12:50:41.3716375Z" ModificationDateTime="2025-06-25T12:50:41.3716375Z" Modification="new" RevisionNumber="1" FileName="540.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-06-19T08:54:34" ModificationDateTime="2025-06-19T08:57:32" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>54000000WD48</AtcoCode>
@@ -85,6 +85,58 @@
             <StartDate>2025-06-19</StartDate>
           </DateRange>
           <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-25T12:02:12" ModificationDateTime="2025-06-25T11:55:24" Modification="new" Status="active">
+      <AtcoCode>54000000WD50</AtcoCode>
+      <NaptanCode>gwnwdja</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">O.M.Edwards School</CommonName>
+        <Landmark xml:lang="EN">O.M.Edwards School</Landmark>
+        <Street>Ffordd yr Ysgol</Street>
+        <Indicator xml:lang="EN">grounds</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-06-25T12:02:12" ModificationDateTime="2025-06-25T12:02:12" Modification="new">
+          <CommonName xml:lang="CY">Ysgol O.M.Edwards</CommonName>
+          <Landmark xml:lang="CY">Ysgol O.M.Edwards</Landmark>
+          <Street>Ffordd yr Ysgol</Street>
+          <Indicator xml:lang="CY">maes</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054305</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>287322</Easting>
+            <Northing>330374</Northing>
+            <Longitude>-3.675007599</Longitude>
+            <Latitude>52.859020861</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-25T12:02:12" ModificationDateTime="2025-06-25T12:02:12" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-25</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
