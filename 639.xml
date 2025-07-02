@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-05-13T15:56:32.407" ModificationDateTime="2025-05-13T15:56:32.407" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-01T17:21:51.090" ModificationDateTime="2025-07-01T17:21:51.090" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-07-15T00:00:00.000" ModificationDateTime="2021-08-10T13:46:30.584" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>639000011</AtcoCode>
@@ -50897,7 +50897,7 @@
 <PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2013-02-08T14:52:00.000" Modification="revise" RevisionNumber="8" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2020-07-22T15:13:56.477" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2025-07-01T13:37:36.998" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>639006462</AtcoCode>
 <NaptanCode>23234627</NaptanCode>
 <Descriptor>
@@ -50914,10 +50914,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>394274</Easting>
-<Northing>806109</Northing>
-<Longitude>-2.096262</Longitude>
-<Latitude>57.145826</Latitude>
+<Easting>394253</Easting>
+<Northing>806138</Northing>
+<Longitude>-2.09661</Longitude>
+<Latitude>57.146084</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -56042,11 +56042,11 @@
 <PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2013-09-18T12:13:00.000" Modification="revise" RevisionNumber="9" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2013-05-10T14:47:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2025-06-16T14:47:46.661" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>639007411</AtcoCode>
 <NaptanCode>23235259</NaptanCode>
 <Descriptor>
-<CommonName>Aberdeen Royal Infirmary</CommonName>
+<CommonName>Aberdeen Royal Infirmary (Stand A)</CommonName>
 <Landmark>Aberdeen Royal Infirmary</Landmark>
 <Street>Foresterhill Road</Street>
 <Indicator>E-bound</Indicator>
@@ -56086,11 +56086,11 @@
 <PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2013-05-10T14:47:00.000" Modification="revise" RevisionNumber="6" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2013-05-10T14:47:00.000" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2025-06-16T14:54:13.512" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>639007412</AtcoCode>
 <NaptanCode>23235237</NaptanCode>
 <Descriptor>
-<CommonName>Aberdeen Royal Infirmary</CommonName>
+<CommonName>Aberdeen Royal Infirmary (Stand B)</CommonName>
 <Landmark>Aberdeen Royal Infirmary</Landmark>
 <Street>Foresterhill Road</Street>
 <Indicator>SW-bound</Indicator>
@@ -67804,7 +67804,7 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2020-07-22T15:13:05.001" ModificationDateTime="2020-07-22T15:13:05.001" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2020-07-22T15:13:05.001" ModificationDateTime="2025-07-01T13:34:20.411" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>639006464</AtcoCode>
 <NaptanCode>23237648</NaptanCode>
 <Descriptor>
@@ -67819,10 +67819,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>394271</Easting>
-<Northing>806133</Northing>
-<Longitude>-2.096312</Longitude>
-<Latitude>57.14604</Latitude>
+<Easting>394255</Easting>
+<Northing>806159</Northing>
+<Longitude>-2.096577</Longitude>
+<Latitude>57.146273</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -70093,6 +70093,81 @@
 <CompassPoint>SE</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>111</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-01T17:17:48.512" ModificationDateTime="2025-07-01T17:17:48.512" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>639007712</AtcoCode>
+<NaptanCode>23237867</NaptanCode>
+<Descriptor>
+<CommonName>Shore Porters</CommonName>
+<Landmark>Shore Porters</Landmark>
+<Street>Virginia Street</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000011</NptgLocalityRef>
+<Town>Aberdeen</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>394466</Easting>
+<Northing>806216</Northing>
+<Longitude>-2.0930918</Longitude>
+<Latitude>57.1467876</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>111</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-01T17:19:55.915" ModificationDateTime="2025-07-01T17:19:55.915" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>639007713</AtcoCode>
+<NaptanCode>23237868</NaptanCode>
+<Descriptor>
+<CommonName>Pittodrie Stadium</CommonName>
+<Street>Golf Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0081192</NptgLocalityRef>
+<Town>Aberdeen</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>394853</Easting>
+<Northing>807536</Northing>
+<Longitude>-2.0867240</Longitude>
+<Latitude>57.1586497</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
