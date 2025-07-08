@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-06-05T14:37:44.379" ModificationDateTime="2025-06-05T14:37:44.379" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-07T11:03:47.576" ModificationDateTime="2025-07-07T11:03:47.576" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -951,7 +951,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-02-23T00:00:00.000" ModificationDateTime="2014-05-24T13:36:49.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-02-23T00:00:00.000" ModificationDateTime="2025-07-04T13:33:59.150" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001023</AtcoCode>
 <NaptanCode>72725482</NaptanCode>
 <Descriptor>
@@ -962,7 +962,7 @@
 <Indicator>At</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>N0067317</NptgLocalityRef>
+<NptgLocalityRef>E0059894</NptgLocalityRef>
 <Town>Langlee Galashiels</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
@@ -33205,7 +33205,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-08T10:22:48.000" ModificationDateTime="2024-05-28T12:24:17.744" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2015-07-08T10:22:48.000" ModificationDateTime="2025-07-04T13:33:36.630" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69002100</AtcoCode>
 <NaptanCode>72728507</NaptanCode>
 <Descriptor>
@@ -33215,7 +33215,7 @@
 <Indicator>o/s 19</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>N0067317</NptgLocalityRef>
+<NptgLocalityRef>E0059894</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -39669,12 +39669,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2025-02-07T12:22:03.486" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2025-06-23T09:45:38.865" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6900442</AtcoCode>
 <NaptanCode>72724787</NaptanCode>
 <Descriptor>
 <CommonName>Bank Street</CommonName>
-<Landmark>Royal Bank</Landmark>
+<Landmark>Bank Street</Landmark>
 <Street>Duns Road</Street>
 <Indicator>N-bound</Indicator>
 </Descriptor>
@@ -59084,6 +59084,84 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2025-07-07T10:58:33.761" ModificationDateTime="2025-07-07T10:58:33.761" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002378</AtcoCode>
+<NaptanCode>7272378</NaptanCode>
+<Descriptor>
+<CommonName>West Linton Primary School</CommonName>
+<ShortCommonName>West Linton PS</ShortCommonName>
+<Landmark>West Linton Primary School</Landmark>
+<Street>Deanfoot Road</Street>
+<Indicator>Opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003816</NptgLocalityRef>
+<Town>West Linton</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>315235</Easting>
+<Northing>652019</Northing>
+<Longitude>-3.3521247</Longitude>
+<Latitude>55.7540728</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-07T11:00:26.153" ModificationDateTime="2025-07-07T11:00:26.153" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002379</AtcoCode>
+<NaptanCode>7272379</NaptanCode>
+<Descriptor>
+<CommonName>West Linton Primary School</CommonName>
+<ShortCommonName>West Linton PS</ShortCommonName>
+<Landmark>West Linton Primary School</Landmark>
+<Street>Deanfoot Road</Street>
+<Indicator>At</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003816</NptgLocalityRef>
+<Town>West Linton</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>315192</Easting>
+<Northing>651988</Northing>
+<Longitude>-3.3527956</Longitude>
+<Latitude>55.7537912</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2017-06-14T16:57:27.000" ModificationDateTime="2021-07-05T14:31:00.939" Modification="revise" RevisionNumber="1" Status="active">
@@ -59094,10 +59172,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>349334</Easting>
-<Northing>636260</Northing>
-<Longitude>-2.805989</Longitude>
-<Latitude>55.61727</Latitude>
+<Easting>349355</Easting>
+<Northing>636278</Northing>
+<Longitude>-2.805661</Longitude>
+<Latitude>55.617436</Latitude>
 </Translation>
 </Location>
 </StopArea>
