@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-01T17:21:51.090" ModificationDateTime="2025-07-01T17:21:51.090" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-08T14:27:51.759" ModificationDateTime="2025-07-08T14:27:51.759" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-07-15T00:00:00.000" ModificationDateTime="2021-08-10T13:46:30.584" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>639000011</AtcoCode>
@@ -70168,6 +70168,82 @@
 <CompassPoint>E</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>111</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-08T13:14:36.673" ModificationDateTime="2025-07-08T13:14:36.673" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>639007326</AtcoCode>
+<NaptanCode>23237869</NaptanCode>
+<Descriptor>
+<CommonName>Forrit Burn Road</CommonName>
+<Landmark>Forrit Burn Road</Landmark>
+<Street>Wellheads Drive</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001198</NptgLocalityRef>
+<Town>Aberdeen</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>388383</Easting>
+<Northing>811080</Northing>
+<Longitude>-2.1938486</Longitude>
+<Latitude>57.1903656</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>111</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-08T13:18:09.559" ModificationDateTime="2025-07-08T13:18:09.559" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>639007327</AtcoCode>
+<NaptanCode>23237872</NaptanCode>
+<Descriptor>
+<CommonName>Forrit Brae Road</CommonName>
+<Landmark>Forrit Brae Road</Landmark>
+<Street>Wellheads Drive</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001198</NptgLocalityRef>
+<Town>Aberdeen</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>388366</Easting>
+<Northing>811109</Northing>
+<Longitude>-2.1941312</Longitude>
+<Latitude>57.1906257</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
