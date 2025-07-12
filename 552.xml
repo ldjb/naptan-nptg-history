@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-03T12:38:24.3217188Z" ModificationDateTime="2025-07-03T12:38:24.3217188Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-11T12:55:18.7688088Z" ModificationDateTime="2025-07-11T12:55:18.7688088Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -33878,7 +33878,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-27T11:33:42" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-11T13:06:04" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5520AWA13988</AtcoCode>
       <NaptanCode>rhodpad</NaptanCode>
       <Descriptor>
@@ -33889,7 +33889,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:28" ModificationDateTime="2025-05-27T11:33:42" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2024-05-02T09:44:28" ModificationDateTime="2025-07-11T13:06:04" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Prince of Wales</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -33925,6 +33925,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-11T13:06:04" ModificationDateTime="2025-07-11T13:06:04" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-11</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-27T11:34:10" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5520AWA13989</AtcoCode>
@@ -60794,6 +60802,49 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-07-11T13:47:39" ModificationDateTime="2025-07-11T13:52:07" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>5520WBD48373</AtcoCode>
+      <NaptanCode>rhotgwj</NaptanCode>
+      <Descriptor>
+        <CommonName>Ffwrd Terrace</CommonName>
+        <Street>Brecon Road</Street>
+        <Indicator>o/s 18</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054668</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>295988</Easting>
+            <Northing>205258</Northing>
+            <Longitude>-3.507657525</Longitude>
+            <Latitude>51.736344084</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-11T13:47:39" ModificationDateTime="2025-07-11T13:47:39" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-11</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:50" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520WDB21551</AtcoCode>
       <NaptanCode>rhopgdp</NaptanCode>
@@ -66232,7 +66283,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-28T14:45:37" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-11T13:02:23" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5520WDB25422</AtcoCode>
       <NaptanCode>rhopdtp</NaptanCode>
       <Descriptor>
@@ -66242,7 +66293,7 @@
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:15" ModificationDateTime="2025-05-28T14:45:37" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2024-05-02T09:44:15" ModificationDateTime="2025-07-11T13:02:23" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Llyfrgell Hirwaun</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:44:15" ModificationDateTime="2024-05-02T09:44:15" Modification="new">
@@ -66281,6 +66332,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABDARE</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-11T13:02:23" ModificationDateTime="2025-07-11T13:02:23" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-11</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:45:12" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5520WDB46549</AtcoCode>
