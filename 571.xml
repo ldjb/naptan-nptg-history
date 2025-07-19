@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-10T12:33:50.3681566Z" ModificationDateTime="2025-07-10T12:33:50.3681566Z" Modification="new" RevisionNumber="1" FileName="571.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-17T13:02:04.5385084Z" ModificationDateTime="2025-07-17T13:02:04.5385084Z" Modification="new" RevisionNumber="1" FileName="571.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-05-06T10:58:21" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5710AWA10030</AtcoCode>
@@ -90405,6 +90405,130 @@
         <StopValidity CreationDateTime="2025-06-10T09:12:03" ModificationDateTime="2025-06-10T09:12:03" Modification="new">
           <DateRange>
             <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T12:00:23" ModificationDateTime="2025-07-14T12:01:46" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5710WDB48595</AtcoCode>
+      <NaptanCode>cdiwawm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Whittle Road</CommonName>
+        <Street xml:lang="EN">Whittle Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054006</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>316401</Easting>
+            <Northing>174991</Northing>
+            <Longitude>-3.204899918</Longitude>
+            <Latitude>51.467685617</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T12:00:31" ModificationDateTime="2025-07-14T12:00:31" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T12:03:48" ModificationDateTime="2025-07-14T12:03:12" Modification="new" Status="inactive">
+      <AtcoCode>5710WDB48596</AtcoCode>
+      <NaptanCode>cdiwawp</NaptanCode>
+      <Descriptor>
+        <CommonName>Tudor Street A</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054020</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>317704</Easting>
+            <Northing>175951</Northing>
+            <Longitude>-3.186369909</Longitude>
+            <Latitude>51.476506871</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T12:03:48" ModificationDateTime="2025-07-14T12:03:48" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T12:06:43" ModificationDateTime="2025-07-14T12:05:42" Modification="new" Status="inactive">
+      <AtcoCode>5710WDB48597</AtcoCode>
+      <NaptanCode>cdiwawt</NaptanCode>
+      <Descriptor>
+        <CommonName>Tudor Street D</CommonName>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054020</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>317704</Easting>
+            <Northing>175951</Northing>
+            <Longitude>-3.186369909</Longitude>
+            <Latitude>51.476506871</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T12:06:43" ModificationDateTime="2025-07-14T12:06:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
           </DateRange>
           <Suspended />
         </StopValidity>

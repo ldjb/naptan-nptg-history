@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-11T12:55:18.7688088Z" ModificationDateTime="2025-07-11T12:55:18.7688088Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-17T13:09:25.3020502Z" ModificationDateTime="2025-07-17T13:09:25.3020502Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -60802,7 +60802,7 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-07-11T13:47:39" ModificationDateTime="2025-07-11T13:52:07" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2025-07-11T13:47:39" ModificationDateTime="2025-07-14T12:10:37" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5520WBD48373</AtcoCode>
       <NaptanCode>rhotgwj</NaptanCode>
       <Descriptor>
@@ -60837,11 +60837,400 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2025-07-11T13:47:39" ModificationDateTime="2025-07-11T13:47:39" Modification="new">
+        <StopValidity CreationDateTime="2025-07-11T13:47:39" ModificationDateTime="2025-07-14T12:10:37" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2025-07-11</StartDate>
           </DateRange>
-          <Active />
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T10:24:25" ModificationDateTime="2025-07-14T12:10:16" Modification="revise" RevisionNumber="6" Status="inactive">
+      <AtcoCode>5520WBD48374</AtcoCode>
+      <NaptanCode>rhotgwm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Aberdare Railway Station</CommonName>
+        <ShortCommonName xml:lang="EN">Aberdare Station</ShortCommonName>
+        <Landmark xml:lang="EN">Aberdare Station</Landmark>
+        <Street xml:lang="EN">Off Abernant Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054662</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>300542</Easting>
+            <Northing>202672</Northing>
+            <Longitude>-3.440992050</Longitude>
+            <Latitude>51.713927943</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T10:27:48" ModificationDateTime="2025-07-14T12:10:16" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T10:40:49" ModificationDateTime="2025-07-14T12:09:56" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5520WBD48375</AtcoCode>
+      <NaptanCode>rhotgwp</NaptanCode>
+      <Descriptor>
+        <CommonName>Arfryn</CommonName>
+        <Street xml:lang="EN">Hirwaun Road</Street>
+        <Crossing>Arfryn</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054678</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>297407</Easting>
+            <Northing>204569</Northing>
+            <Longitude>-3.486912387</Longitude>
+            <Latitude>51.730413118</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T10:40:49" ModificationDateTime="2025-07-14T12:09:56" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T10:46:46" ModificationDateTime="2025-07-14T12:09:38" Modification="revise" RevisionNumber="3" Status="inactive">
+      <AtcoCode>5520WBD48376</AtcoCode>
+      <NaptanCode>rhotgwt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Cardinal Newman School</CommonName>
+        <ShortCommonName xml:lang="EN">Cardinal Newman </ShortCommonName>
+        <Landmark>Cardinal Newman RC School</Landmark>
+        <Crossing>Clos Aneurin</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041626</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>309879</Easting>
+            <Northing>188059</Northing>
+            <Longitude>-3.302114452</Longitude>
+            <Latitude>51.584152856</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T10:46:46" ModificationDateTime="2025-07-14T12:09:38" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T10:53:28" ModificationDateTime="2025-07-14T12:09:21" Modification="revise" RevisionNumber="4" Status="inactive">
+      <AtcoCode>5520WBD48378</AtcoCode>
+      <NaptanCode>rhotjad</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Gwladys Street</CommonName>
+        <Landmark>Gwladys Street</Landmark>
+        <Street>Hirwaun Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054678</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>297685</Easting>
+            <Northing>204440</Northing>
+            <Longitude>-3.482850543</Longitude>
+            <Latitude>51.729304515</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T10:53:37" ModificationDateTime="2025-07-14T12:09:21" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T11:03:43" ModificationDateTime="2025-07-14T12:09:04" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5520WBD48379</AtcoCode>
+      <NaptanCode>rhotjag</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Gwladys Street</CommonName>
+        <Landmark xml:lang="EN">Gwladys Street</Landmark>
+        <Street xml:lang="EN">Hirwaun Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054678</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>297651</Easting>
+            <Northing>204469</Northing>
+            <Longitude>-3.483351196</Longitude>
+            <Latitude>51.729558957</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T11:03:43" ModificationDateTime="2025-07-14T12:09:04" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T11:10:18" ModificationDateTime="2025-07-14T12:08:44" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5520WBD48380</AtcoCode>
+      <NaptanCode>rhotjaj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Merlin Bridge</CommonName>
+        <Landmark xml:lang="EN">Merlin Bridge</Landmark>
+        <Street xml:lang="EN">Rhonndda Road</Street>
+        <Crossing xml:lang="EN">Pwllgwaun Road</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041687</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>306747</Easting>
+            <Northing>190326</Northing>
+            <Longitude>-3.347908710</Longitude>
+            <Latitude>51.604020334</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T11:10:18" ModificationDateTime="2025-07-14T12:08:45" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T11:15:18" ModificationDateTime="2025-07-14T12:08:26" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>5520WBD48381</AtcoCode>
+      <NaptanCode>rhotjam</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Post Office</CommonName>
+        <Landmark xml:lang="EN">Pontygraigwen Post Office</Landmark>
+        <Street xml:lang="EN">Pontygraigwen Road</Street>
+        <Crossing xml:lang="EN">Graigwen Road</Crossing>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041678</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>306539</Easting>
+            <Northing>190588</Northing>
+            <Longitude>-3.350981114</Longitude>
+            <Latitude>51.606340875</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T11:17:03" ModificationDateTime="2025-07-14T12:08:26" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T11:19:46" ModificationDateTime="2025-07-14T12:08:00" Modification="revise" RevisionNumber="4" Status="inactive">
+      <AtcoCode>5520WBD48382</AtcoCode>
+      <NaptanCode>rhotjap</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Dyffryn Isaf</CommonName>
+        <Street xml:lang="EN">Ely Valley Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041721</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>302661</Easting>
+            <Northing>185003</Northing>
+            <Longitude>-3.405411986</Longitude>
+            <Latitude>51.555481602</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T11:19:46" ModificationDateTime="2025-07-14T12:08:00" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-14T11:22:42" ModificationDateTime="2025-07-14T12:07:40" Modification="revise" RevisionNumber="10" Status="inactive">
+      <AtcoCode>5520WBD48383</AtcoCode>
+      <NaptanCode>rhotjat</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="EN">Dyffryn Isaf</CommonName>
+        <Street xml:lang="EN">Ely Valley Road</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0041721</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>302771</Easting>
+            <Northing>184917</Northing>
+            <Longitude>-3.403802053</Longitude>
+            <Latitude>51.554727568</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-14T11:22:42" ModificationDateTime="2025-07-14T12:07:40" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2025-07-14</StartDate>
+          </DateRange>
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
