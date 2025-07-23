@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-17T13:09:25.3020502Z" ModificationDateTime="2025-07-17T13:09:25.3020502Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-22T11:54:15.5098025Z" ModificationDateTime="2025-07-22T11:54:15.5098025Z" Modification="new" RevisionNumber="1" FileName="552.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -54737,7 +54737,7 @@
         <PlusbusZoneRef CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2007-12-04T00:00:00" Modification="new" RevisionNumber="0" Status="active">PTYPRID</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:44:31" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-22T11:44:38" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520AWZ26185</AtcoCode>
       <NaptanCode>rhoagtd</NaptanCode>
       <Descriptor>
@@ -54747,7 +54747,7 @@
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-05-02T09:44:31" ModificationDateTime="2024-05-02T09:44:31" Modification="new">
+        <Descriptor CreationDateTime="2024-05-02T09:44:31" ModificationDateTime="2025-07-22T11:44:38" Modification="revise" RevisionNumber="1">
           <CommonName xml:lang="CY">Sgwar</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-05-02T09:44:31" ModificationDateTime="2024-05-02T09:44:31" Modification="new">
@@ -54760,10 +54760,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>305876</Easting>
-            <Northing>185227</Northing>
-            <Longitude>-3.359113242</Longitude>
-            <Latitude>51.558046041</Latitude>
+            <Easting>305849</Easting>
+            <Northing>185173</Northing>
+            <Longitude>-3.359488012</Longitude>
+            <Latitude>51.557551435</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -77086,6 +77086,56 @@
             <StartDate>2025-06-19</StartDate>
           </DateRange>
           <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-22T12:47:34" ModificationDateTime="2025-07-22T12:48:01" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5520WDB902</AtcoCode>
+      <NaptanCode>rhotjaw</NaptanCode>
+      <Descriptor>
+        <CommonName>Sqaure</CommonName>
+        <Street>Llantrisant Road</Street>
+        <Indicator>o/s no.7</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-07-22T12:47:34" ModificationDateTime="2025-07-22T12:48:01" Modification="revise" RevisionNumber="1">
+          <CommonName>Sgwâr</CommonName>
+          <Street>Llantrisant Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041592</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>305858</Easting>
+            <Northing>185215</Northing>
+            <Longitude>-3.359369488</Longitude>
+            <Latitude>51.557930470</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-22T12:48:01" ModificationDateTime="2025-07-22T12:48:01" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-22</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>

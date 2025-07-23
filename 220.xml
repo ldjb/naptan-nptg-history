@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN CreationDateTime="2025-07-01T11:29:03" ModificationDateTime="2025-07-01T11:29:03" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\East Yorkshire\2025-07-01 - 249\NaPTAN220.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
+<NaPTAN CreationDateTime="2025-07-22T12:09:55" ModificationDateTime="2025-07-22T12:09:55" Modification="new" RevisionNumber="0" FileName="S:\Delivery\Input\Exports\NaPTAN Exports\East Yorkshire\2025-07-22 - 251\NaPTAN220.xml" SchemaVersion="2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2020-01-08T12:00:00" ModificationDateTime="2020-01-08T11:55:31" RevisionNumber="0" Status="active">
       <AtcoCode>2200YEA11947</AtcoCode>
@@ -9864,6 +9864,92 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>018</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-02T12:00:00" ModificationDateTime="2025-07-02T09:37:16" RevisionNumber="0" Status="active">
+      <AtcoCode>2200YEA12180</AtcoCode>
+      <NaptanCode>22012180</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Bridlington Kingsgate</CommonName>
+        <ShortCommonName>Kingsgate</ShortCommonName>
+        <Landmark>Adj to Shearwater Close</Landmark>
+        <Street>Kingsgate</Street>
+        <Crossing>Saltwick Drive</Crossing>
+        <Indicator>22012180</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0036842</NptgLocalityRef>
+        <Suburb>Bridlington</Suburb>
+        <Town>East</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>516847</Easting>
+            <Northing>465380</Northing>
+            <Longitude>-0.215836178</Longitude>
+            <Latitude>54.071109733</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>018</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-02T12:00:00" ModificationDateTime="2025-07-02T09:46:17" RevisionNumber="0" Status="active">
+      <AtcoCode>2200YEA12181</AtcoCode>
+      <NaptanCode>22012181</NaptanCode>
+      <PlateCode />
+      <Descriptor>
+        <CommonName>Bridlington Kingsgate</CommonName>
+        <ShortCommonName>Kingsgate</ShortCommonName>
+        <Landmark>Opp to Shearwater Close</Landmark>
+        <Street>Kingsgate</Street>
+        <Crossing>Saltwick Drive</Crossing>
+        <Indicator>22012181</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0036880</NptgLocalityRef>
+        <Suburb>Bridlington</Suburb>
+        <Town>East</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>516865</Easting>
+            <Northing>465382</Northing>
+            <Longitude>-0.215560478</Longitude>
+            <Latitude>54.071123621</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -20059,7 +20145,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
