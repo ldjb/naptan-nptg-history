@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-05-16T15:52:14.897" ModificationDateTime="2025-05-16T15:52:14.897" Modification="new" RevisionNumber="0" FileName="NaPTAN669.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-23T15:19:39.068" ModificationDateTime="2025-07-23T15:19:39.068" Modification="new" RevisionNumber="0" FileName="NaPTAN669.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2015-03-13T15:51:58.000" ModificationDateTime="2015-03-19T10:33:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>669001320011</AtcoCode>
@@ -44197,7 +44197,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2004-01-27T00:00:00.000" ModificationDateTime="2004-01-27T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2004-01-27T00:00:00.000" ModificationDateTime="2025-05-22T14:40:45.884" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>66903200002</AtcoCode>
 <NaptanCode>32523484</NaptanCode>
 <Descriptor>
@@ -44212,10 +44212,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>280651</Easting>
-<Northing>684054</Northing>
-<Longitude>-3.916993</Longitude>
-<Latitude>56.034448</Latitude>
+<Easting>280616</Easting>
+<Northing>684178</Northing>
+<Longitude>-3.917603</Longitude>
+<Latitude>56.035552</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -68387,7 +68387,7 @@
 </StopClassification>
 <AdministrativeAreaRef>125</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2024-08-30T16:14:39.778" ModificationDateTime="2024-08-30T16:14:39.778" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2024-08-30T16:14:39.778" ModificationDateTime="2025-07-16T11:22:36.018" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>669070001137</AtcoCode>
 <NaptanCode>32527560</NaptanCode>
 <Descriptor>
@@ -68401,10 +68401,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>280624</Easting>
-<Northing>684178</Northing>
-<Longitude>-3.9174774</Longitude>
-<Latitude>56.0355550</Latitude>
+<Easting>280627</Easting>
+<Northing>684179</Northing>
+<Longitude>-3.917418</Longitude>
+<Latitude>56.035558</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -68416,7 +68416,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>N</CompassPoint>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -68424,7 +68424,7 @@
 </StopClassification>
 <AdministrativeAreaRef>125</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-05-15T13:59:26.513" ModificationDateTime="2025-05-15T13:59:26.513" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2025-05-15T13:59:26.513" ModificationDateTime="2025-07-16T11:18:10.796" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>669070001288</AtcoCode>
 <NaptanCode>32527565</NaptanCode>
 <Descriptor>
@@ -68453,7 +68453,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>N</CompassPoint>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -68461,17 +68461,17 @@
 </StopClassification>
 <AdministrativeAreaRef>125</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-05-15T14:14:15.122" ModificationDateTime="2025-05-15T14:14:15.122" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2025-05-15T14:14:15.122" ModificationDateTime="2025-07-23T15:18:28.924" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>669070001289</AtcoCode>
 <NaptanCode>32527570</NaptanCode>
 <Descriptor>
-<CommonName>Almondwood Crescent</CommonName>
+<CommonName>Stirling Street</CommonName>
 <Street>Stirling Street</Street>
-<Indicator>Before</Indicator>
+<Indicator>opp</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>N0065304</NptgLocalityRef>
-<Suburb>Maddiston</Suburb>
+<NptgLocalityRef>ES001164</NptgLocalityRef>
+<Suburb>Dunipace</Suburb>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -68490,7 +68490,44 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>N</CompassPoint>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>125</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-06-16T11:25:01.774" ModificationDateTime="2025-07-16T11:18:57.745" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>669070001293</AtcoCode>
+<NaptanCode>32527575</NaptanCode>
+<Descriptor>
+<CommonName>Almondwood Crescent</CommonName>
+<Street>Vellore Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0065304</NptgLocalityRef>
+<Suburb>Maddiston</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>294613</Easting>
+<Northing>676785</Northing>
+<Longitude>-3.6901754</Longitude>
+<Latitude>55.9724446</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
