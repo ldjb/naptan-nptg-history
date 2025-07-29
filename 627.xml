@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-09T09:38:11.709" ModificationDateTime="2025-07-09T09:38:11.709" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-28T12:38:32.652" ModificationDateTime="2025-07-28T12:38:32.652" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -5939,13 +5939,13 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2008-02-17T00:00:00.000" ModificationDateTime="2011-04-08T11:57:32.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2008-02-17T00:00:00.000" ModificationDateTime="2025-07-28T12:21:13.526" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>627001030775</AtcoCode>
 <NaptanCode>58234764</NaptanCode>
 <Descriptor>
 <CommonName>Inveresk Village</CommonName>
 <Landmark>Inveresk House</Landmark>
-<Street>Carberry Road</Street>
+<Street>Inveresk Village Road</Street>
 <Indicator>at</Indicator>
 </Descriptor>
 <Place>
@@ -5954,10 +5954,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>334918</Easting>
-<Northing>671809</Northing>
-<Longitude>-3.043335</Longitude>
-<Latitude>55.934908</Latitude>
+<Easting>334859</Easting>
+<Northing>671905</Northing>
+<Longitude>-3.044297</Longitude>
+<Latitude>55.935763</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -6760,13 +6760,13 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2008-02-17T00:00:00.000" ModificationDateTime="2011-04-08T11:57:56.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2008-02-17T00:00:00.000" ModificationDateTime="2025-07-28T12:24:47.640" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>627001040775</AtcoCode>
 <NaptanCode>58234765</NaptanCode>
 <Descriptor>
 <CommonName>Inveresk Village</CommonName>
 <Landmark>Inveresk House</Landmark>
-<Street>Carberry Road</Street>
+<Street>Inveresk Village Road</Street>
 <Indicator>opp</Indicator>
 </Descriptor>
 <Place>
@@ -6775,10 +6775,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>334940</Easting>
-<Northing>671801</Northing>
-<Longitude>-3.042981</Longitude>
-<Latitude>55.934839</Latitude>
+<Easting>334836</Easting>
+<Northing>671946</Northing>
+<Longitude>-3.044685</Longitude>
+<Latitude>55.936123</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -19504,7 +19504,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-02-25T00:00:00.000" ModificationDateTime="2023-01-31T11:14:41.804" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-02-25T00:00:00.000" ModificationDateTime="2025-07-28T12:06:06.319" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>627005060055</AtcoCode>
 <NaptanCode>58234678</NaptanCode>
 <Descriptor>
@@ -19518,10 +19518,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>345493</Easting>
+<Easting>345510</Easting>
 <Northing>668975</Northing>
-<Longitude>-2.873504</Longitude>
-<Latitude>55.91077</Latitude>
+<Longitude>-2.873244</Longitude>
+<Latitude>55.910771</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -48393,6 +48393,44 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-28T12:17:33.958" ModificationDateTime="2025-07-28T12:17:33.958" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001298</AtcoCode>
+<NaptanCode>5821298</NaptanCode>
+<Descriptor>
+<CommonName>Pencaitland Park Footpath</CommonName>
+<ShortCommonName>Pencaitland Park Footpath</ShortCommonName>
+<Street>B6355</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002992</NptgLocalityRef>
+<Town>Pencaitland</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>345424</Easting>
+<Northing>668976</Northing>
+<Longitude>-2.8746231</Longitude>
+<Latitude>55.9107660</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
