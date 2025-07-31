@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-22T13:51:26.192" ModificationDateTime="2025-07-22T13:51:26.192" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-30T12:55:29.653" ModificationDateTime="2025-07-30T12:55:29.653" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -75728,27 +75728,27 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-11-17T00:00:00.000" ModificationDateTime="2011-12-19T14:44:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2004-11-17T00:00:00.000" ModificationDateTime="2025-07-30T12:44:34.612" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>630064151</AtcoCode>
 <NaptanCode>23623238</NaptanCode>
 <Descriptor>
-<CommonName>Chairlift</CommonName>
-<Landmark>Ski Centre</Landmark>
+<CommonName>Glenshee Ski Centre</CommonName>
+<Landmark>Glenshee Ski Centre</Landmark>
 <Street>A93</Street>
 <Indicator>at</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>N0076710</NptgLocalityRef>
+<NptgLocalityRef>N0073359</NptgLocalityRef>
 <Suburb>-</Suburb>
-<Town>A93</Town>
+<Town>Braemar</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>313885</Easting>
-<Northing>778344</Northing>
-<Longitude>-3.414992</Longitude>
-<Latitude>56.888431</Latitude>
+<Easting>313897</Easting>
+<Northing>778121</Northing>
+<Longitude>-3.414718</Longitude>
+<Latitude>56.886426</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -113571,6 +113571,44 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-07-30T12:52:59.003" ModificationDateTime="2025-07-30T12:52:59.003" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630064152</AtcoCode>
+<NaptanCode>23634943</NaptanCode>
+<Descriptor>
+<CommonName>Glenshee Ski Centre</CommonName>
+<Landmark>Glenshee Ski Centre</Landmark>
+<Street>Old Military Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073359</NptgLocalityRef>
+<Town>Braemar</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>313909</Easting>
+<Northing>778151</Northing>
+<Longitude>-3.4145317</Longitude>
+<Latitude>56.8866981</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
