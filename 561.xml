@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-24T13:12:30.6704713Z" ModificationDateTime="2025-07-24T13:12:30.6704713Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-31T13:23:53.7757211Z" ModificationDateTime="2025-07-31T13:23:53.7757211Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -41428,7 +41428,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-29T15:17:56" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-29T12:09:24" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>5610PWX18766</AtcoCode>
       <NaptanCode>powgawj</NaptanCode>
       <Descriptor>
@@ -41438,7 +41438,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2025-04-29T15:17:56" Modification="revise" RevisionNumber="2">
+        <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2025-07-29T12:09:24" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">Llanwrin</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:59" ModificationDateTime="2024-04-26T16:56:59" Modification="new">
@@ -41474,11 +41474,18 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2025-04-29T15:15:06" ModificationDateTime="2025-04-29T15:15:06" Modification="new">
+        <StopValidity CreationDateTime="2025-04-29T15:15:06" ModificationDateTime="2025-07-29T12:09:24" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2025-04-29</StartDate>
+            <EndDate>2025-07-28</EndDate>
           </DateRange>
           <Suspended />
+        </StopValidity>
+        <StopValidity CreationDateTime="2025-07-29T12:09:24" ModificationDateTime="2025-07-29T12:09:24" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-29</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -71209,6 +71216,49 @@
         <StopValidity CreationDateTime="2025-06-25T16:30:20" ModificationDateTime="2025-06-25T16:30:20" Modification="new">
           <DateRange>
             <StartDate>2025-06-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-07-31T13:02:43" ModificationDateTime="2025-07-31T13:00:24" Modification="new" Status="active">
+      <AtcoCode>5610WDB48475</AtcoCode>
+      <NaptanCode>powmwta</NaptanCode>
+      <Descriptor>
+        <CommonName>Ysgol Bro Hyddgen</CommonName>
+        <Street>Craigfryn </Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054629</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>275506</Easting>
+            <Northing>301018</Northing>
+            <Longitude>-3.839274984</Longitude>
+            <Latitude>52.592654692</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-07-31T13:02:43" ModificationDateTime="2025-07-31T13:02:43" Modification="new">
+          <DateRange>
+            <StartDate>2025-07-31</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
