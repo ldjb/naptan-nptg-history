@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Created by Omnibus OmniFLAG (4.0.88.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-06-16T15:11:28.8052293Z" ModificationDateTime="2025-06-16T15:11:28.8052293Z" Modification="new" RevisionNumber="1" FileName="389.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<!--Created by Omnibus OmniFLAG (4.0.91.0)-->
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-04T10:02:47.3123056Z" ModificationDateTime="2025-08-04T10:02:47.3123056Z" Modification="new" RevisionNumber="1" FileName="389.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2013-06-14T07:52:34" Modification="revise" RevisionNumber="4" Status="active">
 			<AtcoCode>3890D000100</AtcoCode>
@@ -1930,7 +1930,7 @@
 							<TimingStatus>TIP</TimingStatus>
 						</Bay>
 						<AnnotatedCoachRef CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2013-03-04T08:16:16" Modification="revise" RevisionNumber="5">
-							<CoachRef>900020141A</CoachRef>
+							<CoachRef>900020141</CoachRef>
 							<Name>Bus Station</Name>
 							<LongName>Bus Station</LongName>
 							<Location>
@@ -1940,7 +1940,7 @@
 							</Location>
 						</AnnotatedCoachRef>
 						<AnnotatedCoachRef CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2013-03-04T08:16:16" Modification="revise" RevisionNumber="5">
-							<CoachRef>900020141</CoachRef>
+							<CoachRef>900020141A</CoachRef>
 							<Name>Bus Station</Name>
 							<LongName>Bus Station</LongName>
 							<Location>
@@ -4133,12 +4133,11 @@
 				<PlusbusZoneRef CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2011-11-21T14:42:22" Modification="revise" RevisionNumber="3" Status="active">STOKEOT</PlusbusZoneRef>
 			</PlusbusZones>
 		</StopPoint>
-		<StopPoint CreationDateTime="2002-11-30T00:00:00" ModificationDateTime="2012-02-23T09:55:32" Modification="revise" RevisionNumber="8" Status="active">
+		<StopPoint CreationDateTime="2002-11-30T00:00:00" ModificationDateTime="2025-08-04T11:01:09" Modification="revise" RevisionNumber="9" Status="active">
 			<AtcoCode>3890D001501</AtcoCode>
 			<NaptanCode>stoadjdj</NaptanCode>
 			<Descriptor>
 				<CommonName>Stoke-on-Trent Railway Station</CommonName>
-				<Landmark>stop E</Landmark>
 				<Street>Station Road</Street>
 				<Indicator>opp</Indicator>
 			</Descriptor>
@@ -4148,10 +4147,10 @@
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>387954</Easting>
-						<Northing>345705</Northing>
-						<Longitude>-2.180974686</Longitude>
-						<Latitude>53.008519442</Latitude>
+						<Easting>388031</Easting>
+						<Northing>345604</Northing>
+						<Longitude>-2.179823290</Longitude>
+						<Latitude>53.007608692</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -4178,12 +4177,11 @@
 				<PlusbusZoneRef CreationDateTime="2002-11-30T00:00:00" ModificationDateTime="2012-02-23T09:55:32" Modification="revise" RevisionNumber="8" Status="active">STOKEOT</PlusbusZoneRef>
 			</PlusbusZones>
 		</StopPoint>
-		<StopPoint CreationDateTime="2002-11-30T00:00:00" ModificationDateTime="2012-02-23T09:56:02" Modification="revise" RevisionNumber="9" Status="active">
+		<StopPoint CreationDateTime="2002-11-30T00:00:00" ModificationDateTime="2025-08-04T11:02:09" Modification="revise" RevisionNumber="10" Status="active">
 			<AtcoCode>3890D001502</AtcoCode>
 			<NaptanCode>stoadjdm</NaptanCode>
 			<Descriptor>
 				<CommonName>Stoke-on-Trent Railway Station</CommonName>
-				<Landmark>stop F</Landmark>
 				<Street>Station Road</Street>
 				<Indicator>adj</Indicator>
 			</Descriptor>
@@ -4193,10 +4191,10 @@
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>387937</Easting>
-						<Northing>345709</Northing>
-						<Longitude>-2.181228192</Longitude>
-						<Latitude>53.008555012</Latitude>
+						<Easting>387916</Easting>
+						<Northing>345738</Northing>
+						<Longitude>-2.181542188</Longitude>
+						<Latitude>53.008810625</Latitude>
 					</Translation>
 				</Location>
 			</Place>
