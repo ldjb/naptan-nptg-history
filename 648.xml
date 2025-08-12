@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-23T08:21:33.560" ModificationDateTime="2025-07-23T08:21:33.560" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-11T16:41:17.808" ModificationDateTime="2025-08-11T16:41:17.808" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -91659,7 +91659,7 @@
 </StopClassification>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2017-11-20T11:17:35.000" ModificationDateTime="2024-04-17T17:48:31.001" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2017-11-20T11:17:35.000" ModificationDateTime="2025-08-11T15:48:37.742" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>64804500</AtcoCode>
 <NaptanCode>73729457</NaptanCode>
 <Descriptor>
@@ -95573,12 +95573,13 @@
 </StopClassification>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-08-04T11:13:48.000" ModificationDateTime="2024-05-17T12:43:44.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2022-08-04T11:13:48.000" ModificationDateTime="2025-08-11T15:52:41.296" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>64804501</AtcoCode>
 <NaptanCode>73729592</NaptanCode>
 <Descriptor>
-<CommonName>Park and Ride Stance C</CommonName>
+<CommonName>Park and Ride</CommonName>
 <Street>Broxden Avenue</Street>
+<Indicator>Stop C</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0073334</NptgLocalityRef>
@@ -95600,7 +95601,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>S</CompassPoint>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

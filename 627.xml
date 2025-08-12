@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-28T12:38:32.652" ModificationDateTime="2025-07-28T12:38:32.652" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-11T13:17:30.231" ModificationDateTime="2025-08-11T13:17:30.231" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -8068,17 +8068,19 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-04-17T00:00:00.000" ModificationDateTime="2023-01-31T11:35:34.085" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-04-17T00:00:00.000" ModificationDateTime="2025-08-11T13:13:08.245" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>627003010025</AtcoCode>
 <NaptanCode>58232568</NaptanCode>
 <Descriptor>
-<CommonName>Post Office</CommonName>
+<CommonName>Sea Wynd</CommonName>
+<ShortCommonName>Sea Wynd</ShortCommonName>
 <Landmark>Post Office</Landmark>
 <Street>THE GARDENS</Street>
-<Indicator>opp</Indicator>
+<Indicator>at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000026</NptgLocalityRef>
+<Town>Aberlady</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -10239,17 +10241,19 @@
 </StopAreas>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-04-17T00:00:00.000" ModificationDateTime="2023-01-31T11:34:58.553" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-04-17T00:00:00.000" ModificationDateTime="2025-08-11T13:14:50.893" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>627003020025</AtcoCode>
 <NaptanCode>58232569</NaptanCode>
 <Descriptor>
-<CommonName>Post Office</CommonName>
+<CommonName>Sea Wynd</CommonName>
+<ShortCommonName>Sea Wynd</ShortCommonName>
 <Landmark>Post Office</Landmark>
 <Street>THE GARDENS</Street>
-<Indicator>at</Indicator>
+<Indicator>opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000026</NptgLocalityRef>
+<Town>Aberlady</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -13296,7 +13300,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2017-03-13T00:00:00.000" Modification="revise" RevisionNumber="7" Status="inactive">
+<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2025-08-11T12:52:11.268" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>627003050060</AtcoCode>
 <NaptanCode>58232565</NaptanCode>
 <Descriptor>
@@ -48431,6 +48435,44 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-11T13:01:44.107" ModificationDateTime="2025-08-11T13:04:06.752" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>627070001308</AtcoCode>
+<NaptanCode>5821308</NaptanCode>
+<Descriptor>
+<CommonName>Ballencrieff Crossroads</CommonName>
+<ShortCommonName>Ballencrieff Crossroads</ShortCommonName>
+<Street>A6137</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067197</NptgLocalityRef>
+<Town>Ballencrieff</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>348136</Easting>
+<Northing>677942</Northing>
+<Longitude>-2.832959</Longitude>
+<Latitude>55.991616</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
