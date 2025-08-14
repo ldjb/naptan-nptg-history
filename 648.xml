@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-11T16:41:17.808" ModificationDateTime="2025-08-11T16:41:17.808" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-13T15:03:26.686" ModificationDateTime="2025-08-13T15:03:26.686" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -71198,7 +71198,7 @@
 </StopAreas>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-29T00:00:00.000" ModificationDateTime="2009-08-04T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2003-10-29T00:00:00.000" ModificationDateTime="2025-08-13T14:53:35.184" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>64803586</AtcoCode>
 <NaptanCode>73723835</NaptanCode>
 <Descriptor>
@@ -71240,7 +71240,7 @@
 </StopAreas>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-29T00:00:00.000" ModificationDateTime="2009-08-04T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-10-29T00:00:00.000" ModificationDateTime="2025-08-13T14:52:32.973" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>64803587</AtcoCode>
 <NaptanCode>73724676</NaptanCode>
 <Descriptor>
@@ -71276,9 +71276,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">648G223586</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2004-02-24T00:00:00.000" ModificationDateTime="2009-06-03T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
@@ -95993,6 +95990,78 @@
 </StopClassification>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2025-08-13T14:50:56.193" ModificationDateTime="2025-08-13T15:02:51.556" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>64802738</AtcoCode>
+<NaptanCode>73729595</NaptanCode>
+<Descriptor>
+<CommonName>Spittal of Glenshee Road End</CommonName>
+<Street>A93</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0068309</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311081</Easting>
+<Northing>770207</Northing>
+<Longitude>-3.4581432</Longitude>
+<Latitude>56.8148239</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-13T14:57:37.903" ModificationDateTime="2025-08-13T15:03:10.810" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>64802739</AtcoCode>
+<NaptanCode>73729596</NaptanCode>
+<Descriptor>
+<CommonName>Spittal of Glenshee Road End</CommonName>
+<Street>A93</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0068309</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311081</Easting>
+<Northing>770209</Northing>
+<Longitude>-3.4581513</Longitude>
+<Latitude>56.8148413</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2007-02-12T00:00:00.000" ModificationDateTime="2008-11-06T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
@@ -101455,7 +101524,7 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2007-02-12T00:00:00.000" ModificationDateTime="2007-02-12T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2007-02-12T00:00:00.000" ModificationDateTime="2007-02-12T00:00:00.000" Modification="new" RevisionNumber="0" Status="inactive">
 <StopAreaCode>648G223586</StopAreaCode>
 <Name>Spittal of Glenshee</Name>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
