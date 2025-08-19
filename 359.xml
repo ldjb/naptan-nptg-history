@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-07-21T12:38:28.534" ModificationDateTime="2025-07-21T12:38:28.534" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-08-18T16:25:35.181" ModificationDateTime="2025-08-18T16:25:35.181" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2014-01-17T14:33:22.000" ModificationDateTime="2014-01-17T14:33:22.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>35908614</AtcoCode>
@@ -48740,7 +48740,7 @@
 </StopClassification>
 <AdministrativeAreaRef>058</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2018-07-26T15:12:41.000" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2025-08-18T13:06:30.803" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>3590E087400</AtcoCode>
 <NaptanCode>telajtda</NaptanCode>
 <Descriptor>
@@ -48789,7 +48789,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2001-10-23T00:00:00.000" ModificationDateTime="2018-07-26T15:13:27.000" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2001-10-23T00:00:00.000" ModificationDateTime="2025-08-18T13:07:17.585" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>3590E087500</AtcoCode>
 <NaptanCode>telajtdg</NaptanCode>
 <Descriptor>
@@ -50206,7 +50206,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2001-11-05T00:00:00.000" ModificationDateTime="2021-03-09T13:35:07.000" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2001-11-05T00:00:00.000" ModificationDateTime="2025-08-18T13:09:16.096" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>3590E089700</AtcoCode>
 <NaptanCode>telajtjt</NaptanCode>
 <Descriptor>
@@ -53653,12 +53653,12 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-30T00:00:00.000" ModificationDateTime="2012-02-22T00:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2005-01-30T00:00:00.000" ModificationDateTime="2025-08-18T16:06:06.863" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>3590E095601</AtcoCode>
 <NaptanCode>telajtmw</NaptanCode>
 <Descriptor>
 <CommonName>Manor</CommonName>
-<Street>B5063</Street>
+<Street>CRABTREE LANE</Street>
 <Indicator>opp</Indicator>
 </Descriptor>
 <Place>
@@ -53667,10 +53667,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>359058</Easting>
-<Northing>318335</Northing>
-<Longitude>-2.60815</Longitude>
-<Latitude>52.761077</Latitude>
+<Easting>359074</Easting>
+<Northing>318367</Northing>
+<Longitude>-2.607916</Longitude>
+<Latitude>52.761364</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -53738,7 +53738,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-30T00:00:00.000" ModificationDateTime="2012-02-22T00:00:00.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2005-01-30T00:00:00.000" ModificationDateTime="2025-08-18T16:05:25.853" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>3590E095701</AtcoCode>
 <NaptanCode>telajtpa</NaptanCode>
 <Descriptor>
@@ -53752,10 +53752,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>359040</Easting>
-<Northing>318336</Northing>
-<Longitude>-2.608417</Longitude>
-<Latitude>52.761076</Latitude>
+<Easting>359046</Easting>
+<Northing>318369</Northing>
+<Longitude>-2.608336</Longitude>
+<Latitude>52.761376</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -62029,6 +62029,352 @@
 <Northing>313567</Northing>
 <Longitude>-2.4833413</Longitude>
 <Latitude>52.7187829</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T13:59:15.294" ModificationDateTime="2025-08-18T16:11:35.714" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>3590E065603</AtcoCode>
+<NaptanCode>telpdmp</NaptanCode>
+<Descriptor>
+<CommonName>Wrockwardine Road</CommonName>
+<Street>WROCKWARDINE ROAD</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042495</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>364435</Easting>
+<Northing>311922</Northing>
+<Longitude>-2.527787</Longitude>
+<Latitude>52.703809</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T14:03:27.712" ModificationDateTime="2025-08-18T16:12:18.002" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>3590E065604</AtcoCode>
+<NaptanCode>telpjmp</NaptanCode>
+<Descriptor>
+<CommonName>Wrockwardine Road</CommonName>
+<Street>WROCKWARDINE ROAD</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042495</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>364440</Easting>
+<Northing>311931</Northing>
+<Longitude>-2.527704</Longitude>
+<Latitude>52.703888</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T14:11:26.058" ModificationDateTime="2025-08-18T16:13:39.254" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>3590E092103</AtcoCode>
+<NaptanCode>telptmp</NaptanCode>
+<Descriptor>
+<CommonName>B4394 nr Sugar Beet Avenue</CommonName>
+<Street>B4394</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042496</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>360889</Easting>
+<Northing>312689</Northing>
+<Longitude>-2.580349</Longitude>
+<Latitude>52.710459</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T14:14:03.117" ModificationDateTime="2025-08-18T16:14:15.698" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>3590E092104</AtcoCode>
+<NaptanCode>teltdmp</NaptanCode>
+<Descriptor>
+<CommonName>B4394 Opp Sugar Beet Avenue</CommonName>
+<Street>B4394</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042496</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>360918</Easting>
+<Northing>312704</Northing>
+<Longitude>-2.579914</Longitude>
+<Latitude>52.710596</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T14:22:38.453" ModificationDateTime="2025-08-18T14:22:38.453" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E089560</AtcoCode>
+<NaptanCode>teltwmp</NaptanCode>
+<Descriptor>
+<CommonName>Grove Farm</CommonName>
+<Street>Hunkington Lane</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053789</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>358362</Easting>
+<Northing>314196</Northing>
+<Longitude>-2.6179389</Longitude>
+<Latitude>52.7238174</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T15:56:38.878" ModificationDateTime="2025-08-18T16:16:09.071" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>3590E089803</AtcoCode>
+<NaptanCode>telwgmp</NaptanCode>
+<Descriptor>
+<CommonName>Opp Earls Way</CommonName>
+<Street>B5063</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042550</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>359242</Easting>
+<Northing>317705</Northing>
+<Longitude>-2.605356</Longitude>
+<Latitude>52.755421</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T15:59:34.829" ModificationDateTime="2025-08-18T16:16:49.488" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>3590E089804</AtcoCode>
+<Descriptor>
+<CommonName>Earls Way</CommonName>
+<Street>B5063</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042550</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>359257</Easting>
+<Northing>317698</Northing>
+<Longitude>-2.605133</Longitude>
+<Latitude>52.755361</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T16:19:36.110" ModificationDateTime="2025-08-18T16:19:36.110" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E092703</AtcoCode>
+<Descriptor>
+<CommonName>Silver Hill</CommonName>
+<Street>Silver Hill</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042598</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>359810</Easting>
+<Northing>318395</Northing>
+<Longitude>-2.597024</Longitude>
+<Latitude>52.76167</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T16:22:03.460" ModificationDateTime="2025-08-18T16:22:03.460" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E092704</AtcoCode>
+<Descriptor>
+<CommonName>Silver Hill</CommonName>
+<Street>Silver Hill</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042598</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>359817</Easting>
+<Northing>318390</Northing>
+<Longitude>-2.596914</Longitude>
+<Latitude>52.761621</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-18T16:24:01.266" ModificationDateTime="2025-08-18T16:24:01.266" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E087702</AtcoCode>
+<Descriptor>
+<CommonName>Cliff Crescent</CommonName>
+<Street>CLIFF CRESCENT</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0076632</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>361833</Easting>
+<Northing>321047</Northing>
+<Longitude>-2.567353</Longitude>
+<Latitude>52.785656</Latitude>
 </Translation>
 </Location>
 </Place>
