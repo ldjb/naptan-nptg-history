@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-18T09:58:23.0871921Z" ModificationDateTime="2025-08-18T09:58:23.0871921Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-20T08:24:17.7180434Z" ModificationDateTime="2025-08-20T08:24:17.7180434Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -1158,7 +1158,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-22T14:13:33" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-20T09:20:04" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5610AWA17286</AtcoCode>
       <NaptanCode>powjmat</NaptanCode>
       <Descriptor>
@@ -1168,7 +1168,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:23" ModificationDateTime="2025-07-22T14:13:33" Modification="revise" RevisionNumber="2">
+        <Descriptor CreationDateTime="2024-04-26T16:57:23" ModificationDateTime="2025-08-20T09:20:05" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">St Michael a'r holl Angylion</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:23" ModificationDateTime="2024-04-26T16:57:23" Modification="new">
@@ -1205,21 +1205,22 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2018-05-04T11:16:38" ModificationDateTime="2024-12-23T14:53:03" Modification="revise" RevisionNumber="1">
-          <DateRange>
-            <StartDate>2018-05-04</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
         <StopValidity CreationDateTime="2024-12-23T14:53:03" ModificationDateTime="2024-12-23T14:53:03" Modification="new">
           <DateRange>
             <StartDate>2024-12-23</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
+        <StopValidity CreationDateTime="2018-05-04T11:16:38" ModificationDateTime="2025-08-20T09:20:05" Modification="revise" RevisionNumber="2">
+          <DateRange>
+            <StartDate>2018-05-04</StartDate>
+            <EndDate>2024-12-22</EndDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-22T14:13:31" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-20T09:20:54" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5610AWA17287</AtcoCode>
       <NaptanCode>powjmaw</NaptanCode>
       <Descriptor>
@@ -1230,7 +1231,7 @@
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:57:23" ModificationDateTime="2025-07-22T14:13:31" Modification="revise" RevisionNumber="2">
+        <Descriptor CreationDateTime="2024-04-26T16:57:23" ModificationDateTime="2025-08-20T09:20:54" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">St Michael a'r holl Angylion</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:57:23" ModificationDateTime="2024-04-26T16:57:23" Modification="new">
@@ -1267,21 +1268,22 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2018-05-04T11:17:24" ModificationDateTime="2018-05-04T11:17:24" Modification="new">
-          <DateRange>
-            <StartDate>2018-05-04</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
         <StopValidity CreationDateTime="2024-12-23T14:53:31" ModificationDateTime="2024-12-23T14:53:31" Modification="new">
           <DateRange>
             <StartDate>2024-12-23</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
+        <StopValidity CreationDateTime="2018-05-04T11:17:24" ModificationDateTime="2025-08-20T09:20:54" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2018-05-04</StartDate>
+            <EndDate>2024-12-22</EndDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-22T14:13:22" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-20T09:21:58" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5610AWA17288</AtcoCode>
       <NaptanCode>powjmda</NaptanCode>
       <Descriptor>
@@ -1291,7 +1293,7 @@
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:57" ModificationDateTime="2025-07-22T14:13:22" Modification="revise" RevisionNumber="2">
+        <Descriptor CreationDateTime="2024-04-26T16:56:57" ModificationDateTime="2025-08-20T09:21:58" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">Hundred House Inn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:57" ModificationDateTime="2024-04-26T16:56:57" Modification="new">
@@ -1328,17 +1330,18 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2018-05-03T14:42:23" ModificationDateTime="2018-05-03T14:42:23" Modification="new">
-          <DateRange>
-            <StartDate>2018-05-03</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
         <StopValidity CreationDateTime="2024-12-23T14:53:56" ModificationDateTime="2024-12-23T14:53:56" Modification="new">
           <DateRange>
             <StartDate>2024-12-23</StartDate>
           </DateRange>
           <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2018-05-03T14:42:23" ModificationDateTime="2025-08-20T09:21:58" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2018-05-03</StartDate>
+            <EndDate>2024-12-22</EndDate>
+          </DateRange>
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -31045,7 +31048,7 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-24T09:44:49" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-20T09:23:05" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5610PWX18369</AtcoCode>
       <NaptanCode>powagjt</NaptanCode>
       <Descriptor>
@@ -31056,7 +31059,7 @@
         <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:56:57" ModificationDateTime="2025-07-24T09:44:49" Modification="revise" RevisionNumber="2">
+        <Descriptor CreationDateTime="2024-04-26T16:56:57" ModificationDateTime="2025-08-20T09:23:06" Modification="revise" RevisionNumber="3">
           <CommonName xml:lang="CY">Hundred House Inn</CommonName>
         </Descriptor>
         <Descriptor CreationDateTime="2024-04-26T16:56:57" ModificationDateTime="2024-04-26T16:56:57" Modification="new">
@@ -31093,17 +31096,18 @@
       </StopClassification>
       <AdministrativeAreaRef>045</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2019-06-19T14:10:14" ModificationDateTime="2019-06-19T14:10:14" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-19</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
         <StopValidity CreationDateTime="2024-12-23T14:54:15" ModificationDateTime="2024-12-23T14:54:15" Modification="new">
           <DateRange>
             <StartDate>2024-12-23</StartDate>
           </DateRange>
           <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2019-06-19T14:10:14" ModificationDateTime="2025-08-20T09:23:06" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2019-06-19</StartDate>
+            <EndDate>2024-12-22</EndDate>
+          </DateRange>
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>

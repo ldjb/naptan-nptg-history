@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.82.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-07-29T16:23:27.1423657Z" ModificationDateTime="2025-07-29T16:23:27.1423657Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-20T16:30:33.9976462Z" ModificationDateTime="2025-08-20T16:30:33.9976462Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -8302,6 +8302,155 @@
           <Active />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-08-20T17:12:24" ModificationDateTime="2025-08-20T17:14:39" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>2090A0106468</AtcoCode>
+      <NaptanCode>heratptja</NaptanCode>
+      <Descriptor>
+        <CommonName>Lower Park Farm (Schools)</CommonName>
+        <Street>B4347</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053374</NptgLocalityRef>
+        <Suburb>Vowchurch</Suburb>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>337347</Easting>
+            <Northing>235002</Northing>
+            <Longitude>-2.914231176</Longitude>
+            <Latitude>52.009893334</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-08-20T17:18:15" ModificationDateTime="2025-08-20T17:15:58" Modification="new" Status="active">
+      <AtcoCode>2090A0106470</AtcoCode>
+      <NaptanCode>heratptjd</NaptanCode>
+      <Descriptor>
+        <CommonName>Lower Park Farm (Schools)</CommonName>
+        <Street>B4347</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053374</NptgLocalityRef>
+        <Suburb>Vowchurch</Suburb>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>337336</Easting>
+            <Northing>234988</Northing>
+            <Longitude>-2.914388852</Longitude>
+            <Latitude>52.009766237</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-08-20T17:22:55" ModificationDateTime="2025-08-20T17:20:11" Modification="new" Status="active">
+      <AtcoCode>2090A0106472</AtcoCode>
+      <NaptanCode>heratptjg</NaptanCode>
+      <Descriptor>
+        <CommonName>Westwood Industrial Estate (Schools)</CommonName>
+        <Street>B4347</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053236</NptgLocalityRef>
+        <Suburb>Ewyas Harold</Suburb>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>339377</Easting>
+            <Northing>227591</Northing>
+            <Longitude>-2.883347359</Longitude>
+            <Latitude>51.943496839</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-08-20T17:27:37" ModificationDateTime="2025-08-20T17:25:45" Modification="new" Status="active">
+      <AtcoCode>2090A0106474</AtcoCode>
+      <NaptanCode>heratptjm</NaptanCode>
+      <Descriptor>
+        <CommonName>Westwood Industrial Estate (Schools)</CommonName>
+        <Street>B4347</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053236</NptgLocalityRef>
+        <Suburb>Ewyas Harold</Suburb>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>339352</Easting>
+            <Northing>227617</Northing>
+            <Longitude>-2.883715605</Longitude>
+            <Latitude>51.943727842</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2020-11-30T17:18:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2090A016000</AtcoCode>
