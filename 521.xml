@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-18T11:15:10.4090621Z" ModificationDateTime="2025-08-18T11:15:10.4090621Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-22T10:38:29.722022Z" ModificationDateTime="2025-08-22T10:38:29.722022Z" Modification="new" RevisionNumber="1" FileName="521.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -5253,21 +5253,17 @@
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:23" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-22T11:38:14" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5210AWC51082</AtcoCode>
       <NaptanCode>pemajdw</NaptanCode>
       <Descriptor>
-        <CommonName>Kensington House</CommonName>
-        <Landmark>Kensington House</Landmark>
-        <Street>Manor Way</Street>
+        <CommonName>Heol-Y-Felin</CommonName>
+        <Street>Heol-Y-Felin</Street>
         <Crossing>Kensington Street</Crossing>
-        <Indicator>nr</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2024-04-26T16:54:45" ModificationDateTime="2024-05-02T09:39:24" Modification="revise" RevisionNumber="1">
-          <CommonName xml:lang="CY">Ty Kensington</CommonName>
-        </Descriptor>
-        <Descriptor CreationDateTime="2024-04-26T16:54:45" ModificationDateTime="2024-05-02T09:39:24" Modification="revise" RevisionNumber="1">
+        <Descriptor CreationDateTime="2024-04-26T16:54:45" ModificationDateTime="2025-08-22T11:38:14" Modification="revise" RevisionNumber="2">
           <CommonName xml:lang="CY">Ty Kensington</CommonName>
         </Descriptor>
       </AlternativeDescriptors>
@@ -5279,8 +5275,8 @@
             <GridType>UKOS</GridType>
             <Easting>194100</Easting>
             <Northing>237561</Northing>
-            <Longitude>-5.000781872</Longitude>
-            <Latitude>51.998215752</Latitude>
+            <Longitude>-5.000781703</Longitude>
+            <Latitude>51.998211052</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -5299,6 +5295,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-08-22T11:38:14" ModificationDateTime="2025-08-22T11:38:14" Modification="new">
+          <DateRange>
+            <StartDate>2025-08-22</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210AWC51083</AtcoCode>
@@ -49985,6 +49989,50 @@
         <StopValidity CreationDateTime="2025-03-17T12:37:33" ModificationDateTime="2025-03-17T12:37:33" Modification="new">
           <DateRange>
             <StartDate>2025-03-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-08-22T11:37:29" ModificationDateTime="2025-08-22T11:32:50" Modification="new" Status="active">
+      <AtcoCode>5210WDB48419</AtcoCode>
+      <NaptanCode>pemjamw</NaptanCode>
+      <Descriptor>
+        <CommonName>Heol-Y-Felin</CommonName>
+        <Street>Heol-Y-Felin</Street>
+        <Crossing>Kensington St</Crossing>
+        <Indicator>jct</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0040238</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>194104</Easting>
+            <Northing>237542</Northing>
+            <Longitude>-5.000712104</Longitude>
+            <Latitude>51.998041947</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>040</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-08-22T11:37:29" ModificationDateTime="2025-08-22T11:37:29" Modification="new">
+          <DateRange>
+            <StartDate>2025-08-22</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
