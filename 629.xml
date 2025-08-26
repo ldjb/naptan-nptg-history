@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-08-12T09:58:54.889" ModificationDateTime="2025-08-12T09:58:54.889" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-08-25T09:46:49.373" ModificationDateTime="2025-08-25T09:46:49.373" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-10-29T00:00:00.000" ModificationDateTime="2010-05-20T11:35:26.000" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>629028120</AtcoCode>
@@ -35949,7 +35949,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">BTHGATE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2011-03-08T09:18:55.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2025-08-25T09:12:03.649" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6290PO13</AtcoCode>
 <NaptanCode>95625357</NaptanCode>
 <Descriptor>
@@ -35964,10 +35964,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>302354</Easting>
-<Northing>663718</Northing>
-<Longitude>-3.561479</Longitude>
-<Latitude>55.856722</Latitude>
+<Easting>302578</Easting>
+<Northing>663819</Northing>
+<Longitude>-3.557933</Longitude>
+<Latitude>55.857674</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -35991,7 +35991,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">BTHGATE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2011-09-07T09:26:57.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2025-08-25T09:12:45.817" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6290PO14</AtcoCode>
 <NaptanCode>95625368</NaptanCode>
 <Descriptor>
@@ -36006,10 +36006,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>302277</Easting>
-<Northing>663654</Northing>
-<Longitude>-3.562685</Longitude>
-<Latitude>55.856132</Latitude>
+<Easting>302532</Easting>
+<Northing>663782</Northing>
+<Longitude>-3.558654</Longitude>
+<Latitude>55.857332</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -45304,6 +45304,41 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-08-14T13:01:47.223" ModificationDateTime="2025-08-21T13:17:05.724" Modification="revise" RevisionNumber="1" Status="inactive">
+<AtcoCode>629070001309</AtcoCode>
+<Descriptor>
+<CommonName>Home Bargains</CommonName>
+<Street>Heartlands Terrace</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003847</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>293373</Easting>
+<Northing>664936</Northing>
+<Longitude>-3.705356</Longitude>
+<Latitude>55.865756</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
