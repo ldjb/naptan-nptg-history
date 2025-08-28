@@ -43,9 +43,9 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800COA15572,corgjdmj,,,Bus Shelter,,,,,,,,,,SW-bound,,SW,E0002919,Playing Place,,,,,,,false,UKOS,181105,41441,-5.07067,50.23235,BCT,MKD,OTH,,,,073,2017-10-19T00:00:00,2017-10-19T09:00:16,64,delete,inactive
 0800COB20132,corgagmd,,,Fore Street Bottom,,,,,,Fore Street,,,,E-bound,,E,E0044470,Saltash,,,,,,,false,UKOS,243001,58871,-4.21085,50.40868,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2015-10-28T09:02:43,1,new,active
 0800COB20096,corgagjm,,,Fore Street Bottom,,,,,,Fore Street,,,,W-bound,,W,E0044470,Saltash,,,,,,,false,UKOS,242985,58859,-4.21107,50.40857,BCT,MKD,OTH,,,,073,2003-06-12T00:00:00,2023-01-18T13:28:35,0,new,active
+0800COA15287,corgdjpm,,,Callywith College Car Park,,,,,,Old Callywith Road,,,,SW-bound,,SW,E0044554,Bodmin,,,,,,,false,UKOS,207983,67538,-4.70758,50.47613,BCT,CUS,OTH,,,,073,2010-08-11T00:00:00,2021-08-25T10:07:54,23,new,active
 0800COA15615,corgjgjp,,,Asda,,,,,,,,,,NE-bound,,NE,E0044554,Bodmin,,,,,,,false,UKOS,208216,67178,-4.70411,50.47297,BCT,MKD,OTH,,,,073,2014-02-21T00:00:00,2014-02-21T10:52:01,64,new,active
 0800COA15616,corgjgjt,,,Asda,,,,,,,,,,SW-bound,,SW,E0044554,Bodmin,,,,,,,false,UKOS,208223,67157,-4.70401,50.47279,BCT,MKD,OTH,,,,073,2014-02-21T00:00:00,2014-02-21T10:52:19,64,new,active
-0800COA15287,corgdjpm,,,Callywith College Car Park,,,,,,Old Callywith Road,,,,SW-bound,,SW,E0044554,Bodmin,,,,,,,false,UKOS,207983,67538,-4.70758,50.47613,BCT,CUS,OTH,,,,073,2010-08-11T00:00:00,2021-08-25T10:07:54,23,new,active
 0800BODMNPW0,,,,Bodmin Parkway Rail Station,,,,,,,,,,Entrance,,,E0044554,Bodmin,,,,,,,false,UKOS,211030,64058,-4.66293,50.44586,RSE,,,,,,073,2018-03-20T00:00:00,2025-04-24T15:04:35,7,new,active
 0800BUGLE0,,,,Bugle Rail Station,,,,,,,,,,Entrance,,,E0004481,Bugle,,,,,,,false,UKOS,201686,59317,-4.79187,50.40019,RSE,,,,,,073,2010-11-26T00:00:00,2010-11-26T16:35:16,0,new,active
 0800CALSTCK0,,,,Calstock Rail Station,,,,,,,,,,Entrance,,,E0044451,Calstock,,,,,,,false,UKOS,243438,68789,-4.20885,50.49792,RSE,,,,,,073,2010-11-26T00:00:00,2010-11-26T16:35:16,0,new,active
@@ -112,7 +112,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800PHY0,,,,Rock Padstow Ferry Landing,,,,,,,,,,Entrance,,,E0003881,Rock,,,,,,,true,UKOS,192838,75813,-4.92534,50.54529,FTD,,,,,,073,2010-11-26T00:00:00,2010-11-26T16:27:09,0,new,active
 0800POL0,,,,Polruan Ferry Landing,,,,,,,,,,Entrance,,,E0002645,Polruan,,,,,,,false,UKOS,212568,51068,-4.63481,50.32966,FTD,,,,,,073,2010-11-26T00:00:00,2010-11-26T16:27:09,0,new,active
 0800PON0,,,,Ponsharden Ferry Landing,,,,,,,,,,Entrance,,,E0044498,Penryn,,,,,,,false,UKOS,179435,33974,-5.08972,50.16467,FTD,,,,,,073,2011-03-09T00:00:00,2011-03-09T15:52:17,0,new,active
-0800SFL0,,,,Saltash Ferry Landing,,,,,,,,,,Entrance,,,E0044470,Saltash,,,,,,,false,UKOS,243320,58936,-4.20639,50.40935,FTD,,,,,,073,2025-08-11T00:00:00,2025-08-11T09:49:00,16,new,active
+0800SAT0,,,,Saltash Ferry Landing,,,,,,,,,,Entrance,,,E0044470,Saltash,,,,,,,false,UKOS,243320,58936,-4.20639,50.40935,FTD,,,,,,073,2025-08-11T00:00:00,2025-08-22T15:30:17,20,new,active
 0800TCK0,,,,Trelissick Ferry Landing,,,,,,,,,,Entrance,,,E0002985,Trelissick Gardens,,,,,,,false,UKOS,184035,39595,-5.0286,50.21685,FTD,,,,,,073,2010-11-26T00:00:00,2010-11-26T16:27:09,0,new,active
 0800TCO0,,,,Tresco Isles Of Scilly Ferry Landing,,,,,,,,,,Entrance,,,E0044518,Tresco,Isles of Scilly,,,,,,false,UKOS,89296,13379,-6.33188,49.93961,FTD,,,,,,073,2011-03-09T00:00:00,2011-03-09T15:52:17,0,new,active
 0800TOL0,,,,Tolverne Ferry Landing,,,,,,,,,,Entrance,,,E0044501,Philleigh,,,,,,,false,UKOS,184552,40218,-5.02172,50.22264,FTD,,,,,,073,2011-03-09T00:00:00,2011-03-09T15:52:17,0,new,active
@@ -6206,6 +6206,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 0800SCH16679,corgtjaw,,,Tredorn Farm,,,,,,,,,,S-bound,,S,E0003523,Boscastle,,,,,,,false,UKOS,210693,89716,-4.68072,50.67624,BCT,CUS,OTH,,,,073,2025-08-19T00:00:00,2025-08-19T09:25:48,40,new,active
 0800SCH16680,corgtjda,,,Halwill Barton,,,,,,,,,,N-bound,,N,E0044572,Lesnewth,,,,,,,false,UKOS,212372,88354,-4.6563,50.66455,BCT,CUS,OTH,,,,073,2025-08-19T00:00:00,2025-08-19T09:35:18,40,new,active
 0800SCH16681,corgtjdg,,,Halwill barton,,,,,,,,,,S-bound,,S,E0044572,Lesnewth,,,,,,,false,UKOS,212382,88358,-4.65616,50.66459,BCT,CUS,OTH,,,,073,2025-08-19T00:00:00,2025-08-19T09:37:00,40,new,active
+0800SCH16682,corgtjdj,,,Waterpit Down Crossroads,,,,,,,,,,N-bound,,N,E0003832,Penpethy,,,,,,,false,UKOS,210405,87833,-4.68383,50.65923,BCT,CUS,OTH,,,,073,2025-08-20T00:00:00,2025-08-20T14:40:52,40,new,active
+0800SCH16683,corgtjdm,,,Waterpit Down Crossroads,,,,,,,,,,S-bound,,S,E0003832,Penpethy,,,,,,,false,UKOS,210418,87837,-4.68365,50.65927,BCT,CUS,OTH,,,,073,2025-08-20T00:00:00,2025-08-20T14:42:50,40,new,active
+0800SCH16684,corgtjdp,,,Higher Worthyvale,,,,,,,,,,NE-bound,,NE,E0003832,Penpethy,,,,,,,false,UKOS,210108,86445,-4.68731,50.64667,BCT,CUS,OTH,,,,073,2025-08-20T00:00:00,2025-08-20T14:48:14,40,new,active
+0800SCH16685,corgtjdt,,,Higher Worthyvale,,,,,,,,,,SW-bound,,SW,E0003832,Penpethy,,,,,,,false,UKOS,210116,86438,-4.6872,50.64661,BCT,CUS,OTH,,,,073,2025-08-20T00:00:00,2025-08-20T14:49:56,40,new,active
+0800COA16686,corgtjdw,,,Opp Allotments,,,,,,,,,,E-bound,,E,E0002890,Mount Hawke,,,,,,,false,UKOS,171946,47107,-5.2023,50.27977,BCT,MKD,OTH,,,,073,2025-08-20T00:00:00,2025-08-20T15:09:39,40,new,active
+0800COA16687,corgtjga,,,Allotments,,,,,,,,,,W-bound,,W,E0002890,Mount Hawke,,,,,,,false,UKOS,171950,47097,-5.20224,50.27968,BCT,CUS,OTH,,,,073,2025-08-20T00:00:00,2025-08-20T15:11:36,40,new,active
 0800COC31782,cordwpta,,,The White Hart Inn,,,,,,,,,,SE-bound,,SE,E0002427,Chilsworthy,,,,,,,false,UKOS,241602,72083,-4.23612,50.52703,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2021-07-07T13:30:46,0,new,active
 0800COC31779,cordwpdw,,,Old Post Office,,,,,,,,,,NE-bound,,NE,E0002427,Chilsworthy,,,,,,,false,UKOS,241298,72262,-4.24048,50.52856,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:32,0,new,active
 0800COC31777,cordwjwg,,,Tamar Park,,,,,,,,,,S-bound,,S,E0002444,Coxpark,,,,,,,false,UKOS,239992,71666,-4.25863,50.52284,BCT,CUS,OTH,,,,073,2003-06-12T00:00:00,2015-04-25T12:20:32,0,new,active
