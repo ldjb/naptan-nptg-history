@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-08-18T16:25:35.181" ModificationDateTime="2025-08-18T16:25:35.181" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-09-03T12:36:29.372" ModificationDateTime="2025-09-03T12:36:29.372" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2014-01-17T14:33:22.000" ModificationDateTime="2014-01-17T14:33:22.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>35908614</AtcoCode>
@@ -50884,12 +50884,12 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2023-09-01T16:08:21.520" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2025-09-03T12:32:42.126" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>3590E091201</AtcoCode>
 <NaptanCode>telwjmj</NaptanCode>
 <Descriptor>
-<CommonName>Long Lane Hail-a-Ride</CommonName>
-<Street>RUSHMOOR LANE</Street>
+<CommonName>Long Lane</CommonName>
+<Street>Long Lane</Street>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0042579</NptgLocalityRef>
@@ -50897,10 +50897,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>362714</Easting>
-<Northing>314490</Northing>
-<Longitude>-2.553539</Longitude>
-<Latitude>52.726776</Latitude>
+<Easting>363355</Easting>
+<Northing>315402</Northing>
+<Longitude>-2.544149</Longitude>
+<Latitude>52.735013</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -62375,6 +62375,40 @@
 <Northing>321047</Northing>
 <Longitude>-2.567353</Longitude>
 <Latitude>52.785656</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-09-03T12:34:05.737" ModificationDateTime="2025-09-03T12:34:05.737" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E091202</AtcoCode>
+<Descriptor>
+<CommonName>Long Lane</CommonName>
+<Street>Long Lane</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042579</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>363346</Easting>
+<Northing>315415</Northing>
+<Longitude>-2.5442877</Longitude>
+<Latitude>52.7351371</Latitude>
 </Translation>
 </Location>
 </Place>
