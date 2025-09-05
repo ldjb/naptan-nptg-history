@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-08-13T15:03:26.686" ModificationDateTime="2025-08-13T15:03:26.686" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-09-04T15:44:39.019" ModificationDateTime="2025-09-04T15:44:39.019" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -96057,6 +96057,40 @@
 <CompassPoint>N</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-09-04T15:43:20.325" ModificationDateTime="2025-09-04T15:43:20.325" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802746</AtcoCode>
+<Descriptor>
+<CommonName>Huntingtower Hotel</CommonName>
+<Street>Bleachers' Way</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0076892</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>307347</Easting>
+<Northing>725602</Northing>
+<Longitude>-3.503281</Longitude>
+<Latitude>56.413507</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
