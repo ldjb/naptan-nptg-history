@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-02T13:30:36.2121488Z" ModificationDateTime="2025-09-02T13:30:36.2121488Z" Modification="new" RevisionNumber="1" FileName="541.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-08T11:29:10.4847361Z" ModificationDateTime="2025-09-08T11:29:10.4847361Z" Modification="new" RevisionNumber="1" FileName="541.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-17T09:54:54" ModificationDateTime="2025-07-24T09:51:15" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5410ABC99979</AtcoCode>
@@ -38065,6 +38065,55 @@
         <StopValidity CreationDateTime="2025-05-13T09:30:56" ModificationDateTime="2025-05-13T09:30:56" Modification="new">
           <DateRange>
             <StartDate>2025-05-13</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-09-08T10:51:46" ModificationDateTime="2025-09-08T11:02:36" Modification="revise" RevisionNumber="4" Status="active">
+      <AtcoCode>5410WDB47866</AtcoCode>
+      <NaptanCode>ynygmaj</NaptanCode>
+      <Descriptor>
+        <CommonName>Ysgol Gyfun Llangefni</CommonName>
+        <Landmark>Ysgol Gyfun Llangefni</Landmark>
+        <Street>Nant Terrace</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-09-08T10:51:46" ModificationDateTime="2025-09-08T11:02:36" Modification="revise" RevisionNumber="4">
+          <CommonName xml:lang="CY">Ysgol Gyfun Llangefni</CommonName>
+          <Street xml:lang="EN">Nant Terrace</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054347</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>245418</Easting>
+            <Northing>375862</Northing>
+            <Longitude>-4.318762247</Longitude>
+            <Latitude>53.257177458</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>024</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-08T10:51:46" ModificationDateTime="2025-09-08T10:51:46" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-08</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
