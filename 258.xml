@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-05-13T09:13:59.4194372Z" ModificationDateTime="2025-05-13T09:13:59.4194372Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-09T05:59:49.6129485Z" ModificationDateTime="2025-09-09T05:59:49.6129485Z" Modification="new" RevisionNumber="1" FileName="258.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-11-11T09:08:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2580AUD0001</AtcoCode>
@@ -2390,10 +2390,11 @@
         <PlusbusZoneRef CreationDateTime="2009-12-17T10:34:00" ModificationDateTime="2014-02-14T09:30:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-15T10:27:59" ModificationDateTime="2024-11-15T10:27:14" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-15T10:27:59" ModificationDateTime="2025-06-09T08:38:38" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BHY0015</AtcoCode>
+      <NaptanCode>blamapg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Sycamores</CommonName>
+        <CommonName>The Sycamores</CommonName>
         <Landmark>The Sycamores</Landmark>
         <Street>Gib Lane</Street>
         <Indicator>by</Indicator>
@@ -2428,8 +2429,9 @@
       </StopClassification>
       <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-15T10:30:28" ModificationDateTime="2024-11-15T10:29:31" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-15T10:30:28" ModificationDateTime="2025-06-09T08:39:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BHY0016</AtcoCode>
+      <NaptanCode>blamapj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="en">Bluebell Way</CommonName>
         <Landmark>Bluebell Way</Landmark>
@@ -2466,10 +2468,11 @@
       </StopClassification>
       <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-15T10:32:30" ModificationDateTime="2024-11-15T10:31:46" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-15T10:32:30" ModificationDateTime="2025-06-09T08:39:23" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BHY0017</AtcoCode>
+      <NaptanCode>blamapm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Buckthorn Lane</CommonName>
+        <CommonName>Buckthorn Lane</CommonName>
         <Landmark>Buckthorn Lane</Landmark>
         <Street>Gib Lane</Street>
         <Indicator>by</Indicator>
@@ -2504,10 +2507,11 @@
       </StopClassification>
       <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-15T10:29:03" ModificationDateTime="2024-11-15T10:28:22" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-15T10:29:03" ModificationDateTime="2025-06-09T08:39:44" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BHY0018</AtcoCode>
+      <NaptanCode>blamapt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Sycamores</CommonName>
+        <CommonName>The Sycamores</CommonName>
         <Landmark>The Sycamores</Landmark>
         <Street>Gib Lane</Street>
         <Indicator>opp</Indicator>
@@ -2542,10 +2546,11 @@
       </StopClassification>
       <AdministrativeAreaRef>002</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-11-15T10:33:38" ModificationDateTime="2024-11-15T10:33:07" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-11-15T10:33:38" ModificationDateTime="2025-06-09T08:40:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2580BHY0019</AtcoCode>
+      <NaptanCode>blamapw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Buckthorn Lane</CommonName>
+        <CommonName>Buckthorn Lane</CommonName>
         <Landmark>Buckthorn Lane</Landmark>
         <Street>Gib Lane</Street>
         <Indicator>opp</Indicator>
@@ -2573,6 +2578,45 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>002</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-09T08:42:59" ModificationDateTime="2025-06-09T08:41:32" Modification="new" Status="active">
+      <AtcoCode>2580BHY0020</AtcoCode>
+      <NaptanCode>blamata</NaptanCode>
+      <Descriptor>
+        <CommonName>Black Bull</CommonName>
+        <Landmark>Black Bull</Landmark>
+        <Street>Bog Height Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0035179</NptgLocalityRef>
+        <Suburb>Bank Hey</Suburb>
+        <Town>Blackburn</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>366717</Easting>
+            <Northing>424721</Northing>
+            <Longitude>-2.505813672</Longitude>
+            <Latitude>53.717828460</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -14511,7 +14555,7 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-06-18T08:46:51" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-06-23T14:15:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580BTW0005</AtcoCode>
       <NaptanCode>bladawg</NaptanCode>
       <Descriptor>
@@ -14520,7 +14564,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2019-06-18T08:46:51" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-06-23T14:15:29" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Mitton Street</CommonName>
           <Landmark>Mitton Street</Landmark>
           <Street>Whalley New Road</Street>
@@ -14534,10 +14578,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>368990</Easting>
-            <Northing>429111</Northing>
-            <Longitude>-2.471814342</Longitude>
-            <Latitude>53.757429688</Latitude>
+            <Easting>368966</Easting>
+            <Northing>429062</Northing>
+            <Longitude>-2.472173318</Longitude>
+            <Latitude>53.756983325</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -30557,17 +30601,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2009-03-11T15:00:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2014-03-10T15:50:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-09-09T06:59:06" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580GRP0001</AtcoCode>
       <NaptanCode>blagjwm</NaptanCode>
       <Descriptor>
-        <CommonName>Health Centre</CommonName>
+        <CommonName>St Georges Surgery</CommonName>
         <Landmark>Health Centre</Landmark>
         <Street>Haslingden Road</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2014-03-10T15:50:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-09-09T06:59:07" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Bennington Street</CommonName>
           <Landmark>Bennington Street</Landmark>
           <Street>Haslingden Road</Street>
@@ -31207,17 +31251,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2021-05-18T10:27:37" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-09-09T06:58:49" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2580GRP0015</AtcoCode>
       <NaptanCode>blagmdp</NaptanCode>
       <Descriptor>
-        <CommonName>Health Centre</CommonName>
+        <CommonName>St Georges Surgery</CommonName>
         <Landmark>Health Centre</Landmark>
         <Street>Haslingden Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2021-05-18T10:27:37" Modification="revise" RevisionNumber="4" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-09-09T06:58:49" Modification="revise" RevisionNumber="5" Status="active">
           <CommonName>Robin Hood</CommonName>
           <Landmark>Robin Hood</Landmark>
           <Street>Haslingden Road</Street>
@@ -40778,7 +40822,7 @@
         <PlusbusZoneRef CreationDateTime="2013-12-09T09:48:00" ModificationDateTime="2013-12-09T10:02:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-06-10T16:13:37" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2580MRG0001</AtcoCode>
       <NaptanCode>blagwjm</NaptanCode>
       <Descriptor>
@@ -40787,7 +40831,7 @@
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2025-06-10T16:13:37" Modification="revise" RevisionNumber="1" Status="active">
           <CommonName>Baden Terrace</CommonName>
           <Landmark>Baden Terrace</Landmark>
           <Street>Livesey Branch Road</Street>
@@ -40827,6 +40871,14 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2006-08-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-06-10T16:13:37" ModificationDateTime="2025-06-10T16:13:37" Modification="new">
+          <DateRange>
+            <StartDate>2025-06-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2016-01-27T07:58:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2580MRG0002</AtcoCode>
