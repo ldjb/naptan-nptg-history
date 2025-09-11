@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.89.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-05T10:56:36.4371583Z" ModificationDateTime="2025-09-05T10:56:36.4371583Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-10T15:30:26.9300312Z" ModificationDateTime="2025-09-10T15:30:26.9300312Z" Modification="new" RevisionNumber="1" FileName="561.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -71342,6 +71342,92 @@
         <StopValidity CreationDateTime="2025-08-21T13:06:46" ModificationDateTime="2025-08-21T13:06:46" Modification="new">
           <DateRange>
             <StartDate>2025-08-21</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-09-10T16:13:13" ModificationDateTime="2025-09-10T16:20:35" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5610WDB48478</AtcoCode>
+      <NaptanCode>powmwtm</NaptanCode>
+      <Descriptor>
+        <CommonName>Railway Station </CommonName>
+        <Street>Trefeglwys Road </Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054561</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>302938</Easting>
+            <Northing>291869</Northing>
+            <Longitude>-3.431787707</Longitude>
+            <Latitude>52.516029080</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-10T16:20:36" ModificationDateTime="2025-09-10T16:20:36" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-10</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-09-10T16:28:04" ModificationDateTime="2025-09-10T16:28:59" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>5610WDB48479</AtcoCode>
+      <NaptanCode>powmwtp</NaptanCode>
+      <Descriptor>
+        <CommonName>Railway Station </CommonName>
+        <Street>Trefeglwys Road</Street>
+        <Indicator>Nr</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0054561</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>302930</Easting>
+            <Northing>291885</Northing>
+            <Longitude>-3.431910236</Longitude>
+            <Latitude>52.516171447</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-10T16:28:59" ModificationDateTime="2025-09-10T16:28:59" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-10</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
