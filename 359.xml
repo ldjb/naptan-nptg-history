@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-09-03T12:36:29.372" ModificationDateTime="2025-09-03T12:36:29.372" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-09-22T14:20:45.210" ModificationDateTime="2025-09-22T14:20:45.210" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2014-01-17T14:33:22.000" ModificationDateTime="2014-01-17T14:33:22.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>35908614</AtcoCode>
@@ -62409,6 +62409,40 @@
 <Northing>315415</Northing>
 <Longitude>-2.5442877</Longitude>
 <Latitude>52.7351371</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-09-22T14:18:39.672" ModificationDateTime="2025-09-22T14:18:39.672" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E057201</AtcoCode>
+<Descriptor>
+<CommonName>Tranter Avenue</CommonName>
+<Street>DONNINGTON WOOD WAY</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042593</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>371151</Easting>
+<Northing>312632</Northing>
+<Longitude>-2.428459</Longitude>
+<Latitude>52.710592</Latitude>
 </Translation>
 </Location>
 </Place>
