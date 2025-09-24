@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-02T15:55:29.718" ModificationDateTime="2025-09-02T15:55:29.718" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-23T10:48:52.596" ModificationDateTime="2025-09-23T10:48:52.596" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-03-22T00:00:00.000" ModificationDateTime="2011-05-11T11:44:23.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>269000T01</AtcoCode>
@@ -71602,6 +71602,42 @@
 <Note>New NaPTAN point created - IJ</Note>
 </StopValidity>
 </StopAvailability>
+</StopPoint>
+<StopPoint CreationDateTime="2025-09-23T10:45:43.315" ModificationDateTime="2025-09-23T10:45:43.315" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>269037044</AtcoCode>
+<NaptanCode>lecdpwad</NaptanCode>
+<Descriptor>
+<CommonName>St Saviours Road</CommonName>
+<Street>Drinkstone Road</Street>
+<Indicator>adjacent</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0057189</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>461263</Easting>
+<Northing>304171</Northing>
+<Longitude>-1.0962555</Longitude>
+<Latitude>52.6318595</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
 <StopAreas>
