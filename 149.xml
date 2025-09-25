@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-23T11:57:06.468" ModificationDateTime="2025-09-23T11:57:06.468" Modification="new" RevisionNumber="0" FileName="NaPTAN149.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-24T15:42:18.068" ModificationDateTime="2025-09-24T15:42:18.068" Modification="new" RevisionNumber="0" FileName="NaPTAN149.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2011-03-08T16:19:00.000" ModificationDateTime="2021-10-20T13:47:18.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>149000001995</AtcoCode>
@@ -3610,6 +3610,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">149GNORSTR</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2011-02-24T10:55:00.000" Modification="revise" RevisionNumber="6" Status="active">BRGHTN</PlusbusZoneRef>
@@ -24937,9 +24940,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">149GSTEINE</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2004-05-11T00:00:00.000" ModificationDateTime="2011-11-14T16:28:00.000" Modification="revise" RevisionNumber="4" Status="inactive">BRGHTN</PlusbusZoneRef>
@@ -52668,9 +52668,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">149GSTEINE2</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2010-10-26T14:48:00.000" Modification="revise" RevisionNumber="3" Status="active">BRGHTN</PlusbusZoneRef>
@@ -52758,9 +52755,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">149GSTEINE2</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2010-10-26T14:49:00.000" Modification="revise" RevisionNumber="2" Status="active">BRGHTN</PlusbusZoneRef>
@@ -55565,7 +55559,7 @@
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2009-04-01T09:36:00.000" Modification="delete" RevisionNumber="1" Status="inactive">BRGHTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2025-08-07T14:38:54.007" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2025-09-24T14:42:45.325" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>149000007989</AtcoCode>
 <NaptanCode>briawad</NaptanCode>
 <Descriptor>
@@ -55697,7 +55691,7 @@
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2005-06-24T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">BRGHTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2019-03-19T12:41:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2025-09-24T14:43:33.216" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>149000007992</AtcoCode>
 <NaptanCode>briampa</NaptanCode>
 <Descriptor>
@@ -55734,9 +55728,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">149GCHUSQU</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2005-06-24T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">BRGHTN</PlusbusZoneRef>
@@ -57691,9 +57682,6 @@
 </Bus>
 </OnStreet>
 </StopClassification>
-<StopAreas>
-<StopAreaRef Modification="new" Status="active">149GSTEINE2</StopAreaRef>
-</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2005-06-02T00:00:00.000" ModificationDateTime="2010-10-26T14:48:00.000" Modification="revise" RevisionNumber="3" Status="active">BRGHTN</PlusbusZoneRef>
@@ -58782,11 +58770,11 @@
 </StopClassification>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-06-30T09:39:54.425" ModificationDateTime="2025-09-23T10:44:03.607" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2025-06-30T09:39:54.425" ModificationDateTime="2025-09-24T14:44:51.609" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>149000006839</AtcoCode>
 <NaptanCode>bripdmp</NaptanCode>
 <Descriptor>
-<CommonName>Castle Square</CommonName>
+<CommonName>North Street</CommonName>
 <Landmark>Palace Place</Landmark>
 <Street>Castle Square</Street>
 <Indicator>Stop N4</Indicator>
@@ -58817,6 +58805,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">149GNORSTR</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2025-06-30T09:46:30.089" ModificationDateTime="2025-09-23T10:15:21.683" Modification="revise" RevisionNumber="2" Status="active">
@@ -58854,6 +58845,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">149GSTEINE</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2025-06-30T10:09:24.651" ModificationDateTime="2025-09-23T10:24:55.115" Modification="revise" RevisionNumber="1" Status="active">
@@ -59187,6 +59181,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">149GSTEINE2</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
@@ -60050,18 +60047,19 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2011-11-14T16:27:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopArea CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2025-09-24T15:04:53.560" Modification="revise" RevisionNumber="3" Status="active">
 <StopAreaCode>149GSTEINE</StopAreaCode>
-<Name>Old Steine</Name>
+<Name>Royal Pavilion</Name>
+<ParentStopAreaRef>149GSTEINE2</ParentStopAreaRef>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>531317</Easting>
-<Northing>104063</Northing>
-<Longitude>-0.137089</Longitude>
-<Latitude>50.821222</Latitude>
+<Easting>531347</Easting>
+<Northing>104133</Northing>
+<Longitude>-0.136625</Longitude>
+<Latitude>50.821844</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -60080,19 +60078,18 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2010-10-26T14:45:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopArea CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2025-09-24T15:03:33.059" Modification="revise" RevisionNumber="2" Status="active">
 <StopAreaCode>149GSTEINE2</StopAreaCode>
-<Name>Old Steine south</Name>
-<ParentStopAreaRef>149GSTEINE</ParentStopAreaRef>
+<Name>Old Steine</Name>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>531288</Easting>
-<Northing>103992</Northing>
-<Longitude>-0.137526</Longitude>
-<Latitude>50.82059</Latitude>
+<Easting>531312</Easting>
+<Northing>104058</Northing>
+<Longitude>-0.137151</Longitude>
+<Latitude>50.821182</Latitude>
 </Translation>
 </Location>
 </StopArea>
