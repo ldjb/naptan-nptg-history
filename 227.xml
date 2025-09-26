@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.92.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-22T10:57:36.0896086Z" ModificationDateTime="2025-09-22T10:57:36.0896086Z" Modification="new" RevisionNumber="1" FileName="NaPTAN227.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-09-25T09:23:37.2235312Z" ModificationDateTime="2025-09-25T09:23:37.2235312Z" Modification="new" RevisionNumber="1" FileName="NaPTAN227.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-09T00:00:00" ModificationDateTime="2008-12-12T11:57:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>227000010001</AtcoCode>
@@ -258,7 +258,7 @@
       </StopAreas>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-09T00:00:00" ModificationDateTime="2008-12-12T12:00:58" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-08-09T00:00:00" ModificationDateTime="2025-09-22T13:26:23" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>227000010007</AtcoCode>
       <NaptanCode>scumtjd</NaptanCode>
       <Descriptor>
@@ -11581,7 +11581,7 @@
       </StopAreas>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2010-08-25T11:11:02" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2025-09-25T10:21:29" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>227000010249</AtcoCode>
       <NaptanCode>scumpap</NaptanCode>
       <Descriptor>
@@ -11622,8 +11622,16 @@
         <StopAreaRef CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="1899-12-30T00:00:00" Modification="new" RevisionNumber="0" Status="active">227G00091144</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-25T10:21:30" ModificationDateTime="2025-09-25T10:21:30" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-25</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2010-08-25T11:11:29" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2025-09-25T10:20:49" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>227000010250</AtcoCode>
       <NaptanCode>scumtap</NaptanCode>
       <Descriptor>
@@ -11664,8 +11672,16 @@
         <StopAreaRef CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="1899-12-30T00:00:00" Modification="new" RevisionNumber="0" Status="active">227G00091144</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-25T10:20:49" ModificationDateTime="2025-09-25T10:20:49" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-25</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2010-09-01T08:45:15" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2025-09-25T10:21:57" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>227000010251</AtcoCode>
       <NaptanCode>scumwap</NaptanCode>
       <Descriptor>
@@ -11706,8 +11722,16 @@
         <StopAreaRef CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="1899-12-30T00:00:00" Modification="new" RevisionNumber="0" Status="active">227G00091145</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-25T10:21:57" ModificationDateTime="2025-09-25T10:21:57" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-25</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2008-12-29T14:21:06" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2025-09-25T10:22:29" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>227000010252</AtcoCode>
       <NaptanCode>scupdap</NaptanCode>
       <Descriptor>
@@ -11748,6 +11772,14 @@
         <StopAreaRef CreationDateTime="1899-12-30T00:00:00" ModificationDateTime="1899-12-30T00:00:00" Modification="new" RevisionNumber="0" Status="active">227G00091145</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>037</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-09-25T10:22:29" ModificationDateTime="2025-09-25T10:22:29" Modification="new">
+          <DateRange>
+            <StartDate>2025-09-25</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-08-10T00:00:00" ModificationDateTime="2010-08-25T15:50:20" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>227000010253</AtcoCode>
