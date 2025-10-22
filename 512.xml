@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-09T12:19:56" ModificationDateTime="2025-10-09T12:19:56" Modification="revise" RevisionNumber="1" FileName="512.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-21T12:42:27" ModificationDateTime="2025-10-21T12:42:27" Modification="revise" RevisionNumber="1" FileName="512.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-16T11:53:24" ModificationDateTime="2025-08-12T17:07:56" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5120ABC80775</AtcoCode>
@@ -31329,18 +31329,19 @@
         <PlusbusZoneRef ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-12T09:42:11" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-12T09:42:11" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5120WDB21838</AtcoCode>
       <NaptanCode>flijmtw</NaptanCode>
       <Descriptor>
-        <CommonName>Glynne Arms</CommonName>
+        <CommonName xml:lang="cy">Glynne Arms</CommonName>
         <Landmark>Glynne Arms PH</Landmark>
         <Street>Glynne Way</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:04">
-          <CommonName xml:lang="CY">Glynne Arms</CommonName>
+          <CommonName xml:lang="cy">Glynne Arms</CommonName>
+          <Street>Glynne Way</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44460,11 +44461,17 @@
       <AtcoCode>5120WDB22488</AtcoCode>
       <NaptanCode>flimpaw</NaptanCode>
       <Descriptor>
-        <CommonName>North Street</CommonName>
+        <CommonName xml:lang="cy">North Street</CommonName>
         <Street>Shotton Lane</Street>
         <Crossing>North Street</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:53:32">
+          <CommonName xml:lang="cy">North Street</CommonName>
+          <Street>Shotton Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44502,11 +44509,17 @@
       <AtcoCode>5120WDB22489</AtcoCode>
       <NaptanCode>flimpda</NaptanCode>
       <Descriptor>
-        <CommonName>Dale Road</CommonName>
+        <CommonName xml:lang="cy">Dale Road</CommonName>
         <Street>Courtland Drive</Street>
         <Crossing>Dale Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:54:11">
+          <CommonName xml:lang="cy">Dale Road</CommonName>
+          <Street>Courtland Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44544,14 +44557,15 @@
       <AtcoCode>5120WDB22493</AtcoCode>
       <NaptanCode>flimpdp</NaptanCode>
       <Descriptor>
-        <CommonName>Plough Inn</CommonName>
+        <CommonName xml:lang="cy">Plough Inn</CommonName>
         <Street>Aston Road</Street>
         <Crossing>Plough Lane</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:22">
-          <CommonName xml:lang="CY">Plough Inn</CommonName>
+          <CommonName xml:lang="cy">Plough Inn</CommonName>
+          <Street>Aston Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44591,11 +44605,17 @@
       <AtcoCode>5120WDB22494</AtcoCode>
       <NaptanCode>flimpdt</NaptanCode>
       <Descriptor>
-        <CommonName>Plough Lane</CommonName>
+        <CommonName xml:lang="cy">Plough Lane</CommonName>
         <Street>Clawyd Street</Street>
         <Crossing>Aston Park Road</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:56:04">
+          <CommonName xml:lang="cy">Plough Lane</CommonName>
+          <Street>Clawyd Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44633,11 +44653,17 @@
       <AtcoCode>5120WDB22495</AtcoCode>
       <NaptanCode>flimpdw</NaptanCode>
       <Descriptor>
-        <CommonName>Terrig Street</CommonName>
+        <CommonName xml:lang="cy">Terrig Street</CommonName>
         <Street>Clwyd Street</Street>
         <Crossing>Castle Hill Street</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:56:39">
+          <CommonName xml:lang="cy">Terrig Street</CommonName>
+          <Street>Clwyd Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44675,11 +44701,17 @@
       <AtcoCode>5120WDB22496</AtcoCode>
       <NaptanCode>flimpga</NaptanCode>
       <Descriptor>
-        <CommonName>Central Drive Bottom</CommonName>
+        <CommonName xml:lang="cy">Central Drive Bottom</CommonName>
         <Street>Central Drive</Street>
         <Crossing>Clwyd Street</Crossing>
         <Indicator>o/s 1</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:57:41">
+          <CommonName xml:lang="cy">Central Drive Bottom</CommonName>
+          <Street>Central Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44717,11 +44749,17 @@
       <AtcoCode>5120WDB22497</AtcoCode>
       <NaptanCode>flimpgd</NaptanCode>
       <Descriptor>
-        <CommonName>Cornwall Road</CommonName>
+        <CommonName xml:lang="cy">Cornwall Road</CommonName>
         <Street>Norman Street</Street>
         <Crossing>Cornwall Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:58:16">
+          <CommonName xml:lang="cy">Cornwall Road</CommonName>
+          <Street>Norman Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44759,11 +44797,17 @@
       <AtcoCode>5120WDB22498</AtcoCode>
       <NaptanCode>flimpgj</NaptanCode>
       <Descriptor>
-        <CommonName>Green Lane</CommonName>
+        <CommonName xml:lang="cy">Green Lane</CommonName>
         <Street>Chevrons Way</Street>
         <Crossing>Green Lane</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T14:59:00">
+          <CommonName xml:lang="cy">Green Lane</CommonName>
+          <Street>Chevrons Way</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037312</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -44801,14 +44845,15 @@
       <AtcoCode>5120WDB22499</AtcoCode>
       <NaptanCode>flimpgm</NaptanCode>
       <Descriptor>
-        <CommonName>Deva Business Park</CommonName>
+        <CommonName xml:lang="cy">Deva Business Park</CommonName>
         <Landmark>Deva Business Park</Landmark>
         <Street>Welsh Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:19">
-          <CommonName xml:lang="CY">Parc Busnes Deva</CommonName>
+          <CommonName xml:lang="cy">Parc Busnes Deva</CommonName>
+          <Street>Welsh Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44848,7 +44893,7 @@
       <AtcoCode>5120WDB22500</AtcoCode>
       <NaptanCode>flimpgp</NaptanCode>
       <Descriptor>
-        <CommonName>Flint Library</CommonName>
+        <CommonName xml:lang="cy">Flint Library</CommonName>
         <ShortCommonName>Library</ShortCommonName>
         <Street>Church Street</Street>
         <Crossing>Chapel Street</Crossing>
@@ -44856,7 +44901,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:12">
-          <CommonName xml:lang="CY">Llyfrgell y Fflint</CommonName>
+          <CommonName xml:lang="cy">Llyfrgell y Fflint</CommonName>
+          <Street>Church Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44896,14 +44942,15 @@
       <AtcoCode>5120WDB22501</AtcoCode>
       <NaptanCode>flimpgt</NaptanCode>
       <Descriptor>
-        <CommonName>Fielding Arms Hotel</CommonName>
+        <CommonName xml:lang="cy">Fielding Arms Hotel</CommonName>
         <Landmark>Fielding Arms Hotel PH</Landmark>
         <Street>Monastery Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:02">
-          <CommonName xml:lang="CY">Fielding Arms Hotel</CommonName>
+          <CommonName xml:lang="cy">Fielding Arms Hotel</CommonName>
+          <Street>Monastery Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44940,14 +44987,15 @@
       <AtcoCode>5120WDB22502</AtcoCode>
       <NaptanCode>flimpgw</NaptanCode>
       <Descriptor>
-        <CommonName>Abbey</CommonName>
+        <CommonName xml:lang="cy">Abbey</CommonName>
         <Landmark>Pantasaph Abbey</Landmark>
         <Street>Monastery Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:39">
-          <CommonName xml:lang="CY">Abaty</CommonName>
+          <CommonName xml:lang="cy">Abaty</CommonName>
+          <Street>Monastery Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44984,7 +45032,7 @@
       <AtcoCode>5120WDB22503</AtcoCode>
       <NaptanCode>flimpja</NaptanCode>
       <Descriptor>
-        <CommonName>Calcoed</CommonName>
+        <CommonName xml:lang="cy">Calcoed</CommonName>
         <Landmark>Holywell Golf Course</Landmark>
         <Street>Main Road</Street>
         <Crossing>Ffordd Calcoed</Crossing>
@@ -44992,7 +45040,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:47">
-          <CommonName xml:lang="CY">Calcoed</CommonName>
+          <CommonName xml:lang="cy">Calcoed</CommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45029,13 +45078,14 @@
       <AtcoCode>5120WDB22504</AtcoCode>
       <NaptanCode>flimpjd</NaptanCode>
       <Descriptor>
-        <CommonName>Brynford Crossroads North</CommonName>
+        <CommonName xml:lang="cy">Brynford Crossroads North</CommonName>
         <Street>B5121</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:53">
-          <CommonName xml:lang="CY">Gogledd Croesffordd Brynffordd</CommonName>
+          <CommonName xml:lang="cy">Gogledd Croesffordd Brynffordd</CommonName>
+          <Street>B5121</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45072,7 +45122,7 @@
       <AtcoCode>5120WDB22505</AtcoCode>
       <NaptanCode>flimpjg</NaptanCode>
       <Descriptor>
-        <CommonName>Post Office</CommonName>
+        <CommonName xml:lang="cy">Post Office</CommonName>
         <Landmark>Pentre Halkyn Post Office</Landmark>
         <Street>Brynford Road</Street>
         <Crossing>Maes Lygan</Crossing>
@@ -45080,7 +45130,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:29">
-          <CommonName xml:lang="CY">Swyddfa Bost</CommonName>
+          <CommonName xml:lang="cy">Swyddfa Bost</CommonName>
+          <Street>Brynford Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45117,14 +45168,15 @@
       <AtcoCode>5120WDB22506</AtcoCode>
       <NaptanCode>flimpjm</NaptanCode>
       <Descriptor>
-        <CommonName>Willowfield Estate</CommonName>
+        <CommonName xml:lang="cy">Willowfield Estate</CommonName>
         <Street>Main Road</Street>
         <Crossing>Maes Gwelfor</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:38">
-          <CommonName xml:lang="CY">Ystad Willowfield</CommonName>
+          <CommonName xml:lang="cy">Ystad Willowfield</CommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45161,10 +45213,16 @@
       <AtcoCode>5120WDB22507</AtcoCode>
       <NaptanCode>flimpjp</NaptanCode>
       <Descriptor>
-        <CommonName>Tranquil House</CommonName>
+        <CommonName xml:lang="cy">Tranquil House</CommonName>
         <Street>Main Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:03:36">
+          <CommonName xml:lang="cy">Tranquil House</CommonName>
+          <Street>Main Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037335</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -45199,14 +45257,15 @@
       <AtcoCode>5120WDB22508</AtcoCode>
       <NaptanCode>flimpjt</NaptanCode>
       <Descriptor>
-        <CommonName>Pistyll</CommonName>
+        <CommonName xml:lang="cy">Pistyll</CommonName>
         <Street>Main Road</Street>
         <Crossing>Stamford Way</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:22">
-          <CommonName xml:lang="CY">Pistyll</CommonName>
+          <CommonName xml:lang="cy">Pistyll</CommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45243,14 +45302,15 @@
       <AtcoCode>5120WDB22509</AtcoCode>
       <NaptanCode>flimpjw</NaptanCode>
       <Descriptor>
-        <CommonName>St Mary`s Church</CommonName>
+        <CommonName xml:lang="cy">St Mary`s Church</CommonName>
         <Landmark>St Mary`s Church</Landmark>
         <Street>B5123</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:59">
-          <CommonName xml:lang="CY">Eglwys y Santes Fair</CommonName>
+          <CommonName xml:lang="cy">Eglwys y Santes Fair</CommonName>
+          <Street>B5123</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45287,14 +45347,15 @@
       <AtcoCode>5120WDB22510</AtcoCode>
       <NaptanCode>flimpma</NaptanCode>
       <Descriptor>
-        <CommonName>Halkyn Library</CommonName>
+        <CommonName xml:lang="cy">Halkyn Library</CommonName>
         <ShortCommonName>Library</ShortCommonName>
         <Street>Village Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:12">
-          <CommonName xml:lang="CY">Llyfrgell Halkyn</CommonName>
+          <CommonName xml:lang="cy">Llyfrgell Halkyn</CommonName>
+          <Street>Village Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45331,14 +45392,15 @@
       <AtcoCode>5120WDB22511</AtcoCode>
       <NaptanCode>flimpmd</NaptanCode>
       <Descriptor>
-        <CommonName>St Paul`s Church</CommonName>
+        <CommonName xml:lang="cy">St Paul`s Church</CommonName>
         <Landmark>Rhosesmor War Memorial</Landmark>
         <Street>Northop Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:59">
-          <CommonName xml:lang="CY">Eglwys Sant Paul</CommonName>
+          <CommonName xml:lang="cy">Eglwys Sant Paul</CommonName>
+          <Street>Northop Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45375,14 +45437,15 @@
       <AtcoCode>5120WDB22512</AtcoCode>
       <NaptanCode>flimpmg</NaptanCode>
       <Descriptor>
-        <CommonName>Rhosesmor Park</CommonName>
+        <CommonName xml:lang="cy">Rhosesmor Park</CommonName>
         <ShortCommonName>Park</ShortCommonName>
         <Street>Northop Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:21">
-          <CommonName xml:lang="CY">Parc Rhosesmor</CommonName>
+          <CommonName xml:lang="cy">Parc Rhosesmor</CommonName>
+          <Street>Northop Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45419,14 +45482,15 @@
       <AtcoCode>5120WDB22513</AtcoCode>
       <NaptanCode>flimpmj</NaptanCode>
       <Descriptor>
-        <CommonName>Red Lion</CommonName>
+        <CommonName xml:lang="cy">Red Lion</CommonName>
         <Landmark>Red Lion PH</Landmark>
         <Street>Northop Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:24">
-          <CommonName xml:lang="CY">Red Lion</CommonName>
+          <CommonName xml:lang="cy">Red Lion</CommonName>
+          <Street>Northop Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45463,14 +45527,15 @@
       <AtcoCode>5120WDB22514</AtcoCode>
       <NaptanCode>flimpmp</NaptanCode>
       <Descriptor>
-        <CommonName>Bronant</CommonName>
+        <CommonName xml:lang="cy">Bronant</CommonName>
         <Landmark>Lixwm Village Green</Landmark>
         <Street>B5121</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:44">
-          <CommonName xml:lang="CY">Bronant</CommonName>
+          <CommonName xml:lang="cy">Bronant</CommonName>
+          <Street>B5121</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45507,11 +45572,17 @@
       <AtcoCode>5120WDB22516</AtcoCode>
       <NaptanCode>flimpmw</NaptanCode>
       <Descriptor>
-        <CommonName>Little Mountain Road</CommonName>
+        <CommonName xml:lang="cy">Little Mountain Road</CommonName>
         <Street>Little Mountain Road</Street>
         <Crossing>Dirty Mile</Crossing>
         <Indicator>opp 2</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:07:55">
+          <CommonName xml:lang="cy">Little Mountain Road</CommonName>
+          <Street>Little Mountain Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>N0075638</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -45546,14 +45617,15 @@
       <AtcoCode>5120WDB22644</AtcoCode>
       <NaptanCode>flimptg</NaptanCode>
       <Descriptor>
-        <CommonName>Crown Inn</CommonName>
+        <CommonName xml:lang="cy">Crown Inn</CommonName>
         <Landmark>Crown Inn</Landmark>
         <Street>Village Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:54">
-          <CommonName xml:lang="CY">Crown Inn</CommonName>
+          <CommonName xml:lang="cy">Crown Inn</CommonName>
+          <Street>Village Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45598,14 +45670,15 @@
       <AtcoCode>5120WDB22847</AtcoCode>
       <NaptanCode>flimpta</NaptanCode>
       <Descriptor>
-        <CommonName>Theatr Clwyd</CommonName>
+        <CommonName xml:lang="cy">Theatr Clwyd</CommonName>
         <Landmark>Theatr Clwyd</Landmark>
         <Street>Grounds</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:31">
-          <CommonName xml:lang="CY">Theatr Clwyd</CommonName>
+          <CommonName xml:lang="cy">Theatr Clwyd</CommonName>
+          <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45642,13 +45715,14 @@
       <AtcoCode>5120WDB23755</AtcoCode>
       <NaptanCode>flimptm</NaptanCode>
       <Descriptor>
-        <CommonName>Windmill</CommonName>
+        <CommonName xml:lang="cy">Windmill</CommonName>
         <Street>Main Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:16">
-          <CommonName xml:lang="CY">Melin wynt</CommonName>
+          <CommonName xml:lang="cy">Melin wynt</CommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45684,13 +45758,14 @@
       <AtcoCode>5120WDB23757</AtcoCode>
       <NaptanCode>flimptp</NaptanCode>
       <Descriptor>
-        <CommonName>Windmill</CommonName>
+        <CommonName xml:lang="cy">Windmill</CommonName>
         <Street>Main Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:16">
-          <CommonName xml:lang="CY">Melin wynt</CommonName>
+          <CommonName xml:lang="cy">Melin wynt</CommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45726,7 +45801,7 @@
       <AtcoCode>5120WDB24209</AtcoCode>
       <NaptanCode>flimptw</NaptanCode>
       <Descriptor>
-        <CommonName>Talacre Beach</CommonName>
+        <CommonName xml:lang="cy">Talacre Beach</CommonName>
         <Landmark>Talacre Beach Caravan Park</Landmark>
         <Street>Station Road</Street>
         <Crossing>West Road</Crossing>
@@ -45734,7 +45809,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:31">
-          <CommonName xml:lang="CY">Traeth Talacre</CommonName>
+          <CommonName xml:lang="cy">Traeth Talacre</CommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45770,12 +45846,18 @@
       <AtcoCode>5120WDB25442</AtcoCode>
       <NaptanCode>flijgja</NaptanCode>
       <Descriptor>
-        <CommonName>Station Road Turn</CommonName>
+        <CommonName xml:lang="cy">Station Road Turn</CommonName>
         <Landmark>The Willows</Landmark>
         <Street>A548</Street>
         <Crossing>Station Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:13:02">
+          <CommonName xml:lang="cy">Station Road Turn</CommonName>
+          <Street>A548</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037403</NptgLocalityRef>
         <MainNptgLocalities>
@@ -45869,14 +45951,15 @@
       <AtcoCode>5120WDB25443</AtcoCode>
       <NaptanCode>flijgjd</NaptanCode>
       <Descriptor>
-        <CommonName>Tanlan Farm</CommonName>
+        <CommonName xml:lang="cy">Tanlan Farm</CommonName>
         <Landmark>Farfield</Landmark>
         <Street>A458</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:01">
-          <CommonName xml:lang="CY">Fferm Tanlan</CommonName>
+          <CommonName xml:lang="cy">Fferm Tanlan</CommonName>
+          <Street>A458</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -45913,10 +45996,16 @@
       <AtcoCode>5120WDB25444</AtcoCode>
       <NaptanCode>flijgjg</NaptanCode>
       <Descriptor>
-        <CommonName>Redwater Wood</CommonName>
+        <CommonName xml:lang="cy">Redwater Wood</CommonName>
         <Street>A548</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:13:59">
+          <CommonName xml:lang="cy">Redwater Wood</CommonName>
+          <Street>A458</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037294</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
@@ -45951,11 +46040,17 @@
       <AtcoCode>5120WDB25445</AtcoCode>
       <NaptanCode>flijgjm</NaptanCode>
       <Descriptor>
-        <CommonName>Bells of St Mary's</CommonName>
+        <CommonName xml:lang="cy">Bells of St Mary's</CommonName>
         <Landmark>St Mary's Camping Site</Landmark>
         <Street>A548</Street>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:14:43">
+          <CommonName xml:lang="cy">Bells of St Mary's</CommonName>
+          <Street>A548</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037307</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -45993,11 +46088,17 @@
       <AtcoCode>5120WDB46556</AtcoCode>
       <NaptanCode>flijgmj</NaptanCode>
       <Descriptor>
-        <CommonName>Shop Terrace</CommonName>
+        <CommonName xml:lang="cy">Shop Terrace</CommonName>
         <Landmark>Shop Terrace</Landmark>
         <Street>A494</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:15:15">
+          <CommonName xml:lang="cy">Shop Terrace</CommonName>
+          <Street>A494</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037267</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46032,14 +46133,15 @@
       <AtcoCode>5120WDB46557</AtcoCode>
       <NaptanCode>flijgmp</NaptanCode>
       <Descriptor>
-        <CommonName>Rainbow Garage</CommonName>
+        <CommonName xml:lang="cy">Rainbow Garage</CommonName>
         <Street>A494</Street>
         <Crossing>Glyndwr Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:03">
-          <CommonName xml:lang="CY">Garej Enfys</CommonName>
+          <CommonName xml:lang="cy">Garej Enfys</CommonName>
+          <Street>A494</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46076,14 +46178,15 @@
       <AtcoCode>5120WDB46558</AtcoCode>
       <NaptanCode>flijgmt</NaptanCode>
       <Descriptor>
-        <CommonName>McLeans</CommonName>
+        <CommonName xml:lang="cy">McLeans</CommonName>
         <Landmark>Manor Buildings</Landmark>
         <Street>A548</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:16">
-          <CommonName xml:lang="CY">McLeans</CommonName>
+          <CommonName xml:lang="cy">McLeans</CommonName>
+          <Street>A548</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46120,11 +46223,17 @@
       <AtcoCode>5120WDB46560</AtcoCode>
       <NaptanCode>flijgmw</NaptanCode>
       <Descriptor>
-        <CommonName>Smithy Cottage</CommonName>
+        <CommonName xml:lang="cy">Smithy Cottage</CommonName>
         <Landmark>Smithy Cottage</Landmark>
         <Street>Ffordd-y-Pentre</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:16:48">
+          <CommonName xml:lang="cy">Smithy Cottage</CommonName>
+          <Street>Ffordd-y-Pentre</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037346</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46159,12 +46268,18 @@
       <AtcoCode>5120WDB46561</AtcoCode>
       <NaptanCode>flijgpa</NaptanCode>
       <Descriptor>
-        <CommonName>Papermill Lane</CommonName>
+        <CommonName xml:lang="cy">Papermill Lane</CommonName>
         <Landmark>Papermill</Landmark>
         <Street>Papermill Lane</Street>
         <Crossing>Chester Road</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:18:13">
+          <CommonName xml:lang="cy">Papermill Lane</CommonName>
+          <Street>Papermill Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037349</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46202,10 +46317,16 @@
       <AtcoCode>5120WDB46562</AtcoCode>
       <NaptanCode>flijgpd</NaptanCode>
       <Descriptor>
-        <CommonName>Yacht</CommonName>
+        <CommonName xml:lang="cy">Yacht</CommonName>
         <Street>Chester Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:18:52">
+          <CommonName xml:lang="cy">Yacht</CommonName>
+          <Street>Chester Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037371</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46243,11 +46364,17 @@
       <AtcoCode>5120WDB46563</AtcoCode>
       <NaptanCode>flijgpg</NaptanCode>
       <Descriptor>
-        <CommonName>Caeser Avenue</CommonName>
+        <CommonName xml:lang="cy">Caeser Avenue</CommonName>
         <Street>Chester Road</Street>
         <Crossing>Caeser Avenue</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:19:29">
+          <CommonName xml:lang="cy">Caeser Avenue</CommonName>
+          <Street>Chester Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037371</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46285,11 +46412,17 @@
       <AtcoCode>5120WDB46564</AtcoCode>
       <NaptanCode>flijgpj</NaptanCode>
       <Descriptor>
-        <CommonName>Manor Drive</CommonName>
+        <CommonName xml:lang="cy">Manor Drive</CommonName>
         <Street>Reynolds Road</Street>
         <Crossing>Manor Drive</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:20:04">
+          <CommonName xml:lang="cy">Manor Drive</CommonName>
+          <Street>Reynolds Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054226</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46324,13 +46457,14 @@
       <AtcoCode>5120WDB46565</AtcoCode>
       <NaptanCode>flijgpm</NaptanCode>
       <Descriptor>
-        <CommonName>Nannerch Turn</CommonName>
+        <CommonName xml:lang="cy">Nannerch Turn</CommonName>
         <Street>A541</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:32">
-          <CommonName xml:lang="CY">Tro Nannerch</CommonName>
+          <CommonName xml:lang="cy">Tro Nannerch</CommonName>
+          <Street>A541</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46367,14 +46501,15 @@
       <AtcoCode>5120WDB46566</AtcoCode>
       <NaptanCode>flijgpt</NaptanCode>
       <Descriptor>
-        <CommonName>Lletty Hotel</CommonName>
+        <CommonName xml:lang="cy">Lletty Hotel</CommonName>
         <Landmark>Lletty Hotel</Landmark>
         <Street>A548</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:11">
-          <CommonName xml:lang="CY">Lletty Hotel</CommonName>
+          <CommonName xml:lang="cy">Lletty Hotel</CommonName>
+          <Street>A548</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46411,10 +46546,16 @@
       <AtcoCode>5120WDB46567</AtcoCode>
       <NaptanCode>flijgpw</NaptanCode>
       <Descriptor>
-        <CommonName>Mostyn Docks</CommonName>
+        <CommonName xml:lang="cy">Mostyn Docks</CommonName>
         <Street>A548</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:21:39">
+          <CommonName xml:lang="cy">Mostyn Docks</CommonName>
+          <Street>A548</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054245</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46449,13 +46590,14 @@
       <AtcoCode>5120WDB46568</AtcoCode>
       <NaptanCode>flijgta</NaptanCode>
       <Descriptor>
-        <CommonName>Glan-y-don Inn</CommonName>
+        <CommonName xml:lang="cy">Glan-y-don Inn</CommonName>
         <Street>A548</Street>
         <Indicator>o/s former</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:04">
-          <CommonName xml:lang="CY">Glan-y-don Inn</CommonName>
+          <CommonName xml:lang="cy">Glan-y-don Inn</CommonName>
+          <Street>A548</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46492,14 +46634,15 @@
       <AtcoCode>5120WDB46578</AtcoCode>
       <NaptanCode>flijgtd</NaptanCode>
       <Descriptor>
-        <CommonName>Royal Oak</CommonName>
+        <CommonName xml:lang="cy">Royal Oak</CommonName>
         <Landmark>Royal Oak</Landmark>
         <Street>Greenfield Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:25">
-          <CommonName xml:lang="CY">Royal Oak</CommonName>
+          <CommonName xml:lang="cy">Royal Oak</CommonName>
+          <Street>Greenfield Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46536,11 +46679,17 @@
       <AtcoCode>5120WDB46579</AtcoCode>
       <NaptanCode>flijgtg</NaptanCode>
       <Descriptor>
-        <CommonName>Marsh Farm</CommonName>
+        <CommonName xml:lang="cy">Marsh Farm</CommonName>
         <Landmark>Marsh Farm Pumping Station</Landmark>
         <Street>A548</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:23:24">
+          <CommonName xml:lang="cy">Marsh Farm</CommonName>
+          <Street>A548</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037299</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46575,14 +46724,15 @@
       <AtcoCode>5120WDB46580</AtcoCode>
       <NaptanCode>flijgtj</NaptanCode>
       <Descriptor>
-        <CommonName>Mostyn Lodge</CommonName>
+        <CommonName xml:lang="cy">Mostyn Lodge</CommonName>
         <Landmark>Mostyn Lodge Hotel</Landmark>
         <Street>A548</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:56">
-          <CommonName xml:lang="CY">Cynhordy Mostyn</CommonName>
+          <CommonName xml:lang="cy">Cynhordy Mostyn</CommonName>
+          <Street>A548</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46619,14 +46769,15 @@
       <AtcoCode>5120WDB46581</AtcoCode>
       <NaptanCode>flijgtm</NaptanCode>
       <Descriptor>
-        <CommonName>Penrho</CommonName>
+        <CommonName xml:lang="cy">Penrho</CommonName>
         <Street>Hafod-y-Ddol Road</Street>
         <Crossing>Penrho</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:21">
-          <CommonName xml:lang="CY">Penrho</CommonName>
+          <CommonName xml:lang="cy">Penrho</CommonName>
+          <Street>Hafod-y-Ddol Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46663,13 +46814,14 @@
       <AtcoCode>5120WDB46582</AtcoCode>
       <NaptanCode>flijgtp</NaptanCode>
       <Descriptor>
-        <CommonName>Abakhan</CommonName>
+        <CommonName xml:lang="cy">Abakhan</CommonName>
         <Street>A548</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:38">
-          <CommonName xml:lang="CY">Abakhan</CommonName>
+          <CommonName xml:lang="cy">Abakhan</CommonName>
+          <Street>A548</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46706,14 +46858,15 @@
       <AtcoCode>5120WDB46583</AtcoCode>
       <NaptanCode>flijgtw</NaptanCode>
       <Descriptor>
-        <CommonName>School Lane</CommonName>
+        <CommonName xml:lang="cy">School Lane</CommonName>
         <Street>Greenfield Road</Street>
         <Crossing>School Lane</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:14">
-          <CommonName xml:lang="CY">Lon yr Ysgol</CommonName>
+          <CommonName xml:lang="cy">Lon yr Ysgol</CommonName>
+          <Street>Greenfield Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46750,14 +46903,15 @@
       <AtcoCode>5120WDB46683</AtcoCode>
       <NaptanCode>flijgwd</NaptanCode>
       <Descriptor>
-        <CommonName>Crown Hotel</CommonName>
+        <CommonName xml:lang="cy">Crown Hotel</CommonName>
         <Landmark>Crown Hotel PH</Landmark>
         <Street>Abergele Row</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:54">
-          <CommonName xml:lang="CY">Crown Hotel</CommonName>
+          <CommonName xml:lang="cy">Crown Hotel</CommonName>
+          <Street>Abergele Row</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46794,13 +46948,14 @@
       <AtcoCode>5120WDB47476</AtcoCode>
       <NaptanCode>flimpwd</NaptanCode>
       <Descriptor>
-        <CommonName>Brynford Crossroads South</CommonName>
+        <CommonName xml:lang="cy">Brynford Crossroads South</CommonName>
         <Street>A5119</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:53">
-          <CommonName xml:lang="CY">Croesffordd De Brynffordd</CommonName>
+          <CommonName xml:lang="cy">Croesffordd De Brynffordd</CommonName>
+          <Street>A5119</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46836,13 +46991,14 @@
       <AtcoCode>5120WDB47477</AtcoCode>
       <NaptanCode>flimpwg</NaptanCode>
       <Descriptor>
-        <CommonName>Brynford Crossroads South</CommonName>
+        <CommonName xml:lang="cy">Brynford Crossroads South</CommonName>
         <Street>A5119</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:53">
-          <CommonName xml:lang="CY">Croesffordd De Brynffordd</CommonName>
+          <CommonName xml:lang="cy">Croesffordd De Brynffordd</CommonName>
+          <Street>A5119</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46878,13 +47034,14 @@
       <AtcoCode>5120WDB47495</AtcoCode>
       <NaptanCode>flimtaw</NaptanCode>
       <Descriptor>
-        <CommonName>School Lane North</CommonName>
+        <CommonName xml:lang="cy">School Lane North</CommonName>
         <Street>School Lane</Street>
         <Indicator>opp Cemetery</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:14">
-          <CommonName xml:lang="CY">Lon yr Ysgol Gogledd</CommonName>
+          <CommonName xml:lang="cy">Lon yr Ysgol Gogledd</CommonName>
+          <Street>School Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46920,13 +47077,14 @@
       <AtcoCode>5120WDB47496</AtcoCode>
       <NaptanCode>flimtda</NaptanCode>
       <Descriptor>
-        <CommonName>School Lane North</CommonName>
+        <CommonName xml:lang="cy">School Lane North</CommonName>
         <Street>School Lane</Street>
         <Indicator>o/s Cemetery</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:14">
-          <CommonName xml:lang="CY">Lon yr Ysgol Gogledd</CommonName>
+          <CommonName xml:lang="cy">Lon yr Ysgol Gogledd</CommonName>
+          <Street>School Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46962,10 +47120,16 @@
       <AtcoCode>5120WDB47497</AtcoCode>
       <NaptanCode>flimtdg</NaptanCode>
       <Descriptor>
-        <CommonName>King`s Avenue</CommonName>
+        <CommonName xml:lang="cy">King`s Avenue</CommonName>
         <Street>King`s Avenue</Street>
         <Indicator>nr 8</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:29:52">
+          <CommonName xml:lang="cy">King`s Avenue</CommonName>
+          <Street>King`s Avenue</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -46999,10 +47163,16 @@
       <AtcoCode>5120WDB47498</AtcoCode>
       <NaptanCode>flimtdj</NaptanCode>
       <Descriptor>
-        <CommonName>King`s Avenue</CommonName>
+        <CommonName xml:lang="cy">King`s Avenue</CommonName>
         <Street>King`s Avenue</Street>
         <Indicator>nr 8</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:30:22">
+          <CommonName xml:lang="cy">King`s Avenue</CommonName>
+          <Street>King`s Avenue</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47036,10 +47206,16 @@
       <AtcoCode>5120WDB47499</AtcoCode>
       <NaptanCode>flimtdm</NaptanCode>
       <Descriptor>
-        <CommonName>Delyn Road</CommonName>
+        <CommonName xml:lang="cy">Delyn Road</CommonName>
         <Street>Delyn Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:31:08">
+          <CommonName xml:lang="cy">Delyn Road</CommonName>
+          <Street>Delyn Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47073,10 +47249,16 @@
       <AtcoCode>5120WDB47500</AtcoCode>
       <NaptanCode>flimtdp</NaptanCode>
       <Descriptor>
-        <CommonName>Delyn Road</CommonName>
+        <CommonName xml:lang="cy">Delyn Road</CommonName>
         <Street>Delyn Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:31:50">
+          <CommonName xml:lang="cy">Delyn Road</CommonName>
+          <Street>Delyn Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47110,10 +47292,16 @@
       <AtcoCode>5120WDB47501</AtcoCode>
       <NaptanCode>flimtgd</NaptanCode>
       <Descriptor>
-        <CommonName>Woodland Drive</CommonName>
+        <CommonName xml:lang="cy">Woodland Drive</CommonName>
         <Street>Woodland Drive</Street>
         <Indicator>o/s 23</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:32:18">
+          <CommonName xml:lang="cy">Woodland Drive</CommonName>
+          <Street>Woodland Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47147,10 +47335,16 @@
       <AtcoCode>5120WDB47502</AtcoCode>
       <NaptanCode>flimtgj</NaptanCode>
       <Descriptor>
-        <CommonName>Woodland Drive</CommonName>
+        <CommonName xml:lang="cy">Woodland Drive</CommonName>
         <Street>Woodland Drive</Street>
         <Indicator>opp 23</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:32:55">
+          <CommonName xml:lang="cy">Woodland Drive</CommonName>
+          <Street>Woodland Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47184,10 +47378,16 @@
       <AtcoCode>5120WDB47503</AtcoCode>
       <NaptanCode>flimtgm</NaptanCode>
       <Descriptor>
-        <CommonName>Dee View Road</CommonName>
+        <CommonName xml:lang="cy">Dee View Road</CommonName>
         <Street>Lower Dee View Road</Street>
         <Indicator>o/s 31</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:34:20">
+          <CommonName xml:lang="cy">Dee View Road</CommonName>
+          <Street>Lower Dee View Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47221,10 +47421,16 @@
       <AtcoCode>5120WDB47504</AtcoCode>
       <NaptanCode>flimtgp</NaptanCode>
       <Descriptor>
-        <CommonName>Dee View Road</CommonName>
+        <CommonName xml:lang="cy">Dee View Road</CommonName>
         <Street>Lower Dee View Road</Street>
         <Indicator>opp 29</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:35:09">
+          <CommonName xml:lang="cy">Dee View Road</CommonName>
+          <Street>Lower Dee View Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47258,13 +47464,14 @@
       <AtcoCode>5120WDB47505</AtcoCode>
       <NaptanCode>flimtgt</NaptanCode>
       <Descriptor>
-        <CommonName>School Lane South</CommonName>
+        <CommonName xml:lang="cy">School Lane South</CommonName>
         <Street>School Lane</Street>
         <Indicator>opp 1</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:14">
-          <CommonName xml:lang="CY">Lon yr Ysgol De</CommonName>
+          <CommonName xml:lang="cy">Lon yr Ysgol De</CommonName>
+          <Street>School Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47300,13 +47507,14 @@
       <AtcoCode>5120WDB47506</AtcoCode>
       <NaptanCode>flimtgw</NaptanCode>
       <Descriptor>
-        <CommonName>School Lane South</CommonName>
+        <CommonName xml:lang="cy">School Lane South</CommonName>
         <Street>School Lane</Street>
         <Indicator>o/s 1</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:14">
-          <CommonName xml:lang="CY">Lon yr Ysgol De</CommonName>
+          <CommonName xml:lang="cy">Lon yr Ysgol De</CommonName>
+          <Street>School Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47342,10 +47550,16 @@
       <AtcoCode>5120WDB47507</AtcoCode>
       <NaptanCode>flimtja</NaptanCode>
       <Descriptor>
-        <CommonName>Lakeside Villas</CommonName>
+        <CommonName xml:lang="cy">Lakeside Villas</CommonName>
         <Street>Tan-y-felin</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:36:58">
+          <CommonName xml:lang="cy">Lakeside Villas</CommonName>
+          <Street>Tan-y-felin</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47379,10 +47593,16 @@
       <AtcoCode>5120WDB47508</AtcoCode>
       <NaptanCode>flimtjd</NaptanCode>
       <Descriptor>
-        <CommonName>Lakeside Villas</CommonName>
+        <CommonName xml:lang="cy">Lakeside Villas</CommonName>
         <Street>Tan-y-felin</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:37:34">
+          <CommonName xml:lang="cy">Lakeside Villas</CommonName>
+          <Street>Tan-y-felin</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037306</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47416,13 +47636,14 @@
       <AtcoCode>5120WDB47516</AtcoCode>
       <NaptanCode>flimtjm</NaptanCode>
       <Descriptor>
-        <CommonName>Tros-yr-aber</CommonName>
+        <CommonName xml:lang="cy">Tros-yr-aber</CommonName>
         <Street>Tan-y-felin</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:32">
-          <CommonName xml:lang="CY">Tros-yr-aber</CommonName>
+          <CommonName xml:lang="cy">Tros-yr-aber</CommonName>
+          <Street>Tan-y-felin</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47458,14 +47679,15 @@
       <AtcoCode>5120WDB47517</AtcoCode>
       <NaptanCode>flimtjp</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Hospital</CommonName>
+        <CommonName xml:lang="cy">Holywell Hospital</CommonName>
         <ShortCommonName>Hospital</ShortCommonName>
         <Street>Halkyn Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:35">
-          <CommonName xml:lang="CY">Ysbyty Treffynnon</CommonName>
+          <CommonName xml:lang="cy">Ysbyty Treffynnon</CommonName>
+          <Street>Halkyn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47501,10 +47723,16 @@
       <AtcoCode>5120WDB47530</AtcoCode>
       <NaptanCode>flimtjt</NaptanCode>
       <Descriptor>
-        <CommonName>Aston Road sliproad</CommonName>
+        <CommonName xml:lang="cy">Aston Road Sliproad</CommonName>
         <Street>Aston Road</Street>
         <Indicator>adj Asda</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:41:31">
+          <CommonName xml:lang="cy">Aston Road Sliproad</CommonName>
+          <Street>Aston Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054252</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47542,10 +47770,16 @@
       <AtcoCode>5120WDB47531</AtcoCode>
       <NaptanCode>flimtjw</NaptanCode>
       <Descriptor>
-        <CommonName>Aston Road Asda</CommonName>
+        <CommonName xml:lang="cy">Aston Road Asda</CommonName>
         <Street>Aston Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:42:19">
+          <CommonName xml:lang="cy">Aston Road Asda</CommonName>
+          <Street>Aston Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054252</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47583,13 +47817,14 @@
       <AtcoCode>5120WDB47532</AtcoCode>
       <NaptanCode>flimtma</NaptanCode>
       <Descriptor>
-        <CommonName>Glynne Arms</CommonName>
+        <CommonName xml:lang="cy">Glynne Arms</CommonName>
         <Street>A550</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:04">
-          <CommonName xml:lang="CY">Glynne Arms</CommonName>
+          <CommonName xml:lang="cy">Glynne Arms</CommonName>
+          <Street>A550</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47626,11 +47861,17 @@
       <AtcoCode>5120WDB47533</AtcoCode>
       <NaptanCode>flimtmp</NaptanCode>
       <Descriptor>
-        <CommonName>Manor Lane</CommonName>
+        <CommonName xml:lang="cy">Manor Lane</CommonName>
         <Street>Manor Lane</Street>
         <Crossing>Chester Road</Crossing>
         <Indicator>after roundabout</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:43:19">
+          <CommonName xml:lang="cy">Manor Lane</CommonName>
+          <Street>Manor Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054227</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47664,11 +47905,17 @@
       <AtcoCode>5120WDB47534</AtcoCode>
       <NaptanCode>flimtmd</NaptanCode>
       <Descriptor>
-        <CommonName>Manor Lane</CommonName>
+        <CommonName xml:lang="cy">Manor Lane</CommonName>
         <Street>Manor Lane</Street>
         <Crossing>Chester Road</Crossing>
         <Indicator>before roundabout</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:43:53">
+          <CommonName xml:lang="cy">Manor Lane</CommonName>
+          <Street>Manor Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054227</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47703,14 +47950,15 @@
       <AtcoCode>5120WDB47535</AtcoCode>
       <NaptanCode>flimtmg</NaptanCode>
       <Descriptor>
-        <CommonName>Arriva Depot</CommonName>
+        <CommonName xml:lang="cy">Arriva Depot</CommonName>
         <Landmark>Broughton Arriva Depot</Landmark>
         <Street>Hawarden Business Park</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:56">
-          <CommonName xml:lang="CY">Depo Arriva</CommonName>
+          <CommonName xml:lang="cy">Depo Arriva</CommonName>
+          <Street>Hawarden Business Park</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47747,7 +47995,7 @@
       <AtcoCode>5120WDB47536</AtcoCode>
       <NaptanCode>flimtmt</NaptanCode>
       <Descriptor>
-        <CommonName>Deeside Ind Park Zone 1</CommonName>
+        <CommonName xml:lang="cy">Deeside Ind Park Zone 1</CommonName>
         <Landmark>post box</Landmark>
         <Street>Drome Road</Street>
         <Crossing>adj</Crossing>
@@ -47755,7 +48003,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:20">
-          <CommonName xml:lang="CY">Parc Diwydiannol Glannau Dyfrdwy Parth 1</CommonName>
+          <CommonName xml:lang="cy">Parc Diwydiannol Glannau Dyfrdwy Parth 1</CommonName>
+          <Street>Drome Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47795,14 +48044,15 @@
       <AtcoCode>5120WDB47537</AtcoCode>
       <NaptanCode>flimtmw</NaptanCode>
       <Descriptor>
-        <CommonName>Deeside Ind Park Zone 1</CommonName>
+        <CommonName xml:lang="cy">Deeside Ind Park Zone 1</CommonName>
         <Landmark>post box</Landmark>
         <Street>Drome Road</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:20">
-          <CommonName xml:lang="CY">Parc Diwydiannol Glannau Dyfrdwy Parth 1</CommonName>
+          <CommonName xml:lang="cy">Parc Diwydiannol Glannau Dyfrdwy Parth 1</CommonName>
+          <Street>Drome Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47842,10 +48092,16 @@
       <AtcoCode>5120WDB47538</AtcoCode>
       <NaptanCode>flimtpa</NaptanCode>
       <Descriptor>
-        <CommonName>Pren Hill</CommonName>
+        <CommonName xml:lang="cy">Pren Hill</CommonName>
         <Street>Mold Road</Street>
         <Indicator>bottom</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:46:17">
+          <CommonName xml:lang="cy">Pren Hill</CommonName>
+          <Street>Mold Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037380</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47880,11 +48136,17 @@
       <AtcoCode>5120WDB47539</AtcoCode>
       <NaptanCode>flimtpd</NaptanCode>
       <Descriptor>
-        <CommonName>Wynnstay Road</CommonName>
+        <CommonName xml:lang="cy">Wynnstay Road</CommonName>
         <Street>Main Road</Street>
         <Crossing>Wynnstay Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:47:57">
+          <CommonName xml:lang="cy">Wynnstay Road</CommonName>
+          <Street>Main Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054227</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47918,12 +48180,18 @@
       <AtcoCode>5120WDB47540</AtcoCode>
       <NaptanCode>flimtpg</NaptanCode>
       <Descriptor>
-        <CommonName>Chapel Street</CommonName>
+        <CommonName xml:lang="cy">Chapel Street</CommonName>
         <Landmark>Police Station</Landmark>
         <Street>Chapel Street</Street>
         <Crossing>Sydney Street</Crossing>
         <Indicator>opp</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:48:28">
+          <CommonName xml:lang="cy">Chapel Street</CommonName>
+          <Street>Chapel Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054233</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -47960,12 +48228,18 @@
       <AtcoCode>5120WDB47541</AtcoCode>
       <NaptanCode>flimtpj</NaptanCode>
       <Descriptor>
-        <CommonName>Chapel Street</CommonName>
+        <CommonName xml:lang="cy">Chapel Street</CommonName>
         <Landmark>Police Station</Landmark>
         <Street>Chapel Street</Street>
         <Crossing>Sydney Street</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T15:53:09">
+          <CommonName xml:lang="cy">Chapel Street</CommonName>
+          <Street>Chapel Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054233</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48002,14 +48276,15 @@
       <AtcoCode>5120WDB47542</AtcoCode>
       <NaptanCode>flimtpm</NaptanCode>
       <Descriptor>
-        <CommonName>Hafod-y-Wern</CommonName>
+        <CommonName xml:lang="cy">Hafod-y-Wern</CommonName>
         <Street>A494</Street>
         <Crossing>Hafod-y-Wern</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:09">
-          <CommonName xml:lang="CY">Hafod-y-Wern</CommonName>
+          <CommonName xml:lang="cy">Hafod-y-Wern</CommonName>
+          <Street>A494</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48046,11 +48321,17 @@
       <AtcoCode>5120WDB47543</AtcoCode>
       <NaptanCode>flimtpt</NaptanCode>
       <Descriptor>
-        <CommonName>Tenth Avenue</CommonName>
+        <CommonName xml:lang="cy">Tenth Avenue</CommonName>
         <Landmark>Toyota Plant</Landmark>
         <Street>Tenth Avenue</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:00:47">
+          <CommonName xml:lang="cy">Tenth Avenue</CommonName>
+          <Street>Tenth Avenue</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48087,14 +48368,15 @@
       <AtcoCode>5120WDB47544</AtcoCode>
       <NaptanCode>flimtpw</NaptanCode>
       <Descriptor>
-        <CommonName>Expressway Business Park</CommonName>
+        <CommonName xml:lang="cy">Expressway Business Park</CommonName>
         <Landmark>Expressway Business Park</Landmark>
         <Street>Station Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:19">
-          <CommonName xml:lang="CY">Parc Busnes Expressway</CommonName>
+          <CommonName xml:lang="cy">Parc Busnes Expressway</CommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48133,14 +48415,15 @@
       <AtcoCode>5120WDB47545</AtcoCode>
       <NaptanCode>flimtwa</NaptanCode>
       <Descriptor>
-        <CommonName>Expressway Business Park</CommonName>
+        <CommonName xml:lang="cy">Expressway Business Park</CommonName>
         <Landmark>Expressway Business Park</Landmark>
         <Street>Station Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:19">
-          <CommonName xml:lang="CY">Parc Busnes Expressway</CommonName>
+          <CommonName xml:lang="cy">Parc Busnes Expressway</CommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48179,11 +48462,17 @@
       <AtcoCode>5120WDB47546</AtcoCode>
       <NaptanCode>flimtwd</NaptanCode>
       <Descriptor>
-        <CommonName>Cycle Bridge</CommonName>
+        <CommonName xml:lang="cy">Cycle Bridge</CommonName>
         <Landmark>Gas Governor</Landmark>
         <Street>Welsh Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:03:00">
+          <CommonName xml:lang="cy">Cycle Bridge</CommonName>
+          <Street>Welsh Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48221,11 +48510,17 @@
       <AtcoCode>5120WDB47547</AtcoCode>
       <NaptanCode>flimtwg</NaptanCode>
       <Descriptor>
-        <CommonName>Cycle Bridge</CommonName>
+        <CommonName xml:lang="cy">Cycle Bridge</CommonName>
         <Landmark>Gas Governor</Landmark>
         <Street>Welsh Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:03:32">
+          <CommonName xml:lang="cy">Cycle Bridge</CommonName>
+          <Street>Welsh Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48262,11 +48557,17 @@
       <AtcoCode>5120WDB47548</AtcoCode>
       <NaptanCode>flimtwj</NaptanCode>
       <Descriptor>
-        <CommonName>Spon Green</CommonName>
-        <Street>Bannel lane</Street>
+        <CommonName xml:lang="cy">Spon Green</CommonName>
+        <Street>Bannel Lane</Street>
         <Crossing>Spon Green</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:04:35">
+          <CommonName xml:lang="cy">Spon Green</CommonName>
+          <Street>Bannel Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037397</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48301,14 +48602,15 @@
       <AtcoCode>5120WDB47549</AtcoCode>
       <NaptanCode>flimtwm</NaptanCode>
       <Descriptor>
-        <CommonName>Bannel Lane</CommonName>
+        <CommonName xml:lang="cy">Bannel Lane</CommonName>
         <Landmark>Hedge</Landmark>
         <Street>Bannel Lane</Street>
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:13">
-          <CommonName xml:lang="CY">Lon Bannel</CommonName>
+          <CommonName xml:lang="cy">Lon Bannel</CommonName>
+          <Street>Bannel Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48345,13 +48647,14 @@
       <AtcoCode>5120WDB47550</AtcoCode>
       <NaptanCode>flimtwp</NaptanCode>
       <Descriptor>
-        <CommonName>Bannel Lane</CommonName>
+        <CommonName xml:lang="cy">Bannel Lane</CommonName>
         <Street>Bannel Lane</Street>
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:13">
-          <CommonName xml:lang="CY">Lon Bannel</CommonName>
+          <CommonName xml:lang="cy">Lon Bannel</CommonName>
+          <Street>Bannel Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48387,11 +48690,17 @@
       <AtcoCode>5120WDB47551</AtcoCode>
       <NaptanCode>flimtwt</NaptanCode>
       <Descriptor>
-        <CommonName>Douglas Place</CommonName>
+        <CommonName xml:lang="cy">Douglas Place</CommonName>
         <Street>Boundary Lane</Street>
         <Crossing>Douglas Place</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:06:44">
+          <CommonName xml:lang="cy">Douglas Place</CommonName>
+          <Street>Boundary Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054253</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48429,11 +48738,17 @@
       <AtcoCode>5120WDB47552</AtcoCode>
       <NaptanCode>flimwad</NaptanCode>
       <Descriptor>
-        <CommonName>Quay Shopping Centre</CommonName>
+        <CommonName xml:lang="cy">Quay Shopping Centre</CommonName>
         <Landmark>Morrisons</Landmark>
         <Street>Ffordd Llanarth</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:07:46">
+          <CommonName xml:lang="cy">Quay Shopping Centre</CommonName>
+          <Street>Ffordd Llanarth</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037304</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48471,11 +48786,17 @@
       <AtcoCode>5120WDB47559</AtcoCode>
       <NaptanCode>flimwda</NaptanCode>
       <Descriptor>
-        <CommonName>Green Lane East</CommonName>
+        <CommonName xml:lang="cy">Green Lane East</CommonName>
         <Street>Green Lane East</Street>
         <Crossing>Green Lane</Crossing>
         <Indicator>opp DSA</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-11T16:08:10">
+          <CommonName xml:lang="cy">Green Lane East</CommonName>
+          <Street>Green Lane East</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48513,13 +48834,14 @@
       <AtcoCode>5120WDB47560</AtcoCode>
       <NaptanCode>flimwdg</NaptanCode>
       <Descriptor>
-        <CommonName>Cemetery Gates</CommonName>
-        <Street>Kelsterton Road</Street>
+        <CommonName xml:lang="cy">Cemetery Gates</CommonName>
+        <Street>5120WDB47560</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:17">
-          <CommonName xml:lang="CY">Mynwent</CommonName>
+          <CommonName xml:lang="cy">Mynwent</CommonName>
+          <Street>5120WDB47560</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48559,13 +48881,14 @@
       <AtcoCode>5120WDB47561</AtcoCode>
       <NaptanCode>flimwdj</NaptanCode>
       <Descriptor>
-        <CommonName>Cemetery Gates</CommonName>
+        <CommonName xml:lang="cy">Cemetery Gates</CommonName>
         <Street>Kelsterton Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:17">
-          <CommonName xml:lang="CY">Mynwent</CommonName>
+          <CommonName xml:lang="cy">Mynwent</CommonName>
+          <Street>Kelsterton Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48605,14 +48928,15 @@
       <AtcoCode>5120WDB47562</AtcoCode>
       <NaptanCode>flimwdm</NaptanCode>
       <Descriptor>
-        <CommonName>Mold Campus</CommonName>
+        <CommonName xml:lang="cy">Mold Campus</CommonName>
         <Street>Wrexham Road</Street>
         <Crossing>Broncoed Lane</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:47">
-          <CommonName xml:lang="CY">Campws</CommonName>
+          <CommonName xml:lang="cy">Campws Mold</CommonName>
+          <Street>Wrexham Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48649,14 +48973,15 @@
       <AtcoCode>5120WDB47563</AtcoCode>
       <NaptanCode>flimwdp</NaptanCode>
       <Descriptor>
-        <CommonName>Bro Alyn</CommonName>
+        <CommonName xml:lang="cy">Bro Alyn</CommonName>
         <Landmark>Bro Alyn</Landmark>
         <Street>Corwen Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:44">
-          <CommonName xml:lang="CY">Bro Alyn</CommonName>
+          <CommonName xml:lang="cy">Bro Alyn</CommonName>
+          <Street>Corwen Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48693,14 +49018,15 @@
       <AtcoCode>5120WDB47564</AtcoCode>
       <NaptanCode>flimwdt</NaptanCode>
       <Descriptor>
-        <CommonName>Bro Alyn</CommonName>
+        <CommonName xml:lang="cy">Bro Alyn</CommonName>
         <Landmark>Bro Alyn</Landmark>
         <Street>Corwen Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:44">
-          <CommonName xml:lang="CY">Bro Alyn</CommonName>
+          <CommonName xml:lang="cy">Bro Alyn</CommonName>
+          <Street>Corwen Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48737,7 +49063,7 @@
       <AtcoCode>5120WDB47565</AtcoCode>
       <NaptanCode>flimwdw</NaptanCode>
       <Descriptor>
-        <CommonName>Bryn Mor</CommonName>
+        <CommonName xml:lang="cy">Bryn Mor</CommonName>
         <Landmark>30 Bryn Mor</Landmark>
         <Street>Bryn Mor</Street>
         <Crossing>Llanasa Road</Crossing>
@@ -48745,7 +49071,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:19:45">
-          <CommonName xml:lang="CY">Bryn Mor</CommonName>
+          <CommonName xml:lang="cy">Bryn Mor</CommonName>
+          <Street>Bryn Mor</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48784,14 +49111,15 @@
       <AtcoCode>5120WDB47566</AtcoCode>
       <NaptanCode>flimwga</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Tesco</CommonName>
+        <CommonName xml:lang="cy">Holywell Tesco</CommonName>
         <ShortCommonName>Tesco</ShortCommonName>
         <Street>Rue St Gregoire</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:30">
-          <CommonName xml:lang="CY">Tesco Treffynnon</CommonName>
+          <CommonName xml:lang="cy">Tesco Treffynnon</CommonName>
+          <Street>Rue St Gregoire</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48827,14 +49155,15 @@
       <AtcoCode>5120WDB47567</AtcoCode>
       <NaptanCode>flimwgd</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Tesco</CommonName>
+        <CommonName xml:lang="cy">Holywell Tesco</CommonName>
         <ShortCommonName>Tesco</ShortCommonName>
         <Street>Rue St Gregoire</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:30">
-          <CommonName xml:lang="CY">Tesco Treffynnon</CommonName>
+          <CommonName xml:lang="cy">Tesco Treffynnon</CommonName>
+          <Street>Rue St Gregoire</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48878,10 +49207,16 @@
       <AtcoCode>5120WDB47569</AtcoCode>
       <NaptanCode>flimwgj</NaptanCode>
       <Descriptor>
-        <CommonName>Padeswood Drive</CommonName>
+        <CommonName xml:lang="cy">Padeswood Drive</CommonName>
         <Street>A5118</Street>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:07:15">
+          <CommonName xml:lang="cy">Padeswood Drive</CommonName>
+          <Street>A5118</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037246</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48916,10 +49251,16 @@
       <AtcoCode>5120WDB47570</AtcoCode>
       <NaptanCode>flimwgm</NaptanCode>
       <Descriptor>
-        <CommonName>Padeswood Drive</CommonName>
+        <CommonName xml:lang="cy">Padeswood Drive</CommonName>
         <Street>A5118</Street>
         <Indicator>after</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:07:51">
+          <CommonName xml:lang="cy">Padeswood Drive</CommonName>
+          <Street>A5118</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037246</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -48953,7 +49294,7 @@
       <AtcoCode>5120WDB47571</AtcoCode>
       <NaptanCode>flimwgp</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Bus Station Stand 2</CommonName>
+        <CommonName xml:lang="cy">Holywell Bus Station Stand 2</CommonName>
         <ShortCommonName>Bus Station 2</ShortCommonName>
         <Landmark>Holywell Bus Station</Landmark>
         <Street>Coleshill Street</Street>
@@ -48961,7 +49302,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:05">
-          <CommonName xml:lang="CY">Gorsaf Bws Treffynnon 2</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Treffynnon 2</CommonName>
+          <Street>Coleshill Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48999,7 +49341,7 @@
       <AtcoCode>5120WDB47572</AtcoCode>
       <NaptanCode>flimwgt</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Bus Station Stand 3</CommonName>
+        <CommonName xml:lang="cy">Holywell Bus Station Stand 3</CommonName>
         <ShortCommonName>Bus Station 3</ShortCommonName>
         <Landmark>Holywell Bus Station</Landmark>
         <Street>Coleshill Street</Street>
@@ -49007,7 +49349,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:05">
-          <CommonName xml:lang="CY">Gorsaf Bws Treffynnon 3</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Treffynnon 3</CommonName>
+          <Street>Coleshill Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49045,7 +49388,7 @@
       <AtcoCode>5120WDB47573</AtcoCode>
       <NaptanCode>flimwgw</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Bus Station Stand 4</CommonName>
+        <CommonName xml:lang="cy">Holywell Bus Station Stand 4</CommonName>
         <ShortCommonName>Bus Station 4</ShortCommonName>
         <Landmark>Holywell Bus Station</Landmark>
         <Street>Coleshill Street</Street>
@@ -49053,7 +49396,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:05">
-          <CommonName xml:lang="CY">Gorsaf Bws Treffynnon 4</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Treffynnon 4</CommonName>
+          <Street>Coleshill Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49091,14 +49435,15 @@
       <AtcoCode>5120WDB47574</AtcoCode>
       <NaptanCode>flimwja</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Hospital</CommonName>
+        <CommonName xml:lang="cy">Holywell Hospital</CommonName>
         <ShortCommonName>Hospital</ShortCommonName>
         <Street>Halkyn Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:35">
-          <CommonName xml:lang="CY">Ysbyty Treffynnon</CommonName>
+          <CommonName xml:lang="cy">Ysbyty Treffynnon</CommonName>
+          <Street>Halkyn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49134,14 +49479,15 @@
       <AtcoCode>5120WDB47575</AtcoCode>
       <NaptanCode>flimwjd</NaptanCode>
       <Descriptor>
-        <CommonName>Holywell Hospital</CommonName>
+        <CommonName xml:lang="cy">Holywell Hospital</CommonName>
         <ShortCommonName>Hospital</ShortCommonName>
         <Street>Grounds</Street>
         <Indicator>main entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:35">
-          <CommonName xml:lang="CY">Ysbyty Treffynnon</CommonName>
+          <CommonName xml:lang="cy">Ysbyty Treffynnon</CommonName>
+          <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49177,14 +49523,15 @@
       <AtcoCode>5120WDB47576</AtcoCode>
       <NaptanCode>flimwjg</NaptanCode>
       <Descriptor>
-        <CommonName>John Summers High School</CommonName>
+        <CommonName xml:lang="cy">John Summers High School</CommonName>
         <Landmark>John Summers High School Grounds</Landmark>
         <Street>Chester Road West</Street>
         <Indicator>grounds</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:37">
-          <CommonName xml:lang="CY">Ysgol Uwchradd John Summers</CommonName>
+          <CommonName xml:lang="cy">Ysgol Uwchradd John Summers</CommonName>
+          <Street>Chester Road West</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49223,10 +49570,16 @@
       <AtcoCode>5120WDB47577</AtcoCode>
       <NaptanCode>flimwjm</NaptanCode>
       <Descriptor>
-        <CommonName>Green Lane East</CommonName>
+        <CommonName xml:lang="cy">Green Lane East</CommonName>
         <Street>A548</Street>
         <Indicator>adj DSA</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:12:27">
+          <CommonName xml:lang="cy">Green Lane East</CommonName>
+          <Street>A548</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054254</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49264,13 +49617,14 @@
       <AtcoCode>5120WDB47578</AtcoCode>
       <NaptanCode>flimwjp</NaptanCode>
       <Descriptor>
-        <CommonName>Buckly Medical Centre</CommonName>
+        <CommonName xml:lang="cy">Buckly Medical Centre</CommonName>
         <Street>Liverpool Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:16">
-          <CommonName xml:lang="CY">Meddygfa Bwcle</CommonName>
+          <CommonName xml:lang="cy">Meddygfa Bwcle</CommonName>
+          <Street>Liverpool Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49315,13 +49669,14 @@
       <AtcoCode>5120WDB47579</AtcoCode>
       <NaptanCode>flimwjw</NaptanCode>
       <Descriptor>
-        <CommonName>Jasmin Parc</CommonName>
+        <CommonName xml:lang="cy">Jasmin Parc</CommonName>
         <Street>Chester Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:20">
-          <CommonName xml:lang="CY">Parc Jasmin</CommonName>
+          <CommonName xml:lang="cy">Parc Jasmin</CommonName>
+          <Street>Chester Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49366,13 +49721,14 @@
       <AtcoCode>5120WDB47580</AtcoCode>
       <NaptanCode>flimwma</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Post Office</CommonName>
+        <CommonName xml:lang="cy">Post Office</CommonName>
         <Street>Earl Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:29">
-          <CommonName xml:lang="CY">Swyddfa Bost</CommonName>
+          <CommonName xml:lang="cy">Swyddfa Bost</CommonName>
+          <Street>Earl Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49416,13 +49772,14 @@
       <AtcoCode>5120WDB47581</AtcoCode>
       <NaptanCode>flimwmd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Buckley Medical Centre</CommonName>
+        <CommonName xml:lang="cy">Buckley Medical Centre</CommonName>
         <Street>Liverpool Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:16">
-          <CommonName xml:lang="CY">Meddygfa Bwcle</CommonName>
+          <CommonName xml:lang="cy">Meddygfa Bwcle</CommonName>
+          <Street>Liverpool Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -49466,10 +49823,16 @@
       <AtcoCode>5120WDB47582</AtcoCode>
       <NaptanCode>flimwmg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Beech Road</CommonName>
+        <CommonName xml:lang="cy">Beech Road</CommonName>
         <Street>Beech Road</Street>
         <Indicator>nr Fairfield Road</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:15:10">
+          <CommonName xml:lang="cy">Beech Road</CommonName>
+          <Street>Beech Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037288</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49511,11 +49874,17 @@
       <AtcoCode>5120WDB47583</AtcoCode>
       <NaptanCode>flimwmj</NaptanCode>
       <Descriptor>
-        <CommonName>Beech Road</CommonName>
+        <CommonName xml:lang="cy">Beech Road</CommonName>
         <Street>Beech Road</Street>
         <Crossing>Fairfield Road</Crossing>
         <Indicator>opp Fairfield Road</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:15:39">
+          <CommonName xml:lang="cy">Beech Road</CommonName>
+          <Street>Beech Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037288</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49557,10 +49926,16 @@
       <AtcoCode>5120WDB47584</AtcoCode>
       <NaptanCode>flimwmp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Ewloe Place</CommonName>
+        <CommonName xml:lang="cy">Ewloe Place</CommonName>
         <Street>Ewloe Place</Street>
         <Indicator>adj Trap Pool</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:16:08">
+          <CommonName xml:lang="cy">Ewloe Place</CommonName>
+          <Street>Ewloe Place</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49602,10 +49977,16 @@
       <AtcoCode>5120WDB47585</AtcoCode>
       <NaptanCode>flimwmt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Ewloe Place</CommonName>
+        <CommonName xml:lang="cy">Ewloe Place</CommonName>
         <Street>Ewloe Place</Street>
         <Indicator>opp Trap Pool</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:16:40">
+          <CommonName xml:lang="cy">Ewloe Place</CommonName>
+          <Street>Ewloe Place</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49647,10 +50028,16 @@
       <AtcoCode>5120WDB47586</AtcoCode>
       <NaptanCode>flimwmw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Field Farm Road</CommonName>
+        <CommonName xml:lang="cy">Field Farm Road</CommonName>
         <Street>Aberllanerch Drive</Street>
         <Indicator>opp Field Farm Road</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:17:16">
+          <CommonName xml:lang="cy">Field Farm Road</CommonName>
+          <Street>Aberllanerch Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49692,11 +50079,17 @@
       <AtcoCode>5120WDB47587</AtcoCode>
       <NaptanCode>flimwpa</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Mayfield Drive</CommonName>
+        <CommonName xml:lang="cy">Mayfield Drive</CommonName>
         <Street>Mayfield Drive</Street>
         <Crossing>Langford Crescent</Crossing>
         <Indicator>nr Langford Crescent</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:17:51">
+          <CommonName xml:lang="cy">Mayfield Drive</CommonName>
+          <Street>Mayfield Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49738,11 +50131,17 @@
       <AtcoCode>5120WDB47588</AtcoCode>
       <NaptanCode>flimwpd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Mayfield Drive</CommonName>
+        <CommonName xml:lang="cy">Mayfield Drive</CommonName>
         <Street>Mayfield Drive</Street>
         <Crossing>Langford Crescent</Crossing>
         <Indicator>nr Langford Crescent</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:18:24">
+          <CommonName xml:lang="cy">Mayfield Drive</CommonName>
+          <Street>Mayfield Drive</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49784,10 +50183,16 @@
       <AtcoCode>5120WDB47590</AtcoCode>
       <NaptanCode>flimwpj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Middle Common</CommonName>
+        <CommonName xml:lang="cy">Middle Common</CommonName>
         <Street>Alltami Road</Street>
         <Indicator>at</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:19:01">
+          <CommonName xml:lang="cy">Middle Common</CommonName>
+          <Street>Alltami Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49829,10 +50234,16 @@
       <AtcoCode>5120WDB47591</AtcoCode>
       <NaptanCode>flimwpm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Middle Common</CommonName>
+        <CommonName xml:lang="cy">Middle Common</CommonName>
         <Street>Alltami Road</Street>
         <Indicator>at</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:19:31">
+          <CommonName xml:lang="cy">Middle Common</CommonName>
+          <Street>Alltami Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49874,10 +50285,16 @@
       <AtcoCode>5120WDB47592</AtcoCode>
       <NaptanCode>flimwpt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Oak Drive</CommonName>
+        <CommonName xml:lang="cy">Oak Drive</CommonName>
         <Street>Pentre Lane</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:20:09">
+          <CommonName xml:lang="cy">Oak Drive</CommonName>
+          <Street>Pentre Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49919,10 +50336,16 @@
       <AtcoCode>5120WDB47593</AtcoCode>
       <NaptanCode>flimwpw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Oak Drive</CommonName>
+        <CommonName xml:lang="cy">Oak Drive</CommonName>
         <Street>Pentre Lane</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:20:48">
+          <CommonName xml:lang="cy">Oak Drive</CommonName>
+          <Street>Pentre Lane</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054229</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -49964,13 +50387,14 @@
       <AtcoCode>5120WDB47594</AtcoCode>
       <NaptanCode>flimwta</NaptanCode>
       <Descriptor>
-        <CommonName>Hope Medical Centre</CommonName>
+        <CommonName xml:lang="cy">Hope Medical Centre</CommonName>
         <Street>Hawarden Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:16">
-          <CommonName xml:lang="CY">Meddygfa Hope</CommonName>
+          <CommonName xml:lang="cy">Meddygfa Hope</CommonName>
+          <Street>Hawarden Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -50014,13 +50438,14 @@
       <AtcoCode>5120WDB47595</AtcoCode>
       <NaptanCode>flimwtd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Connah's Quay High School</CommonName>
+        <CommonName xml:lang="cy">Connah's Quay High School</CommonName>
         <Street>Grounds</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:20:38">
-          <CommonName xml:lang="CY">Ysgol Uwchrawdd Cei Connah</CommonName>
+          <CommonName xml:lang="cy">Ysgol Uwchrawdd Cei Connah</CommonName>
+          <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -50056,8 +50481,16 @@
       <AtcoCode>5120WDB47596</AtcoCode>
       <NaptanCode>flimwtg</NaptanCode>
       <Descriptor>
-        <CommonName>Chester Road</CommonName>
+        <CommonName xml:lang="cy">Chester Road</CommonName>
+        <Street>Chester Road</Street>
+        <Indicator>before 249</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:28:20">
+          <CommonName xml:lang="cy">Chester Road</CommonName>
+          <Street>Chester Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037371</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -50091,10 +50524,16 @@
       <AtcoCode>5120WDB47597</AtcoCode>
       <NaptanCode>flimwtj</NaptanCode>
       <Descriptor>
-        <CommonName>Tenth Avenue Stop 2</CommonName>
+        <CommonName xml:lang="cy">Tenth Avenue Stop 2</CommonName>
         <Landmark>KK Fine Foods</Landmark>
         <Street>Tenth Avenue</Street>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:28:53">
+          <CommonName xml:lang="cy">Tenth Avenue Stop 2</CommonName>
+          <Street>Tenth Avenue</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -50128,11 +50567,17 @@
       <AtcoCode>5120WDB47598</AtcoCode>
       <NaptanCode>flimwtm</NaptanCode>
       <Descriptor>
-        <CommonName>Tenth Avenue Stop 3</CommonName>
+        <CommonName xml:lang="cy">Tenth Avenue Stop 3</CommonName>
         <Landmark>Morrisons Manufacturing</Landmark>
         <Street>Tenth Avenue</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:29:42">
+          <CommonName xml:lang="cy">Tenth Avenue Stop 3</CommonName>
+          <Street>Tenth Avenue</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -50166,8 +50611,16 @@
       <AtcoCode>5120WDB47599</AtcoCode>
       <NaptanCode>flimwtp</NaptanCode>
       <Descriptor>
-        <CommonName>Triumph Actuation</CommonName>
+        <CommonName xml:lang="cy">Triumph Actuation</CommonName>
+        <Street>Parkway</Street>
+        <Indicator>nr</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-12T08:31:45">
+          <CommonName xml:lang="cy">Triumph Actuation</CommonName>
+          <Street>Parkway</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037297</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
