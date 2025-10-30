@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-08-13T16:07:47.488" ModificationDateTime="2025-08-13T16:07:47.488" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-10-29T11:24:22.065" ModificationDateTime="2025-10-29T11:24:22.065" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-07-15T00:00:00.000" ModificationDateTime="2021-08-10T13:46:30.584" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>639000011</AtcoCode>
@@ -41715,12 +41715,12 @@
 <PlusbusZoneRef CreationDateTime="2004-09-22T00:00:00.000" ModificationDateTime="2012-08-28T12:15:00.000" Modification="revise" RevisionNumber="7" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-23T00:00:00.000" ModificationDateTime="2022-03-04T18:33:43.148" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2003-07-23T00:00:00.000" ModificationDateTime="2025-08-22T16:59:34.883" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>639005291</AtcoCode>
 <NaptanCode>23236496</NaptanCode>
 <Descriptor>
-<CommonName>Airport Terminal</CommonName>
-<Landmark>Airport Terminal</Landmark>
+<CommonName>Airport Terminal Stance 1</CommonName>
+<Landmark>Airport Terminal Stance 1</Landmark>
 <Street>Brent Road</Street>
 <Indicator>Stance 1</Indicator>
 </Descriptor>
@@ -41756,7 +41756,7 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-23T00:00:00.000" ModificationDateTime="2013-05-10T14:43:00.000" Modification="revise" RevisionNumber="7" Status="active">ABRDEEN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2008-12-11T09:57:00.000" ModificationDateTime="2022-03-04T18:23:36.404" Modification="revise" RevisionNumber="3" Status="active">
@@ -57400,7 +57400,7 @@
 <PlusbusZoneRef Modification="new" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-10-20T00:00:00.000" ModificationDateTime="2024-08-06T15:54:48.838" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2005-10-20T00:00:00.000" ModificationDateTime="2025-08-18T19:23:46.571" Modification="revise" RevisionNumber="12" Status="inactive">
 <AtcoCode>639007972</AtcoCode>
 <NaptanCode>23236924</NaptanCode>
 <Descriptor>
@@ -63416,12 +63416,12 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2017-01-23T18:30:09.000" ModificationDateTime="2025-07-14T11:51:12.977" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2017-01-23T18:30:09.000" ModificationDateTime="2025-08-22T17:00:32.300" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>639005612</AtcoCode>
 <NaptanCode>23237569</NaptanCode>
 <Descriptor>
-<CommonName>Airport Terminal</CommonName>
-<Landmark>Airport Terminal</Landmark>
+<CommonName>Airport Terminal Stance 2</CommonName>
+<Landmark>Airport Terminal Stance 2</Landmark>
 <Street>Brent Road</Street>
 <Indicator>Stance 2</Indicator>
 </Descriptor>
@@ -63431,9 +63431,9 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>387721</Easting>
+<Easting>387720</Easting>
 <Northing>812226</Northing>
-<Longitude>-2.204859</Longitude>
+<Longitude>-2.204875</Longitude>
 <Latitude>57.200643</Latitude>
 </Translation>
 </Location>
@@ -67729,7 +67729,7 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2020-07-22T15:06:14.000" ModificationDateTime="2024-08-06T15:53:56.001" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2020-07-22T15:06:14.000" ModificationDateTime="2025-08-20T17:56:43.745" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>639006310</AtcoCode>
 <NaptanCode>23237646</NaptanCode>
 <Descriptor>
@@ -70280,6 +70280,44 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>111</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-10-28T18:59:55.567" ModificationDateTime="2025-10-28T18:59:55.567" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>639007182</AtcoCode>
+<NaptanCode>23237874</NaptanCode>
+<Descriptor>
+<CommonName>Kingshills House</CommonName>
+<Landmark>Kingshills House</Landmark>
+<Street>Unclassified Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073330</NptgLocalityRef>
+<Town>Countesswells</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>386836</Easting>
+<Northing>806097</Northing>
+<Longitude>-2.2191790</Longitude>
+<Latitude>57.1455616</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

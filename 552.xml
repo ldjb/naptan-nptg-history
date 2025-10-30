@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-15T10:46:10" ModificationDateTime="2025-10-15T10:46:10" Modification="revise" RevisionNumber="1" FileName="552.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-29T15:43:10" ModificationDateTime="2025-10-29T15:43:10" Modification="revise" RevisionNumber="1" FileName="552.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -72997,6 +72997,90 @@
           <Active />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-10-28T13:10:09" ModificationDateTime="2025-10-28T13:58:06" Modification="new" Status="active">
+      <AtcoCode>5520WDB48373</AtcoCode>
+      <NaptanCode>rhotjdg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Ysgol Llanharry</CommonName>
+        <Street>Llanharry</Street>
+        <Indicator>On</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-28T13:10:10">
+          <CommonName xml:lang="cy">Ysgol Llanharry</CommonName>
+          <Street>Llanharry</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041686</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>300356</Easting>
+            <Northing>180191</Northing>
+            <Longitude>-3.4372561</Longitude>
+            <Latitude>51.511829</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			 <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+			</Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-10-28T12:35:28" ModificationDateTime="2025-10-28T13:58:36" Modification="new" Status="active">
+      <AtcoCode>5520WDB48374</AtcoCode>
+      <NaptanCode>rhotjda</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Y Pant School</CommonName>
+        <Street>Cowbridge Road</Street>
+        <Indicator>On</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-10-28T12:35:28">
+          <CommonName xml:lang="cy">Y Pant School</CommonName>
+          <Street>Cowbridge Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041653</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>303637</Easting>
+            <Northing>182117</Northing>
+            <Longitude>-3.3905317</Longitude>
+            <Latitude>51.529666</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			 <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2023-07-19T10:25:14" ModificationDateTime="2024-05-02T09:45:20" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5520WDB8373</AtcoCode>

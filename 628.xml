@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-09-01T13:54:59.424" ModificationDateTime="2025-09-01T13:54:59.424" Modification="new" RevisionNumber="0" FileName="NaPTAN628.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-10-29T12:04:37.168" ModificationDateTime="2025-10-29T12:04:37.168" Modification="new" RevisionNumber="0" FileName="NaPTAN628.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-01-27T00:00:00.000" ModificationDateTime="2011-03-24T14:56:15.000" Modification="revise" RevisionNumber="9" Status="inactive">
 <AtcoCode>6280000001</AtcoCode>
@@ -38196,6 +38196,161 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>130</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-10-29T11:46:45.845" ModificationDateTime="2025-10-29T11:46:45.845" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>628071231315</AtcoCode>
+<NaptanCode>64342477</NaptanCode>
+<Descriptor>
+<CommonName>Golf Range</CommonName>
+<ShortCommonName>Golf Range</ShortCommonName>
+<Landmark>Golf Range</Landmark>
+<Street>A7</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067286</NptgLocalityRef>
+<Town>Eskbank</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>331699</Easting>
+<Northing>666603</Northing>
+<Longitude>-3.093535</Longitude>
+<Latitude>55.887695</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>130</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-10-29T11:53:43.657" ModificationDateTime="2025-10-29T11:53:43.657" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>628071231317</AtcoCode>
+<NaptanCode>64342478</NaptanCode>
+<Descriptor>
+<CommonName>Golf Course</CommonName>
+<ShortCommonName>Golf Course</ShortCommonName>
+<Landmark>Golf Course</Landmark>
+<Street>A7</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067286</NptgLocalityRef>
+<Town>Eskbank</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>331630</Easting>
+<Northing>666750</Northing>
+<Longitude>-3.0946775</Longitude>
+<Latitude>55.8890066</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>130</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-10-29T11:59:35.010" ModificationDateTime="2025-10-29T11:59:35.010" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>628071231318</AtcoCode>
+<NaptanCode>64342479</NaptanCode>
+<Descriptor>
+<CommonName>Viscount Drive</CommonName>
+<ShortCommonName>Viscount Dr</ShortCommonName>
+<Landmark>Viscount Dr</Landmark>
+<Street>A7</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067286</NptgLocalityRef>
+<Town>Eskbank</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>331628</Easting>
+<Northing>666788</Northing>
+<Longitude>-3.094708</Longitude>
+<Latitude>55.889344</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>130</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-10-29T12:03:51.222" ModificationDateTime="2025-10-29T12:03:51.222" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>628071231319</AtcoCode>
+<Descriptor>
+<CommonName>Captains Gardens</CommonName>
+<ShortCommonName>Captains Gardens</ShortCommonName>
+<Landmark>Captains Gardens</Landmark>
+<Street>A7</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0067286</NptgLocalityRef>
+<Town>Eskbank</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>331740</Easting>
+<Northing>666576</Northing>
+<Longitude>-3.0928703</Longitude>
+<Latitude>55.8874561</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
