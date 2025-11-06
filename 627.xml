@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-10-07T13:58:49.786" ModificationDateTime="2025-10-07T13:58:49.786" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-05T14:28:57.781" ModificationDateTime="2025-11-05T14:28:57.781" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -18469,7 +18469,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">EDINBUR</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2023-01-31T11:11:02.969" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2002-11-26T00:00:00.000" ModificationDateTime="2025-10-08T12:42:51.840" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>627005020050</AtcoCode>
 <NaptanCode>58232968</NaptanCode>
 <Descriptor>
@@ -18485,10 +18485,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>344678</Easting>
-<Northing>669057</Northing>
-<Longitude>-2.886562</Longitude>
-<Latitude>55.911408</Latitude>
+<Easting>344764</Easting>
+<Northing>669126</Northing>
+<Longitude>-2.885201</Longitude>
+<Latitude>55.912037</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -48576,6 +48576,82 @@
 <Northing>674277</Northing>
 <Longitude>-2.9539800</Longitude>
 <Latitude>55.9578067</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-11-05T11:17:42.936" ModificationDateTime="2025-11-05T11:17:42.936" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001323</AtcoCode>
+<NaptanCode>5821323</NaptanCode>
+<Descriptor>
+<CommonName>Middlemass Road</CommonName>
+<ShortCommonName>Middlemass Road</ShortCommonName>
+<Street>Brodie Road</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001106</NptgLocalityRef>
+<Town>Dunbar</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>367827</Easting>
+<Northing>677579</Northing>
+<Longitude>-2.5172918</Longitude>
+<Latitude>55.9900835</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-11-05T11:21:14.493" ModificationDateTime="2025-11-05T11:21:14.493" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001324</AtcoCode>
+<NaptanCode>5821324</NaptanCode>
+<Descriptor>
+<CommonName>Middlemass Road</CommonName>
+<ShortCommonName>Middlemass Road</ShortCommonName>
+<Street>Brodie Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001106</NptgLocalityRef>
+<Town>Dunbar</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>367827</Easting>
+<Northing>677570</Northing>
+<Longitude>-2.5172926</Longitude>
+<Latitude>55.9900011</Latitude>
 </Translation>
 </Location>
 </Place>

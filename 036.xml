@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-10-30T16:25:58" Modification="revise" RevisionNumber="13" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-11-05T16:34:59" Modification="revise" RevisionNumber="14" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-02-17T16:46:48" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -2223,15 +2223,15 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T16:57:46" ModificationDateTime="2025-02-21T16:57:46" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T16:57:46" ModificationDateTime="2025-11-05T16:34:08" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000057</AtcoCode>
       <NaptanCode>wingpja</NaptanCode>
       <Descriptor>
         <CommonName>High Street</CommonName>
         <ShortCommonName>High St</ShortCommonName>
-        <Landmark>Post Office</Landmark>
+        <Landmark>The Oast Barn</Landmark>
         <Street>High Street</Street>
-        <Crossing>Windsor Road</Crossing>
+        <Crossing>Old School Court</Crossing>
         <Indicator>Stop HI</Indicator>
       </Descriptor>
       <Place>
@@ -2240,10 +2240,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>500475</Easting>
-            <Northing>174034</Northing>
-            <Longitude>-0.5552636095022857</Longitude>
-            <Latitude>51.456381557874174</Latitude>
+            <Easting>500428</Easting>
+            <Northing>173925</Northing>
+            <Longitude>-0.5559609338269689</Longitude>
+            <Latitude>51.45541135099706</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -2251,13 +2251,14 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>PTP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -2507,13 +2508,14 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T18:10:28" ModificationDateTime="2025-02-21T18:10:28" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T18:10:28" ModificationDateTime="2025-11-01T12:11:50" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000064</AtcoCode>
       <NaptanCode>wingpma</NaptanCode>
       <Descriptor>
         <CommonName>Fifield Inn</CommonName>
         <Landmark>Fifield Inn</Landmark>
         <Street>Fifield Road</Street>
+        <Crossing>car park access</Crossing>
         <Indicator>Stop FI</Indicator>
       </Descriptor>
       <Place>
@@ -2546,13 +2548,14 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T18:12:25" ModificationDateTime="2025-02-21T18:12:25" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T18:12:25" ModificationDateTime="2025-11-01T12:12:11" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000065</AtcoCode>
       <NaptanCode>wingpmd</NaptanCode>
       <Descriptor>
         <CommonName>Fifield Inn</CommonName>
         <Landmark>Fifield Inn</Landmark>
         <Street>Fifield Road</Street>
+        <Crossing>car park access</Crossing>
         <Indicator>Stop FG</Indicator>
       </Descriptor>
       <Place>
@@ -2788,11 +2791,12 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-21T18:44:57" ModificationDateTime="2025-02-21T18:44:57" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-02-21T18:44:57" ModificationDateTime="2025-11-01T11:05:46" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000071</AtcoCode>
       <NaptanCode>wingpta</NaptanCode>
       <Descriptor>
         <CommonName>Haywards Mead</CommonName>
+        <ShortCommonName>Haywards Md</ShortCommonName>
         <Landmark>Library</Landmark>
         <Street>Eton Wick Road</Street>
         <Crossing>Haywards Mead</Crossing>
@@ -2815,13 +2819,14 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>PTP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -12745,17 +12750,19 @@
         <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2023-08-24T14:48:03" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-11-01T11:48:13" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>036006002179</AtcoCode>
       <NaptanCode>winapwp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Brocas Street</CommonName>
-        <Landmark xml:lang="en">Watermans Arms</Landmark>
-        <Street xml:lang="en">Brocas Street</Street>
-        <Indicator xml:lang="en">on</Indicator>
+        <CommonName>Windsor Bridge</CommonName>
+        <ShortCommonName>Windsor Br.</ShortCommonName>
+        <Landmark>Watermans Arms</Landmark>
+        <Street>Brocas Street</Street>
+        <Crossing>Atherton Court</Crossing>
+        <Indicator>Stop BR</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2016-08-17T10:29:29" Modification="new" Status="active">
+        <Descriptor CreationDateTime="2016-08-17T10:29:29" ModificationDateTime="2025-11-01T11:48:13" Modification="delete" RevisionNumber="1">
           <CommonName>Windsor Bridge</CommonName>
           <ShortCommonName>Windsor Bridge</ShortCommonName>
         </Descriptor>
@@ -12766,10 +12773,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496638</Easting>
-            <Northing>177283</Northing>
-            <Longitude>-0.609592</Longitude>
-            <Latitude>51.486249</Latitude>
+            <Easting>496636</Easting>
+            <Northing>177282</Northing>
+            <Longitude>-0.6095988286365905</Longitude>
+            <Latitude>51.486244447329405</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12778,7 +12785,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
+            <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -12792,9 +12799,7 @@
         <StopAreaRef Modification="new">036G06002179</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-07-20T20:30:06" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006002182</AtcoCode>
@@ -14764,14 +14769,16 @@
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-05T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-10-05T00:00:00" ModificationDateTime="2025-11-01T12:25:02" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006002412</AtcoCode>
       <NaptanCode>winagjp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Sun And Stars PH</CommonName>
-        <Landmark xml:lang="en">Track to Mount Scipett Farm</Landmark>
-        <Street xml:lang="en">Forest Green Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Sun and Stars</CommonName>
+        <ShortCommonName>Sun &amp; Stars</ShortCommonName>
+        <Landmark>Orchard Glen</Landmark>
+        <Street>Forest Green Road</Street>
+        <Crossing>farm track</Crossing>
+        <Indicator>Stop XT</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -14804,6 +14811,7 @@
         <StopAreaRef Modification="new">036G00006279</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-24T00:00:00" ModificationDateTime="2013-10-09T09:59:49" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006002414</AtcoCode>
@@ -17361,12 +17369,16 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2023-05-31T15:38:52" ModificationDateTime="2023-05-31T15:38:52" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2023-05-31T15:38:52" ModificationDateTime="2025-11-01T12:10:14" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>036006003020</AtcoCode>
       <NaptanCode>wingmat</NaptanCode>
       <Descriptor>
-        <CommonName>Fifest site</CommonName>
-        <Street>Green Lane</Street>
+        <CommonName>FiFest</CommonName>
+        <ShortCommonName>FiFest</ShortCommonName>
+        <Landmark>Whytehall Cottage</Landmark>
+        <Street>Forest Green</Street>
+        <Crossing>Green Lane</Crossing>
+        <Indicator>Stop ZF</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -17374,10 +17386,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>489886</Easting>
-            <Northing>176569</Northing>
-            <Longitude>-0.706992</Longitude>
-            <Latitude>51.48095</Latitude>
+            <Easting>489894</Easting>
+            <Northing>176549</Northing>
+            <Longitude>-0.7068579682431598</Longitude>
+            <Latitude>51.48077201415365</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -17396,6 +17408,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2007-12-17T09:20:00" ModificationDateTime="2020-09-16T15:28:02" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006003035</AtcoCode>
@@ -27384,14 +27397,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T11:58:54" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006270270</AtcoCode>
       <NaptanCode>windjgd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Braywood First School</CommonName>
-        <Landmark xml:lang="en">School</Landmark>
-        <Street xml:lang="en">Oakley Green Road</Street>
-        <Indicator xml:lang="en">Opp</Indicator>
+        <CommonName>Braywood School</CommonName>
+        <ShortCommonName>Braywood Sch.</ShortCommonName>
+        <Landmark>Oakley Green War Memorial</Landmark>
+        <Street>Oakley Green Road</Street>
+        <Crossing>Braywood Cemetery driveway</Crossing>
+        <Indicator>Stop SD</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27425,15 +27440,18 @@
         <StopAreaRef Modification="new">036G00006270</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T12:00:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006270271</AtcoCode>
       <NaptanCode>windjgj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Braywood First School</CommonName>
-        <Landmark xml:lang="en">School</Landmark>
-        <Street xml:lang="en">Oakley Green Road</Street>
-        <Indicator xml:lang="en">o/s</Indicator>
+        <CommonName>Braywood School</CommonName>
+        <ShortCommonName>Braywood Sch.</ShortCommonName>
+        <Landmark>Oakley Green War Memorial</Landmark>
+        <Street>Oakley Green Road</Street>
+        <Crossing>school driveway</Crossing>
+        <Indicator>o/s</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27467,15 +27485,18 @@
         <StopAreaRef Modification="new">036G00006270</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2011-02-28T15:55:06" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T11:54:34" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006272272</AtcoCode>
       <NaptanCode>windjgm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Braywood Memorial Hall</CommonName>
-        <Landmark xml:lang="en">Fifield House</Landmark>
-        <Street xml:lang="en">Oakley Green Road</Street>
-        <Indicator xml:lang="en">E-bound</Indicator>
+        <CommonName>Braywood Memorial Hall</CommonName>
+        <ShortCommonName>Braywood Hall</ShortCommonName>
+        <Landmark>Fifield House</Landmark>
+        <Street>Oakley Green Road</Street>
+        <Crossing>Fifield Road</Crossing>
+        <Indicator>Stop MI</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27483,10 +27504,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>490910</Easting>
-            <Northing>176276</Northing>
-            <Longitude>-0.692326</Longitude>
-            <Latitude>51.478149</Latitude>
+            <Easting>490914</Easting>
+            <Northing>176278</Northing>
+            <Longitude>-0.6922537013892539</Longitude>
+            <Latitude>51.478172524934344</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -27509,15 +27530,18 @@
         <StopAreaRef Modification="new">036G00006272</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2011-02-28T15:55:41" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T11:55:33" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006272273</AtcoCode>
       <NaptanCode>windjgp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Braywood Memorial Hall</CommonName>
-        <Landmark xml:lang="en">Oakley Green Road</Landmark>
-        <Street xml:lang="en">Fifield Road</Street>
-        <Indicator xml:lang="en">o/s</Indicator>
+        <CommonName>Braywood Memorial Hall</CommonName>
+        <ShortCommonName>Braywood Hall</ShortCommonName>
+        <Landmark>Braywood Memorial Hall</Landmark>
+        <Street>Fifield Road</Street>
+        <Crossing>Oakley Green Road</Crossing>
+        <Indicator>Stop MH</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27551,15 +27575,17 @@
         <StopAreaRef Modification="new">036G00006272</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2011-02-21T17:18:41" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T12:20:04" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006274274</AtcoCode>
       <NaptanCode>windjgt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Meadow Way</CommonName>
-        <Landmark xml:lang="en">Fifield Road Cottages</Landmark>
-        <Street xml:lang="en">Fifield Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Meadow Way</CommonName>
+        <Landmark>Fifield Way Cottages</Landmark>
+        <Street>Fifield Road</Street>
+        <Crossing>Meadow Way</Crossing>
+        <Indicator>Stop ED</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27593,15 +27619,17 @@
         <StopAreaRef Modification="new">036G00006274</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2011-02-21T17:17:32" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T12:21:32" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>036006274275</AtcoCode>
       <NaptanCode>windjgw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Meadow Way</CommonName>
-        <Landmark xml:lang="en">Fifield Way Cottages</Landmark>
-        <Street xml:lang="en">Fifield Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Meadow Way</CommonName>
+        <Landmark>Fifield Way Cottages</Landmark>
+        <Street>Fifield Road</Street>
+        <Crossing>Meadow Way</Crossing>
+        <Indicator>Stop EE</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27635,15 +27663,18 @@
         <StopAreaRef Modification="new">036G00006274</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2011-03-08T16:29:12" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T11:52:26" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006276276</AtcoCode>
       <NaptanCode>windjma</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Braywood Memorial Hall</CommonName>
-        <Landmark xml:lang="en">Little Gables Cottage</Landmark>
-        <Street xml:lang="en">Forest Green Road</Street>
-        <Indicator xml:lang="en">W-bound</Indicator>
+        <CommonName>Braywood Memorial Hall</CommonName>
+        <ShortCommonName>Braywood Hall</ShortCommonName>
+        <Landmark>Little Gables Cottage</Landmark>
+        <Street>Forest Green Road</Street>
+        <Crossing>Fifield Lane</Crossing>
+        <Indicator>Stop MG</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27662,14 +27693,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -27677,15 +27707,16 @@
         <StopAreaRef Modification="new">036G00006272</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-10T00:00:00" ModificationDateTime="2008-10-29T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-10T00:00:00" ModificationDateTime="2025-11-01T12:16:13" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006277277</AtcoCode>
       <NaptanCode>windjmd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Forest View Cottages</CommonName>
-        <Landmark xml:lang="en">Forest View Cottages</Landmark>
-        <Street xml:lang="en">Forest Green Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Forest View Cottages</CommonName>
+        <Landmark>Forest View Cottages</Landmark>
+        <Street>Forest Green Road</Street>
+        <Indicator>Stop IC</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27704,14 +27735,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -27719,15 +27749,16 @@
         <StopAreaRef Modification="new">036G00006277</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-10T00:00:00" ModificationDateTime="2008-10-29T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-10T00:00:00" ModificationDateTime="2025-11-01T12:16:03" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006277278</AtcoCode>
       <NaptanCode>windjmg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Forest View Cottages</CommonName>
-        <Landmark xml:lang="en">Forest View Cottages</Landmark>
-        <Street xml:lang="en">Forest Green Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Forest View Cottages</CommonName>
+        <Landmark>Forest View Cottages</Landmark>
+        <Street>Forest Green Road</Street>
+        <Indicator>Stop ID</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27746,14 +27777,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -27761,15 +27791,18 @@
         <StopAreaRef Modification="new">036G00006277</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-10T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-05-10T00:00:00" ModificationDateTime="2025-11-01T12:25:53" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>036006279279</AtcoCode>
       <NaptanCode>windjmj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Sun And Stars PH</CommonName>
-        <Landmark xml:lang="en">Track to Mount Scipett Farm</Landmark>
-        <Street xml:lang="en">Forest Green Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Sun and Stars</CommonName>
+        <ShortCommonName>Sun &amp; Stars</ShortCommonName>
+        <Landmark>Orchard Glen</Landmark>
+        <Street>Forest Green Road</Street>
+        <Crossing>farm track</Crossing>
+        <Indicator>Stop XU</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -27788,14 +27821,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <DefaultWaitTime>PT0S</DefaultWaitTime>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -27803,6 +27835,7 @@
         <StopAreaRef Modification="new">036G00006279</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006280280</AtcoCode>
@@ -33106,14 +33139,16 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2023-08-24T15:14:51" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:35:42" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006487487</AtcoCode>
       <NaptanCode>windptw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">High Street</CommonName>
-        <Landmark xml:lang="en">Sun Close</Landmark>
-        <Street xml:lang="en">High Street</Street>
-        <Indicator xml:lang="en">S-bound</Indicator>
+        <CommonName>High Street</CommonName>
+        <ShortCommonName>High St</ShortCommonName>
+        <Landmark>Eton Porny School</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Sun Close</Crossing>
+        <Indicator>Stop EA</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -33121,10 +33156,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496648</Easting>
-            <Northing>177664</Northing>
-            <Longitude>-0.609349</Longitude>
-            <Latitude>51.489679</Latitude>
+            <Easting>496651</Easting>
+            <Northing>177665</Northing>
+            <Longitude>-0.6092876553536498</Longitude>
+            <Latitude>51.48968926418292</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -33147,19 +33182,18 @@
         <StopAreaRef Modification="new">036G00006487</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2023-08-24T15:13:24" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:36:50" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006488488</AtcoCode>
       <NaptanCode>windpwa</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">High Street</CommonName>
-        <Landmark xml:lang="en">Sun Close</Landmark>
-        <Street xml:lang="en">High Street</Street>
-        <Indicator xml:lang="en">N-bound</Indicator>
+        <CommonName>High Street</CommonName>
+        <ShortCommonName>High St</ShortCommonName>
+        <Landmark>Eton Porny School</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Sun Close</Crossing>
+        <Indicator>Stop EB</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -33167,10 +33201,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496650</Easting>
-            <Northing>177632</Northing>
-            <Longitude>-0.609327</Longitude>
-            <Latitude>51.489384</Latitude>
+            <Easting>496647</Easting>
+            <Northing>177625</Northing>
+            <Longitude>-0.6093601445015141</Longitude>
+            <Latitude>51.48933043653027</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -33193,22 +33227,20 @@
         <StopAreaRef Modification="new">036G00006487</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T10:53:28" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006489489</AtcoCode>
       <NaptanCode>windpwd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Broken Furlong</CommonName>
-        <Landmark xml:lang="en">Somerville Road</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Broken Furlong</CommonName>
+        <Landmark>railway bridge</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Somerville Road</Crossing>
+        <Indicator>Stop FN</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>E0053883</NptgLocalityRef>
+        <NptgLocalityRef>E0043266</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -33239,22 +33271,20 @@
         <StopAreaRef Modification="new">036G00006489</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T10:51:50" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006489490</AtcoCode>
       <NaptanCode>windpwg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Broken Furlong</CommonName>
-        <Landmark xml:lang="en">Broken Furlong</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Broken Furlong</CommonName>
+        <Landmark>railway bridge</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Broken Furlong</Crossing>
+        <Indicator>Stop FL</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>E0053883</NptgLocalityRef>
+        <NptgLocalityRef>E0043266</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -33285,19 +33315,18 @@
         <StopAreaRef Modification="new">036G00006489</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T10:58:31" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006491491</AtcoCode>
       <NaptanCode>windpwj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Bunces Close</CommonName>
-        <Landmark xml:lang="en">Bunces Close</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Bunces Close</CommonName>
+        <ShortCommonName>Bunces Cl</ShortCommonName>
+        <Landmark>bypass bridge</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Bunces Close</Crossing>
+        <Indicator>Stop YB</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33331,19 +33360,18 @@
         <StopAreaRef Modification="new">036G00006491</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T10:57:53" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006491492</AtcoCode>
       <NaptanCode>windpwm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Bunces Close</CommonName>
-        <Landmark xml:lang="en">Bunces Close</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Bunces Close</CommonName>
+        <ShortCommonName>Bunces Cl</ShortCommonName>
+        <Landmark>bypass bridge</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Bunces Close</Crossing>
+        <Indicator>Stop YA</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33377,19 +33405,17 @@
         <StopAreaRef Modification="new">036G00006491</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2015-04-13T15:46:25" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:25:35" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006493493</AtcoCode>
       <NaptanCode>windpwp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Walk</CommonName>
-        <Landmark xml:lang="en">The Walk</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>The Walk</CommonName>
+        <Landmark>Clifton Lodge</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>The Walk</Crossing>
+        <Indicator>Stop WK</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33409,7 +33435,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -33423,19 +33449,17 @@
         <StopAreaRef Modification="new">036G00006493</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:26:18" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006493494</AtcoCode>
       <NaptanCode>windpwt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Walk</CommonName>
-        <Landmark xml:lang="en">The Walk</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>The Walk</CommonName>
+        <Landmark>Clifton Lodge</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>The Walk</Crossing>
+        <Indicator>Stop WL</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33455,7 +33479,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>TIP</TimingStatus>
+            <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -33469,19 +33493,18 @@
         <StopAreaRef Modification="new">036G00006493</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:06:46" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006495495</AtcoCode>
       <NaptanCode>windtad</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Bell Lane</CommonName>
-        <Landmark xml:lang="en">Haywards Mead</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Haywards Mead</CommonName>
+        <ShortCommonName>Haywards Md</ShortCommonName>
+        <Landmark>Library</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Bell Lane</Crossing>
+        <Indicator>Stop HX</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33501,7 +33524,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -33512,19 +33535,18 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:11:36" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006496496</AtcoCode>
       <NaptanCode>windtag</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Moores Lane</CommonName>
-        <Landmark xml:lang="en">Moores Lane</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">o/s 29</Indicator>
+        <CommonName>Moores Lane</CommonName>
+        <ShortCommonName>Moores Ln</ShortCommonName>
+        <Landmark>27 Eton Wick Road</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Princes Close</Crossing>
+        <Indicator>Stop MS</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33558,19 +33580,18 @@
         <StopAreaRef Modification="new">036G00006496</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:10:15" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006497497</AtcoCode>
       <NaptanCode>windtaj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Moores Lane</CommonName>
-        <Landmark xml:lang="en">Moores Lane</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">opp 53</Indicator>
+        <CommonName>Moores Lane</CommonName>
+        <ShortCommonName>Moores Ln</ShortCommonName>
+        <Landmark>53 Eton Wick Road</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Victoria Road</Crossing>
+        <Indicator>Stop MR</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33604,19 +33625,18 @@
         <StopAreaRef Modification="new">036G00006496</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2008-03-24T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:02:53" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006499499</AtcoCode>
       <NaptanCode>windtam</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Colenorton Crescent</CommonName>
-        <Landmark xml:lang="en">Boveney New Road</Landmark>
-        <Street xml:lang="en">Colenorton Crescent</Street>
-        <Indicator xml:lang="en">o/s 51</Indicator>
+        <CommonName>Colenorton Crescent</CommonName>
+        <ShortCommonName>Colenorton Cresc.</ShortCommonName>
+        <Landmark>51 Colenorton Crescent</Landmark>
+        <Street>Colenorton Crescent</Street>
+        <Crossing>Boveney New Road</Crossing>
+        <Indicator>Stop CN</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33647,18 +33667,18 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:28:18" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006500500</AtcoCode>
       <NaptanCode>windtap</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Tilstone Avenue</CommonName>
-        <Landmark xml:lang="en">Tilstone Avenue</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">opp 156</Indicator>
+        <CommonName>Tilstone Avenue</CommonName>
+        <ShortCommonName>Tilstone Ave.</ShortCommonName>
+        <Landmark>69 Eton Wick Road</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Tilstone Avenue</Crossing>
+        <Indicator>Stop TA</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33692,18 +33712,18 @@
         <StopAreaRef Modification="new">036G00006500</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2014-11-27T09:00:36" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:18:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006500501</AtcoCode>
       <NaptanCode>windtat</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Tilstone Avenue</CommonName>
-        <Landmark xml:lang="en">Boveney New Road</Landmark>
-        <Street xml:lang="en">ETON WICK ROAD</Street>
-        <Indicator xml:lang="en">o/s 69</Indicator>
+        <CommonName>Boveney New Road</CommonName>
+        <ShortCommonName>Boveney New Rd</ShortCommonName>
+        <Landmark>156 Eton Wick Road</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>Boveney New Road</Crossing>
+        <Indicator>Stop NR</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043266</NptgLocalityRef>
@@ -33712,9 +33732,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>494409</Easting>
-            <Northing>178637</Northing>
-            <Longitude>-0.641326</Longitude>
-            <Latitude>51.498802</Latitude>
+            <Northing>178632</Northing>
+            <Longitude>-0.6413047130086481</Longitude>
+            <Latitude>51.49875553611197</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -33737,9 +33757,7 @@
         <StopAreaRef Modification="new">036G00006500</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036006501501</AtcoCode>
@@ -34026,14 +34044,16 @@
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T12:03:56" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006615615</AtcoCode>
       <NaptanCode>windtdj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Ferndale Park</CommonName>
-        <Landmark xml:lang="en">Ferndale Park</Landmark>
-        <Street xml:lang="en">Fifield Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Ferndale Park</CommonName>
+        <ShortCommonName>Ferndale Pk</ShortCommonName>
+        <Landmark>Stratton Cottages</Landmark>
+        <Street>Fifield Road</Street>
+        <Crossing>Ferndale Park</Crossing>
+        <Indicator>Stop PJ</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -34067,18 +34087,18 @@
         <StopAreaRef Modification="new">036G00006615</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-04-21T00:00:00" ModificationDateTime="2025-11-01T12:04:33" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006615616</AtcoCode>
       <NaptanCode>windtdm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Ferndale Park</CommonName>
-        <Landmark xml:lang="en">Ferndale Park</Landmark>
-        <Street xml:lang="en">Fifield Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Ferndale Park</CommonName>
+        <ShortCommonName>Ferndale Pk</ShortCommonName>
+        <Landmark>Stratton Cottages</Landmark>
+        <Street>Fifield Road</Street>
+        <Crossing>Ferndale Park</Crossing>
+        <Indicator>Stop PK</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0043267</NptgLocalityRef>
@@ -34112,9 +34132,7 @@
         <StopAreaRef Modification="new">036G00006615</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-19T00:00:00" ModificationDateTime="2025-04-11T10:13:50" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>036006617617</AtcoCode>
@@ -36328,14 +36346,16 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-29T00:00:00" ModificationDateTime="2025-11-01T11:40:27" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006736736</AtcoCode>
       <NaptanCode>windwdg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Keats Lane</CommonName>
-        <Landmark xml:lang="en">Bekynton House</Landmark>
-        <Street xml:lang="en">Eton Wick Road</Street>
-        <Indicator xml:lang="en">nr</Indicator>
+        <CommonName>Keats Lane</CommonName>
+        <ShortCommonName>Keats Ln</ShortCommonName>
+        <Landmark>Bekynton House</Landmark>
+        <Street>Eton Wick Road</Street>
+        <Crossing>South Meadow Lane</Crossing>
+        <Indicator>Stop XK</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -36366,18 +36386,18 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2015-01-15T13:49:12" ModificationDateTime="2015-01-15T14:19:49" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2015-01-15T13:49:12" ModificationDateTime="2025-11-01T11:41:10" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006736738</AtcoCode>
       <NaptanCode>wingjma</NaptanCode>
       <Descriptor>
         <CommonName>Keats Lane</CommonName>
+        <ShortCommonName>Keats Ln</ShortCommonName>
+        <Landmark>Bekynton House</Landmark>
         <Street>Eton Wick Road</Street>
-        <Indicator>Adj</Indicator>
+        <Crossing>South Meadow Lane</Crossing>
+        <Indicator>Stop XJ</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -36385,10 +36405,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496501</Easting>
-            <Northing>177856</Northing>
-            <Longitude>-0.611411</Longitude>
-            <Latitude>51.491427</Latitude>
+            <Easting>496492</Easting>
+            <Northing>177852</Northing>
+            <Longitude>-0.6115210315886199</Longitude>
+            <Latitude>51.491400693602635</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -36408,6 +36428,7 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-19T00:00:00" ModificationDateTime="2007-12-17T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006737737</AtcoCode>
@@ -36496,14 +36517,15 @@
         <PlusbusZoneRef Modification="new" Status="active">MDNHEAD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-11-01T11:32:08" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006739739</AtcoCode>
       <NaptanCode>windwdp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Eton College</CommonName>
-        <Landmark xml:lang="en">Common Lane</Landmark>
-        <Street xml:lang="en">Slough Road</Street>
-        <Indicator xml:lang="en">o/s</Indicator>
+        <CommonName>Eton College</CommonName>
+        <Landmark>Eton College</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Common Lane</Crossing>
+        <Indicator>Stop OD</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -36523,7 +36545,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -36537,18 +36559,17 @@
         <StopAreaRef Modification="new">036G00006739</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-11-01T11:32:21" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006739740</AtcoCode>
       <NaptanCode>windwdt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Eton College</CommonName>
-        <Landmark xml:lang="en">Common Lane</Landmark>
-        <Street xml:lang="en">Slough Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Eton College</CommonName>
+        <Landmark>Eton College</Landmark>
+        <Street>High Street</Street>
+        <Crossing>Common Lane</Crossing>
+        <Indicator>Stop OC</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -36568,7 +36589,7 @@
         <OnStreet>
           <Bus>
             <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
+            <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <DefaultWaitTime>PT0S</DefaultWaitTime>
               <Bearing>
@@ -36582,9 +36603,7 @@
         <StopAreaRef Modification="new">036G00006739</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-07-20T19:11:03" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006740740</AtcoCode>
@@ -37310,14 +37329,15 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-11-01T11:44:19" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006757757</AtcoCode>
       <NaptanCode>windwjp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Pococks Lane</CommonName>
-        <Landmark xml:lang="en">Willowbrook</Landmark>
-        <Street xml:lang="en">Slough Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <CommonName>Willowbrook</CommonName>
+        <Landmark>Willowbrook</Landmark>
+        <Street>Slough Road</Street>
+        <Crossing>Pococks Lane</Crossing>
+        <Indicator>Stop IB</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -37351,18 +37371,17 @@
         <StopAreaRef Modification="new">036G00006757</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2007-03-07T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-11-01T11:44:59" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036006757758</AtcoCode>
       <NaptanCode>windwjt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Pococks Lane</CommonName>
-        <Landmark xml:lang="en">Pococks Lane</Landmark>
-        <Street xml:lang="en">Slough Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <CommonName>Willowbrook</CommonName>
+        <Landmark>Willowbrook</Landmark>
+        <Street>Slough Road</Street>
+        <Crossing>Pococks Lane</Crossing>
+        <Indicator>Stop IA</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0053883</NptgLocalityRef>
@@ -37396,9 +37415,7 @@
         <StopAreaRef Modification="new">036G00006757</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">SLOUGH</PlusbusZoneRef>
-      </PlusbusZones>
+      <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2004-05-07T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006758758</AtcoCode>

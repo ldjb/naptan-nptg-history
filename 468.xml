@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-10-22T14:48:43.9414143+01:00" ModificationDateTime="2025-10-22T14:48:43.9444137+01:00" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-05T15:07:49.6640645Z" ModificationDateTime="2025-11-05T15:07:49.6640645Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-10-04T00:00:00" ModificationDateTime="2016-10-04T13:11:26" Modification="new" RevisionNumber="3" Status="active">
 			<AtcoCode>4680SDON0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-10-22T14:48:55.3445967+01:00" ModificationDateTime="2025-10-22T14:48:55.3456012+01:00">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-05T15:08:02.1100666Z" ModificationDateTime="2025-11-05T15:08:02.1100666Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-10-22T14:48:55.3495959+01:00" ModificationDateTime="2025-10-22T14:48:55.3495959+01:00">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-05T15:08:02.114055Z" ModificationDateTime="2025-11-05T15:08:02.114055Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -43819,6 +43819,80 @@
 						<UnmarkedPoint>
 							<Bearing>
 								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</UnmarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-11-04T00:00:00" ModificationDateTime="2025-11-04T11:24:46" Modification="new" RevisionNumber="44" Status="active">
+			<AtcoCode>468000041</AtcoCode>
+			<NaptanCode>swimtpw</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Redlands Way</CommonName>
+				<Street xml:lang="en">Wanborough Road</Street>
+				<Indicator xml:lang="en">SE-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0042460</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>420305</Easting>
+						<Northing>184376</Northing>
+						<Longitude>-1.70851</Longitude>
+						<Latitude>51.5579</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>CUS</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<UnmarkedPoint>
+							<Bearing>
+								<CompassPoint>SE</CompassPoint>
+							</Bearing>
+						</UnmarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-11-04T00:00:00" ModificationDateTime="2025-11-04T11:23:42" Modification="new" RevisionNumber="40" Status="active">
+			<AtcoCode>468000040</AtcoCode>
+			<NaptanCode>swimtmg</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Redlands Way</CommonName>
+				<Street xml:lang="en">Wanborough Road</Street>
+				<Indicator xml:lang="en">NW-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0042460</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>420285</Easting>
+						<Northing>184368</Northing>
+						<Longitude>-1.70879</Longitude>
+						<Latitude>51.55783</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>CUS</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<UnmarkedPoint>
+							<Bearing>
+								<CompassPoint>NW</CompassPoint>
 							</Bearing>
 						</UnmarkedPoint>
 					</Bus>
