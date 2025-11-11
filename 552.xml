@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-29T15:43:10" ModificationDateTime="2025-10-29T15:43:10" Modification="revise" RevisionNumber="1" FileName="552.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-11-10T13:55:23" ModificationDateTime="2025-11-10T13:55:23" Modification="revise" RevisionNumber="1" FileName="552.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -53967,11 +53967,11 @@
       </StopClassification>
       <AdministrativeAreaRef>048</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:45" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:43:45" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5520AWZ26258</AtcoCode>
       <NaptanCode>rhogaja</NaptanCode>
       <Descriptor>
-        <CommonName>Mwyndy Cross</CommonName>
+        <CommonName xml:lang="cy">Mwyndy Cross</CommonName>
         <Landmark>Long Acre</Landmark>
         <Street>Mwyndy Cross Road</Street>
         <Crossing>A4119</Crossing>
@@ -53979,7 +53979,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:43:45">
-          <CommonName xml:lang="CY">Crwys Mwyndy</CommonName>
+          <CommonName xml:lang="cy">Crwys Mwyndy</CommonName>
+          <Street>Ffordd Crwys Mwyndy</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -73033,8 +73034,8 @@
 			 <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
-			</Bearing>
-            </UnmarkedPoint>
+              </Bearing>
+			 </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -73076,7 +73077,48 @@
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+			 </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-10T13:30:50" ModificationDateTime="2025-11-10T13:51:37" Modification="new" Status="active">
+      <AtcoCode>5520WDB48375</AtcoCode>
+      <NaptanCode>rhotjdj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Cefn Yr Hendy</CommonName>
+        <Street>Cefn-Yr-Hendy Road</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-11-10T13:30:51">
+          <CommonName xml:lang="cy">Cefn Yr Hendy</CommonName>
+          <Street>Ffordd Cefn-Yr-hendy</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041688</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>1</Easting>
+            <Northing>1</Northing>
+            <Longitude>-3.3699634</Longitude>
+            <Latitude>51.525475</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			<UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+			 </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
