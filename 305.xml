@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-10T10:49:19.4151607Z" ModificationDateTime="2025-11-10T10:49:19.4151607Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-12T15:17:26.1331221Z" ModificationDateTime="2025-11-12T15:17:26.1331221Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-12-27T16:02:48" ModificationDateTime="2025-06-26T14:55:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3050000042LK</AtcoCode>
@@ -94891,6 +94891,81 @@
       <PlusbusZones>
         <PlusbusZoneRef CreationDateTime="2025-05-19T14:18:29" ModificationDateTime="2025-05-19T14:18:29" Modification="new">WLNGBRO</PlusbusZoneRef>
       </PlusbusZones>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-12T13:12:49" ModificationDateTime="2025-11-12T15:16:57" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>3050RS001DR</AtcoCode>
+      <NaptanCode>ntnrsaad</NaptanCode>
+      <Descriptor>
+        <CommonName>Rushton Village DRT</CommonName>
+        <Landmark>Rushton Village Hall</Landmark>
+        <Street>Chapel Lane</Street>
+        <Indicator>DRT</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0049747</NptgLocalityRef>
+        <Suburb>Rushton</Suburb>
+        <Town>Kettering</Town>
+        <LocalityCentre>true</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>484309</Easting>
+            <Northing>282952</Northing>
+            <Longitude>-0.761207537</Longitude>
+            <Latitude>52.438044464</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>FLX</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <FlexibleZone CreationDateTime="2025-11-12T13:12:49" ModificationDateTime="2025-11-12T15:16:57" Modification="revise" RevisionNumber="2">
+              <Location>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>484043</Easting>
+                  <Northing>283138</Northing>
+                  <Longitude>-0.765070084</Longitude>
+                  <Latitude>52.439759573</Latitude>
+                </Translation>
+              </Location>
+              <Location>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>484411</Easting>
+                  <Northing>283072</Northing>
+                  <Longitude>-0.759677175</Longitude>
+                  <Latitude>52.439107293</Latitude>
+                </Translation>
+              </Location>
+              <Location>
+                <Translation>
+                  <GridType>UKOS</GridType>
+                  <Easting>484394</Easting>
+                  <Northing>283061</Northing>
+                  <Longitude>-0.759929970</Longitude>
+                  <Latitude>52.439011047</Latitude>
+                </Translation>
+              </Location>
+            </FlexibleZone>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>153</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2025-11-12T13:12:49" ModificationDateTime="2025-11-12T13:12:49" Modification="new">KETR</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2025-11-12T13:12:49" ModificationDateTime="2025-11-12T13:12:49" Modification="new">
+          <DateRange>
+            <StartDate>2025-11-12</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2024-09-04T09:22:50" ModificationDateTime="2025-01-16T09:43:34" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>3050RS001SS</AtcoCode>
