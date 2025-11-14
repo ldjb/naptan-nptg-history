@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-23T15:41:09" ModificationDateTime="2025-10-23T15:41:09" Modification="revise" RevisionNumber="1" FileName="561.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-11-13T10:22:30" ModificationDateTime="2025-11-13T10:22:30" Modification="revise" RevisionNumber="1" FileName="561.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -67952,9 +67952,132 @@
           <Bus>
             <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-			<UnmarkedPoint>
+			 <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>E</CompassPoint>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-13T09:37:26" ModificationDateTime="2025-11-13T09:57:57" Modification="new" Status="active">
+      <AtcoCode>5610WDB48484</AtcoCode>
+      <NaptanCode>powpadt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Builth Road Co Op</CommonName>
+        <Street>B4520 Brecon Road</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-11-13T09:37:26">
+          <CommonName xml:lang="cy">Co Op Fordd Builth</CommonName>
+          <Street>B4520 Brecon Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0055106</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>1</Easting>
+            <Northing>1</Northing>
+            <Longitude>-3.402128715</Longitude>
+            <Latitude>52.14652309</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			 <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-13T09:45:31" ModificationDateTime="2025-11-13T09:57:34" Modification="new" Status="active">
+      <AtcoCode>5610WDB48485</AtcoCode>
+      <NaptanCode>powpadw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Oaklands Crescent</CommonName>
+        <Street>Castle Road</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-11-13T09:45:31">
+          <CommonName xml:lang="cy">Oaklands Crescent</CommonName>
+          <Street>Fordd y Castell</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0055106</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>1</Easting>
+            <Northing>1</Northing>
+            <Longitude>-3.39611234724728</Longitude>
+            <Latitude>52.14924884</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			 <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-13T09:31:28" ModificationDateTime="2025-11-13T09:59:30" Modification="new" Status="active">
+      <AtcoCode>5610WDB48486</AtcoCode>
+      <NaptanCode>powpadp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Hospital Road</CommonName>
+        <Street>Hospital Roadd</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-11-13T09:31:29">
+          <CommonName xml:lang="cy">Fordd Ysbytu</CommonName>
+          <Street>Ffordd Ysbytu</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0055106</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>1</Easting>
+            <Northing>1</Northing>
+            <Longitude>-3.41427362639954</Longitude>
+            <Latitude>52.1461549362684</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			 <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
