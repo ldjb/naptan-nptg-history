@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-10-21T08:46:59.5647105Z" ModificationDateTime="2025-10-21T08:46:59.5647105Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-21T01:29:39.3314708Z" ModificationDateTime="2025-11-21T01:29:39.3314708Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -985,7 +985,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
-          <CommonName>Hoarwithy Turn. A49</CommonName>
+          <CommonName>Llanwarne Turn. A49</CommonName>
           <Street>Not Specified</Street>
         </Descriptor>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
@@ -1034,7 +1034,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
-          <CommonName>Hoarwithy Turn. A49</CommonName>
+          <CommonName>Llanwarne Turn. A49</CommonName>
           <Street>Not Specified</Street>
         </Descriptor>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
@@ -8587,6 +8587,150 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-11-21T01:09:36" ModificationDateTime="2025-11-21T00:51:52" Modification="new" Status="active">
+      <AtcoCode>2090A0106482</AtcoCode>
+      <NaptanCode>heratpwa</NaptanCode>
+      <Descriptor>
+        <CommonName>Whitley Court Turn</CommonName>
+        <Street>B4360</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0059916</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>345076</Easting>
+            <Northing>260343</Northing>
+            <Longitude>-2.805736115</Longitude>
+            <Latitude>52.238519481</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-21T01:19:17" ModificationDateTime="2025-11-21T01:20:32" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>2090A0106484</AtcoCode>
+      <NaptanCode>heratpwd</NaptanCode>
+      <Descriptor>
+        <CommonName>Whitley Court Turn</CommonName>
+        <Street>B4360</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0059916</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>345077</Easting>
+            <Northing>260354</Northing>
+            <Longitude>-2.805723263</Longitude>
+            <Latitude>52.238618465</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-21T01:23:53" ModificationDateTime="2025-11-21T01:21:48" Modification="new" Status="active">
+      <AtcoCode>2090A0106486</AtcoCode>
+      <NaptanCode>heratpwg</NaptanCode>
+      <Descriptor>
+        <CommonName>The Mill</CommonName>
+        <Street>B4360</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0059916</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>345061</Easting>
+            <Northing>260520</Northing>
+            <Longitude>-2.805984588</Longitude>
+            <Latitude>52.240109111</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-11-21T01:26:17" ModificationDateTime="2025-11-21T01:24:51" Modification="new" Status="active">
+      <AtcoCode>2090A0106488</AtcoCode>
+      <NaptanCode>heratpwj</NaptanCode>
+      <Descriptor>
+        <CommonName>The Mill</CommonName>
+        <Street>B4360</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0059916</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>345067</Easting>
+            <Northing>260553</Northing>
+            <Longitude>-2.805902105</Longitude>
+            <Latitude>52.240406363</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2020-11-30T17:18:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2090A016000</AtcoCode>
       <NaptanCode>heradadp</NaptanCode>
@@ -13313,6 +13457,9 @@
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2023-10-16T15:37:47" ModificationDateTime="2023-10-16T15:37:47" Modification="new">
+          <CommonName>The Hop Pole</CommonName>
+        </Descriptor>
         <Descriptor CreationDateTime="2023-10-16T15:37:47" ModificationDateTime="2023-10-16T15:37:47" Modification="new">
           <CommonName>The Hop Pole</CommonName>
         </Descriptor>
@@ -30946,6 +31093,9 @@
         <Descriptor CreationDateTime="2023-11-08T14:15:08" ModificationDateTime="2023-11-08T14:15:08" Modification="new">
           <CommonName>Compasses Inn</CommonName>
         </Descriptor>
+        <Descriptor CreationDateTime="2023-11-08T14:15:08" ModificationDateTime="2023-11-08T14:15:08" Modification="new">
+          <CommonName>Compasses Inn</CommonName>
+        </Descriptor>
       </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0053390</NptgLocalityRef>
@@ -31869,6 +32019,9 @@
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2021-09-22T15:28:45" ModificationDateTime="2021-09-22T15:28:45" Modification="new">
+          <CommonName>Travellers Rest Inn</CommonName>
+        </Descriptor>
         <Descriptor CreationDateTime="2021-09-22T15:28:45" ModificationDateTime="2021-09-22T15:28:45" Modification="new">
           <CommonName>Travellers Rest Inn</CommonName>
         </Descriptor>
@@ -47747,6 +47900,9 @@
         <Descriptor CreationDateTime="2023-11-08T14:18:38" ModificationDateTime="2023-11-08T14:18:38" Modification="new">
           <CommonName>Compasses Inn</CommonName>
         </Descriptor>
+        <Descriptor CreationDateTime="2023-11-08T14:18:38" ModificationDateTime="2023-11-08T14:18:38" Modification="new">
+          <CommonName>Compasses Inn</CommonName>
+        </Descriptor>
       </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0053390</NptgLocalityRef>
@@ -55910,6 +56066,9 @@
         <Descriptor CreationDateTime="2021-09-22T15:41:30" ModificationDateTime="2021-09-22T15:41:30" Modification="new">
           <CommonName>Credenhill Post Office</CommonName>
         </Descriptor>
+        <Descriptor CreationDateTime="2021-09-22T15:41:30" ModificationDateTime="2021-09-22T15:41:30" Modification="new">
+          <CommonName>Credenhill Post Office</CommonName>
+        </Descriptor>
       </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0053214</NptgLocalityRef>
@@ -61392,6 +61551,9 @@
         <Descriptor CreationDateTime="2023-08-30T14:45:06" ModificationDateTime="2023-08-30T14:45:06" Modification="new">
           <CommonName>Telephone Box</CommonName>
         </Descriptor>
+        <Descriptor CreationDateTime="2023-08-30T14:45:06" ModificationDateTime="2023-08-30T14:45:06" Modification="new">
+          <CommonName>Telephone Box</CommonName>
+        </Descriptor>
       </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0053396</NptgLocalityRef>
@@ -61433,6 +61595,9 @@
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2023-08-30T14:47:52" ModificationDateTime="2023-08-30T14:47:52" Modification="new">
+          <CommonName>Telephone Box</CommonName>
+        </Descriptor>
         <Descriptor CreationDateTime="2023-08-30T14:47:52" ModificationDateTime="2023-08-30T14:47:52" Modification="new">
           <CommonName>Telephone Box</CommonName>
         </Descriptor>
@@ -67719,7 +67884,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
-          <CommonName>Llanwarne Turn. A49</CommonName>
+          <CommonName>Hoarwithy Turn. A49</CommonName>
           <Street>Not Specified</Street>
         </Descriptor>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
@@ -67768,7 +67933,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
-          <CommonName>Hoarwithy Turn. A49</CommonName>
+          <CommonName>Llanwarne Turn. A49</CommonName>
           <Street>Not Specified</Street>
         </Descriptor>
         <Descriptor CreationDateTime="2006-11-23T09:57:00" ModificationDateTime="2006-11-23T09:57:00" Modification="new" RevisionNumber="0" Status="active">
