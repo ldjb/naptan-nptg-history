@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-10-09T11:24:14.375" ModificationDateTime="2025-10-09T11:24:14.375" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-21T15:15:24.232" ModificationDateTime="2025-11-21T15:15:24.232" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -1190,7 +1190,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-03-01T00:00:00.000" ModificationDateTime="2010-01-26T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-03-01T00:00:00.000" ModificationDateTime="2025-10-21T09:52:02.848" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001029</AtcoCode>
 <NaptanCode>72725894</NaptanCode>
 <Descriptor>
@@ -1201,14 +1201,15 @@
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001838</NptgLocalityRef>
+<Town>Innerleithen</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>333368</Easting>
-<Northing>636842</Northing>
-<Longitude>-3.059581</Longitude>
-<Latitude>55.620571</Latitude>
+<Easting>333332</Easting>
+<Northing>636806</Northing>
+<Longitude>-3.060145</Longitude>
+<Latitude>55.620244</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -5104,7 +5105,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-02T00:00:00.000" ModificationDateTime="2015-03-16T00:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2005-08-02T00:00:00.000" ModificationDateTime="2025-10-09T11:30:28.647" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>69001125</AtcoCode>
 <NaptanCode>72725456</NaptanCode>
 <Descriptor>
@@ -5142,22 +5143,6 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
-<StopAvailability>
-<StopValidity CreationDateTime="2014-07-17T16:14:58.000" ModificationDateTime="2014-07-17T16:16:41.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2014-07-28</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">Borders Railway building works (approx five month suspension)</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2015-03-13T09:49:46.000" ModificationDateTime="2015-03-13T09:52:38.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2015-03-12</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">end of effecting works</Note>
-</StopValidity>
-</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2005-08-02T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>69001126</AtcoCode>
@@ -25548,7 +25533,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2015-06-25T12:54:30.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2025-10-09T11:31:18.821" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>69001657</AtcoCode>
 <NaptanCode>72798783</NaptanCode>
 <Descriptor>
@@ -25586,24 +25571,8 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
-<StopAvailability>
-<StopValidity CreationDateTime="2012-09-27T17:06:39.000" ModificationDateTime="2012-09-27T17:06:39.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2012-08-01</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">No longer services as not safe.</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2014-02-07T14:14:35.000" ModificationDateTime="2014-02-07T14:14:35.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2014-02-07</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">no know issue - stop moved by agreement.</Note>
-</StopValidity>
-</StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2014-02-07T14:16:36.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2025-10-09T11:31:44.091" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>69001658</AtcoCode>
 <NaptanCode>72798784</NaptanCode>
 <Descriptor>
@@ -25640,22 +25609,6 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
-<StopAvailability>
-<StopValidity CreationDateTime="2012-09-27T17:05:30.000" ModificationDateTime="2012-09-27T17:05:30.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2012-08-01</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">No longer services as not safe.</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2014-02-07T14:16:36.000" ModificationDateTime="2014-02-07T14:16:36.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2014-02-07</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">no known issue - stop moved north by agreement.</Note>
-</StopValidity>
-</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2009-01-22T00:00:00.000" ModificationDateTime="2011-08-04T11:20:53.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001659</AtcoCode>
@@ -34140,7 +34093,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2014-03-19T14:33:15.000" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2025-10-09T11:32:47.635" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>6900266</AtcoCode>
 <NaptanCode>72724625</NaptanCode>
 <Descriptor>
@@ -34179,20 +34132,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2006-05-08</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2008-11-21T00:00:00.000" ModificationDateTime="2008-11-21T15:03:14.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2008-11-21</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Suspended in error.</Note>
-</StopValidity>
 <StopValidity CreationDateTime="2014-03-19T14:33:15.000" ModificationDateTime="2014-03-19T14:33:15.000" Modification="new" RevisionNumber="0" Status="active">
 <DateRange>
 <StartDate>2014-03-19</StartDate>
@@ -34282,7 +34221,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-14T00:00:00.000" ModificationDateTime="2024-12-19T12:52:18.892" Modification="revise" RevisionNumber="6" Status="inactive">
+<StopPoint CreationDateTime="2003-10-14T00:00:00.000" ModificationDateTime="2025-10-09T11:33:42.917" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>6900272</AtcoCode>
 <NaptanCode>72724638</NaptanCode>
 <Descriptor>
@@ -34321,23 +34260,16 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2006-05-08</StartDate>
+<StartDate>2025-10-09</StartDate>
 </DateRange>
 <Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2008-11-25T00:00:00.000" ModificationDateTime="2008-11-25T16:33:05.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2008-11-25</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Stop in use, per John Dellow</Note>
+<Note>No longer served</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-14T00:00:00.000" ModificationDateTime="2024-12-19T12:52:28.907" Modification="revise" RevisionNumber="5" Status="inactive">
+<StopPoint CreationDateTime="2003-10-14T00:00:00.000" ModificationDateTime="2025-10-09T11:34:17.941" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>6900273</AtcoCode>
 <NaptanCode>72724646</NaptanCode>
 <Descriptor>
@@ -34376,23 +34308,16 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2006-05-08</StartDate>
+<StartDate>2025-10-09</StartDate>
 </DateRange>
 <Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2008-11-25T00:00:00.000" ModificationDateTime="2008-11-25T16:33:32.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2008-11-25</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Stop in use, per John Dellow</Note>
+<Note>No longer served</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-14T00:00:00.000" ModificationDateTime="2024-12-19T12:52:36.864" Modification="revise" RevisionNumber="6" Status="inactive">
+<StopPoint CreationDateTime="2003-10-14T00:00:00.000" ModificationDateTime="2025-10-09T11:34:50.364" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>6900274</AtcoCode>
 <NaptanCode>72724639</NaptanCode>
 <Descriptor>
@@ -34431,19 +34356,12 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopValidity Modification="new" Status="active">
 <DateRange>
-<StartDate>2006-05-08</StartDate>
+<StartDate>2025-10-09</StartDate>
 </DateRange>
 <Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
-<StopValidity CreationDateTime="2008-11-25T00:00:00.000" ModificationDateTime="2008-11-25T16:37:18.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2008-11-25</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Stop in use, per John Dellow</Note>
+<Note>No longer served</Note>
 </StopValidity>
 </StopAvailability>
 </StopPoint>
@@ -35356,7 +35274,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-28T13:05:14.000" ModificationDateTime="2011-11-03T11:52:37.000" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2011-02-28T13:05:14.000" ModificationDateTime="2025-10-09T11:35:46.122" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>690030447</AtcoCode>
 <NaptanCode>72798579</NaptanCode>
 <Descriptor>
@@ -35390,13 +35308,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2011-04-05T15:50:12.000" ModificationDateTime="2011-04-05T15:50:12.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2011-04-05</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">already stop in this position. added in error</Note>
-</StopValidity>
 <StopValidity CreationDateTime="2011-11-03T11:52:37.000" ModificationDateTime="2011-11-03T11:52:37.000" Modification="new" RevisionNumber="0" Status="active">
 <DateRange>
 <StartDate>2011-11-03</StartDate>
@@ -36603,7 +36514,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2013-09-16T13:27:19.000" ModificationDateTime="2021-05-28T13:34:10.459" Modification="revise" RevisionNumber="5" Status="inactive">
+<StopPoint CreationDateTime="2013-09-16T13:27:19.000" ModificationDateTime="2025-10-09T11:56:20.217" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>690031711</AtcoCode>
 <NaptanCode>72728482</NaptanCode>
 <Descriptor>
@@ -36642,13 +36553,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2013-09-16T13:27:19.000" ModificationDateTime="2013-09-16T13:27:19.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2013-09-23</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Pending when created - Live on Start Date</Note>
-</StopValidity>
 <StopValidity Modification="new" Status="active">
 <DateRange>
 <StartDate>2021-05-28</StartDate>
@@ -36657,7 +36561,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2013-09-16T14:00:07.000" ModificationDateTime="2021-05-28T13:33:19.176" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2013-09-16T14:00:07.000" ModificationDateTime="2025-10-09T12:01:41.923" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>690031713</AtcoCode>
 <NaptanCode>72798982</NaptanCode>
 <Descriptor>
@@ -36696,13 +36600,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2013-09-16T14:00:07.000" ModificationDateTime="2013-09-16T14:00:07.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2013-09-23</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Pending when created - Live on Start Date</Note>
-</StopValidity>
 <StopValidity Modification="new" Status="active">
 <DateRange>
 <StartDate>2021-05-28</StartDate>
@@ -36711,7 +36608,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2013-09-16T14:14:14.000" ModificationDateTime="2021-05-28T13:32:19.169" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2013-09-16T14:14:14.000" ModificationDateTime="2025-10-09T12:02:04.299" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>690031715</AtcoCode>
 <NaptanCode>72798990</NaptanCode>
 <Descriptor>
@@ -36750,13 +36647,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2013-09-16T14:14:14.000" ModificationDateTime="2013-09-16T14:14:14.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2013-09-23</StartDate>
-</DateRange>
-<Active />
-<Note xml:lang="en">Pending when created - Live on Start Date</Note>
-</StopValidity>
 <StopValidity Modification="new" Status="active">
 <DateRange>
 <StartDate>2021-05-28</StartDate>
@@ -38331,14 +38221,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-01T00:00:00.000" ModificationDateTime="2025-02-10T13:43:56.846" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-08-01T00:00:00.000" ModificationDateTime="2025-10-16T13:59:36.683" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6900379</AtcoCode>
 <NaptanCode>72723925</NaptanCode>
 <Descriptor>
-<CommonName>Heriot Watt Car Park</CommonName>
+<CommonName>Jean Muir Student Village</CommonName>
 <Landmark>Heriot Watt Car Park</Landmark>
 <Street>Tweed Road</Street>
-<Indicator>Opp</Indicator>
+<Indicator>At</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002762</NptgLocalityRef>
@@ -38371,11 +38261,11 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-01T00:00:00.000" ModificationDateTime="2025-02-10T13:44:22.585" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-08-01T00:00:00.000" ModificationDateTime="2025-10-16T14:00:28.399" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6900380</AtcoCode>
 <NaptanCode>72723926</NaptanCode>
 <Descriptor>
-<CommonName>Heriot Watt Car Park</CommonName>
+<CommonName>Scottish Borders Campus</CommonName>
 <Landmark>Heriot Watt Car Park</Landmark>
 <Street>Tweed Road</Street>
 <Indicator>At</Indicator>
@@ -38810,7 +38700,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-05T00:00:00.000" ModificationDateTime="2025-02-10T13:47:38.985" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-08-05T00:00:00.000" ModificationDateTime="2025-10-09T12:02:45.924" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6900408</AtcoCode>
 <NaptanCode>72724378</NaptanCode>
 <Descriptor>
@@ -38851,13 +38741,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2006-05-08</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
 <StopValidity CreationDateTime="2009-02-10T00:00:00.000" ModificationDateTime="2009-02-10T13:38:39.000" Modification="new" RevisionNumber="0" Status="active">
 <DateRange>
 <StartDate>2009-02-10</StartDate>
@@ -40585,7 +40468,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-10T00:00:00.000" ModificationDateTime="2024-03-27T10:09:08.107" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-06-10T00:00:00.000" ModificationDateTime="2025-10-21T10:34:14.361" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6900479</AtcoCode>
 <NaptanCode>72724353</NaptanCode>
 <Descriptor>
@@ -40612,7 +40495,7 @@
 <OnStreet>
 <Bus>
 <BusStopType>MKD</BusStopType>
-<TimingStatus>PPT</TimingStatus>
+<TimingStatus>TIP</TimingStatus>
 <MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
@@ -40991,7 +40874,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2010-07-07T14:16:40.000" Modification="revise" RevisionNumber="6" Status="inactive">
+<StopPoint CreationDateTime="2003-06-12T00:00:00.000" ModificationDateTime="2025-10-09T12:03:27.746" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>6900499</AtcoCode>
 <NaptanCode>72723456</NaptanCode>
 <Descriptor>
@@ -41030,13 +40913,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2009-03-02T00:00:00.000" ModificationDateTime="2009-03-02T12:55:45.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2009-03-02</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">Stop no longer exists, per J Dellow</Note>
-</StopValidity>
 <StopValidity CreationDateTime="2010-07-07T14:16:40.000" ModificationDateTime="2010-07-07T14:16:40.000" Modification="new" RevisionNumber="0" Status="active">
 <DateRange>
 <StartDate>2010-07-07</StartDate>
@@ -42447,7 +42323,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-14T00:00:00.000" ModificationDateTime="2009-04-16T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-11-14T00:00:00.000" ModificationDateTime="2025-10-09T12:03:52.144" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900583</AtcoCode>
 <NaptanCode>72723792</NaptanCode>
 <Descriptor>
@@ -42486,13 +42362,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2006-05-08</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
 <StopValidity CreationDateTime="2009-02-10T00:00:00.000" ModificationDateTime="2009-02-10T14:58:31.000" Modification="new" RevisionNumber="0" Status="active">
 <DateRange>
 <StartDate>2009-02-10</StartDate>
@@ -45035,13 +44904,13 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-05T00:00:00.000" ModificationDateTime="2025-02-10T14:55:30.134" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-08-05T00:00:00.000" ModificationDateTime="2025-10-21T11:20:45.862" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>6900704</AtcoCode>
 <NaptanCode>72724735</NaptanCode>
 <Descriptor>
 <CommonName>Scout Hall</CommonName>
 <Landmark>Scout Hall</Landmark>
-<Street>Edinburgh Road</Street>
+<Street>Venlaw Quarry Road</Street>
 <Indicator>At</Indicator>
 </Descriptor>
 <Place>
@@ -45051,10 +44920,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>325306</Easting>
-<Northing>640804</Northing>
-<Longitude>-3.188642</Longitude>
-<Latitude>55.65499</Latitude>
+<Easting>325324</Easting>
+<Northing>640822</Northing>
+<Longitude>-3.188352</Longitude>
+<Latitude>55.655156</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -45669,7 +45538,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-01T00:00:00.000" ModificationDateTime="2011-02-23T16:07:30.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-08-01T00:00:00.000" ModificationDateTime="2025-10-09T12:04:21.260" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6900735</AtcoCode>
 <NaptanCode>72723576</NaptanCode>
 <Descriptor>
@@ -45708,13 +45577,6 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 <StopAvailability>
-<StopValidity CreationDateTime="2006-05-08T00:00:00.000" ModificationDateTime="2006-05-08T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
-<DateRange>
-<StartDate>2006-05-08</StartDate>
-</DateRange>
-<Suspended />
-<Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-</StopValidity>
 <StopValidity CreationDateTime="2009-02-10T00:00:00.000" ModificationDateTime="2009-02-10T15:01:30.000" Modification="new" RevisionNumber="0" Status="active">
 <DateRange>
 <StartDate>2009-02-10</StartDate>
@@ -56142,7 +56004,7 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-09-05T15:15:13.001" ModificationDateTime="2024-07-09T14:53:11.394" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2022-09-05T15:15:13.001" ModificationDateTime="2025-10-21T10:34:29.982" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69002114</AtcoCode>
 <NaptanCode>7272114</NaptanCode>
 <Descriptor>
@@ -56169,7 +56031,7 @@
 <OnStreet>
 <Bus>
 <BusStopType>MKD</BusStopType>
-<TimingStatus>OTH</TimingStatus>
+<TimingStatus>PPT</TimingStatus>
 <MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
