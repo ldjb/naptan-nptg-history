@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-05T15:08:17.8424911Z" ModificationDateTime="2025-11-05T15:08:17.8454912Z" Modification="new" FileName="NaPTAN638.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-26T14:16:27.0062764Z" ModificationDateTime="2025-11-26T14:16:27.0062764Z" Modification="new" FileName="NaPTAN638.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2021-03-31T00:00:00" ModificationDateTime="2021-03-31T13:18:28" Modification="new" RevisionNumber="14" Status="active">
 			<AtcoCode>6380ELGIN0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-05T15:08:31.3638865Z" ModificationDateTime="2025-11-05T15:08:31.3638865Z">910GELGIN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-26T14:16:39.0050732Z" ModificationDateTime="2025-11-26T14:16:39.0050732Z">910GELGIN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-05T15:08:31.3870022Z" ModificationDateTime="2025-11-05T15:08:31.3870022Z">910GFORRES</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-26T14:16:39.0319224Z" ModificationDateTime="2025-11-26T14:16:39.0319224Z">910GFORRES</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
@@ -93,7 +93,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-05T15:08:31.3951065Z" ModificationDateTime="2025-11-05T15:08:31.3951065Z">910GKEITH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-26T14:16:39.0479236Z" ModificationDateTime="2025-11-26T14:16:39.0479236Z">910GKEITH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
@@ -25354,27 +25354,27 @@
 			</StopClassification>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2004-11-19T00:00:00" ModificationDateTime="2010-09-16T13:52:00" Modification="new" RevisionNumber="2" Status="active">
-			<AtcoCode>638066611</AtcoCode>
-			<NaptanCode>67924643</NaptanCode>
+		<StopPoint CreationDateTime="2003-08-20T00:00:00" ModificationDateTime="2013-02-28T14:58:00" Modification="new" RevisionNumber="6" Status="active">
+			<AtcoCode>638053042</AtcoCode>
+			<NaptanCode>67923249</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Craigellachie Garage</CommonName>
-				<Landmark xml:lang="en">Craigellachie</Landmark>
-				<Street xml:lang="en">Edward Avenue</Street>
-				<Indicator xml:lang="en">NE-bound</Indicator>
+				<CommonName xml:lang="en">Lady Margaret Drive</CommonName>
+				<Landmark xml:lang="en">Lady Margaret Drive</Landmark>
+				<Street xml:lang="en">St Andrew's Road</Street>
+				<Indicator xml:lang="en">at</Indicator>
 			</Descriptor>
 			<Place>
-				<NptgLocalityRef>N0066948</NptgLocalityRef>
+				<NptgLocalityRef>ES002359</NptgLocalityRef>
 				<Suburb xml:lang="en">-</Suburb>
-				<Town xml:lang="en">Craigellachie</Town>
+				<Town xml:lang="en">Lhanbryde</Town>
 				<LocalityCentre>false</LocalityCentre>
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>328752</Easting>
-						<Northing>844932</Northing>
-						<Longitude>-3.19013</Longitude>
-						<Latitude>57.48899</Latitude>
+						<Easting>327423</Easting>
+						<Northing>861080</Northing>
+						<Longitude>-3.21713</Longitude>
+						<Latitude>57.6338</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -25382,13 +25382,53 @@
 				<StopType>BCT</StopType>
 				<OnStreet>
 					<Bus>
-						<BusStopType>CUS</BusStopType>
+						<BusStopType>MKD</BusStopType>
 						<TimingStatus>OTH</TimingStatus>
-						<UnmarkedPoint>
+						<MarkedPoint>
 							<Bearing>
-								<CompassPoint>NE</CompassPoint>
+								<CompassPoint>NW</CompassPoint>
 							</Bearing>
-						</UnmarkedPoint>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>131</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2003-08-20T00:00:00" ModificationDateTime="2013-02-28T14:58:00" Modification="new" RevisionNumber="5" Status="active">
+			<AtcoCode>638053041</AtcoCode>
+			<NaptanCode>67923248</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Lady Margaret Drive</CommonName>
+				<Landmark xml:lang="en">Lady Margaret Drive</Landmark>
+				<Street xml:lang="en">St Andrew's Road</Street>
+				<Indicator xml:lang="en">opp</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>ES002359</NptgLocalityRef>
+				<Suburb xml:lang="en">-</Suburb>
+				<Town xml:lang="en">Lhanbryde</Town>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>327498</Easting>
+						<Northing>861044</Northing>
+						<Longitude>-3.21586</Longitude>
+						<Latitude>57.63349</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>SE</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
 					</Bus>
 				</OnStreet>
 			</StopClassification>
@@ -29420,27 +29460,63 @@
 			</StopClassification>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2003-08-20T00:00:00" ModificationDateTime="2013-02-28T14:58:00" Modification="new" RevisionNumber="6" Status="active">
-			<AtcoCode>638053042</AtcoCode>
-			<NaptanCode>67923249</NaptanCode>
+		<StopPoint CreationDateTime="2004-11-19T00:00:00" ModificationDateTime="2010-09-16T13:52:00" Modification="new" RevisionNumber="2" Status="active">
+			<AtcoCode>638066611</AtcoCode>
+			<NaptanCode>67924643</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Lady Margaret Drive</CommonName>
-				<Landmark xml:lang="en">Lady Margaret Drive</Landmark>
-				<Street xml:lang="en">St Andrew's Road</Street>
-				<Indicator xml:lang="en">at</Indicator>
+				<CommonName xml:lang="en">Craigellachie Garage</CommonName>
+				<Landmark xml:lang="en">Craigellachie</Landmark>
+				<Street xml:lang="en">Edward Avenue</Street>
+				<Indicator xml:lang="en">NE-bound</Indicator>
 			</Descriptor>
 			<Place>
-				<NptgLocalityRef>ES002359</NptgLocalityRef>
+				<NptgLocalityRef>N0066948</NptgLocalityRef>
 				<Suburb xml:lang="en">-</Suburb>
-				<Town xml:lang="en">Lhanbryde</Town>
+				<Town xml:lang="en">Craigellachie</Town>
 				<LocalityCentre>false</LocalityCentre>
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>327423</Easting>
-						<Northing>861080</Northing>
-						<Longitude>-3.21713</Longitude>
-						<Latitude>57.6338</Latitude>
+						<Easting>328752</Easting>
+						<Northing>844932</Northing>
+						<Longitude>-3.19013</Longitude>
+						<Latitude>57.48899</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>CUS</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<UnmarkedPoint>
+							<Bearing>
+								<CompassPoint>NE</CompassPoint>
+							</Bearing>
+						</UnmarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>131</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-11-25T00:00:00" ModificationDateTime="2025-11-25T15:09:19" Modification="new" RevisionNumber="47" Status="active">
+			<AtcoCode>638000001</AtcoCode>
+			<NaptanCode>67925478</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Hay Street</CommonName>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>ES001294</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>321380</Easting>
+						<Northing>862555</Northing>
+						<Longitude>-3.31878</Longitude>
+						<Latitude>57.64603</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -29452,7 +29528,7 @@
 						<TimingStatus>OTH</TimingStatus>
 						<MarkedPoint>
 							<Bearing>
-								<CompassPoint>NW</CompassPoint>
+								<CompassPoint>E</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
@@ -29460,27 +29536,23 @@
 			</StopClassification>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2003-08-20T00:00:00" ModificationDateTime="2013-02-28T14:58:00" Modification="new" RevisionNumber="5" Status="active">
-			<AtcoCode>638053041</AtcoCode>
-			<NaptanCode>67923248</NaptanCode>
+		<StopPoint CreationDateTime="2025-11-25T00:00:00" ModificationDateTime="2025-11-25T15:09:39" Modification="new" RevisionNumber="48" Status="active">
+			<AtcoCode>638000002</AtcoCode>
+			<NaptanCode>67925479</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Lady Margaret Drive</CommonName>
-				<Landmark xml:lang="en">Lady Margaret Drive</Landmark>
-				<Street xml:lang="en">St Andrew's Road</Street>
-				<Indicator xml:lang="en">opp</Indicator>
+				<CommonName xml:lang="en">Hay Street</CommonName>
+				<Indicator xml:lang="en">W-bound</Indicator>
 			</Descriptor>
 			<Place>
-				<NptgLocalityRef>ES002359</NptgLocalityRef>
-				<Suburb xml:lang="en">-</Suburb>
-				<Town xml:lang="en">Lhanbryde</Town>
+				<NptgLocalityRef>ES001294</NptgLocalityRef>
 				<LocalityCentre>false</LocalityCentre>
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>327498</Easting>
-						<Northing>861044</Northing>
-						<Longitude>-3.21586</Longitude>
-						<Latitude>57.63349</Latitude>
+						<Easting>321417</Easting>
+						<Northing>862505</Northing>
+						<Longitude>-3.31814</Longitude>
+						<Latitude>57.64559</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -29492,7 +29564,7 @@
 						<TimingStatus>OTH</TimingStatus>
 						<MarkedPoint>
 							<Bearing>
-								<CompassPoint>SE</CompassPoint>
+								<CompassPoint>W</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
