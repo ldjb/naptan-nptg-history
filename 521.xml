@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-11-14T14:13:07" ModificationDateTime="2025-11-14T14:13:07" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-01T14:17:01" ModificationDateTime="2025-12-01T14:17:01" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -46864,7 +46864,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-10-30T14:06:50" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2025-10-30T14:06:50" ModificationDateTime="2025-11-14T14:46:40" Modification="new" Status="active">
       <AtcoCode>5210WDB48420</AtcoCode>
       <NaptanCode>pemjapa</NaptanCode>
       <Descriptor>
@@ -46884,6 +46884,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>194197</Easting>
             <Northing>207297</Northing>
             <Longitude>-4.98133</Longitude>
@@ -46897,7 +46898,7 @@
           <Bus>
             <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-			 <UnmarkedPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
@@ -46907,7 +46908,7 @@
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-10-30T14:16:22" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2025-10-30T14:16:22" ModificationDateTime="2025-11-14T14:46:40" Modification="new" Status="active">
       <AtcoCode>5210WDB48421</AtcoCode>
       <NaptanCode>pemjapd</NaptanCode>
       <Descriptor>
@@ -46926,6 +46927,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>193734</Easting>
             <Northing>207753</Northing>
             <Longitude>-4.98832</Longitude>
@@ -46939,7 +46941,7 @@
           <Bus>
             <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-			<UnmarkedPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
