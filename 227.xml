@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.92.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-26T13:19:56.1105007Z" ModificationDateTime="2025-11-26T13:19:56.1105007Z" Modification="new" RevisionNumber="1" FileName="227NaPTAN.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-12-05T10:19:33.4610407Z" ModificationDateTime="2025-12-05T10:19:33.4610407Z" Modification="new" RevisionNumber="1" FileName="227NaPTAN.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-09T00:00:00" ModificationDateTime="2008-12-12T11:57:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>227000010001</AtcoCode>
@@ -63005,6 +63005,78 @@
                 <CompassPoint>W</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>037</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-12-05T10:14:57" ModificationDateTime="2025-12-05T10:09:16" Modification="new" Status="active">
+      <AtcoCode>227000011315</AtcoCode>
+      <NaptanCode>scugamd</NaptanCode>
+      <Descriptor>
+        <CommonName>Aldi Glebe Road</CommonName>
+        <Landmark>Aldi</Landmark>
+        <Street>Glebe Road</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055067</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>489756</Easting>
+            <Northing>411801</Northing>
+            <Longitude>-0.645316555</Longitude>
+            <Latitude>53.595104806</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>037</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-12-05T10:17:57" ModificationDateTime="2025-12-05T10:16:37" Modification="new" Status="active">
+      <AtcoCode>227000011316</AtcoCode>
+      <NaptanCode>scugdmd</NaptanCode>
+      <Descriptor>
+        <CommonName>Just Tyres</CommonName>
+        <Landmark>Just Tyres</Landmark>
+        <Street>Glebe Road</Street>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0055067</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>489690</Easting>
+            <Northing>411772</Northing>
+            <Longitude>-0.646321796</Longitude>
+            <Latitude>53.594855500</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
