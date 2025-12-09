@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-05T14:28:57.781" ModificationDateTime="2025-11-05T14:28:57.781" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-12-08T16:57:32.718" ModificationDateTime="2025-12-08T16:57:32.718" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -48664,6 +48664,80 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-12-04T14:37:39.869" ModificationDateTime="2025-12-04T14:37:39.869" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001337</AtcoCode>
+<NaptanCode>5821337</NaptanCode>
+<Descriptor>
+<CommonName>Research Centre Road End</CommonName>
+<Street>B6371</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003692</NptgLocalityRef>
+<Town>Tranent</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>341389</Easting>
+<Northing>671108</Northing>
+<Longitude>-2.9396215</Longitude>
+<Latitude>55.9294401</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-12-04T14:39:52.222" ModificationDateTime="2025-12-04T14:39:52.222" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001338</AtcoCode>
+<NaptanCode>5821338</NaptanCode>
+<Descriptor>
+<CommonName>Research Centre Road End</CommonName>
+<Street>B6371</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003692</NptgLocalityRef>
+<Town>Tranent</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>341398</Easting>
+<Northing>671099</Northing>
+<Longitude>-2.9394713</Longitude>
+<Latitude>55.9293687</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
