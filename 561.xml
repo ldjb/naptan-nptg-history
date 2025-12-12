@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-11-21T13:26:43" ModificationDateTime="2025-11-21T13:26:43" Modification="revise" RevisionNumber="1" FileName="561.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-11T14:23:18" ModificationDateTime="2025-12-11T14:23:18" Modification="revise" RevisionNumber="1" FileName="561.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-04-10T11:43:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5610ACX17042</AtcoCode>
@@ -68098,6 +68098,47 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>045</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-12-11T14:22:51" Modification="new" Status="active">
+      <AtcoCode>5610WDB48487</AtcoCode>
+      <NaptanCode>powpaga</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Talgarth</CommonName>
+        <Street>Bronllys Road</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2025-12-11T14:22:51">
+          <CommonName xml:lang="cy">Talgarth</CommonName>
+          <Street>Bronllys Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054557</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>315423</Easting>
+            <Northing>233821</Northing>
+            <Longitude>-3.233294657</Longitude>
+            <Latitude>51.99637271</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			<UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>

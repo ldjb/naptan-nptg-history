@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-01T14:09:54" ModificationDateTime="2025-12-01T14:09:54" Modification="revise" RevisionNumber="1" FileName="513.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-11T12:54:01" ModificationDateTime="2025-12-11T12:54:01" Modification="revise" RevisionNumber="1" FileName="513.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-05-30T11:11:09" ModificationDateTime="2024-05-30T11:09:44" Modification="new" Status="active">
       <AtcoCode>5130ABC10000</AtcoCode>
@@ -4295,13 +4295,14 @@
       <AtcoCode>5130AWA17208</AtcoCode>
       <NaptanCode>cnwgjaj</NaptanCode>
       <Descriptor>
-        <CommonName>Bryn Tyrch Hotel</CommonName>
+        <CommonName xml:lang="cy">Bryn Tyrch Inn</CommonName>
         <Street>Holyhead Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:40">
-          <CommonName xml:lang="CY">Bryn Tyrch Hotel</CommonName>
+          <CommonName xml:lang="cy">Bryn Tyrch Inn</CommonName>
+          <Street>Holyhead Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -4382,14 +4383,15 @@
       <AtcoCode>5130AWA17210</AtcoCode>
       <NaptanCode>cnwgjap</NaptanCode>
       <Descriptor>
-        <CommonName>Cobden`s Hotel</CommonName>
+        <CommonName xml:lang="cy">Cobden's Hotel</CommonName>
         <Landmark>Telephone Exchange</Landmark>
         <Street>A5</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:47">
-          <CommonName xml:lang="CY">Cobden`s Hotel</CommonName>
+          <CommonName xml:lang="cy">Gwesty Cobdens</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -4426,14 +4428,15 @@
       <AtcoCode>5130AWA17212</AtcoCode>
       <NaptanCode>cnwgjat</NaptanCode>
       <Descriptor>
-        <CommonName>Ty`n y coed Hotel</CommonName>
+        <CommonName xml:lang="cy">Tyn-y-Coed Hotel</CommonName>
         <Landmark>Ty`n y coed Hotel</Landmark>
         <Street>Holyhead Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:41">
-          <CommonName xml:lang="CY">Ty`n y coed Hotel</CommonName>
+          <CommonName xml:lang="cy">Gwesty Tyn-y-Coed</CommonName>
+          <Street>Holyhead Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -12301,13 +12304,14 @@
       <AtcoCode>5130AWD71980</AtcoCode>
       <NaptanCode>cnwdmdt</NaptanCode>
       <Descriptor>
-        <CommonName>Goat Hotel</CommonName>
+        <CommonName xml:lang="cy">The Goat Inn</CommonName>
         <Street>A5</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:00">
-          <CommonName xml:lang="CY">Goat Hotel</CommonName>
+          <CommonName xml:lang="cy">Tafarn yr Afr</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26470,7 +26474,7 @@
       <AtcoCode>5130AWF80333</AtcoCode>
       <NaptanCode>cnwagwd</NaptanCode>
       <Descriptor>
-        <CommonName>St Mary Magdalen`s Church</CommonName>
+        <CommonName xml:lang="cy">St Mary Magdalen Church</CommonName>
         <Landmark>St Mary Magdalen`s Church</Landmark>
         <Street>Ffordd Tan Lan</Street>
         <Crossing>King Street</Crossing>
@@ -26478,7 +26482,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:55">
-          <CommonName xml:lang="CY">Eglwys y Santes Fair Magdalen</CommonName>
+          <CommonName xml:lang="cy">Eglwys y Santes Fair</CommonName>
+          <Street>Ffordd Tan Lan</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26690,7 +26695,7 @@
       <AtcoCode>5130AWF80338</AtcoCode>
       <NaptanCode>cnwdtpa</NaptanCode>
       <Descriptor>
-        <CommonName>Voelas Water Mill</CommonName>
+        <CommonName xml:lang="cy">Pentrefoelas</CommonName>
         <Landmark>Pentrefoelas Post Office</Landmark>
         <Street>A5</Street>
         <Crossing>B5113</Crossing>
@@ -26698,7 +26703,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:16">
-          <CommonName xml:lang="CY">Melin Dwr Voelas</CommonName>
+          <CommonName xml:lang="cy">Pentrefoelas</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27179,14 +27185,15 @@
       <AtcoCode>5130AWF80349</AtcoCode>
       <NaptanCode>cnwagpa</NaptanCode>
       <Descriptor>
-        <CommonName>Ty`n y coed Hotel</CommonName>
+        <CommonName xml:lang="cy">Tyn-y-Coed Hotel</CommonName>
         <Landmark>Ty`n y coed Hotel</Landmark>
         <Street>Holyhead Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:41">
-          <CommonName xml:lang="CY">Ty`n y coed Hotel</CommonName>
+          <CommonName xml:lang="cy">Gwesty Tyn-y-Coed</CommonName>
+          <Street>Holyhead Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27223,14 +27230,15 @@
       <AtcoCode>5130AWF80350</AtcoCode>
       <NaptanCode>cnwagjm</NaptanCode>
       <Descriptor>
-        <CommonName>Cobden`s Hotel</CommonName>
+        <CommonName xml:lang="cy">Cobden's Hotel</CommonName>
         <Landmark>Cobden`s Hotel</Landmark>
         <Street>A5</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:47">
-          <CommonName xml:lang="CY">Cobden`s Hotel</CommonName>
+          <CommonName xml:lang="cy">Gwesty Cobdens</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27399,7 +27407,7 @@
       <AtcoCode>5130AWF80354</AtcoCode>
       <NaptanCode>cnwagjg</NaptanCode>
       <Descriptor>
-        <CommonName>St Curig`s Church</CommonName>
+        <CommonName xml:lang="cy">Capel Curig</CommonName>
         <Landmark>St Curig`s Church</Landmark>
         <Street>Holyhead Road</Street>
         <Crossing>A4086</Crossing>
@@ -27407,7 +27415,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:54">
-          <CommonName xml:lang="CY">Eglwys Sant Curig</CommonName>
+          <CommonName xml:lang="cy">Capel Curig</CommonName>
+          <Street>Holyhead Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27444,14 +27453,15 @@
       <AtcoCode>5130AWF80355</AtcoCode>
       <NaptanCode>cnwagma</NaptanCode>
       <Descriptor>
-        <CommonName>Gwern Gof Isaf</CommonName>
+        <CommonName xml:lang="cy">Gwern Gôf Isaf</CommonName>
         <Landmark>Farm</Landmark>
         <Street>A5</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:06">
-          <CommonName xml:lang="CY">Gwern Gof Isaf</CommonName>
+          <CommonName xml:lang="cy">Gwern Gôf Isaf</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27488,14 +27498,14 @@
       <AtcoCode>5130AWF80356</AtcoCode>
       <NaptanCode>cnwgjga</NaptanCode>
       <Descriptor>
-        <CommonName>Llyn Ogwen</CommonName>
+        <CommonName xml:lang="cy">Ogwen Cottage</CommonName>
         <Landmark>Ogwen Cottage Centre</Landmark>
         <Street>A5</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-02-28T12:40:45">
-          <CommonName xml:lang="CY">Llyn Ogwen</CommonName>
+          <CommonName xml:lang="cy">Llyn Ogwen</CommonName>
           <ShortCommonName>Canolfan Bwthyn Ogwen</ShortCommonName>
           <Landmark>Canolfan Bwthyn Ogwen</Landmark>
           <Street>A5</Street>
@@ -36049,7 +36059,7 @@
       <AtcoCode>5130GYX17352</AtcoCode>
       <NaptanCode>cnwagmg</NaptanCode>
       <Descriptor>
-        <CommonName>St Curig`s Church</CommonName>
+        <CommonName xml:lang="cy">Capel Curig</CommonName>
         <Landmark>St Curig`s Church</Landmark>
         <Street>Holyhead Road</Street>
         <Crossing>A4086</Crossing>
@@ -36057,7 +36067,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:54">
-          <CommonName xml:lang="CY">Eglwys Sant Curig</CommonName>
+          <CommonName xml:lang="cy">Capel Curig</CommonName>
+          <Street>Holyhead Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -37446,7 +37457,7 @@
       <AtcoCode>5130WDB21913</AtcoCode>
       <NaptanCode>cnwgjtm</NaptanCode>
       <Descriptor>
-        <CommonName>St Mary Magdalen`s Church</CommonName>
+        <CommonName xml:lang="cy">St Mary Magdalen Church</CommonName>
         <Landmark>St Mary Magdalen`s Church</Landmark>
         <Street>Ffordd Tan Lan</Street>
         <Crossing>King Street</Crossing>
@@ -37454,7 +37465,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:55">
-          <CommonName xml:lang="CY">Eglwys y Santes Fair Magdalen</CommonName>
+          <CommonName xml:lang="cy">Eglwys y Santes Fair</CommonName>
+          <Street>fordd Tan Lan</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47067,7 +47079,7 @@
       <AtcoCode>5130WDB47436</AtcoCode>
       <NaptanCode>cnwjaja</NaptanCode>
       <Descriptor>
-        <CommonName>Voelas Water Mill</CommonName>
+        <CommonName xml:lang="cy">Pentrefoelas</CommonName>
         <Landmark>Pentrefoelas Post Office</Landmark>
         <Street>A5</Street>
         <Crossing>B5113</Crossing>
@@ -47075,7 +47087,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:16">
-          <CommonName xml:lang="CY">Melin Dwr Voelas</CommonName>
+          <CommonName xml:lang="cy">Pentrefoelas</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47285,13 +47298,14 @@
       <AtcoCode>5130WDB47441</AtcoCode>
       <NaptanCode>cnwjama</NaptanCode>
       <Descriptor>
-        <CommonName>Goat Hotel</CommonName>
+        <CommonName xml:lang="cy">The Goat Inn</CommonName>
         <Street>A5</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:10:00">
-          <CommonName xml:lang="CY">Goat Hotel</CommonName>
+          <CommonName xml:lang="cy">Tafarn yr Afr</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47369,13 +47383,14 @@
       <AtcoCode>5130WDB47443</AtcoCode>
       <NaptanCode>cnwjamg</NaptanCode>
       <Descriptor>
-        <CommonName>Ty-nsnt Farm</CommonName>
+        <CommonName xml:lang="cy">Ty-nant Farm</CommonName>
         <Street>A5</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:09:57">
-          <CommonName xml:lang="CY">Fferm Ty-nant</CommonName>
+          <CommonName xml:lang="cy">Fferm Ty-nant</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
