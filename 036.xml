@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-12-02T12:19:33" Modification="revise" RevisionNumber="18" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-12-18T17:16:31" Modification="revise" RevisionNumber="19" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-11-07T19:15:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -4537,6 +4537,48 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-12-18T17:14:07" ModificationDateTime="2025-12-18T17:14:07" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000111</AtcoCode>
+      <NaptanCode>wingtpd</NaptanCode>
+      <Descriptor>
+        <CommonName>Furze Platt Rail Station</CommonName>
+        <ShortCommonName>Furze Platt Stn</ShortCommonName>
+        <Landmark>57 Harrow Lane</Landmark>
+        <Street>Harrow Lane</Street>
+        <Crossing>Bridle Road</Crossing>
+        <Indicator>Stop HR</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043271</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>488167</Easting>
+            <Northing>182271</Northing>
+            <Longitude>-0.7302930576702372</Longitude>
+            <Latitude>51.532478256420646</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
     <StopPoint CreationDateTime="2025-12-01T22:41:39" ModificationDateTime="2025-12-02T09:04:54" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000112</AtcoCode>
       <NaptanCode>wingtpa</NaptanCode>
@@ -4572,6 +4614,48 @@
                 <CompassPoint>NW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-12-18T17:16:25" ModificationDateTime="2025-12-18T17:16:25" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000113</AtcoCode>
+      <NaptanCode>wingtpg</NaptanCode>
+      <Descriptor>
+        <CommonName>Furze Platt Rail Station</CommonName>
+        <ShortCommonName>Furze Platt Stn</ShortCommonName>
+        <Landmark>57 Harrow Lane</Landmark>
+        <Street>Harrow Lane</Street>
+        <Crossing>Bridle Road</Crossing>
+        <Indicator>Stop HQ</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043271</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>488183</Easting>
+            <Northing>182264</Northing>
+            <Longitude>-0.7300714170600321</Longitude>
+            <Latitude>51.53241596484142</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
