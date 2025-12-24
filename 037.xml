@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-07T12:44:07.826" ModificationDateTime="2025-11-07T12:44:07.826" Modification="new" RevisionNumber="0" FileName="NaPTAN037.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-12-23T11:32:23.046" ModificationDateTime="2025-12-23T11:32:23.046" Modification="new" RevisionNumber="0" FileName="NaPTAN037.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-08-28T00:00:00.000" ModificationDateTime="2014-01-08T09:04:07.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>03700001</AtcoCode>
@@ -24373,23 +24373,22 @@
 </StopClassification>
 <AdministrativeAreaRef>050</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-11-07T12:13:55.732" ModificationDateTime="2025-11-07T12:13:55.732" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2025-11-07T12:13:55.732" ModificationDateTime="2025-12-23T11:29:22.209" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>037000000464</AtcoCode>
 <NaptanCode>slgdmat</NaptanCode>
 <Descriptor>
-<CommonName>Bradley Road</CommonName>
+<CommonName>Stoke Poges Lane Post Office</CommonName>
 <Street>Stoke Poges Lane</Street>
 </Descriptor>
 <Place>
-<NptgLocalityRef>N0072215</NptgLocalityRef>
-<Town>Slough</Town>
+<NptgLocalityRef>E0057240</NptgLocalityRef>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
 <Easting>497265</Easting>
-<Northing>180656</Northing>
-<Longitude>-0.5996405</Longitude>
-<Latitude>51.5164615</Latitude>
+<Northing>180660</Northing>
+<Longitude>-0.599636</Longitude>
+<Latitude>51.516497</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -24409,23 +24408,163 @@
 </StopClassification>
 <AdministrativeAreaRef>050</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-11-07T12:19:33.497" ModificationDateTime="2025-11-07T12:19:33.497" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2025-11-07T12:19:33.497" ModificationDateTime="2025-12-23T11:25:22.214" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>037000000465</AtcoCode>
 <NaptanCode>slgdmaw</NaptanCode>
 <Descriptor>
-<CommonName>Bradley Road</CommonName>
+<CommonName>Stoke Pages Lane Post Office</CommonName>
 <Street>Stoke Poges Lane</Street>
 </Descriptor>
 <Place>
-<NptgLocalityRef>N0072215</NptgLocalityRef>
+<NptgLocalityRef>E0057240</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>497246</Easting>
+<Northing>180615</Northing>
+<Longitude>-0.599921</Longitude>
+<Latitude>51.5161</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-12-23T10:47:41.926" ModificationDateTime="2025-12-23T10:56:10.815" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>037000000471</AtcoCode>
+<NaptanCode>slgdmda</NaptanCode>
+<Descriptor>
+<CommonName>Red Court</CommonName>
+<Street>Stoke Poges Lane</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0057240</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>497062</Easting>
+<Northing>180153</Northing>
+<Longitude>-0.602701</Longitude>
+<Latitude>51.511981</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-12-23T10:54:51.462" ModificationDateTime="2025-12-23T10:54:51.462" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>037000000472</AtcoCode>
+<NaptanCode>slgdmdg</NaptanCode>
+<Descriptor>
+<CommonName>Red Court</CommonName>
+<Street>Red Court</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0057310</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>497080</Easting>
+<Northing>180161</Northing>
+<Longitude>-0.602441</Longitude>
+<Latitude>51.5120505</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-12-23T11:04:56.426" ModificationDateTime="2025-12-23T11:04:56.426" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>037000000473</AtcoCode>
+<NaptanCode>slgdmdj</NaptanCode>
+<Descriptor>
+<CommonName>Regent Court</CommonName>
+<Street>Stoke Poges Lane</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0044079</NptgLocalityRef>
 <Town>Slough</Town>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>497236</Easting>
-<Northing>180582</Northing>
-<Longitude>-0.6000746</Longitude>
-<Latitude>51.5158032</Latitude>
+<Easting>497288</Easting>
+<Northing>181150</Northing>
+<Longitude>-0.599171</Longitude>
+<Latitude>51.520899</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2025-12-23T11:08:11.237" ModificationDateTime="2025-12-23T11:08:11.237" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>037000000474</AtcoCode>
+<NaptanCode>slgdmdm</NaptanCode>
+<Descriptor>
+<CommonName>Regent Court</CommonName>
+<Street>Stoke Poges Lane</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0057310</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>497276</Easting>
+<Northing>181112</Northing>
+<Longitude>-0.599359</Longitude>
+<Latitude>51.520558</Latitude>
 </Translation>
 </Location>
 </Place>
