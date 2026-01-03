@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-12T07:56:33.3637788Z" ModificationDateTime="2025-11-12T07:56:33.3637788Z" Modification="new" RevisionNumber="1" FileName="069.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-01-02T12:10:18.010959Z" ModificationDateTime="2026-01-02T12:10:18.010959Z" Modification="new" RevisionNumber="1" FileName="069.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2010-02-26T00:00:00" ModificationDateTime="2025-04-24T12:03:59" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>069000003706</AtcoCode>
@@ -60526,13 +60526,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2019-03-26T11:02:23" ModificationDateTime="2019-04-08T11:29:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2019-03-26T11:02:23" ModificationDateTime="2026-01-02T12:03:02" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>0690WNA02949</AtcoCode>
       <NaptanCode>wrgmpjw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Hermes</CommonName>
-        <ShortCommonName>Hermes</ShortCommonName>
-        <Landmark>Hermes</Landmark>
+        <CommonName>Evri</CommonName>
+        <ShortCommonName>Evri</ShortCommonName>
+        <Landmark>Evri</Landmark>
         <Street>Lockheed Road</Street>
         <Indicator>o\s</Indicator>
       </Descriptor>
@@ -60540,10 +60540,10 @@
         <NptgLocalityRef>E0053800</NptgLocalityRef>
         <Location>
           <Translation>
-            <Easting>356970</Easting>
-            <Northing>391232</Northing>
-            <Longitude>-2.648874794</Longitude>
-            <Latitude>53.416123815</Latitude>
+            <Easting>356904</Easting>
+            <Northing>391201</Northing>
+            <Longitude>-2.649863481</Longitude>
+            <Latitude>53.415839788</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -60555,7 +60555,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -62207,6 +62207,52 @@
         <StopValidity CreationDateTime="2025-06-03T12:06:28" ModificationDateTime="2025-06-03T12:06:28" Modification="new">
           <DateRange>
             <StartDate>2025-06-03</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-02T11:00:46" ModificationDateTime="2026-01-02T11:05:07" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>0690WNA09283</AtcoCode>
+      <NaptanCode>wrgmtmd</NaptanCode>
+      <Descriptor>
+        <CommonName>Catalina Approach</CommonName>
+        <ShortCommonName>Catalina Approach</ShortCommonName>
+        <Street>Catalina Approach</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0057278</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>355456</Easting>
+            <Northing>390584</Northing>
+            <Longitude>-2.671560255</Longitude>
+            <Latitude>53.410173671</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>063</AdministrativeAreaRef>
+      <PlusbusZones>
+        <PlusbusZoneRef CreationDateTime="2026-01-02T11:02:02" ModificationDateTime="2026-01-02T11:02:02" Modification="new">WRGT</PlusbusZoneRef>
+      </PlusbusZones>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-01-02T11:00:46" ModificationDateTime="2026-01-02T11:00:46" Modification="new">
+          <DateRange>
+            <StartDate>2026-01-02</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
