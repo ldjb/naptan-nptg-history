@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-26T14:16:27.0062764Z" ModificationDateTime="2025-11-26T14:16:27.0062764Z" Modification="new" FileName="NaPTAN638.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-01-07T14:27:21.9649456Z" ModificationDateTime="2026-01-07T14:27:21.9649456Z" Modification="new" FileName="NaPTAN638.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2021-03-31T00:00:00" ModificationDateTime="2021-03-31T13:18:28" Modification="new" RevisionNumber="14" Status="active">
 			<AtcoCode>6380ELGIN0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-26T14:16:39.0050732Z" ModificationDateTime="2025-11-26T14:16:39.0050732Z">910GELGIN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-01-07T14:27:34.2007721Z" ModificationDateTime="2026-01-07T14:27:34.2007721Z">910GELGIN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-26T14:16:39.0319224Z" ModificationDateTime="2025-11-26T14:16:39.0319224Z">910GFORRES</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-01-07T14:27:34.2163983Z" ModificationDateTime="2026-01-07T14:27:34.2163983Z">910GFORRES</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
@@ -93,7 +93,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2025-11-26T14:16:39.0479236Z" ModificationDateTime="2025-11-26T14:16:39.0479236Z">910GKEITH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-01-07T14:27:34.23202Z" ModificationDateTime="2026-01-07T14:27:34.23202Z">910GKEITH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
@@ -29460,6 +29460,78 @@
 			</StopClassification>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
+		<StopPoint CreationDateTime="2025-11-25T00:00:00" ModificationDateTime="2026-01-05T14:24:29" Modification="new" RevisionNumber="72" Status="active">
+			<AtcoCode>638000001</AtcoCode>
+			<NaptanCode>67925478</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Hay Street</CommonName>
+				<Indicator xml:lang="en">W-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>ES001294</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>321380</Easting>
+						<Northing>862555</Northing>
+						<Longitude>-3.31878</Longitude>
+						<Latitude>57.64603</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>W</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>131</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2025-11-25T00:00:00" ModificationDateTime="2026-01-05T14:24:47" Modification="new" RevisionNumber="73" Status="active">
+			<AtcoCode>638000002</AtcoCode>
+			<NaptanCode>67925479</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Hay Street</CommonName>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>ES001294</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>321417</Easting>
+						<Northing>862505</Northing>
+						<Longitude>-3.31814</Longitude>
+						<Latitude>57.64559</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>131</AdministrativeAreaRef>
+		</StopPoint>
 		<StopPoint CreationDateTime="2004-11-19T00:00:00" ModificationDateTime="2010-09-16T13:52:00" Modification="new" RevisionNumber="2" Status="active">
 			<AtcoCode>638066611</AtcoCode>
 			<NaptanCode>67924643</NaptanCode>
@@ -29500,47 +29572,11 @@
 			</StopClassification>
 			<AdministrativeAreaRef>131</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2025-11-25T00:00:00" ModificationDateTime="2025-11-25T15:09:19" Modification="new" RevisionNumber="47" Status="active">
-			<AtcoCode>638000001</AtcoCode>
-			<NaptanCode>67925478</NaptanCode>
+		<StopPoint CreationDateTime="2026-01-05T00:00:00" ModificationDateTime="2026-01-05T14:23:31" Modification="new" RevisionNumber="55" Status="active">
+			<AtcoCode>638000003</AtcoCode>
+			<NaptanCode>67925485</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Hay Street</CommonName>
-				<Indicator xml:lang="en">E-bound</Indicator>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>ES001294</NptgLocalityRef>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>321380</Easting>
-						<Northing>862555</Northing>
-						<Longitude>-3.31878</Longitude>
-						<Latitude>57.64603</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>BCT</StopType>
-				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>E</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
-				</OnStreet>
-			</StopClassification>
-			<AdministrativeAreaRef>131</AdministrativeAreaRef>
-		</StopPoint>
-		<StopPoint CreationDateTime="2025-11-25T00:00:00" ModificationDateTime="2025-11-25T15:09:39" Modification="new" RevisionNumber="48" Status="active">
-			<AtcoCode>638000002</AtcoCode>
-			<NaptanCode>67925479</NaptanCode>
-			<Descriptor>
-				<CommonName xml:lang="en">Hay Street</CommonName>
+				<CommonName xml:lang="en">UHI Campus</CommonName>
 				<Indicator xml:lang="en">W-bound</Indicator>
 			</Descriptor>
 			<Place>
@@ -29549,10 +29585,10 @@
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>321417</Easting>
-						<Northing>862505</Northing>
-						<Longitude>-3.31814</Longitude>
-						<Latitude>57.64559</Latitude>
+						<Easting>321502</Easting>
+						<Northing>862362</Northing>
+						<Longitude>-3.31667</Longitude>
+						<Latitude>57.64432</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -29565,6 +29601,42 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>W</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>131</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-01-05T00:00:00" ModificationDateTime="2026-01-05T14:23:16" Modification="new" RevisionNumber="47" Status="active">
+			<AtcoCode>638000004</AtcoCode>
+			<NaptanCode>67925486</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">UHI Campus</CommonName>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>ES001294</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>321531</Easting>
+						<Northing>862368</Northing>
+						<Longitude>-3.31619</Longitude>
+						<Latitude>57.64437</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
