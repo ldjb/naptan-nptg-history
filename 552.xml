@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-01T14:26:00" ModificationDateTime="2025-12-01T14:26:00" Modification="revise" RevisionNumber="1" FileName="552.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-01-13T15:46:03" ModificationDateTime="2026-01-13T15:46:03" Modification="revise" RevisionNumber="1" FileName="552.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-07T14:19:16" ModificationDateTime="2024-05-02T09:44:01" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5520ABRCYNS0</AtcoCode>
@@ -73166,6 +73166,219 @@
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-13T10:50:37" ModificationDateTime="2026-01-13T10:57:39" Modification="new" Status="active">
+      <AtcoCode>5520WDB48377</AtcoCode>
+      <NaptanCode>rhotjdp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Beechwood Avenue</CommonName>
+        <Street>Beechwood Avenue</Street>
+        <Indicator>on</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-13T10:50:37">
+          <CommonName xml:lang="cy">Coedlan y Ffawydd</CommonName>
+          <Street>Coedlan y Ffawydd</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041620</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>299114</Easting>
+            <Northing>202808</Northing>
+            <Longitude>-3.461686</Longitude>
+            <Latitude>51.714807</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			<UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-13T14:11:35" ModificationDateTime="2026-01-13T14:13:59" Modification="new" Status="active">
+      <AtcoCode>5520WDB48378</AtcoCode>
+      <NaptanCode>rhotjdt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Beechwood Avenue</CommonName>
+        <Street>Beechwood Avenue</Street>
+        <Indicator>On</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-13T14:11:36">
+          <CommonName xml:lang="cy">Coedlan y Ffawydd</CommonName>
+          <Street>Coedlan y Ffawydd</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041620</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>299111</Easting>
+            <Northing>202802</Northing>
+            <Longitude>-3.461638</Longitude>
+            <Latitude>51.714862</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			  <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-13T14:39:16" ModificationDateTime="2026-01-13T15:36:32" Modification="new" Status="active">
+      <AtcoCode>5520WDB48379</AtcoCode>
+      <NaptanCode>rhotjdw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Lakeside</CommonName>
+        <Street>The Ridings</Street>
+        <Crossing>Lakeside</Crossing>
+        <Indicator>Nr</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-13T14:39:16">
+          <CommonName xml:lang="cy">Glan-y-llyn</CommonName>
+          <Street>Y Cwmwd</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041620</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>298296</Easting>
+            <Northing>202974</Northing>
+            <Longitude>-3.473483</Longitude>
+            <Latitude>51.71624</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-13T15:12:11" ModificationDateTime="2026-01-13T15:37:13" Modification="new" Status="active">
+      <AtcoCode>5520WDB48380</AtcoCode>
+      <NaptanCode>rhotjga</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Maesgwyn</CommonName>
+        <Street>Maesgwyn</Street>
+        <Crossing>Graiglwyd</Crossing>
+        <Indicator>on</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-13T15:12:12">
+          <CommonName xml:lang="cy">Maesgwyn</CommonName>
+          <Street>Maesgwyn</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041620</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>298372</Easting>
+            <Northing>203657</Northing>
+            <Longitude>-3.472697</Longitude>
+            <Latitude>51.722442</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			  <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>048</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-13T15:20:54" ModificationDateTime="2026-01-13T15:23:39" Modification="new" Status="active">
+      <AtcoCode>5520WDB48381</AtcoCode>
+      <NaptanCode>rhotjgd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Heol Nant</CommonName>
+        <Street>Heol Nant</Street>
+        <Crossing>Maesgwyn</Crossing>
+        <Indicator>on</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-13T15:20:54">
+          <CommonName xml:lang="cy">Heol Nant</CommonName>
+          <Street>Heol Nant</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0041620</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>298251</Easting>
+            <Northing>203650</Northing>
+            <Longitude>-3.474331</Longitude>
+            <Latitude>51.722277</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus> 
+			 <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>	
           </Bus>
         </OnStreet>
       </StopClassification>
