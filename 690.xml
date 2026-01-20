@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-01-08T12:10:13.892" ModificationDateTime="2026-01-08T12:10:13.892" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-01-19T16:12:06.050" ModificationDateTime="2026-01-19T16:12:06.050" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2020-04-15T15:10:59.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -1030,6 +1030,10 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690GCOLDBES</StopAreaRef>
+<StopAreaRef Modification="new" Status="active">690GTD124AE</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2005-02-24T00:00:00.000" ModificationDateTime="2025-02-14T15:28:45.410" Modification="revise" RevisionNumber="5" Status="active">
@@ -33656,14 +33660,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-14T00:00:00.000" ModificationDateTime="2009-04-13T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-11-14T00:00:00.000" ModificationDateTime="2026-01-19T15:53:55.962" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>6900221</AtcoCode>
 <NaptanCode>72724675</NaptanCode>
 <Descriptor>
-<CommonName>Besom Inn</CommonName>
+<CommonName>Henderson Park</CommonName>
 <Landmark>Besom Inn</Landmark>
 <Street>High Street</Street>
-<Indicator>Opp</Indicator>
+<Indicator>At</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000775</NptgLocalityRef>
@@ -33693,6 +33697,10 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">690GCOLDBES</StopAreaRef>
+<StopAreaRef Modification="new" Status="active">690GTD124AE</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2003-11-14T00:00:00.000" ModificationDateTime="2025-02-07T10:02:34.775" Modification="revise" RevisionNumber="5" Status="active">
@@ -59316,6 +59324,21 @@
 <Northing>634739</Northing>
 <Longitude>-2.7485538</Longitude>
 <Latitude>55.6039724</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2026-01-19T16:08:59.807" ModificationDateTime="2026-01-19T16:08:59.807" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>690GTD124AE</StopAreaCode>
+<Name>Coldstream Besom Inn</Name>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>384343</Easting>
+<Northing>639877</Northing>
+<Longitude>-2.2503746</Longitude>
+<Latitude>55.6521673</Latitude>
 </Translation>
 </Location>
 </StopArea>

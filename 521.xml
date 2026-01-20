@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-01T14:17:01" ModificationDateTime="2025-12-01T14:17:01" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-01-19T15:57:41" ModificationDateTime="2026-01-19T15:57:41" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -15413,15 +15413,16 @@
       <AtcoCode>5210AWC52016</AtcoCode>
       <NaptanCode>pemapdg</NaptanCode>
       <Descriptor>
-        <CommonName>Lamphey School</CommonName>
+        <CommonName xml:lang="cy">Lamphey School</CommonName>
         <Landmark>Lamphey School</Landmark>
         <Street>A4139</Street>
         <Crossing>Cleggars Park</Crossing>
-        <Indicator>opp</Indicator>
+        <Indicator>Near</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:49">
-          <CommonName xml:lang="CY">Ysgol Llandefai</CommonName>
+          <CommonName xml:lang="cy">Ysgol Llandefai</CommonName>
+          <Street>A4139</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -15432,8 +15433,8 @@
             <GridType>UKOS</GridType>
             <Easting>201591</Easting>
             <Northing>200238</Northing>
-            <Longitude>-4.870405908</Longitude>
-            <Latitude>51.665794583</Latitude>
+            <Longitude>-4.87094</Longitude>
+            <Latitude>51.66599</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -39961,14 +39962,16 @@
       <AtcoCode>5210WDB47559</AtcoCode>
       <NaptanCode>pemgpmg</NaptanCode>
       <Descriptor>
-        <CommonName>Tenby Leisure Centre</CommonName>
+        <CommonName xml:lang="cy">Tenby Leisure Centre</CommonName>
+        <ShortCommonName>Leisure Centre</ShortCommonName>
         <Street>A4139</Street>
         <Crossing>Clickett Lane</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:54">
-          <CommonName xml:lang="CY">Canolfan Hamdden Dinbych-y-pysgod</CommonName>
+          <CommonName xml:lang="cy">Canolfan Hamdden Dinbych-y-pysgod</CommonName>
+          <Street>A4139</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -39982,8 +39985,8 @@
             <GridType>UKOS</GridType>
             <Easting>211979</Easting>
             <Northing>200474</Northing>
-            <Longitude>-4.720509425</Longitude>
-            <Latitude>51.671492275</Latitude>
+            <Longitude>-4.72012</Longitude>
+            <Latitude>51.67166</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -46946,6 +46949,48 @@
                 <CompassPoint>E</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>040</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-19T15:19:36" Modification="new" Status="active">
+      <AtcoCode>5210WDB48422</AtcoCode>
+      <NaptanCode>pemjmjm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Lamphey School</CommonName>
+        <Street>A1439</Street>
+        <Indicator>Outside 'The Gables'</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-19T15:19:37">
+          <CommonName xml:lang="cy">Llandyfai (Ysgol)</CommonName>
+          <Street>A1439</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054499</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>201569</Easting>
+            <Northing>200252</Northing>
+            <Longitude>-4.87091</Longitude>
+            <Latitude>51.66588</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
