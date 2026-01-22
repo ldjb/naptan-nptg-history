@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-11-21T12:26:11.956" ModificationDateTime="2025-11-21T12:26:11.956" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-01-21T15:32:52.567" ModificationDateTime="2026-01-21T15:32:52.567" Modification="new" RevisionNumber="0" FileName="NaPTAN629.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2008-10-29T00:00:00.000" ModificationDateTime="2010-05-20T11:35:26.000" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>629028120</AtcoCode>
@@ -31563,7 +31563,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">LNLTHGW</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2023-08-24T14:01:54.290" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2025-12-01T11:25:18.327" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>6290LW04</AtcoCode>
 <NaptanCode>95624573</NaptanCode>
 <Descriptor>
@@ -31578,10 +31578,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>300967</Easting>
-<Northing>677115</Northing>
-<Longitude>-3.588541</Longitude>
-<Latitude>55.976762</Latitude>
+<Easting>300981</Easting>
+<Northing>677109</Northing>
+<Longitude>-3.588309</Longitude>
+<Latitude>55.976709</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -31605,7 +31605,7 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">LNLTHGW</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2023-08-24T14:02:05.681" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2025-12-01T11:24:17.937" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6290LW05</AtcoCode>
 <NaptanCode>95624572</NaptanCode>
 <Descriptor>
@@ -31620,10 +31620,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>300962</Easting>
-<Northing>677117</Northing>
-<Longitude>-3.588622</Longitude>
-<Latitude>55.976779</Latitude>
+<Easting>300957</Easting>
+<Northing>677118</Northing>
+<Longitude>-3.588697</Longitude>
+<Latitude>55.976785</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -31647,13 +31647,13 @@
 <PlusbusZoneRef Modification="new" RevisionNumber="0" Status="active">LNLTHGW</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2023-08-24T14:02:23.864" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2002-11-11T00:00:00.000" ModificationDateTime="2025-12-01T11:21:47.088" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6290LW06</AtcoCode>
 <NaptanCode>95624579</NaptanCode>
 <Descriptor>
 <CommonName>Back Station Road</CommonName>
 <Landmark>Railway Bridge</Landmark>
-<Street>Back Station Road</Street>
+<Street>High Port</Street>
 <Indicator>opp</Indicator>
 </Descriptor>
 <Place>
@@ -31662,10 +31662,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>300656</Easting>
-<Northing>677121</Northing>
-<Longitude>-3.593525</Longitude>
-<Latitude>55.976752</Latitude>
+<Easting>300545</Easting>
+<Northing>677125</Northing>
+<Longitude>-3.595298</Longitude>
+<Latitude>55.976763</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -45487,6 +45487,44 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>141</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-01-21T14:50:11.364" ModificationDateTime="2026-01-21T15:32:35.942" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>6290WB33</AtcoCode>
+<NaptanCode>95626695</NaptanCode>
+<Descriptor>
+<CommonName>Broomhouse Drive</CommonName>
+<Street>Shale Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003880</NptgLocalityRef>
+<Suburb>Winchburgh</Suburb>
+<Town>Winchburgh</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>309515</Easting>
+<Northing>675420</Northing>
+<Longitude>-3.4510395</Longitude>
+<Latitude>55.9632255</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
