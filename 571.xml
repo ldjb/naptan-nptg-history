@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-23T12:14:47" ModificationDateTime="2025-12-23T12:14:47" Modification="revise" RevisionNumber="1" FileName="571.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-01-27T14:53:30" ModificationDateTime="2026-01-27T14:53:30" Modification="revise" RevisionNumber="1" FileName="571.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-20T14:38:21" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5710AWA10030</AtcoCode>
@@ -53026,7 +53026,7 @@
       <AtcoCode>5710AWA11449</AtcoCode>
       <NaptanCode>cdijtmp</NaptanCode>
       <Descriptor>
-        <CommonName>Coed Arhyd</CommonName>
+        <CommonName xml:lang="cy">Coed Arhyd</CommonName>
         <Landmark>19 Nant y Rhos</Landmark>
         <Street>Nant y Rhos</Street>
         <Crossing>Coed Arhyd</Crossing>
@@ -53034,7 +53034,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:37">
-          <CommonName xml:lang="CY">Coed Arhyd</CommonName>
+          <CommonName xml:lang="cy">Coed Arhyd</CommonName>
           <Street>Nant y Rhos</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -53046,8 +53046,8 @@
             <GridType>UKOS</GridType>
             <Easting>311558</Easting>
             <Northing>175825</Northing>
-            <Longitude>-3.27481183</Longitude>
-            <Latitude>51.47445022</Latitude>
+            <Longitude>-3.2743333</Longitude>
+            <Latitude>51.474861</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -89897,6 +89897,259 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-23T15:59:30" ModificationDateTime="2026-01-23T16:07:26" Modification="new" Status="active">
+      <AtcoCode>5710WDB48598</AtcoCode>
+      <NaptanCode>crawdad</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Beaufort Square</CommonName>
+        <Street>Rover Way</Street>
+        <Crossing>Pallot Way</Crossing>
+        <Indicator>at</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-23T15:59:31">
+          <CommonName xml:lang="cy">Beaufort Square</CommonName>
+          <Street>Rover Way</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0035866</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>321085</Easting>
+            <Northing>177819</Northing>
+            <Longitude>-3.13833087565501</Longitude>
+            <Latitude>51.4937116163962</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			<MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-23T16:29:42" ModificationDateTime="2026-01-23T16:41:12" Modification="new" Status="active">
+      <AtcoCode>5710WDB48599</AtcoCode>
+      <NaptanCode>cdiwdag</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Hastings Avenue</CommonName>
+        <Street>Hastings Place</Street>
+        <Crossing>Hastings Avenue</Crossing>
+        <Indicator>before</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-23T16:29:42">
+          <CommonName xml:lang="cy">Hastings Avenue</CommonName>
+          <Street>Hastings Place</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0035811</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>317432</Easting>
+            <Northing>171657</Northing>
+            <Longitude>-3.1893446823842</Longitude>
+            <Latitude>51.43787069</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-23T16:58:15" ModificationDateTime="2026-01-27T14:13:11" Modification="new" Status="active">
+      <AtcoCode>5710WDB48600</AtcoCode>
+      <NaptanCode>cdiwdaj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Heath Stations</CommonName>
+        <Street>Heath Halt Road</Street>
+        <Indicator>O/S</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-23T16:58:15">
+          <CommonName xml:lang="cy">Gorsafau Heath</CommonName>
+          <Street>Heath Halt Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0035811</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>318098</Easting>
+            <Northing>180313</Northing>
+            <Longitude>-3.18180379194144</Longitude>
+            <Latitude>51.5157824581499</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-27T14:20:52" Modification="new" Status="active">
+      <AtcoCode>5710WDB48601</AtcoCode>
+      <NaptanCode>cdiwdam</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Heath Stations</CommonName>
+        <Street>Heath Halt Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-27T14:20:52">
+          <CommonName xml:lang="cy">Gorsafau Heath</CommonName>
+          <Street>Heath Halt Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0035811</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>318097</Easting>
+            <Northing>180316</Northing>
+            <Longitude>-3.181722556286587</Longitude>
+            <Latitude>51.51581047887788</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-27T14:28:09" ModificationDateTime="2026-01-27T14:50:55" Modification="new" Status="active">
+      <AtcoCode>5710WDB48602</AtcoCode>
+      <NaptanCode>cdiwdap</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Maes Y Llech</CommonName>
+        <Street>Llantrisant Road</Street>
+        <Crossing>Lon Y Pererinion</Crossing>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-27T14:28:09">
+          <CommonName xml:lang="cy">Maes Y Llech</CommonName>
+          <Street>Llantrisant Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0035854</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>313154</Easting>
+            <Northing>179414</Northing>
+            <Longitude>-3.252727955819836</Longitude>
+            <Latitude>51.506961325702974</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			 <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-01-27T14:34:48" ModificationDateTime="2026-01-27T14:35:54" Modification="new" Status="active">
+      <AtcoCode>5710WDB48603</AtcoCode>
+      <NaptanCode>cdiwdat</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Ty Gwyn</CommonName>
+        <Street>Llantrisant Road</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-27T14:34:48">
+          <CommonName xml:lang="cy">Ty Gwyn</CommonName>
+          <Street>Llantrisant Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0035854</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>312752</Easting>
+            <Northing>179658</Northing>
+            <Longitude>-3.258577677468594</Longitude>
+            <Latitude>51.50908886941781</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>011</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2025-06-10T09:23:59" ModificationDateTime="2025-06-10T09:24:30" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>5710WDB4894</AtcoCode>
