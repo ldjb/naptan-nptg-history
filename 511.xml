@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-12-11T12:53:56" ModificationDateTime="2025-12-11T12:53:56" Modification="revise" RevisionNumber="1" FileName="511.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-02-02T10:09:57" ModificationDateTime="2026-02-02T10:09:57" Modification="revise" RevisionNumber="1" FileName="511.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-24T11:14:02" ModificationDateTime="2024-04-24T11:17:51" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5110ABC99960</AtcoCode>
@@ -3045,10 +3045,16 @@
       <AtcoCode>5110AWD71469</AtcoCode>
       <NaptanCode>dbgadgw</NaptanCode>
       <Descriptor>
-        <CommonName>Vicarage Close</CommonName>
-        <Street>Unnamed</Street>
+        <CommonName xml:lang="cy">Vicarage Close</CommonName>
+        <Street>Rhuddlan Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-01-28T09:21:34">
+          <CommonName xml:lang="cy">Vicarage Close</CommonName>
+          <Street>Rhuddlan Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054189</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -6037,13 +6043,14 @@
       <AtcoCode>5110AWD71542</AtcoCode>
       <NaptanCode>dbgatja</NaptanCode>
       <Descriptor>
-        <CommonName>Waen Segrwyd</CommonName>
-        <Street>Main Road</Street>
+        <CommonName xml:lang="cy">Waen Segrwyd</CommonName>
+        <Street>Nantglyn Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:48">
-          <CommonName xml:lang="CY">Waen Segrwyd</CommonName>
+          <CommonName xml:lang="cy">Waen Segrwyd</CommonName>
+          <Street>Nantglyn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6079,14 +6086,15 @@
       <AtcoCode>5110AWD71543</AtcoCode>
       <NaptanCode>dbgatdp</NaptanCode>
       <Descriptor>
-        <CommonName>Maes Lliwen</CommonName>
-        <Street>Main Road</Street>
+        <CommonName xml:lang="cy">Maes Lliwen</CommonName>
+        <Street>Nantglyn Road</Street>
         <Crossing>Maes Lliwen</Crossing>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:31">
-          <CommonName xml:lang="CY">Maes Lliwen</CommonName>
+          <CommonName xml:lang="cy">Maes Lliwen</CommonName>
+          <Street>Nantglyn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6295,14 +6303,15 @@
       <AtcoCode>5110AWD71548</AtcoCode>
       <NaptanCode>dbgdjmg</NaptanCode>
       <Descriptor>
-        <CommonName>Capel Saron</CommonName>
+        <CommonName xml:lang="cy">Capel Saron</CommonName>
         <Landmark>Capel Saron</Landmark>
-        <Street>Main Road</Street>
+        <Street>Prion Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:07">
-          <CommonName xml:lang="CY">Capel Saron</CommonName>
+          <CommonName xml:lang="cy">Capel Saron</CommonName>
+          <Street>Prion Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6380,13 +6389,14 @@
       <AtcoCode>5110AWD71550</AtcoCode>
       <NaptanCode>dbgatgj</NaptanCode>
       <Descriptor>
-        <CommonName>Y Fron Farm</CommonName>
-        <Street>Main Road</Street>
+        <CommonName xml:lang="cy">Y Fron Farm</CommonName>
+        <Street>Prion Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:16">
-          <CommonName xml:lang="CY">Fferm Y Fron</CommonName>
+          <CommonName xml:lang="cy">Fferm Y Fron</CommonName>
+          <Street>Prion Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6422,14 +6432,15 @@
       <AtcoCode>5110AWD71551</AtcoCode>
       <NaptanCode>dbgatgd</NaptanCode>
       <Descriptor>
-        <CommonName>St James` Church</CommonName>
+        <CommonName xml:lang="cy">St James` Church</CommonName>
         <Landmark>St James` Church</Landmark>
-        <Street>Main Road</Street>
+        <Street>Prion Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:13">
-          <CommonName xml:lang="CY">Eglwys Sant Iago</CommonName>
+          <CommonName xml:lang="cy">Eglwys Sant Iago</CommonName>
+          <Street>Prion Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6508,14 +6519,15 @@
       <AtcoCode>5110AWD71553</AtcoCode>
       <NaptanCode>dbgatwt</NaptanCode>
       <Descriptor>
-        <CommonName>Llys Crossroads</CommonName>
+        <CommonName xml:lang="cy">Llys Crossroads</CommonName>
         <Landmark>Llys Crossroads</Landmark>
-        <Street>Main Road</Street>
+        <Street>Prion Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:23">
-          <CommonName xml:lang="CY">Groesffordd Llys</CommonName>
+          <CommonName xml:lang="cy">Groesffordd Llys</CommonName>
+          <Street>Prion Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6551,13 +6563,14 @@
       <AtcoCode>5110AWD71554</AtcoCode>
       <NaptanCode>dbgawad</NaptanCode>
       <Descriptor>
-        <CommonName>Parc-y-Twll</CommonName>
-        <Street>Main Road</Street>
+        <CommonName xml:lang="cy">Parc-y-Twll</CommonName>
+        <Street>Prion Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:36">
-          <CommonName xml:lang="CY">Parc-y-Twll</CommonName>
+          <CommonName xml:lang="cy">Parc-y-Twll</CommonName>
+          <Street>Prion Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -8150,14 +8163,15 @@
       <AtcoCode>5110AWD71925</AtcoCode>
       <NaptanCode>dbgapjt</NaptanCode>
       <Descriptor>
-        <CommonName>Golden Lion Inn</CommonName>
+        <CommonName xml:lang="cy">Golden Lion Inn</CommonName>
         <Landmark>Golden Lion Inn PH</Landmark>
-        <Street>Main Road</Street>
+        <Street>High Street</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:20">
-          <CommonName xml:lang="CY">Golden Lion Inn</CommonName>
+          <CommonName xml:lang="cy">Golden Lion Inn</CommonName>
+          <Street>High Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
