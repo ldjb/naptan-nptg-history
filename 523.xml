@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-02-02T10:12:34" ModificationDateTime="2026-02-02T10:12:34" Modification="revise" RevisionNumber="1" FileName="523.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-02-10T15:07:56" ModificationDateTime="2026-02-10T15:07:56" Modification="revise" RevisionNumber="1" FileName="523.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-04T14:06:20" ModificationDateTime="2025-07-10T08:44:26" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5230ABRYSTH0</AtcoCode>
@@ -20697,18 +20697,19 @@
         <PlusbusZoneRef ModificationDateTime="2012-09-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">ABRYSTH</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:06:45" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:06:45" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>5230CGX16352</AtcoCode>
       <NaptanCode>cejadtp</NaptanCode>
       <Descriptor>
-        <CommonName>Waun Crossroads</CommonName>
+        <CommonName xml:lang="cy">Waun Crossroads</CommonName>
         <Street>Penglais Road</Street>
         <Crossing>Waun Fawr</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:06:45">
-          <CommonName xml:lang="CY">Croesfordd Waun</CommonName>
+          <CommonName xml:lang="cy">Croesfordd Waun</CommonName>
+          <Street>Penglais Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -28920,14 +28921,20 @@
       </StopClassification>
       <AdministrativeAreaRef>013</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:07:39" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:07:39" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5230GYX17269</AtcoCode>
       <NaptanCode>cejaptd</NaptanCode>
       <Descriptor>
-        <CommonName>Dole Lane</CommonName>
+        <CommonName xml:lang="cy">Dole Lane</CommonName>
         <Street>A487</Street>
         <Indicator>before</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-04T12:49:02">
+          <CommonName xml:lang="cy">Dole Lane</CommonName>
+          <Street>A487</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>N0075464</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
@@ -29082,17 +29089,18 @@
       </StopClassification>
       <AdministrativeAreaRef>013</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-14T16:33:39" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-14T16:33:39" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5230GYX17273</AtcoCode>
       <NaptanCode>cejagwa</NaptanCode>
       <Descriptor>
-        <CommonName>Caerfelin</CommonName>
+        <CommonName xml:lang="cy">Caerfelin</CommonName>
         <Street>A487</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:06:36">
-          <CommonName xml:lang="CY">Caerfelin</CommonName>
+          <CommonName xml:lang="cy">Caerfelin</CommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -40383,16 +40391,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-04-24T14:56:59" ModificationDateTime="2025-07-15T11:26:21" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-04-24T14:56:59" ModificationDateTime="2025-07-15T11:26:21" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>5230WDB48380</AtcoCode>
       <NaptanCode>cejgpwm</NaptanCode>
       <Descriptor>
-        <CommonName>Maesnewydd/Fagwyr</CommonName>
+        <CommonName xml:lang="cy">Maesnewydd/Fagwyr</CommonName>
         <Street>A487</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-07-15T11:26:21">
-          <CommonName>Maesnewydd/Fagwyr</CommonName>
+          <CommonName xml:lang="cy">Maesnewydd/Fagwyr</CommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -40432,15 +40441,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-04-24T15:02:33" ModificationDateTime="2025-07-15T11:26:45" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-04-24T15:02:33" ModificationDateTime="2025-07-15T11:26:45" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>5230WDB48381</AtcoCode>
       <NaptanCode>cejgpwp</NaptanCode>
       <Descriptor>
-        <CommonName>Maesnewydd/Fagwyr</CommonName>
+        <CommonName xml:lang="cy">Maesnewydd/Fagwyr</CommonName>
+        <Street>A487</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-07-15T11:26:45">
-          <CommonName>Maesnewydd/Fagwyr</CommonName>
+          <CommonName xml:lang="cy">Maesnewydd/Fagwyr</CommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -40480,12 +40491,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-04-24T15:10:39" ModificationDateTime="2024-04-24T15:09:13" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2024-04-24T15:10:39" ModificationDateTime="2024-04-24T15:09:13" Modification="new" Status="inactive">
       <AtcoCode>5230WDB48382</AtcoCode>
       <NaptanCode>cejgpwt</NaptanCode>
       <Descriptor>
-        <CommonName>Tirymynach</CommonName>
+        <CommonName xml:lang="cy">Tirymynach</CommonName>
+        <Street>A487</Street>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-04T12:56:44">
+          <CommonName xml:lang="cy">Tirymynach</CommonName>
+          <Street>A487</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0036280</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
