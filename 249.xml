@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-02-11T09:06:49.976" ModificationDateTime="2026-02-11T09:06:49.976" Modification="new" RevisionNumber="0" FileName="NaPTAN249.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-02-12T14:29:20.034" ModificationDateTime="2026-02-12T14:29:20.034" Modification="new" RevisionNumber="0" FileName="NaPTAN249.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2019-05-28T11:32:00.000" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>249000000002</AtcoCode>
@@ -42704,15 +42704,14 @@
 <PlusbusZoneRef CreationDateTime="2010-12-14T14:39:00.000" ModificationDateTime="2011-01-17T11:18:00.000" Modification="revise" RevisionNumber="2" Status="active">CHATHAM</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-12-14T14:46:00.000" ModificationDateTime="2019-05-28T14:05:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-12-14T14:46:00.000" ModificationDateTime="2026-02-12T14:03:20.720" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>2490101046</AtcoCode>
 <NaptanCode>chajwtj</NaptanCode>
 <Descriptor>
 <CommonName>Havisham Close Shops</CommonName>
 <Landmark>Havisham Close Shops</Landmark>
 <Street>Weller Avenue</Street>
-<Crossing>Marley Way</Crossing>
-<Indicator>nr</Indicator>
+<Indicator>N-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0072095</NptgLocalityRef>
@@ -42720,10 +42719,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>574541</Easting>
-<Northing>166838</Northing>
-<Longitude>0.5063463</Longitude>
-<Latitude>51.3737713</Latitude>
+<Easting>574545</Easting>
+<Northing>166837</Northing>
+<Longitude>0.506399</Longitude>
+<Latitude>51.373765</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -53557,6 +53556,43 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>029</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-12T14:02:38.595" ModificationDateTime="2026-02-12T14:02:38.595" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2490101221</AtcoCode>
+<NaptanCode>chamwmd</NaptanCode>
+<Descriptor>
+<CommonName>Havisham Close Shops</CommonName>
+<Landmark>Co Op</Landmark>
+<Street>Weller Avenue</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0072095</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>574554</Easting>
+<Northing>166836</Northing>
+<Longitude>0.5065280</Longitude>
+<Latitude>51.3737523</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
