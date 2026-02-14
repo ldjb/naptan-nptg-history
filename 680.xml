@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2025-12-11T10:03:12.291" ModificationDateTime="2025-12-11T10:03:12.291" Modification="new" RevisionNumber="0" FileName="NaPTAN680.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-02-13T16:04:35.343" ModificationDateTime="2026-02-13T16:04:35.343" Modification="new" RevisionNumber="0" FileName="NaPTAN680.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-05-31T00:00:00.000" ModificationDateTime="2015-11-17T14:40:00.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>680000622222</AtcoCode>
@@ -56758,14 +56758,14 @@
 <PlusbusZoneRef Modification="new" Status="active">DUMFRES</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-05-29T00:00:00.000" ModificationDateTime="2021-10-18T14:23:23.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2003-05-29T00:00:00.000" ModificationDateTime="2026-02-12T18:16:25.875" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>680000383502</AtcoCode>
 <NaptanCode>34232985</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Lockerbie Academy</CommonName>
+<CommonName xml:lang="en">Bowling Club</CommonName>
 <Landmark xml:lang="en">Dryfe Road</Landmark>
 <Street xml:lang="en">Glasgow Road</Street>
-<Indicator xml:lang="en">o/s </Indicator>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002459</NptgLocalityRef>
@@ -56796,14 +56796,14 @@
 </StopClassification>
 <AdministrativeAreaRef>118</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-05-29T00:00:00.000" ModificationDateTime="2021-10-18T14:24:29.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-05-29T00:00:00.000" ModificationDateTime="2026-02-12T18:13:31.116" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>680000383501</AtcoCode>
 <NaptanCode>34232984</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Locberbie Academy</CommonName>
+<CommonName xml:lang="en">Bowling Club</CommonName>
 <Landmark xml:lang="en">Dryfe Road</Landmark>
 <Street xml:lang="en">Glasgow Road</Street>
-<Indicator xml:lang="en">opp </Indicator>
+<Indicator xml:lang="en">at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002459</NptgLocalityRef>
@@ -85604,6 +85604,229 @@
 <CompassPoint>SW</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-01-23T15:32:44.199" ModificationDateTime="2026-01-23T15:32:44.199" Modification="new" RevisionNumber="0" Status="inactive">
+<AtcoCode>680000435503</AtcoCode>
+<Descriptor>
+<CommonName>Newington Primary School</CommonName>
+<Street>Springbells Road</Street>
+<Indicator>Opp School</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000097</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>320159</Easting>
+<Northing>567309</Northing>
+<Longitude>-3.2494701</Longitude>
+<Latitude>54.9939365</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Longitude>-3.2494701</Longitude>
+<Latitude>54.9939365</Latitude>
+</StartPoint>
+<EndPoint>
+<Longitude>-3.2494701</Longitude>
+<Latitude>54.9939365</Latitude>
+</EndPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-12T18:34:18.386" ModificationDateTime="2026-02-12T18:34:18.386" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>680005011333</AtcoCode>
+<NaptanCode>34239477</NaptanCode>
+<Descriptor>
+<CommonName>Lockerbie Academy</CommonName>
+<Street>Glasgow Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002459</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>313392</Easting>
+<Northing>582393</Northing>
+<Longitude>-3.3597950</Longitude>
+<Latitude>55.1283104</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-13T10:47:41.711" ModificationDateTime="2026-02-13T15:44:35.208" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>680000506503</AtcoCode>
+<NaptanCode>34239475</NaptanCode>
+<Descriptor>
+<CommonName>Lorry Park</CommonName>
+<Street>B7076</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001255</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>318397</Easting>
+<Northing>575326</Northing>
+<Longitude>-3.2792957</Longitude>
+<Latitude>55.0656734</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>318397</Easting>
+<Northing>575326</Northing>
+<Longitude>-3.2792957</Longitude>
+<Latitude>55.0656734</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>318397</Easting>
+<Northing>575326</Northing>
+<Longitude>-3.2792957</Longitude>
+<Latitude>55.0656734</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-13T10:51:37.118" ModificationDateTime="2026-02-13T15:43:55.402" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>680000506504</AtcoCode>
+<NaptanCode>34239476</NaptanCode>
+<Descriptor>
+<CommonName>Lorry Park</CommonName>
+<Street>B7076</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001255</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>318404</Easting>
+<Northing>575307</Northing>
+<Longitude>-3.2791807</Longitude>
+<Latitude>55.0655039</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>318404</Easting>
+<Northing>575307</Northing>
+<Longitude>-3.2791807</Longitude>
+<Latitude>55.0655039</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>318404</Easting>
+<Northing>575307</Northing>
+<Longitude>-3.2791807</Longitude>
+<Latitude>55.0655039</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>118</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-13T11:17:00.330" ModificationDateTime="2026-02-13T11:17:00.330" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>680000005507</AtcoCode>
+<NaptanCode>34239478</NaptanCode>
+<Descriptor>
+<CommonName>Cairndale Hotel</CommonName>
+<Street>English Street</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001098</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>297544</Easting>
+<Northing>576192</Northing>
+<Longitude>-3.6060001</Longitude>
+<Latitude>55.0695837</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
