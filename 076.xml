@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-01-19T11:15:32.885" ModificationDateTime="2026-01-19T11:15:32.885" Modification="new" RevisionNumber="0" FileName="NaPTAN076.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-02-18T12:28:50.080" ModificationDateTime="2026-02-18T12:28:50.080" Modification="new" RevisionNumber="0" FileName="NaPTAN076.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-09-07T00:00:00.000" ModificationDateTime="2014-01-02T11:24:42.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>07605001</AtcoCode>
@@ -19924,6 +19924,9 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">076G5523</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>015</AdministrativeAreaRef>
 </StopPoint>
 <StopPoint CreationDateTime="2005-09-12T00:00:00.000" ModificationDateTime="2014-01-02T12:01:46.000" Modification="revise" RevisionNumber="5" Status="active">
@@ -33955,6 +33958,81 @@
 </StopAreas>
 <AdministrativeAreaRef>015</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2026-02-12T15:57:45.452" ModificationDateTime="2026-02-12T15:57:45.452" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>07605889</AtcoCode>
+<NaptanCode>dloajpmg</NaptanCode>
+<Descriptor>
+<CommonName>Oak Tree Inn</CommonName>
+<Street>Yarm Road</Street>
+<Indicator>I</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036684</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>436170</Easting>
+<Northing>513535</Northing>
+<Longitude>-1.4427958</Longitude>
+<Latitude>54.5158383</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">076G5523</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>015</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-12T17:46:20.818" ModificationDateTime="2026-02-12T17:46:20.818" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>07605890</AtcoCode>
+<NaptanCode>dloajpmj</NaptanCode>
+<Descriptor>
+<CommonName>Wellington Drive</CommonName>
+<Street>Teesside Airport Road</Street>
+<Indicator>O</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036684</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>436504</Easting>
+<Northing>513522</Northing>
+<Longitude>-1.4376395</Longitude>
+<Latitude>54.5156971</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>015</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2015-06-12T15:23:33.893" ModificationDateTime="2015-06-12T15:23:33.893" Modification="new" RevisionNumber="0" Status="active">
@@ -37509,6 +37587,21 @@
 <Northing>512187</Northing>
 <Longitude>-1.5289894</Longitude>
 <Latitude>54.5040851</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2026-02-12T17:34:51.756" ModificationDateTime="2026-02-12T17:34:51.756" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>076G5523</StopAreaCode>
+<Name>Oak Tree Inn</Name>
+<AdministrativeAreaRef>015</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>436153</Easting>
+<Northing>513532</Northing>
+<Longitude>-1.4430679</Longitude>
+<Latitude>54.5158096</Latitude>
 </Translation>
 </Location>
 </StopArea>

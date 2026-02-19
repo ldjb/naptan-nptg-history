@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-01-19T11:16:42.076" ModificationDateTime="2026-01-19T11:16:42.076" Modification="new" RevisionNumber="0" FileName="NaPTAN077.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-02-18T12:30:45.261" ModificationDateTime="2026-02-18T12:30:45.261" Modification="new" RevisionNumber="0" FileName="NaPTAN077.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2012-09-21T12:47:48.000" ModificationDateTime="2015-06-09T13:37:39.257" Modification="revise" RevisionNumber="5" Status="inactive">
 <AtcoCode>07707200T30</AtcoCode>
@@ -60612,6 +60612,84 @@
 </StopAreas>
 <AdministrativeAreaRef>054</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2026-02-12T18:02:11.224" ModificationDateTime="2026-02-12T18:02:11.224" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>077072879A</AtcoCode>
+<NaptanCode>sktjwmj</NaptanCode>
+<Descriptor>
+<CommonName>Waddon Way</CommonName>
+<Street>The Rings</Street>
+<Indicator>A</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053743</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>443909</Easting>
+<Northing>514204</Northing>
+<Longitude>-1.3231650</Longitude>
+<Latitude>54.5212418</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">077G72879</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>054</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-12T18:07:04.724" ModificationDateTime="2026-02-12T18:07:04.724" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>077072879B</AtcoCode>
+<NaptanCode>sktjwmp</NaptanCode>
+<Descriptor>
+<CommonName>Waddon Way</CommonName>
+<Street>The Rings</Street>
+<Indicator>B</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053743</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>443938</Easting>
+<Northing>514217</Northing>
+<Longitude>-1.3227188</Longitude>
+<Latitude>54.5213572</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">077G72879</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>054</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2006-09-26T00:00:00.000" ModificationDateTime="2007-05-14T00:00:00.000" Modification="revise" RevisionNumber="0" Status="active">
@@ -68156,6 +68234,21 @@
 <Northing>526530</Northing>
 <Longitude>-1.3157249</Longitude>
 <Latitude>54.6319684</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2026-02-12T18:18:06.297" ModificationDateTime="2026-02-12T18:18:06.297" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>077G72879</StopAreaCode>
+<Name>Waddon Way</Name>
+<AdministrativeAreaRef>054</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>443923</Easting>
+<Northing>514211</Northing>
+<Longitude>-1.3229419</Longitude>
+<Latitude>54.5212995</Latitude>
 </Translation>
 </Location>
 </StopArea>
