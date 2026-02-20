@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-02-02T10:23:04" ModificationDateTime="2026-02-02T10:23:04" Modification="revise" RevisionNumber="1" FileName="540.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-02-18T13:12:42" ModificationDateTime="2026-02-18T13:12:42" Modification="revise" RevisionNumber="1" FileName="540.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-06-19T08:54:34" ModificationDateTime="2025-06-19T08:57:32" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>54000000WD48</AtcoCode>
@@ -335,13 +335,13 @@
       <AtcoCode>5400ABC99971</AtcoCode>
       <NaptanCode>gwnwapd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Norbar</CommonName>
+        <CommonName xml:lang="cy">Dylan's Barmouth</CommonName>
         <Street>A496</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-12T15:08:37">
-          <CommonName xml:lang="cy">Norbar</CommonName>
+          <CommonName xml:lang="cy">Dylan's Barmouth</CommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -386,13 +386,13 @@
       <AtcoCode>5400ABC99972</AtcoCode>
       <NaptanCode>gwnwapg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Norbar</CommonName>
+        <CommonName xml:lang="cy">Dylan's Barmouth</CommonName>
         <Street>A496</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-12T15:09:14">
-          <CommonName xml:lang="cy">Norbar</CommonName>
+          <CommonName xml:lang="cy">Dylan's Barmouth</CommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1255,7 +1255,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:47:35" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-11T10:47:35" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>5400ANZ12860</AtcoCode>
       <NaptanCode>gwndtmg</NaptanCode>
       <Descriptor>
@@ -1700,7 +1700,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:15" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:15" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5400AWD70014</AtcoCode>
       <NaptanCode>gwnatma</NaptanCode>
       <Descriptor>
@@ -1731,7 +1731,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -13490,14 +13490,14 @@
       <AtcoCode>5400AWD70793</AtcoCode>
       <NaptanCode>gwnjgjg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Adwy Ddu</CommonName>
+        <CommonName xml:lang="cy">Maes Deudraeth</CommonName>
         <Landmark>Maes-y-deri</Landmark>
         <Street>A487</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:32">
-          <CommonName xml:lang="cy">Adwy Ddu</CommonName>
+          <CommonName xml:lang="cy">Maes Deudraeth</CommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -13526,6 +13526,539 @@
                 <Degrees>225</Degrees>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T13:12:31" Modification="new" Status="active">
+      <AtcoCode>5400AWD70794</AtcoCode>
+      <NaptanCode>gwnwdjd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Cross Foxes</CommonName>
+        <Street>A470</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T13:12:31">
+          <CommonName xml:lang="cy">Cross Foxes</CommonName>
+          <Street>A470</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0037748</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>276636</Easting>
+            <Northing>316742</Northing>
+            <Longitude>-3.828490272359943</Longitude>
+            <Latitude>52.734193349869685</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T13:19:11" Modification="new" Status="active">
+      <AtcoCode>5400AWD70795</AtcoCode>
+      <NaptanCode>gwnwdjg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Bont Fawr</CommonName>
+        <Street>Barmouth Road</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T13:19:11">
+          <CommonName xml:lang="cy">Bont Fawr</CommonName>
+          <Street>Barmouth Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0037537</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>272713</Easting>
+            <Northing>318065</Northing>
+            <Longitude>-3.8870715567088894</Longitude>
+            <Latitude>52.74516984131532</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T13:59:00" ModificationDateTime="2026-02-18T12:58:07" Modification="new" Status="active">
+      <AtcoCode>5400AWD70796</AtcoCode>
+      <NaptanCode>gwnwdjm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Dolau Las</CommonName>
+        <Street>A496</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T13:59:00">
+          <CommonName xml:lang="cy">Dolau Las</CommonName>
+          <Street>A496</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0037761</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>268826</Easting>
+            <Northing>344837</Northing>
+            <Longitude>-3.9554015108844567</Longitude>
+            <Latitude>52.984768519434056</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			<UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T14:07:46" Modification="new" Status="active">
+      <AtcoCode>5400AWD70797</AtcoCode>
+      <NaptanCode>gwnwdjp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Bryn Meirion</CommonName>
+        <Street>Bryn Meirion</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T14:07:46">
+          <CommonName xml:lang="cy">Bryn Meirion</CommonName>
+          <Street>Bryn Meirion</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054293</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>260310</Easting>
+            <Northing>305567</Northing>
+            <Longitude>-4.065384656118624</Longitude>
+            <Latitude>52.6298302402771</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T14:10:04" Modification="new" Status="active">
+      <AtcoCode>5400AWD70798</AtcoCode>
+      <NaptanCode>gwnwdjt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Bryn Meirion</CommonName>
+        <Street>Bryn Meirion</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T14:10:04">
+          <CommonName xml:lang="cy">Bryn Meirion</CommonName>
+          <Street>Bryn Meirion</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054293</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>260308</Easting>
+            <Northing>305569</Northing>
+            <Longitude>-4.065406639870218</Longitude>
+            <Latitude>52.62984876223706</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T14:31:41" Modification="new" Status="active">
+      <AtcoCode>5400AWD70799</AtcoCode>
+      <NaptanCode>gwnwdjw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Cefn Crib</CommonName>
+        <Street>A493</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T14:31:41">
+          <CommonName xml:lang="cy">Cefn Crib</CommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0037521</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>268086</Easting>
+            <Northing>299413</Northing>
+            <Longitude>-3.9481040419076123</Longitude>
+            <Latitude>52.576484666008696</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T14:41:27" Modification="new" Status="active">
+      <AtcoCode>5400AWD70800</AtcoCode>
+      <NaptanCode>gwnwdjw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Nyth Robin Campsite</CommonName>
+        <Street>A493</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T14:41:27">
+          <CommonName xml:lang="cy">Maes Gwersylla Nyth Robin</CommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>N0071251</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>265992</Easting>
+            <Northing>297229</Northing>
+            <Longitude>-3.978111459154036</Longitude>
+            <Latitude>52.556355760833156</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T15:36:44" Modification="new" Status="active">
+      <AtcoCode>5400AWD70801</AtcoCode>
+      <NaptanCode>gwnwdma</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Plas Panteidal</CommonName>
+        <Street>A493</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T15:36:45">
+          <CommonName xml:lang="cy">Plas Panteidal</CommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>N0071251</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>265545</Easting>
+            <Northing>297150</Northing>
+            <Longitude>-3.984662937206963</Longitude>
+            <Latitude>52.55553108746781</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T15:38:48" Modification="new" Status="active">
+      <AtcoCode>5400AWD70802</AtcoCode>
+      <NaptanCode>gwnwdmd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Plas Panteidal</CommonName>
+        <Street>A493</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T15:38:48">
+          <CommonName xml:lang="cy">Plas Panteidal</CommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>N0071251</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>265546</Easting>
+            <Northing>297144</Northing>
+            <Longitude>-3.984640651058072</Longitude>
+            <Latitude>52.55547531175668</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T15:48:02" Modification="new" Status="active">
+      <AtcoCode>5400AWD70803</AtcoCode>
+      <NaptanCode>gwnwdmg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Cerrig Cornel</CommonName>
+        <Street>A493</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T15:48:02">
+          <CommonName xml:lang="cy">Cerrig Cornel</CommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054293</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>259774</Easting>
+            <Northing>304747</Northing>
+            <Longitude>-4.072938779723643</Longitude>
+            <Latitude>52.622326245083286</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T15:50:05" Modification="new" Status="active">
+      <AtcoCode>5400AWD70804</AtcoCode>
+      <NaptanCode>gwnwdmj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Cerrig Cornel</CommonName>
+        <Street>A493</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T15:50:06">
+          <CommonName xml:lang="cy">Cerrig Cornel</CommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054293</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>259778</Easting>
+            <Northing>304749</Northing>
+            <Longitude>-4.072887656107838</Longitude>
+            <Latitude>52.62234687974356</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T17:07:30" Modification="new" Status="active">
+      <AtcoCode>5400AWD70805</AtcoCode>
+      <NaptanCode>gwnwdmp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Bethel</CommonName>
+        <Street>A494</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T17:07:30">
+          <CommonName xml:lang="cy">Bethel</CommonName>
+          <Street>A494</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0038635</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>298778</Easting>
+            <Northing>339756</Northing>
+            <Longitude>-3.5078519838321256</Longitude>
+            <Latitude>52.94561280404881</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>020</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-05T17:09:44" ModificationDateTime="2026-02-18T12:39:50" Modification="new" Status="active">
+      <AtcoCode>5400AWD70806</AtcoCode>
+      <NaptanCode>gwnwdmt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Bethel</CommonName>
+        <Street>A494</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T17:09:44">
+          <CommonName xml:lang="cy">Bethel</CommonName>
+          <Street>A494</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0038635</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>298781</Easting>
+            <Northing>339749</Northing>
+            <Longitude>-3.5078038387628396</Longitude>
+            <Latitude>52.94554468097675</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+			<UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -14043,10 +14576,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>249676</Easting>
-            <Northing>338784</Northing>
-            <Longitude>-4.23763276</Longitude>
-            <Latitude>52.925367369</Latitude>
+            <Easting>249649</Easting>
+            <Northing>338821</Northing>
+            <Longitude>-4.238049915333136</Longitude>
+            <Latitude>52.9256940837802</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -19897,10 +20430,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>271336</Easting>
-            <Northing>318202</Northing>
-            <Longitude>-3.907513097</Longitude>
-            <Latitude>52.746080537</Latitude>
+            <Easting>270199</Easting>
+            <Northing>318475</Northing>
+            <Longitude>-3.924457743974102</Longitude>
+            <Latitude>52.74826327886538</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -19908,7 +20441,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -20445,7 +20978,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:33" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:33" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5400AWD71604</AtcoCode>
       <NaptanCode>gwndtwd</NaptanCode>
       <Descriptor>
@@ -20477,7 +21010,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -20489,7 +21022,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:37" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:37" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5400AWD71605</AtcoCode>
       <NaptanCode>gwndtpg</NaptanCode>
       <Descriptor>
@@ -20521,7 +21054,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -20643,10 +21176,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>261663</Easting>
-            <Northing>312285</Northing>
-            <Longitude>-4.048223054</Longitude>
-            <Latitude>52.690532597</Latitude>
+            <Easting>261878</Easting>
+            <Northing>312665</Northing>
+            <Longitude>-4.045200680323973</Longitude>
+            <Latitude>52.69399853029765</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -20654,7 +21187,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -21072,7 +21605,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-06T16:41:20" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-06T16:41:20" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5400AWD71759</AtcoCode>
       <NaptanCode>gwngmgt</NaptanCode>
       <Descriptor>
@@ -21103,7 +21636,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -21179,10 +21712,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>260860</Easting>
-            <Northing>303355</Northing>
-            <Longitude>-4.056326617</Longitude>
-            <Latitude>52.610100627</Latitude>
+            <Easting>260898</Easting>
+            <Northing>303314</Northing>
+            <Longitude>-4.055747331257692</Longitude>
+            <Latitude>52.60974215968608</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -21190,11 +21723,11 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>SE</CompassPoint>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -21623,10 +22156,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>259009</Easting>
-            <Northing>300983</Northing>
-            <Longitude>-4.082632245</Longitude>
-            <Latitude>52.588313391</Latitude>
+            <Easting>259136</Easting>
+            <Northing>301093</Northing>
+            <Longitude>-4.080810805153476</Longitude>
+            <Latitude>52.58933616659695</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -21634,7 +22167,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -22326,7 +22859,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:52" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:52" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5400AWD71791</AtcoCode>
       <NaptanCode>gwngwat</NaptanCode>
       <Descriptor>
@@ -45660,14 +46193,14 @@
       <AtcoCode>5400AWQ26311</AtcoCode>
       <NaptanCode>gwnjgdp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Adwy Ddu</CommonName>
+        <CommonName xml:lang="cy">Maes Deudraeth</CommonName>
         <Landmark>Trustan</Landmark>
         <Street>A487</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:32">
-          <CommonName xml:lang="cy">Adwy Ddu</CommonName>
+          <CommonName xml:lang="cy">Maes Deudraeth</CommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -51374,7 +51907,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -54497,10 +55030,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>272808</Easting>
-            <Northing>318054</Northing>
-            <Longitude>-3.885661883</Longitude>
-            <Latitude>52.745099442</Latitude>
+            <Easting>272714</Easting>
+            <Northing>318070</Northing>
+            <Longitude>-3.8870627083449847</Longitude>
+            <Latitude>52.74521941392757</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -54585,10 +55118,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>271329</Easting>
-            <Northing>318220</Northing>
-            <Longitude>-3.907623801</Longitude>
-            <Latitude>52.746240591</Latitude>
+            <Easting>270214</Easting>
+            <Northing>318482</Northing>
+            <Longitude>-3.9242401087198004</Longitude>
+            <Latitude>52.74832325537358</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -54600,7 +55133,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
                 <Degrees>45</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -55277,7 +55810,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:33" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:33" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5400GYX17218</AtcoCode>
       <NaptanCode>gwndtwg</NaptanCode>
       <Descriptor>
@@ -55321,7 +55854,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:37" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:37" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5400GYX17219</AtcoCode>
       <NaptanCode>gwndtpj</NaptanCode>
       <Descriptor>
@@ -55387,10 +55920,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>261672</Easting>
-            <Northing>312279</Northing>
-            <Longitude>-4.048087463</Longitude>
-            <Latitude>52.690480994</Latitude>
+            <Easting>261894</Easting>
+            <Northing>312720</Northing>
+            <Longitude>-4.044990546977459</Longitude>
+            <Latitude>52.69449754179158</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -55767,7 +56300,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-06T17:22:57" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-06T17:22:57" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5400GYX17230</AtcoCode>
       <NaptanCode>gwngmjd</NaptanCode>
       <Descriptor>
@@ -55876,10 +56409,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>260854</Easting>
-            <Northing>303344</Northing>
-            <Longitude>-4.056410535</Longitude>
-            <Latitude>52.610000265</Latitude>
+            <Easting>260892</Easting>
+            <Northing>303315</Northing>
+            <Longitude>-4.055831339867922</Longitude>
+            <Latitude>52.609744566903316</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -56056,10 +56589,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>259004</Easting>
-            <Northing>300988</Northing>
-            <Longitude>-4.082708129</Longitude>
-            <Latitude>52.588357012</Latitude>
+            <Easting>259125</Easting>
+            <Northing>301102</Northing>
+            <Longitude>-4.0809709562219325</Longitude>
+            <Latitude>52.58941529395594</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -57066,7 +57599,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:40" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:33:40" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>5400GYX17302</AtcoCode>
       <NaptanCode>gwnatwg</NaptanCode>
       <Descriptor>
@@ -57636,10 +58169,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>271411</Easting>
-            <Northing>309472</Northing>
-            <Longitude>-3.902985791</Longitude>
-            <Latitude>52.667662507</Latitude>
+            <Easting>271329</Easting>
+            <Northing>309416</Northing>
+            <Longitude>-3.904182539934652</Longitude>
+            <Latitude>52.66713483405289</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -58118,7 +58651,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-09-26T10:14:34" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-09-26T10:14:34" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5400GYX17331</AtcoCode>
       <NaptanCode>gwnpjdj</NaptanCode>
       <Descriptor>
@@ -58150,7 +58683,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -58162,7 +58695,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-09-26T10:15:07" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-09-26T10:15:07" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5400GYX17332</AtcoCode>
       <NaptanCode>gwnpjdm</NaptanCode>
       <Descriptor>
@@ -58194,7 +58727,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -59179,7 +59712,7 @@
         <PlusbusZoneRef ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="active">BANGOR</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:49" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:49" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5400GYX17363</AtcoCode>
       <NaptanCode>gwngawp</NaptanCode>
       <Descriptor>
@@ -62313,7 +62846,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:39" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:34:39" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5400GYX17448</AtcoCode>
       <NaptanCode>gwnpgpg</NaptanCode>
       <Descriptor>
@@ -68331,10 +68864,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>281229</Easting>
-            <Northing>316460</Northing>
-            <Longitude>-3.760402208</Longitude>
-            <Latitude>52.732694292</Latitude>
+            <Easting>280224</Easting>
+            <Northing>317044</Northing>
+            <Longitude>-3.7754940337618166</Longitude>
+            <Latitude>52.73771682131516</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -68342,7 +68875,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -68354,7 +68887,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:35:01" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:35:01" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5400GYX17608</AtcoCode>
       <NaptanCode>gwndpjd</NaptanCode>
       <Descriptor>
@@ -68587,7 +69120,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:47" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5400GYX17768</AtcoCode>
       <NaptanCode>gwngpam</NaptanCode>
       <Descriptor>
@@ -72250,7 +72783,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:35:01" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:35:01" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>5400WDB22386</AtcoCode>
       <NaptanCode>gwntdtp</NaptanCode>
       <Descriptor>
@@ -73786,10 +74319,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>281245</Easting>
-            <Northing>316427</Northing>
-            <Longitude>-3.760153427</Longitude>
-            <Latitude>52.732401293</Latitude>
+            <Easting>280224</Easting>
+            <Northing>317043</Northing>
+            <Longitude>-3.77549521604368</Longitude>
+            <Latitude>52.73771291288088</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -73797,7 +74330,7 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
@@ -74654,7 +75187,7 @@
       </StopClassification>
       <AdministrativeAreaRef>020</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:47" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:32:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5400WDB23018</AtcoCode>
       <NaptanCode>gwntjgt</NaptanCode>
       <Descriptor>
@@ -77377,14 +77910,14 @@
       <AtcoCode>5400WDB23870</AtcoCode>
       <NaptanCode>gwntmpt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Heol Eryri</CommonName>
+        <CommonName xml:lang="cy">Adwy Ddu</CommonName>
         <Street>A487</Street>
         <Crossing>Adway Ddu</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:40">
-          <CommonName xml:lang="cy">Heol Eryri</CommonName>
+          <CommonName xml:lang="cy">Adwy Ddu</CommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -77394,10 +77927,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>260947</Easting>
-            <Northing>338817</Northing>
-            <Longitude>-4.070106313</Longitude>
-            <Latitude>52.928702339</Latitude>
+            <Easting>260973</Easting>
+            <Northing>338819</Northing>
+            <Longitude>-4.069723206706641</Longitude>
+            <Latitude>52.92872710669607</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -83524,13 +84057,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-06-10T15:17:58" ModificationDateTime="2025-06-10T15:20:13" Modification="revise" RevisionNumber="1" Status="inactive">
+    <StopPoint CreationDateTime="2025-06-10T15:17:58" ModificationDateTime="2025-06-10T15:20:13" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5400WDB48389</AtcoCode>
       <NaptanCode>gwnwatw</NaptanCode>
       <Descriptor>
-        <CommonName>Bryn Eithin</CommonName>
+        <CommonName xml:lang="cy">Bryn Eithin</CommonName>
         <Street>A494</Street>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T16:59:27">
+          <CommonName xml:lang="cy">Bryn Eithin</CommonName>
+          <Street>A494</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037739</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -83702,15 +84241,21 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-06-10T16:14:58" ModificationDateTime="2025-07-09T09:54:50" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2025-06-10T16:14:58" ModificationDateTime="2025-07-09T09:54:50" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>5400WDB48393</AtcoCode>
       <NaptanCode>gwnwawm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="EN">Cefn-ddwysarn Crossroads</CommonName>
+        <CommonName xml:lang="cy">Cefn-ddwysarn Crossroads</CommonName>
         <ShortCommonName>Crossroads</ShortCommonName>
         <Landmark xml:lang="EN">Cefn-ddwysarn Crossroads</Landmark>
         <Street xml:lang="EN">A494</Street>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T16:55:01">
+          <CommonName xml:lang="cy">Cefn-ddwysarn Crossroads</CommonName>
+          <Street>A494</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037485</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -83837,14 +84382,20 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-06-11T09:10:30" ModificationDateTime="2025-06-11T09:12:34" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2025-06-11T09:10:30" ModificationDateTime="2025-06-11T09:12:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5400WDB48396</AtcoCode>
       <NaptanCode>gwnwdad</NaptanCode>
       <Descriptor>
-        <CommonName>Crossroads</CommonName>
+        <CommonName xml:lang="cy">Cefn-ddwysarn</CommonName>
         <Landmark>Cefn-ddwysarn</Landmark>
         <Street>A494</Street>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-05T16:52:14">
+          <CommonName xml:lang="cy">Cefn-ddwysarn</CommonName>
+          <Street>A494</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037485</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
