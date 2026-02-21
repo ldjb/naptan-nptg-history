@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-02-03T12:09:42.109" ModificationDateTime="2026-02-03T12:09:42.109" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-02-20T14:53:50.485" ModificationDateTime="2026-02-20T14:53:50.485" Modification="new" RevisionNumber="0" FileName="NaPTAN228.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-07-19T00:00:00.000" ModificationDateTime="2009-02-26T14:12:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>228000001961</AtcoCode>
@@ -38164,6 +38164,45 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>036</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-20T14:45:40.114" ModificationDateTime="2026-02-20T14:45:40.114" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2280056143</AtcoCode>
+<NaptanCode>griadja</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Trafalgar Park</CommonName>
+<Street xml:lang="en">Peaks Lane</Street>
+<Indicator xml:lang="en">Opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053494</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>528663</Easting>
+<Northing>405348</Northing>
+<Longitude>-0.0604198</Longitude>
+<Latitude>53.529068</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>036</AdministrativeAreaRef>
+<PlusbusZones>
+<PlusbusZoneRef Modification="new" Status="active">GRMSBYT</PlusbusZoneRef>
+</PlusbusZones>
 </StopPoint>
 </StopPoints>
 <StopAreas>
