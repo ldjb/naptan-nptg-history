@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-01-28T15:01:13.878014Z" ModificationDateTime="2026-01-28T15:01:13.8810171Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-02-25T13:53:48.8658042Z" ModificationDateTime="2026-02-25T13:53:48.8835607Z" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-10-04T00:00:00" ModificationDateTime="2016-10-04T13:11:26" Modification="new" RevisionNumber="3" Status="active">
 			<AtcoCode>4680SDON0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-01-28T15:01:26.4792782Z" ModificationDateTime="2026-01-28T15:01:26.4792782Z">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-02-25T13:54:02.2271179Z" ModificationDateTime="2026-02-25T13:54:02.2271179Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-01-28T15:01:26.4822848Z" ModificationDateTime="2026-01-28T15:01:26.4822848Z">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-02-25T13:54:02.2321273Z" ModificationDateTime="2026-02-25T13:54:02.2321273Z">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -28232,13 +28232,12 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2009-04-22T00:00:00" ModificationDateTime="2019-10-23T15:11:43" Modification="delete" RevisionNumber="6" Status="inactive">
+		<StopPoint CreationDateTime="2009-04-22T00:00:00" ModificationDateTime="2026-02-19T09:35:21" Modification="new" RevisionNumber="23" Status="active">
 			<AtcoCode>4680SWA01144</AtcoCode>
 			<NaptanCode>swimgjg</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Honda</CommonName>
-				<Street xml:lang="en">Honda Car Plant</Street>
-				<Indicator xml:lang="en">S-bound</Indicator>
+				<CommonName xml:lang="en">Panattoni Park South</CommonName>
+				<Indicator xml:lang="en">E-bound</Indicator>
 			</Descriptor>
 			<Place>
 				<NptgLocalityRef>E0053766</NptgLocalityRef>
@@ -28246,10 +28245,10 @@
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>418012</Easting>
-						<Northing>187913</Northing>
-						<Longitude>-1.7414</Longitude>
-						<Latitude>51.58978</Latitude>
+						<Easting>418054</Easting>
+						<Northing>187799</Northing>
+						<Longitude>-1.7408</Longitude>
+						<Latitude>51.58876</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -28261,7 +28260,7 @@
 						<TimingStatus>OTH</TimingStatus>
 						<UnmarkedPoint>
 							<Bearing>
-								<CompassPoint>S</CompassPoint>
+								<CompassPoint>E</CompassPoint>
 							</Bearing>
 						</UnmarkedPoint>
 					</Bus>
@@ -28269,12 +28268,11 @@
 			</StopClassification>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2009-04-22T00:00:00" ModificationDateTime="2019-10-23T15:11:43" Modification="delete" RevisionNumber="6" Status="inactive">
+		<StopPoint CreationDateTime="2009-04-22T00:00:00" ModificationDateTime="2026-02-19T09:35:13" Modification="new" RevisionNumber="19" Status="active">
 			<AtcoCode>4680SWA01145</AtcoCode>
 			<NaptanCode>swimgjm</NaptanCode>
 			<Descriptor>
-				<CommonName xml:lang="en">Honda</CommonName>
-				<Street xml:lang="en">Honda Car Plant</Street>
+				<CommonName xml:lang="en">Panattoni Park South</CommonName>
 				<Indicator xml:lang="en">W-bound</Indicator>
 			</Descriptor>
 			<Place>
@@ -28283,10 +28281,10 @@
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>418098</Easting>
-						<Northing>187790</Northing>
-						<Longitude>-1.74017</Longitude>
-						<Latitude>51.58868</Latitude>
+						<Easting>418120</Easting>
+						<Northing>187777</Northing>
+						<Longitude>-1.73985</Longitude>
+						<Latitude>51.58856</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -28294,13 +28292,13 @@
 				<StopType>BCT</StopType>
 				<OnStreet>
 					<Bus>
-						<BusStopType>CUS</BusStopType>
+						<BusStopType>MKD</BusStopType>
 						<TimingStatus>OTH</TimingStatus>
-						<UnmarkedPoint>
+						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>W</CompassPoint>
 							</Bearing>
-						</UnmarkedPoint>
+						</MarkedPoint>
 					</Bus>
 				</OnStreet>
 			</StopClassification>
@@ -43893,6 +43891,228 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>W</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-02-19T00:00:00" ModificationDateTime="2026-02-19T09:25:33" Modification="new" RevisionNumber="44" Status="active">
+			<AtcoCode>468000042</AtcoCode>
+			<NaptanCode>swimtpt</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Panattoni Park</CommonName>
+				<Street xml:lang="en">Griffon Way</Street>
+				<Indicator xml:lang="en">North Entrance</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061269</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>417851</Easting>
+						<Northing>188373</Northing>
+						<Longitude>-1.7437</Longitude>
+						<Latitude>51.59393</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-02-19T00:00:00" ModificationDateTime="2026-02-19T09:26:35" Modification="new" RevisionNumber="40" Status="active">
+			<AtcoCode>468000043</AtcoCode>
+			<NaptanCode>swimtwa</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Panattoni Park</CommonName>
+				<Street xml:lang="en">Griffon Way</Street>
+				<Indicator xml:lang="en">South Entrance</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061269</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>417875</Easting>
+						<Northing>188287</Northing>
+						<Longitude>-1.74336</Longitude>
+						<Latitude>51.59315</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>S</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-02-19T00:00:00" ModificationDateTime="2026-02-19T09:39:33" Modification="new" RevisionNumber="44" Status="active">
+			<AtcoCode>468000045</AtcoCode>
+			<NaptanCode>swimtwd</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Panattoni Park North</CommonName>
+				<Street xml:lang="en">Griffon Way</Street>
+				<Indicator xml:lang="en">E-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061269</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418392</Easting>
+						<Northing>188413</Northing>
+						<Longitude>-1.73589</Longitude>
+						<Latitude>51.59427</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-02-19T00:00:00" ModificationDateTime="2026-02-19T09:39:26" Modification="new" RevisionNumber="38" Status="active">
+			<AtcoCode>468000044</AtcoCode>
+			<NaptanCode>swimtwg</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Panattoni Park North</CommonName>
+				<Street xml:lang="en">Griffon Way</Street>
+				<Indicator xml:lang="en">W-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061269</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418396</Easting>
+						<Northing>188361</Northing>
+						<Longitude>-1.73583</Longitude>
+						<Latitude>51.5938</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>W</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-02-19T00:00:00" ModificationDateTime="2026-02-19T09:43:44" Modification="new" RevisionNumber="38" Status="active">
+			<AtcoCode>468000047</AtcoCode>
+			<NaptanCode>swimtwp</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Panattoni park East</CommonName>
+				<Street xml:lang="en">Griffon Way</Street>
+				<Indicator xml:lang="en">N-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061269</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418509</Easting>
+						<Northing>188088</Northing>
+						<Longitude>-1.73422</Longitude>
+						<Latitude>51.59134</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-02-19T00:00:00" ModificationDateTime="2026-02-19T09:42:52" Modification="new" RevisionNumber="38" Status="active">
+			<AtcoCode>468000046</AtcoCode>
+			<NaptanCode>swimtwm</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Panattoni park East</CommonName>
+				<Street xml:lang="en">Griffon Way</Street>
+				<Indicator xml:lang="en">S-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0061269</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>418523</Easting>
+						<Northing>188059</Northing>
+						<Longitude>-1.73402</Longitude>
+						<Latitude>51.59108</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>S</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
