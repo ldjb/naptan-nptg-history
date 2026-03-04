@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-01-14T15:16:26.324" ModificationDateTime="2026-01-14T15:16:26.324" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-03-03T12:19:29.044" ModificationDateTime="2026-03-03T12:19:29.044" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2010-11-15T17:04:00.000" ModificationDateTime="2014-11-12T17:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>049000000801</AtcoCode>
@@ -74381,6 +74381,85 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-18T14:42:02.591" ModificationDateTime="2026-02-19T11:01:59.712" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>049000000968</AtcoCode>
+<NaptanCode>mltajamd</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">The Quadrant</CommonName>
+<Street xml:lang="en">Elder Gate</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053461</NptgLocalityRef>
+<Suburb>Central Milton Keynes</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484054</Easting>
+<Northing>238383</Northing>
+<Longitude>-0.7760240</Longitude>
+<Latitude>52.0374961</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-02-18</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
+</StopPoint>
+<StopPoint CreationDateTime="2026-02-18T16:09:13.374" ModificationDateTime="2026-02-19T11:01:55.135" Modification="revise" RevisionNumber="3" Status="active">
+<AtcoCode>049000000969</AtcoCode>
+<NaptanCode>mltajamg</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">The Quadrant</CommonName>
+<Street xml:lang="en">Elder Gate</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053461</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484079</Easting>
+<Northing>238330</Northing>
+<Longitude>-0.7756777</Longitude>
+<Latitude>52.0370224</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

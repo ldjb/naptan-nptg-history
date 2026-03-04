@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-02-02T10:09:57" ModificationDateTime="2026-02-02T10:09:57" Modification="revise" RevisionNumber="1" FileName="511.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-03-03T15:53:19" ModificationDateTime="2026-03-03T15:53:19" Modification="revise" RevisionNumber="1" FileName="511.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-24T11:14:02" ModificationDateTime="2024-04-24T11:17:51" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5110ABC99960</AtcoCode>
@@ -185,6 +185,88 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-10T11:46:54" ModificationDateTime="2026-03-03T15:50:49" Modification="new" Status="active">
+      <AtcoCode>5110ABC99964</AtcoCode>
+      <NaptanCode>dbgjpap</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Wenffrwd</CommonName>
+        <Street>A539</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-10T11:46:54">
+          <CommonName xml:lang="cy">Wenffrwd</CommonName>
+          <Street>A539</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0036796</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>323730</Easting>
+            <Northing>342556</Northing>
+            <Longitude>-3.1372598182664717</Longitude>
+            <Latitude>52.97490893728778</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>016</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-02-10T11:31:34" ModificationDateTime="2026-03-03T15:31:16" Modification="new" Status="active">
+      <AtcoCode>5110ABC99965</AtcoCode>
+      <NaptanCode>dbgjpam</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Bridge Street</CommonName>
+        <Street>Bridge Street</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-02-10T11:31:34">
+          <CommonName xml:lang="cy">Bridge Street</CommonName>
+          <Street>Bridge Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054194</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307698</Easting>
+            <Northing>343487</Northing>
+            <Longitude>-3.3762128857044047</Longitude>
+            <Latitude>52.98074933986848</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:48" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5110ACX17020</AtcoCode>
@@ -9116,14 +9198,15 @@
       <AtcoCode>5110AWD71952</AtcoCode>
       <NaptanCode>dbgatga</NaptanCode>
       <Descriptor>
-        <CommonName>Plough Inn</CommonName>
+        <CommonName xml:lang="cy">The Grousemoor</CommonName>
         <Landmark>Plough Inn PH</Landmark>
         <Street>A525</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:38">
-          <CommonName xml:lang="CY">Plough Inn</CommonName>
+          <CommonName xml:lang="cy">The Grousemoor</CommonName>
+          <Street>A525</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -19793,13 +19876,14 @@
       <AtcoCode>5110AWF80165</AtcoCode>
       <NaptanCode>dbgagwm</NaptanCode>
       <Descriptor>
-        <CommonName>Pont Melin-Rug</CommonName>
+        <CommonName xml:lang="cy">Pont Melin-Rug</CommonName>
         <Street>A5</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:38">
-          <CommonName xml:lang="CY">Pont Melin-Rug</CommonName>
+          <CommonName xml:lang="cy">Pont Melin-Rug</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -19808,10 +19892,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>305214</Easting>
-            <Northing>343615</Northing>
-            <Longitude>-3.413231034</Longitude>
-            <Latitude>52.981467634</Latitude>
+            <Easting>305176</Easting>
+            <Northing>343626</Northing>
+            <Longitude>-3.413799496532249</Longitude>
+            <Latitude>52.98155700000635</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -19930,7 +20014,7 @@
       <AtcoCode>5110AWP26606</AtcoCode>
       <NaptanCode>dbgagpw</NaptanCode>
       <Descriptor>
-        <CommonName>Denbigh Police Station</CommonName>
+        <CommonName xml:lang="cy">Post Office Lane</CommonName>
         <ShortCommonName>Police Station</ShortCommonName>
         <Landmark>Denbigh Police Station</Landmark>
         <Street>Vale Street</Street>
@@ -19939,7 +20023,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:21">
-          <CommonName xml:lang="CY">Gorsaf Heddlu Dinbych</CommonName>
+          <CommonName xml:lang="cy">Lôn y Post</CommonName>
+          <Street>Vale Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -19976,7 +20061,7 @@
       <AtcoCode>5110AWP26607</AtcoCode>
       <NaptanCode>dbgagmj</NaptanCode>
       <Descriptor>
-        <CommonName>Library and Museum</CommonName>
+        <CommonName xml:lang="cy">High Street</CommonName>
         <Landmark>Denbigh Library Museum Gallery</Landmark>
         <Street>High Street</Street>
         <Crossing>Crown Square</Crossing>
@@ -19984,7 +20069,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:27">
-          <CommonName xml:lang="CY">Llyfrgell ac Amgueddfa</CommonName>
+          <CommonName xml:lang="cy">Stryd Fawr</CommonName>
+          <Street>High Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24334,14 +24420,15 @@
       <AtcoCode>5110WDB22639</AtcoCode>
       <NaptanCode>dbgdtmj</NaptanCode>
       <Descriptor>
-        <CommonName>Ty`n-yr-eithin</CommonName>
+        <CommonName xml:lang="cy">St Brigid's School</CommonName>
         <Landmark>Ty`n-yr-eithin</Landmark>
         <Street>A543</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:47">
-          <CommonName xml:lang="CY">Ty`n-yr-eithin</CommonName>
+          <CommonName xml:lang="cy">Ysgol Santes Ffraid</CommonName>
+          <Street>A543</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24592,13 +24679,14 @@
       <AtcoCode>5110WDB22950</AtcoCode>
       <NaptanCode>dbgdtpm</NaptanCode>
       <Descriptor>
-        <CommonName>Pont Melin-Rug</CommonName>
+        <CommonName xml:lang="cy">Pont Melin-Rug</CommonName>
         <Street>A5</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:38">
-          <CommonName xml:lang="CY">Pont Melin-Rug</CommonName>
+          <CommonName xml:lang="cy">Pont Melin-Rug</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24607,10 +24695,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>305241</Easting>
-            <Northing>343626</Northing>
-            <Longitude>-3.412832244</Longitude>
-            <Latitude>52.981571265</Latitude>
+            <Easting>305301</Easting>
+            <Northing>343677</Northing>
+            <Longitude>-3.4119493922096638</Longitude>
+            <Latitude>52.98203966244242</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -24631,11 +24719,11 @@
       </StopClassification>
       <AdministrativeAreaRef>016</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-04-26T16:16:04" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5110WDB22951</AtcoCode>
       <NaptanCode>dbgdtpt</NaptanCode>
       <Descriptor>
-        <CommonName>Alwen Cottage</CommonName>
+        <CommonName xml:lang="cy">Alwen Cottage</CommonName>
         <Landmark>Alwen Cottage</Landmark>
         <Street>A5</Street>
         <Crossing>A494</Crossing>
@@ -24643,7 +24731,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:04">
-          <CommonName xml:lang="CY">Bwthyn Alwen</CommonName>
+          <CommonName xml:lang="cy">Bwthyn Alwen</CommonName>
+          <Street>A5</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -36546,12 +36635,13 @@
       <AtcoCode>5110WDB48449</AtcoCode>
       <NaptanCode>dbgjmjt</NaptanCode>
       <Descriptor>
-        <CommonName>Wenffrwd</CommonName>
+        <CommonName xml:lang="cy">Wenffrwd</CommonName>
         <Street>A539</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:48">
-          <CommonName xml:lang="CY">Wenffrwd</CommonName>
+          <CommonName xml:lang="cy">Wenffrwd</CommonName>
+          <Street>A539</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -36560,10 +36650,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>323729</Easting>
-            <Northing>342548</Northing>
-            <Longitude>-3.13727535</Longitude>
-            <Latitude>52.974831915</Latitude>
+            <Easting>323728</Easting>
+            <Northing>342550</Northing>
+            <Longitude>-3.1372913922046166</Longitude>
+            <Latitude>52.97485401356431</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -37301,13 +37391,15 @@
       <AtcoCode>5110WRX02158</AtcoCode>
       <NaptanCode>dbgjmtm</NaptanCode>
       <Descriptor>
-        <CommonName>Plough Inn</CommonName>
+        <CommonName xml:lang="cy">The Grousemoor</CommonName>
         <Landmark>Plough Inn</Landmark>
+        <Street>Ruthin Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:16:38">
-          <CommonName xml:lang="CY">Plough Inn o/s</CommonName>
+          <CommonName xml:lang="cy">The Grousemoor</CommonName>
+          <Street>Ruthin Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
