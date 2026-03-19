@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2025-11-21T01:29:39.3314708Z" ModificationDateTime="2025-11-21T01:29:39.3314708Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-03-18T13:54:51.9220776Z" ModificationDateTime="2026-03-18T13:54:51.9220776Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -8730,6 +8730,96 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-03-18T13:39:18" ModificationDateTime="2026-03-18T13:36:57" Modification="new" Status="active">
+      <AtcoCode>2090A0106490</AtcoCode>
+      <NaptanCode>heratpwm</NaptanCode>
+      <Descriptor>
+        <CommonName>The Arches</CommonName>
+        <Street>B4214</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053277</NptgLocalityRef>
+        <Town>Ledbury</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>370219</Easting>
+            <Northing>239348</Northing>
+            <Longitude>-2.435706914</Longitude>
+            <Latitude>52.051709749</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-03-18T13:39:18" ModificationDateTime="2026-03-18T13:39:18" Modification="new">
+          <DateRange>
+            <StartDate>2026-03-18</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-03-18T13:51:31" ModificationDateTime="2026-03-18T13:41:26" Modification="new" Status="active">
+      <AtcoCode>2090A0106492</AtcoCode>
+      <NaptanCode>heratpwp</NaptanCode>
+      <Descriptor>
+        <CommonName>The Arches</CommonName>
+        <Street>B4214</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0053277</NptgLocalityRef>
+        <Town>Ledbury</Town>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>370227</Easting>
+            <Northing>239336</Northing>
+            <Longitude>-2.435589205</Longitude>
+            <Latitude>52.051602297</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>023</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-03-18T13:51:31" ModificationDateTime="2026-03-18T13:51:31" Modification="new">
+          <DateRange>
+            <StartDate>2026-03-18</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2020-11-30T17:18:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2090A016000</AtcoCode>
