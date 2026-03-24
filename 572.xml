@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2025-10-27T16:23:31" ModificationDateTime="2025-10-27T16:23:31" Modification="revise" RevisionNumber="1" FileName="572.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-03-23T18:07:39" ModificationDateTime="2026-03-23T18:07:39" Modification="revise" RevisionNumber="1" FileName="572.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T10:01:53" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5720AWA10002</AtcoCode>
@@ -41705,6 +41705,98 @@
           <Active />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-03-23T17:51:40" ModificationDateTime="2026-03-23T18:01:26" Modification="new" Status="active">
+      <AtcoCode>5720WDB4859</AtcoCode>
+      <NaptanCode>vglmatm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Andrew Road</CommonName>
+        <ShortCommonName>Andrew Road (westbound)</ShortCommonName>
+        <Landmark>Tunnel</Landmark>
+        <Street>Andrew Road</Street>
+        <Indicator>Adj to station footpath</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-03-23T17:51:40">
+          <CommonName xml:lang="cy">Andrew Road</CommonName>
+          <ShortCommonName>Andrew Road (i'r gorllewin)</ShortCommonName>
+          <Street>Andrew Road</Street>
+          <Indicator>Ger llwybr troed yr orsaf</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0042836</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>317378</Easting>
+            <Northing>172495</Northing>
+            <Longitude>-3.1902399</Longitude>
+            <Latitude>51.445394</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>062</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-03-23T18:00:37" ModificationDateTime="2026-03-23T18:07:19" Modification="new" Status="active">
+      <AtcoCode>5720WDB4860</AtcoCode>
+      <NaptanCode>vglmatp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Andrew Road</CommonName>
+        <ShortCommonName>Andrew Road (eastbound)</ShortCommonName>
+        <Landmark>Tunnel</Landmark>
+        <Street>Andrew Road</Street>
+        <Indicator>Opp footpath to station</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-03-23T18:00:37">
+          <CommonName xml:lang="cy">Andrew Road</CommonName>
+          <ShortCommonName>Andrew Road (i'r dwyrain)</ShortCommonName>
+          <Street>Andrew Road</Street>
+          <Indicator>Gyf llwybr troed i'r orsaf</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0042836</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>317379</Easting>
+            <Northing>172488</Northing>
+            <Longitude>-3.1902382</Longitude>
+            <Latitude>51.445332</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>062</AdministrativeAreaRef>
     </StopPoint>
   </StopPoints>
 </NaPTAN>
