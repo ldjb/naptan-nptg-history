@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-03-18T14:25:41.6691746Z" ModificationDateTime="2026-03-18T14:25:41.6721748Z" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-03-25T13:55:11.8157929Z" ModificationDateTime="2026-03-25T13:55:11.8187928Z" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-11-10T00:00:00" ModificationDateTime="2016-11-10T10:12:48" Modification="new" RevisionNumber="15" Status="active">
 			<AtcoCode>1290BOMO0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-18T14:25:53.939976Z" ModificationDateTime="2026-03-18T14:25:53.939976Z">910GBOMO</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-25T13:55:24.5048817Z" ModificationDateTime="2026-03-25T13:55:24.5048817Z">910GBOMO</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-18T14:25:53.9501769Z" ModificationDateTime="2026-03-18T14:25:53.9501769Z">910GPOKSDWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-25T13:55:24.521882Z" ModificationDateTime="2026-03-25T13:55:24.521882Z">910GPOKSDWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -93,7 +93,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-18T14:25:53.9658017Z" ModificationDateTime="2026-03-18T14:25:53.9658017Z">930GMSB</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-25T13:55:24.5319965Z" ModificationDateTime="2026-03-25T13:55:24.5319965Z">930GMSB</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -125,7 +125,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-18T14:25:53.9814321Z" ModificationDateTime="2026-03-18T14:25:53.9814321Z">930GTUK</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-25T13:55:24.5476242Z" ModificationDateTime="2026-03-25T13:55:24.5476242Z">930GTUK</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -157,7 +157,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-18T14:25:53.9970521Z" ModificationDateTime="2026-03-18T14:25:53.9970521Z">930GWIC</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-03-25T13:55:24.5632473Z" ModificationDateTime="2026-03-25T13:55:24.5632473Z">930GWIC</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -6450,6 +6450,42 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
+		<StopPoint CreationDateTime="2026-03-20T00:00:00" ModificationDateTime="2026-03-20T17:49:03" Modification="new" RevisionNumber="42" Status="active">
+			<AtcoCode>1290BCP90007</AtcoCode>
+			<NaptanCode>boujamp</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Bournemouth Square</CommonName>
+				<Indicator xml:lang="en">NE-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0057149</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>408812</Easting>
+						<Northing>91168</Northing>
+						<Longitude>-1.87654</Longitude>
+						<Latitude>50.72007</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>NE</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>005</AdministrativeAreaRef>
+		</StopPoint>
 		<StopPoint CreationDateTime="2008-06-01T00:00:00" ModificationDateTime="2021-07-07T13:30:46" Modification="new" RevisionNumber="0" Status="active">
 			<AtcoCode>1290BOA05704</AtcoCode>
 			<NaptanCode>bougtam</NaptanCode>
@@ -8298,7 +8334,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2006-11-24T00:00:00" ModificationDateTime="2026-01-20T09:37:18" Modification="new" RevisionNumber="29" Status="active">
+		<StopPoint CreationDateTime="2006-11-24T00:00:00" ModificationDateTime="2026-03-20T17:38:22" Modification="new" RevisionNumber="52" Status="active">
 			<AtcoCode>1290BOB20394</AtcoCode>
 			<NaptanCode>boudgpj</NaptanCode>
 			<Descriptor>
@@ -8335,7 +8371,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2020-05-27T00:00:00" ModificationDateTime="2026-01-20T09:43:51" Modification="new" RevisionNumber="11" Status="active">
+		<StopPoint CreationDateTime="2020-05-27T00:00:00" ModificationDateTime="2026-03-20T17:34:44" Modification="new" RevisionNumber="34" Status="active">
 			<AtcoCode>1290BOA90861</AtcoCode>
 			<NaptanCode>bougwjm</NaptanCode>
 			<Descriptor>
@@ -8372,7 +8408,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2020-05-27T00:00:00" ModificationDateTime="2026-01-20T09:37:01" Modification="new" RevisionNumber="15" Status="active">
+		<StopPoint CreationDateTime="2020-05-27T00:00:00" ModificationDateTime="2026-03-20T17:37:51" Modification="new" RevisionNumber="38" Status="active">
 			<AtcoCode>1290BOA90862</AtcoCode>
 			<NaptanCode>bougwjp</NaptanCode>
 			<Descriptor>
@@ -8390,6 +8426,42 @@
 						<Northing>90994</Northing>
 						<Longitude>-1.87491</Longitude>
 						<Latitude>50.71851</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>NW</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>005</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-03-20T00:00:00" ModificationDateTime="2026-03-20T17:39:32" Modification="new" RevisionNumber="44" Status="active">
+			<AtcoCode>1290BCP90006</AtcoCode>
+			<NaptanCode>boujamj</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Westover Road</CommonName>
+				<Indicator xml:lang="en">NW-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0057149</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>408944</Easting>
+						<Northing>90984</Northing>
+						<Longitude>-1.87467</Longitude>
+						<Latitude>50.71842</Latitude>
 					</Translation>
 				</Location>
 			</Place>
