@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-02-11T09:06:34.300" ModificationDateTime="2026-02-11T09:06:34.300" Modification="new" RevisionNumber="0" FileName="NaPTAN149.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-04-07T11:24:28.725" ModificationDateTime="2026-04-07T11:24:28.725" Modification="new" RevisionNumber="0" FileName="NaPTAN149.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2011-03-08T16:19:00.000" ModificationDateTime="2021-10-20T13:47:18.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>149000001995</AtcoCode>
@@ -23421,15 +23421,23 @@
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2012-05-14T14:10:00.000" Modification="revise" RevisionNumber="2" Status="active">BRGHTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2009-05-28T11:46:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2026-04-07T10:26:11.865" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>149000006739</AtcoCode>
 <NaptanCode>briamaj</NaptanCode>
 <Descriptor>
+<CommonName>The Sussex Beacon</CommonName>
+<Landmark>The Sussex Beacon</Landmark>
+<Street>Eastbourne Road</Street>
+<Indicator>after</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-04-07T10:26:11.865" Modification="new" Status="active">
 <CommonName>Eastbourne Road</CommonName>
 <Landmark>Bevendean Road</Landmark>
 <Street>Eastbourne Road</Street>
-<Indicator>NW-bound</Indicator>
+<Indicator>W-bound</Indicator>
 </Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0057155</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -23460,7 +23468,7 @@
 </StopClassification>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2009-05-28T11:46:00.000" Modification="revise" RevisionNumber="2" Status="active">BRGHTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">BRGHTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2025-04-23T15:10:34.452" Modification="revise" RevisionNumber="2" Status="active">
@@ -51088,15 +51096,23 @@
 <PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2009-01-08T15:19:00.000" Modification="revise" RevisionNumber="1" Status="active">BRGHTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2017-01-18T15:56:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2026-04-07T10:28:42.779" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>149000007738</AtcoCode>
 <NaptanCode>bridmgp</NaptanCode>
 <Descriptor>
+<CommonName>The Sussex Beacon</CommonName>
+<Landmark>The Sussex Beacon</Landmark>
+<Street>Bevendean Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-04-07T10:28:42.779" Modification="new" Status="active">
 <CommonName>Eastbourne Road</CommonName>
 <Landmark>Sussex Beacon Hospice</Landmark>
 <Street>Bevendean Road</Street>
 <Indicator>adj</Indicator>
 </Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0057155</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -51127,7 +51143,7 @@
 </StopClassification>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2009-05-28T11:53:00.000" Modification="revise" RevisionNumber="2" Status="active">BRGHTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">BRGHTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2005-06-24T00:00:00.000" ModificationDateTime="2017-01-18T12:29:00.000" Modification="revise" RevisionNumber="3" Status="active">
@@ -59212,6 +59228,80 @@
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">149GSTEINE2</StopAreaRef>
 </StopAreas>
+<AdministrativeAreaRef>008</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-07T10:47:43.474" ModificationDateTime="2026-04-07T10:47:43.474" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>149000007354</AtcoCode>
+<NaptanCode>bripdtj</NaptanCode>
+<Descriptor>
+<CommonName>Brighton University Falmer</CommonName>
+<Landmark>Brighton University Falmer</Landmark>
+<Street>Village Way</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0046040</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>534912</Easting>
+<Northing>108473</Northing>
+<Longitude>-0.0844484</Longitude>
+<Latitude>50.8600295</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>008</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-07T11:23:29.458" ModificationDateTime="2026-04-07T11:23:29.458" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>149000007836</AtcoCode>
+<NaptanCode>bripdtm</NaptanCode>
+<Descriptor>
+<CommonName>Brighton University Sports Centre</CommonName>
+<Landmark>Brighton University Sports Centre</Landmark>
+<Street>Brighton Sport and Health Complex Grounds</Street>
+<Indicator>o/s</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0046040</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>534611</Easting>
+<Northing>108350</Northing>
+<Longitude>-0.0887684</Longitude>
+<Latitude>50.8589966</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
 <AdministrativeAreaRef>008</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
