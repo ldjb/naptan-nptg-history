@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-02-04T09:37:10.890" ModificationDateTime="2026-02-04T09:37:10.890" Modification="new" RevisionNumber="0" FileName="NaPTAN339.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-15T15:04:50.321" ModificationDateTime="2026-04-15T15:04:50.321" Modification="new" RevisionNumber="0" FileName="NaPTAN339.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-10-11T00:00:00.000" ModificationDateTime="2012-01-06T15:06:00.000" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>3390A1</AtcoCode>
@@ -12715,12 +12715,12 @@
 <PlusbusZoneRef CreationDateTime="2003-07-21T00:00:00.000" ModificationDateTime="2003-07-21T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-21T00:00:00.000" ModificationDateTime="2011-02-23T15:47:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-07-21T00:00:00.000" ModificationDateTime="2026-04-08T08:56:38.476" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3390BF50</AtcoCode>
 <NaptanCode>ntmadgta</NaptanCode>
 <PlateCode>BF50</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Cardale Road</CommonName>
+<CommonName xml:lang="en">Langham Avenue</CommonName>
 <Landmark xml:lang="en">2nd stop from Sneinton Dale</Landmark>
 <Street xml:lang="en">Cardale Road</Street>
 <Indicator xml:lang="en">Stop BF50</Indicator>
@@ -12856,12 +12856,12 @@
 <PlusbusZoneRef CreationDateTime="2004-03-09T00:00:00.000" ModificationDateTime="2010-02-12T16:57:00.000" Modification="revise" RevisionNumber="3" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-05-26T12:15:00.000" ModificationDateTime="2011-05-20T15:59:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2010-05-26T12:15:00.000" ModificationDateTime="2026-04-08T08:56:56.568" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3390BF54</AtcoCode>
 <NaptanCode>ntmatwpa</NaptanCode>
 <PlateCode>BF54</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Cardale Road</CommonName>
+<CommonName xml:lang="en">Langham Avenue</CommonName>
 <ShortCommonName xml:lang="en">Cardale Road</ShortCommonName>
 <Landmark xml:lang="en">Langham Avenue</Landmark>
 <Street xml:lang="en">Cardale Road</Street>
@@ -87954,6 +87954,102 @@
 <PlusbusZoneRef Modification="new" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
+<StopPoint CreationDateTime="2026-04-15T14:45:29.846" ModificationDateTime="2026-04-15T14:45:29.846" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3390LI17</AtcoCode>
+<NaptanCode>ntmawapa</NaptanCode>
+<PlateCode>Li17</PlateCode>
+<Descriptor>
+<CommonName xml:lang="en">C-Road Boots Entrance</CommonName>
+<Street xml:lang="en">Thane Road</Street>
+<Indicator xml:lang="en">Stop Li17</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0060091</NptgLocalityRef>
+<Suburb>Boots Beeston</Suburb>
+<Town>Nottingham</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>454875</Easting>
+<Northing>336683</Northing>
+<Longitude>-1.1851916</Longitude>
+<Latitude>52.9247832</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">339GLI17</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>039</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-04-15</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-15T14:51:11.618" ModificationDateTime="2026-04-15T15:04:22.723" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>3390Li18</AtcoCode>
+<NaptanCode>ntmawapd</NaptanCode>
+<PlateCode>Li18</PlateCode>
+<Descriptor>
+<CommonName xml:lang="en">C-Road Boots Entrance</CommonName>
+<Street xml:lang="en">Thane Road</Street>
+<Indicator xml:lang="en">Stop LI18</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-04-15T14:51:11.618" Modification="new" Status="active">
+<CommonName>C-Road Boots Entrance</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>N0060091</NptgLocalityRef>
+<Suburb>Beeston Canalside</Suburb>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>454848</Easting>
+<Northing>336652</Northing>
+<Longitude>-1.1855976</Longitude>
+<Latitude>52.9245098</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">339GLI17</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>039</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2006-10-11T00:00:00.000" ModificationDateTime="2012-02-01T10:42:00.000" Modification="revise" RevisionNumber="5" Status="active">
@@ -94738,7 +94834,7 @@
 </StopArea>
 <StopArea CreationDateTime="2009-01-02T09:33:00.000" ModificationDateTime="2011-06-29T12:18:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>339GLI38</StopAreaCode>
-<Name>Imperial Tobacco</Name>
+<Name>Bull Close Road</Name>
 <AdministrativeAreaRef>039</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
@@ -101361,6 +101457,21 @@
 <Northing>339513</Northing>
 <Longitude>-1.1378485</Longitude>
 <Latitude>52.9498875</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2026-04-15T15:03:28.859" ModificationDateTime="2026-04-15T15:03:28.859" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>339GLI17</StopAreaCode>
+<Name>C-Road Boots Entrance</Name>
+<AdministrativeAreaRef>039</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>454863</Easting>
+<Northing>336658</Northing>
+<Longitude>-1.1853728</Longitude>
+<Latitude>52.9245625</Latitude>
 </Translation>
 </Location>
 </StopArea>
