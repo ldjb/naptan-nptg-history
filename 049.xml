@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-02T10:34:59.360" ModificationDateTime="2026-04-02T10:34:59.360" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-16T11:17:27.970" ModificationDateTime="2026-04-16T11:17:27.970" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2010-11-15T17:04:00.000" ModificationDateTime="2014-11-12T17:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>049000000801</AtcoCode>
@@ -74470,6 +74470,41 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-16T11:03:54.132" ModificationDateTime="2026-04-16T11:03:54.132" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070009002</AtcoCode>
+<NaptanCode>mltajamj</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Cranfield Road</CommonName>
+<Street xml:lang="en">Cranfield Road</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053462</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>491458</Easting>
+<Northing>241926</Northing>
+<Longitude>-0.6671673</Longitude>
+<Latitude>52.0681742</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
