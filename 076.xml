@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-03-06T12:09:02.769" ModificationDateTime="2026-03-06T12:09:02.769" Modification="new" RevisionNumber="0" FileName="NaPTAN076.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-04-20T08:10:31.731" ModificationDateTime="2026-04-20T08:10:31.731" Modification="new" RevisionNumber="0" FileName="NaPTAN076.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-09-07T00:00:00.000" ModificationDateTime="2014-01-02T11:24:42.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>07605001</AtcoCode>
@@ -17778,7 +17778,7 @@
 <PlusbusZoneRef CreationDateTime="2005-08-23T00:00:00.000" ModificationDateTime="2009-08-25T08:30:00.000" Modification="revise" RevisionNumber="2" Status="active">DLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-24T00:00:00.000" ModificationDateTime="2017-04-06T10:45:53.534" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2005-08-24T00:00:00.000" ModificationDateTime="2026-03-28T13:01:34.449" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>07605467</AtcoCode>
 <NaptanCode>dloagjmp</NaptanCode>
 <Descriptor>
@@ -33904,7 +33904,7 @@
 </StopAreas>
 <AdministrativeAreaRef>015</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-02-12T15:57:45.452" ModificationDateTime="2026-02-12T15:57:45.452" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2026-02-12T15:57:45.452" ModificationDateTime="2026-04-08T13:38:05.627" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>07605889</AtcoCode>
 <NaptanCode>dloajpmg</NaptanCode>
 <Descriptor>
@@ -33917,10 +33917,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>436170</Easting>
-<Northing>513535</Northing>
-<Longitude>-1.4427958</Longitude>
-<Latitude>54.5158383</Latitude>
+<Easting>436175</Easting>
+<Northing>513537</Northing>
+<Longitude>-1.442722</Longitude>
+<Latitude>54.515855</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -34013,6 +34013,84 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<AdministrativeAreaRef>015</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-14T18:34:32.644" ModificationDateTime="2026-04-14T18:34:32.644" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>07605892</AtcoCode>
+<NaptanCode>dloajpmt</NaptanCode>
+<Descriptor>
+<CommonName>White Cross</CommonName>
+<Street>Gainford Road</Street>
+<Indicator>O</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0052980</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>419933</Easting>
+<Northing>516130</Northing>
+<Longitude>-1.693427</Longitude>
+<Latitude>54.540049</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">076G5892</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>015</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-14T18:40:14.883" ModificationDateTime="2026-04-14T18:40:14.883" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>07605893</AtcoCode>
+<NaptanCode>dloajpmw</NaptanCode>
+<Descriptor>
+<CommonName>White Cross</CommonName>
+<Street>Gainford Road</Street>
+<Indicator>I</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0052980</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>419885</Easting>
+<Northing>516147</Northing>
+<Longitude>-1.69417</Longitude>
+<Latitude>54.540207</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">076G5892</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>015</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
@@ -37584,6 +37662,21 @@
 <Northing>513532</Northing>
 <Longitude>-1.4430679</Longitude>
 <Latitude>54.5158096</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2026-04-14T18:51:53.601" ModificationDateTime="2026-04-14T18:51:53.601" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>076G5892</StopAreaCode>
+<Name>White Cross</Name>
+<AdministrativeAreaRef>015</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>419909</Easting>
+<Northing>516138</Northing>
+<Longitude>-1.6937985</Longitude>
+<Latitude>54.540128</Latitude>
 </Translation>
 </Location>
 </StopArea>
