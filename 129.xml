@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-04-15T13:52:56.1755257+01:00" ModificationDateTime="2026-04-15T13:52:56.1795266+01:00" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-04-22T14:51:53.5854494+01:00" ModificationDateTime="2026-04-22T14:51:53.5874496+01:00" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-11-10T00:00:00" ModificationDateTime="2016-11-10T10:12:48" Modification="new" RevisionNumber="15" Status="active">
 			<AtcoCode>1290BOMO0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-15T13:53:08.1662937+01:00" ModificationDateTime="2026-04-15T13:53:08.1662937+01:00">910GBOMO</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-22T14:52:04.9985005+01:00" ModificationDateTime="2026-04-22T14:52:04.9985005+01:00">910GBOMO</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-15T13:53:08.1819239+01:00" ModificationDateTime="2026-04-15T13:53:08.1819239+01:00">910GPOKSDWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-22T14:52:05.0144978+01:00" ModificationDateTime="2026-04-22T14:52:05.0144978+01:00">910GPOKSDWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -93,7 +93,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-15T13:53:08.2086324+01:00" ModificationDateTime="2026-04-15T13:53:08.2086324+01:00">930GMSB</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-22T14:52:05.0304978+01:00" ModificationDateTime="2026-04-22T14:52:05.0304978+01:00">930GMSB</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -125,7 +125,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-15T13:53:08.2256301+01:00" ModificationDateTime="2026-04-15T13:53:08.2256301+01:00">930GTUK</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-22T14:52:05.0454988+01:00" ModificationDateTime="2026-04-22T14:52:05.0454988+01:00">930GTUK</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -157,7 +157,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-15T13:53:08.2426299+01:00" ModificationDateTime="2026-04-15T13:53:08.2426299+01:00">930GWIC</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-04-22T14:52:05.0604983+01:00" ModificationDateTime="2026-04-22T14:52:05.0604983+01:00">930GWIC</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -32423,7 +32423,7 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2025-03-27T00:00:00" ModificationDateTime="2025-07-10T07:08:07" Modification="new" RevisionNumber="44" Status="active">
+		<StopPoint CreationDateTime="2025-03-27T00:00:00" ModificationDateTime="2026-04-16T16:17:50" Modification="new" RevisionNumber="65" Status="active">
 			<AtcoCode>1290BCP10010</AtcoCode>
 			<NaptanCode>boujagw</NaptanCode>
 			<Descriptor>
@@ -32452,6 +32452,42 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>SE</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>005</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-04-16T00:00:00" ModificationDateTime="2026-04-16T16:17:17" Modification="new" RevisionNumber="42" Status="active">
+			<AtcoCode>1290BCP10018</AtcoCode>
+			<NaptanCode>boujamt</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Dominion Road</CommonName>
+				<Indicator xml:lang="en">NE-Bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0035398</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>405459</Easting>
+						<Northing>95315</Northing>
+						<Longitude>-1.92397</Longitude>
+						<Latitude>50.75741</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>NE</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>
