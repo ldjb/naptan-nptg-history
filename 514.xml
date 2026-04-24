@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-03-23T14:01:26" ModificationDateTime="2026-03-23T14:01:26" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-04-23T08:39:18" ModificationDateTime="2026-04-23T08:39:18" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-01T16:13:39" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5140ACX17028</AtcoCode>
@@ -31263,17 +31263,17 @@
         <PlusbusZoneRef ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity ModificationDateTime="2019-06-07T10:01:35" Modification="new">
-          <DateRange>
-            <StartDate>2019-06-07</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
         <StopValidity ModificationDateTime="2024-01-31T11:12:09" Modification="new">
           <DateRange>
             <StartDate>2024-01-31</StartDate>
           </DateRange>
           <Active />
+        </StopValidity>
+        <StopValidity ModificationDateTime="2019-06-07T10:01:35" Modification="new">
+          <DateRange>
+            <StartDate>2019-06-07</StartDate>
+          </DateRange>
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -43837,14 +43837,15 @@
       <AtcoCode>5140WRX02079</AtcoCode>
       <NaptanCode>wreawpg</NaptanCode>
       <Descriptor>
-        <CommonName>Somerfield</CommonName>
+        <CommonName xml:lang="cy">Gwersyllt Dodd’s Lane</CommonName>
         <Landmark>Home Bargains</Landmark>
         <Street>Dodd`s Lane</Street>
         <Indicator>o/s Home Bargains</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:30">
-          <CommonName xml:lang="CY">Somerfield</CommonName>
+          <CommonName xml:lang="cy">Lon Dodd</CommonName>
+          <Street>Dodd`s Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
