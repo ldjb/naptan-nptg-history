@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-04-23T08:39:18" ModificationDateTime="2026-04-23T08:39:18" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-04-23T13:00:12" ModificationDateTime="2026-04-23T13:00:12" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-01T16:13:39" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5140ACX17028</AtcoCode>
@@ -50678,6 +50678,269 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-04-23T09:53:29" Modification="new" Status="active">
+      <AtcoCode>5140WRX02307</AtcoCode>
+      <NaptanCode>wremwpg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Glan-Llyn Road</CommonName>
+        <Street>Glan-Llyn Road</Street>
+        <Crossing>Sherbourne Avenue</Crossing>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-04-23T09:53:30">
+          <CommonName xml:lang="cy">Glan-Llyn Road</CommonName>
+          <Street>Glan-Llyn Road</Street>
+          <Indicator>Adj</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0043397</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>332326</Easting>
+            <Northing>353636</Northing>
+            <Longitude>-3.0116016</Longitude>
+            <Latitude>53.075647</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-04-23T10:43:51" Modification="new" Status="active">
+      <AtcoCode>5140WRX02308</AtcoCode>
+      <NaptanCode>wremwpj</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Glan-Llyn Road</CommonName>
+        <Street>Glan-Llyn Road</Street>
+        <Indicator>OPP</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-04-23T10:43:51">
+          <CommonName xml:lang="cy">Glan-Llyn Road</CommonName>
+          <Street>Glan-Llyn Road</Street>
+          <Indicator>OPP</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0043397</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>332318</Easting>
+            <Northing>353639</Northing>
+            <Longitude>-3.0117216</Longitude>
+            <Latitude>53.075673</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-04-23T11:04:43" Modification="new" Status="active">
+      <AtcoCode>5140WRX02309</AtcoCode>
+      <NaptanCode>wremwpm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+        <Street>Carlton Meadows</Street>
+        <Crossing>Straight Mile</Crossing>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-04-23T11:04:43">
+          <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+          <Street>Carlton Meadows</Street>
+          <Indicator>o/s</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054799</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>333682</Easting>
+            <Northing>356398</Northing>
+            <Longitude>-2.9919351</Longitude>
+            <Latitude>53.100641</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-04-23T11:14:49" Modification="new" Status="active">
+      <AtcoCode>5140WRX02310</AtcoCode>
+      <NaptanCode>wremwpm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+        <Street>Carlton Meadows</Street>
+        <Crossing>Straight Mile</Crossing>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-04-23T11:14:49">
+          <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+          <Street>Carlton Meadows</Street>
+          <Indicator>o/s</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054799</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>333684</Easting>
+            <Northing>356341</Northing>
+            <Longitude>-2.9918935</Longitude>
+            <Latitude>53.100129</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-04-23T11:21:40" Modification="new" Status="active">
+      <AtcoCode>5140WRX02311</AtcoCode>
+      <NaptanCode>wremwpt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Carlton Meadows South</CommonName>
+        <Street>Carlton Meadows</Street>
+        <Crossing>Gresford Road</Crossing>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-04-23T11:21:40">
+          <CommonName xml:lang="cy">Carlton Meadows South</CommonName>
+          <Street>Carlton Meadows</Street>
+          <Indicator>o/s</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054799</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>333623</Easting>
+            <Northing>356159</Northing>
+            <Longitude>-2.9927667</Longitude>
+            <Latitude>53.098486</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-04-23T12:59:34" Modification="new" Status="active">
+      <AtcoCode>5140WRX02313</AtcoCode>
+      <NaptanCode>wremwta</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Rossett Fields</CommonName>
+        <Street>B5102 Holt Road</Street>
+        <Crossing>Rossett Fields</Crossing>
+        <Indicator>o/s</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-04-23T12:59:35">
+          <CommonName xml:lang="cy">Rossett Fields</CommonName>
+          <Street>B5102 Holt Road</Street>
+          <Indicator>o/s</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054808</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>337236</Easting>
+            <Northing>357344</Northing>
+            <Longitude>-2.9390482</Longitude>
+            <Latitude>53.109574</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
   </StopPoints>
 </NaPTAN>
