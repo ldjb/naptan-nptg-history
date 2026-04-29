@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-16T11:17:27.970" ModificationDateTime="2026-04-16T11:17:27.970" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-28T15:07:35.905" ModificationDateTime="2026-04-28T15:07:35.905" Modification="new" RevisionNumber="0" FileName="NaPTAN049.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2010-11-15T17:04:00.000" ModificationDateTime="2014-11-12T17:00:00.000" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>049000000801</AtcoCode>
@@ -74505,6 +74505,76 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-28T13:53:58.595" ModificationDateTime="2026-04-28T13:53:58.595" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070006008</AtcoCode>
+<NaptanCode>mltajamp</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Pascal Mews</CommonName>
+<Street xml:lang="en">Atlas Way</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0064948</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>488103</Easting>
+<Northing>238765</Northing>
+<Longitude>-0.7169129</Longitude>
+<Latitude>52.0403046</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>032</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-04-28T14:00:04.566" ModificationDateTime="2026-04-28T14:00:04.566" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>049070006009</AtcoCode>
+<NaptanCode>mltajamt</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Wizard Way</CommonName>
+<Street xml:lang="en">Atlas Way</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0064948</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>488109</Easting>
+<Northing>238770</Northing>
+<Longitude>-0.7168242</Longitude>
+<Latitude>52.0403486</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
