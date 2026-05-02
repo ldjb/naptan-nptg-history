@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-04-23T13:00:12" ModificationDateTime="2026-04-23T13:00:12" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-05-01T08:45:20" ModificationDateTime="2026-05-01T08:45:20" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-01T16:13:39" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5140ACX17028</AtcoCode>
@@ -50935,6 +50935,94 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-05-01T08:35:09" Modification="new" Status="active">
+      <AtcoCode>5140WRX02314</AtcoCode>
+      <NaptanCode>wremwtd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Stori Brymbo</CommonName>
+        <Street>New High Street</Street>
+        <Crossing>Pheonix Drive</Crossing>
+        <Indicator>O/S</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-01T08:35:09">
+          <CommonName xml:lang="cy">Stori Brymbo</CommonName>
+          <Street>Stryd Fawr Newydd</Street>
+          <Indicator>O/S</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054783</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>329568</Easting>
+            <Northing>353498</Northing>
+            <Longitude>-3.0527317</Longitude>
+            <Latitude>53.074049</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>067</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-05-01T08:41:33" Modification="new" Status="active">
+      <AtcoCode>5140WRX02315</AtcoCode>
+      <NaptanCode>wremwtg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Stori Brymbo</CommonName>
+        <Street>New High Street</Street>
+        <Crossing>Pheonix Drive</Crossing>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-01T08:41:33">
+          <CommonName xml:lang="cy">Stori Brymbo</CommonName>
+          <Street>Stryd Fawr Newydd</Street>
+          <Indicator>Opp</Indicator>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054783</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>329566</Easting>
+            <Northing>353562</Northing>
+            <Longitude>-3.0527756</Longitude>
+            <Latitude>53.074624</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
