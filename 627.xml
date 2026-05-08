@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-21T10:55:58.036" ModificationDateTime="2026-04-21T10:55:58.036" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-05-07T13:30:38.110" ModificationDateTime="2026-05-07T13:30:38.110" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -47704,6 +47704,43 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>122</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-05-07T12:39:46.856" ModificationDateTime="2026-05-07T12:39:46.856" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>627070001367</AtcoCode>
+<NaptanCode>5821367</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Comrie Avenue South</CommonName>
+<ShortCommonName xml:lang="en">Comrie Avenue South</ShortCommonName>
+<Street xml:lang="en">A1087</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001106</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>368948</Easting>
+<Northing>677837</Northing>
+<Longitude>-2.4993556</Longitude>
+<Latitude>55.9924724</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
