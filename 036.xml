@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2025-12-18T17:16:31" Modification="revise" RevisionNumber="19" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreationDateTime="2025-01-14T11:34:46" ModificationDateTime="2026-05-11T08:58:05" Modification="revise" RevisionNumber="21" SchemaVersion="2.4" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" FileName="NaPTAN036.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-02-17T16:46:48" ModificationDateTime="2025-11-07T19:15:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>036000000001</AtcoCode>
@@ -4662,6 +4662,90 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-03-27T18:41:25" ModificationDateTime="2026-03-27T18:41:25" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000114</AtcoCode>
+      <NaptanCode>wingtpt</NaptanCode>
+      <Descriptor>
+        <CommonName>Watersplash Lane</CommonName>
+        <ShortCommonName>Watersplash Ln</ShortCommonName>
+        <Landmark>Sunninghill Park</Landmark>
+        <Street>Watersplash Lane</Street>
+        <Crossing>Cheapside Road</Crossing>
+        <Indicator>Stop SP</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043253</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>493948</Easting>
+            <Northing>169524</Northing>
+            <Longitude>-0.6503701302327048</Longitude>
+            <Latitude>51.416968042268124</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-03-27T18:42:51" ModificationDateTime="2026-03-27T18:42:51" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>036000000115</AtcoCode>
+      <NaptanCode>wingtpw</NaptanCode>
+      <Descriptor>
+        <CommonName>Watersplash Lane</CommonName>
+        <ShortCommonName>Watersplash Ln</ShortCommonName>
+        <Landmark>Sunninghill Park</Landmark>
+        <Street>Cheapside Road</Street>
+        <Crossing>Watersplash Lane</Crossing>
+        <Indicator>Stop SQ</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043253</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>493961</Easting>
+            <Northing>169481</Northing>
+            <Longitude>-0.6501878459613876</Longitude>
+            <Latitude>51.41657327047342</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <DefaultWaitTime>PT0S</DefaultWaitTime>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>065</AdministrativeAreaRef>
+      <Public>false</Public>
+    </StopPoint>
     <StopPoint CreationDateTime="2022-09-01T13:04:02" ModificationDateTime="2025-09-22T08:43:01" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>036000000366</AtcoCode>
       <NaptanCode>wingmag</NaptanCode>
@@ -7329,7 +7413,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-22T00:00:00" ModificationDateTime="2025-11-08T10:58:41" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2004-04-22T00:00:00" ModificationDateTime="2026-05-11T08:49:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>036006001157</AtcoCode>
       <NaptanCode>winamwt</NaptanCode>
       <Descriptor>
@@ -8038,22 +8122,22 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-04-05T00:00:00" ModificationDateTime="2025-05-09T16:56:06" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-04-05T00:00:00" ModificationDateTime="2026-05-11T08:56:53" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006001284</AtcoCode>
       <NaptanCode>winapdm</NaptanCode>
       <Descriptor>
-        <CommonName>Heatherwood Cross</CommonName>
+        <CommonName>Heatherwood Roundabout</CommonName>
         <Landmark>Heatherwood Roundabout</Landmark>
         <Street>London Road</Street>
         <Crossing>Kings Ride</Crossing>
         <Indicator>Stop HC</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2025-05-09T16:56:06" ModificationDateTime="2025-05-09T16:56:06" Modification="new" RevisionNumber="0">
-          <CommonName>Heatherwood Roundabout</CommonName>
+        <Descriptor CreationDateTime="2026-05-11T08:56:53" ModificationDateTime="2026-05-11T08:56:53" Modification="new" RevisionNumber="0">
+          <CommonName>Heatherwood Cross</CommonName>
           <Landmark>Heatherwood Roundabout</Landmark>
           <Street>London Road</Street>
-          <Crossing>Kings Ride</Crossing>
+          <Crossing>London Road</Crossing>
           <Indicator>Stop HC</Indicator>
         </Descriptor>
       </AlternativeDescriptors>
@@ -13676,22 +13760,22 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-04-05T00:00:00" ModificationDateTime="2025-05-09T16:57:44" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-04-05T00:00:00" ModificationDateTime="2026-05-11T08:57:26" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006002284</AtcoCode>
       <NaptanCode>winatdg</NaptanCode>
       <Descriptor>
-        <CommonName>Heatherwood Cross</CommonName>
+        <CommonName>Heatherwood Roundabout</CommonName>
         <Landmark>Heatherwood Roundabout</Landmark>
         <Street>London Road</Street>
         <Crossing>Kings Ride</Crossing>
         <Indicator>Stop HD</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2025-05-09T16:57:44" ModificationDateTime="2025-05-09T16:57:44" Modification="new" RevisionNumber="0">
-          <CommonName>Heatherwood Roundabout</CommonName>
+        <Descriptor CreationDateTime="2026-05-11T08:57:26" ModificationDateTime="2026-05-11T08:57:26" Modification="new" RevisionNumber="0">
+          <CommonName>Heatherwood Cross</CommonName>
           <Landmark>Heatherwood Roundabout</Landmark>
           <Street>London Road</Street>
-          <Crossing>Kings Ride</Crossing>
+          <Crossing>London Road</Crossing>
           <Indicator>Stop HD</Indicator>
         </Descriptor>
       </AlternativeDescriptors>
@@ -16748,12 +16832,12 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-01-16T13:42:46" ModificationDateTime="2025-09-07T11:58:49" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2014-01-16T13:42:46" ModificationDateTime="2026-05-08T16:59:38" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>036006002467</AtcoCode>
       <NaptanCode>wingjdg</NaptanCode>
       <Descriptor>
-        <CommonName>Willows Corner</CommonName>
-        <ShortCommonName>Willows Cnr</ShortCommonName>
+        <CommonName>Ruddlesway</CommonName>
+        <ShortCommonName>Ruddlesway</ShortCommonName>
         <Landmark>2D Ruddlesway</Landmark>
         <Street>Ruddlesway</Street>
         <Crossing>Maidenhead Road</Crossing>
@@ -21401,7 +21485,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2025-11-23T15:09:39" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2004-04-20T00:00:00" ModificationDateTime="2026-05-11T08:51:16" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>036006065067</AtcoCode>
       <NaptanCode>winawjg</NaptanCode>
       <Descriptor>
@@ -21417,10 +21501,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>487154</Easting>
-            <Northing>181356</Northing>
-            <Longitude>-0.745144</Longitude>
-            <Latitude>51.524406</Latitude>
+            <Easting>487259</Easting>
+            <Northing>181313</Northing>
+            <Longitude>-0.7436247391728058</Longitude>
+            <Latitude>51.52401141198489</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -29275,12 +29359,12 @@
       </PlusbusZones>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2025-09-07T12:00:03" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2004-05-05T00:00:00" ModificationDateTime="2026-05-08T17:00:16" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>036006311311</AtcoCode>
       <NaptanCode>windjwt</NaptanCode>
       <Descriptor>
-        <CommonName>Willows Corner</CommonName>
-        <ShortCommonName>Willows Cnr</ShortCommonName>
+        <CommonName>Ruddlesway</CommonName>
+        <ShortCommonName>Ruddlesway</ShortCommonName>
         <Landmark>9 Ruddlesway</Landmark>
         <Street>Ruddlesway</Street>
         <Crossing>Maidenhead Road</Crossing>
@@ -29318,9 +29402,6 @@
         <StopAreaRef Modification="new">036G00006311</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
-      <PlusbusZones>
-        <PlusbusZoneRef Modification="new" Status="active">WINDSEC</PlusbusZoneRef>
-      </PlusbusZones>
       <Public>false</Public>
     </StopPoint>
     <StopPoint CreationDateTime="2004-04-30T00:00:00" ModificationDateTime="2025-09-07T11:30:43" Modification="revise" RevisionNumber="2" Status="active">
@@ -40632,7 +40713,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-07-11T19:15:35" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2026-04-20T15:11:12" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>036006842842</AtcoCode>
       <NaptanCode>winamdw</NaptanCode>
       <Descriptor>
@@ -40643,7 +40724,7 @@
         <Indicator>Southbound</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>E0059876</NptgLocalityRef>
+        <NptgLocalityRef>E0059880</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -40672,7 +40753,7 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2025-07-11T19:16:31" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2004-10-01T00:00:00" ModificationDateTime="2026-04-20T15:12:00" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>036006842843</AtcoCode>
       <NaptanCode>winamga</NaptanCode>
       <Descriptor>
@@ -40683,7 +40764,7 @@
         <Indicator>Northbound</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>E0059876</NptgLocalityRef>
+        <NptgLocalityRef>E0059880</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -41296,12 +41377,12 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2025-05-10T00:02:06" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2026-05-08T17:04:50" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006857857</AtcoCode>
       <NaptanCode>wingagd</NaptanCode>
       <Descriptor>
-        <CommonName>Legoland Drive</CommonName>
-        <ShortCommonName>Legoland Dr</ShortCommonName>
+        <CommonName>Legoland Roundabout</CommonName>
+        <ShortCommonName>Legoland Rdbt</ShortCommonName>
         <Landmark>Legoland roundabout</Landmark>
         <Street>Winkfield Road</Street>
         <Crossing>Legoland Drive</Crossing>
@@ -41341,12 +41422,12 @@
       <AdministrativeAreaRef>065</AdministrativeAreaRef>
       <Public>false</Public>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2025-05-10T00:02:56" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2004-05-07T00:00:00" ModificationDateTime="2026-05-08T17:05:06" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>036006857858</AtcoCode>
       <NaptanCode>wingagj</NaptanCode>
       <Descriptor>
-        <CommonName>Legoland Drive</CommonName>
-        <ShortCommonName>Legoland Dr</ShortCommonName>
+        <CommonName>Legoland Roundabout</CommonName>
+        <ShortCommonName>Legoland Rdbt</ShortCommonName>
         <Landmark>Legoland roundabout</Landmark>
         <Street>Winkfield Road</Street>
         <Crossing>Legoland Drive</Crossing>
