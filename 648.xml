@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-05-13T11:58:59.701" ModificationDateTime="2026-05-13T11:58:59.701" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.2/NaPTAN.xsd" CreationDateTime="2026-05-15T19:57:42.362" ModificationDateTime="2026-05-15T19:57:42.362" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.2" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -66134,7 +66134,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-27T15:11:54.000" ModificationDateTime="2026-04-15T14:43:35.571" Modification="revise" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2015-07-27T15:11:54.000" ModificationDateTime="2026-05-15T17:42:18.703" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>64803236</AtcoCode>
 <NaptanCode>73769459</NaptanCode>
 <Descriptor>
@@ -96192,6 +96192,78 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-05-15T08:31:47.979" ModificationDateTime="2026-05-15T08:31:47.979" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802762</AtcoCode>
+<NaptanCode>73729624</NaptanCode>
+<Descriptor>
+<CommonName>Innewan Gardens</CommonName>
+<Street>Murthly Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000278</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>307125</Easting>
+<Northing>734838</Northing>
+<Longitude>-3.5101696</Longitude>
+<Latitude>56.4964141</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-05-15T12:06:25.576" ModificationDateTime="2026-05-15T12:06:25.576" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802763</AtcoCode>
+<NaptanCode>73729625</NaptanCode>
+<Descriptor>
+<CommonName>Acarsaid Hotel</CommonName>
+<Street>Atholl Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES003027</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>294355</Easting>
+<Northing>757918</Northing>
+<Longitude>-3.7269197</Longitude>
+<Latitude>56.7009709</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
