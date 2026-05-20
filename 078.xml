@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-04-29T15:39:34.774" ModificationDateTime="2026-04-29T15:39:34.774" Modification="new" RevisionNumber="0" FileName="NaPTAN078.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-05-19T16:33:57.273" ModificationDateTime="2026-05-19T16:33:57.273" Modification="new" RevisionNumber="0" FileName="NaPTAN078.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-09-09T00:00:00.000" ModificationDateTime="2009-09-09T00:00:00.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>07806073</AtcoCode>
@@ -43740,6 +43740,42 @@
 </Translation>
 </Location>
 </FlexibleZone>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>047</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-05-19T13:32:04.063" ModificationDateTime="2026-05-19T13:32:04.063" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>078074113A</AtcoCode>
+<NaptanCode>recjwmd</NaptanCode>
+<Descriptor>
+<CommonName>Yew Tree Avenue</CommonName>
+<Street>West Dyke Road</Street>
+<Indicator>A</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0041561</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>459441</Easting>
+<Northing>522531</Northing>
+<Longitude>-1.08156</Longitude>
+<Latitude>54.59448</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
