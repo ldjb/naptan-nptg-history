@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-20T10:03:13.457" ModificationDateTime="2026-04-20T10:03:13.457" Modification="new" RevisionNumber="0" FileName="NaPTAN268.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-05-21T14:34:38.560" ModificationDateTime="2026-05-21T14:34:38.560" Modification="new" RevisionNumber="0" FileName="NaPTAN268.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2013-05-13T10:11:47.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>268060001</AtcoCode>
@@ -11007,6 +11007,101 @@
 <CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>049</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-05-21T13:27:56.032" ModificationDateTime="2026-05-21T14:34:20.980" Modification="revise" RevisionNumber="5" Status="active">
+<AtcoCode>268060430</AtcoCode>
+<NaptanCode>rtladtaw</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Catmose College</CommonName>
+<Indicator xml:lang="en">outside</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053664</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>485322</Easting>
+<Northing>309261</Northing>
+<Longitude>-0.739549</Longitude>
+<Latitude>52.674369</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>485164</Easting>
+<Northing>309361</Northing>
+<Longitude>-0.741847</Longitude>
+<Latitude>52.67529</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>485164</Easting>
+<Northing>309361</Northing>
+<Longitude>-0.741847</Longitude>
+<Latitude>52.67529</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>049</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-05-21T13:39:19.420" ModificationDateTime="2026-05-21T13:39:19.420" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>268060431</AtcoCode>
+<NaptanCode>rtladtda</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Uppingham Community College</CommonName>
+<Street xml:lang="en">Lyddington Road</Street>
+<Indicator xml:lang="en">outside</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0053664</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>486738</Easting>
+<Northing>298685</Northing>
+<Longitude>-0.721391</Longitude>
+<Latitude>52.579086</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Longitude>-0.721391</Longitude>
+<Latitude>52.579086</Latitude>
+</StartPoint>
+<EndPoint>
+<Longitude>-0.721391</Longitude>
+<Latitude>52.579086</Latitude>
+</EndPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
