@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-05-12T08:55:51.9343544Z" ModificationDateTime="2026-05-12T08:55:51.9343544Z" Modification="new" RevisionNumber="1" FileName="259.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-06-01T06:57:09.1359258Z" ModificationDateTime="2026-06-01T06:57:09.1359258Z" Modification="new" RevisionNumber="1" FileName="259.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2004-10-18T00:00:00" ModificationDateTime="2013-12-18T11:31:00" Modification="delete" RevisionNumber="5" Status="inactive">
       <AtcoCode>2590B0001</AtcoCode>
@@ -41840,6 +41840,84 @@
             <Northing>432380</Northing>
             <Longitude>-3.016396090</Longitude>
             <Latitude>53.783426592</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>003</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-06-01T07:52:06" ModificationDateTime="2026-06-01T07:51:11" Modification="new" Status="active">
+      <AtcoCode>2590BTA01341</AtcoCode>
+      <NaptanCode>blpamtda</NaptanCode>
+      <Descriptor>
+        <CommonName>Seneca House</CommonName>
+        <Landmark>Seneca House</Landmark>
+        <Street>Vickers Way</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0065097</NptgLocalityRef>
+        <Suburb>Squires Gate</Suburb>
+        <Town>Blackpool</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>332590</Easting>
+            <Northing>431620</Northing>
+            <Longitude>-3.024378182</Longitude>
+            <Latitude>53.776527451</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>003</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-06-01T07:54:11" ModificationDateTime="2026-06-01T07:53:24" Modification="new" Status="active">
+      <AtcoCode>2590BTA01342</AtcoCode>
+      <NaptanCode>blpamtdg</NaptanCode>
+      <Descriptor>
+        <CommonName>Hallett Avenue</CommonName>
+        <Landmark>Hallett Avenue</Landmark>
+        <Street>Vickers Way</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0079383</NptgLocalityRef>
+        <Suburb>Boundary</Suburb>
+        <Town>Blackpool</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>332982</Easting>
+            <Northing>431622</Northing>
+            <Longitude>-3.018431339</Longitude>
+            <Latitude>53.776596103</Latitude>
           </Translation>
         </Location>
       </Place>

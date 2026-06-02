@@ -1,14 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-04-29T14:30:53" ModificationDateTime="2026-04-29T14:30:53" Modification="revise" RevisionNumber="1" FileName="540.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-06-01T07:12:25" ModificationDateTime="2026-06-01T07:12:25" Modification="revise" RevisionNumber="1" FileName="540.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2025-06-19T08:54:34" ModificationDateTime="2025-06-19T08:57:32" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>54000000WD48</AtcoCode>
       <NaptanCode>gwnwdgj</NaptanCode>
       <Descriptor>
-        <CommonName>Pont ar Ddyfi West</CommonName>
+        <CommonName xml:lang="cy">Pont ar Ddyfi West</CommonName>
+        <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
         <Street xml:lang="EN">A493</Street>
         <Crossing xml:lang="EN">A487</Crossing>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-24T15:45:08">
+          <CommonName xml:lang="cy">Pont ar Ddyfi Gorllewin</CommonName>
+          <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037664</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -50,10 +58,18 @@
       <AtcoCode>54000000WD49</AtcoCode>
       <NaptanCode>gwnwdgw</NaptanCode>
       <Descriptor>
-        <CommonName>Pont ar Ddyfi West</CommonName>
+        <CommonName xml:lang="cy">Pont ar Ddyfi West</CommonName>
+        <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
         <Street xml:lang="EN">A493</Street>
         <Crossing xml:lang="EN">A487</Crossing>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-24T15:45:49">
+          <CommonName xml:lang="cy">Pont ar Ddyfi Gorllewin</CommonName>
+          <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
+          <Street>A493</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037659</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -150,10 +166,18 @@
       <AtcoCode>5400000WD484</AtcoCode>
       <NaptanCode>gwnwdgd</NaptanCode>
       <Descriptor>
-        <CommonName>Pont ar Ddyfi South</CommonName>
+        <CommonName xml:lang="cy">Pont ar Ddyfi South</CommonName>
+        <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
         <Street xml:lang="EN">A487</Street>
         <Crossing xml:lang="EN">A493</Crossing>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-24T15:46:29">
+          <CommonName xml:lang="cy">Pont ar Ddyfi De</CommonName>
+          <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
+          <Street>A487</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037659</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -195,10 +219,18 @@
       <AtcoCode>540000WDB484</AtcoCode>
       <NaptanCode>gwnwdga</NaptanCode>
       <Descriptor>
-        <CommonName>Pont ar Ddyfi East</CommonName>
+        <CommonName xml:lang="cy">Pont ar Ddyfi East</CommonName>
+        <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
         <Street xml:lang="EN">A487</Street>
         <Crossing xml:lang="EN">A493</Crossing>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-24T15:47:30">
+          <CommonName xml:lang="cy">Pont ar Ddyfi Dwyrain</CommonName>
+          <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
+          <Street>A487</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037659</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -240,10 +272,18 @@
       <AtcoCode>54000WDB4840</AtcoCode>
       <NaptanCode>gwnwdaw</NaptanCode>
       <Descriptor>
-        <CommonName>Pont ar Ddyfi East</CommonName>
+        <CommonName xml:lang="cy">Pont ar Ddyfi East</CommonName>
+        <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
         <Street xml:lang="EN">A487</Street>
         <Crossing xml:lang="EN">A493</Crossing>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-05-24T15:48:25">
+          <CommonName xml:lang="cy">Pont ar Ddyfi Dwyrain</CommonName>
+          <ShortCommonName>Pont ar Ddyfi</ShortCommonName>
+          <Street>A487</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0037664</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -588,11 +628,13 @@
       <NaptanCode>gwnwajw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Dolgarregddu Parking</CommonName>
+        <ShortCommonName>Dolgarregddu</ShortCommonName>
         <Street>Dolgarregddu</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-12T15:14:55">
           <CommonName xml:lang="cy">Dolgarregddu Parking</CommonName>
+          <ShortCommonName>Dolgarregddu</ShortCommonName>
           <Street>Dolgarregddu</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -740,11 +782,13 @@
       <NaptanCode>gwnwajt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Tanygrisiau Ffestiniog Railway</CommonName>
+        <ShortCommonName>Tanygrisiau Station</ShortCommonName>
         <Street>Un-named Road</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-12T15:22:09">
           <CommonName xml:lang="cy">Tanygrisiau Ffestiniog Railway</CommonName>
+          <ShortCommonName>Gorsaf Tanygrisiau</ShortCommonName>
           <Street>Un-named Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -890,12 +934,14 @@
       <NaptanCode>gwnwajd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Post Office</Landmark>
         <Street>Clynnog-fawr</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-12T15:29:13">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Clynnog-fawr</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -995,7 +1041,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-12T15:31:42">
-          <CommonName xml:lang="cy">Brynhyfryd Terrace</CommonName>
+          <CommonName xml:lang="cy">Teras Brynhyfryd</CommonName>
           <Street>Brynhyfryd Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1039,13 +1085,16 @@
     <StopPoint CreationDateTime="2014-03-10T14:08:53" ModificationDateTime="2025-06-11T10:47:33" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5400ABDVY0</AtcoCode>
       <Descriptor>
-        <CommonName>Aberdovey Rail Station</CommonName>
+        <CommonName xml:lang="cy">Aberdovey Rail Station</CommonName>
+        <ShortCommonName>Aberdovey Station</ShortCommonName>
         <Street>Rhos Dyfi</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:27">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Aberdyfi</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Aberdyfi</CommonName>
+          <ShortCommonName>Gorsaf Aberdyfi</ShortCommonName>
+          <Street>Rhos Dyfi</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -1054,8 +1103,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>260616</Easting>
-            <Northing>296074</Northing>
+            <Easting>260615</Easting>
+            <Northing>296076</Northing>
             <Longitude>-4.056876143</Longitude>
             <Latitude>52.544641165</Latitude>
           </Translation>
@@ -1073,14 +1122,18 @@
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-07T10:46:54" ModificationDateTime="2025-06-11T10:47:33" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5400ABRE0</AtcoCode>
+
       <Descriptor>
-        <CommonName>Abererch Rail Station</CommonName>
+        <CommonName xml:lang="cy">Abererch Rail Station</CommonName>
+        <ShortCommonName>Abererch Station</ShortCommonName>
         <Street>Level Crossing</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:27">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Abererch</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Abererch</CommonName>
+          <ShortCommonName>Gorsaf Abererch</ShortCommonName>
+          <Street>Level Crossing</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -1089,8 +1142,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>240325</Easting>
-            <Northing>336075</Northing>
+            <Easting>240324</Easting>
+            <Northing>336077</Northing>
             <Longitude>-4.375297661</Longitude>
             <Latitude>52.898353634</Latitude>
           </Translation>
@@ -1207,14 +1260,17 @@
       <AtcoCode>5400ANZ12838</AtcoCode>
       <NaptanCode>gwnatwp</NaptanCode>
       <Descriptor>
-        <CommonName>Harbour Railway Station</CommonName>
+        <CommonName xml:lang="cy">Harbour Railway Station</CommonName>
+        <ShortCommonName>Harbour Station</ShortCommonName>
         <Street>Britannia Terrace</Street>
         <Crossing>Tan-y-graig</Crossing>
         <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:33">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd yr Harbwr</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd yr Harbwr</CommonName>
+          <ShortCommonName>Gorsaf  yr Harbwr</ShortCommonName>
+          <Street>Britannia Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -1260,6 +1316,7 @@
       <NaptanCode>gwndtmg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Fairbourne Railway Station</CommonName>
+        <ShortCommonName>Fairbourne Station</ShortCommonName>
         <Landmark>Fairbourne Railway Station</Landmark>
         <Street>Beach Road</Street>
         <Crossing>Station Road</Crossing>
@@ -1268,6 +1325,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:29">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Fairbourne</CommonName>
+          <ShortCommonName>Gorsaf Fairbourne</ShortCommonName>
           <Street>Beach Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1306,12 +1364,14 @@
       <NaptanCode>gwndpmg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Coleg Meirion Dwyfor</CommonName>
+        <ShortCommonName>Coleg</ShortCommonName>
         <Street>Ffordd T'yn Coed</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:02">
           <CommonName xml:lang="cy">Coleg Meirion Dwyfor</CommonName>
+          <ShortCommonName>Coleg</ShortCommonName>
           <Street>Ffordd T'yn Coed</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1350,12 +1410,14 @@
       <NaptanCode>gwngmpd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Llanelltyd Taicynhaeaf</CommonName>
+        <ShortCommonName>Llanelltyd</ShortCommonName>
         <Street>A496</Street>
         <Indicator>after junction</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:43">
           <CommonName xml:lang="cy">Llanelltyd Taicynhaeaf</CommonName>
+          <ShortCommonName>Llanelltyd</ShortCommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1394,12 +1456,14 @@
       <NaptanCode>gwngmpg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Llanelltyd Taicynhaeaf</CommonName>
+        <ShortCommonName>Llanelltyd</ShortCommonName>
         <Street>A496</Street>
         <Indicator>after junction</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:43">
           <CommonName xml:lang="cy">Llanelltyd Taicynhaeaf</CommonName>
+          <ShortCommonName>Llanelltyd</ShortCommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1615,6 +1679,7 @@
       <NaptanCode>gwnatjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ysgol Gynradd Bontddu</CommonName>
+        <ShortCommonName>Ysgol Bontddu</ShortCommonName>
         <Landmark>Ysgol Gynradd Bontddu</Landmark>
         <Street>A496</Street>
         <Indicator>before</Indicator>
@@ -1622,6 +1687,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:52">
           <CommonName xml:lang="cy">Ysgol Gynradd Bontddu</CommonName>
+          <ShortCommonName>Ysgol Bontddu</ShortCommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2334,6 +2400,7 @@
       <NaptanCode>gwngdgd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Hedrecoed Isaf Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Landmark>Hedrecoed Isaf Caravan Park</Landmark>
         <Street>A496</Street>
         <Indicator>after</Indicator>
@@ -2341,6 +2408,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:01">
           <CommonName xml:lang="cy">Parc Carafanau Hendrecoed Isaf</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2557,6 +2625,7 @@
       <NaptanCode>gwnpdpm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Tal-y-bont B&amp;B</Landmark>
         <Street>Ffordd Ysgethin</Street>
         <Crossing>Llwyn Ynn</Crossing>
@@ -2565,6 +2634,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:26">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Ffordd Ysgethin</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2695,6 +2765,7 @@
       <NaptanCode>gwndtdt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Dyffryn Ardudwy Post Office</Landmark>
         <Street>Y Brif Heol</Street>
         <Crossing>Ffordd Capel</Crossing>
@@ -2703,6 +2774,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:26">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Y Brif Heol</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2741,6 +2813,7 @@
       <NaptanCode>gwndtdw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Dyffryn Ardudwy Post Office</Landmark>
         <Street>Y Brif Heol</Street>
         <Crossing>Ffordd Capel</Crossing>
@@ -2749,6 +2822,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:26">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Y Brif Heol</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3104,6 +3178,7 @@
       <NaptanCode>gwngdpg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Pensarn Railway Station</CommonName>
+        <ShortCommonName>Pensarn Station</ShortCommonName>
         <Landmark>Pensarn Railway Station</Landmark>
         <Street>A496</Street>
         <Indicator>after</Indicator>
@@ -3284,6 +3359,7 @@
       <NaptanCode>gwngapm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Maes Parcio Cefn-coed</CommonName>
+        <ShortCommonName>Maes Parcio</ShortCommonName>
         <Landmark>Cefn-coed Car Park</Landmark>
         <Street>Bron y Graig</Street>
         <Crossing>Stryd Fawr</Crossing>
@@ -3292,6 +3368,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:51">
           <CommonName xml:lang="cy">Maes Parcio Cefn-coed</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
           <Street>Bron y Graig</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3376,6 +3453,7 @@
       <NaptanCode>gwngapj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Harlech Railway Station</CommonName>
+        <ShortCommonName>Harlech Station</ShortCommonName>
         <Landmark>Queen's Hotel</Landmark>
         <Street>Ffordd Morfa</Street>
         <Indicator>after</Indicator>
@@ -3383,6 +3461,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:30">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Harlech</CommonName>
+          <ShortCommonName>Gorsaf Harlech</ShortCommonName>
           <Street>Ffordd Morfa</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3660,6 +3739,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:26">
           <CommonName xml:lang="cy">Gorsaf Bwer Maentwrog</CommonName>
+          <ShortCommonName>Gorsaf Bwer</ShortCommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3876,6 +3956,7 @@
       <NaptanCode>gwngtwp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Capel Maentwrog Isaf</CommonName>
+        <ShortCommonName>Capel</ShortCommonName>
         <Landmark>Craig yr Afon</Landmark>
         <Street>A496</Street>
         <Indicator>after</Indicator>
@@ -3883,6 +3964,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:53">
           <CommonName xml:lang="cy">Capel Maentwrog Isaf</CommonName>
+          <ShortCommonName>Capel</ShortCommonName>
           <Street>A496</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3930,6 +4012,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:53">
           <CommonName xml:lang="cy">Capel Maentwrog Isaf</CommonName>
+          <ShortCommonName>Capel</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -4021,6 +4104,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:59">
           <CommonName xml:lang="cy">Neuadd y Pentref Bron Gelli</CommonName>
+          <ShortCommonName>Neuadd y Pentref</ShortCommonName>
           <Street>Maentwrog Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -4058,12 +4142,14 @@
       <NaptanCode>gwndwjg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Trawsfynydd Power Station</CommonName>
+        <ShortCommonName>Power Station</ShortCommonName>
         <Street>A470</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-13T11:37:47">
           <CommonName xml:lang="cy">Gorsaf Bwer Transfynydd</CommonName>
+          <ShortCommonName>Gorsaf Bwer</ShortCommonName>
           <Street>A470</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -4923,6 +5009,7 @@
       <NaptanCode>gwnjgmt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Griffin Industrial Estate</CommonName>
+        <ShortCommonName>Industrial Estate</ShortCommonName>
         <Street>Park Terrace</Street>
         <Crossing>Park Road</Crossing>
         <Indicator>before</Indicator>
@@ -4930,6 +5017,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:22">
           <CommonName xml:lang="cy">Stad Ddiwydiannol Griffin</CommonName>
+          <ShortCommonName>Stad Ddiwydiannol</ShortCommonName>
           <Street>Park Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -5013,6 +5101,7 @@
       <NaptanCode>gwnpmjt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caernarfon Bus Station Stand C</CommonName>
+        <ShortCommonName>Bus Station Stand C</ShortCommonName>
         <Landmark>Caernarfon Bus Station</Landmark>
         <Street>Poolside</Street>
         <Crossing>Penllyn</Crossing>
@@ -5021,6 +5110,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:26">
           <CommonName xml:lang="cy">Gorsaf Bws Caernarfon C</CommonName>
+          <ShortCommonName>Gorsaf Bws C</ShortCommonName>
           <Street>Poolside</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -5060,6 +5150,7 @@
       <NaptanCode>gwnpmjm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caernarfon Bus Station Stand A</CommonName>
+        <ShortCommonName>Bus Station Stand A</ShortCommonName>
         <Landmark>Caernarfon Bus Station</Landmark>
         <Street>Poolside</Street>
         <Crossing>Penllyn</Crossing>
@@ -5068,6 +5159,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:26">
           <CommonName xml:lang="cy">Gorsaf Bws Caernarfon A</CommonName>
+          <ShortCommonName>Gorsaf Bws A</ShortCommonName>
           <Street>Poolside</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -5257,6 +5349,7 @@
       <NaptanCode>gwnpmjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caernarfon Bus Station Stand B</CommonName>
+        <ShortCommonName>Bus Station Stand B</ShortCommonName>
         <Landmark>Caernarfon Bus Station</Landmark>
         <Street>Poolside</Street>
         <Crossing>Penllyn</Crossing>
@@ -5265,6 +5358,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:26">
           <CommonName xml:lang="cy">Gorsaf Bws Caernarfon B</CommonName>
+          <ShortCommonName>Gorsaf Bws B</ShortCommonName>
           <Street>Poolside</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -6363,7 +6457,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-13T18:26:20">
-          <CommonName xml:lang="cy">Terminus</CommonName>
+          <CommonName xml:lang="cy">Terminws</CommonName>
           <Street>Lon Newydd</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7087,6 +7181,7 @@
       <NaptanCode>gwngpma</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ysgol Gynradd Llanllyfni</CommonName>
+        <ShortCommonName>Ysgol Llanllyfni</ShortCommonName>
         <Landmark>Ysgol Gynradd Llanllyfni</Landmark>
         <Street>Rhedyw Road</Street>
         <Indicator>before</Indicator>
@@ -7094,6 +7189,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:52">
           <CommonName xml:lang="cy">Ysgol Gynradd Llanllyfni</CommonName>
+          <ShortCommonName>Ysgol Llanllyfni</ShortCommonName>
           <Street>Rhedyw Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7132,12 +7228,14 @@
       <NaptanCode>gwngpmg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Llwyd Coed Bach Cross</CommonName>
+        <ShortCommonName>Llwyd Coed Bach</ShortCommonName>
         <Street>A487</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:03">
           <CommonName xml:lang="cy">Crwys Llwyd Coed Bach</CommonName>
+          <ShortCommonName>Llwyd Coed Bach</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7221,7 +7319,7 @@
       <NaptanCode>gwnjadp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Capel Nebo War Memorial</CommonName>
-        <ShortCommonName>Capel</ShortCommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Landmark>War Memorial</Landmark>
         <Street>Ffordd Nebo</Street>
         <Crossing>Ffordd Cors y Llyn</Crossing>
@@ -7230,6 +7328,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:01">
           <CommonName xml:lang="cy">Cofeb Rhyfel Capel Nebo</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
           <Street>Ffordd Nebo</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7627,6 +7726,7 @@
       <NaptanCode>gwndwdp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Cyffordd Cwm Pennant</CommonName>
+        <ShortCommonName>Cyffordd</ShortCommonName>
         <Landmark>Dolbenmaen Turn</Landmark>
         <Street>A487</Street>
         <Indicator>before</Indicator>
@@ -7634,6 +7734,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:04">
           <CommonName xml:lang="cy">Cyffordd Cwm Pennant</CommonName>
+          <ShortCommonName>Cyffordd</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7853,6 +7954,7 @@
       <NaptanCode>gwnpjgm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">St Mary`s Church</CommonName>
+        <ShortCommonName>Eglwys y St Fair</ShortCommonName>
         <Street>Church Street</Street>
         <Crossing>Is-graig</Crossing>
         <Indicator>before</Indicator>
@@ -7860,6 +7962,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:11">
           <CommonName xml:lang="cy">Eglwys y Santes Fair</CommonName>
+          <ShortCommonName>Eglwys y St Fair</ShortCommonName>
           <Street>Church Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -8684,7 +8787,7 @@
       <AtcoCode>5400AWD70274</AtcoCode>
       <NaptanCode>gwnjptj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Porthmadog Park Stand A</CommonName>
+        <CommonName xml:lang="cy">Porthmadog Park A</CommonName>
         <Street>High Street</Street>
         <Crossing>Madog Street</Crossing>
         <Indicator>at</Indicator>
@@ -8781,6 +8884,7 @@
       <NaptanCode>gwngwpg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Nannau Home Farm</CommonName>
+        <ShortCommonName>Farm</ShortCommonName>
         <Landmark>Nannau Home Farm</Landmark>
         <Street>Main Road</Street>
         <Indicator>o/s</Indicator>
@@ -8788,6 +8892,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:14">
           <CommonName xml:lang="cy">Fferm Cartref Nannau</CommonName>
+          <ShortCommonName>Fferm</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -8886,6 +8991,7 @@
       <NaptanCode>gwngmwm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Llanfachreth War Memorial</CommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Landmark>St Machreth`s Church</Landmark>
         <Street>Main Road</Street>
         <Indicator>after</Indicator>
@@ -8893,6 +8999,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:01">
           <CommonName xml:lang="cy">Cofeb Rhyfel Llanfachreth</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -9329,7 +9436,8 @@
       <AtcoCode>5400AWD70566</AtcoCode>
       <NaptanCode>gwngtaw</NaptanCode>
       <Descriptor>
-        <CommonName>Ysgol Gynradd O M Edwards</CommonName>
+        <CommonName xml:lang="cy">Ysgol Gynradd O M Edwards</CommonName>
+        <ShortCommonName>Ysgol O M Edwards</ShortCommonName>
         <Landmark>Ysgol Gynradd O M Edwards</Landmark>
         <Street>A494</Street>
         <Crossing>B4403</Crossing>
@@ -9337,7 +9445,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:53">
-          <CommonName xml:lang="CY">Ysgol Gynradd O M Edwards</CommonName>
+          <CommonName xml:lang="cy">Ysgol Gynradd O M Edwards</CommonName>
+          <ShortCommonName>Ysgol O M Edwards</ShortCommonName>
+          <Street>A494</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -9512,12 +9622,14 @@
       <NaptanCode>gwngtwa</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Glanllyn Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Street>A494</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:01">
           <CommonName xml:lang="cy">Parc Carafanau Glanffynnon</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>A494</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -9867,12 +9979,14 @@
       <NaptanCode>gwngjmj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Bryn Melyn Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Street>B4401</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:00">
           <CommonName xml:lang="cy">Parc Carafanau Bryn Melyn</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>B4402</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -9910,6 +10024,7 @@
       <NaptanCode>gwnapwp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Blaenau Ffestiniog Station Stand C</CommonName>
+        <ShortCommonName>Station Stand C</ShortCommonName>
         <Landmark>Blaenau Ffestiniog Station</Landmark>
         <Street>Railway Station Car Park</Street>
         <Crossing>Church Street</Crossing>
@@ -9917,7 +10032,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:29">
-          <CommonName xml:lang="cy">Gorsaf Reilffordd C Blaenau Ffestiniog</CommonName>
+          <CommonName xml:lang="cy">Gorsaf C Blaenau Ffestiniog</CommonName>
+          <ShortCommonName>Gorsaf C</ShortCommonName>
           <Street>Railway Station Car Park</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -9964,6 +10080,7 @@
       <NaptanCode>gwnatdg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Wynne Road Health Centre</CommonName>
+        <ShortCommonName>Health Centre</ShortCommonName>
         <Street>Wynne Road</Street>
         <Crossing>Wynne Avenue</Crossing>
         <Indicator>o/s</Indicator>
@@ -9971,6 +10088,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-14T18:41:36">
           <CommonName xml:lang="cy">Wynne Road Health Centre</CommonName>
+          <ShortCommonName>Canolfan Iechyd</ShortCommonName>
           <Street>Wynne Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -10501,12 +10619,14 @@
       <NaptanCode>gwnpdwp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Rhes Oakeley Terrace</CommonName>
+        <ShortCommonName>Rhes Oakeley</ShortCommonName>
         <Street>A470</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:15">
           <CommonName xml:lang="cy">Teras Rhes Oakeley</CommonName>
+          <ShortCommonName>Rhes Oakeley</ShortCommonName>
           <Street>A470</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -12095,6 +12215,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:04">
           <CommonName xml:lang="cy">Cyfnewidfa Llanberis</CommonName>
+          <ShortCommonName>Cyfnewidfa</ShortCommonName>
           <Street>A4086</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -12133,6 +12254,7 @@
       <NaptanCode>gwngjdt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Llanberis Interchange</CommonName>
+        <ShortCommonName>Interchange</ShortCommonName>
         <Landmark>Llanberis SMR Station</Landmark>
         <Street>A4086</Street>
         <Indicator>o/s</Indicator>
@@ -12140,6 +12262,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:04">
           <CommonName xml:lang="cy">Cyfnewidfa Llanberis</CommonName>
+          <ShortCommonName>Cyfnewidfa</ShortCommonName>
           <Street>A4086</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -12150,7 +12273,7 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>258210</Easting>
-            <Northing>359898</Northing>
+            <Northing>359897</Northing>
             <Longitude>-4.120069</Longitude>
             <Latitude>53.117348</Latitude>
           </Translation>
@@ -12775,6 +12898,7 @@
       <NaptanCode>gwngpwm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ysgol Gynradd Llanrug</CommonName>
+        <ShortCommonName>Ysgol Llanrug</ShortCommonName>
         <Landmark>Ysgol Gynradd Llanrug</Landmark>
         <Street>Llanberis Road</Street>
         <Crossing>Station Road</Crossing>
@@ -12783,6 +12907,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:52">
           <CommonName xml:lang="cy">Ysgol Gynradd Llanrug</CommonName>
+          <ShortCommonName>Ysgol Llanrug</ShortCommonName>
           <Street>Llanberis Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -13001,6 +13126,7 @@
       <NaptanCode>gwnptjg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Snowdonia Park Hotel</CommonName>
+        <ShortCommonName>Hotel</ShortCommonName>
         <Landmark>Waenfawr Rail Station</Landmark>
         <Street>A4085</Street>
         <Indicator>after</Indicator>
@@ -13008,6 +13134,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:21">
           <CommonName xml:lang="cy">Snowdonia Park Hotel</CommonName>
+          <ShortCommonName>Gwesty</ShortCommonName>
           <Street>A4085</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -13225,6 +13352,7 @@
       <NaptanCode>gwnpagw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Gorsaf Rhyd Ddu WHR Station</CommonName>
+        <ShortCommonName>Gorsaf Rhyd Ddu</ShortCommonName>
         <Landmark>Gorsaf Rhyd Ddu WHR Station</Landmark>
         <Street>A4085</Street>
         <Indicator>after</Indicator>
@@ -13232,6 +13360,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:33">
           <CommonName xml:lang="cy">Gorsaf Rhyd Ddu</CommonName>
+          <ShortCommonName>Gorsaf Rhyd Ddu</ShortCommonName>
           <Street>A4085</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -13401,13 +13530,15 @@
       <AtcoCode>5400AWD70791</AtcoCode>
       <NaptanCode>gwnjgjt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Minffordd Railway Station</CommonName>
+        <CommonName xml:lang="cy">Minffordd Ffestiniog Railway Station</CommonName>
+        <ShortCommonName>Minffordd Station</ShortCommonName>
         <Street>A487</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:30">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Minffordd Ffestiniog</CommonName>
+          <ShortCommonName>Gorsaf Minffordd</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -13788,11 +13919,13 @@
       <NaptanCode>gwnwdjw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Nyth Robin Campsite</CommonName>
+        <ShortCommonName>Campsite</ShortCommonName>
         <Street>A493</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-02-05T14:41:27">
           <CommonName xml:lang="cy">Maes Gwersylla Nyth Robin</CommonName>
+          <ShortCommonName>Maes Gwersylla</ShortCommonName>
           <Street>A493</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14216,6 +14349,7 @@
       <NaptanCode>gwnjgtd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Glan y Nant</Landmark>
         <Street>A497</Street>
         <Indicator>after</Indicator>
@@ -14223,6 +14357,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:26">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>A497</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14663,6 +14798,7 @@
       <NaptanCode>gwndmjw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Criccieth Post Office</Landmark>
         <Street>High Street</Street>
         <Crossing>Parciau Terrace</Crossing>
@@ -14671,6 +14807,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:26">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>High Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14709,6 +14846,7 @@
       <NaptanCode>gwndmpw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Criccieth Post Office</Landmark>
         <Street>High Street</Street>
         <Crossing>Parciau Terrace</Crossing>
@@ -14717,6 +14855,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>High Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -16863,12 +17002,14 @@
       <NaptanCode>gwnpdma</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Morfa`r Garreg Middle</CommonName>
+        <ShortCommonName>Morfa`r Garreg</ShortCommonName>
         <Street>Morfa`r Garreg</Street>
         <Indicator>o/s 27</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:55">
           <CommonName xml:lang="cy">Morfa`r Garreg Canol</CommonName>
+          <ShortCommonName>Morfa`r Garreg</ShortCommonName>
           <Street>Morfa`r Garreg</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -17041,6 +17182,7 @@
       <NaptanCode>gwndtgm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Street>A497</Street>
         <Crossing>Parc yr Efail</Crossing>
         <Indicator>before</Indicator>
@@ -17048,6 +17190,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>A497</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -17173,6 +17316,7 @@
       <NaptanCode>gwngtmg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Llithfaen Post Office</Landmark>
         <Street>B4417</Street>
         <Indicator>opp</Indicator>
@@ -17180,6 +17324,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>B4417</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18032,6 +18177,7 @@
       <NaptanCode>gwndgwg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Carmel Post Office</Landmark>
         <Street>Main Road</Street>
         <Indicator>o/s Awelon</Indicator>
@@ -18039,6 +18185,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -19001,6 +19148,7 @@
       <NaptanCode>gwndpdw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Dinas Dinlle Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Landmark>Dinas Dinlle Caravan Park</Landmark>
         <Street>Main Road</Street>
         <Indicator>o/s</Indicator>
@@ -19008,6 +19156,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:01">
           <CommonName xml:lang="cy">Parc Carafanau Dinas Dinlle</CommonName>
+          <ShortCommonName>Caravan Park</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -19046,6 +19195,7 @@
       <NaptanCode>gwndpdt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caernarfon Airport</CommonName>
+        <ShortCommonName>Airport</ShortCommonName>
         <Landmark>Caernarfon Airport</Landmark>
         <Street>Main Road</Street>
         <Indicator>o/s</Indicator>
@@ -19053,6 +19203,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:48">
           <CommonName xml:lang="cy">Maes Awyr Caernarfon</CommonName>
+          <ShortCommonName>Maes Awyr</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -19134,12 +19285,14 @@
       <NaptanCode>gwngmga</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Street>Main Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -19931,6 +20084,7 @@
       <NaptanCode>gwndmga</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Corris Uchaf Post Office</Landmark>
         <Street>A487</Street>
         <Indicator>after Post Box</Indicator>
@@ -19938,6 +20092,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -19976,12 +20131,14 @@
       <NaptanCode>gwndmdj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Corris Craft Centre</CommonName>
+        <ShortCommonName>Craft Centre</ShortCommonName>
         <Street>A487</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:48">
           <CommonName xml:lang="cy">Canolfan Grefft Corris</CommonName>
+          <ShortCommonName>Canolfan Grefft</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20064,6 +20221,7 @@
       <NaptanCode>gwndmdg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Corris Railway Station</CommonName>
+        <ShortCommonName>Corris Station</ShortCommonName>
         <Landmark>Corris Railway Station</Landmark>
         <Street>Bridge Street</Street>
         <Crossing>Minffordd Street</Crossing>
@@ -20072,6 +20230,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:29">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Corris</CommonName>
+          <ShortCommonName>Gorsaf Corris</ShortCommonName>
           <Street>Bridge Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20154,12 +20313,14 @@
       <NaptanCode>gwndmdp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Garneddwen War Memorial</CommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Street>Main Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:01">
           <CommonName xml:lang="cy">Cofeb Rhyfel Garneddwen</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20197,6 +20358,7 @@
       <NaptanCode>gwnadwd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Aberllefenni War Memorial</CommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Street>Pensarn</Street>
         <Crossing>Maes yr Orsaf</Crossing>
         <Indicator>o/s</Indicator>
@@ -20204,6 +20366,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:01">
           <CommonName xml:lang="cy">Cofeb Rhyfel Aberllefenni</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
           <Street>Pensarn</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -21359,12 +21522,14 @@
       <NaptanCode>gwngtpm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Sun Beach Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Street>A493</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:01">
           <CommonName xml:lang="cy">Parc Carafanau Sun Beach</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>A493</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -21842,6 +22007,7 @@
       <NaptanCode>gwnadwa</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Abergynolwyn Talyllyn Railway Station</CommonName>
+        <ShortCommonName>Station</ShortCommonName>
         <Landmark>Abergynolwyn Talyllyn Railway Station</Landmark>
         <Street>B4405</Street>
         <Crossing>Station Approach</Crossing>
@@ -21850,6 +22016,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:27">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Abergynolwyn Talyllyn</CommonName>
+          <ShortCommonName>Gorsaf</ShortCommonName>
           <Street>B4405</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -21933,12 +22100,14 @@
       <NaptanCode>gwnawtj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Woodlands Holiday Park</CommonName>
+        <ShortCommonName>Holiday Park</ShortCommonName>
         <Street>B4405</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:02">
           <CommonName xml:lang="cy">Parc Gwyliau Coetiroedd</CommonName>
+          <ShortCommonName>Parc Gwyliau</ShortCommonName>
           <Street>B4405</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -22424,6 +22593,7 @@
       <NaptanCode>gwnpjtw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ysgol Uwchradd Tywyn</CommonName>
+        <ShortCommonName>Ysgol Tywyn</ShortCommonName>
         <Landmark>Ysgol Uwchradd Tywyn</Landmark>
         <Street>Neptune Road</Street>
         <Crossing>Ffordd Alban</Crossing>
@@ -22432,6 +22602,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:54">
           <CommonName xml:lang="cy">Ysgol Uwchradd Tywyn</CommonName>
+          <ShortCommonName>Ysgol Tywyn</ShortCommonName>
           <Street>Neptune Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -22561,12 +22732,14 @@
       <NaptanCode>gwnadjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caethle Caravan Site</CommonName>
+        <ShortCommonName>Caravan Site</ShortCommonName>
         <Street>A493</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:01">
           <CommonName xml:lang="cy">Parc Carafanau Caethle</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>A493</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -22741,6 +22914,7 @@
       <NaptanCode>gwnjdgw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Penhelig Railway Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Landmark>Penhelig Railway Station</Landmark>
         <Street>Terrace Road</Street>
         <Crossing>Nantiestyn</Crossing>
@@ -22749,6 +22923,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:31">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Penhelig</CommonName>
+          <ShortCommonName>Gorsaf Penhelig</ShortCommonName>
           <Street>Terrace Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -22922,6 +23097,7 @@
       <NaptanCode>gwngwda</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Minllyn War Memorial</CommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Landmark>Minllyn War Memorial</Landmark>
         <Street>A470</Street>
         <Indicator>opp</Indicator>
@@ -22929,6 +23105,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:01">
           <CommonName xml:lang="cy">Cofeb Rhyfel Minllyn</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
           <Street>A470</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -22967,6 +23144,7 @@
       <NaptanCode>gwndpja</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Dinas Mawddwy Post Ofice</Landmark>
         <Street>Main Road</Street>
         <Indicator>before</Indicator>
@@ -22974,6 +23152,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23012,6 +23191,7 @@
       <NaptanCode>gwnptad</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Margaret Street Subway</CommonName>
+        <ShortCommonName>Subway</ShortCommonName>
         <Street>Tanrallt</Street>
         <Crossing>Margaret Street</Crossing>
         <Indicator>o/s</Indicator>
@@ -23019,6 +23199,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-18T14:32:38">
           <CommonName xml:lang="cy">Margaret Street Subway</CommonName>
+          <ShortCommonName>Subway</ShortCommonName>
           <Street>Tanrallt</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23288,6 +23469,7 @@
       <NaptanCode>gwndgap</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Lon Eilian West</CommonName>
+        <ShortCommonName>Lon Eilian</ShortCommonName>
         <Street>Lon Eilian</Street>
         <Crossing>Lon y Bryn</Crossing>
         <Indicator>o/s 47</Indicator>
@@ -23295,6 +23477,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:46">
           <CommonName xml:lang="cy">Lon Eilian Gorllewin</CommonName>
+          <ShortCommonName>Lon Eilian</ShortCommonName>
           <Street>Lon Eilian</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23467,6 +23650,7 @@
       <NaptanCode>gwnpmwj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caernarfon TA Centre</CommonName>
+        <ShortCommonName>TA Centre</ShortCommonName>
         <Landmark>Caernarfon TA Centre</Landmark>
         <Street>Lon Ysgol Rad</Street>
         <Crossing>Allt Cadnant</Crossing>
@@ -23475,6 +23659,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-18T14:40:17">
           <CommonName xml:lang="cy">Caernarfon TA Centre</CommonName>
+          <ShortCommonName>TA Centre</ShortCommonName>
           <Street>Lon Ysgol Rad</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23512,6 +23697,7 @@
       <NaptanCode>gwndatj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caernarfon Magistrates Court</CommonName>
+        <ShortCommonName>Magistrates Court</ShortCommonName>
         <Landmark>Ysgol Syr Hugh Owen Isa</Landmark>
         <Street>Llanberis Road</Street>
         <Crossing>Ffordd Ysgubor Goch</Crossing>
@@ -23520,6 +23706,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:45">
           <CommonName xml:lang="cy">Llys Ynadon Caernarfon</CommonName>
+          <ShortCommonName>Llys Ynadon</ShortCommonName>
           <Street>Llanberis Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23690,6 +23877,7 @@
       <NaptanCode>gwndgjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Cibyn Industrial Estate</CommonName>
+        <ShortCommonName>Industrial Estate</ShortCommonName>
         <Street>Llanberis Road</Street>
         <Crossing>Cae Garw Road</Crossing>
         <Indicator>o/s</Indicator>
@@ -23697,6 +23885,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:22">
           <CommonName xml:lang="cy">Stad Ddiwydiannol Cibyn</CommonName>
+          <ShortCommonName>Stad Ddiwydiannol</ShortCommonName>
           <Street>Llanberis Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -24891,7 +25080,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-10-18T15:15:49">
-          <CommonName xml:lang="cy">Dinorwig Terminus</CommonName>
+          <CommonName xml:lang="cy">Terminws Dinorwig</CommonName>
           <Street>Turning Circle</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -25619,7 +25808,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:35">
-          <CommonName xml:lang="cy">Groesffordd Griffiths</CommonName>
+          <CommonName xml:lang="cy">Ffordd Griffiths</CommonName>
           <Street>Caernarfon Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -26569,6 +26758,7 @@
       <NaptanCode>gwnptdm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Arfon Leisure Centre</CommonName>
+        <ShortCommonName>Leisure Centre</ShortCommonName>
         <Street>Bethel Road</Street>
         <Crossing>Fford Cwellyn</Crossing>
         <Indicator>o/s</Indicator>
@@ -26576,6 +26766,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:49">
           <CommonName xml:lang="cy">Canolfan Hamdden Arfon</CommonName>
+          <ShortCommonName>Canolfan Hamdden</ShortCommonName>
           <Street>Bethel Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -26748,6 +26939,7 @@
       <NaptanCode>gwnapjd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ysgol Gynradd Bethel</CommonName>
+        <ShortCommonName>Ysgol Bethel</ShortCommonName>
         <Landmark>Ysgol Gynradd Bethel</Landmark>
         <Street>Bethel Road</Street>
         <Indicator>after</Indicator>
@@ -26755,6 +26947,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:52">
           <CommonName xml:lang="cy">Ysgol Gynradd Bethel</CommonName>
+          <ShortCommonName>Ysgol Bethel</ShortCommonName>
           <Street>Bethel Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -27282,12 +27475,14 @@
       <NaptanCode>gwngdpt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Crugan Caravan Site</CommonName>
+        <ShortCommonName>Caravan Site</ShortCommonName>
         <Street>A499</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:01">
           <CommonName xml:lang="cy">Parc Carafanau Crugan</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>A499</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -27546,6 +27741,7 @@
       <NaptanCode>gwnpgjd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Abersoch Garden Centre</CommonName>
+        <ShortCommonName>Garden Centre</ShortCommonName>
         <Landmark>Abersoch Garden Centre</Landmark>
         <Street>A499</Street>
         <Indicator>opp</Indicator>
@@ -27553,6 +27749,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:48">
           <CommonName xml:lang="cy">Canolfan Arddio Abersoch</CommonName>
+          <ShortCommonName>Canolfan Arddio</ShortCommonName>
           <Street>A499</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -27856,6 +28053,7 @@
       <NaptanCode>gwnagdp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Abersoch Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Abersoch Village Hall</Landmark>
         <Street>Lon Gwydryn</Street>
         <Indicator>before</Indicator>
@@ -27863,6 +28061,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:59">
           <CommonName xml:lang="cy">Neuadd y Pentref Abersoch</CommonName>
+          <ShortCommonName>Neuadd y Pentref</ShortCommonName>
           <Street>Lon Gwydryn</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -28624,6 +28823,7 @@
       <NaptanCode>gwngwmt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Mynytho Post Office</Landmark>
         <Street>B4413</Street>
         <Indicator>before</Indicator>
@@ -28631,6 +28831,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>B4413</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29293,6 +29494,7 @@
       <NaptanCode>gwnpatg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Tafarn Pen y Bont</Landmark>
         <Street>B4413</Street>
         <Indicator>before</Indicator>
@@ -29300,6 +29502,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>B4413</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29473,6 +29676,7 @@
       <NaptanCode>gwnawam</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Nanhoron Crossroads</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Street>B4413</Street>
         <Crossing>B4415</Crossing>
         <Indicator>adj Postbox</Indicator>
@@ -29480,6 +29684,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:35">
           <CommonName xml:lang="cy">Groesffordd Nanhoron</CommonName>
+          <ShortCommonName>Groesffordd</ShortCommonName>
           <Street>B4413</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29606,12 +29811,14 @@
       <NaptanCode>gwngdwj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Street>Ffordd Pedrog</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Ffordd Pedrog</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29696,6 +29903,7 @@
       <NaptanCode>gwngdwm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ysgol Gynradd Llanbedrog</CommonName>
+        <ShortCommonName>Ysgol Llanbedrog</ShortCommonName>
         <Landmark>Ysgol Gynradd Llanbedrog</Landmark>
         <Street>Ffordd Pedrog</Street>
         <Indicator>opp</Indicator>
@@ -29703,6 +29911,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:52">
           <CommonName xml:lang="cy">Ysgol Gynradd Llanbedrog</CommonName>
+          <ShortCommonName>Ysgol Llanbedrog</ShortCommonName>
           <Street>Ffordd Pedrog</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29741,12 +29950,14 @@
       <NaptanCode>gwngdtg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Glyn y Weddw West</CommonName>
+        <ShortCommonName>Glyn y Weddw</ShortCommonName>
         <Street>B4413</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:24">
           <CommonName xml:lang="cy">Gorllewin Glyn y Weddw</CommonName>
+          <ShortCommonName>Glyn y Weddw</ShortCommonName>
           <Street>B4413</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -31121,6 +31332,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:33:27">
           <CommonName xml:lang="cy">Gorsaf Heddlu Llanaelhaearn</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>B4417</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -31650,12 +31862,14 @@
       <NaptanCode>gwnpjpa</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Tudweiliog Camping Site</CommonName>
+        <ShortCommonName>Camping Site</ShortCommonName>
         <Street>B4417</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:18">
           <CommonName xml:lang="cy">Safle Gwersylla Tudweiliog</CommonName>
+          <ShortCommonName>Safle Gwersylla</ShortCommonName>
           <Street>B4417</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -31694,6 +31908,7 @@
       <NaptanCode>gwnpjpg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Swyddfa'r Post Office</CommonName>
+        <ShortCommonName>Swyddfa'r Post</ShortCommonName>
         <Landmark>Tudweiliog Post Office</Landmark>
         <Street>New Terrace</Street>
         <Indicator>before</Indicator>
@@ -31701,6 +31916,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:34:27">
           <CommonName xml:lang="cy">Swyddfa'r Post</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>New Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -81752,6 +81968,7 @@
       <NaptanCode>gwntwjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Brynrefail Minffordd</CommonName>
+        <ShortCommonName>Brynrefail</ShortCommonName>
         <Landmark>Brynrefail Minffordd</Landmark>
         <Street>A4244</Street>
         <Indicator>o/s</Indicator>
@@ -81759,6 +81976,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:32:43">
           <CommonName xml:lang="cy">Brynrefail Minffordd</CommonName>
+          <ShortCommonName>Brynrefail</ShortCommonName>
           <Street>A4244</Street>
         </Descriptor>
       </AlternativeDescriptors>
