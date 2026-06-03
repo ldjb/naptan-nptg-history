@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-04-20T10:03:47.480" ModificationDateTime="2026-04-20T10:03:47.480" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-06-02T09:05:01.836" ModificationDateTime="2026-06-02T09:05:01.836" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-03-22T00:00:00.000" ModificationDateTime="2011-05-11T11:44:23.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>269000T01</AtcoCode>
@@ -6252,7 +6252,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2011-02-15T00:00:00.000" Modification="revise" RevisionNumber="1" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-05-21T12:00:48.581" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>269031037</AtcoCode>
 <NaptanCode>lecdjdaj</NaptanCode>
 <Descriptor>
@@ -31116,25 +31116,26 @@
 <PlusbusZoneRef CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2012-01-24T09:28:01.000" Modification="revise" RevisionNumber="2" Status="active">LESTER</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2013-09-13T11:20:01.000" Modification="revise" RevisionNumber="5" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-05-21T11:53:03.602" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>269043002</AtcoCode>
 <NaptanCode>lecdgatd</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Greengate Lane</CommonName>
-<Landmark xml:lang="en">Greengate Lane</Landmark>
-<Street xml:lang="en">Leicester Road</Street>
+<CommonName xml:lang="en">Long Spinney</CommonName>
+<Landmark xml:lang="en">Long Spinney</Landmark>
+<Street xml:lang="en">Bevan Road</Street>
 <Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0057189</NptgLocalityRef>
+<Town>Glebelands</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>457414</Easting>
+<Northing>309943</Northing>
+<Longitude>-1.152119</Longitude>
+<Latitude>52.684165</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -31143,36 +31144,45 @@
 <OnStreet>
 <Bus>
 <BusStopType>MKD</BusStopType>
-<TimingStatus>OTH</TimingStatus>
+<TimingStatus>TIP</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>S</CompassPoint>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-05-21</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2011-05-16T10:16:48.000" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-05-21T11:58:22.970" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>269043003</AtcoCode>
 <NaptanCode>lecdgatg</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Greengate Lane</CommonName>
-<Landmark xml:lang="en">Greengate Lane</Landmark>
-<Street xml:lang="en">Leicester Road</Street>
+<CommonName xml:lang="en">Long Spinney</CommonName>
+<Landmark xml:lang="en">Long Spinney</Landmark>
+<Street xml:lang="en">Bevan Road</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0057189</NptgLocalityRef>
+<Town>Glebelands</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>457410</Easting>
+<Northing>309932</Northing>
+<Longitude>-1.152177</Longitude>
+<Latitude>52.684066</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -31180,13 +31190,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>TIP</TimingStatus>
+<MarkedPoint>
 <Bearing>
-<CompassPoint>N</CompassPoint>
+<CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -63253,7 +63263,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-06-18T00:00:00.000" ModificationDateTime="2014-07-24T12:17:48.000" Modification="revise" RevisionNumber="8" Status="inactive">
+<StopPoint CreationDateTime="2003-06-18T00:00:00.000" ModificationDateTime="2026-05-21T12:32:46.124" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>269070162</AtcoCode>
 <NaptanCode>lecdmjtd</NaptanCode>
 <Descriptor>
