@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.2/NaPTAN.xsd" CreationDateTime="2026-05-15T19:57:42.362" ModificationDateTime="2026-05-15T19:57:42.362" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.2" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-03T10:24:14.878" ModificationDateTime="2026-06-03T10:24:14.878" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -96164,12 +96164,13 @@
 </StopClassification>
 <AdministrativeAreaRef>135</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-05-13T11:55:33.239" ModificationDateTime="2026-05-13T11:57:25.303" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2026-05-13T11:55:33.239" ModificationDateTime="2026-05-18T09:42:45.543" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64802761</AtcoCode>
 <NaptanCode>73729623</NaptanCode>
 <Descriptor>
-<CommonName>Ballinluig Park &amp; Ride</CommonName>
-<Street>Access Road to Park &amp; Ride</Street>
+<CommonName>Ballinluig Park + Ride</CommonName>
+<Street>Access Road</Street>
+<Indicator>at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0068253</NptgLocalityRef>
@@ -96264,6 +96265,150 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-03T09:55:45.485" ModificationDateTime="2026-06-03T09:55:45.485" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802764</AtcoCode>
+<NaptanCode>73729626</NaptanCode>
+<Descriptor>
+<CommonName>Quarry Road</CommonName>
+<Street>Glengarry Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002646</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311103</Easting>
+<Northing>721990</Northing>
+<Longitude>-3.4412006</Longitude>
+<Latitude>56.3817963</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-03T10:02:06.171" ModificationDateTime="2026-06-03T10:02:06.171" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802765</AtcoCode>
+<NaptanCode>73729627</NaptanCode>
+<Descriptor>
+<CommonName>Glenlyon Road</CommonName>
+<Street>Glenlyon Road</Street>
+<Indicator>opp 5</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002646</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311351</Easting>
+<Northing>722041</Northing>
+<Longitude>-3.4372068</Longitude>
+<Latitude>56.3823026</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-03T10:07:31.130" ModificationDateTime="2026-06-03T10:07:31.130" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802766</AtcoCode>
+<NaptanCode>73729628</NaptanCode>
+<Descriptor>
+<CommonName>Edwards Engineering</CommonName>
+<Street>Glenearn Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002646</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311403</Easting>
+<Northing>722166</Northing>
+<Longitude>-3.4364067</Longitude>
+<Latitude>56.3834312</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-03T10:10:54.899" ModificationDateTime="2026-06-03T10:10:54.899" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>64802767</AtcoCode>
+<NaptanCode>73729632</NaptanCode>
+<Descriptor>
+<CommonName>Glenearn Carpets</CommonName>
+<Street>Glenearn Road</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES002646</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>311361</Easting>
+<Northing>722390</Northing>
+<Longitude>-3.4371623</Longitude>
+<Latitude>56.3854356</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -102585,6 +102730,36 @@
 <Northing>722601</Northing>
 <Longitude>-3.4789806</Longitude>
 <Latitude>56.3868406</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2007-02-12T00:00:00.000" ModificationDateTime="2007-02-12T00:00:00.000" Modification="delete" RevisionNumber="5" Status="inactive">
+<StopAreaCode>648G1285</StopAreaCode>
+<Name>Birnam Hotel</Name>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>303138</Easting>
+<Northing>741896</Northing>
+<Longitude>-3.577536</Longitude>
+<Latitude>56.558999</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2007-02-12T00:00:00.000" ModificationDateTime="2007-02-12T00:00:00.000" Modification="delete" RevisionNumber="1" Status="inactive">
+<StopAreaCode>648G221434</StopAreaCode>
+<Name>Caravan Site</Name>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+<StopAreaType>GPBS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>286074</Easting>
+<Northing>749364</Northing>
+<Longitude>-3.858301</Longitude>
+<Latitude>56.622214</Latitude>
 </Translation>
 </Location>
 </StopArea>
