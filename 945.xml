@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/" CreationDateTime="2026-06-01T11:30:00" ModificationDateTime="2026-06-01T11:30:00" Modification="new" RevisionNumber="0" FileName="NaPTAN945.xml" SchemaVersion="2.1" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd">
+<StopPoints>
+    <StopPoint CreationDateTime="2026-06-01T11:30:00" ModificationDateTime="2026-06-01T11:30:00" Modification="new" RevisionNumber="0" Status="active">
+        <AtcoCode>9450ZZLTLUA0</AtcoCode>
+        <Descriptor>
+            <CommonName>Luton Airport DART Station</CommonName>
+            <Street>Luton Airport</Street>
+        </Descriptor>
+        <Place>
+            <NptgLocalityRef>N0060524</NptgLocalityRef>
+            <Suburb>Luton International Airport</Suburb>
+            <Town>Luton</Town>
+            <LocalityCentre>1</LocalityCentre>
+            <Location>
+                <Translation>
+                    <GridType>UKOS</GridType>
+                    <Easting>512053</Easting>
+                    <Northing>221259</Northing>
+                    <Longitude>-0.37358</Longitude>
+                    <Latitude>51.87865</Latitude>
+                </Translation>
+            </Location>
+        </Place>
+        <StopClassification>
+            <StopType>MET</StopType>
+            <OffStreet>
+                <Metro>
+                    <AccessArea />
+                </Metro>
+            </OffStreet>
+        </StopClassification>
+        <StopAreas>
+            <StopAreaRef CreationDateTime="2026-06-01T11:30:00" ModificationDateTime="2026-06-01T11:30:00" Modification="new" RevisionNumber="0" Status="active">945GZZLTLUA</StopAreaRef>
+        </StopAreas>
+        <AdministrativeAreaRef>149</AdministrativeAreaRef>
+    </StopPoint>
+</StopPoints>
+<StopAreas>
+    <StopArea CreationDateTime="2026-06-01T11:30:00" ModificationDateTime="2026-06-01T11:30:00" Modification="new" RevisionNumber="0" Status="active">
+        <StopAreaCode>945GZZLTLUA</StopAreaCode>
+        <Name>Luton Airport DART Station</Name>
+        <AdministrativeAreaRef>149</AdministrativeAreaRef>
+        <StopAreaType>GTMU</StopAreaType>
+        <Location>
+            <Translation>
+                <GridType>UKOS</GridType>
+                <Easting>512053</Easting>
+                <Northing>221259</Northing>
+                <Longitude>-0.37358</Longitude>
+                <Latitude>51.87865</Latitude>
+            </Translation>
+        </Location>
+    </StopArea>
+</StopAreas>
+</NaPTAN>
