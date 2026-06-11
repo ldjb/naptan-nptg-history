@@ -7,7 +7,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600FROME0,,,,Frome Rail Station,,,,,,,,,,Entrance,,,E0050788,Frome,,,,,,,false,UKOS,378450,147610,-2.31,51.22727,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T10:54:11,0,new,active
 3600HGHBRDG0,,,,Highbridge & Burnham-on-Sea Rail Station,,,,,,,,,,Entrance,,,E0022550,Highbridge,Burnham-on-Sea,,,,,,false,UKOS,332205,147027,-2.97209,51.2184,RSE,,,,,,098,2015-11-12T00:00:00,2015-11-12T09:35:07,1,new,active
 3600TAUNTON0,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322750,125430,-3.10281,51.02303,RSE,,,,,,098,2015-11-12T00:00:00,2015-11-12T09:46:14,1,new,active
-3600TAUNTON1,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322709,125486,-3.1034,51.02353,RSE,,,,,,098,2026-06-03T14:14:34.0318594+01:00,2015-11-12T09:46:14,1,new,active
+3600TAUNTON1,,,,Taunton Rail Station,,,,,,,,,,Entrance,,,E0023200,Taunton,,,,,,,false,UKOS,322709,125486,-3.1034,51.02353,RSE,,,,,,098,2026-06-10T14:43:26.3886248+01:00,2015-11-12T09:46:14,1,new,active
 3600TMPCMB0,,,,Templecombe Rail Station,,,,,,,,,,Entrance,,,N0074077,Templecombe,,,,,,,false,UKOS,370810,122548,-2.41737,51.00157,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:00:29,0,new,active
 3600YOVILJN0,,,,Yeovil Junction Rail Station,,,,,,,,,,Entrance,,,E0051002,Yeovil,,,,,,,false,UKOS,357008,114084,-2.61305,50.9246,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:22:46,0,new,active
 3600YOVILPM0,,,,Yeovil Pen Mill Rail Station,,,,,,,,,,Entrance,,,E0051002,Yeovil,,,,,,,false,UKOS,357023,116331,-2.6131,50.94481,RSE,,,,,,098,2011-02-15T00:00:00,2011-02-15T12:23:39,0,new,active
@@ -340,7 +340,19 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOA10202,sotadgaw,,,Selworthy Turn,,,,,,A39,,,,NW-bound,,NW,E0051082,Selworthy,,,,,,,false,UKOS,291316,146205,-3.55711,51.20468,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T14:23:06,57,new,active
 3600SOA10203,sotadgap,,,Selworthy Turn,,,,,,A39,,,,SE-bound,,SE,E0051082,Selworthy,,,,,,,false,UKOS,291295,146236,-3.55742,51.20496,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T14:23:06,55,new,active
 3600SOA30615,sotdjdtg,,,Kings Arms,,,,,,unnamed Road,,,,opp,,E,E0050904,Charlton Horethorne,,,,,,,false,UKOS,366488,123225,-2.47902,51.00743,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:03:47,61,new,active
-3600SOA30525,sotdgagw,,,Bus Station,,,,,,,,,,E-bound,,,E0051002,Yeovil,,,,,,,false,UKOS,356024,116037,-2.62729,50.94209,BCS,,,,,,098,2006-11-03T00:00:00,2025-08-14T15:04:24,66,new,active
+3600SOA30525,sotdgagw,,,Bus Station,,,,,,,,,,"Bay 1 ",,,E0051002,Yeovil,,,,,,,false,UKOS,355995,116059,-2.6277,50.94228,BCS,,,,,,098,2006-11-03T00:00:00,2026-06-08T10:05:57,96,new,active
+3600SOA30526,sotdwdgw,,,Bus Station,,,,,,,,,,Bay 2,,,E0051002,Yeovil,,,,,,,false,UKOS,355994,116053,-2.62772,50.94223,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-08T10:06:04,48,new,active
+3600SOA30527,sotdwdja,,,Bus Station,,,,,,,,,,Bay 3,,,E0051002,Yeovil,,,,,,,false,UKOS,355996,116048,-2.62769,50.94218,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:12:10,60,new,active
+3600SOA30528,sotdwdjd,,,Bus Station,,,,,,,,,,Bay 4,,,E0051002,Yeovil,,,,,,,false,UKOS,356000,116044,-2.62763,50.94215,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:12:02,61,new,active
+3600SOA30529,sotdwdjg,,,Bus Station,,,,,,,,,,Bay 5,,,E0051002,Yeovil,,,,,,,false,UKOS,356004,116040,-2.62757,50.94211,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:11:54,53,new,active
+3600SOA30530,sotdwdjm,,,Bus Station,,,,,,,,,,"Bay 6 ",,,E0051002,Yeovil,,,,,,,false,UKOS,356009,116036,-2.6275,50.94208,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:11:46,52,new,active
+3600SOA30531,sotdwdjp,,,Bus Station,,,,,,,,,,"Bay 7 ",,,E0051002,Yeovil,,,,,,,false,UKOS,356016,116031,-2.6274,50.94203,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:11:28,53,new,active
+3600SOA30532,sotdwdjt,,,Bus Station,,,,,,,,,,Bay 8,,,E0051002,Yeovil,,,,,,,false,UKOS,356020,116028,-2.62734,50.94201,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:11:20,49,new,active
+3600SOA30533,sotdwdjw,,,Bus Station,,,,,,,,,,"Bay 9 ",,,E0051002,Yeovil,,,,,,,false,UKOS,356025,116024,-2.62727,50.94197,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:10:58,49,new,active
+3600SOA30534,sotdwdma,,,Bus Station,,,,,,,,,,Bay 10,,,E0051002,Yeovil,,,,,,,false,UKOS,356020,116020,-2.62734,50.94193,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:10:50,47,new,active
+3600SOA30535,sotdwdmd,,,Bus Station,,,,,,,,,,Bay 11,,,E0051002,Yeovil,,,,,,,false,UKOS,356013,116025,-2.62744,50.94198,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:10:42,44,new,active
+3600SOA30536,sotdwdmg,,,Bus Station,,,,,,,,,,Bay 12,,,E0051002,Yeovil,,,,,,,false,UKOS,356004,116033,-2.62757,50.94205,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:10:32,44,new,active
+3600SOA30537,sotdwdmj,,,Bus Station,,,,,,,,,,Bay 13,,,E0051002,Yeovil,,,,,,,false,UKOS,355995,116040,-2.6277,50.94211,BCS,,,,,,098,2026-06-08T00:00:00,2026-06-10T14:32:20,50,new,active
 3600SOA10264,sotadwpj,,,The Windmill,,,,,,A39,,,,opp,,E,E0051091,West Quantoxhead,,,,,,,false,UKOS,311169,141837,-3.27193,51.16885,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-12-04T11:36:13,82,new,active
 3600SOA10265,sotadwpt,,,The Windmill,,,,,,A39,,,,adj,,SW,E0051091,West Quantoxhead,,,,,,,false,UKOS,311167,141827,-3.27196,51.16876,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T14:23:07,68,new,active
 3600SOA30264,sotadwpm,,,The Windmill,,,,,,The Avenue,,,,NE-bound,,NE,E0051091,West Quantoxhead,,,,,,,false,UKOS,311150,141835,-3.2722,51.16883,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:03:47,58,delete,inactive
@@ -1040,8 +1052,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOA56780,sotdpjaw,,,Mendip Road,,,,,,Mendip Road,,,,E-bound,,E,E0022622,Sydenham,Bridgwater,,,,,,false,UKOS,331396,136991,-2.98175,51.12807,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:15,40,new,active
 3600SOA56787,sotdpjdw,,,Frampton Road,,,,,,Wills Road,,,,W-bound,,W,E0022546,Hamp,Bridgwater,,,,,,false,UKOS,329666,135462,-3.00617,51.11411,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:15,48,new,active
 3600SOA56786,sotdpjdt,,,Ashton Road,,,,,,Wills Road,,,,W-bound,,W,E0022546,Hamp,Bridgwater,,,,,,false,UKOS,329822,135485,-3.00395,51.11434,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:16,48,new,active
-3600SOA56785,sotdpjdp,,,Selworthy Close,,,,,,Wills Road,,,,W-bound,,W,E0022546,Hamp,Bridgwater,,,,,,false,UKOS,329960,135470,-3.00197,51.11422,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:16,48,new,active
-3600SOA56784,sotdpjdm,,,Parkway,,,,,,Parkway,,,,S-bound,,S,E0022622,Sydenham,Bridgwater,,,,,,false,UKOS,331385,137766,-2.98205,51.13504,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:16,48,new,active
+3600SOA56785,sotdpjdp,,,Selworthy Close,,,,,,Wills Road,,,,W-bound,,W,E0022546,Hamp,Bridgwater,,,,,,false,UKOS,330024,135441,-3.00105,51.11397,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2026-06-08T16:23:12,48,new,active
+3600SOA56784,sotdpjdm,,,Parkway,,,,,,Parkway,,,,S-bound,,S,E0022622,Sydenham,Bridgwater,,,,,,false,UKOS,331376,137648,-2.98216,51.13398,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2026-06-08T16:19:39,48,new,active
 3600SOA56806,sotdpjpm,,,Whitevine Close,,,,,,Wessex Road,,,,N-bound,,N,E0022932,Summerlands,Yeovil,,,,,,false,UKOS,354072,117444,-2.65525,50.95459,BCT,CUS,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:16,68,new,active
 3600SOA56805,sotdpjpj,,,Whitevine Close,,,,,,Wessex Road,,,,S-bound,,S,E0022932,Summerlands,Yeovil,,,,,,false,UKOS,354078,117439,-2.65516,50.95454,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:17,64,new,active
 3600SOA56811,sotdpjtg,,,Rowan Way,,,,,,Beechwood,,,,S-bound,,S,E0051002,Yeovil,,,,,,,false,UKOS,354406,115020,-2.65019,50.93282,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:16:17,59,new,active
@@ -2092,8 +2104,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOA10376,sotamgma,,,Risemoor Road,,,,,,Risemoor Road,,,,E-bound,,E,E0022503,Bridgwater,,,,,,,false,UKOS,329001,135715,-3.01572,51.11631,BCT,CUS,OTH,,,,098,2003-06-12T00:00:00,2025-12-04T11:36:08,41,new,active
 3600SOA10375,sotamgmw,,,Risemoor Road,,,,,,Risemoor Road,,,,S-bound,,S,E0022503,Bridgwater,,,,,,,false,UKOS,329103,135660,-3.01425,51.11583,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:07,40,new,active
 3600SOA10374,sotamgmt,,,Risemoor Road,,,,,,Risemoor Road,,,,N-bound,,N,E0022503,Bridgwater,,,,,,,false,UKOS,329094,135655,-3.01438,51.11578,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:07,40,new,active
-3600SOA10373,sotamgpd,,,Gibb House,,,,,,Rhode Lane,,,,NE-bound,,NE,E0022503,Bridgwater,,,,,,,false,UKOS,329228,135678,-3.01247,51.116,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:07,48,new,active
-3600SOA10372,sotamgpg,,,Gibb House,,,,,,Rhode Lane,,,,SW-bound,,SW,E0022503,Bridgwater,,,,,,,false,UKOS,329231,135669,-3.01242,51.11592,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:07,48,new,active
+3600SOA10373,sotamgpd,,,Gibb House,,,,,,Rhode Lane,,,,NE-bound,,NE,E0022503,Bridgwater,,,,,,,false,UKOS,329218,135670,-3.01261,51.11593,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2026-06-08T16:33:36,48,new,active
+3600SOA10372,sotamgpg,,,Gibb House,,,,,,Rhode Lane,,,,SW-bound,,SW,E0022503,Bridgwater,,,,,,,false,UKOS,329219,135665,-3.01259,51.11588,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2026-06-08T16:33:39,48,new,active
 3600SOA10379,sotamtag,,,Parkstone Avenue,,,,,,Taunton Road,,,,SE-bound,,SE,E0022503,Bridgwater,,,,,,,false,UKOS,330240,135997,-2.99807,51.11899,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:07,67,new,active
 3600SOA10378,sotampwd,,,Taunton Road Shops,,,,,,Taunton Road,,,,opp,,N,E0022503,Bridgwater,,,,,,,false,UKOS,330175,136128,-2.99903,51.12016,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:08,66,new,active
 3600SOA10377,sotampdm,,,Rhode Lane,,,,,,Rhode Lane,,,,NE-bound,,NE,E0022503,Bridgwater,,,,,,,false,UKOS,329906,135939,-3.00283,51.11843,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-14T15:00:08,48,new,active
@@ -2162,8 +2174,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 3600SOC30667,sotapagw,,,Sedgemoor Road,,,,,,Sedgemoor Road,,,,N-bound,,N,E0022503,Bridgwater,,,,,,,false,UKOS,331067,136452,-2.98635,51.12319,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:23:59,48,new,active
 3600SOC30666,sotapajd,,,Sedgemoor Road,,,,,,Sedgemoor Road,,,,S-bound,,S,E0022503,Bridgwater,,,,,,,false,UKOS,331082,136460,-2.98613,51.12326,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:23:59,48,new,active
 3600SOC30655,sotamwtm,,,Redgate Medical Centre,,,,,,Westonzoyland Road,,,,SE-bound,,SE,E0022503,Bridgwater,,,,,,,false,UKOS,330942,136788,-2.9882,51.12619,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:24:43,69,new,active
-3600SOC30653,sotamwaj,,,St John Street,,,,,,St John Street,,,,SE-bound,,SE,E0022503,Bridgwater,,,,,,,false,UKOS,330613,136946,-2.99293,51.12757,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:23:59,48,new,active
-3600SOC30654,sotamwad,,,St John Street,,,,,,St John Street,,,,NW-bound,,NW,E0022503,Bridgwater,,,,,,,false,UKOS,330602,136940,-2.99308,51.12752,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:23:59,48,new,active
+3600SOC30653,sotamwaj,,,St John Street,,,,,,St John Street,,,,SE-bound,,SE,E0022503,Bridgwater,,,,,,,false,UKOS,330545,136988,-2.99391,51.12794,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2026-06-08T16:13:33,48,new,active
+3600SOC30654,sotamwad,,,St John Street,,,,,,St John Street,,,,NW-bound,,NW,E0022503,Bridgwater,,,,,,,false,UKOS,330541,136983,-2.99396,51.1279,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2026-06-08T16:13:29,48,new,active
 3600SOC30651,sotamtjm,,,Bunch of Grapes,,,,,,Saint John Street,,,,SE-bound,,SE,E0022503,Bridgwater,,,,,,,false,UKOS,330426,137068,-2.99562,51.12865,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:24:00,71,new,active
 3600SOC30652,sotamtgw,,,Bunch of Grapes,,,,,,Saint John Street,,,,NW-bound,,NW,E0022503,Bridgwater,,,,,,,false,UKOS,330399,137072,-2.99601,51.12868,BCT,MKD,OTH,,,,098,2003-06-12T00:00:00,2025-08-19T07:24:00,71,new,active
 3600SOA56779,sotdpjat,,,Longstone Avenue,,,,,,Longstone Avenue,,,,o/s no 98,,N,E0022622,Sydenham,Bridgwater,,,,,,false,UKOS,331157,136843,-2.98514,51.12671,BCT,MKD,OTH,,,,098,2007-07-25T00:00:00,2025-08-14T15:15:32,48,new,active
