@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-03T10:24:14.878" ModificationDateTime="2026-06-03T10:24:14.878" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-16T11:18:10.477" ModificationDateTime="2026-06-16T11:18:10.477" Modification="new" RevisionNumber="0" FileName="NaPTAN648.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2009-06-17T00:00:00.000" ModificationDateTime="2010-08-26T11:35:40.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>64800160</AtcoCode>
@@ -96409,6 +96409,78 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-16T10:52:41.817" ModificationDateTime="2026-06-16T10:57:42.271" Modification="revise" RevisionNumber="4" Status="active">
+<AtcoCode>64802768</AtcoCode>
+<NaptanCode>73729634</NaptanCode>
+<Descriptor>
+<CommonName>Bertha Way</CommonName>
+<Street>B9993</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0059927</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>308333</Easting>
+<Northing>726770</Northing>
+<Longitude>-3.4877185</Longitude>
+<Latitude>56.4241923</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>135</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-16T10:56:22.882" ModificationDateTime="2026-06-16T10:58:09.002" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>64802769</AtcoCode>
+<NaptanCode>73729635</NaptanCode>
+<Descriptor>
+<CommonName>Bertha Park</CommonName>
+<Street>B9993</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0059927</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>308324</Easting>
+<Northing>726640</Northing>
+<Longitude>-3.4878076</Longitude>
+<Latitude>56.4230243</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
