@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-06-01T08:22:49.710" ModificationDateTime="2026-06-01T08:22:49.710" Modification="new" RevisionNumber="0" FileName="NaPTAN660.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-06-17T10:36:54.579" ModificationDateTime="2026-06-17T10:36:54.579" Modification="new" RevisionNumber="0" FileName="NaPTAN660.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2017-01-10T15:31:16.000" ModificationDateTime="2017-01-12T00:00:00.000" Modification="revise" RevisionNumber="0" Status="inactive">
 <AtcoCode>660032937</AtcoCode>
@@ -24664,7 +24664,7 @@
 </StopAreas>
 <AdministrativeAreaRef>140</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-17T00:00:00.000" ModificationDateTime="2005-01-17T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2005-01-17T00:00:00.000" ModificationDateTime="2026-06-12T15:40:40.148" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>66005280005</AtcoCode>
 <NaptanCode>78423237</NaptanCode>
 <Descriptor>
@@ -25884,24 +25884,25 @@
 </StopAreas>
 <AdministrativeAreaRef>140</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-05T00:00:00.000" ModificationDateTime="2026-04-28T08:54:22.928" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-01-05T00:00:00.000" ModificationDateTime="2026-06-17T10:34:42.807" Modification="revise" RevisionNumber="19" Status="active">
 <AtcoCode>66005400001</AtcoCode>
 <NaptanCode>78424647</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Trossachs Gift Co</CommonName>
-<Landmark xml:lang="en">Tourist Information Centre</Landmark>
+<Landmark xml:lang="en">Trossachs Gift Co</Landmark>
 <Street xml:lang="en">Car Park</Street>
 <Indicator xml:lang="en">at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000024</NptgLocalityRef>
+<Town>Aberfoyle</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>252177</Easting>
+<Easting>252186</Easting>
 <Northing>700963</Northing>
-<Longitude>-4.382916</Longitude>
+<Longitude>-4.382783</Longitude>
 <Latitude>56.178285</Latitude>
 </Translation>
 </Location>
@@ -25922,6 +25923,14 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>140</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-06-17</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2006-01-05T00:00:00.000" ModificationDateTime="2009-12-24T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>66005400002</AtcoCode>
@@ -30705,7 +30714,7 @@
 </StopAreas>
 <AdministrativeAreaRef>140</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-05-28T00:00:00.000" ModificationDateTime="2026-05-25T14:25:05.745" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-05-28T00:00:00.000" ModificationDateTime="2026-06-01T16:22:59.279" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>66005672002</AtcoCode>
 <NaptanCode>78424825</NaptanCode>
 <Descriptor>
