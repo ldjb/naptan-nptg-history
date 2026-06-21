@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-01-09T09:51:27.196" ModificationDateTime="2026-01-09T09:51:27.196" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-19T10:05:14.242" ModificationDateTime="2026-06-19T10:05:14.242" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2014-01-17T14:33:22.000" ModificationDateTime="2014-01-17T14:33:22.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>35908614</AtcoCode>
@@ -32737,7 +32737,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2023-09-01T10:13:06.944" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2026-01-29T10:30:10.960" Modification="revise" RevisionNumber="8" Status="inactive">
 <AtcoCode>3590E060900</AtcoCode>
 <NaptanCode>telajamt</NaptanCode>
 <Descriptor>
@@ -32787,7 +32787,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2023-09-01T10:14:01.078" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-01-20T00:00:00.000" ModificationDateTime="2026-01-29T10:28:37.095" Modification="revise" RevisionNumber="6" Status="inactive">
 <AtcoCode>3590E061000</AtcoCode>
 <NaptanCode>telajamw</NaptanCode>
 <Descriptor>
@@ -62441,6 +62441,40 @@
 <Northing>312632</Northing>
 <Longitude>-2.428459</Longitude>
 <Latitude>52.710592</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-06-19T10:04:36.036" ModificationDateTime="2026-06-19T10:04:36.036" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3590E094602</AtcoCode>
+<Descriptor>
+<CommonName>The Wrekin Forest Glen Car Park</CommonName>
+<Street>The Wrekin</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042651</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>363780</Easting>
+<Northing>309281</Northing>
+<Longitude>-2.537186</Longitude>
+<Latitude>52.680024</Latitude>
 </Translation>
 </Location>
 </Place>
