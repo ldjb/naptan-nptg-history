@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-05-26T17:33:52.895" ModificationDateTime="2026-05-26T17:33:52.895" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-23T20:27:09.925" ModificationDateTime="2026-06-23T20:27:09.925" Modification="new" RevisionNumber="0" FileName="NaPTAN639.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-07-15T00:00:00.000" ModificationDateTime="2021-08-10T13:46:30.584" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>639000011</AtcoCode>
@@ -13260,7 +13260,7 @@
 <PlusbusZoneRef CreationDateTime="2003-07-18T00:00:00.000" ModificationDateTime="2013-05-02T11:20:00.000" Modification="revise" RevisionNumber="2" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-18T00:00:00.000" ModificationDateTime="2022-03-15T19:03:44.192" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2003-07-18T00:00:00.000" ModificationDateTime="2026-06-11T15:02:42.424" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>639001641</AtcoCode>
 <NaptanCode>23235354</NaptanCode>
 <Descriptor>
@@ -13270,7 +13270,7 @@
 <Indicator>adj</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>ES000011</NptgLocalityRef>
+<NptgLocalityRef>ES000682</NptgLocalityRef>
 <Suburb>City Centre</Suburb>
 <Town>Aberdeen</Town>
 <LocalityCentre>0</LocalityCentre>
@@ -36171,7 +36171,7 @@
 <PlusbusZoneRef CreationDateTime="2003-07-22T00:00:00.000" ModificationDateTime="2013-05-17T11:57:00.000" Modification="revise" RevisionNumber="7" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-22T00:00:00.000" ModificationDateTime="2022-03-03T16:02:39.688" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2003-07-22T00:00:00.000" ModificationDateTime="2026-06-23T19:36:58.561" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>639004641</AtcoCode>
 <NaptanCode>23236346</NaptanCode>
 <Descriptor>
@@ -36188,10 +36188,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>389219</Easting>
-<Northing>810297</Northing>
-<Longitude>-2.179982</Longitude>
-<Latitude>57.183353</Latitude>
+<Easting>389192</Easting>
+<Northing>810325</Northing>
+<Longitude>-2.18043</Longitude>
+<Latitude>57.183603</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -50017,12 +50017,12 @@
 <PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2013-02-08T15:30:00.000" Modification="revise" RevisionNumber="5" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T16:48:17.598" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T19:20:07.623" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>639006431</AtcoCode>
 <NaptanCode>23234654</NaptanCode>
 <Descriptor>
-<CommonName>St Nicholas Kirk</CommonName>
-<Landmark>St Nicholas Kirk</Landmark>
+<CommonName>Union Street Central</CommonName>
+<Landmark>Union Street Central F1</Landmark>
 <Street>Union Street</Street>
 <Indicator>Stop F1</Indicator>
 </Descriptor>
@@ -50034,10 +50034,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>394028</Easting>
-<Northing>806152</Northing>
-<Longitude>-2.100329</Longitude>
-<Latitude>57.146207</Latitude>
+<Easting>394136</Easting>
+<Northing>806207</Northing>
+<Longitude>-2.098545</Longitude>
+<Latitude>57.146703</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -50058,15 +50058,15 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2012-12-14T11:49:00.000" Modification="revise" RevisionNumber="5" Status="active">ABRDEEN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T16:49:34.580" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T19:25:15.358" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>639006432</AtcoCode>
 <NaptanCode>23234672</NaptanCode>
 <Descriptor>
-<CommonName>St Nicholas Kirk</CommonName>
-<Landmark>St Nicholas Kirk</Landmark>
+<CommonName>Union Street Central</CommonName>
+<Landmark>Union Street Central</Landmark>
 <Street>Union Street</Street>
 <Indicator>Stop F2</Indicator>
 </Descriptor>
@@ -50078,10 +50078,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>394039</Easting>
-<Northing>806157</Northing>
-<Longitude>-2.100147</Longitude>
-<Latitude>57.146252</Latitude>
+<Easting>394156</Easting>
+<Northing>806217</Northing>
+<Longitude>-2.098215</Longitude>
+<Latitude>57.146793</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -50102,15 +50102,15 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2012-12-14T11:49:00.000" Modification="revise" RevisionNumber="4" Status="active">ABRDEEN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T16:51:07.405" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T19:08:15.705" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>639006433</AtcoCode>
 <NaptanCode>23234673</NaptanCode>
 <Descriptor>
-<CommonName>St Nicholas Kirk</CommonName>
-<Landmark>St Nicholas Kirk</Landmark>
+<CommonName>Union Street Central</CommonName>
+<Landmark>Union Street Central F3</Landmark>
 <Street>Union Street</Street>
 <Indicator>Stop F3</Indicator>
 </Descriptor>
@@ -50122,10 +50122,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>394078</Easting>
-<Northing>806177</Northing>
-<Longitude>-2.099503</Longitude>
-<Latitude>57.146432</Latitude>
+<Easting>393971</Easting>
+<Northing>806100</Northing>
+<Longitude>-2.101269</Longitude>
+<Latitude>57.145739</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -50137,7 +50137,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>NE</CompassPoint>
+<CompassPoint>SW</CompassPoint>
 <Degrees>45</Degrees>
 </Bearing>
 </MarkedPoint>
@@ -50146,15 +50146,15 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2012-12-14T11:49:00.000" Modification="revise" RevisionNumber="5" Status="active">ABRDEEN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T16:52:31.971" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T18:59:17.018" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>639006434</AtcoCode>
 <NaptanCode>23234678</NaptanCode>
 <Descriptor>
-<CommonName>St Nicholas Kirk</CommonName>
-<Landmark>St Nicholas Kirk</Landmark>
+<CommonName>Union Street Central</CommonName>
+<Landmark>Union Street Central F4</Landmark>
 <Street>Union Street</Street>
 <Indicator>Stop F4</Indicator>
 </Descriptor>
@@ -50166,10 +50166,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>394104</Easting>
-<Northing>806190</Northing>
-<Longitude>-2.099074</Longitude>
-<Latitude>57.146549</Latitude>
+<Easting>393960</Easting>
+<Northing>806095</Northing>
+<Longitude>-2.101451</Longitude>
+<Latitude>57.145694</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -50181,7 +50181,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>NE</CompassPoint>
+<CompassPoint>SW</CompassPoint>
 <Degrees>45</Degrees>
 </Bearing>
 </MarkedPoint>
@@ -50190,10 +50190,10 @@
 </StopClassification>
 <AdministrativeAreaRef>111</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2012-12-14T11:49:00.000" Modification="revise" RevisionNumber="5" Status="active">ABRDEEN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-09-08T00:00:00.000" ModificationDateTime="2022-01-26T16:54:31.122" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2005-09-08T00:00:00.000" ModificationDateTime="2026-06-23T19:29:57.630" Modification="revise" RevisionNumber="10" Status="inactive">
 <AtcoCode>639006435</AtcoCode>
 <NaptanCode>23236856</NaptanCode>
 <Descriptor>
@@ -50237,7 +50237,7 @@
 <PlusbusZoneRef CreationDateTime="2005-09-08T00:00:00.000" ModificationDateTime="2012-12-14T11:49:00.000" Modification="revise" RevisionNumber="8" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-09-08T00:00:00.000" ModificationDateTime="2022-01-26T17:01:18.422" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2005-09-08T00:00:00.000" ModificationDateTime="2026-06-23T19:29:40.246" Modification="revise" RevisionNumber="9" Status="inactive">
 <AtcoCode>639006436</AtcoCode>
 <NaptanCode>23236848</NaptanCode>
 <Descriptor>
@@ -50281,7 +50281,7 @@
 <PlusbusZoneRef CreationDateTime="2005-09-08T00:00:00.000" ModificationDateTime="2012-12-14T11:50:00.000" Modification="revise" RevisionNumber="7" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T17:03:31.769" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T19:26:15.835" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>639006437</AtcoCode>
 <NaptanCode>23234656</NaptanCode>
 <Descriptor>
@@ -50325,7 +50325,7 @@
 <PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2012-12-14T11:50:00.000" Modification="revise" RevisionNumber="5" Status="active">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T17:06:48.190" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T19:26:02.686" Modification="revise" RevisionNumber="9" Status="inactive">
 <AtcoCode>639006438</AtcoCode>
 <NaptanCode>23234659</NaptanCode>
 <Descriptor>
@@ -50369,7 +50369,7 @@
 <PlusbusZoneRef CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2014-07-18T13:32:00.000" Modification="revise" RevisionNumber="7" Status="inactive">ABRDEEN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2022-01-26T17:05:42.432" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-07-24T00:00:00.000" ModificationDateTime="2026-06-23T19:25:44.530" Modification="revise" RevisionNumber="7" Status="inactive">
 <AtcoCode>639006439</AtcoCode>
 <NaptanCode>23234643</NaptanCode>
 <Descriptor>
