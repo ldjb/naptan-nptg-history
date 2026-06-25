@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-10T14:38:15.7642387+01:00" ModificationDateTime="2026-06-10T14:38:15.7798635+01:00" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-06-24T14:07:03.966062+01:00" ModificationDateTime="2026-06-24T14:07:03.9690621+01:00" Modification="new" FileName="NaPTAN129.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-11-10T00:00:00" ModificationDateTime="2016-11-10T10:12:48" Modification="new" RevisionNumber="15" Status="active">
 			<AtcoCode>1290BOMO0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-10T14:38:27.6827052+01:00" ModificationDateTime="2026-06-10T14:38:27.6827052+01:00">910GBOMO</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-24T14:07:15.1514601+01:00" ModificationDateTime="2026-06-24T14:07:15.1514601+01:00">910GBOMO</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-10T14:38:27.6996899+01:00" ModificationDateTime="2026-06-10T14:38:27.6996899+01:00">910GPOKSDWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-24T14:07:15.1694568+01:00" ModificationDateTime="2026-06-24T14:07:15.1694568+01:00">910GPOKSDWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -93,7 +93,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-10T14:38:27.7069132+01:00" ModificationDateTime="2026-06-10T14:38:27.7069132+01:00">930GMSB</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-24T14:07:15.1864569+01:00" ModificationDateTime="2026-06-24T14:07:15.1864569+01:00">930GMSB</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -125,7 +125,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-10T14:38:27.7225432+01:00" ModificationDateTime="2026-06-10T14:38:27.7225432+01:00">930GTUK</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-24T14:07:15.2034568+01:00" ModificationDateTime="2026-06-24T14:07:15.2034568+01:00">930GTUK</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -157,7 +157,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-10T14:38:27.738165+01:00" ModificationDateTime="2026-06-10T14:38:27.738165+01:00">930GWIC</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-06-24T14:07:15.2194571+01:00" ModificationDateTime="2026-06-24T14:07:15.2194571+01:00">930GWIC</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
@@ -8223,13 +8223,13 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2007-06-21T00:00:00" ModificationDateTime="2025-06-30T15:04:09" Modification="delete" RevisionNumber="117" Status="inactive">
+		<StopPoint CreationDateTime="2007-06-21T00:00:00" ModificationDateTime="2026-06-18T10:45:24" Modification="new" RevisionNumber="137" Status="active">
 			<AtcoCode>1290BOB20445</AtcoCode>
 			<NaptanCode>boudgmp</NaptanCode>
 			<Descriptor>
 				<CommonName xml:lang="en">St Peters Church</CommonName>
 				<Street xml:lang="en">Hinton Road</Street>
-				<Indicator xml:lang="en">SE-bound</Indicator>
+				<Indicator xml:lang="en">Stop AA2</Indicator>
 			</Descriptor>
 			<Place>
 				<NptgLocalityRef>E0057149</NptgLocalityRef>
@@ -8237,10 +8237,10 @@
 				<Location>
 					<Translation>
 						<GridType>UKOS</GridType>
-						<Easting>408876</Easting>
-						<Northing>91178</Northing>
-						<Longitude>-1.87563</Longitude>
-						<Latitude>50.72016</Latitude>
+						<Easting>408922</Easting>
+						<Northing>91097</Northing>
+						<Longitude>-1.87498</Longitude>
+						<Latitude>50.71943</Latitude>
 					</Translation>
 				</Location>
 			</Place>
@@ -8260,13 +8260,13 @@
 			</StopClassification>
 			<AdministrativeAreaRef>005</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2007-06-21T00:00:00" ModificationDateTime="2025-06-30T15:04:09" Modification="new" RevisionNumber="78" Status="active">
+		<StopPoint CreationDateTime="2007-06-21T00:00:00" ModificationDateTime="2026-06-18T10:43:30" Modification="new" RevisionNumber="117" Status="active">
 			<AtcoCode>1290BOB20392</AtcoCode>
 			<NaptanCode>boudgpd</NaptanCode>
 			<Descriptor>
 				<CommonName xml:lang="en">St Peter's Church</CommonName>
 				<Street xml:lang="en">Hinton Road</Street>
-				<Indicator xml:lang="en">Stand AA</Indicator>
+				<Indicator xml:lang="en">Stop AA1</Indicator>
 			</Descriptor>
 			<Place>
 				<NptgLocalityRef>E0057149</NptgLocalityRef>
