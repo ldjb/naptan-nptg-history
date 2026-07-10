@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-05-01T08:45:20" ModificationDateTime="2026-05-01T08:45:20" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-07-09T14:25:30" ModificationDateTime="2026-07-09T14:25:30" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-01T16:13:39" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5140ACX17028</AtcoCode>
@@ -31263,17 +31263,17 @@
         <PlusbusZoneRef ModificationDateTime="2012-07-06T00:00:00" Modification="new" RevisionNumber="0" Status="inactive">WREXHMG</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity ModificationDateTime="2024-01-31T11:12:09" Modification="new">
-          <DateRange>
-            <StartDate>2024-01-31</StartDate>
-          </DateRange>
-          <Active />
-        </StopValidity>
         <StopValidity ModificationDateTime="2019-06-07T10:01:35" Modification="new">
           <DateRange>
             <StartDate>2019-06-07</StartDate>
           </DateRange>
           <Suspended />
+        </StopValidity>
+        <StopValidity ModificationDateTime="2024-01-31T11:12:09" Modification="new">
+          <DateRange>
+            <StartDate>2024-01-31</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -50679,7 +50679,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-23T09:53:29" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-04-23T09:53:29" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02307</AtcoCode>
       <NaptanCode>wremwpg</NaptanCode>
       <Descriptor>
@@ -50700,6 +50700,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>332326</Easting>
             <Northing>353636</Northing>
             <Longitude>-3.0116016</Longitude>
@@ -50723,7 +50724,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-23T10:43:51" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-04-23T10:43:51" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02308</AtcoCode>
       <NaptanCode>wremwpj</NaptanCode>
       <Descriptor>
@@ -50743,6 +50744,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>332318</Easting>
             <Northing>353639</Northing>
             <Longitude>-3.0117216</Longitude>
@@ -50766,7 +50768,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-23T11:04:43" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-04-23T11:04:43" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02309</AtcoCode>
       <NaptanCode>wremwpm</NaptanCode>
       <Descriptor>
@@ -50787,6 +50789,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>333682</Easting>
             <Northing>356398</Northing>
             <Longitude>-2.9919351</Longitude>
@@ -50810,7 +50813,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-23T11:14:49" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-04-23T11:14:49" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02310</AtcoCode>
       <NaptanCode>wremwpm</NaptanCode>
       <Descriptor>
@@ -50831,6 +50834,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>333684</Easting>
             <Northing>356341</Northing>
             <Longitude>-2.9918935</Longitude>
@@ -50854,7 +50858,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-23T11:21:40" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-04-23T11:21:40" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02311</AtcoCode>
       <NaptanCode>wremwpt</NaptanCode>
       <Descriptor>
@@ -50875,6 +50879,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>333623</Easting>
             <Northing>356159</Northing>
             <Longitude>-2.9927667</Longitude>
@@ -50898,7 +50903,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-23T12:59:34" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-04-23T12:59:34" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02313</AtcoCode>
       <NaptanCode>wremwta</NaptanCode>
       <Descriptor>
@@ -50919,6 +50924,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>337236</Easting>
             <Northing>357344</Northing>
             <Longitude>-2.9390482</Longitude>
@@ -50942,7 +50948,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-05-01T08:35:09" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-05-01T08:35:09" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02314</AtcoCode>
       <NaptanCode>wremwtd</NaptanCode>
       <Descriptor>
@@ -50963,6 +50969,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>329568</Easting>
             <Northing>353498</Northing>
             <Longitude>-3.0527317</Longitude>
@@ -50986,7 +50993,7 @@
       </StopClassification>
       <AdministrativeAreaRef>067</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-05-01T08:41:33" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-05-01T08:41:33" ModificationDateTime="2026-06-25T15:20:54" Modification="new" Status="active">
       <AtcoCode>5140WRX02315</AtcoCode>
       <NaptanCode>wremwtg</NaptanCode>
       <Descriptor>
@@ -51007,6 +51014,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>329566</Easting>
             <Northing>353562</Northing>
             <Longitude>-3.0527756</Longitude>
