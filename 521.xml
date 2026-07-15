@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-06-25T11:28:48" ModificationDateTime="2026-06-25T11:28:48" Modification="revise" RevisionNumber="1" FileName="521.xml">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-07-09T14:25:45" ModificationDateTime="2026-07-09T14:25:45" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -2010,7 +2010,8 @@
       <AtcoCode>5210AWC51016</AtcoCode>
       <NaptanCode>pemdjap</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="EN">St David`s Tourist IC</CommonName>
+        <CommonName xml:lang="cy">St David`s Tourist IC</CommonName>
+        <ShortCommonName>Tourist IC</ShortCommonName>
         <Landmark>St David`s Tourist IC</Landmark>
         <Street>High Street</Street>
         <Indicator>o/s</Indicator>
@@ -2018,6 +2019,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-03-22T16:16:35">
           <CommonName xml:lang="cy">St David`s Tourist IC</CommonName>
+          <ShortCommonName>Tourist IC</ShortCommonName>
           <Street>Stryd Fawr</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2055,7 +2057,8 @@
       <AtcoCode>5210AWC51017</AtcoCode>
       <NaptanCode>pemdjad</NaptanCode>
       <Descriptor>
-        <CommonName>St David`s City Hall</CommonName>
+        <CommonName xml:lang="cy">St David`s City Hall</CommonName>
+        <ShortCommonName>City Hall</ShortCommonName>
         <Landmark>St David`s City Hall</Landmark>
         <Street>High Street</Street>
         <Crossing>New Street</Crossing>
@@ -2063,7 +2066,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd y Dinas Dewi Sant</CommonName>
+          <CommonName xml:lang="cy">Neuadd y Dinas Dewi Sant</CommonName>
+          <ShortCommonName>Neuadd y Dinas</ShortCommonName>
+          <Street>Stryd Fawr</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -2144,7 +2149,8 @@
       <AtcoCode>5210AWC51019</AtcoCode>
       <NaptanCode>pemdjag</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="EN">New Street Playground</CommonName>
+        <CommonName xml:lang="cy">New Street Playground</CommonName>
+        <ShortCommonName>Playground</ShortCommonName>
         <Landmark>Playground</Landmark>
         <Street>New Street</Street>
         <Crossing>Town Hall Lane</Crossing>
@@ -2152,7 +2158,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-03-22T16:18:16">
-          <CommonName xml:lang="cy">Parc Stryd Newydd</CommonName>
+          <CommonName xml:lang="cy">Cae Chwarae Stryd Newydd</CommonName>
+          <ShortCommonName>Cae Chwarae</ShortCommonName>
           <Street>Stryd Newydd</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2190,7 +2197,8 @@
       <AtcoCode>5210AWC51020</AtcoCode>
       <NaptanCode>pemdjaj</NaptanCode>
       <Descriptor>
-        <CommonName>St David`s City Hall</CommonName>
+        <CommonName xml:lang="cy">St David`s City Hall</CommonName>
+        <ShortCommonName>City Hall</ShortCommonName>
         <Landmark>St David`s City Hall</Landmark>
         <Street>New Street</Street>
         <Crossing>High Street</Crossing>
@@ -2198,7 +2206,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd y Dinas Dewi Sant</CommonName>
+          <CommonName xml:lang="cy">Neuadd y Dinas Dewi Sant</CommonName>
+          <ShortCommonName>Neuadd y Dinas</ShortCommonName>
+          <Street>Stryd Newydd</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -3825,7 +3835,8 @@
       <AtcoCode>5210AWC51056</AtcoCode>
       <NaptanCode>pemdmwt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="EN">Wolf`s Castle School</CommonName>
+        <CommonName xml:lang="cy">Wolf`s Castle School</CommonName>
+        <ShortCommonName>School</ShortCommonName>
         <Landmark>Wolf`s Castle School</Landmark>
         <Street>A40</Street>
         <Indicator>nr</Indicator>
@@ -3833,6 +3844,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:50">
           <CommonName xml:lang="cy">Wolf`s Castle School</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
           <Street>A40</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -4717,14 +4729,17 @@
       <AtcoCode>5210AWC51076</AtcoCode>
       <NaptanCode>pemdgwm</NaptanCode>
       <Descriptor>
-        <CommonName>Square &amp; Compass Inn</CommonName>
+        <CommonName xml:lang="cy">Square &amp; Compass Inn</CommonName>
+        <ShortCommonName>Square &amp; Compass</ShortCommonName>
         <Landmark>Square &amp; Compass Inn PH</Landmark>
         <Street>A487</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:37">
-          <CommonName xml:lang="CY">Square &amp; Compass Inn</CommonName>
+          <CommonName xml:lang="cy">Square &amp; Compass Inn</CommonName>
+          <ShortCommonName>Square &amp; Compass</ShortCommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -5746,14 +5761,17 @@
       <AtcoCode>5210AWC51099</AtcoCode>
       <NaptanCode>pemdpap</NaptanCode>
       <Descriptor>
-        <CommonName>Woodstock Crossroads</CommonName>
+        <CommonName xml:lang="cy">Woodstock Crossroads</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Landmark>Woodstock Crossroads</Landmark>
         <Street>B4329</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:18">
-          <CommonName xml:lang="CY">Woodstock Crossroads</CommonName>
+          <CommonName xml:lang="cy">Woodstock Crossroads</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4329</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -6139,14 +6157,17 @@
       <AtcoCode>5210AWC51108</AtcoCode>
       <NaptanCode>pemapwg</NaptanCode>
       <Descriptor>
-        <CommonName>Llawhaden Village Hall</CommonName>
+        <CommonName xml:lang="cy">Llawhaden Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Llawhaden Village Hall</Landmark>
         <Street>Main Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd Llawhaden</CommonName>
+          <CommonName xml:lang="cy">Neuadd Bentref Llawhaden</CommonName>
+          <ShortCommonName>Neuadd Bentref</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -7375,7 +7396,8 @@
       <AtcoCode>5210AWC51141</AtcoCode>
       <NaptanCode>pemagwd</NaptanCode>
       <Descriptor>
-        <CommonName>St Christiolus` Church</CommonName>
+        <CommonName xml:lang="cy">St Christiolus` Church</CommonName>
+        <ShortCommonName>Church</ShortCommonName>
         <Landmark>St Christiolus` Church</Landmark>
         <Street>A487</Street>
         <Crossing>B4332</Crossing>
@@ -7383,7 +7405,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:06">
-          <CommonName xml:lang="CY">Eglwys San Cristiolus</CommonName>
+          <CommonName xml:lang="cy">Eglwys San Cristiolus</CommonName>
+          <ShortCommonName>Eglwys</ShortCommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -7466,14 +7490,17 @@
       <AtcoCode>5210AWC51151</AtcoCode>
       <NaptanCode>pemdpwd</NaptanCode>
       <Descriptor>
-        <CommonName>Poppit Sands Car Park</CommonName>
+        <CommonName xml:lang="cy">Poppit Sands Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Landmark>Poppit Sands Car Park</Landmark>
         <Street>B4546</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:25">
-          <CommonName xml:lang="CY">Maes Parcio Poppit</CommonName>
+          <CommonName xml:lang="cy">Maes Parcio Poppit</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
+          <Street>B4546</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -9330,13 +9357,16 @@
       <AtcoCode>5210AWC51192</AtcoCode>
       <NaptanCode>pemdmpt</NaptanCode>
       <Descriptor>
-        <CommonName>Walwyn`s Castle Turn</CommonName>
+        <CommonName xml:lang="cy">Walwyn`s Castle Turn</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Street>B4327</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:42">
-          <CommonName xml:lang="CY">Tro Castell Walwyn</CommonName>
+          <CommonName xml:lang="cy">Tro Castell Walwyn</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4327</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -9610,14 +9640,17 @@
       <AtcoCode>5210AWC51198</AtcoCode>
       <NaptanCode>pematdw</NaptanCode>
       <Descriptor>
-        <CommonName>Marloes Cricket Ground</CommonName>
+        <CommonName xml:lang="cy">Marloes Cricket Ground</CommonName>
+        <ShortCommonName>Cricket Ground</ShortCommonName>
         <Landmark>Marloes Cricket Ground</Landmark>
         <Street>Gay Lane</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:24">
-          <CommonName xml:lang="CY">Maes Criced Marloes</CommonName>
+          <CommonName xml:lang="cy">Maes Criced Marloes</CommonName>
+          <ShortCommonName>Maes Criced</ShortCommonName>
+          <Street>Gay Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -12555,13 +12588,16 @@
       <AtcoCode>5210AWC51470</AtcoCode>
       <NaptanCode>pematjd</NaptanCode>
       <Descriptor>
-        <CommonName>Heol Derwen Turning Circle</CommonName>
+        <CommonName xml:lang="cy">Heol Derwen Turning Circle</CommonName>
+        <ShortCommonName>Turning Circle</ShortCommonName>
         <Street>Heol Derwen</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:44">
-          <CommonName xml:lang="CY">Trofan Heol Derwen</CommonName>
+          <CommonName xml:lang="cy">Cylch Troi Heol Derwen</CommonName>
+          <ShortCommonName>Cylch Troi</ShortCommonName>
+          <Street>Heol Derwen</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -17322,13 +17358,16 @@
       <AtcoCode>5210AWC52047</AtcoCode>
       <NaptanCode>pemdmap</NaptanCode>
       <Descriptor>
-        <CommonName>Serpentine Road North</CommonName>
+        <CommonName xml:lang="cy">Serpentine Road North</CommonName>
+        <ShortCommonName>Serpentine Road</ShortCommonName>
         <Street>Serpentine Road</Street>
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:40">
-          <CommonName xml:lang="CY">Serpentine Road North</CommonName>
+          <CommonName xml:lang="cy">Serpentine Road North</CommonName>
+          <ShortCommonName>Serpentine Road</ShortCommonName>
+          <Street>Serpentine Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -18899,14 +18938,17 @@
       <AtcoCode>5210AWC52550</AtcoCode>
       <NaptanCode>pemdatw</NaptanCode>
       <Descriptor>
-        <CommonName>Wiseman's Bridge Inn</CommonName>
+        <CommonName xml:lang="cy">Wiseman's Bridge Inn</CommonName>
+        <ShortCommonName>Inn</ShortCommonName>
         <Landmark>Wiseman`s Bridge Inn PH</Landmark>
         <Street>Main Road</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:46">
-          <CommonName xml:lang="CY">Wiseman's Bridge Inn</CommonName>
+          <CommonName xml:lang="cy">Wiseman's Bridge Inn</CommonName>
+          <ShortCommonName>Inn</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -19419,14 +19461,17 @@
       <AtcoCode>5210AWC52562</AtcoCode>
       <NaptanCode>pemamwp</NaptanCode>
       <Descriptor>
-        <CommonName>Kingsmoor Roundabout</CommonName>
+        <CommonName xml:lang="cy">Kingsmoor Roundabout</CommonName>
+        <ShortCommonName>Roundabout</ShortCommonName>
         <Street>A478</Street>
         <Crossing>A477</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:04">
-          <CommonName xml:lang="CY">Cylchfan Kingsmoor</CommonName>
+          <CommonName xml:lang="cy">Cylchfan Kingsmoor</CommonName>
+          <ShortCommonName>Cylchfan</ShortCommonName>
+          <Street>A478</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -19562,13 +19607,16 @@
       <AtcoCode>5210AWC52565</AtcoCode>
       <NaptanCode>pemagtw</NaptanCode>
       <Descriptor>
-        <CommonName>East Williamston Green</CommonName>
+        <CommonName xml:lang="cy">East Williamston Green</CommonName>
+        <ShortCommonName>East Williamston</ShortCommonName>
         <Street>Main Road</Street>
         <Indicator>adj Phone Box</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-06-11T14:23:40">
-          <CommonName xml:lang="CY">East Williamston Green</CommonName>
+          <CommonName xml:lang="cy">East Williamston Green</CommonName>
+          <ShortCommonName>East Williamston</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20155,14 +20203,17 @@
       <AtcoCode>5210AWC52578</AtcoCode>
       <NaptanCode>pematgj</NaptanCode>
       <Descriptor>
-        <CommonName>Martletwy Village Hall</CommonName>
+        <CommonName xml:lang="cy">Martletwy Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Martletwy Village Hall</Landmark>
         <Street>Main Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd Martletwy</CommonName>
+          <CommonName xml:lang="cy">Neuadd Bentref Martletwy</CommonName>
+          <ShortCommonName>Neuadd Bentref</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20456,14 +20507,17 @@
       <AtcoCode>5210AWC52584</AtcoCode>
       <NaptanCode>pemapwj</NaptanCode>
       <Descriptor>
-        <CommonName>Loveston Primary School</CommonName>
+        <CommonName xml:lang="cy">Loveston Primary School</CommonName>
+        <ShortCommonName>Primary School</ShortCommonName>
         <Landmark>Loveston Primary School</Landmark>
         <Street>B4586</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:49">
-          <CommonName xml:lang="CY">YG Loveston</CommonName>
+          <CommonName xml:lang="cy">YG Loveston</CommonName>
+          <ShortCommonName>Ysgol Gynradd</ShortCommonName>
+          <Street>B4586</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20507,14 +20561,17 @@
       <AtcoCode>5210AWC52585</AtcoCode>
       <NaptanCode>pemdgda</NaptanCode>
       <Descriptor>
-        <CommonName>Reynalton Village Hall</CommonName>
+        <CommonName xml:lang="cy">Reynalton Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Reynalton Village Hall</Landmark>
         <Street>Main Road</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd Reynalton</CommonName>
+          <CommonName xml:lang="cy">Neuadd Bentref Reynalton</CommonName>
+          <ShortCommonName>Neuadd Bentref</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20697,14 +20754,17 @@
       <AtcoCode>5210AWC52590</AtcoCode>
       <NaptanCode>pemapwa</NaptanCode>
       <Descriptor>
-        <CommonName>Llanteg Filling Station</CommonName>
+        <CommonName xml:lang="cy">Llanteg Filling Station</CommonName>
+        <ShortCommonName>Filling Station</ShortCommonName>
         <Landmark>Llanteg Filling Station</Landmark>
         <Street>A477</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:12">
-          <CommonName xml:lang="CY">Garej Llanteg</CommonName>
+          <CommonName xml:lang="cy">Garej Llanteg</CommonName>
+          <ShortCommonName>Garej</ShortCommonName>
+          <Street>A477</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20887,14 +20947,17 @@
       <AtcoCode>5210AWC52607</AtcoCode>
       <NaptanCode>pemagjt</NaptanCode>
       <Descriptor>
-        <CommonName>Cold Blow Crossroads</CommonName>
+        <CommonName xml:lang="cy">Cold Blow Crossroads</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Landmark>Cold Blow Crossroads</Landmark>
         <Street>B4315</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:18">
-          <CommonName xml:lang="CY">Groesffyrdd Cold Blow</CommonName>
+          <CommonName xml:lang="cy">Groesffyrdd Cold Blow</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4315</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20930,14 +20993,17 @@
       <AtcoCode>5210AWC52608</AtcoCode>
       <NaptanCode>pemdgaj</NaptanCode>
       <Descriptor>
-        <CommonName>St Catherine`s Close</CommonName>
+        <CommonName xml:lang="cy">St Catherine`s Close</CommonName>
+        <ShortCommonName>Princes Gate</ShortCommonName>
         <Landmark>St Catherine`s Close</Landmark>
         <Street>B4315</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:57">
-          <CommonName xml:lang="CY">Clos St Catherine</CommonName>
+          <CommonName xml:lang="cy">Clos St Catherine</CommonName>
+          <ShortCommonName>Princes Gate</ShortCommonName>
+          <Street>B4315</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -21517,14 +21583,17 @@
       <AtcoCode>5210CGX16251</AtcoCode>
       <NaptanCode>pemdtjd</NaptanCode>
       <Descriptor>
-        <CommonName>Poppit Sands Car Park</CommonName>
+        <CommonName xml:lang="cy">Poppit Sands Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Landmark>Poppit Sands Car Park</Landmark>
         <Street>B4546</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:25">
-          <CommonName xml:lang="CY">Maes Parcio Poppit</CommonName>
+          <CommonName xml:lang="cy">Maes Parcio Poppit</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
+          <Street>B4546</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -22071,14 +22140,17 @@
       <AtcoCode>5210CMX16574</AtcoCode>
       <NaptanCode>pemaptw</NaptanCode>
       <Descriptor>
-        <CommonName>Llanteg Filling Station</CommonName>
+        <CommonName xml:lang="cy">Llanteg Filling Station</CommonName>
+        <ShortCommonName>Filling Station</ShortCommonName>
         <Landmark>Llanteg Filling Station</Landmark>
         <Street>A477</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:12">
-          <CommonName xml:lang="CY">Garej Llanteg</CommonName>
+          <CommonName xml:lang="cy">Garej Llanteg</CommonName>
+          <ShortCommonName>Garej</ShortCommonName>
+          <Street>A477</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -22517,14 +22589,17 @@
       <AtcoCode>5210CPZ03891</AtcoCode>
       <NaptanCode>pemajgp</NaptanCode>
       <Descriptor>
-        <CommonName>Tregwynt Woollen Mill</CommonName>
+        <CommonName xml:lang="cy">Tregwynt Woollen Mill</CommonName>
+        <ShortCommonName>Woollen Mill</ShortCommonName>
         <Landmark>Tregwynt Woollen Mill</Landmark>
         <Street>Main Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:43">
-          <CommonName xml:lang="CY">Tregwynt Woollen Mill</CommonName>
+          <CommonName xml:lang="cy">Tregwynt Woollen Mill</CommonName>
+          <ShortCommonName>Woollen Mill</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23000,13 +23075,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:17:09" ModificationDateTime="2025-07-22T13:46:42" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5210KILGETY0</AtcoCode>
       <Descriptor>
-        <CommonName>Kilgetty Rail Station</CommonName>
+        <CommonName xml:lang="cy">Kilgetty Rail Station</CommonName>
+        <ShortCommonName>Kilgetty Station</ShortCommonName>
         <Street>Shillingford Park</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:15">
-          <CommonName xml:lang="CY">Gorsaf Cilgeti</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Cilgeti</CommonName>
+          <ShortCommonName>Gorsaf Cilgeti</ShortCommonName>
+          <Street>Shillingford Park</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23015,8 +23093,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>212668</Easting>
-            <Northing>207273</Northing>
+            <Easting>212665</Easting>
+            <Northing>207274</Northing>
             <Longitude>-4.714248489</Longitude>
             <Latitude>51.732787533</Latitude>
           </Translation>
@@ -23038,13 +23116,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:18:41" ModificationDateTime="2025-07-22T13:47:22" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5210LAMPHEY0</AtcoCode>
       <Descriptor>
-        <CommonName>Lamphey Rail Station</CommonName>
+        <CommonName xml:lang="cy">Lamphey Rail Station</CommonName>
+        <ShortCommonName>Lamphey Station</ShortCommonName>
         <Street>A4139</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:16">
-          <CommonName xml:lang="CY">Gorsaf Llandefai</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Llandefai</CommonName>
+          <ShortCommonName>Gorsaf Llandefai</ShortCommonName>
+          <Street>A4139</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23053,8 +23134,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>201472</Easting>
-            <Northing>200384</Northing>
+            <Easting>201469</Easting>
+            <Northing>200385</Northing>
             <Longitude>-4.8722498</Longitude>
             <Latitude>51.667078423</Latitude>
           </Translation>
@@ -23145,13 +23226,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:23:21" ModificationDateTime="2025-06-11T10:53:47" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210NRBERTH0</AtcoCode>
       <Descriptor>
-        <CommonName>Narberth Rail Station</CommonName>
+        <CommonName xml:lang="cy">Narberth Rail Station</CommonName>
+        <ShortCommonName>Narberth Station</ShortCommonName>
         <Street>Station Approach</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:15">
-          <CommonName xml:lang="CY">Gorsaf Arberth</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Arberth</CommonName>
+          <ShortCommonName>Gorsaf Arberth</ShortCommonName>
+          <Street>Station Approach</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23160,8 +23244,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>212050</Easting>
-            <Northing>214718</Northing>
+            <Easting>212047</Easting>
+            <Northing>214719</Northing>
             <Longitude>-4.727216504</Longitude>
             <Latitude>51.799445107</Latitude>
           </Translation>
@@ -23330,14 +23414,17 @@
       <AtcoCode>5210PBX16194</AtcoCode>
       <NaptanCode>pemdgmg</NaptanCode>
       <Descriptor>
-        <CommonName>Bartlett`s Well Road</CommonName>
-        <Street>Bird`s Lane</Street>
+        <CommonName xml:lang="cy">Bartlett`s Well Road</CommonName>
+        <ShortCommonName>Birds Lane Sageston</ShortCommonName>
+        <Street>Birds Lane</Street>
         <Crossing>Bartlett`s Well Road</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:30">
-          <CommonName xml:lang="CY">Bartlett`s Well Road</CommonName>
+          <CommonName xml:lang="cy">Bartlett`s Well Road</CommonName>
+          <ShortCommonName>Birds Lane Sageston</ShortCommonName>
+          <Street>Birds Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23547,14 +23634,17 @@
       <AtcoCode>5210PBX16202</AtcoCode>
       <NaptanCode>pemapmw</NaptanCode>
       <Descriptor>
-        <CommonName>Cleddau Bridge Hotel</CommonName>
-        <Street>Exxex Road</Street>
+        <CommonName xml:lang="cy">Cleddau Bridge Hotel</CommonName>
+        <ShortCommonName>Hotel</ShortCommonName>
+        <Street>Essex Road</Street>
         <Crossing>Cenarth Close</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:56">
-          <CommonName xml:lang="CY">Cleddau Bridge Hotel</CommonName>
+          <CommonName xml:lang="cy">Cleddau Bridge Hotel</CommonName>
+          <ShortCommonName>Hotel</ShortCommonName>
+          <Street>Essex Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23598,7 +23688,8 @@
       <AtcoCode>5210PBX16203</AtcoCode>
       <NaptanCode>pemapmt</NaptanCode>
       <Descriptor>
-        <CommonName>Cleddau Bridge Hotel</CommonName>
+        <CommonName xml:lang="cy">Cleddau Bridge Hotel</CommonName>
+        <ShortCommonName>Hotel</ShortCommonName>
         <Landmark>Cleddau Bridge Hotel</Landmark>
         <Street>Essex Road</Street>
         <Crossing>Kent Row</Crossing>
@@ -23606,7 +23697,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:56">
-          <CommonName xml:lang="CY">Cleddau Bridge Hotel</CommonName>
+          <CommonName xml:lang="cy">Cleddau Bridge Hotel</CommonName>
+          <ShortCommonName>Hotel</ShortCommonName>
+          <Street>Essex Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23615,8 +23708,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>197372</Easting>
-            <Northing>204243</Northing>
+            <Easting>197370</Easting>
+            <Northing>204244</Northing>
             <Longitude>-4.933682217</Longitude>
             <Latitude>51.700258322</Latitude>
           </Translation>
@@ -23954,7 +24047,8 @@
       <AtcoCode>5210PBX16212</AtcoCode>
       <NaptanCode>pemawpj</NaptanCode>
       <Descriptor>
-        <CommonName>Kingsbridge Cottages</CommonName>
+        <CommonName xml:lang="cy">Kingsbridge Cottages</CommonName>
+        <ShortCommonName>Cottages</ShortCommonName>
         <Landmark>Kingsbridge Cottages</Landmark>
         <Street>Hoyland Road</Street>
         <Crossing>First Lane</Crossing>
@@ -23962,7 +24056,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:53">
-          <CommonName xml:lang="CY">Kingsbridge Cottages</CommonName>
+          <CommonName xml:lang="cy">Kingsbridge Cottages</CommonName>
+          <ShortCommonName>Cottages</ShortCommonName>
+          <Street>Hoyland Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24230,14 +24326,17 @@
       <AtcoCode>5210PBX16219</AtcoCode>
       <NaptanCode>pematpa</NaptanCode>
       <Descriptor>
-        <CommonName>John Lewis Street West</CommonName>
+        <CommonName xml:lang="cy">John Lewis Street West</CommonName>
+        <ShortCommonName>John Lewis Street</ShortCommonName>
         <Street>Haven Drive</Street>
         <Crossing>John Lewis Street</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:34">
-          <CommonName xml:lang="CY">John Lewis Street West</CommonName>
+          <CommonName xml:lang="cy">John Lewis Street West</CommonName>
+          <ShortCommonName>John Lewis Street</ShortCommonName>
+          <Street>Haven Drive</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24557,13 +24656,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:25:42" ModificationDateTime="2025-06-11T10:53:49" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210PEMBROK0</AtcoCode>
       <Descriptor>
-        <CommonName>Pembroke Rail Station</CommonName>
+        <CommonName xml:lang="cy">Pembroke Rail Station</CommonName>
+        <ShortCommonName>Gorsaf Reilffordd Penfro</ShortCommonName>
         <Street>Station Road</Street>
         <Indicator>Main Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:17">
-          <CommonName xml:lang="CY">Gosaf Penfro</CommonName>
+          <CommonName xml:lang="cy">Pembroke Station</CommonName>
+          <ShortCommonName>Gosaf Penfro</ShortCommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24572,7 +24674,7 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>199121</Easting>
+            <Easting>199118</Easting>
             <Northing>201174</Northing>
             <Longitude>-4.906654304</Longitude>
             <Latitude>51.673327744</Latitude>
@@ -24592,13 +24694,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:26:23" ModificationDateTime="2025-06-11T10:53:49" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210PEMBROK1</AtcoCode>
       <Descriptor>
-        <CommonName>Pembroke Rail Station</CommonName>
+        <CommonName xml:lang="cy">Pembroke Rail Station</CommonName>
+        <ShortCommonName>Gorsaf Reilffordd Penfro</ShortCommonName>
         <Street>Station Road</Street>
         <Indicator>NW Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:17">
-          <CommonName xml:lang="CY">Gosaf Penfro</CommonName>
+          <CommonName xml:lang="cy">Pembroke Station</CommonName>
+          <ShortCommonName>Gorsaf Penfro</ShortCommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24607,7 +24712,7 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>199108</Easting>
+            <Easting>199105</Easting>
             <Northing>201188</Northing>
             <Longitude>-4.906850116</Longitude>
             <Latitude>51.673448812</Latitude>
@@ -24627,13 +24732,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:26:57" ModificationDateTime="2025-06-11T10:53:49" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210PEMBROK2</AtcoCode>
       <Descriptor>
-        <CommonName>Pembroke Rail Station</CommonName>
+        <CommonName xml:lang="cy">Pembroke Rail Station</CommonName>
+        <ShortCommonName>Gorsaf Reilffordd Penfro</ShortCommonName>
         <Street>Station Road</Street>
         <Indicator>SE Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:17">
-          <CommonName xml:lang="CY">Gosaf Penfro</CommonName>
+          <CommonName xml:lang="cy">Pembroke Station</CommonName>
+          <ShortCommonName>Gosaf Penfro</ShortCommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24642,7 +24750,7 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>199143</Easting>
+            <Easting>199140</Easting>
             <Northing>201140</Northing>
             <Longitude>-4.906317004</Longitude>
             <Latitude>51.673030297</Latitude>
@@ -24662,13 +24770,16 @@
     <StopPoint CreationDateTime="2014-03-07T13:28:10" ModificationDateTime="2025-06-11T10:53:49" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5210PNALLY0</AtcoCode>
       <Descriptor>
-        <CommonName>Penally Rail Station</CommonName>
+        <CommonName xml:lang="cy">Penally Rail Station</CommonName>
+        <ShortCommonName>Penally Station</ShortCommonName>
         <Street>A4139</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:16">
-          <CommonName xml:lang="CY">Gorsaf Penalun</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Penalun</CommonName>
+          <ShortCommonName>Gorsaf Penalun</ShortCommonName>
+          <Street>A4139</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24677,7 +24788,7 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>211831</Easting>
+            <Easting>211828</Easting>
             <Northing>199092</Northing>
             <Longitude>-4.721940234</Longitude>
             <Latitude>51.659031535</Latitude>
@@ -25004,13 +25115,16 @@
       <AtcoCode>5210WDB21504</AtcoCode>
       <NaptanCode>pemdtjp</NaptanCode>
       <Descriptor>
-        <CommonName>Cleddau Bridge Tolls</CommonName>
+        <CommonName xml:lang="cy">Cleddau Bridge Tolls</CommonName>
+        <ShortCommonName>Bridge Tolls</ShortCommonName>
         <Street>A477</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-07-22T14:51:49">
-          <CommonName xml:lang="CY">Cleddau Bridge Tolls</CommonName>
+          <CommonName xml:lang="cy">Cleddau Bridge Tolls</CommonName>
+          <ShortCommonName>Bridge Tolls</ShortCommonName>
+          <Street>A477</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -25046,13 +25160,16 @@
       <AtcoCode>5210WDB21505</AtcoCode>
       <NaptanCode>pemdtwp</NaptanCode>
       <Descriptor>
-        <CommonName>Cleddau Bridge Tolls</CommonName>
+        <CommonName xml:lang="cy">Cleddau Bridge Tolls</CommonName>
+        <ShortCommonName>Bridge Tolls</ShortCommonName>
         <Street>A477</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-07-22T14:52:20">
-          <CommonName xml:lang="CY">Cleddau Bridge Tolls</CommonName>
+          <CommonName xml:lang="cy">Cleddau Bridge Tolls</CommonName>
+          <ShortCommonName>Bridge Tolls</ShortCommonName>
+          <Street>A477</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27794,14 +27911,17 @@
       <AtcoCode>5210WDB23093</AtcoCode>
       <NaptanCode>pemdwmw</NaptanCode>
       <Descriptor>
-        <CommonName>Square &amp; Compass Inn</CommonName>
+        <CommonName xml:lang="cy">Square &amp; Compass Inn</CommonName>
+        <ShortCommonName>Square &amp; Compass</ShortCommonName>
         <Landmark>Square &amp; Compass Inn PH</Landmark>
         <Street>A487</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:37">
-          <CommonName xml:lang="CY">Square &amp; Compass Inn</CommonName>
+          <CommonName xml:lang="cy">Square &amp; Compass Inn</CommonName>
+          <ShortCommonName>Square &amp; Compass</ShortCommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -28233,13 +28353,16 @@
       <AtcoCode>5210WDB23103</AtcoCode>
       <NaptanCode>pemdwtj</NaptanCode>
       <Descriptor>
-        <CommonName>Walwyn`s Castle Turn</CommonName>
+        <CommonName xml:lang="cy">Walwyn`s Castle Turn</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Street>B4327</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:42">
-          <CommonName xml:lang="CY">Tro Castell Walwyn</CommonName>
+          <CommonName xml:lang="cy">Tro Castell Walwyn</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4327</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -30117,14 +30240,17 @@
       <AtcoCode>5210WDB23145</AtcoCode>
       <NaptanCode>pemgatg</NaptanCode>
       <Descriptor>
-        <CommonName>Woodstock Crossroads</CommonName>
+        <CommonName xml:lang="cy">Woodstock Crossroads</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Landmark>Woodstock Crossroads</Landmark>
         <Street>B4329</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:18">
-          <CommonName xml:lang="CY">Woodstock Crossroads</CommonName>
+          <CommonName xml:lang="cy">Woodstock Crossroads</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4329</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -30640,14 +30766,17 @@
       <AtcoCode>5210WDB23157</AtcoCode>
       <NaptanCode>pemgdad</NaptanCode>
       <Descriptor>
-        <CommonName>Tregwynt Woollen Mill</CommonName>
+        <CommonName xml:lang="cy">Tregwynt Woollen Mill</CommonName>
+        <ShortCommonName>Woollen Mill</ShortCommonName>
         <Landmark>Tregwynt Woollen Mill</Landmark>
         <Street>Main Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:43">
-          <CommonName xml:lang="CY">Tregwynt Woollen Mill</CommonName>
+          <CommonName xml:lang="cy">Tregwynt Woollen Mill</CommonName>
+          <ShortCommonName>Woollen Mill</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -30812,13 +30941,16 @@
       <AtcoCode>5210WDB23161</AtcoCode>
       <NaptanCode>pemgdap</NaptanCode>
       <Descriptor>
-        <CommonName>Trefgarn Owen Caravan Park</CommonName>
+        <CommonName xml:lang="cy">Trefgarn Owen Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Street>Main Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:30">
-          <CommonName xml:lang="CY">Parc Carafanau Trefgarn Owen</CommonName>
+          <CommonName xml:lang="cy">Parc Carafanau Trefgarn Owen</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -31805,7 +31937,8 @@
       <AtcoCode>5210WDB23183</AtcoCode>
       <NaptanCode>pemgdmt</NaptanCode>
       <Descriptor>
-        <CommonName>Kingsbridge Cottages</CommonName>
+        <CommonName xml:lang="cy">Kingsbridge Cottages</CommonName>
+        <ShortCommonName>Cottages</ShortCommonName>
         <Landmark>Kingsbridge Cottages</Landmark>
         <Street>Hoyland Road</Street>
         <Crossing>First Lane</Crossing>
@@ -31813,7 +31946,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:53">
-          <CommonName xml:lang="CY">Bwthyn Kingsbridge</CommonName>
+          <CommonName xml:lang="cy">Kingsbridge Cottages</CommonName>
+          <ShortCommonName>Cottages</ShortCommonName>
+          <Street>Hoyland Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -33225,14 +33360,17 @@
       <AtcoCode>5210WDB23214</AtcoCode>
       <NaptanCode>pemgjdg</NaptanCode>
       <Descriptor>
-        <CommonName>Bartlett`s Well Road</CommonName>
-        <Street>Bird`s Lane</Street>
+        <CommonName xml:lang="cy">Bartlett`s Well Road</CommonName>
+        <ShortCommonName>Birds Lane Sageston</ShortCommonName>
+        <Street>Birds Lane</Street>
         <Crossing>Barlett`s Well Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:30">
-          <CommonName xml:lang="CY">Bartlett`s Well Road</CommonName>
+          <CommonName xml:lang="cy">Bartlett`s Well Road</CommonName>
+          <ShortCommonName>Birds Lane Sageston</ShortCommonName>
+          <Street>Birds Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -33704,13 +33842,16 @@
       <AtcoCode>5210WDB23225</AtcoCode>
       <NaptanCode>pemgjgt</NaptanCode>
       <Descriptor>
-        <CommonName>East Williamston Green</CommonName>
+        <CommonName xml:lang="cy">East Williamston Green</CommonName>
+        <ShortCommonName>East Williamston</ShortCommonName>
         <Street>Main Road</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:32">
-          <CommonName xml:lang="CY">East Williamston Green</CommonName>
+          <CommonName xml:lang="cy">East Williamston Green</CommonName>
+          <ShortCommonName>East Williamston</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -34108,14 +34249,17 @@
       <AtcoCode>5210WDB23233</AtcoCode>
       <NaptanCode>pemgjmt</NaptanCode>
       <Descriptor>
-        <CommonName>Martletwy Village Hall</CommonName>
+        <CommonName xml:lang="cy">Martletwy Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Martletwy Village Hall</Landmark>
         <Street>Main Road</Street>
         <Indicator>nr playground</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd Martletwy</CommonName>
+          <CommonName xml:lang="cy">Neuadd Bentref Martletwy</CommonName>
+          <ShortCommonName>Neuadd Bentref</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -34210,14 +34354,17 @@
       <AtcoCode>5210WDB23235</AtcoCode>
       <NaptanCode>pemgjpa</NaptanCode>
       <Descriptor>
-        <CommonName>Loveston Primary School</CommonName>
+        <CommonName xml:lang="cy">Loveston Primary School</CommonName>
+        <ShortCommonName>Primary School</ShortCommonName>
         <Landmark>Loveston Primary School</Landmark>
         <Street>B4586</Street>
         <Indicator>o/s former</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:49">
-          <CommonName xml:lang="CY">YG Loveston</CommonName>
+          <CommonName xml:lang="cy">YG Loveston</CommonName>
+          <ShortCommonName>Ysgol Gynradd</ShortCommonName>
+          <Street>B4586</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -34261,14 +34408,17 @@
       <AtcoCode>5210WDB23236</AtcoCode>
       <NaptanCode>pemgjpd</NaptanCode>
       <Descriptor>
-        <CommonName>Reynalton Village Hall</CommonName>
+        <CommonName xml:lang="cy">Reynalton Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Reynalton Village Hall</Landmark>
         <Street>Main Road</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd Reynalton</CommonName>
+          <CommonName xml:lang="cy">Neuadd Bentref Reynalton</CommonName>
+          <ShortCommonName>Neuadd Bentref</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -35004,14 +35154,17 @@
       <AtcoCode>5210WDB23252</AtcoCode>
       <NaptanCode>pemgjwj</NaptanCode>
       <Descriptor>
-        <CommonName>Cold Blow Crossroads</CommonName>
+        <CommonName xml:lang="cy">Cold Blow Crossroads</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Landmark>Cold Blow Crossroads</Landmark>
         <Street>B4315</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:18">
-          <CommonName xml:lang="CY">Groesffyrdd Cold Blow</CommonName>
+          <CommonName xml:lang="cy">Groesffyrdd Cold Blow</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4315</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -35047,14 +35200,17 @@
       <AtcoCode>5210WDB23253</AtcoCode>
       <NaptanCode>pemgjwm</NaptanCode>
       <Descriptor>
-        <CommonName>Cold Blow Crossroads</CommonName>
+        <CommonName xml:lang="cy">Cold Blow Crossroads</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Landmark>St Catherine`s Close</Landmark>
         <Street>B4315</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:19">
-          <CommonName xml:lang="CY">Groesffyrdd Cold Blow</CommonName>
+          <CommonName xml:lang="cy">Groesffyrdd Cold Blow</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>B4315</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -35412,14 +35568,17 @@
       <AtcoCode>5210WDB23261</AtcoCode>
       <NaptanCode>pemgmat</NaptanCode>
       <Descriptor>
-        <CommonName>Llawhaden Village Hall</CommonName>
+        <CommonName xml:lang="cy">Llawhaden Village Hall</CommonName>
+        <ShortCommonName>Village Hall</ShortCommonName>
         <Landmark>Llawhaden Village Hall</Landmark>
         <Street>Main Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:28">
-          <CommonName xml:lang="CY">Neuadd y Pentref Llawhaden</CommonName>
+          <CommonName xml:lang="cy">Neuadd Bentref Llawhaden</CommonName>
+          <ShortCommonName>Neuadd Bentref</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -36713,7 +36872,8 @@
       <AtcoCode>5210WDB23290</AtcoCode>
       <NaptanCode>pemgmpt</NaptanCode>
       <Descriptor>
-        <CommonName>Tasker Milward School</CommonName>
+        <CommonName xml:lang="cy">Tasker Milward School</CommonName>
+        <ShortCommonName>School</ShortCommonName>
         <Landmark>Tasker Milward School</Landmark>
         <Street>Scarrowscant Lane</Street>
         <Crossing>St Anthony`s Way</Crossing>
@@ -36721,7 +36881,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:50">
-          <CommonName xml:lang="CY">Ysgol Tasker Milward</CommonName>
+          <CommonName xml:lang="cy">Ysgol Tasker Milward</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
+          <Street>Scarrowscant Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -38041,7 +38203,8 @@
       <AtcoCode>5210WDB25198</AtcoCode>
       <NaptanCode>pemdtmj</NaptanCode>
       <Descriptor>
-        <CommonName>St Christiolus` Church</CommonName>
+        <CommonName xml:lang="cy">St Christiolus` Church</CommonName>
+        <ShortCommonName>Church</ShortCommonName>
         <Landmark>St Christiolus` Church</Landmark>
         <Street>A487</Street>
         <Crossing>B4332</Crossing>
@@ -38049,7 +38212,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:06">
-          <CommonName xml:lang="CY">Eglwys St Christiolus</CommonName>
+          <CommonName xml:lang="cy">Eglwys St Christiolus</CommonName>
+          <ShortCommonName>Eglwys</ShortCommonName>
+          <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -38504,14 +38669,17 @@
       <AtcoCode>5210WDB25208</AtcoCode>
       <NaptanCode>pemdtpw</NaptanCode>
       <Descriptor>
-        <CommonName>Newport Sands Car Park</CommonName>
+        <CommonName xml:lang="cy">Newport Sands Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Landmark>Newport Sands Car Park</Landmark>
         <Street>Newport Sands Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:25">
-          <CommonName xml:lang="CY">Maes Parcio Traeth Casnewydd</CommonName>
+          <CommonName xml:lang="cy">Maes Parcio Traeth Casnewydd</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
+          <Street>Newport Sands Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -38688,14 +38856,17 @@
       <AtcoCode>5210WDB25212</AtcoCode>
       <NaptanCode>pemdpmp</NaptanCode>
       <Descriptor>
-        <CommonName>Pwllgwaelod Car Park</CommonName>
+        <CommonName xml:lang="cy">Pwllgwaelod Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Landmark>Pwllgwaelod Car Park</Landmark>
         <Street>Pwllgwaelod Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:25">
-          <CommonName xml:lang="CY">Maes Parcio Pwllgwaelod</CommonName>
+          <CommonName xml:lang="cy">Maes Parcio Pwllgwaelod</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
+          <Street>Pwllgwaelod Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -39141,14 +39312,17 @@
       <AtcoCode>5210WDB25222</AtcoCode>
       <NaptanCode>pemdpwa</NaptanCode>
       <Descriptor>
-        <CommonName>Lydstep Beach Holiday Park</CommonName>
+        <CommonName xml:lang="cy">Lydstep Beach Holiday Park</CommonName>
+        <ShortCommonName>Holiday Park</ShortCommonName>
         <Landmark>Lydstep Beach Holiday Park</Landmark>
         <Street>Private Road</Street>
         <Indicator>Grounds</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:30">
-          <CommonName xml:lang="CY">Parc Gwyliau Traeth Lydstep</CommonName>
+          <CommonName xml:lang="cy">Parc Gwyliau Traeth Lydstep</CommonName>
+          <ShortCommonName>Parc Gwyliau</ShortCommonName>
+          <Street>Private Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -39293,14 +39467,17 @@
       <AtcoCode>5210WDB46482</AtcoCode>
       <NaptanCode>pemdpda</NaptanCode>
       <Descriptor>
-        <CommonName>Stack Rocks Car Park</CommonName>
+        <CommonName xml:lang="cy">Stack Rocks Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Landmark>Stack Rocks Car Park</Landmark>
         <Street>Ermigate Lane</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:25">
-          <CommonName xml:lang="CY">Maes Parcio Stack Rocks</CommonName>
+          <CommonName xml:lang="cy">Stack Rocks Car Park</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
+          <Street>Ermigate Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -39886,7 +40063,8 @@
       <AtcoCode>5210WDB46615</AtcoCode>
       <NaptanCode>pemdpjp</NaptanCode>
       <Descriptor>
-        <CommonName>Tasker Milward School</CommonName>
+        <CommonName xml:lang="cy">Tasker Milward School</CommonName>
+        <ShortCommonName>School</ShortCommonName>
         <Landmark>Tasker Milward School</Landmark>
         <Street>Scarrowscant Lane</Street>
         <Crossing>St Anthony's Way</Crossing>
@@ -39894,7 +40072,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:50">
-          <CommonName xml:lang="CY">Ysgol Tasker Milward</CommonName>
+          <CommonName xml:lang="cy">Ysgol Tasker Milward</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
+          <Street>Scarrowscant Lane</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -40359,14 +40539,17 @@
       <AtcoCode>5210WDB47322</AtcoCode>
       <NaptanCode>pemgpdt</NaptanCode>
       <Descriptor>
-        <CommonName>Baring Gould Way West</CommonName>
+        <CommonName xml:lang="cy">Baring Gould Way West</CommonName>
+        <ShortCommonName>Baring Gould Way</ShortCommonName>
         <Street>Baring Gould Way</Street>
         <Crossing>Highlands Avenue</Crossing>
         <Indicator>nr 18</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T09:39:30">
-          <CommonName xml:lang="CY">Baring Gould Way West</CommonName>
+          <CommonName xml:lang="cy">Baring Gould Way West</CommonName>
+          <ShortCommonName>Baring Gould Way</ShortCommonName>
+          <Street>Baring Gould Way</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -40999,7 +41182,7 @@
       <AtcoCode>5210WDB47559</AtcoCode>
       <NaptanCode>pemgpmg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="EN">Tenby Leisure Centre</CommonName>
+        <CommonName xml:lang="cy">Tenby Leisure Centre</CommonName>
         <ShortCommonName>Leisure Centre</ShortCommonName>
         <Street>A4139</Street>
         <Crossing>Clickett Lane</Crossing>
@@ -41008,6 +41191,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:54">
           <CommonName xml:lang="cy">Canolfan Hamdden Dinbych-y-pysgod</CommonName>
+          <ShortCommonName>Canolfan Hamdden</ShortCommonName>
           <Street>A4139</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -41020,8 +41204,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>211979</Easting>
-            <Northing>200474</Northing>
+            <Easting>212007</Easting>
+            <Northing>200492</Northing>
             <Longitude>-4.72012</Longitude>
             <Latitude>51.67166</Latitude>
           </Translation>
@@ -41050,14 +41234,17 @@
       <AtcoCode>5210WDB47560</AtcoCode>
       <NaptanCode>pemgpmj</NaptanCode>
       <Descriptor>
-        <CommonName>Tenby Leisure Centre</CommonName>
+        <CommonName xml:lang="cy">Tenby Leisure Centre</CommonName>
+        <ShortCommonName>Leisure Centre</ShortCommonName>
         <Street>A4139</Street>
         <Crossing>Clickett Lane</Crossing>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:53:54">
-          <CommonName xml:lang="CY">Canolfan Hamdden Dinbych-y-pysgod</CommonName>
+          <CommonName xml:lang="cy">Canolfan Hamdden Dinbych-y-pysgod</CommonName>
+          <ShortCommonName>Canolfan Hamdden</ShortCommonName>
+          <Street>A4139</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -42712,7 +42899,7 @@
       <AtcoCode>5210WDB48317</AtcoCode>
       <NaptanCode>pemgtgt</NaptanCode>
       <Descriptor>
-        <CommonName>Clunderwen Playing Field</CommonName>
+        <CommonName xml:lang="cy">Clunderwen Playing Field</CommonName>
         <ShortCommonName>Playing Field</ShortCommonName>
         <Landmark>George Avenue</Landmark>
         <Street>A478</Street>
@@ -42721,7 +42908,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:23">
-          <CommonName xml:lang="CY">Parc Clunderwen</CommonName>
+          <CommonName xml:lang="cy">Cae Chwarae Clunderwen</CommonName>
+          <ShortCommonName>Cae Chwarae</ShortCommonName>
+          <Street>A478</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -43816,13 +44005,16 @@
       <AtcoCode>5210WDB48341</AtcoCode>
       <NaptanCode>pemgtwj</NaptanCode>
       <Descriptor>
-        <CommonName>Fishguard High School</CommonName>
+        <CommonName xml:lang="cy">Fishguard High School</CommonName>
+        <ShortCommonName>YU Abergwaun</ShortCommonName>
         <Street>Vergam Terrace</Street>
         <Indicator>Grounds</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:50">
-          <CommonName xml:lang="CY">YU Abergwaun</CommonName>
+          <CommonName xml:lang="cy">YU Abergwaun</CommonName>
+          <ShortCommonName>Ysgol Uchaf</ShortCommonName>
+          <Street>Vergam Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44105,14 +44297,17 @@
       <AtcoCode>5210WDB48347</AtcoCode>
       <NaptanCode>pemgwda</NaptanCode>
       <Descriptor>
-        <CommonName>Pembroke Dock Railway Hub</CommonName>
+        <CommonName xml:lang="cy">Pembroke Dock Railway Hub</CommonName>
+        <ShortCommonName>Pembroke Dock Stn</ShortCommonName>
         <Landmark>Railway Station</Landmark>
         <Street>Appleby Terrace</Street>
         <Indicator>Car Park</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:17">
-          <CommonName xml:lang="CY">Gosaf Doc Penfro</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Doc Penfro</CommonName>
+          <ShortCommonName>Gorsaf Doc Penfro</ShortCommonName>
+          <Street>Appleby Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -44314,14 +44509,17 @@
       <AtcoCode>5210WDB48351</AtcoCode>
       <NaptanCode>pemgwdp</NaptanCode>
       <Descriptor>
-        <CommonName>Walwyn's Castle Turn</CommonName>
+        <CommonName xml:lang="cy">Walwyn's Castle Turn</CommonName>
+        <ShortCommonName>Crossroads</ShortCommonName>
         <Street>Dale Road (B4327)</Street>
         <Crossing>Junction for Walwyn's Castle village</Crossing>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:43">
-          <CommonName xml:lang="CY">Tro Castell Walwyn</CommonName>
+          <CommonName xml:lang="cy">Tro Castell Walwyn</CommonName>
+          <ShortCommonName>Crossroads</ShortCommonName>
+          <Street>Dale Road (B4327)</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -46614,13 +46812,16 @@
       <AtcoCode>5210WDB48390</AtcoCode>
       <NaptanCode>pemjadm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="EN">Wiseman's Bridge Inn</CommonName>
+        <CommonName xml:lang="cy">Wiseman's Bridge Inn</CommonName>
+        <ShortCommonName>Inn</ShortCommonName>
         <Street>Main Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:46">
-          <CommonName xml:lang="CY">Wiseman`s Bridge Inn</CommonName>
+          <CommonName xml:lang="cy">Wiseman`s Bridge Inn</CommonName>
+          <ShortCommonName>Inn</ShortCommonName>
+          <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -47314,13 +47515,16 @@
       <AtcoCode>5210WDB48405</AtcoCode>
       <NaptanCode>pemjmgp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Milford Haven School</CommonName>
+        <CommonName xml:lang="cy">Milford Haven School</CommonName>
+        <ShortCommonName>School</ShortCommonName>
         <Street>Thornton Road</Street>
         <Indicator>Grounds</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:47">
-          <CommonName xml:lang="CY">Ysgol Aberdaugleddau</CommonName>
+          <CommonName xml:lang="cy">Ysgol Aberdaugleddau</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
+          <Street>Thornton Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -48318,7 +48522,7 @@
       </StopClassification>
       <AdministrativeAreaRef>040</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-06-25T10:53:25" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-06-25T10:53:25" ModificationDateTime="2026-06-25T15:21:38" Modification="new" Status="active">
       <AtcoCode>5210WDB48426</AtcoCode>
       <NaptanCode>pemjapt</NaptanCode>
       <Descriptor>
@@ -48329,7 +48533,6 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-06-25T10:53:26">
           <CommonName xml:lang="cy">Eisteddfod</CommonName>
-          <ShortCommonName>Eisteddfod</ShortCommonName>
           <Street>A487</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -48338,6 +48541,7 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
+            <GridType>UKOS</GridType>
             <Easting>215538</Easting>
             <Northing>242350</Northing>
             <Longitude>-4.691475</Longitude>
