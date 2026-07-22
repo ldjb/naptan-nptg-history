@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-07-13T14:50:45.104" ModificationDateTime="2026-07-13T14:50:45.104" Modification="new" RevisionNumber="0" FileName="NaPTAN037.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-07-21T10:57:43.905" ModificationDateTime="2026-07-21T10:57:43.905" Modification="new" RevisionNumber="0" FileName="NaPTAN037.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-08-28T00:00:00.000" ModificationDateTime="2014-01-08T09:04:07.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>03700001</AtcoCode>
@@ -10212,11 +10212,11 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-09T00:00:00.000" ModificationDateTime="2010-04-05T17:19:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2004-02-09T00:00:00.000" ModificationDateTime="2026-07-21T10:51:07.335" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>03700251</AtcoCode>
 <NaptanCode>slgaptw</NaptanCode>
 <Descriptor>
-<CommonName>Dover Road</CommonName>
+<CommonName>Dover Road Stop A</CommonName>
 <Landmark>Dover Road</Landmark>
 <Street>Bath Road</Street>
 <Indicator>E-bound</Indicator>
@@ -17938,11 +17938,11 @@
 <PlusbusZoneRef CreationDateTime="2009-10-29T16:30:45.000" ModificationDateTime="2009-10-29T16:30:45.000" Modification="new" RevisionNumber="0" Status="active">SLOUGH</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-28T00:00:00.000" ModificationDateTime="2010-04-05T17:19:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-08-28T00:00:00.000" ModificationDateTime="2026-07-21T10:54:42.605" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>03700436</AtcoCode>
 <NaptanCode>slgdapm</NaptanCode>
 <Descriptor>
-<CommonName>Dover Road</CommonName>
+<CommonName>Dover Road Stop B</CommonName>
 <Landmark>Dover Road</Landmark>
 <Street>Bath Road</Street>
 <Indicator>W-bound</Indicator>
@@ -24564,6 +24564,120 @@
 <Northing>181112</Northing>
 <Longitude>-0.599359</Longitude>
 <Latitude>51.520558</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-07-21T10:21:19.308" ModificationDateTime="2026-07-21T10:56:37.785" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>03700259</AtcoCode>
+<NaptanCode>slgdmdp</NaptanCode>
+<Descriptor>
+<CommonName>Ajax Avenue</CommonName>
+<Street>Leigh Road</Street>
+<Indicator>S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0072216</NptgLocalityRef>
+<Suburb>Slough Trading Estate</Suburb>
+<Town>Slough</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>495550</Easting>
+<Northing>180760</Northing>
+<Longitude>-0.6243191</Longitude>
+<Latitude>51.5176924</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-07-21T10:31:58.191" ModificationDateTime="2026-07-21T10:56:54.310" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>03700260</AtcoCode>
+<NaptanCode>slgdmdt</NaptanCode>
+<Descriptor>
+<CommonName>Ajax Avenue</CommonName>
+<Street>Leigh Road</Street>
+<Indicator>N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0072216</NptgLocalityRef>
+<Suburb>Slough Trading Estate</Suburb>
+<Town>Slough</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>495539</Easting>
+<Northing>180745</Northing>
+<Longitude>-0.6244798</Longitude>
+<Latitude>51.5175636</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>050</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-07-21T10:49:21.780" ModificationDateTime="2026-07-21T10:56:11.830" Modification="revise" RevisionNumber="3" Status="active">
+<AtcoCode>03700359</AtcoCode>
+<NaptanCode>slgdmdw</NaptanCode>
+<Descriptor>
+<CommonName>Dover Road Stop C</CommonName>
+<Street>Bath Road</Street>
+<Indicator>E-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0072216</NptgLocalityRef>
+<Suburb>Slough Trading Estate</Suburb>
+<Town>Slough</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>494807</Easting>
+<Northing>181023</Northing>
+<Longitude>-0.6349534</Longitude>
+<Latitude>51.5201816</Latitude>
 </Translation>
 </Location>
 </Place>
