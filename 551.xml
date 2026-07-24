@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-07-09T14:28:29" ModificationDateTime="2026-07-09T14:28:29" Modification="revise" RevisionNumber="1" FileName="551.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-07-23T14:47:22" ModificationDateTime="2026-07-23T14:47:22" Modification="revise" RevisionNumber="1" FileName="551.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-06-17T13:01:32" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5510ANZ12854</AtcoCode>
@@ -6125,7 +6125,8 @@
       <AtcoCode>5510AWA12657</AtcoCode>
       <NaptanCode>breatjp</NaptanCode>
       <Descriptor>
-        <CommonName>Kenfig Nature Reserve</CommonName>
+        <CommonName xml:lang="cy">Kenfig Nature Reserve</CommonName>
+        <ShortCommonName>Nature Reserve</ShortCommonName>
         <Landmark>Kenfig Reserve Centre</Landmark>
         <Street>West Road</Street>
         <Crossing>Heol Ton</Crossing>
@@ -6133,7 +6134,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:42">
-          <CommonName xml:lang="CY">Gwarchodfa Natur Cynffig</CommonName>
+          <CommonName xml:lang="cy">Gwarchodfa Natur Cynffig</CommonName>
+          <ShortCommonName>Gwarchodfa Natur</ShortCommonName>
           <Street>West Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -6953,14 +6955,17 @@
       <AtcoCode>5510AWA12687</AtcoCode>
       <NaptanCode>bregtpj</NaptanCode>
       <Descriptor>
-        <CommonName>Brackla Street Centre</CommonName>
+        <CommonName xml:lang="cy">Brackla Street Centre</CommonName>
+        <ShortCommonName>Cheapside</ShortCommonName>
         <Street>Brackla Street</Street>
         <Crossing>Cheapside</Crossing>
-        <Indicator>opp</Indicator>
+        <Indicator>opp Shops</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:26">
-          <CommonName xml:lang="CY">Canolfan Stryd Bracla</CommonName>
+          <CommonName xml:lang="cy">Canolfan Stryd Bracla</CommonName>
+          <ShortCommonName>Cheapside</ShortCommonName>
+          <Street>Stryd Bracla</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -16370,7 +16375,8 @@
       <AtcoCode>5510AWA12911</AtcoCode>
       <NaptanCode>breawtp</NaptanCode>
       <Descriptor>
-        <CommonName>Nantyffyllon Library</CommonName>
+        <CommonName xml:lang="cy">Nantyffyllon Library</CommonName>
+        <ShortCommonName>Library</ShortCommonName>
         <Landmark>Nantyffyllon Library</Landmark>
         <Street>Heol Tywith</Street>
         <Crossing>Bangor Street</Crossing>
@@ -16378,7 +16384,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:48">
-          <CommonName xml:lang="CY">Llyfrgell Nantyffyllon</CommonName>
+          <CommonName xml:lang="cy">Llyfrgell Nantyffyllon</CommonName>
+          <ShortCommonName>Llyfrgell</ShortCommonName>
           <Street>Heol Tywith</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -17991,14 +17998,16 @@
       <AtcoCode>5510AWA12945</AtcoCode>
       <NaptanCode>breadpw</NaptanCode>
       <Descriptor>
-        <CommonName>Blaengarw RFC</CommonName>
+        <CommonName xml:lang="cy">Blaengarw Rugby Club</CommonName>
+        <ShortCommonName>Rugby Club</ShortCommonName>
         <Landmark>Blaengarw RFC</Landmark>
         <Street>Victoria Street</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:29">
-          <CommonName xml:lang="CY">Clwb Rygbi Blaengarw</CommonName>
+          <CommonName xml:lang="cy">Clwb Rygbi Blaengarw</CommonName>
+          <ShortCommonName>Clwb Rygbi</ShortCommonName>
           <Street>Victoria Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18284,13 +18293,15 @@
       <NaptanCode>breadwa</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Blaengarw Terminus</CommonName>
+        <ShortCommonName>Terminus</ShortCommonName>
         <Landmark>Blaengarw Terminus</Landmark>
         <Street>Pwllcarn Terrace</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:23">
-          <CommonName xml:lang="cy">Blaencaerau Terminus</CommonName>
+          <CommonName xml:lang="cy">Terminws Blaengarw</CommonName>
+          <ShortCommonName>Terminws</ShortCommonName>
           <Street>Pwllcarn Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -24336,13 +24347,15 @@
       <AtcoCode>5510AWA13095</AtcoCode>
       <NaptanCode>bregwmw</NaptanCode>
       <Descriptor>
-        <CommonName>Penyfai Nurseries</CommonName>
+        <CommonName xml:lang="cy">Penyfai Nurseries</CommonName>
+        <ShortCommonName>Nurseries</ShortCommonName>
         <Street>Tondu Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:50">
-          <CommonName xml:lang="CY">Meithrinfeydd Penyfai</CommonName>
+          <CommonName xml:lang="cy">Meithrinfeydd Penyfai</CommonName>
+          <ShortCommonName>Meithrinfeydd</ShortCommonName>
           <Street>Tondu Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29031,13 +29044,15 @@
       <NaptanCode>breajpg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Blaencaerau Terminus</CommonName>
+        <ShortCommonName>Terminus</ShortCommonName>
         <Street>Brynglas Terrace</Street>
         <Crossing>Blaencaerau Road</Crossing>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:22">
-          <CommonName xml:lang="cy">Blaencaerau Terminus</CommonName>
+          <CommonName xml:lang="cy">Terminws Blaencaerau</CommonName>
+          <ShortCommonName>Terminws</ShortCommonName>
           <Street>Brynglas Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29761,16 +29776,18 @@
       <AtcoCode>5510AWN26215</AtcoCode>
       <NaptanCode>breapdp</NaptanCode>
       <Descriptor>
-        <CommonName>Cae Caddy Roundabout</CommonName>
+        <CommonName xml:lang="cy">Cae Caddy Roundabout</CommonName>
+        <ShortCommonName>Roundabout</ShortCommonName>
         <Landmark>A4063</Landmark>
-        <Street>Litchsrd Hill</Street>
+        <Street>Litchard Hill</Street>
         <Crossing>A4061</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:31">
-          <CommonName xml:lang="CY">Croesfordd Cae Caddy</CommonName>
-          <Street>Litchsrd Hill</Street>
+          <CommonName xml:lang="cy">Cylchfan Cae Caddy</CommonName>
+          <ShortCommonName>Cylchfan</ShortCommonName>
+          <Street>Litchard Hill</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -29810,7 +29827,8 @@
       <AtcoCode>5510AWN26216</AtcoCode>
       <NaptanCode>bregtjd</NaptanCode>
       <Descriptor>
-        <CommonName>Pyle &amp; Kenfig Golf Club</CommonName>
+        <CommonName xml:lang="cy">Pyle &amp; Kenfig Golf Club</CommonName>
+        <ShortCommonName>Golf Club</ShortCommonName>
         <Landmark>Pyle &amp; Kenfig Golf Club</Landmark>
         <Street>West Road</Street>
         <Crossing>Heol Drewi</Crossing>
@@ -29818,7 +29836,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:28">
-          <CommonName xml:lang="CY">Clwb Golff Pyle a Cynffig</CommonName>
+          <CommonName xml:lang="cy">Clwb Golff Pyle a Cynffig</CommonName>
+          <ShortCommonName>Clwb Golff</ShortCommonName>
           <Street>West Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29862,7 +29881,8 @@
       <AtcoCode>5510AWN26217</AtcoCode>
       <NaptanCode>bregtjg</NaptanCode>
       <Descriptor>
-        <CommonName>Pyle &amp; Kenfig Golf Club</CommonName>
+        <CommonName xml:lang="cy">Pyle &amp; Kenfig Golf Club</CommonName>
+        <ShortCommonName>Golf Club</ShortCommonName>
         <Landmark>Pyle &amp; Kenfig Golf Club</Landmark>
         <Street>West Road</Street>
         <Crossing>Heol Drewi</Crossing>
@@ -29870,7 +29890,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:29">
-          <CommonName xml:lang="CY">Clwb Golff Pyle a Cynffig</CommonName>
+          <CommonName xml:lang="cy">Clwb Golff Pyle a Cynffig</CommonName>
+          <ShortCommonName>Clwb Golff</ShortCommonName>
           <Street>West Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -33617,7 +33638,8 @@
       <AtcoCode>5510WDB23563</AtcoCode>
       <NaptanCode>breada</NaptanCode>
       <Descriptor>
-        <CommonName>Pencoed Services</CommonName>
+        <CommonName xml:lang="cy">Pencoed Services</CommonName>
+        <ShortCommonName>Services</ShortCommonName>
         <Landmark>Texaco Service Station</Landmark>
         <Street>Service Road</Street>
         <Crossing>A473</Crossing>
@@ -33625,7 +33647,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:42">
-          <CommonName xml:lang="CY">Gwasanaethau Pencoed</CommonName>
+          <CommonName xml:lang="cy">Gwasanaethau Pencoed</CommonName>
+          <ShortCommonName>Gwasanaethau</ShortCommonName>
           <Street>Service Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -38548,14 +38571,16 @@
       <AtcoCode>5510WDB47498</AtcoCode>
       <NaptanCode>brejmwg</NaptanCode>
       <Descriptor>
-        <CommonName>Blaengarw RFC</CommonName>
+        <CommonName xml:lang="cy">Blaengarw Rugbu Club</CommonName>
+        <ShortCommonName>Rugbu Club</ShortCommonName>
         <Landmark>Blaengarw Rugby Club</Landmark>
         <Street>Victoria Street</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:29">
-          <CommonName xml:lang="CY">Clwb Rygbi Blaengarw</CommonName>
+          <CommonName xml:lang="cy">Clwb Rygbi Blaengarw</CommonName>
+          <ShortCommonName>Clwb Rygbi</ShortCommonName>
           <Street>Victoria Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -39876,12 +39901,14 @@
       <NaptanCode>brejpjm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Quarella Road Clinic</CommonName>
+        <ShortCommonName>Clinic</ShortCommonName>
         <Street>Quarella Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-08-19T14:48:13">
           <CommonName xml:lang="cy">Clinig Heol Quarella</CommonName>
+          <ShortCommonName>Clinig</ShortCommonName>
           <Street>Heol Quarella</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -42127,13 +42154,15 @@
       <AtcoCode>5510WDB47574</AtcoCode>
       <NaptanCode>brejtjt</NaptanCode>
       <Descriptor>
-        <CommonName>Heol-y-Parc Junction</CommonName>
+        <CommonName xml:lang="cy">Heol-y-Parc Junction</CommonName>
+        <ShortCommonName>Junction</ShortCommonName>
         <Street>Ffordd-yr-Eglwys</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:32">
-          <CommonName xml:lang="CY">Cyffordd Heol-y-Parc</CommonName>
+          <CommonName xml:lang="cy">Cyffordd Heol-y-Parc</CommonName>
+          <ShortCommonName>Cyffordd</ShortCommonName>
           <Street>Ffordd-yr-Eglwys</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -45729,13 +45758,15 @@
       <AtcoCode>5510WDB48773</AtcoCode>
       <NaptanCode>bremajt</NaptanCode>
       <Descriptor>
-        <CommonName>Busy Bees Nursery</CommonName>
+        <CommonName xml:lang="cy">Busy Bees Nursery</CommonName>
+        <ShortCommonName>Busy Bees</ShortCommonName>
         <Street>Gentle Way</Street>
         <Indicator>outside</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:52:50">
-          <CommonName xml:lang="CY">Meithrinfa Busy Bees</CommonName>
+          <CommonName xml:lang="cy">Meithrinfa Busy Bees</CommonName>
+          <ShortCommonName>Busy Bees</ShortCommonName>
           <Street>Gentle Way</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -46720,6 +46751,47 @@
           <Active />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-07-23T14:27:26" Modification="new" Status="active">
+      <AtcoCode>5510WDB48793</AtcoCode>
+      <NaptanCode>brematw</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Heol Maendy</CommonName>
+        <Street>Heol Fach</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-07-23T14:27:27">
+          <CommonName xml:lang="cy">Heol Maendy</CommonName>
+          <Street>Heol Fach</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0053952</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>281362</Easting>
+            <Northing>182003</Northing>
+            <Longitude>-3.711489</Longitude>
+            <Latitude>51.524437</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>007</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-04T10:11:36" ModificationDateTime="2025-08-20T14:01:14" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5510WLDMILL0</AtcoCode>
