@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2026-07-21T08:44:38" ModificationDateTime="2026-07-21T08:44:38" Modification="revise" RevisionNumber="542" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2026-07-24T15:18:11" ModificationDateTime="2026-07-24T15:18:11" Modification="revise" RevisionNumber="543" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-05-18T11:53:59" ModificationDateTime="2016-02-23T14:56:19" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2900FLEX1</AtcoCode>
@@ -16273,7 +16273,7 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-03-02T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-24T15:03:58" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2900S0813</AtcoCode>
       <NaptanCode>NFODTAWM</NaptanCode>
       <Descriptor>
@@ -16287,8 +16287,8 @@
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>616569</Easting>
-          <Northing>278658</Northing>
+          <Easting>617240</Easting>
+          <Northing>278907</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -136260,6 +136260,39 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-07-21T14:03:36" ModificationDateTime="2026-07-21T14:03:36" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900D1350</AtcoCode>
+      <NaptanCode>NFOJAGMA</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">The Street</CommonName>
+        <Street xml:lang="en">Sporle Road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048379</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>584671</Easting>
+          <Northing>312382</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2900P0711</AtcoCode>
       <NaptanCode>NFODPAPD</NaptanCode>
@@ -231065,7 +231098,7 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:51:39" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T18:05:16" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900T3956</AtcoCode>
       <NaptanCode>NFOGATJM</NaptanCode>
       <Descriptor>
@@ -231350,6 +231383,42 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-06-23T11:53:01" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>2900T3975</AtcoCode>
+      <NaptanCode>NFOGATPT</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Coventry Way</CommonName>
+        <Street xml:lang="en">Canterbury Way</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048422</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>585953</Easting>
+          <Northing>283508</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1899</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:33:15" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2900T3945</AtcoCode>
       <NaptanCode>NFOGATGT</NaptanCode>
@@ -231456,42 +231525,6 @@
       </StopClassification>
       <StopAreas>
         <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1898</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-06-23T11:53:01" Modification="revise" RevisionNumber="3" Status="active">
-      <AtcoCode>2900T3975</AtcoCode>
-      <NaptanCode>NFOGATPT</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Coventry Way</CommonName>
-        <Street xml:lang="en">Canterbury Way</Street>
-        <Indicator xml:lang="en">adj</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048422</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>585953</Easting>
-          <Northing>283508</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>NW</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1899</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
@@ -231877,14 +231910,14 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:57:15" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T17:56:06" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900T3994</AtcoCode>
       <NaptanCode>NFOGAWDM</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Beatty Close</CommonName>
+        <CommonName xml:lang="en">Fisher Way</CommonName>
         <Landmark xml:lang="en">Fisher Way</Landmark>
         <Street xml:lang="en">Churchill Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <Indicator xml:lang="en">adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0048422</NptgLocalityRef>
@@ -231914,12 +231947,11 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:56:29" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T17:53:18" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900T3934</AtcoCode>
       <NaptanCode>NFOGATGJ</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Church</CommonName>
-        <Landmark xml:lang="en">Church</Landmark>
+        <CommonName xml:lang="en">The Church On The Way</CommonName>
         <Street xml:lang="en">Churchill Road</Street>
         <Indicator xml:lang="en">opp</Indicator>
       </Descriptor>
@@ -231993,6 +232025,42 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2001-08-08T00:00:00" ModificationDateTime="2026-07-22T17:47:33" Modification="revise" RevisionNumber="4" Status="active">
+      <AtcoCode>2900T3921</AtcoCode>
+      <NaptanCode>NFOGATDG</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">The Thetford Academy</CommonName>
+        <Street xml:lang="en">Croxton Road</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048422</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>587410</Easting>
+          <Northing>284469</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>PTP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2006-04-27T10:33:32" ModificationDateTime="2006-04-27T10:33:32" Modification="revise" RevisionNumber="0" Status="active">290G2417</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-10-29T12:51:09" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>2900T3914</AtcoCode>
@@ -232250,43 +232318,6 @@
       </StopClassification>
       <StopAreas>
         <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1919</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2001-08-08T00:00:00" ModificationDateTime="2019-06-26T10:35:12" Modification="revise" RevisionNumber="3" Status="active">
-      <AtcoCode>2900T3921</AtcoCode>
-      <NaptanCode>NFOGATDG</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Rosemary Musker School</CommonName>
-        <Landmark xml:lang="en">Rosemary Musker School</Landmark>
-        <Street xml:lang="en">Croxton Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048422</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>587410</Easting>
-          <Northing>284469</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>PTP</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2006-04-27T10:33:32" ModificationDateTime="2006-04-27T10:33:32" Modification="revise" RevisionNumber="0" Status="active">290G2417</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
@@ -233087,6 +233118,42 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T10:13:03" Modification="revise" RevisionNumber="5" Status="active">
+      <AtcoCode>2900T3997</AtcoCode>
+      <NaptanCode>NFOGAWDW</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Orchard Way</CommonName>
+        <Street xml:lang="en">Norwich Road</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048422</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>587507</Easting>
+          <Northing>283477</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1914</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:52:21" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2900T39130</AtcoCode>
       <NaptanCode>NFOGAPMA</NaptanCode>
@@ -233194,42 +233261,6 @@
       </StopClassification>
       <StopAreas>
         <StopAreaRef CreationDateTime="2006-04-27T10:33:32" ModificationDateTime="2006-04-27T10:33:32" Modification="revise" RevisionNumber="0" Status="active">290G2236</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:42:05" Modification="revise" RevisionNumber="4" Status="active">
-      <AtcoCode>2900T3997</AtcoCode>
-      <NaptanCode>NFOGAWDW</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Deer's Leap</CommonName>
-        <Street xml:lang="en">Norwich Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048422</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>587507</Easting>
-          <Northing>283477</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>NE</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1914</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
@@ -233887,13 +233918,11 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-03-26T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T17:50:17" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2900T3972</AtcoCode>
       <NaptanCode>NFOGATPG</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Shelley Way</CommonName>
-        <ShortCommonName xml:lang="en">Shelley Way</ShortCommonName>
-        <Landmark xml:lang="en">No 78</Landmark>
+        <CommonName xml:lang="en">Keats Close</CommonName>
         <Street xml:lang="en">Shelley Way</Street>
         <Indicator xml:lang="en">adj</Indicator>
       </Descriptor>
@@ -234472,14 +234501,14 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T10:34:25" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T17:49:19" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>2900T3990</AtcoCode>
       <NaptanCode>NFOGAWAW</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">The Glade</CommonName>
+        <CommonName xml:lang="en">Tennyson Way</CommonName>
         <Landmark xml:lang="en">Tennyson Way</Landmark>
         <Street xml:lang="en">Woodlands Drive</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <Indicator xml:lang="en">adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0048422</NptgLocalityRef>
@@ -235371,42 +235400,6 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:42:42" Modification="revise" RevisionNumber="4" Status="active">
-      <AtcoCode>2900T3996</AtcoCode>
-      <NaptanCode>NFOGAWDT</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Deer's Leap</CommonName>
-        <Street xml:lang="en">Norwich Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048422</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>587547</Easting>
-          <Northing>283495</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>SW</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1914</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2024-02-01T13:47:18" ModificationDateTime="2024-02-01T13:47:18" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900T39160</AtcoCode>
       <NaptanCode>NFOGWPDP</NaptanCode>
@@ -235438,6 +235431,42 @@
           </Bus>
         </OnStreet>
       </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-07-22T10:10:18" Modification="revise" RevisionNumber="5" Status="active">
+      <AtcoCode>2900T3996</AtcoCode>
+      <NaptanCode>NFOGAWDT</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Orchard Way</CommonName>
+        <Street xml:lang="en">Norwich Road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048422</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>587547</Easting>
+          <Northing>283495</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1914</StopAreaRef>
+      </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2014-08-21T00:00:00" Modification="revise" RevisionNumber="3" Status="inactive">
