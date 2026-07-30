@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-07-22T09:56:33.041" ModificationDateTime="2026-07-22T09:56:33.041" Modification="new" RevisionNumber="0" FileName="NaPTAN440.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-07-29T10:14:43.929" ModificationDateTime="2026-07-29T10:14:43.929" Modification="new" RevisionNumber="0" FileName="NaPTAN440.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2012-12-05T10:38:00.000" ModificationDateTime="2012-12-05T14:48:00.000" Modification="delete" RevisionNumber="1" Status="inactive">
 <AtcoCode>440000MS0426</AtcoCode>
@@ -130524,13 +130524,13 @@
 </StopClassification>
 <AdministrativeAreaRef>106</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-15T00:00:00.000" ModificationDateTime="2017-08-29T10:37:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-07-15T00:00:00.000" ModificationDateTime="2026-07-29T10:13:09.848" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>4400HR0508</AtcoCode>
 <NaptanCode>wsxawmwa</NaptanCode>
 <Descriptor>
 <CommonName>The Victory Inn</CommonName>
 <Landmark>Cuckfield Road</Landmark>
-<Street>Brantridge Lane</Street>
+<Street>Cuckfield Road</Street>
 <Indicator>adj</Indicator>
 </Descriptor>
 <Place>
@@ -130540,10 +130540,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>527608</Easting>
-<Northing>128105</Northing>
-<Longitude>-0.181308</Longitude>
-<Latitude>51.038136</Latitude>
+<Easting>527629</Easting>
+<Northing>128095</Northing>
+<Longitude>-0.181006</Longitude>
+<Latitude>51.038044</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -284355,6 +284355,43 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>106</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-07-29T10:11:24.959" ModificationDateTime="2026-07-29T10:13:49.499" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>4400HR1304</AtcoCode>
+<NaptanCode>wsxamjm</NaptanCode>
+<Descriptor>
+<CommonName>The Victory Inn</CommonName>
+<Landmark>The Victory Inn</Landmark>
+<Street>Cuckfield Road</Street>
+<Indicator>nr</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0026819</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>527643</Easting>
+<Northing>128093</Northing>
+<Longitude>-0.1808067</Longitude>
+<Latitude>51.0380230</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

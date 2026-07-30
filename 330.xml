@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-06-08T16:46:30.773" ModificationDateTime="2026-06-08T16:46:30.773" Modification="new" RevisionNumber="0" FileName="NaPTAN330.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-07-29T15:42:42.867" ModificationDateTime="2026-07-29T15:42:42.867" Modification="new" RevisionNumber="0" FileName="NaPTAN330.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-03-24T00:00:00.000" ModificationDateTime="2022-05-16T12:40:32.158" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300AS0001</AtcoCode>
@@ -36493,16 +36493,21 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-10T00:00:00.000" ModificationDateTime="2009-02-10T08:30:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-08-10T00:00:00.000" ModificationDateTime="2026-06-30T12:57:52.886" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300BA0022</AtcoCode>
 <NaptanCode>ntsdgtdg</NaptanCode>
 <PlateCode>BA0022</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">High Street</CommonName>
+<CommonName xml:lang="en">Wharf Road</CommonName>
 <Street xml:lang="en">Station Street</Street>
-<Crossing xml:lang="en">High Street</Crossing>
-<Indicator xml:lang="en">opp</Indicator>
+<Crossing xml:lang="en">wharf Road</Crossing>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-06-30T12:57:52.886" Modification="new" Status="active">
+<CommonName>High Street</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0056456</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -38016,16 +38021,21 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-10T00:00:00.000" ModificationDateTime="2009-02-10T08:29:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-08-10T00:00:00.000" ModificationDateTime="2026-06-30T12:57:41.045" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300BA0057</AtcoCode>
 <NaptanCode>ntsdjpgm</NaptanCode>
 <PlateCode>BA0057</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">High Street</CommonName>
+<CommonName xml:lang="en">Wharf Road</CommonName>
 <Street xml:lang="en">Station Street</Street>
-<Crossing xml:lang="en">High Street</Crossing>
-<Indicator xml:lang="en">adj</Indicator>
+<Crossing xml:lang="en">Wharf Road</Crossing>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-06-30T12:57:41.045" Modification="new" Status="active">
+<CommonName>High Street</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0056456</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -44735,16 +44745,21 @@
 </StopClassification>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-26T00:00:00.000" ModificationDateTime="2009-02-09T08:23:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-01-26T00:00:00.000" ModificationDateTime="2026-06-30T15:52:50.073" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>3300BA0221</AtcoCode>
 <NaptanCode>ntsdpmtj</NaptanCode>
 <PlateCode>BA0221</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Carlton Park School</CommonName>
-<Landmark xml:lang="en">Carlton Park School</Landmark>
+<CommonName xml:lang="en">Library</CommonName>
+<Landmark xml:lang="en">Library</Landmark>
 <Street xml:lang="en">Long Lane</Street>
-<Indicator xml:lang="en">adj</Indicator>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-06-30T15:52:50.073" Modification="new" Status="active">
+<CommonName>Kingston Park Academy</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0050027</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -44777,16 +44792,21 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-26T00:00:00.000" ModificationDateTime="2009-02-09T08:23:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-01-26T00:00:00.000" ModificationDateTime="2026-06-30T15:52:33.519" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300BA0222</AtcoCode>
 <NaptanCode>ntsdpmtm</NaptanCode>
 <PlateCode>BA0222</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Carlton Park School</CommonName>
-<Landmark xml:lang="en">Carlton Park School</Landmark>
+<CommonName xml:lang="en">Library</CommonName>
+<Landmark xml:lang="en">Library</Landmark>
 <Street xml:lang="en">Long Lane</Street>
-<Indicator xml:lang="en">opp</Indicator>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-06-30T15:52:33.519" Modification="new" Status="active">
+<CommonName>Kingston Park Academy</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0050027</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -86354,16 +86374,21 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-13T00:00:00.000" ModificationDateTime="2009-01-08T12:23:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-05-13T00:00:00.000" ModificationDateTime="2026-06-30T12:57:18.759" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>3300BR0067</AtcoCode>
 <NaptanCode>ntsdatja</NaptanCode>
 <PlateCode>BR0067</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Nottingham Road</CommonName>
-<Landmark xml:lang="en">White Bull</Landmark>
+<CommonName xml:lang="en">Co-Op</CommonName>
+<Landmark xml:lang="en">Co-Op</Landmark>
 <Street xml:lang="en">Nottingham Road</Street>
-<Indicator xml:lang="en">NW-bound</Indicator>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-06-30T12:57:18.759" Modification="new" Status="active">
+<CommonName>Co-Op</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0020510</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -91346,16 +91371,21 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-13T00:00:00.000" ModificationDateTime="2009-01-08T12:23:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-05-13T00:00:00.000" ModificationDateTime="2026-06-30T12:57:03.959" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>3300BR0189</AtcoCode>
 <NaptanCode>ntsdpwam</NaptanCode>
 <PlateCode>BR0189</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Nottingham Road</CommonName>
-<Landmark xml:lang="en">White Bull</Landmark>
+<CommonName xml:lang="en">Co-Op</CommonName>
+<Landmark xml:lang="en">Co-Op</Landmark>
 <Street xml:lang="en">Nottingham Road</Street>
-<Indicator xml:lang="en">SE-bound</Indicator>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-06-30T12:57:03.959" Modification="new" Status="active">
+<CommonName>Co-Op</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0020510</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -91514,14 +91544,13 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-16T00:00:00.000" ModificationDateTime="2009-01-16T08:41:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-05-16T00:00:00.000" ModificationDateTime="2026-06-17T16:49:07.360" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300BR0193</AtcoCode>
 <NaptanCode>ntsdaptw</NaptanCode>
 <PlateCode>BR0193</PlateCode>
 <Descriptor>
 <CommonName xml:lang="en">Albert Avenue</CommonName>
 <Street xml:lang="en">Watnall Road</Street>
-<Crossing xml:lang="en">Albert Avenue</Crossing>
 <Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
@@ -91530,10 +91559,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>451083</Easting>
-<Northing>344921</Northing>
-<Longitude>-1.240305</Longitude>
-<Latitude>52.999207</Latitude>
+<Easting>451138</Easting>
+<Northing>344891</Northing>
+<Longitude>-1.23949</Longitude>
+<Latitude>52.998933</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -97712,14 +97741,13 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-16T00:00:00.000" ModificationDateTime="2009-01-27T09:41:00.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2005-05-16T00:00:00.000" ModificationDateTime="2026-06-17T16:50:31.599" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300BR0339</AtcoCode>
 <NaptanCode>ntsdadpa</NaptanCode>
 <PlateCode>BR0339</PlateCode>
 <Descriptor>
 <CommonName xml:lang="en">Albert Avenue</CommonName>
 <Street xml:lang="en">Watnall Road</Street>
-<Crossing xml:lang="en">Albert Avenue</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -97728,10 +97756,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>451051</Easting>
-<Northing>344922</Northing>
-<Longitude>-1.240782</Longitude>
-<Latitude>52.999219</Latitude>
+<Easting>451037</Easting>
+<Northing>344929</Northing>
+<Longitude>-1.240977</Longitude>
+<Latitude>52.999283</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -126268,17 +126296,20 @@
 <PlusbusZoneRef CreationDateTime="2003-07-25T00:00:00.000" ModificationDateTime="2009-01-13T15:26:00.000" Modification="revise" RevisionNumber="6" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-25T00:00:00.000" ModificationDateTime="2023-12-18T13:58:23.511" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-07-25T00:00:00.000" ModificationDateTime="2026-07-03T10:33:57.374" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>3300GE0387</AtcoCode>
 <NaptanCode>ntsapmpw</NaptanCode>
 <PlateCode>GE0387</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Friar Tuck</CommonName>
-<Landmark xml:lang="en">Friar Tuck</Landmark>
+<CommonName xml:lang="en">Derby Street</CommonName>
 <Street xml:lang="en">Gedling Road</Street>
-<Crossing xml:lang="en">Gedling Road</Crossing>
-<Indicator xml:lang="en">adj</Indicator>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-07-03T10:32:34.816" Modification="new" Status="active">
+<CommonName>Derby Street</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0057603</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -126287,8 +126318,8 @@
 <GridType>UKOS</GridType>
 <Easting>458710</Easting>
 <Northing>345339</Northing>
-<Longitude>-1.1265954</Longitude>
-<Latitude>53.0021842</Latitude>
+<Longitude>-1.126596</Longitude>
+<Latitude>53.002185</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -126311,7 +126342,7 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-25T00:00:00.000" ModificationDateTime="2009-01-13T15:15:00.000" Modification="revise" RevisionNumber="6" Status="active">NTNG</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-07-25T00:00:00.000" ModificationDateTime="2009-01-09T09:58:00.000" Modification="revise" RevisionNumber="8" Status="active">
@@ -126404,16 +126435,21 @@
 <PlusbusZoneRef CreationDateTime="2003-07-25T00:00:00.000" ModificationDateTime="2009-01-09T09:57:00.000" Modification="revise" RevisionNumber="8" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-10T00:00:00.000" ModificationDateTime="2023-12-18T13:59:12.898" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-11-10T00:00:00.000" ModificationDateTime="2026-07-03T10:33:38.374" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>3300GE0390</AtcoCode>
 <NaptanCode>ntsapmtg</NaptanCode>
 <PlateCode>GE0390</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Friar Tuck</CommonName>
-<Landmark xml:lang="en">Friar Tuck</Landmark>
+<CommonName xml:lang="en">Brookfield Road</CommonName>
 <Street xml:lang="en">Gedling Road</Street>
-<Indicator xml:lang="en">o/s</Indicator>
+<Crossing xml:lang="en">Brookfield Road</Crossing>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-07-03T10:33:38.374" Modification="new" Status="active">
+<CommonName>Brookfield Road</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0057603</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -126435,7 +126471,7 @@
 <TimingStatus>PPT</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>SE</CompassPoint>
+<CompassPoint>NE</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -126446,7 +126482,7 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-11-10T00:00:00.000" ModificationDateTime="2009-01-13T15:24:00.000" Modification="revise" RevisionNumber="7" Status="active">NTNG</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2004-08-10T00:00:00.000" ModificationDateTime="2009-01-13T15:26:00.000" Modification="revise" RevisionNumber="6" Status="active">
@@ -231300,7 +231336,7 @@
 <PlusbusZoneRef CreationDateTime="2004-03-18T00:00:00.000" ModificationDateTime="2008-11-27T11:07:00.000" Modification="revise" RevisionNumber="6" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-08-19T11:33:00.000" ModificationDateTime="2015-07-28T08:46:27.000" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2011-08-19T11:33:00.000" ModificationDateTime="2026-07-23T13:42:58.076" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3300RU0211</AtcoCode>
 <NaptanCode>ntsgtmtd</NaptanCode>
 <PlateCode>RU0211</PlateCode>
@@ -278779,6 +278815,46 @@
 </StopClassification>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2026-06-10T12:00:02.129" ModificationDateTime="2026-06-10T12:00:02.129" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3300RU0981</AtcoCode>
+<NaptanCode>ntsjadgm</NaptanCode>
+<PlateCode>RU0981</PlateCode>
+<Descriptor>
+<CommonName xml:lang="en">Bidwell Crescent</CommonName>
+<Street xml:lang="en">Nottingham Road</Street>
+<Indicator xml:lang="en">adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0056491</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>453786</Easting>
+<Northing>330765</Northing>
+<Longitude>-1.2023701</Longitude>
+<Latitude>52.8717005</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">330GRU0360</StopAreaRef>
+</StopAreas>
+<AdministrativeAreaRef>095</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2005-10-28T00:00:00.000" ModificationDateTime="2008-12-04T10:25:00.000" Modification="revise" RevisionNumber="2" Status="active">
@@ -286215,7 +286291,7 @@
 </StopArea>
 <StopArea CreationDateTime="2006-11-28T09:12:00.000" ModificationDateTime="2009-02-02T14:08:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>330GBA0129</StopAreaCode>
-<Name>Carlton Park School</Name>
+<Name>Library</Name>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
@@ -290989,7 +291065,7 @@
 </StopArea>
 <StopArea CreationDateTime="2007-01-02T15:13:00.000" ModificationDateTime="2009-02-03T14:45:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>330GBA0468</StopAreaCode>
-<Name>High Street</Name>
+<Name>Wharf Road</Name>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
@@ -293741,7 +293817,7 @@
 </StopArea>
 <StopArea CreationDateTime="2004-04-13T00:00:00.000" ModificationDateTime="2009-01-19T10:40:00.000" Modification="revise" RevisionNumber="2" Status="active">
 <StopAreaCode>330GBR0080</StopAreaCode>
-<Name>Nottingham Road</Name>
+<Name>Co-Op</Name>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
@@ -295969,10 +296045,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>451067</Easting>
-<Northing>344921</Northing>
-<Longitude>-1.2405434</Longitude>
-<Latitude>52.9992088</Latitude>
+<Easting>451089</Easting>
+<Northing>344913</Northing>
+<Longitude>-1.24021</Longitude>
+<Latitude>52.999136</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -321438,7 +321514,7 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2007-03-06T09:32:00.000" ModificationDateTime="2008-12-15T14:16:00.000" Modification="delete" RevisionNumber="4" Status="inactive">
+<StopArea CreationDateTime="2007-03-06T09:32:00.000" ModificationDateTime="2026-06-25T16:10:40.813" Modification="revise" RevisionNumber="5" Status="active">
 <StopAreaCode>330GRU0360</StopAreaCode>
 <Name>Blidwell Crescent</Name>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
@@ -321446,10 +321522,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>453803</Easting>
-<Northing>330697</Northing>
-<Longitude>-1.202135</Longitude>
-<Latitude>52.871087</Latitude>
+<Easting>453797</Easting>
+<Northing>330732</Northing>
+<Longitude>-1.202209</Longitude>
+<Latitude>52.871399</Latitude>
 </Translation>
 </Location>
 </StopArea>

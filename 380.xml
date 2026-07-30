@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-07-20T09:16:37.4537328Z" ModificationDateTime="2026-07-20T09:16:37.4537328Z" Modification="new" RevisionNumber="1" FileName="380.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-07-29T13:46:52.5913139Z" ModificationDateTime="2026-07-29T13:46:52.5913139Z" Modification="new" RevisionNumber="1" FileName="380.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2011-12-19T09:51:00" ModificationDateTime="2023-01-26T09:36:09" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3800BILBROK0</AtcoCode>
@@ -5628,7 +5628,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-07-25T16:08:00" ModificationDateTime="2025-01-09T13:45:37" Modification="revise" RevisionNumber="11" Status="inactive">
+    <StopPoint CreationDateTime="2006-07-25T16:08:00" ModificationDateTime="2026-07-22T13:47:49" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>3800C205600</AtcoCode>
       <NaptanCode>stagtata</NaptanCode>
       <Descriptor>
@@ -5667,11 +5667,17 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-06-18T15:11:56" ModificationDateTime="2024-06-18T15:11:56" Modification="new">
+        <StopValidity CreationDateTime="2024-06-18T15:11:56" ModificationDateTime="2026-07-22T13:47:49" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-06-18</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-07-22T13:47:49" ModificationDateTime="2026-07-22T13:47:49" Modification="new">
+          <DateRange>
+            <StartDate>2026-07-22</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -8692,6 +8698,49 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-07-28T14:56:38" ModificationDateTime="2026-07-28T14:56:58" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>3800C209702</AtcoCode>
+      <Descriptor>
+        <CommonName>Common Lane</CommonName>
+        <ShortCommonName>Common Ln</ShortCommonName>
+        <Street>Crab Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0023401</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>399160</Easting>
+            <Northing>311245</Northing>
+            <Longitude>-2.013867026</Longitude>
+            <Latitude>52.698877811</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>100</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-07-28T14:56:58" ModificationDateTime="2026-07-28T14:56:58" Modification="new">
+          <DateRange>
+            <StartDate>2026-07-28</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2007-07-24T09:16:00" ModificationDateTime="2023-01-26T09:36:17" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3800C209801</AtcoCode>
@@ -29409,7 +29458,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-01T11:27:00" ModificationDateTime="2023-01-26T09:36:36" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2004-07-01T11:27:00" ModificationDateTime="2026-07-28T14:35:42" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3800C256600</AtcoCode>
       <Descriptor>
         <CommonName>Glendawn Close</CommonName>
@@ -29435,13 +29484,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -29864,7 +29913,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-01T11:48:00" ModificationDateTime="2025-02-13T12:06:37" Modification="revise" RevisionNumber="12" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-01T11:48:00" ModificationDateTime="2026-07-22T13:50:00" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>3800C290400</AtcoCode>
       <NaptanCode>stagtdma</NaptanCode>
       <Descriptor>
@@ -29903,16 +29952,22 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-06-18T15:30:55" ModificationDateTime="2025-02-13T12:06:37" Modification="revise" RevisionNumber="2">
+        <StopValidity CreationDateTime="2024-06-18T15:30:55" ModificationDateTime="2026-07-22T13:50:00" Modification="revise" RevisionNumber="3">
           <DateRange>
             <StartDate>2024-06-18</StartDate>
           </DateRange>
-          <Suspended />
-          <Note>Bus services do not operate on this road currently.</Note>
+          <Active />
+          <Note>.</Note>
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-07-22T13:50:00" ModificationDateTime="2026-07-22T13:50:00" Modification="new">
+          <DateRange>
+            <StartDate>2026-07-22</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-09-17T11:22:00" ModificationDateTime="2025-02-13T12:40:28" Modification="revise" RevisionNumber="8" Status="inactive">
+    <StopPoint CreationDateTime="2014-09-17T11:22:00" ModificationDateTime="2026-07-22T13:49:02" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>3800C290401</AtcoCode>
       <NaptanCode>stagtdmd</NaptanCode>
       <Descriptor>
@@ -29950,12 +30005,18 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-06-18T15:31:37" ModificationDateTime="2025-02-13T12:40:28" Modification="revise" RevisionNumber="2">
+        <StopValidity CreationDateTime="2024-06-18T15:31:37" ModificationDateTime="2026-07-22T13:49:02" Modification="revise" RevisionNumber="3">
           <DateRange>
             <StartDate>2024-06-18</StartDate>
           </DateRange>
-          <Suspended />
-          <Note>Bus services do not operate on this road currently.</Note>
+          <Active />
+          <Note>.</Note>
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-07-22T13:49:02" ModificationDateTime="2026-07-22T13:49:02" Modification="new">
+          <DateRange>
+            <StartDate>2026-07-22</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -32262,7 +32323,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-07-17T09:38:31" ModificationDateTime="2026-07-17T09:36:54" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-07-17T09:38:31" ModificationDateTime="2026-07-22T16:33:56" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3800C296101</AtcoCode>
       <Descriptor>
         <CommonName>Churchcroft Gardens</CommonName>
@@ -36711,7 +36772,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-02T10:00:00" ModificationDateTime="2025-01-06T14:54:27" Modification="revise" RevisionNumber="18" Status="active">
+    <StopPoint CreationDateTime="2004-07-02T10:00:00" ModificationDateTime="2026-07-20T13:23:01" Modification="revise" RevisionNumber="20" Status="active">
       <AtcoCode>3800C305401</AtcoCode>
       <NaptanCode>stadamwm</NaptanCode>
       <Descriptor>
@@ -37652,7 +37713,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-02T11:22:00" ModificationDateTime="2023-01-26T09:36:46" Modification="revise" RevisionNumber="10" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-02T11:22:00" ModificationDateTime="2026-07-23T14:56:04" Modification="revise" RevisionNumber="11" Status="inactive">
       <AtcoCode>3800C306700</AtcoCode>
       <NaptanCode>stadapdg</NaptanCode>
       <Descriptor>
@@ -53886,7 +53947,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-07T14:54:00" ModificationDateTime="2023-01-26T09:36:59" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-10-07T14:54:00" ModificationDateTime="2026-07-23T15:00:53" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C328802</AtcoCode>
       <Descriptor>
         <CommonName>Anglesey School</CommonName>
@@ -55843,7 +55904,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-03-03T16:06:00" ModificationDateTime="2023-01-26T09:37:00" Modification="revise" RevisionNumber="10" Status="inactive">
+    <StopPoint CreationDateTime="2010-03-03T16:06:00" ModificationDateTime="2026-07-24T10:53:39" Modification="revise" RevisionNumber="12" Status="inactive">
       <AtcoCode>3800C331601</AtcoCode>
       <NaptanCode>stadgmtd</NaptanCode>
       <Descriptor>
@@ -55881,7 +55942,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-03-03T16:07:00" ModificationDateTime="2023-01-26T09:37:00" Modification="revise" RevisionNumber="10" Status="inactive">
+    <StopPoint CreationDateTime="2010-03-03T16:07:00" ModificationDateTime="2026-07-24T10:59:43" Modification="revise" RevisionNumber="11" Status="inactive">
       <AtcoCode>3800C331602</AtcoCode>
       <NaptanCode>stadgmtg</NaptanCode>
       <Descriptor>
@@ -56434,7 +56495,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-05T12:23:00" ModificationDateTime="2024-06-18T15:49:25" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-05T12:23:00" ModificationDateTime="2026-07-20T13:22:10" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>3800C332302</AtcoCode>
       <Descriptor>
         <CommonName>Fairham Road</CommonName>
@@ -57028,7 +57089,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-05T12:27:00" ModificationDateTime="2025-10-23T10:55:55" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2004-07-05T12:27:00" ModificationDateTime="2026-07-20T13:28:21" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>3800C333101</AtcoCode>
       <NaptanCode>stadgpdj</NaptanCode>
       <Descriptor>
@@ -57933,7 +57994,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-05T13:26:00" ModificationDateTime="2023-01-26T09:37:02" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-05T13:26:00" ModificationDateTime="2026-07-21T10:25:31" Modification="revise" RevisionNumber="12" Status="inactive">
       <AtcoCode>3800C334302</AtcoCode>
       <Descriptor>
         <CommonName>St Mary's Drive</CommonName>
@@ -57958,13 +58019,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -62584,7 +62645,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T16:57:00" ModificationDateTime="2024-06-20T10:53:56" Modification="revise" RevisionNumber="8" Status="inactive">
+    <StopPoint CreationDateTime="2006-09-26T16:57:00" ModificationDateTime="2026-07-21T10:26:28" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C341701</AtcoCode>
       <NaptanCode>stadgwdp</NaptanCode>
       <Descriptor>
@@ -62611,13 +62672,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -65372,7 +65433,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-06-29T16:02:00" ModificationDateTime="2023-01-26T09:37:08" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2010-06-29T16:02:00" ModificationDateTime="2026-07-24T11:07:39" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C345701</AtcoCode>
       <NaptanCode>stadjagw</NaptanCode>
       <Descriptor>
@@ -66936,7 +66997,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-07-06T17:54:00" ModificationDateTime="2023-01-26T09:37:09" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2010-07-06T17:54:00" ModificationDateTime="2026-07-24T11:14:24" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C347801</AtcoCode>
       <NaptanCode>stadjawm</NaptanCode>
       <Descriptor>
@@ -66974,7 +67035,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-07-06T17:55:00" ModificationDateTime="2023-01-26T09:37:09" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2010-07-06T17:55:00" ModificationDateTime="2026-07-24T11:19:04" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>3800C347802</AtcoCode>
       <NaptanCode>stadjawp</NaptanCode>
       <Descriptor>
@@ -68543,7 +68604,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2012-11-05T12:22:00" ModificationDateTime="2024-07-22T16:59:40" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2012-11-05T12:22:00" ModificationDateTime="2026-07-21T10:27:31" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>3800C350302</AtcoCode>
       <NaptanCode>stagdjgw</NaptanCode>
       <Descriptor>
@@ -68569,13 +68630,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -70718,7 +70779,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-05T16:26:00" ModificationDateTime="2023-01-26T09:37:12" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-05T16:26:00" ModificationDateTime="2026-07-24T11:28:46" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C390001</AtcoCode>
       <Descriptor>
         <CommonName>Wellington Road Island</CommonName>
@@ -73393,7 +73454,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-10-21T12:25:00" ModificationDateTime="2023-01-26T09:37:15" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2004-10-21T12:25:00" ModificationDateTime="2026-07-28T08:22:43" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>3800C402701</AtcoCode>
       <Descriptor>
         <CommonName>Bridge Cross Road</CommonName>
@@ -73419,13 +73480,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -85780,7 +85841,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-07T09:39:00" ModificationDateTime="2023-12-11T12:37:36" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2004-07-07T09:39:00" ModificationDateTime="2026-07-28T12:00:01" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>3800C418602</AtcoCode>
       <Descriptor>
         <CommonName>Springhill Road</CommonName>
@@ -102566,7 +102627,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-08T14:29:00" ModificationDateTime="2023-01-26T09:37:42" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2004-07-08T14:29:00" ModificationDateTime="2026-07-28T08:20:58" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>3800C494401</AtcoCode>
       <Descriptor>
         <CommonName>Mossbank Avenue</CommonName>
@@ -102592,19 +102653,19 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2015-09-08T09:42:00" ModificationDateTime="2023-01-26T09:37:42" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2015-09-08T09:42:00" ModificationDateTime="2026-07-28T08:52:07" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>3800C494402</AtcoCode>
       <NaptanCode>stagptwp</NaptanCode>
       <Descriptor>
@@ -102619,10 +102680,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>405337</Easting>
-            <Northing>308888</Northing>
-            <Longitude>-1.922499427</Longitude>
-            <Latitude>52.677664910</Latitude>
+            <Easting>405340</Easting>
+            <Northing>308896</Northing>
+            <Longitude>-1.922454928</Longitude>
+            <Latitude>52.677736798</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -104932,7 +104993,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-08T15:04:00" ModificationDateTime="2023-12-07T09:56:18" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2004-07-08T15:04:00" ModificationDateTime="2026-07-28T12:28:48" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>3800C501801</AtcoCode>
       <NaptanCode>stadpwjg</NaptanCode>
       <Descriptor>
@@ -105134,7 +105195,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-23T09:49:00" ModificationDateTime="2024-09-02T09:54:27" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2006-08-23T09:49:00" ModificationDateTime="2026-07-24T11:41:09" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3800C502100</AtcoCode>
       <Descriptor>
         <CommonName>Quarry Bank</CommonName>
@@ -105489,7 +105550,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-08T15:15:00" ModificationDateTime="2023-12-08T12:10:55" Modification="revise" RevisionNumber="14" Status="active">
+    <StopPoint CreationDateTime="2004-07-08T15:15:00" ModificationDateTime="2026-07-28T13:20:41" Modification="revise" RevisionNumber="15" Status="active">
       <AtcoCode>3800C502601</AtcoCode>
       <NaptanCode>stadtawa</NaptanCode>
       <Descriptor>
@@ -105534,7 +105595,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T17:38:00" ModificationDateTime="2023-12-08T12:19:55" Modification="revise" RevisionNumber="11" Status="active">
+    <StopPoint CreationDateTime="2006-09-26T17:38:00" ModificationDateTime="2026-07-28T13:24:09" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>3800C502602</AtcoCode>
       <NaptanCode>stadtawd</NaptanCode>
       <Descriptor>
@@ -106876,7 +106937,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-08-03T11:30:00" ModificationDateTime="2023-01-26T09:37:48" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2005-08-03T11:30:00" ModificationDateTime="2026-07-24T11:48:19" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>3800C504500</AtcoCode>
       <Descriptor>
         <CommonName>All Saints Church</CommonName>
@@ -107299,7 +107360,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-08T15:53:00" ModificationDateTime="2024-09-02T11:54:00" Modification="revise" RevisionNumber="12" Status="active">
+    <StopPoint CreationDateTime="2004-07-08T15:53:00" ModificationDateTime="2026-07-28T13:29:05" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>3800C505200</AtcoCode>
       <NaptanCode>stadpwpt</NaptanCode>
       <Descriptor>
@@ -107464,7 +107525,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-08T15:57:00" ModificationDateTime="2024-04-09T14:54:58" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-07-08T15:57:00" ModificationDateTime="2026-07-28T13:35:24" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C505401</AtcoCode>
       <NaptanCode>stadpwpw</NaptanCode>
       <Descriptor>
@@ -107510,7 +107571,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-08T15:58:00" ModificationDateTime="2024-04-09T14:56:17" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-07-08T15:58:00" ModificationDateTime="2026-07-28T13:40:01" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C505501</AtcoCode>
       <NaptanCode>stadpwta</NaptanCode>
       <Descriptor>
@@ -108009,7 +108070,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-23T09:46:00" ModificationDateTime="2024-09-02T09:55:01" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2006-08-23T09:46:00" ModificationDateTime="2026-07-24T11:55:49" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>3800C506201</AtcoCode>
       <Descriptor>
         <CommonName>Quarry Bank</CommonName>
@@ -108437,7 +108498,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T09:38:00" ModificationDateTime="2023-01-26T09:37:50" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2004-07-12T09:38:00" ModificationDateTime="2026-07-24T12:07:17" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>3800C506801</AtcoCode>
       <Descriptor>
         <CommonName>Crackley Lane</CommonName>
@@ -108551,7 +108612,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T17:40:00" ModificationDateTime="2024-09-02T09:55:42" Modification="revise" RevisionNumber="13" Status="active">
+    <StopPoint CreationDateTime="2006-09-26T17:40:00" ModificationDateTime="2026-07-24T12:20:27" Modification="revise" RevisionNumber="15" Status="active">
       <AtcoCode>3800C507001</AtcoCode>
       <NaptanCode>stadtadp</NaptanCode>
       <Descriptor>
@@ -108597,7 +108658,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-23T09:42:00" ModificationDateTime="2024-09-02T09:56:10" Modification="revise" RevisionNumber="11" Status="active">
+    <StopPoint CreationDateTime="2006-08-23T09:42:00" ModificationDateTime="2026-07-27T15:50:20" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>3800C507002</AtcoCode>
       <NaptanCode>stadtadt</NaptanCode>
       <Descriptor>
@@ -109768,7 +109829,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-12-06T15:24:00" ModificationDateTime="2023-01-26T09:37:51" Modification="revise" RevisionNumber="10" Status="inactive">
+    <StopPoint CreationDateTime="2004-12-06T15:24:00" ModificationDateTime="2026-07-27T15:55:53" Modification="revise" RevisionNumber="11" Status="inactive">
       <AtcoCode>3800C508600</AtcoCode>
       <NaptanCode>stadtajp</NaptanCode>
       <Descriptor>
@@ -110461,7 +110522,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T10:37:00" ModificationDateTime="2023-01-26T09:37:52" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-12T10:37:00" ModificationDateTime="2026-07-23T10:22:40" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C509500</AtcoCode>
       <NaptanCode>stadtapg</NaptanCode>
       <Descriptor>
@@ -110499,7 +110560,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T10:38:00" ModificationDateTime="2023-01-26T09:37:52" Modification="revise" RevisionNumber="8" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-12T10:38:00" ModificationDateTime="2026-07-23T10:27:26" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>3800C509501</AtcoCode>
       <NaptanCode>stadtapj</NaptanCode>
       <Descriptor>
@@ -114021,7 +114082,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2008-10-01T12:22:00" ModificationDateTime="2023-01-26T09:37:56" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2008-10-01T12:22:00" ModificationDateTime="2026-07-27T16:08:25" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>3800C513502</AtcoCode>
       <NaptanCode>stadtgad</NaptanCode>
       <Descriptor>
@@ -117409,7 +117470,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-01-26T17:01:00" ModificationDateTime="2023-01-26T09:37:59" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2009-01-26T17:01:00" ModificationDateTime="2026-07-21T10:02:52" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C518201</AtcoCode>
       <NaptanCode>stadtjga</NaptanCode>
       <Descriptor>
@@ -117447,7 +117508,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-08-03T11:25:00" ModificationDateTime="2023-01-26T09:37:59" Modification="revise" RevisionNumber="10" Status="inactive">
+    <StopPoint CreationDateTime="2010-08-03T11:25:00" ModificationDateTime="2026-07-21T10:05:19" Modification="revise" RevisionNumber="11" Status="inactive">
       <AtcoCode>3800C518202</AtcoCode>
       <Descriptor>
         <CommonName>Falkirk Grange</CommonName>
@@ -117472,13 +117533,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -117560,7 +117621,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T14:52:00" ModificationDateTime="2023-01-26T09:37:59" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-07-12T14:52:00" ModificationDateTime="2026-07-21T10:12:16" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C518401</AtcoCode>
       <NaptanCode>stagtgpm</NaptanCode>
       <Descriptor>
@@ -117587,19 +117648,19 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T14:52:00" ModificationDateTime="2023-11-30T12:01:17" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-07-12T14:52:00" ModificationDateTime="2026-07-21T10:17:41" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C518402</AtcoCode>
       <Descriptor>
         <CommonName>Seabridge Road</CommonName>
@@ -117792,7 +117853,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-02-02T15:35:00" ModificationDateTime="2023-01-26T09:37:59" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2009-02-02T15:35:00" ModificationDateTime="2026-07-23T09:27:51" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>3800C518701</AtcoCode>
       <NaptanCode>stadtjgw</NaptanCode>
       <Descriptor>
@@ -118941,13 +119002,13 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T17:50:00" ModificationDateTime="2023-01-26T09:38:00" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2006-09-26T17:50:00" ModificationDateTime="2026-07-22T12:46:35" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>3800C520401</AtcoCode>
       <NaptanCode>stadtjtw</NaptanCode>
       <Descriptor>
-        <CommonName>Dean's Lane</CommonName>
-        <ShortCommonName>Dean's La</ShortCommonName>
-        <Landmark>Dean's Lane</Landmark>
+        <CommonName>Deans Lane</CommonName>
+        <ShortCommonName>Deans La</ShortCommonName>
+        <Landmark>Deans Lane</Landmark>
         <Street>Liverpool Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
@@ -121612,13 +121673,13 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-23T10:34:00" ModificationDateTime="2023-01-26T09:38:02" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2006-06-23T10:34:00" ModificationDateTime="2026-07-23T12:31:00" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>3800C524301</AtcoCode>
       <NaptanCode>stadtmwa</NaptanCode>
       <Descriptor>
-        <CommonName>First Avenue</CommonName>
+        <CommonName>Shops</CommonName>
         <ShortCommonName>First Ave</ShortCommonName>
-        <Landmark>First Avenue</Landmark>
+        <Landmark>Shops</Landmark>
         <Street>Lower Ash Road</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
@@ -121651,11 +121712,11 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T16:26:00" ModificationDateTime="2023-01-26T09:38:02" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-12T16:26:00" ModificationDateTime="2026-07-23T12:00:51" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C524302</AtcoCode>
       <Descriptor>
-        <CommonName>No. 25</CommonName>
-        <Landmark>No. 25</Landmark>
+        <CommonName>Shops</CommonName>
+        <Landmark>Shops</Landmark>
         <Street>Lower Ash Road</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
@@ -121665,10 +121726,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>383216</Easting>
-            <Northing>354083</Northing>
-            <Longitude>-2.252025281</Longitude>
-            <Latitude>53.083696186</Latitude>
+            <Easting>383224</Easting>
+            <Northing>354093</Northing>
+            <Longitude>-2.251906373</Longitude>
+            <Latitude>53.083786329</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -121687,6 +121748,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-07-23T11:56:33" ModificationDateTime="2026-07-23T11:56:33" Modification="new">
+          <DateRange>
+            <StartDate>2026-07-23</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-09-26T17:55:00" ModificationDateTime="2024-10-10T11:48:20" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>3800C524401</AtcoCode>
@@ -122308,7 +122377,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T16:40:00" ModificationDateTime="2023-01-26T09:38:03" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-12T16:40:00" ModificationDateTime="2026-07-23T09:34:33" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>3800C525201</AtcoCode>
       <NaptanCode>stadtpda</NaptanCode>
       <Descriptor>
@@ -122346,7 +122415,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T16:40:00" ModificationDateTime="2023-01-26T09:38:03" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-12T16:40:00" ModificationDateTime="2026-07-23T09:42:10" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>3800C525202</AtcoCode>
       <NaptanCode>stadtpdg</NaptanCode>
       <Descriptor>
@@ -122500,7 +122569,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-12T16:49:00" ModificationDateTime="2023-01-26T09:38:03" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-12T16:49:00" ModificationDateTime="2026-07-23T09:47:54" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>3800C525402</AtcoCode>
       <NaptanCode>stadtpdt</NaptanCode>
       <Descriptor>
@@ -122615,7 +122684,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T17:55:00" ModificationDateTime="2023-01-26T09:38:03" Modification="revise" RevisionNumber="29" Status="inactive">
+    <StopPoint CreationDateTime="2006-09-26T17:55:00" ModificationDateTime="2026-07-23T09:54:33" Modification="revise" RevisionNumber="30" Status="inactive">
       <AtcoCode>3800C525601</AtcoCode>
       <NaptanCode>stadtpdw</NaptanCode>
       <Descriptor>
@@ -122653,7 +122722,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T17:55:00" ModificationDateTime="2023-01-26T09:38:03" Modification="revise" RevisionNumber="21" Status="inactive">
+    <StopPoint CreationDateTime="2006-09-26T17:55:00" ModificationDateTime="2026-07-23T10:13:05" Modification="revise" RevisionNumber="22" Status="inactive">
       <AtcoCode>3800C525602</AtcoCode>
       <NaptanCode>stadtpgd</NaptanCode>
       <Descriptor>
@@ -122925,7 +122994,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-13T08:38:00" ModificationDateTime="2023-01-26T09:38:03" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-13T08:38:00" ModificationDateTime="2026-07-23T10:17:50" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>3800C526001</AtcoCode>
       <Descriptor>
         <CommonName>Rosendale Avenue</CommonName>
@@ -123385,7 +123454,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-13T08:47:00" ModificationDateTime="2026-06-30T14:47:50" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-07-13T08:47:00" ModificationDateTime="2026-07-21T14:57:55" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C526502</AtcoCode>
       <Descriptor>
         <CommonName>Wolstanton Road</CommonName>
@@ -123410,13 +123479,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -125759,7 +125828,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T17:59:00" ModificationDateTime="2023-01-26T09:38:06" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-09-26T17:59:00" ModificationDateTime="2026-07-27T16:15:28" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C529602</AtcoCode>
       <NaptanCode>stadtwpa</NaptanCode>
       <Descriptor>
@@ -126639,7 +126708,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-23T11:44:00" ModificationDateTime="2023-01-26T09:38:07" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2006-06-23T11:44:00" ModificationDateTime="2026-07-27T16:19:50" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C530802</AtcoCode>
       <NaptanCode>stadwada</NaptanCode>
       <Descriptor>
@@ -129378,7 +129447,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-14T15:17:00" ModificationDateTime="2025-01-03T16:03:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2014-10-14T15:17:00" ModificationDateTime="2026-07-23T10:49:11" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>3800C535101</AtcoCode>
       <NaptanCode>stagpmwt</NaptanCode>
       <Descriptor>
@@ -129423,7 +129492,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-10-14T15:18:00" ModificationDateTime="2025-01-03T16:04:44" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2014-10-14T15:18:00" ModificationDateTime="2026-07-23T11:13:26" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>3800C535201</AtcoCode>
       <NaptanCode>stagpmwp</NaptanCode>
       <Descriptor>
@@ -129620,7 +129689,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-11-19T12:14:00" ModificationDateTime="2023-01-26T09:38:09" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2014-11-19T12:14:00" ModificationDateTime="2026-07-27T16:28:06" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>3800C535502</AtcoCode>
       <Descriptor>
         <CommonName>Dove Place</CommonName>
@@ -131568,7 +131637,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-13T12:22:00" ModificationDateTime="2023-01-26T09:38:10" Modification="revise" RevisionNumber="8" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-13T12:22:00" ModificationDateTime="2026-07-23T11:35:07" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>3800C541001</AtcoCode>
       <NaptanCode>stadwdja</NaptanCode>
       <Descriptor>
@@ -131606,7 +131675,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-26T18:02:00" ModificationDateTime="2023-01-26T09:38:11" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2006-09-26T18:02:00" ModificationDateTime="2026-07-23T11:43:22" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C541002</AtcoCode>
       <NaptanCode>stadwdjd</NaptanCode>
       <Descriptor>
@@ -131682,7 +131751,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-13T12:27:00" ModificationDateTime="2023-01-26T09:38:11" Modification="revise" RevisionNumber="10" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-13T12:27:00" ModificationDateTime="2026-07-23T11:48:10" Modification="revise" RevisionNumber="11" Status="inactive">
       <AtcoCode>3800C541102</AtcoCode>
       <NaptanCode>stadwdjm</NaptanCode>
       <Descriptor>
@@ -133073,7 +133142,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-13T14:13:00" ModificationDateTime="2023-01-26T09:38:12" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-13T14:13:00" ModificationDateTime="2026-07-23T11:54:32" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C590601</AtcoCode>
       <NaptanCode>stadwdwg</NaptanCode>
       <Descriptor>
@@ -133111,7 +133180,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-13T14:13:00" ModificationDateTime="2023-01-26T09:38:12" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-13T14:13:00" ModificationDateTime="2026-07-23T14:45:18" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C590602</AtcoCode>
       <NaptanCode>stadwdwj</NaptanCode>
       <Descriptor>
@@ -136203,7 +136272,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-12-06T15:26:00" ModificationDateTime="2023-01-26T09:38:15" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2004-12-06T15:26:00" ModificationDateTime="2026-07-27T16:32:34" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C595102</AtcoCode>
       <NaptanCode>stadwjdp</NaptanCode>
       <Descriptor>
@@ -136280,7 +136349,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-12-06T15:26:00" ModificationDateTime="2023-01-26T09:38:15" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2004-12-06T15:26:00" ModificationDateTime="2026-07-27T16:36:55" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>3800C595202</AtcoCode>
       <NaptanCode>stadwjdw</NaptanCode>
       <Descriptor>
@@ -170637,7 +170706,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-19T11:22:00" ModificationDateTime="2023-01-26T09:38:44" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-19T11:22:00" ModificationDateTime="2026-07-21T10:43:23" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>3800C704501</AtcoCode>
       <Descriptor>
         <CommonName>M6 Roundabout</CommonName>
@@ -171463,7 +171532,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-09-28T10:43:00" ModificationDateTime="2026-04-27T08:40:16" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-09-28T10:43:00" ModificationDateTime="2026-07-23T12:25:20" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C705600</AtcoCode>
       <NaptanCode>stagtjwg</NaptanCode>
       <Descriptor>
@@ -171479,10 +171548,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>400223</Easting>
-            <Northing>325784</Northing>
-            <Longitude>-1.998132339</Longitude>
-            <Latitude>52.829577330</Latitude>
+            <Easting>400176</Easting>
+            <Northing>325791</Northing>
+            <Longitude>-1.998829912</Longitude>
+            <Latitude>52.829640264</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -172376,7 +172445,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-19T13:56:00" ModificationDateTime="2023-01-26T09:38:46" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-19T13:56:00" ModificationDateTime="2026-07-21T11:07:45" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>3800C706800</AtcoCode>
       <NaptanCode>stagawgm</NaptanCode>
       <Descriptor>
@@ -173017,7 +173086,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-19T14:13:00" ModificationDateTime="2023-01-26T09:38:46" Modification="revise" RevisionNumber="9" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-19T14:13:00" ModificationDateTime="2026-07-21T11:16:18" Modification="revise" RevisionNumber="10" Status="inactive">
       <AtcoCode>3800C707700</AtcoCode>
       <NaptanCode>stagawjg</NaptanCode>
       <Descriptor>
@@ -178226,7 +178295,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-07-17T09:11:02" ModificationDateTime="2026-07-17T09:09:37" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-07-17T09:11:02" ModificationDateTime="2026-07-22T15:35:16" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>3800C714602</AtcoCode>
       <Descriptor>
         <CommonName>Stafford Road</CommonName>
@@ -178239,10 +178308,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>397611</Easting>
-            <Northing>327062</Northing>
-            <Longitude>-2.036909476</Longitude>
-            <Latitude>52.841059995</Latitude>
+            <Easting>397602</Easting>
+            <Northing>327031</Northing>
+            <Longitude>-2.037042851</Longitude>
+            <Latitude>52.840781281</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -179539,7 +179608,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-20T10:30:00" ModificationDateTime="2023-01-26T09:38:53" Modification="revise" RevisionNumber="13" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-20T10:30:00" ModificationDateTime="2026-07-21T11:24:34" Modification="revise" RevisionNumber="14" Status="inactive">
       <AtcoCode>3800C716400</AtcoCode>
       <NaptanCode>stagdgjm</NaptanCode>
       <Descriptor>
@@ -193033,7 +193102,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-26T09:21:00" ModificationDateTime="2026-07-17T09:59:25" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-10-26T09:21:00" ModificationDateTime="2026-07-22T12:00:39" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C736301</AtcoCode>
       <Descriptor>
         <CommonName>Greyhound Inn</CommonName>
@@ -193047,10 +193116,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>393980</Easting>
-            <Northing>330197</Northing>
-            <Longitude>-2.090873995</Longitude>
-            <Latitude>52.869212568</Latitude>
+            <Easting>393911</Easting>
+            <Northing>330267</Northing>
+            <Longitude>-2.091900360</Longitude>
+            <Latitude>52.869841032</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -193058,13 +193127,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -193078,7 +193147,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-26T09:22:00" ModificationDateTime="2024-10-01T16:19:39" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-26T09:22:00" ModificationDateTime="2026-07-22T11:51:52" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>3800C736302</AtcoCode>
       <NaptanCode>stagdtjm</NaptanCode>
       <Descriptor>
@@ -193105,19 +193174,19 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-10-01T16:19:39" ModificationDateTime="2024-10-01T16:19:39" Modification="new">
+        <StopValidity CreationDateTime="2024-10-01T16:19:39" ModificationDateTime="2026-07-22T11:51:52" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-10-01</StartDate>
           </DateRange>
@@ -196197,7 +196266,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-07-05T16:56:00" ModificationDateTime="2023-01-26T09:39:09" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2006-07-05T16:56:00" ModificationDateTime="2026-07-21T10:54:16" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>3800C740901</AtcoCode>
       <NaptanCode>stagdwpg</NaptanCode>
       <Descriptor>
@@ -204970,6 +205039,77 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-07-22T15:18:05" ModificationDateTime="2026-07-22T15:16:25" Modification="new" Status="active">
+      <AtcoCode>3800C754402</AtcoCode>
+      <Descriptor>
+        <CommonName>Church Road</CommonName>
+        <ShortCommonName>Church Rd</ShortCommonName>
+        <Street>New Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0024168</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>400037</Easting>
+            <Northing>325938</Northing>
+            <Longitude>-2.000892989</Longitude>
+            <Latitude>52.830961707</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>100</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-07-22T15:15:36" ModificationDateTime="2026-07-22T15:18:49" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>3800C754422</AtcoCode>
+      <Descriptor>
+        <CommonName>Central Fasteners</CommonName>
+        <ShortCommonName>Central Fasteners</ShortCommonName>
+        <Street>New Road</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0024168</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>399935</Easting>
+            <Northing>325999</Northing>
+            <Longitude>-2.002406956</Longitude>
+            <Latitude>52.831510037</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>100</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2009-06-10T16:33:00" ModificationDateTime="2025-07-22T10:48:23" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3800C754501</AtcoCode>
       <NaptanCode>stagjgag</NaptanCode>
@@ -207341,6 +207481,42 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-07-22T15:37:36" ModificationDateTime="2026-07-22T15:35:35" Modification="new" Status="active">
+      <AtcoCode>3800C758111</AtcoCode>
+      <Descriptor>
+        <CommonName>The Woolpack</CommonName>
+        <ShortCommonName>The Woolpack</ShortCommonName>
+        <Street>Old Road</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0051238</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>397570</Easting>
+            <Northing>326933</Northing>
+            <Longitude>-2.037517153</Longitude>
+            <Latitude>52.839900169</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>100</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2021-02-08T12:29:00" ModificationDateTime="2026-04-24T11:18:55" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3800C758201</AtcoCode>
       <NaptanCode>stagtmga</NaptanCode>
@@ -207874,6 +208050,78 @@
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>100</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-07-22T15:29:26" ModificationDateTime="2026-07-22T15:27:09" Modification="new" Status="active">
+      <AtcoCode>3800C759901</AtcoCode>
+      <Descriptor>
+        <CommonName>Taverners Drive</CommonName>
+        <ShortCommonName>Taverners Drive</ShortCommonName>
+        <Street>Lichfield Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0024195</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>391652</Easting>
+            <Northing>332539</Northing>
+            <Longitude>-2.125518509</Longitude>
+            <Latitude>52.890233995</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>100</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-07-22T15:31:42" ModificationDateTime="2026-07-22T15:30:02" Modification="new" Status="active">
+      <AtcoCode>3800C759902</AtcoCode>
+      <Descriptor>
+        <CommonName>Taverners Drive</CommonName>
+        <ShortCommonName>Taverners Drive</ShortCommonName>
+        <Street>Lichfield Road</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0024195</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>391696</Easting>
+            <Northing>332492</Northing>
+            <Longitude>-2.124863334</Longitude>
+            <Latitude>52.889812189</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -212007,7 +212255,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-11T10:40:00" ModificationDateTime="2023-01-26T09:39:26" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2006-10-11T10:40:00" ModificationDateTime="2026-07-21T11:46:04" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>3800C795301</AtcoCode>
       <Descriptor>
         <CommonName>Village Hall</CommonName>
@@ -212033,13 +212281,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -216665,7 +216913,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-22T15:43:00" ModificationDateTime="2023-01-26T09:39:34" Modification="revise" RevisionNumber="8" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-22T15:43:00" ModificationDateTime="2026-07-23T09:20:11" Modification="revise" RevisionNumber="9" Status="inactive">
       <AtcoCode>3800C806001</AtcoCode>
       <NaptanCode>stagjpaj</NaptanCode>
       <Descriptor>
@@ -217921,7 +218169,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-22T16:43:00" ModificationDateTime="2023-01-26T09:39:36" Modification="revise" RevisionNumber="17" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-22T16:43:00" ModificationDateTime="2026-07-28T12:00:07" Modification="revise" RevisionNumber="18" Status="inactive">
       <AtcoCode>3800C807700</AtcoCode>
       <NaptanCode>stagjpdm</NaptanCode>
       <Descriptor>
@@ -220894,7 +221142,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-23T09:41:00" ModificationDateTime="2023-01-26T09:39:39" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2004-07-23T09:41:00" ModificationDateTime="2026-07-28T12:07:12" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>3800C811600</AtcoCode>
       <Descriptor>
         <CommonName>Station Lane</CommonName>
@@ -221648,7 +221896,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-23T10:34:00" ModificationDateTime="2023-01-26T09:39:40" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-23T10:34:00" ModificationDateTime="2026-07-20T11:29:46" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>3800C812600</AtcoCode>
       <Descriptor>
         <CommonName>Highwayman Inn PH</CommonName>
@@ -229222,7 +229470,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-07-30T15:23:00" ModificationDateTime="2025-03-28T11:48:55" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2009-07-30T15:23:00" ModificationDateTime="2026-07-20T11:36:11" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>3800C824101</AtcoCode>
       <NaptanCode>stagjwpa</NaptanCode>
       <Descriptor>
@@ -229260,7 +229508,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-07-30T15:24:00" ModificationDateTime="2025-03-28T11:49:33" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2009-07-30T15:24:00" ModificationDateTime="2026-07-20T11:40:08" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>3800C824102</AtcoCode>
       <NaptanCode>stagjwpd</NaptanCode>
       <Descriptor>
@@ -230408,7 +230656,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2012-04-18T10:27:00" ModificationDateTime="2023-01-26T09:39:48" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2012-04-18T10:27:00" ModificationDateTime="2026-07-28T12:14:22" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>3800C826101</AtcoCode>
       <NaptanCode>stagjwtm</NaptanCode>
       <Descriptor>
@@ -231839,7 +232087,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2021-10-25T14:07:00" ModificationDateTime="2023-01-26T09:39:49" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2021-10-25T14:07:00" ModificationDateTime="2026-07-28T12:22:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>3800C828600</AtcoCode>
       <Descriptor>
         <CommonName>Aldi store</CommonName>
@@ -233629,7 +233877,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-26T15:53:00" ModificationDateTime="2023-01-26T09:39:51" Modification="revise" RevisionNumber="28" Status="active">
+    <StopPoint CreationDateTime="2004-07-26T15:53:00" ModificationDateTime="2026-07-20T11:44:45" Modification="revise" RevisionNumber="29" Status="active">
       <AtcoCode>3800C837202</AtcoCode>
       <NaptanCode>stagmapj</NaptanCode>
       <Descriptor>
@@ -253152,7 +253400,7 @@
       </StopClassification>
       <AdministrativeAreaRef>100</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-03T17:23:00" ModificationDateTime="2025-08-26T16:02:25" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-08-03T17:23:00" ModificationDateTime="2026-07-27T12:29:13" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>3800C913102</AtcoCode>
       <NaptanCode>stagpajt</NaptanCode>
       <Descriptor>
