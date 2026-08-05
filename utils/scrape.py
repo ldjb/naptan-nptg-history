@@ -4,6 +4,8 @@ import re
 import requests
 import time
 from email.message import Message
+from pathlib import PurePosixPath
+from urllib.parse import urlparse
 
 def download(url, session):
     for attempt in range(3):
@@ -14,15 +16,19 @@ def download(url, session):
             message = Message()
             message['content-disposition'] = response.headers['content-disposition']
             filename = message.get_filename()
+            if not filename:
+                filename = PurePosixPath(urlparse(url).path).name
             with open(filename, 'wb') as file:
                 file.write(response.content)
             time.sleep(1)
-        except Exception:
+        except Exception as err:
+            print(err)
             pass
         else:
             break
 
 session = requests.Session()
+
 response = session.get('https://beta-naptan.dft.gov.uk/download/la')
 match = re.search(r'const localAuthoritiesList = (.*);', response.text)
 local_authorities = json.loads(match.group(1))
@@ -40,6 +46,11 @@ with open('local_authorities.csv', 'w', newline='') as csvfile:
         print(f'Downloading NaPTAN files for {local_authority_name}')
         for format in ('xml', 'csv'):
             download(f'https://naptan.api.dft.gov.uk/v1/access-nodes?atcoAreaCodes={atco_code_prefix}&dataFormat={format}', session)
+
 print('Downloading NPTG files')
 download('https://naptan.api.dft.gov.uk/v1/nptg', session)
 download('https://naptan.api.dft.gov.uk/v1/nptg/localities', session)
+
+print('Downloading Rail Replacement Location data')
+response = session.get('https://rrl.api.dft.gov.uk/v1/rail-replacement/stops/download?format=csv').json()
+download(response['downloadUrl'], session)
