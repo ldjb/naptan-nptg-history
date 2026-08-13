@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-06T12:04:53.2889155Z" ModificationDateTime="2026-08-06T12:04:53.2889155Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-12T12:40:50.1844572Z" ModificationDateTime="2026-08-12T12:40:50.1844572Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-19T00:00:00" ModificationDateTime="2013-04-15T12:12:06" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>270000007470</AtcoCode>
@@ -156727,14 +156727,14 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-17T00:00:00" ModificationDateTime="2026-07-29T08:25:07" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2005-11-17T00:00:00" ModificationDateTime="2026-08-12T13:38:22" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>270002700435</AtcoCode>
       <NaptanCode>linagpma</NaptanCode>
       <Descriptor>
-        <CommonName>Harvey Kent Gardens</CommonName>
-        <Landmark>Harvey Kent Gardens</Landmark>
-        <Street>Henry Lane</Street>
-        <Indicator>adj</Indicator>
+        <CommonName>Silver Street</CommonName>
+        <Landmark>Silver Street</Landmark>
+        <Street>Silver Street</Street>
+        <Indicator>E-bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0048199</NptgLocalityRef>
@@ -156742,10 +156742,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>512549</Easting>
-            <Northing>369561</Northing>
-            <Longitude>-0.316130060</Longitude>
-            <Latitude>53.211205824</Latitude>
+            <Easting>512084</Easting>
+            <Northing>369459</Northing>
+            <Longitude>-0.323130000</Longitude>
+            <Latitude>53.210381000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -156757,7 +156757,7 @@
             <TimingStatus>TIP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>NE</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -156768,14 +156768,14 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-17T00:00:00" ModificationDateTime="2009-04-06T15:06:33" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-11-17T00:00:00" ModificationDateTime="2026-08-12T13:38:14" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>270002700436</AtcoCode>
       <NaptanCode>linagpmd</NaptanCode>
       <Descriptor>
-        <CommonName>Harvey Kent Gardens</CommonName>
-        <Landmark>Harvey Kent Gardens</Landmark>
-        <Street>Henry Lane</Street>
-        <Indicator>opp</Indicator>
+        <CommonName>Silver Street</CommonName>
+        <Landmark>Silver Street</Landmark>
+        <Street>Silver Street</Street>
+        <Indicator>W-bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0048199</NptgLocalityRef>
@@ -156783,10 +156783,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>512520</Easting>
-            <Northing>369534</Northing>
-            <Longitude>-0.316573616</Longitude>
-            <Latitude>53.210969362</Latitude>
+            <Easting>512072</Easting>
+            <Northing>369445</Northing>
+            <Longitude>-0.323305000</Longitude>
+            <Latitude>53.210256000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -156798,7 +156798,7 @@
             <TimingStatus>TIP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>SW</CompassPoint>
+                <CompassPoint>W</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -269662,7 +269662,7 @@
         <PlusbusZoneRef CreationDateTime="2005-05-17T00:00:00" ModificationDateTime="2008-10-14T09:34:15" Modification="revise" RevisionNumber="3" Status="active">LINCLNC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2010-06-30T10:44:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-08-12T13:20:07" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2700LHHT0440</AtcoCode>
       <NaptanCode>linadpmj</NaptanCode>
       <Descriptor>
@@ -269702,6 +269702,14 @@
         <StopAreaRef RevisionNumber="0">270GLH005962</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-08-12T13:20:07" ModificationDateTime="2026-08-12T13:20:07" Modification="new">
+          <DateRange>
+            <StartDate>2026-08-12</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2010-06-30T10:45:19" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2700LHHT0950</AtcoCode>
@@ -269744,7 +269752,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2010-06-30T10:44:55" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-08-12T13:20:22" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2700LHHT1618</AtcoCode>
       <NaptanCode>linamdtw</NaptanCode>
       <Descriptor>
@@ -269784,6 +269792,14 @@
         <StopAreaRef RevisionNumber="0">270GLH005962</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-08-12T13:20:22" ModificationDateTime="2026-08-12T13:20:22" Modification="new">
+          <DateRange>
+            <StartDate>2026-08-12</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2010-06-30T10:45:15" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2700LHHTB632</AtcoCode>
@@ -360613,18 +360629,18 @@
         </Translation>
       </Location>
     </StopArea>
-    <StopArea CreationDateTime="2004-11-23T00:00:00" ModificationDateTime="2006-08-31T11:57:19" Modification="revise" RevisionNumber="1" Status="active">
+    <StopArea CreationDateTime="2004-11-23T00:00:00" ModificationDateTime="2026-08-12T13:39:32" Modification="revise" RevisionNumber="2" Status="active">
       <StopAreaCode>270G02700437</StopAreaCode>
-      <Name>Harvey Kent Gardens</Name>
+      <Name>Silver Street</Name>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
       <StopAreaType>GPBS</StopAreaType>
       <Location>
         <Translation>
           <GridType>UKOS</GridType>
-          <Easting>512534</Easting>
-          <Northing>369547</Northing>
-          <Longitude>-0.316359498</Longitude>
-          <Latitude>53.211083206</Latitude>
+          <Easting>512078</Easting>
+          <Northing>369452</Northing>
+          <Longitude>-0.323217818</Longitude>
+          <Latitude>53.210321287</Latitude>
         </Translation>
       </Location>
     </StopArea>

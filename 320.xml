@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-06-17T14:00:00.752" ModificationDateTime="2026-06-17T14:00:00.752" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-12T10:30:01.971" ModificationDateTime="2026-08-12T10:30:01.971" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-05-13T12:00:00.000" ModificationDateTime="2025-11-05T11:48:52.147" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA96813</AtcoCode>
@@ -114351,11 +114351,11 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2025-09-10T10:25:58.411" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-08-12T10:28:42.161" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3200YNA90758</AtcoCode>
 <NaptanCode>32090758</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Saltergate Inn</CommonName>
+<CommonName xml:lang="en">Old Saltergate Inn</CommonName>
 <ShortCommonName xml:lang="en">Saltergate Inn</ShortCommonName>
 <Landmark xml:lang="en">N/A</Landmark>
 <Street xml:lang="en">Saltergate Bank</Street>
@@ -114392,11 +114392,11 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2025-09-10T10:26:43.893" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-08-12T10:29:14.450" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3200YNA90759</AtcoCode>
 <NaptanCode>32090759</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Saltergate Inn</CommonName>
+<CommonName xml:lang="en">Old Saltergate Inn</CommonName>
 <ShortCommonName xml:lang="en">Saltergate Inn</ShortCommonName>
 <Landmark xml:lang="en">N/A</Landmark>
 <Street xml:lang="en">Saltergate Bank</Street>
@@ -211447,6 +211447,111 @@
 <CompassPoint>SE</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-11T11:42:17.817" ModificationDateTime="2026-08-11T11:42:17.817" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3200YNA97260</AtcoCode>
+<Descriptor>
+<CommonName xml:lang="en">Magdalens Close</CommonName>
+<Street xml:lang="en">Magdalens Road</Street>
+<Indicator xml:lang="en">adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0056347</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>431734</Easting>
+<Northing>471851</Northing>
+<Longitude>-1.515731</Longitude>
+<Latitude>54.14153</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-12T09:41:00.730" ModificationDateTime="2026-08-12T09:41:00.730" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3200YNA97261</AtcoCode>
+<Descriptor>
+<CommonName xml:lang="en">Southdown Road</CommonName>
+<Street xml:lang="en">North Moor Road</Street>
+<Indicator xml:lang="en">adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049049</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>436226</Easting>
+<Northing>495317</Northing>
+<Longitude>-1.444156</Longitude>
+<Latitude>54.35212</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-12T09:44:20.871" ModificationDateTime="2026-08-12T09:44:20.871" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3200YNA97262</AtcoCode>
+<Descriptor>
+<CommonName xml:lang="en">Southdown Road</CommonName>
+<Street xml:lang="en">North Moor Road</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049049</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>436224</Easting>
+<Northing>495335</Northing>
+<Longitude>-1.4441843</Longitude>
+<Latitude>54.352278</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
