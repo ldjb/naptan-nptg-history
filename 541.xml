@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-07-09T14:28:14" ModificationDateTime="2026-07-09T14:28:14" Modification="revise" RevisionNumber="1" FileName="541.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-14T10:48:35" ModificationDateTime="2026-08-14T10:48:35" Modification="revise" RevisionNumber="1" FileName="541.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-04-17T09:54:54" ModificationDateTime="2025-07-24T09:51:15" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5410ABC99979</AtcoCode>
@@ -8647,14 +8647,16 @@
       <AtcoCode>5410AWD70402</AtcoCode>
       <NaptanCode>ynydjdw</NaptanCode>
       <Descriptor>
-        <CommonName>Fron Lligwy Caravan Park</CommonName>
+        <CommonName xml:lang="cy">Fron Lligwy Caravan Park</CommonName>
+        <ShortCommonName>Caravan Park</ShortCommonName>
         <Landmark>Fron Lligwy Caravan Park</Landmark>
         <Street>A5025</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:57">
-          <CommonName xml:lang="CY">Parc Carafanau Fron Lligwy</CommonName>
+          <CommonName xml:lang="cy">Parc Carafanau Fron Lligwy</CommonName>
+          <ShortCommonName>Parc Carafanau</ShortCommonName>
           <Street>A5025</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14760,6 +14762,7 @@
       <NaptanCode>ynydatj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Not in use</CommonName>
+        <ShortCommonName>Out of use</ShortCommonName>
         <Street>London Road</Street>
         <Crossing>Garden Place</Crossing>
         <Indicator>not in use</Indicator>
@@ -14767,6 +14770,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-05-10T13:28:40">
           <CommonName xml:lang="cy">Ddim yn cael ei ddefnyddio</CommonName>
+          <ShortCommonName>Allan o ddefnydd</ShortCommonName>
           <Street>London Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -16553,13 +16557,18 @@
       <AtcoCode>5410AWD70620</AtcoCode>
       <NaptanCode>ynygjwt</NaptanCode>
       <Descriptor>
-        <CommonName>Ysgol Gynradd Llangoed</CommonName>
+        <CommonName xml:lang="cy">Ysgol Gynradd Llangoed</CommonName>
+        <ShortCommonName>Ysgol Llangoed</ShortCommonName>
         <Landmark>Ysgol Gynradd Llangoed</Landmark>
+        <Street>Bryn Paun</Street>
         <Crossing>Bryn Paun</Crossing>
+        <Indicator>Lay-by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-07-29T15:23:14">
-          <CommonName xml:lang="CY">Ysgol Gynradd Llangoed</CommonName>
+          <CommonName xml:lang="cy">Ysgol Gynradd Llangoed</CommonName>
+          <ShortCommonName>Ysgol Llangoed</ShortCommonName>
+          <Street>Bryn Paun</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -19439,14 +19448,16 @@
       <AtcoCode>5410AWP26229</AtcoCode>
       <NaptanCode>ynyawdw</NaptanCode>
       <Descriptor>
-        <CommonName>Llangoed Playing Field</CommonName>
+        <CommonName xml:lang="cy">Llangoed Playing Field</CommonName>
+        <ShortCommonName>Playing Field</ShortCommonName>
         <Street>B5109</Street>
         <Crossing>Bryn Paun</Crossing>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:51">
-          <CommonName xml:lang="CY">Maes Chwarae Llangoed</CommonName>
+          <CommonName xml:lang="cy">Maes Chwarae Llangoed</CommonName>
+          <ShortCommonName>Maes Chwarae</ShortCommonName>
           <Street>B5109</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -24517,7 +24528,8 @@
       <AtcoCode>5410AWQ26206</AtcoCode>
       <NaptanCode>ynydatg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">London Road PO</CommonName>
+        <CommonName xml:lang="cy">London Road Post Office</CommonName>
+        <ShortCommonName>Post Office</ShortCommonName>
         <Landmark>London Road Post Office</Landmark>
         <Street>Lon Deg</Street>
         <Crossing>London Road</Crossing>
@@ -24526,6 +24538,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-07-31T08:40:32">
           <CommonName xml:lang="cy">Swyddfa'r Post Heol Llundain</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>Lon Deg</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -24756,6 +24769,7 @@
       <NaptanCode>ynyatmp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">RAF Valley Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Landmark>RAF Valley Airfield</Landmark>
         <Street>Grounds</Street>
         <Crossing>Minffordd Road</Crossing>
@@ -24764,6 +24778,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:52">
           <CommonName xml:lang="cy">Maes Parcio'r RAF Fali</CommonName>
+          <ShortCommonName>Maes Parcio</ShortCommonName>
           <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -25910,14 +25925,16 @@
       <AtcoCode>5410AWQ26265</AtcoCode>
       <NaptanCode>ynydatm</NaptanCode>
       <Descriptor>
-        <CommonName>Holyhead Arriva Depot</CommonName>
+        <CommonName xml:lang="cy">Holyhead Arriva Depot</CommonName>
+        <ShortCommonName>Bus Depot</ShortCommonName>
         <Street>London Road</Street>
         <Crossing>Morrison Crescent</Crossing>
         <Indicator>nr former</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:36">
-          <CommonName xml:lang="CY">Depo Arriva Caergybi</CommonName>
+          <CommonName xml:lang="cy">Depo Arriva Caergybi</CommonName>
+          <ShortCommonName>Depo Bws</ShortCommonName>
           <Street>London Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -26883,13 +26900,16 @@
     <StopPoint CreationDateTime="2014-03-07T11:49:27" ModificationDateTime="2025-06-11T10:25:55" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5410BODORGN0</AtcoCode>
       <Descriptor>
-        <CommonName>Bodorgan Rail Station</CommonName>
+        <CommonName xml:lang="cy">Bodorgan Rail Station</CommonName>
+        <ShortCommonName>Bodorgan Station</ShortCommonName>
         <Street>Unnamed Road</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:41">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Bodrogan</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Bodrogan</CommonName>
+          <ShortCommonName>Gorsaf Bodrogan</ShortCommonName>
+          <Street>Unnamed Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26898,8 +26918,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>238734</Easting>
-            <Northing>370182</Northing>
+            <Easting>238733</Easting>
+            <Northing>370184</Northing>
             <Longitude>-4.416009332</Longitude>
             <Latitude>53.204198201</Latitude>
           </Translation>
@@ -27188,12 +27208,14 @@
       <AtcoCode>5410TYCROES0</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ty Croes Rail Station</CommonName>
+        <ShortCommonName>Ty Croes Station</ShortCommonName>
         <Street>Unnamed Road</Street>
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:43">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Ty Croes</CommonName>
+          <ShortCommonName>Gorsaf Ty Croes</ShortCommonName>
           <Street>Unnamed Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -27203,8 +27225,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>234948</Easting>
-            <Northing>372361</Northing>
+            <Easting>234947</Easting>
+            <Northing>372363</Northing>
             <Longitude>-4.473766841</Longitude>
             <Latitude>53.222604906</Latitude>
           </Translation>
@@ -27224,12 +27246,14 @@
       <AtcoCode>5410TYCROES1</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Ty Croes Rail Station</CommonName>
+        <ShortCommonName>Ty Croes Station</ShortCommonName>
         <Street>Unnamed Road</Street>
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:43">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Ty Croes</CommonName>
+          <ShortCommonName>Gorsaf Ty Croes</ShortCommonName>
           <Street>Unnamed Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -27239,8 +27263,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>234928</Easting>
-            <Northing>372348</Northing>
+            <Easting>234927</Easting>
+            <Northing>372350</Northing>
             <Longitude>-4.474059389</Longitude>
             <Latitude>53.222481941</Latitude>
           </Translation>
@@ -31128,14 +31152,16 @@
       <AtcoCode>5410WDB23596</AtcoCode>
       <NaptanCode>ynydwaw</NaptanCode>
       <Descriptor>
-        <CommonName>Penysarn War Memorial</CommonName>
+        <CommonName xml:lang="cy">Penysarn War Memorial</CommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Landmark>Penysarn War Memorial</Landmark>
         <Street>A5025</Street>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:25:33">
-          <CommonName xml:lang="CY">Cofeb Rhyfel Penysarn</CommonName>
+          <CommonName xml:lang="cy">Cofeb Rhyfel Penysarn</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
           <Street>A5025</Street>
         </Descriptor>
       </AlternativeDescriptors>

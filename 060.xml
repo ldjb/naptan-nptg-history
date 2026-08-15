@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-13T11:14:52.262" ModificationDateTime="2026-08-13T11:14:52.262" Modification="new" RevisionNumber="0" FileName="NaPTAN060.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-14T09:08:57.284" ModificationDateTime="2026-08-14T09:08:57.284" Modification="new" RevisionNumber="0" FileName="NaPTAN060.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-05-10T00:00:00.000" ModificationDateTime="2021-06-10T13:33:20.000" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600200410</AtcoCode>
@@ -62843,15 +62843,14 @@
 <PlusbusZoneRef CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2010-04-27T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-02-21T00:00:00.000" ModificationDateTime="2019-06-19T09:53:35.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-02-21T00:00:00.000" ModificationDateTime="2026-08-14T09:02:25.500" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR636</AtcoCode>
 <NaptanCode>CHEGMTA</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">The Beefeater</CommonName>
-<ShortCommonName xml:lang="en">The Beefeater</ShortCommonName>
-<Landmark xml:lang="en">The Beefeater</Landmark>
+<CommonName xml:lang="en">Marshfield Bank</CommonName>
+<ShortCommonName xml:lang="en">Marshfield Bank</ShortCommonName>
 <Street xml:lang="en">Coppenhall Lane</Street>
-<Indicator xml:lang="en">nr</Indicator>
+<Indicator xml:lang="en">W-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0044345</NptgLocalityRef>
@@ -62881,20 +62880,22 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">060GCR197</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-02-21T00:00:00.000" ModificationDateTime="2012-05-18T11:22:49.000" Modification="revise" RevisionNumber="4" Status="active">CREWE</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-02-21T00:00:00.000" ModificationDateTime="2019-06-19T11:58:15.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-02-21T00:00:00.000" ModificationDateTime="2026-08-14T09:03:19.916" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR637</AtcoCode>
 <NaptanCode>CHEGMTD</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">The Beefeater</CommonName>
-<ShortCommonName xml:lang="en">The Beefeater</ShortCommonName>
-<Landmark xml:lang="en">The Beefeater</Landmark>
+<CommonName xml:lang="en">Marshfield Bank</CommonName>
+<ShortCommonName xml:lang="en">Marshfield Bank</ShortCommonName>
 <Street xml:lang="en">Coppenhall Lane</Street>
-<Indicator xml:lang="en">opp</Indicator>
+<Indicator xml:lang="en">E-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0044345</NptgLocalityRef>
@@ -62924,9 +62925,12 @@
 </Bus>
 </OnStreet>
 </StopClassification>
+<StopAreas>
+<StopAreaRef Modification="new" Status="active">060GCR197</StopAreaRef>
+</StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-02-21T00:00:00.000" ModificationDateTime="2012-05-18T11:21:38.000" Modification="revise" RevisionNumber="6" Status="active">CREWE</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2025-06-19T11:58:02.857" Modification="revise" RevisionNumber="8" Status="active">
@@ -135322,7 +135326,7 @@
 </StopArea>
 <StopArea CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-05-18T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>060GCR197</StopAreaCode>
-<Name>The Beefeater</Name>
+<Name>Marshfield Bank</Name>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>

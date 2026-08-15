@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-07-09T14:29:02" ModificationDateTime="2026-07-09T14:29:02" Modification="revise" RevisionNumber="1" FileName="553.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-14T10:49:30" ModificationDateTime="2026-08-14T10:49:30" Modification="revise" RevisionNumber="1" FileName="553.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-24T09:57:12" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5530ANZ12715</AtcoCode>
@@ -926,6 +926,7 @@
       <NaptanCode>mtyawpg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">High Street Nursing Home</CommonName>
+        <ShortCommonName>Nursing Home</ShortCommonName>
         <Street>High Street</Street>
         <Crossing>Foreman Place</Crossing>
         <Indicator>after</Indicator>
@@ -933,6 +934,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-11T16:43:16">
           <CommonName xml:lang="cy">High Street Nursing Home</CommonName>
+          <ShortCommonName>Nursing Home</ShortCommonName>
           <Street>Stryd Fawr</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -974,6 +976,7 @@
       <NaptanCode>mtydmap</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">High Street Nursing Home</CommonName>
+        <ShortCommonName>Nursing Home</ShortCommonName>
         <Street>High Street</Street>
         <Crossing>Alexandra Road</Crossing>
         <Indicator>o/s</Indicator>
@@ -981,6 +984,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-11T16:43:48">
           <CommonName xml:lang="cy">High Street Nursing Home</CommonName>
+          <ShortCommonName>Nursing Home</ShortCommonName>
           <Street>Stryd Fawr</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7246,14 +7250,17 @@
       <AtcoCode>5530AWB33763</AtcoCode>
       <NaptanCode>mtyatjw</NaptanCode>
       <Descriptor>
-        <CommonName>Perthygleision Square</CommonName>
+        <CommonName xml:lang="cy">Perthygleision Square</CommonName>
+        <ShortCommonName>Square</ShortCommonName>
         <Street>Canonbie Crescent</Street>
         <Crossing>Perthygleision</Crossing>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:21">
-          <CommonName xml:lang="CY">Sgwar Perthygleision</CommonName>
+          <CommonName xml:lang="cy">Sgwar Perthygleision</CommonName>
+          <ShortCommonName>Sgwar</ShortCommonName>
+          <Street>Canonbie Crescent</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -7750,6 +7757,7 @@
       <NaptanCode>mtyadjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Edward Stephens Terrace</CommonName>
+        <ShortCommonName>Cardiff Road</ShortCommonName>
         <Landmark>Beech Grove</Landmark>
         <Street>Cardiff Road</Street>
         <Indicator>adj</Indicator>
@@ -7757,6 +7765,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-17T16:19:58">
           <CommonName xml:lang="cy">Edward Stephens Terrace</CommonName>
+          <ShortCommonName>Cardiff Road</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -7795,6 +7804,7 @@
       <NaptanCode>mtyadjt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Edward Stephens Terrace</CommonName>
+        <ShortCommonName>Cardiff Road</ShortCommonName>
         <Landmark>Beech Grove</Landmark>
         <Street>Cardiff Road</Street>
         <Indicator>opp</Indicator>
@@ -7802,6 +7812,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-17T16:20:43">
           <CommonName xml:lang="cy">Edward Stephens Terrace</CommonName>
+          <ShortCommonName>Cardiff Road</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -8478,6 +8489,7 @@
       <NaptanCode>mtyatmt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Mount Pleasant Primary School</CommonName>
+        <ShortCommonName>Primary School</ShortCommonName>
         <Landmark>Mount Pleasant Primary School</Landmark>
         <Street>Cardiff Road</Street>
         <Indicator>nr</Indicator>
@@ -8485,6 +8497,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:26">
           <CommonName xml:lang="cy">Ysgol Gynradd Mount Pleasant</CommonName>
+          <ShortCommonName>Ysgol Gynradd</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -8523,6 +8536,7 @@
       <NaptanCode>mtyatmw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Mount Pleasant Primary School</CommonName>
+        <ShortCommonName>Primary School</ShortCommonName>
         <Landmark>Mount Pleasant Primary School</Landmark>
         <Street>Cardiff Road</Street>
         <Indicator>nr</Indicator>
@@ -8530,6 +8544,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:26">
           <CommonName xml:lang="cy">Ysgol Gynradd Mount Pleasant</CommonName>
+          <ShortCommonName>Ysgol Gynradd</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -9162,7 +9177,8 @@
       <AtcoCode>5530AWB33808</AtcoCode>
       <NaptanCode>mtydwag</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Treharris Bus Station Stand 1</CommonName>
+        <CommonName xml:lang="cy">Treharris Bus Station 1</CommonName>
+        <ShortCommonName>Bus Station 1</ShortCommonName>
         <Landmark>Treharris Bus Station</Landmark>
         <Street>Cardiff Road</Street>
         <Crossing>Williams Terrace</Crossing>
@@ -9171,6 +9187,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
           <CommonName xml:lang="cy">Gorsaf Bws Treharris 1</CommonName>
+          <ShortCommonName>Gorsaf Bws 1</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -9180,7 +9197,7 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>309805</Easting>
+            <Easting>309804</Easting>
             <Northing>197075</Northing>
             <Longitude>-3.305519068</Longitude>
             <Latitude>51.665187834</Latitude>
@@ -9209,7 +9226,8 @@
       <AtcoCode>5530AWB33809</AtcoCode>
       <NaptanCode>mtydwad</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Treharris Bus Station Stand 2</CommonName>
+        <CommonName xml:lang="cy">Treharris Bus Station 2</CommonName>
+        <ShortCommonName>Bus Station 2</ShortCommonName>
         <Landmark>Treharris Bus Station</Landmark>
         <Street>Cardiff Road</Street>
         <Crossing>Williiams Terrace</Crossing>
@@ -9218,6 +9236,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
           <CommonName xml:lang="cy">Gorsaf Bws Treharris 2</CommonName>
+          <ShortCommonName>Gorsaf Bws 2</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -12840,6 +12859,7 @@
       <NaptanCode>mtydjta</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Tramroadside Car Park</CommonName>
+        <ShortCommonName>Car Park</ShortCommonName>
         <Street>Tramroadside North</Street>
         <Crossing>Upper Thomas Street</Crossing>
         <Indicator>opp</Indicator>
@@ -12847,6 +12867,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-18T09:23:17">
           <CommonName xml:lang="cy">Tramroadside Car Park</CommonName>
+          <ShortCommonName>Car Park</ShortCommonName>
           <Street>Tramroadside North</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14083,6 +14104,7 @@
       <NaptanCode>mtydwam</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Forest Mountain Centre</CommonName>
+        <ShortCommonName>Mountain Centre</ShortCommonName>
         <Landmark>Mountain Centre</Landmark>
         <Street>A470</Street>
         <Indicator>nr</Indicator>
@@ -14090,6 +14112,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:04">
           <CommonName xml:lang="cy">Canolfan Mynydd y Fforest</CommonName>
+          <ShortCommonName>Canolfan Mynydd</ShortCommonName>
           <Street>A470</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14127,6 +14150,7 @@
       <NaptanCode>mtydwat</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Forest Visitor Centre</CommonName>
+        <ShortCommonName>Visitor Centre</ShortCommonName>
         <Landmark>Mountain Centre</Landmark>
         <Street>A470</Street>
         <Indicator>nr</Indicator>
@@ -14134,6 +14158,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:05">
           <CommonName xml:lang="cy">Canolfan Ymwelwyr y Fforest</CommonName>
+          <ShortCommonName>Canolfan Ymwelwyr</ShortCommonName>
           <Street>A470</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14171,6 +14196,7 @@
       <NaptanCode>mtyampt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Kirkhouse Memorial Hall</CommonName>
+        <ShortCommonName>Memorial Hall</ShortCommonName>
         <Landmark>Vets</Landmark>
         <Street>Aberdare Road</Street>
         <Crossing>Tramroadside</Crossing>
@@ -14179,6 +14205,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:18">
           <CommonName xml:lang="cy">Neuadd Goffa Kirkhouse</CommonName>
+          <ShortCommonName>Neuadd Goffa</ShortCommonName>
           <Street>Aberdare Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14223,6 +14250,7 @@
       <NaptanCode>mtyampm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Kirkhouse Memorial Hall</CommonName>
+        <ShortCommonName>Memorial Hall</ShortCommonName>
         <Landmark>Georgetown Veterinary Surgery</Landmark>
         <Street>Aberdare Road</Street>
         <Crossing>Tramroadside</Crossing>
@@ -14231,6 +14259,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:18">
           <CommonName xml:lang="cy">Neuadd Goffa Kirkhouse</CommonName>
+          <ShortCommonName>Neuadd Goffa</ShortCommonName>
           <Street>Aberdare Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14817,6 +14846,7 @@
       <NaptanCode>mtyamjg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Mount Pleasant Stores</CommonName>
+        <ShortCommonName>Stores</ShortCommonName>
         <Street>Heolgerrig</Street>
         <Crossing>Mount Pleasant</Crossing>
         <Indicator>after</Indicator>
@@ -14824,6 +14854,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:22">
           <CommonName xml:lang="cy">Siopau Mount Pleasant</CommonName>
+          <ShortCommonName>Siopau</ShortCommonName>
           <Street>Heolgerrig</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14865,6 +14896,7 @@
       <NaptanCode>mtyamjm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Mount Pleasant Stores</CommonName>
+        <ShortCommonName>Stores</ShortCommonName>
         <Street>Heolgerrig</Street>
         <Crossing>Mount Pleasant</Crossing>
         <Indicator>before</Indicator>
@@ -14872,6 +14904,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:22">
           <CommonName xml:lang="cy">Siopau Mount Pleasant</CommonName>
+          <ShortCommonName>Siopau</ShortCommonName>
           <Street>Heolgerrig</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -16015,6 +16048,7 @@
       <NaptanCode>mtyagmg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Taff Merthyr Centre</CommonName>
+        <ShortCommonName>Climbing Centre</ShortCommonName>
         <Landmark>Taff Merthyr Centre</Landmark>
         <Street>B4255</Street>
         <Indicator>nr</Indicator>
@@ -16022,6 +16056,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:04">
           <CommonName xml:lang="cy">Canolfan Taf Merthyr</CommonName>
+          <ShortCommonName>Climbing Centre</ShortCommonName>
           <Street>B4255</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -16489,6 +16524,7 @@
       <NaptanCode>mtydmtg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Prince Charles Hospital</CommonName>
+        <ShortCommonName>Hospital</ShortCommonName>
         <Landmark>Prince Charles Hospital</Landmark>
         <Street>Grounds</Street>
         <Indicator>in</Indicator>
@@ -16496,6 +16532,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:26">
           <CommonName xml:lang="cy">Ysbyty'r Tywysog Charles</CommonName>
+          <ShortCommonName>Ysbyty</ShortCommonName>
           <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -16776,6 +16813,7 @@
       <NaptanCode>mtyamat</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Gurnos Police Station</CommonName>
+        <ShortCommonName>Police Station</ShortCommonName>
         <Landmark>Gurnos Police Station</Landmark>
         <Street>Gurnos Circle</Street>
         <Crossing>Hospital Road</Crossing>
@@ -16784,6 +16822,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:14">
           <CommonName xml:lang="cy">Gorsaf Heddlu Gurnos</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>Gurnos Circle</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18082,6 +18121,7 @@
       <NaptanCode>mtydpaw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Park Baptist Church</CommonName>
+        <ShortCommonName>Baptist Church</ShortCommonName>
         <Landmark>Park Baptist Church</Landmark>
         <Street>The Walk</Street>
         <Crossing>Lancaster Street</Crossing>
@@ -18090,6 +18130,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:09">
           <CommonName xml:lang="cy">Eglwys Bedyddwyr y Parc</CommonName>
+          <ShortCommonName>Eglwys Bedyddwyr</ShortCommonName>
           <Street>The Walk</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18131,6 +18172,7 @@
       <NaptanCode>mtydagm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Park Baptist Church</CommonName>
+        <ShortCommonName>Baptist Church</ShortCommonName>
         <Landmark>Park Baptist Church</Landmark>
         <Street>The Walk</Street>
         <Crossing>Lancaster Street</Crossing>
@@ -18139,6 +18181,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:09">
           <CommonName xml:lang="cy">Eglwys Bedyddwyr y Parc</CommonName>
+          <ShortCommonName>Eglwys Bedyddwyr</ShortCommonName>
           <Street>The Walk</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18566,6 +18609,7 @@
       <NaptanCode>mtydwjp</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Dowlais Police Station</CommonName>
+        <ShortCommonName>Police Station</ShortCommonName>
         <Landmark>Dowlais Recreation Centre</Landmark>
         <Street>Victoria Street</Street>
         <Crossing>Morgan Street</Crossing>
@@ -18574,6 +18618,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
           <CommonName xml:lang="cy">Gorsaf Heddlu Dowlais</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>Victoria Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -18615,6 +18660,7 @@
       <NaptanCode>mtydwjt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Dowlais Police Station</CommonName>
+        <ShortCommonName>Police Station</ShortCommonName>
         <Landmark>Dowlais Recreation Centre</Landmark>
         <Street>Victoria Street</Street>
         <Crossing>Morgan Street</Crossing>
@@ -18623,6 +18669,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:14">
           <CommonName xml:lang="cy">Gorsaf Heddlu Dowlais</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>Victoria Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -19951,12 +19998,14 @@
       <NaptanCode>mtyawpa</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Galon Uchaf Police Station</CommonName>
+        <ShortCommonName>Police Station</ShortCommonName>
         <Street>Haydn Terrace</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:14">
           <CommonName xml:lang="cy">Gorsaf Heddlu Galon Uchaf</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>Haydn Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20004,12 +20053,14 @@
       <NaptanCode>mtyawpd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Galon Uchaf Police Station</CommonName>
+        <ShortCommonName>Police Station</ShortCommonName>
         <Street>Haydn Terrace</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:14">
           <CommonName xml:lang="cy">Gorsaf Heddlu Galon Uchaf</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>Haydn Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20145,12 +20196,14 @@
       <NaptanCode>mtyaptg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Haydn Terrace Middle</CommonName>
+        <ShortCommonName>Haydn Terrace</ShortCommonName>
         <Street>Haydn Terrace</Street>
         <Indicator>opp 41</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-19T14:11:50">
           <CommonName xml:lang="cy">Haydn Terrace Middle</CommonName>
+          <ShortCommonName>Haydn Terrace</ShortCommonName>
           <Street>Haydn Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20192,12 +20245,14 @@
       <NaptanCode>mtyaptj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Haydn Terrace Middle</CommonName>
+        <ShortCommonName>Haydn Terrace</ShortCommonName>
         <Street>Haydn Terrace</Street>
         <Indicator>o/s 41</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-19T14:12:17">
           <CommonName xml:lang="cy">Haydn Terrace Middle</CommonName>
+          <ShortCommonName>Haydn Terrace</ShortCommonName>
           <Street>Haydn Terrace</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -20426,6 +20481,7 @@
       <NaptanCode>mtyajgd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Mitchell Crescent Top</CommonName>
+        <ShortCommonName>Mitchell Crescent</ShortCommonName>
         <Street>Marshall Crescent</Street>
         <Crossing>Mitchell Crescent</Crossing>
         <Indicator>nr</Indicator>
@@ -20433,6 +20489,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-01-19T14:15:22">
           <CommonName xml:lang="cy">Mitchell Crescent Top</CommonName>
+          <ShortCommonName>Mitchell Crescent</ShortCommonName>
           <Street>Marshall Crescent</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -21971,14 +22028,17 @@
       <AtcoCode>5530AWB34109</AtcoCode>
       <NaptanCode>mtyajdt</NaptanCode>
       <Descriptor>
-        <CommonName>Galon Uchaf Kwiksave</CommonName>
+        <CommonName xml:lang="cy">Galon Uchaf Kwiksave</CommonName>
+        <ShortCommonName>Kwiksave</ShortCommonName>
         <Landmark>Kwiksave</Landmark>
         <Street>Pontsarn Road</Street>
         <Indicator>not in use</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:10">
-          <CommonName xml:lang="CY">Kwiksave Galon Uchaf</CommonName>
+          <CommonName xml:lang="cy">Kwiksave Galon Uchaf</CommonName>
+          <ShortCommonName>Kwiksave</ShortCommonName>
+          <Street>Pontsarn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -23512,11 +23572,19 @@
       <AtcoCode>5530WDB21945</AtcoCode>
       <NaptanCode>mtydwmj</NaptanCode>
       <Descriptor>
-        <CommonName>Lower Mount Pleasant</CommonName>
+        <CommonName xml:lang="cy">Lower Mount Pleasant</CommonName>
+        <ShortCommonName>Chapel Street</ShortCommonName>
         <Street>Lower Mount Pleasant</Street>
         <Crossing>Chapel Street</Crossing>
         <Indicator>adj</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-07-26T16:11:03">
+          <CommonName xml:lang="cy">Lower Mount Pleasant</CommonName>
+          <ShortCommonName>Chapel Street</ShortCommonName>
+          <Street>Lower Mount Pleasant</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0039233</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -24446,13 +24514,16 @@
       <AtcoCode>5530WDB25278</AtcoCode>
       <NaptanCode>mtydwaj</NaptanCode>
       <Descriptor>
-        <CommonName>Llyngeren Picnic Area</CommonName>
+        <CommonName xml:lang="cy">Llyngeren Picnic Area</CommonName>
+        <ShortCommonName>Picnic Area</ShortCommonName>
         <Street>Pontsticill Road</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:02">
-          <CommonName xml:lang="CY">Ardal Picnic Llyngeren</CommonName>
+          <CommonName xml:lang="cy">Ardal Picnic Llyngeren</CommonName>
+          <ShortCommonName>Ardal Picnic</ShortCommonName>
+          <Street>Pontsticill Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24488,14 +24559,17 @@
       <AtcoCode>5530WDB25391</AtcoCode>
       <NaptanCode>mtydwdp</NaptanCode>
       <Descriptor>
-        <CommonName>Cyfarthfa Retail Park</CommonName>
+        <CommonName xml:lang="cy">Cyfarthfa Retail Park</CommonName>
+        <ShortCommonName>Retail Park</ShortCommonName>
         <Landmark>JJB Sports</Landmark>
         <Street>Swansea Road</Street>
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:19">
-          <CommonName xml:lang="CY">Parc Manwerthu Cyfarthfa</CommonName>
+          <CommonName xml:lang="cy">Parc Manwerthu Cyfarthfa</CommonName>
+          <ShortCommonName>Parc Manwerthu</ShortCommonName>
+          <Street>Swansea Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24538,13 +24612,16 @@
       <AtcoCode>5530WDB25392</AtcoCode>
       <NaptanCode>mtydwdt</NaptanCode>
       <Descriptor>
-        <CommonName>Cyfarthfa Retail Park</CommonName>
+        <CommonName xml:lang="cy">Cyfarthfa Retail Park</CommonName>
+        <ShortCommonName>Retail Park</ShortCommonName>
         <Street>Swansea Road</Street>
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:19">
-          <CommonName xml:lang="CY">Parc Manwerthu Cyfarthfa</CommonName>
+          <CommonName xml:lang="cy">Parc Manwerthu Cyfarthfa</CommonName>
+          <ShortCommonName>Parc Manwerthu</ShortCommonName>
+          <Street>Swansea Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -24866,11 +24943,19 @@
       <AtcoCode>5530WDB47333</AtcoCode>
       <NaptanCode>mtygapm</NaptanCode>
       <Descriptor>
-        <CommonName>Mitchell Crescent Top</CommonName>
+        <CommonName xml:lang="cy">Mitchell Crescent Top</CommonName>
+        <ShortCommonName>Mitchell Crescent</ShortCommonName>
         <Street>Marshall Crescent</Street>
         <Crossing>Mitchell Crescent</Crossing>
         <Indicator>in</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-07-26T16:05:56">
+          <CommonName xml:lang="cy">Mitchell Crescent Top</CommonName>
+          <ShortCommonName>Mitchell Crescent</ShortCommonName>
+          <Street>Marshall Crescent</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0039191</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -25376,11 +25461,19 @@
       <AtcoCode>5530WDB47344</AtcoCode>
       <NaptanCode>mtygawj</NaptanCode>
       <Descriptor>
-        <CommonName>Gwladys Street Bottom</CommonName>
+        <CommonName xml:lang="cy">Gwladys Street Bottom</CommonName>
+        <ShortCommonName>Gwladys Street</ShortCommonName>
         <Street>Gwladys Street</Street>
         <Crossing>Glanmorlais</Crossing>
         <Indicator>o/s 9</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-07-29T06:50:46">
+          <CommonName xml:lang="cy">Gwladys Street Bottom</CommonName>
+          <ShortCommonName>Gwladys Street</ShortCommonName>
+          <Street>Gwladys Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054369</NptgLocalityRef>
         <MainNptgLocalities>
@@ -25420,10 +25513,18 @@
       <AtcoCode>5530WDB47345</AtcoCode>
       <NaptanCode>mtygawm</NaptanCode>
       <Descriptor>
-        <CommonName>Edward Street Middle</CommonName>
+        <CommonName xml:lang="cy">Edward Street Middle</CommonName>
+        <ShortCommonName>Edward Street</ShortCommonName>
         <Street>Edward Street</Street>
         <Indicator>o/s 50</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-07-29T06:52:04">
+          <CommonName xml:lang="cy">Edward Street Middle</CommonName>
+          <ShortCommonName>Edward Street</ShortCommonName>
+          <Street>Edward Street</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054369</NptgLocalityRef>
         <MainNptgLocalities>
@@ -25678,13 +25779,16 @@
       <AtcoCode>5530WDB47463</AtcoCode>
       <NaptanCode>mtygdap</NaptanCode>
       <Descriptor>
-        <CommonName>Galon Uchaf Roundabout</CommonName>
+        <CommonName xml:lang="cy">Galon Uchaf Roundabout</CommonName>
+        <ShortCommonName>Roundabout</ShortCommonName>
         <Street>Pen Gurnos</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:15">
-          <CommonName xml:lang="CY">Groesffordd Galon Uchaf</CommonName>
+          <CommonName xml:lang="cy">Cylchfan Galon Uchaf</CommonName>
+          <ShortCommonName>Cylchfan</ShortCommonName>
+          <Street>Pen Gurnos</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -25943,13 +26047,16 @@
       <AtcoCode>5530WDB47483</AtcoCode>
       <NaptanCode>mtygdgp</NaptanCode>
       <Descriptor>
-        <CommonName>Brecon Mountain Railway</CommonName>
+        <CommonName xml:lang="cy">Brecon Mountain Railway</CommonName>
+        <ShortCommonName>Mountain Railway</ShortCommonName>
         <Street>Unclassified Road</Street>
         <Indicator>nr</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:21">
-          <CommonName xml:lang="CY">Rheilffordd Mynydd Aberhonddu</CommonName>
+          <CommonName xml:lang="cy">Rheilffordd Mynydd Aberhonddu</CommonName>
+          <ShortCommonName>Rheilffordd Mynydd</ShortCommonName>
+          <Street>Unclassified Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -25985,7 +26092,8 @@
       <AtcoCode>5530WDB47485</AtcoCode>
       <NaptanCode>mtygdgt</NaptanCode>
       <Descriptor>
-        <CommonName>Keir Hardie Health Park</CommonName>
+        <CommonName xml:lang="cy">Keir Hardie Health Park</CommonName>
+        <ShortCommonName>Health Park</ShortCommonName>
         <Landmark>Keir Hardie Health Park</Landmark>
         <Street>Grounds</Street>
         <Crossing>Aberdare Road</Crossing>
@@ -25993,7 +26101,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:19">
-          <CommonName xml:lang="CY">Parc Iechyd Kier Hardie</CommonName>
+          <CommonName xml:lang="cy">Parc Iechyd Kier Hardie</CommonName>
+          <ShortCommonName>Parc Iechyd</ShortCommonName>
+          <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26033,7 +26143,8 @@
       <AtcoCode>5530WDB47486</AtcoCode>
       <NaptanCode>mtygdgw</NaptanCode>
       <Descriptor>
-        <CommonName>Boys &amp; Girls Club</CommonName>
+        <CommonName xml:lang="cy">Boys &amp; Girls Club</CommonName>
+        <ShortCommonName>Fox Street</ShortCommonName>
         <Landmark>Treharris Boys &amp; Girls Club</Landmark>
         <Street>Fox Street</Street>
         <Crossing>Forest Road</Crossing>
@@ -26041,7 +26152,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:07">
-          <CommonName xml:lang="CY">Clwb Bechgyn a Merched</CommonName>
+          <CommonName xml:lang="cy">Clwb Bechgyn a Merched</CommonName>
+          <ShortCommonName>Fox Street</ShortCommonName>
+          <Street>Fox Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26050,7 +26163,7 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>310027</Easting>
+            <Easting>310026</Easting>
             <Northing>197192</Northing>
             <Longitude>-3.302340185</Longitude>
             <Latitude>51.666275192</Latitude>
@@ -26162,11 +26275,19 @@
       <AtcoCode>5530WDB47489</AtcoCode>
       <NaptanCode>mtygdjg</NaptanCode>
       <Descriptor>
-        <CommonName>Mount View Turning Circle</CommonName>
+        <CommonName xml:lang="cy">Mount View Turning Circle</CommonName>
+        <ShortCommonName>Turning Circle</ShortCommonName>
         <Landmark>Mount View School</Landmark>
         <Street>Mount View</Street>
         <Indicator>at</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-07-29T07:07:46">
+          <CommonName xml:lang="cy">Mount View Turning Circle</CommonName>
+          <ShortCommonName>Turning Circle</ShortCommonName>
+          <Street>Mount View</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0039205</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
@@ -26455,13 +26576,16 @@
       <AtcoCode>5530WDB47495</AtcoCode>
       <NaptanCode>mtygdmg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 1</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 1</CommonName>
+        <ShortCommonName>Bus Station 1</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:12">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 1</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 1</CommonName>
+          <ShortCommonName>Gorsaf Bws 1</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26499,13 +26623,16 @@
       <AtcoCode>5530WDB47496</AtcoCode>
       <NaptanCode>mtygdmj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 2</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 2</CommonName>
+        <ShortCommonName>Bus Station 2</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 2</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 2</CommonName>
+          <ShortCommonName>Gorsaf Bws 2</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26543,13 +26670,16 @@
       <AtcoCode>5530WDB47497</AtcoCode>
       <NaptanCode>mtygdmp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 3</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 3</CommonName>
+        <ShortCommonName>Bus Station 3</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 3</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 3</CommonName>
+          <ShortCommonName>Gorsaf Bws 3</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26587,13 +26717,16 @@
       <AtcoCode>5530WDB47498</AtcoCode>
       <NaptanCode>mtygdmt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 4</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 4</CommonName>
+        <ShortCommonName>Bus Station 4</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 4</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 4</CommonName>
+          <ShortCommonName>Gorsaf Bws 4</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26637,13 +26770,16 @@
       <AtcoCode>5530WDB47499</AtcoCode>
       <NaptanCode>mtygdmw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 5</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 5</CommonName>
+        <ShortCommonName>Bus Station 5</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 5</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 5</CommonName>
+          <ShortCommonName>Gorsaf Bws 5</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26681,13 +26817,16 @@
       <AtcoCode>5530WDB47500</AtcoCode>
       <NaptanCode>mtygdpa</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 6</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 6</CommonName>
+        <ShortCommonName>Bus Station 6</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 6</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 6</CommonName>
+          <ShortCommonName>Gorsaf Bws 6</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26725,13 +26864,16 @@
       <AtcoCode>5530WDB47501</AtcoCode>
       <NaptanCode>mtygdpd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 7</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 7</CommonName>
+        <ShortCommonName>Bus Station 7</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 7</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 7</CommonName>
+          <ShortCommonName>Gorsaf Bws 7</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26769,13 +26911,16 @@
       <AtcoCode>5530WDB47502</AtcoCode>
       <NaptanCode>mtygdpg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 8</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 8</CommonName>
+        <ShortCommonName>Bus Station 8</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 8</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 8</CommonName>
+          <ShortCommonName>Gorsaf Bws 8</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26813,13 +26958,16 @@
       <AtcoCode>5530WDB47503</AtcoCode>
       <NaptanCode>mtygdpj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 9</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 9</CommonName>
+        <ShortCommonName>Bus Station 9</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 9</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 9</CommonName>
+          <ShortCommonName>Gorsaf Bws 9</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26857,13 +27005,16 @@
       <AtcoCode>5530WDB47504</AtcoCode>
       <NaptanCode>mtygdpm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 10</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 10</CommonName>
+        <ShortCommonName>Bus Station 10</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:12">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 10</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 10</CommonName>
+          <ShortCommonName>Gorsaf Bws 10</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26901,13 +27052,16 @@
       <AtcoCode>5530WDB47505</AtcoCode>
       <NaptanCode>mtygdpt</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 11</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 11</CommonName>
+        <ShortCommonName>Bus Station 11</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 11</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 11</CommonName>
+          <ShortCommonName>Bws Merthyr 11</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26945,13 +27099,16 @@
       <AtcoCode>5530WDB47506</AtcoCode>
       <NaptanCode>mtygdpw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 12</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 12</CommonName>
+        <ShortCommonName>Merthyr Bus Station 12</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr 12</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr 12</CommonName>
+          <ShortCommonName>Gorsaf Bws 12</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -26989,13 +27146,16 @@
       <AtcoCode>5530WDB47507</AtcoCode>
       <NaptanCode>mtygdta</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 13</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 13</CommonName>
+        <ShortCommonName>Bus Station 13</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:12">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr  13</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr  13</CommonName>
+          <ShortCommonName>Gorsaf Bws 13</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -27033,13 +27193,16 @@
       <AtcoCode>5530WDB47508</AtcoCode>
       <NaptanCode>mtygdtd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Merthyr Bus Station Stand 14</CommonName>
+        <CommonName xml:lang="cy">Merthyr Bus Station 14</CommonName>
+        <ShortCommonName>Bus Station 14</ShortCommonName>
         <Street>Swan Street</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:38:13">
-          <CommonName xml:lang="CY">Gorsaf Bws Merthyr14</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bws Merthyr14</CommonName>
+          <ShortCommonName>Gorsaf Bws 14</ShortCommonName>
+          <Street>Swan Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
