@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-03T10:00:22.228" ModificationDateTime="2026-08-03T10:00:22.228" Modification="new" RevisionNumber="0" FileName="NaPTAN601.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-16T16:42:37.871" ModificationDateTime="2026-08-16T16:42:37.871" Modification="new" RevisionNumber="0" FileName="NaPTAN601.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-09-19T00:00:00.000" ModificationDateTime="2021-07-07T15:23:46.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>60101</AtcoCode>
@@ -22850,13 +22850,13 @@
 </StopAreas>
 <AdministrativeAreaRef>142</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2013-10-01T13:48:45.000" ModificationDateTime="2021-07-02T14:48:17.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2013-10-01T13:48:45.000" ModificationDateTime="2026-08-16T16:42:19.182" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6010184</AtcoCode>
 <NaptanCode>94724854</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Morven Gallery Rd End</CommonName>
-<ShortCommonName xml:lang="en">Morven Glry RE</ShortCommonName>
-<Landmark xml:lang="en">Morven Gallery Rd End</Landmark>
+<CommonName xml:lang="en">Morven Rd End</CommonName>
+<ShortCommonName xml:lang="en">Morven RE</ShortCommonName>
+<Landmark xml:lang="en">Morven Rd End</Landmark>
 <Street xml:lang="en">A857</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
@@ -22891,6 +22891,14 @@
 <StopAreaRef Modification="new" Status="active">601G184</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>142</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-08-16</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2013-10-01T13:54:13.000" ModificationDateTime="2023-07-26T13:57:03.000" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>6010185</AtcoCode>
@@ -72373,13 +72381,13 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2003-09-19T00:00:00.000" ModificationDateTime="2021-07-02T14:47:16.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2003-09-19T00:00:00.000" ModificationDateTime="2026-08-16T16:41:26.479" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>6010731871</AtcoCode>
 <NaptanCode>94724238</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Morven Gallery Rd End</CommonName>
-<ShortCommonName xml:lang="en">Morven Glry RE</ShortCommonName>
-<Landmark xml:lang="en">Morven Gallery Rd End</Landmark>
+<CommonName xml:lang="en">Morven Rd End</CommonName>
+<ShortCommonName xml:lang="en">Morven RE</ShortCommonName>
+<Landmark xml:lang="en">Morven Rd End</Landmark>
 <Street xml:lang="en">A857</Street>
 <Indicator xml:lang="en">at</Indicator>
 </Descriptor>
@@ -97311,7 +97319,7 @@
 </StopArea>
 <StopArea CreationDateTime="2013-10-01T00:00:00.000" ModificationDateTime="2013-10-01T00:00:00.000" Modification="revise" RevisionNumber="0" Status="active">
 <StopAreaCode>601G184</StopAreaCode>
-<Name>Morven Gallery Rd End</Name>
+<Name>Morven Rd End</Name>
 <AdministrativeAreaRef>142</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
