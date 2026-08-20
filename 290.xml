@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2026-08-18T09:54:14" ModificationDateTime="2026-08-18T09:54:14" Modification="revise" RevisionNumber="545" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2026-08-19T12:01:15" ModificationDateTime="2026-08-19T12:01:15" Modification="revise" RevisionNumber="546" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-05-18T11:53:59" ModificationDateTime="2016-02-23T14:56:19" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2900FLEX1</AtcoCode>
@@ -43500,21 +43500,21 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-09-14T10:17:23" ModificationDateTime="2012-03-02T13:25:55" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2010-09-14T10:17:23" ModificationDateTime="2026-08-19T10:28:53" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2900C2787</AtcoCode>
       <NaptanCode>NFOGTDPG</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Dolphin Road</CommonName>
+        <CommonName xml:lang="en">Brittania Way</CommonName>
         <Street xml:lang="en">Lord Nelson Drive</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <Indicator xml:lang="en">opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0060658</NptgLocalityRef>
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>616457</Easting>
-          <Northing>310274</Northing>
+          <Easting>616370</Easting>
+          <Northing>310434</Northing>
         </Location>
       </Place>
       <StopClassification>
@@ -43525,7 +43525,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>SE</CompassPoint>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -45105,34 +45105,67 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-06-19T14:17:45" ModificationDateTime="2025-06-19T14:17:45" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900C27882</AtcoCode>
-      <NaptanCode>NFOGWTWA</NaptanCode>
+    <StopPoint CreationDateTime="2026-08-19T11:55:01" ModificationDateTime="2026-08-19T11:55:01" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900C27871</AtcoCode>
+      <NaptanCode>NFOJAGPM</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Colossus Way</CommonName>
-        <Street xml:lang="en">Brittania Way</Street>
+        <CommonName xml:lang="en">Royal Sovereign Avenue</CommonName>
+        <Street xml:lang="en">Britannia Way</Street>
         <Indicator xml:lang="en">adj</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>E0048772</NptgLocalityRef>
+        <NptgLocalityRef>N0060658</NptgLocalityRef>
         <LocalityCentre>0</LocalityCentre>
         <Location>
           <GridType>UKOS</GridType>
-          <Easting>616018</Easting>
-          <Northing>310412</Northing>
+          <Easting>616302</Easting>
+          <Northing>310387</Northing>
         </Location>
       </Place>
       <StopClassification>
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2025-06-19T14:17:45" ModificationDateTime="2026-08-19T10:23:05" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>2900C27882</AtcoCode>
+      <NaptanCode>NFOGWTWA</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Normandy Grove</CommonName>
+        <Street xml:lang="en">Brittania Way</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048772</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>616052</Easting>
+          <Northing>310254</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -76861,6 +76894,88 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-08-19T00:00:00" Modification="revise" RevisionNumber="15" Status="active">
+      <AtcoCode>2900N12538</AtcoCode>
+      <NaptanCode>NFODMAWD</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Tansy Close</CommonName>
+        <Street xml:lang="en">Fiddlewood Road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0060635</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>622639</Easting>
+          <Northing>311643</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-08-18T13:38:11" ModificationDateTime="2026-08-18T13:38:11">
+          <DateRange>
+            <StartDate>2026-08-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-08-19T00:00:00" Modification="revise" RevisionNumber="19" Status="active">
+      <AtcoCode>2900N12539</AtcoCode>
+      <NaptanCode>NFODMAWG</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Tansy Close</CommonName>
+        <Street xml:lang="en">Fiddlewood Road</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0060635</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>622629</Easting>
+          <Northing>311655</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-08-18T13:34:36" ModificationDateTime="2026-08-18T13:34:36">
+          <DateRange>
+            <StartDate>2026-08-17</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2024-10-31T00:00:00" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>2900N12580</AtcoCode>
       <NaptanCode>NFODMDTJ</NaptanCode>
@@ -95840,6 +95955,35 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T14:19:32" ModificationDateTime="2009-09-28T14:18:57" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900GUNTON1</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Gunton Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">east entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048713</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>625546</Easting>
+          <Northing>335164</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2009-09-28T14:23:43" ModificationDateTime="2009-09-28T14:23:43" Modification="revise" RevisionNumber="0" Status="active">910GGUNTON</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2009-03-19T11:40:29" ModificationDateTime="2009-09-28T14:20:48" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2900GNTON1</AtcoCode>
       <Descriptor>
@@ -95874,64 +96018,6 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T14:19:32" ModificationDateTime="2009-09-28T14:18:57" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900GUNTON1</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Gunton Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">east entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048713</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>625546</Easting>
-          <Northing>335164</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2009-09-28T14:23:43" ModificationDateTime="2009-09-28T14:23:43" Modification="revise" RevisionNumber="0" Status="active">910GGUNTON</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T14:21:53" ModificationDateTime="2009-09-28T14:21:15" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900GUNTON0</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Gunton Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">west entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048713</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>625528</Easting>
-          <Northing>335142</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2009-09-28T14:23:15" ModificationDateTime="2009-09-28T14:23:15" Modification="revise" RevisionNumber="0" Status="active">910GGUNTON</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2009-03-19T11:38:09" ModificationDateTime="2009-09-28T14:22:37" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2900GNTON0</AtcoCode>
       <Descriptor>
@@ -95965,6 +96051,35 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T14:21:53" ModificationDateTime="2009-09-28T14:21:15" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900GUNTON0</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Gunton Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">west entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048713</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>625528</Easting>
+          <Northing>335142</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2009-09-28T14:23:15" ModificationDateTime="2009-09-28T14:23:15" Modification="revise" RevisionNumber="0" Status="active">910GGUNTON</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2009-04-14T09:25:07" ModificationDateTime="2014-08-20T00:00:00" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2900T124</AtcoCode>
@@ -156564,6 +156679,39 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2009-02-24T14:24:04" ModificationDateTime="2009-06-30T09:51:34" Modification="revise" RevisionNumber="2" Status="inactive">
+      <AtcoCode>2900NWLSHM1</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">North Walsham Rail Station</CommonName>
+        <Street xml:lang="en">Station Approach</Street>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048693</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>628136</Easting>
+          <Northing>329835</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2009-04-07T12:10:18" ModificationDateTime="2009-06-30T09:51:34">
+          <DateRange>
+            <StartDate>2009-07-01</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2009-04-07T12:09:34" ModificationDateTime="2014-09-18T00:00:00" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900NWALSHM1</AtcoCode>
       <Descriptor>
@@ -156598,39 +156746,6 @@
             <StartDate>2014-09-17</StartDate>
           </DateRange>
           <Active />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2009-02-24T14:24:04" ModificationDateTime="2009-06-30T09:51:34" Modification="revise" RevisionNumber="2" Status="inactive">
-      <AtcoCode>2900NWLSHM1</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">North Walsham Rail Station</CommonName>
-        <Street xml:lang="en">Station Approach</Street>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048693</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>628136</Easting>
-          <Northing>329835</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2009-04-07T12:10:18" ModificationDateTime="2009-06-30T09:51:34">
-          <DateRange>
-            <StartDate>2009-07-01</StartDate>
-          </DateRange>
-          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -178297,6 +178412,40 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T16:33:27" ModificationDateTime="2011-01-12T13:42:04" Modification="revise" RevisionNumber="1" Status="inactive">
+      <AtcoCode>2900NIA10</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">International Airport</CommonName>
+        <Street xml:lang="en">Airport Approach</Street>
+        <Indicator xml:lang="en">entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0078220</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>621664</Easting>
+          <Northing>313015</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>AIR</StopType>
+        <OffStreet>
+          <Air>
+            <Entrance />
+          </Air>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2011-01-12T13:42:03" ModificationDateTime="2011-01-12T13:42:03">
+          <DateRange>
+            <StartDate>2011-01-12</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2011-01-12T13:44:59" ModificationDateTime="2014-08-20T00:00:00" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2900NWI10</AtcoCode>
       <Descriptor>
@@ -178329,40 +178478,6 @@
         <StopValidity CreationDateTime="2014-08-19T10:37:43" ModificationDateTime="2014-08-19T10:37:43">
           <DateRange>
             <StartDate>2014-08-19</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T16:33:27" ModificationDateTime="2011-01-12T13:42:04" Modification="revise" RevisionNumber="1" Status="inactive">
-      <AtcoCode>2900NIA10</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">International Airport</CommonName>
-        <Street xml:lang="en">Airport Approach</Street>
-        <Indicator xml:lang="en">entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0078220</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>621664</Easting>
-          <Northing>313015</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>AIR</StopType>
-        <OffStreet>
-          <Air>
-            <Entrance />
-          </Air>
-        </OffStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2011-01-12T13:42:03" ModificationDateTime="2011-01-12T13:42:03">
-          <DateRange>
-            <StartDate>2011-01-12</StartDate>
           </DateRange>
           <Suspended />
         </StopValidity>
@@ -182632,48 +182747,6 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2014-08-20T00:00:00" Modification="revise" RevisionNumber="14" Status="inactive">
-      <AtcoCode>2900N12539</AtcoCode>
-      <NaptanCode>NFODMAWG</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Fiddlewood Road</CommonName>
-        <Landmark xml:lang="en">Fiddlewood Road</Landmark>
-        <Street xml:lang="en">St Faiths Road</Street>
-        <Indicator xml:lang="en">adj</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0057571</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>622759</Easting>
-          <Northing>311881</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>N</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2014-08-19T10:25:20" ModificationDateTime="2014-08-19T10:25:20">
-          <DateRange>
-            <StartDate>2014-08-19</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-07-03T09:57:34" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900C1330</AtcoCode>
       <NaptanCode>NFOAJGJT</NaptanCode>
@@ -182745,47 +182818,6 @@
         <StopAreaRef CreationDateTime="2006-04-27T10:33:33" ModificationDateTime="2006-04-27T10:33:33" Modification="revise" RevisionNumber="0" Status="active">290G366</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2012-01-31T11:33:52" Modification="revise" RevisionNumber="9" Status="inactive">
-      <AtcoCode>2900N12538</AtcoCode>
-      <NaptanCode>NFODMAWD</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Spindle Road</CommonName>
-        <Street xml:lang="en">St. Faiths Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0060635</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>622785</Easting>
-          <Northing>311661</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>CUS</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-              </Bearing>
-            </UnmarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2012-01-31T11:33:52" ModificationDateTime="2012-01-31T11:33:52">
-          <DateRange>
-            <StartDate>2012-01-31</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-07-03T10:07:15" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2900C1315</AtcoCode>
@@ -214885,6 +214917,40 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2009-03-19T12:38:45" ModificationDateTime="2009-09-28T15:11:37" Modification="revise" RevisionNumber="1" Status="inactive">
+      <AtcoCode>2900SPNROW0</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Spooner Row Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">north entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0018371</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>609410</Easting>
+          <Northing>297486</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2009-09-28T15:11:37" ModificationDateTime="2009-09-28T15:11:37">
+          <DateRange>
+            <StartDate>2009-09-29</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
     <StopPoint CreationDateTime="2009-09-28T15:10:59" ModificationDateTime="2014-09-18T00:00:00" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900SPONRRW0</AtcoCode>
       <Descriptor>
@@ -214922,74 +214988,6 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-03-19T12:38:45" ModificationDateTime="2009-09-28T15:11:37" Modification="revise" RevisionNumber="1" Status="inactive">
-      <AtcoCode>2900SPNROW0</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Spooner Row Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">north entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0018371</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>609410</Easting>
-          <Northing>297486</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2009-09-28T15:11:37" ModificationDateTime="2009-09-28T15:11:37">
-          <DateRange>
-            <StartDate>2009-09-29</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2009-03-19T12:40:37" ModificationDateTime="2009-09-28T15:13:22" Modification="revise" RevisionNumber="1" Status="inactive">
-      <AtcoCode>2900SPNROW1</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Spooner Row Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">south entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0018371</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>609389</Easting>
-          <Northing>297477</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-      <StopAvailability>
-        <StopValidity CreationDateTime="2009-09-28T15:13:22" ModificationDateTime="2009-09-28T15:13:22">
-          <DateRange>
-            <StartDate>2009-09-29</StartDate>
-          </DateRange>
-          <Suspended />
-        </StopValidity>
-      </StopAvailability>
-    </StopPoint>
     <StopPoint CreationDateTime="2009-09-28T15:12:36" ModificationDateTime="2014-09-18T00:00:00" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900SPONRRW1</AtcoCode>
       <Descriptor>
@@ -215024,6 +215022,40 @@
             <StartDate>2014-09-17</StartDate>
           </DateRange>
           <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2009-03-19T12:40:37" ModificationDateTime="2009-09-28T15:13:22" Modification="revise" RevisionNumber="1" Status="inactive">
+      <AtcoCode>2900SPNROW1</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Spooner Row Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">south entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0018371</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>609389</Easting>
+          <Northing>297477</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2009-09-28T15:13:22" ModificationDateTime="2009-09-28T15:13:22">
+          <DateRange>
+            <StartDate>2009-09-29</StartDate>
+          </DateRange>
+          <Suspended />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -254133,35 +254165,6 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T15:22:14" ModificationDateTime="2009-09-28T15:21:52" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900WATLGTN1</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Watlington Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">east entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048611</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>561247</Easting>
-          <Northing>311059</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2009-09-28T15:23:29" ModificationDateTime="2009-09-28T15:23:29" Modification="revise" RevisionNumber="0" Status="active">910GWATLGTN</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2009-03-19T12:46:35" ModificationDateTime="2009-09-28T15:23:02" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2900WATLGN1</AtcoCode>
       <Descriptor>
@@ -254195,6 +254198,35 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T15:22:14" ModificationDateTime="2009-09-28T15:21:52" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900WATLGTN1</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Watlington Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">east entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048611</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>561247</Easting>
+          <Northing>311059</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2009-09-28T15:23:29" ModificationDateTime="2009-09-28T15:23:29" Modification="revise" RevisionNumber="0" Status="active">910GWATLGTN</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2009-09-28T15:20:02" ModificationDateTime="2009-09-28T15:19:42" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900WATLGTN0</AtcoCode>
@@ -260649,6 +260681,35 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T15:31:22" ModificationDateTime="2009-09-28T15:30:52" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900WRUNTON0</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">West Runton Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0018173</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>618208</Easting>
+          <Northing>342497</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2009-09-28T15:32:34" ModificationDateTime="2009-09-28T15:32:34" Modification="revise" RevisionNumber="0" Status="active">910GWRUNTON</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2009-03-19T12:48:40" ModificationDateTime="2009-09-28T15:32:20" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2900WRNTON0</AtcoCode>
       <Descriptor>
@@ -260682,35 +260743,6 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T15:31:22" ModificationDateTime="2009-09-28T15:30:52" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900WRUNTON0</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">West Runton Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0018173</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>618208</Easting>
-          <Northing>342497</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2009-09-28T15:32:34" ModificationDateTime="2009-09-28T15:32:34" Modification="revise" RevisionNumber="0" Status="active">910GWRUNTON</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-07-03T10:01:18" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2900R2311</AtcoCode>

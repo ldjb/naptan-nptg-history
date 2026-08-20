@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-13T08:47:01.589" ModificationDateTime="2026-08-13T08:47:01.589" Modification="new" RevisionNumber="0" FileName="NaPTAN109_20260813_084705.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-19T13:11:16.888" ModificationDateTime="2026-08-19T13:11:16.888" Modification="new" RevisionNumber="0" FileName="NaPTAN109_20260819_131119.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-12-03T10:37:07.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>109000000535</AtcoCode>
@@ -70660,6 +70660,42 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-19T13:10:58.975" ModificationDateTime="2026-08-19T13:10:58.975" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052244</AtcoCode>
+<NaptanCode>dbyapmap</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Blossom Way</CommonName>
+<Street xml:lang="en">Broadacre Way</Street>
+<Indicator xml:lang="en">Adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036813</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>438987</Easting>
+<Northing>331412</Northing>
+<Longitude>-1.4221465</Longitude>
+<Latitude>52.8787898</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>

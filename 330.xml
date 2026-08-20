@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-07-29T15:42:42.867" ModificationDateTime="2026-07-29T15:42:42.867" Modification="new" RevisionNumber="0" FileName="NaPTAN330.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-19T15:16:55.148" ModificationDateTime="2026-08-19T15:16:55.148" Modification="new" RevisionNumber="0" FileName="NaPTAN330.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-03-24T00:00:00.000" ModificationDateTime="2022-05-16T12:40:32.158" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300AS0001</AtcoCode>
@@ -32299,14 +32299,13 @@
 <PlusbusZoneRef CreationDateTime="2007-01-10T14:07:00.000" ModificationDateTime="2008-11-18T09:44:00.000" Modification="revise" RevisionNumber="2" Status="active">MFLDTWN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-01-10T14:10:00.000" ModificationDateTime="2023-07-31T11:06:42.281" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-01-10T14:10:00.000" ModificationDateTime="2026-07-31T14:49:21.797" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3300AS0743</AtcoCode>
 <NaptanCode>ntsgjwtp</NaptanCode>
 <PlateCode>AS0743</PlateCode>
 <Descriptor>
 <CommonName xml:lang="en">Coburn Street</CommonName>
 <Street xml:lang="en">Hardwick Lane</Street>
-<Crossing xml:lang="en">Coburn Street</Crossing>
 <Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
@@ -32326,13 +32325,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -133923,7 +133922,7 @@
 <PlusbusZoneRef CreationDateTime="2003-07-29T00:00:00.000" ModificationDateTime="2009-01-19T08:35:00.000" Modification="revise" RevisionNumber="5" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-29T00:00:00.000" ModificationDateTime="2009-01-22T14:06:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2003-07-29T00:00:00.000" ModificationDateTime="2026-08-04T13:33:29.417" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>3300GE0557</AtcoCode>
 <NaptanCode>ntsgdtwm</NaptanCode>
 <PlateCode>GE0557</PlateCode>
@@ -133935,7 +133934,6 @@
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0020559</NptgLocalityRef>
-<Town>Carlton</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
@@ -278853,6 +278851,50 @@
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">330GRU0360</StopAreaRef>
 </StopAreas>
+<AdministrativeAreaRef>095</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-19T15:14:12.481" ModificationDateTime="2026-08-19T15:14:12.481" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3300RU0982</AtcoCode>
+<NaptanCode>ntsjadgp</NaptanCode>
+<PlateCode>RU0982</PlateCode>
+<Descriptor>
+<CommonName xml:lang="en">Medical Centre Temporary Stop</CommonName>
+<Landmark xml:lang="en">Medical Centre</Landmark>
+<Street xml:lang="en">Butt Lane</Street>
+<Crossing xml:lang="en">Cross Lane</Crossing>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-08-19T15:14:12.481" Modification="new" Status="active">
+<CommonName>Medical Centre</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>E0050202</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>469835</Easting>
+<Northing>342948</Northing>
+<Longitude>-0.9613597</Longitude>
+<Latitude>52.9793596</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
