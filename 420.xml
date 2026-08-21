@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-18T12:11:00.2301816Z" ModificationDateTime="2026-08-18T12:11:00.2301816Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-20T20:48:58.9130031Z" ModificationDateTime="2026-08-20T20:48:58.9130031Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -102968,6 +102968,76 @@
                 <CompassPoint>SE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-20T21:30:03" ModificationDateTime="2026-08-20T21:30:21" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>4200F150013</AtcoCode>
+      <NaptanCode>wardjgjx</NaptanCode>
+      <Descriptor>
+        <CommonName>Oakley School</CommonName>
+        <Street>Oakley Wood Road</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052022</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>431741</Easting>
+            <Northing>262210</Northing>
+            <Longitude>-1.536407110</Longitude>
+            <Latitude>52.257146853</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-20T21:44:26" ModificationDateTime="2026-08-20T21:46:26" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>4200F150014</AtcoCode>
+      <NaptanCode>wardjgjy</NaptanCode>
+      <Descriptor>
+        <CommonName>Yardley Way</CommonName>
+        <Street>Underhill Way</Street>
+        <Indicator>Nr</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052022</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>431108</Easting>
+            <Northing>260955</Northing>
+            <Longitude>-1.545795565</Longitude>
+            <Latitude>52.245900397</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>

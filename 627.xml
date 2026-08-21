@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-07-08T15:03:57.922" ModificationDateTime="2026-07-08T15:03:57.922" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-20T14:32:32.134" ModificationDateTime="2026-08-20T14:32:32.134" Modification="new" RevisionNumber="0" FileName="NaPTAN627.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-10-15T00:00:00.000" ModificationDateTime="2011-03-16T11:30:49.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>627001010010</AtcoCode>
@@ -45121,15 +45121,20 @@
 </StopClassification>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-12-22T15:13:41.446" ModificationDateTime="2023-05-12T09:19:14.521" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2022-12-22T15:13:41.446" ModificationDateTime="2026-07-27T15:27:39.629" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>627070000796</AtcoCode>
 <NaptanCode>5820796</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Carlaverock Farm Road</CommonName>
-<ShortCommonName xml:lang="en">Carlaverock Farm Rd</ShortCommonName>
+<CommonName xml:lang="en">Scott Glynn Walk</CommonName>
+<ShortCommonName xml:lang="en">Scott Glynn Walk</ShortCommonName>
 <Street xml:lang="en">B6371</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-07-27T15:27:39.629" Modification="new" Status="active">
+<CommonName>Scott Glynn Walk</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>ES003692</NptgLocalityRef>
 <Location>
@@ -45157,16 +45162,29 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>122</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-07-27</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2022-12-22T15:15:06.417" ModificationDateTime="2023-05-12T09:17:42.544" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2022-12-22T15:15:06.417" ModificationDateTime="2026-07-27T15:25:25.011" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>627070000797</AtcoCode>
 <NaptanCode>5820797</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Carlaverock Farm Road</CommonName>
-<ShortCommonName xml:lang="en">Carlaverock Farm Rd</ShortCommonName>
+<CommonName xml:lang="en">Scott Glynn Walk</CommonName>
+<ShortCommonName xml:lang="en">Scott Glynn Walk</ShortCommonName>
 <Street xml:lang="en">B6371</Street>
 <Indicator xml:lang="en">at</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-07-27T15:25:25.011" Modification="new" Status="active">
+<CommonName>Scott Glynn Walk</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>ES003692</NptgLocalityRef>
 <Location>
