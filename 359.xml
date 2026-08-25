@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-08-13T15:34:48.317" ModificationDateTime="2026-08-13T15:34:48.317" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-08-24T13:59:00.735" ModificationDateTime="2026-08-24T13:59:00.735" Modification="new" RevisionNumber="0" FileName="NaPTAN359.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2014-01-17T14:33:22.000" ModificationDateTime="2014-01-17T14:33:22.000" Modification="new" RevisionNumber="0" Status="inactive">
 <AtcoCode>35908614</AtcoCode>
@@ -62475,6 +62475,40 @@
 <Northing>309281</Northing>
 <Longitude>-2.537186</Longitude>
 <Latitude>52.680024</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>058</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-24T13:55:18.589" ModificationDateTime="2026-08-24T13:57:22.940" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>3590E057202</AtcoCode>
+<Descriptor>
+<CommonName>Tranter Avenue</CommonName>
+<Street>DONNINGTON WOOD WAY</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0042593</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>371081</Easting>
+<Northing>312579</Northing>
+<Longitude>-2.4294911</Longitude>
+<Latitude>52.7101143</Latitude>
 </Translation>
 </Location>
 </Place>

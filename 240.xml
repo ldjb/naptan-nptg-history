@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-18T17:29:32.994" ModificationDateTime="2026-08-18T17:29:32.994" Modification="new" RevisionNumber="0" FileName="NaPTAN240.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-21T12:03:57.007" ModificationDateTime="2026-08-21T12:03:57.007" Modification="new" RevisionNumber="0" FileName="NaPTAN240.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-07-13T12:46:00.000" ModificationDateTime="2018-02-20T14:56:00.000" Modification="delete" RevisionNumber="10" Status="inactive">
 <AtcoCode>240004144ARR</AtcoCode>
@@ -17568,7 +17568,7 @@
 </StopClassification>
 <AdministrativeAreaRef>086</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-12-30T15:21:00.000" ModificationDateTime="2019-05-23T15:45:00.000" Modification="delete" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2009-12-30T15:21:00.000" ModificationDateTime="2026-08-19T13:25:45.093" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>2400102480</AtcoCode>
 <NaptanCode>kntgtmwm</NaptanCode>
 <Descriptor>
@@ -17606,7 +17606,7 @@
 </StopClassification>
 <AdministrativeAreaRef>086</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-12-30T15:25:00.000" ModificationDateTime="2019-05-23T15:38:00.000" Modification="delete" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2009-12-30T15:25:00.000" ModificationDateTime="2026-08-19T13:32:36.381" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>2400102482</AtcoCode>
 <NaptanCode>kntgtmwp</NaptanCode>
 <Descriptor>
@@ -17644,13 +17644,13 @@
 </StopClassification>
 <AdministrativeAreaRef>086</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-12-30T15:28:00.000" ModificationDateTime="2019-05-23T15:38:00.000" Modification="delete" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2009-12-30T15:28:00.000" ModificationDateTime="2026-08-19T13:30:17.858" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>2400102484</AtcoCode>
 <NaptanCode>kntgtmwt</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Park Corner</CommonName>
 <Landmark xml:lang="en">Park Corner</Landmark>
-<Street xml:lang="en">Bodsham Road</Street>
+<Street xml:lang="en">School Hill</Street>
 <Indicator xml:lang="en">S-bound</Indicator>
 </Descriptor>
 <Place>
@@ -17661,8 +17661,8 @@
 <GridType>UKOS</GridType>
 <Easting>611030</Easting>
 <Northing>145199</Northing>
-<Longitude>1.0171242</Longitude>
-<Latitude>51.1670918</Latitude>
+<Longitude>1.017125</Longitude>
+<Latitude>51.167091</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -40269,13 +40269,13 @@
 <PlusbusZoneRef CreationDateTime="2011-06-10T13:34:00.000" ModificationDateTime="2011-06-10T13:34:00.000" Modification="new" RevisionNumber="0" Status="active">GRVSEND</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-06-10T14:47:00.000" ModificationDateTime="2018-12-10T12:05:00.000" Modification="delete" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2011-06-10T14:47:00.000" ModificationDateTime="2026-08-20T15:37:10.052" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>2400104344</AtcoCode>
 <NaptanCode>kntjpapd</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Knockhall Road</CommonName>
+<CommonName xml:lang="en">Knockhall Recreation Ground</CommonName>
 <Street xml:lang="en">Knockhall Road</Street>
-<Indicator xml:lang="en">NE-bound</Indicator>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0014663</NptgLocalityRef>
@@ -40300,8 +40300,8 @@
 <StartPoint>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>559205</Easting>
-<Northing>174497</Northing>
+<Easting>559204</Easting>
+<Northing>174496</Northing>
 <Longitude>0.2896253</Longitude>
 <Latitude>51.4470871</Latitude>
 </Translation>
@@ -68547,13 +68547,13 @@
 </StopClassification>
 <AdministrativeAreaRef>086</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-08-25T10:50:00.000" ModificationDateTime="2018-12-10T12:05:00.000" Modification="delete" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2015-08-25T10:50:00.000" ModificationDateTime="2026-08-20T15:37:00.368" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>2400107390</AtcoCode>
 <NaptanCode>kntjwgtm</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Knockhall Road</CommonName>
+<CommonName xml:lang="en">Knockhall Recreation Ground</CommonName>
 <Street xml:lang="en">Knockhall Road</Street>
-<Indicator xml:lang="en">SW-bound</Indicator>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0014663</NptgLocalityRef>
@@ -93833,7 +93833,7 @@
 <PlusbusZoneRef CreationDateTime="2007-07-16T14:35:00.000" ModificationDateTime="2013-10-25T11:13:00.000" Modification="revise" RevisionNumber="2" Status="active">CNTBE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-07-16T14:50:00.000" ModificationDateTime="2022-06-20T15:56:25.918" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2007-07-16T14:50:00.000" ModificationDateTime="2026-08-21T12:01:13.632" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>240096675</AtcoCode>
 <NaptanCode>kntgmamj</NaptanCode>
 <Descriptor>
@@ -93859,14 +93859,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 <Degrees>0</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -93875,7 +93875,7 @@
 <PlusbusZoneRef CreationDateTime="2007-07-16T14:50:00.000" ModificationDateTime="2007-07-16T14:50:00.000" Modification="new" RevisionNumber="0" Status="active">CNTBE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-07-16T14:53:00.000" ModificationDateTime="2022-06-20T15:56:45.898" Modification="revise" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2007-07-16T14:53:00.000" ModificationDateTime="2026-08-21T12:02:52.336" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>240096677</AtcoCode>
 <NaptanCode>kntgmamp</NaptanCode>
 <Descriptor>
@@ -93901,14 +93901,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 <Degrees>180</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -228253,12 +228253,12 @@
 <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2013-12-02T12:22:00.000" Modification="revise" RevisionNumber="2" Status="active">ASHFKY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2007-09-26T11:57:00.000" Modification="delete" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-08-19T14:04:19.464" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>2400A025260A</AtcoCode>
 <NaptanCode>kntdamtw</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Railway Station</CommonName>
-<Landmark xml:lang="en">Wye Railway Stn</Landmark>
+<Landmark xml:lang="en">Wye Railway Station</Landmark>
 <Street xml:lang="en">Bridge Street</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
@@ -228279,20 +228279,20 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
-<CompassPoint>NW</CompassPoint>
-<Degrees>315</Degrees>
+<CompassPoint>W</CompassPoint>
+<Degrees>270</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>086</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2007-09-26T11:57:00.000" Modification="delete" RevisionNumber="3" Status="inactive">ASHFKY</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">ASHFKY</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2013-11-21T15:07:00.000" Modification="revise" RevisionNumber="2" Status="active">
@@ -229205,7 +229205,7 @@
 </StopClassification>
 <AdministrativeAreaRef>086</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2019-05-23T15:45:00.000" Modification="delete" RevisionNumber="4" Status="inactive">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-08-19T13:32:10.536" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>2400A025490A</AtcoCode>
 <NaptanCode>kntdapgd</NaptanCode>
 <Descriptor>
@@ -328864,7 +328864,7 @@
 <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2014-07-04T15:12:00.000" Modification="revise" RevisionNumber="6" Status="active">CNTBE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2022-06-20T15:57:36.989" Modification="revise" RevisionNumber="6" Status="inactive">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-08-21T12:03:15.191" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>2400A049290A</AtcoCode>
 <NaptanCode>kntgamgt</NaptanCode>
 <Descriptor>
@@ -328889,14 +328889,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 <Degrees>180</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -328905,7 +328905,7 @@
 <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2013-10-25T11:13:00.000" Modification="revise" RevisionNumber="4" Status="active">CNTBE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2022-06-20T15:58:32.973" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-08-21T12:03:42.127" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>2400A049300A</AtcoCode>
 <NaptanCode>kntgamgw</NaptanCode>
 <Descriptor>
@@ -328931,14 +328931,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>CUS</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<UnmarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 <Degrees>90</Degrees>
 </Bearing>
-</MarkedPoint>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -357611,7 +357611,7 @@
 <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2010-07-09T13:28:00.000" Modification="revise" RevisionNumber="3" Status="active">MARGATE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2018-03-29T11:33:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-08-20T17:13:13.035" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>2400A072480A</AtcoCode>
 <NaptanCode>kntgdtwg</NaptanCode>
 <Descriptor>
@@ -357626,10 +357626,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>622664</Easting>
+<Easting>622656</Easting>
 <Northing>169306</Northing>
-<Longitude>1.1982678</Longitude>
-<Latitude>51.3791145</Latitude>
+<Longitude>1.198159</Longitude>
+<Latitude>51.379119</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -384546,6 +384546,43 @@
 <Suspended />
 </StopValidity>
 </StopAvailability>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-19T13:45:59.641" ModificationDateTime="2026-08-19T13:45:59.641" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2400109747</AtcoCode>
+<NaptanCode>kntjdjpa</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Crossroads</CommonName>
+<Landmark xml:lang="en">Crossroads</Landmark>
+<Street xml:lang="en">Waltham Road</Street>
+<Indicator xml:lang="en">S-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0014424</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>609552</Easting>
+<Northing>146303</Northing>
+<Longitude>0.9966576</Longitude>
+<Latitude>51.1775472</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>086</AdministrativeAreaRef>
 </StopPoint>
 </StopPoints>
 <StopAreas>
