@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-05-26T14:26:46.333" ModificationDateTime="2026-05-26T14:26:46.333" Modification="new" RevisionNumber="0" FileName="NaPTAN040.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-08-25T15:31:51.009" ModificationDateTime="2026-08-25T15:31:51.009" Modification="new" RevisionNumber="0" FileName="NaPTAN040.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-12T00:00:00.000" ModificationDateTime="2008-05-30T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>040000001091</AtcoCode>
@@ -144876,6 +144876,170 @@
 <CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>070</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-18T11:55:36.145" ModificationDateTime="2026-08-24T16:23:23.441" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>040000000485</AtcoCode>
+<NaptanCode>bucgmdwj</NaptanCode>
+<Descriptor>
+<CommonName>Kempstar Way</CommonName>
+<Street>Kempster Way</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0000348</NptgLocalityRef>
+<Suburb>Aston Reach</Suburb>
+<Town>Aylesbury</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484973</Easting>
+<Northing>213218</Northing>
+<Longitude>-0.7688363</Longitude>
+<Latitude>51.8111582</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484973</Easting>
+<Northing>213218</Northing>
+<Longitude>-0.7688363</Longitude>
+<Latitude>51.8111582</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484973</Easting>
+<Northing>213218</Northing>
+<Longitude>-0.7688363</Longitude>
+<Latitude>51.8111582</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>070</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-18T12:06:36.803" ModificationDateTime="2026-08-24T16:23:57.734" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>040000000486</AtcoCode>
+<NaptanCode>bucgmdwm</NaptanCode>
+<Descriptor>
+<CommonName>Spindle Green</CommonName>
+<Street>Medlar Street</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0000348</NptgLocalityRef>
+<Suburb>Weston Grove</Suburb>
+<Town>Aylesbury</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484848</Easting>
+<Northing>212729</Northing>
+<Longitude>-0.77077</Longitude>
+<Latitude>51.806774</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484878</Easting>
+<Northing>212741</Northing>
+<Longitude>-0.7703224</Longitude>
+<Latitude>51.8068807</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>484878</Easting>
+<Northing>212741</Northing>
+<Longitude>-0.7703224</Longitude>
+<Latitude>51.8068807</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>070</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-24T16:13:30.380" ModificationDateTime="2026-08-24T16:13:30.380" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>040000000487</AtcoCode>
+<Descriptor>
+<CommonName>Jansel Square</CommonName>
+<Street>Brentwood Way</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0000348</NptgLocalityRef>
+<Suburb>Bedgrove</Suburb>
+<Town>Aylesbury</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>483975</Easting>
+<Northing>212704</Northing>
+<Longitude>-0.7834352</Longitude>
+<Latitude>51.8066880</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>483975</Easting>
+<Northing>212704</Northing>
+<Longitude>-0.7834352</Longitude>
+<Latitude>51.8066880</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>483975</Easting>
+<Northing>212704</Northing>
+<Longitude>-0.7834352</Longitude>
+<Latitude>51.8066880</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>

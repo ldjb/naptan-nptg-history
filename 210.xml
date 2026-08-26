@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:n1="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://naptan.dft.gov.uk/naptan/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-10T00:00:00" ModificationDateTime="2026-08-10T00:00:00" Modification="new" RevisionNumber="1" FileName="Naptan210.xml" SchemaVersion="2.4" LocationSystem="Grid">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:n1="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://naptan.dft.gov.uk/naptan/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-25T00:00:00" ModificationDateTime="2026-08-25T00:00:00" Modification="new" RevisionNumber="1" FileName="Naptan210.xml" SchemaVersion="2.4" LocationSystem="Grid">
   <StopPoints>
     <StopPoint CreationDateTime="2004-06-17T11:22:08" ModificationDateTime="2011-06-20T10:11:27" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>210021000020</AtcoCode>
@@ -340942,6 +340942,314 @@
         <StopValidity>
           <DateRange>
             <StartDate>2026-07-20</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T09:40:06" ModificationDateTime="2026-08-25T10:01:19" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603491</AtcoCode>
+      <NaptanCode>hrtjgawd</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 1</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521570</Easting>
+            <Northing>208677</Northing>
+            <Longitude>-0.239800872511781</Longitude>
+            <Latitude>51.763586465047311</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T09:44:16" ModificationDateTime="2026-08-25T10:01:05" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603492</AtcoCode>
+      <NaptanCode>hrtjgawg</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 2</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521585</Easting>
+            <Northing>208688</Northing>
+            <Longitude>-0.239579781373334</Longitude>
+            <Latitude>51.763682066412791</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T09:47:49" ModificationDateTime="2026-08-25T10:00:52" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603493</AtcoCode>
+      <NaptanCode>hrtjgawj</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 3</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521592</Easting>
+            <Northing>208700</Northing>
+            <Longitude>-0.239474204574029</Longitude>
+            <Latitude>51.763788389665031</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T09:50:40" ModificationDateTime="2026-08-25T10:00:40" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603494</AtcoCode>
+      <NaptanCode>hrtjgawm</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 4</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521600</Easting>
+            <Northing>208715</Northing>
+            <Longitude>-0.239353095237598</Longitude>
+            <Latitude>51.763921456297993</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T09:52:37" ModificationDateTime="2026-08-25T10:00:25" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603495</AtcoCode>
+      <NaptanCode>hrtjgawp</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 5</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521610</Easting>
+            <Northing>208730</Northing>
+            <Longitude>-0.239203018790687</Longitude>
+            <Latitude>51.764054088870132</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T09:54:46" ModificationDateTime="2026-08-25T10:00:09" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603496</AtcoCode>
+      <NaptanCode>hrtjgawt</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 6</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521600</Easting>
+            <Northing>208690</Northing>
+            <Longitude>-0.239361835948649</Longitude>
+            <Latitude>51.763696786068287</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-25T10:03:25" ModificationDateTime="2026-08-25T10:03:25" Status="active" Modification="new" RevisionNumber="0">
+      <AtcoCode>210021603497</AtcoCode>
+      <NaptanCode>hrtjgdad</NaptanCode>
+      <Descriptor>
+        <CommonName>Parkhouse Bus Station</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Parkhouse Bus Station</Street>
+        <Indicator>Stand 7</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047072</NptgLocalityRef>
+        <Town>Hatfield</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>521608</Easting>
+            <Northing>208705</Northing>
+            <Longitude>-0.239240726536263</Longitude>
+            <Latitude>51.763829852586646</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCS</StopType>
+        <OffStreet>
+          <BusAndCoach>
+            <Bay>
+              <TimingStatus>TIP</TimingStatus>
+            </Bay>
+          </BusAndCoach>
+        </OffStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2026-08-25</StartDate>
           </DateRange>
           <Active />
         </StopValidity>

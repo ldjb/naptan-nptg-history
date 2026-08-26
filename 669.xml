@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-19T16:39:52.331" ModificationDateTime="2026-08-19T16:39:52.331" Modification="new" RevisionNumber="0" FileName="NaPTAN669.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-25T16:40:32.264" ModificationDateTime="2026-08-25T16:40:32.264" Modification="new" RevisionNumber="0" FileName="NaPTAN669.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2015-03-13T15:51:58.000" ModificationDateTime="2015-03-19T10:33:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>669001320011</AtcoCode>
@@ -26847,14 +26847,14 @@
 <PlusbusZoneRef CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2003-10-09T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">LNLTHGW</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2026-07-10T14:07:29.268" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-10-09T00:00:00.000" ModificationDateTime="2026-08-25T16:39:28.874" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>66902420064</AtcoCode>
 <NaptanCode>32526457</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Pennelton Place</CommonName>
 <Landmark xml:lang="en">West of Linlithgow Road</Landmark>
 <Street xml:lang="en">Crawfield Road</Street>
-<Indicator xml:lang="en">before</Indicator>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES000405</NptgLocalityRef>
@@ -66005,6 +66005,50 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>125</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-25T16:37:50.754" ModificationDateTime="2026-08-25T16:40:13.834" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>669070001411</AtcoCode>
+<Descriptor>
+<CommonName xml:lang="en">Pennelton Place</CommonName>
+<Street xml:lang="en">Crawfield Road</Street>
+<Indicator xml:lang="en">at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000405</NptgLocalityRef>
+<Town>Bo'ness</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>299489</Easting>
+<Northing>680001</Northing>
+<Longitude>-3.6132830</Longitude>
+<Latitude>56.0023726</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>125</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-08-21</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 </StopPoints>
 <StopAreas>

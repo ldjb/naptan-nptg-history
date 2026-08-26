@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-21T12:03:57.007" ModificationDateTime="2026-08-21T12:03:57.007" Modification="new" RevisionNumber="0" FileName="NaPTAN240.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-25T11:54:59.779" ModificationDateTime="2026-08-25T11:54:59.779" Modification="new" RevisionNumber="0" FileName="NaPTAN240.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-07-13T12:46:00.000" ModificationDateTime="2018-02-20T14:56:00.000" Modification="delete" RevisionNumber="10" Status="inactive">
 <AtcoCode>240004144ARR</AtcoCode>
@@ -26466,7 +26466,7 @@
 <PlusbusZoneRef CreationDateTime="2010-07-06T10:14:00.000" ModificationDateTime="2010-07-12T10:49:00.000" Modification="revise" RevisionNumber="3" Status="active">GRVSEND</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-07-06T10:22:00.000" ModificationDateTime="2016-11-04T11:30:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-07-06T10:22:00.000" ModificationDateTime="2026-08-25T11:23:07.056" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>2400103086</AtcoCode>
 <NaptanCode>kntjgpmg</NaptanCode>
 <Descriptor>
@@ -26492,13 +26492,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
