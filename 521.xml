@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-14T10:41:10" ModificationDateTime="2026-08-14T10:41:10" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-26T11:44:57" ModificationDateTime="2026-08-26T11:44:57" Modification="revise" RevisionNumber="1" FileName="521.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:39:00" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>5210ANZ12686</AtcoCode>
@@ -194,17 +194,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>5210AWC50978</AtcoCode>
+      <NaptanCode>pemjapw</NaptanCode>
       <Descriptor>
-        <CommonName>Bus Station 1</CommonName>
+        <CommonName xml:lang="cy">Haverfordwest Bus Station Bay 1</CommonName>
         <Landmark>Haverfordwest Bus Station</Landmark>
         <Street>Riverside Quay</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:14">
-          <CommonName xml:lang="CY">Gorsaf Bws 1</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Fysiau Hwlffordd Bae 1</CommonName>
+          <Street>Cei Glanyrafon</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -213,10 +215,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>195504</Easting>
-            <Northing>215886</Northing>
-            <Longitude>-4.967496509</Longitude>
-            <Latitude>51.804120926</Latitude>
+            <Easting>195568</Easting>
+            <Northing>215807</Northing>
+            <Longitude>-4.9665167</Longitude>
+            <Latitude>51.803431</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -241,18 +243,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5210AWC50979</AtcoCode>
       <NaptanCode>pemajtp</NaptanCode>
       <Descriptor>
-        <CommonName>Bus Station 2</CommonName>
+        <CommonName xml:lang="cy">Haverfordwest Bus Station Bay 2</CommonName>
         <Landmark>Haverfordwest Bus Station</Landmark>
         <Street>Riverside Quay</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:14">
-          <CommonName xml:lang="CY">Gorsaf Bws 2</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Fysiau Hwlffordd Bae 2</CommonName>
+          <Street>Cei Glanyrafon</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -261,10 +264,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>195516</Easting>
-            <Northing>215862</Northing>
-            <Longitude>-4.967308547</Longitude>
-            <Latitude>51.803909822</Latitude>
+            <Easting>195560</Easting>
+            <Northing>215825</Northing>
+            <Longitude>-4.9666488</Longitude>
+            <Latitude>51.803589</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -289,18 +292,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5210AWC50980</AtcoCode>
       <NaptanCode>pemajtw</NaptanCode>
       <Descriptor>
-        <CommonName>Bus Station 3</CommonName>
+        <CommonName xml:lang="cy">Haverfordwest Bus Station Bay 3</CommonName>
         <Landmark>Haverfordwest Bus Station</Landmark>
         <Street>Riverside Quay</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:14">
-          <CommonName xml:lang="CY">Gorsaf Bws 3</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Fysiau Hwlffordd Bae 3</CommonName>
+          <Street>Cei Glanyrafon</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -309,10 +313,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>195525</Easting>
+            <Easting>195552</Easting>
             <Northing>215842</Northing>
-            <Longitude>-4.967166396</Longitude>
-            <Latitude>51.803733536</Latitude>
+            <Longitude>-4.9667808</Longitude>
+            <Latitude>51.803746</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -337,18 +341,19 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:38:55" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5210AWC50981</AtcoCode>
       <NaptanCode>pemajwa</NaptanCode>
       <Descriptor>
-        <CommonName>Bus Station 4</CommonName>
+        <CommonName xml:lang="cy">Haverfordwest Bus Station Bay 4</CommonName>
         <Landmark>Haverfordwest Bus Station</Landmark>
         <Street>Riverside Quay</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:14">
-          <CommonName xml:lang="CY">Gorsaf Bws 4</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Fysiau Hwlffordd Bae 4</CommonName>
+          <Street>Cei Glanyrafon</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -357,10 +362,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>195534</Easting>
-            <Northing>215823</Northing>
-            <Longitude>-4.967024836</Longitude>
-            <Latitude>51.803566228</Latitude>
+            <Easting>195543</Easting>
+            <Northing>215860</Northing>
+            <Longitude>-4.9669128</Longitude>
+            <Latitude>51.803904</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -37524,7 +37529,7 @@
       <AtcoCode>5210WDB24259</AtcoCode>
       <NaptanCode>pemgpaj</NaptanCode>
       <Descriptor>
-        <CommonName>Haverfordwest Bus Station Stand 5</CommonName>
+        <CommonName xml:lang="cy">Haverfordwest Bus Station Bay 5</CommonName>
         <ShortCommonName>Bus Station 5</ShortCommonName>
         <Landmark>Haverfordwest Bus Station</Landmark>
         <Street>Riverside Quay</Street>
@@ -37532,7 +37537,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:14">
-          <CommonName xml:lang="CY">Gorsaf Bws Hwlffordd 5</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Fysiau Hwlffordd Bae 5</CommonName>
+          <Street>Cei Glanyrafon</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -37541,10 +37547,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>195542</Easting>
-            <Northing>215795</Northing>
-            <Longitude>-4.966892285</Longitude>
-            <Latitude>51.803313033</Latitude>
+            <Easting>195535</Easting>
+            <Northing>215878</Northing>
+            <Longitude>-4.9670449</Longitude>
+            <Latitude>51.804062</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -37573,15 +37579,15 @@
       <AtcoCode>5210WDB24260</AtcoCode>
       <NaptanCode>pemgpam</NaptanCode>
       <Descriptor>
-        <CommonName>Haverfordwest Bus Station Stand 6</CommonName>
-        <ShortCommonName>Bus Station 6</ShortCommonName>
+        <CommonName xml:lang="cy">Haverfordwest Bus Station Bay 6</CommonName>
         <Landmark>Haverfordwest Bus Station</Landmark>
         <Street>Riverside Quay</Street>
         <Indicator>at</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:54:14">
-          <CommonName xml:lang="CY">Gorsaf Bws Hwlffordd 6</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Fysiau Hwlffordd Bae 6</CommonName>
+          <Street>Cei Glanyrafon</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -37590,10 +37596,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>195552</Easting>
-            <Northing>215779</Northing>
-            <Longitude>-4.966738014</Longitude>
-            <Latitude>51.803173027</Latitude>
+            <Easting>195528</Easting>
+            <Northing>215900</Northing>
+            <Longitude>-4.9671598</Longitude>
+            <Latitude>51.804251</Latitude>
           </Translation>
         </Location>
       </Place>
