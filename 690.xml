@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-07-28T13:58:07.328" ModificationDateTime="2026-07-28T13:58:07.328" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-28T14:51:28.963" ModificationDateTime="2026-08-28T14:51:28.963" Modification="new" RevisionNumber="0" FileName="NaPTAN690.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-10-08T00:00:00.000" ModificationDateTime="2026-06-11T16:26:47.979" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6900100</AtcoCode>
@@ -17159,14 +17159,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-24T00:00:00.000" ModificationDateTime="2025-02-19T11:04:07.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-01-24T00:00:00.000" ModificationDateTime="2026-08-28T14:44:17.026" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>69001430</AtcoCode>
 <NaptanCode>72725387</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Cessford Rd End</CommonName>
+<CommonName xml:lang="en">Cessford Road End</CommonName>
 <Landmark xml:lang="en">Road End</Landmark>
 <Street xml:lang="en">B6401</Street>
-<Indicator xml:lang="en">At</Indicator>
+<Indicator xml:lang="en">at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002679</NptgLocalityRef>
@@ -17189,7 +17189,8 @@
 <TimingStatus>PPT</TimingStatus>
 <UnmarkedPoint>
 <Bearing>
-<CompassPoint>W</CompassPoint>
+<CompassPoint>NW</CompassPoint>
+<Degrees>315</Degrees>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
@@ -17235,14 +17236,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-24T00:00:00.000" ModificationDateTime="2010-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-01-24T00:00:00.000" ModificationDateTime="2026-08-28T14:44:55.077" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>69001432</AtcoCode>
 <NaptanCode>72725646</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Marlefield Farm</CommonName>
 <Landmark xml:lang="en">Farm</Landmark>
 <Street xml:lang="en">B6401</Street>
-<Indicator xml:lang="en">At</Indicator>
+<Indicator xml:lang="en">at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES002679</NptgLocalityRef>
@@ -17266,6 +17267,7 @@
 <UnmarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
+<Degrees>270</Degrees>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
@@ -24397,14 +24399,14 @@
 </StopClassification>
 <AdministrativeAreaRef>115</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2008-12-06T00:00:00.000" ModificationDateTime="2010-06-08T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2008-12-06T00:00:00.000" ModificationDateTime="2026-08-28T14:47:31.151" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>69001631</AtcoCode>
 <NaptanCode>72798735</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Easter Wooden Rd End</CommonName>
 <Landmark xml:lang="en">Easter Wooden Farm</Landmark>
 <Street xml:lang="en">B6401</Street>
-<Indicator xml:lang="en">At</Indicator>
+<Indicator xml:lang="en">at</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>ES001261</NptgLocalityRef>
@@ -24424,10 +24426,11 @@
 <OnStreet>
 <Bus>
 <BusStopType>CUS</BusStopType>
-<TimingStatus>PPT</TimingStatus>
+<TimingStatus>OTH</TimingStatus>
 <UnmarkedPoint>
 <Bearing>
-<CompassPoint>SE</CompassPoint>
+<CompassPoint>NW</CompassPoint>
+<Degrees>315</Degrees>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
@@ -58874,6 +58877,260 @@
 <CompassPoint>NE</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-25T14:47:45.235" ModificationDateTime="2026-08-25T14:47:45.235" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>69002394</AtcoCode>
+<NaptanCode>7272394</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Linton Mill Hail &amp; Ride</CommonName>
+<ShortCommonName xml:lang="en">Linton Mill</ShortCommonName>
+<Landmark xml:lang="en">Linton Mill Road End</Landmark>
+<Street xml:lang="en">B6436</Street>
+<Indicator xml:lang="en">at</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-08-25T14:47:45.235" Modification="new" Status="active">
+<CommonName>Linton Mill RE</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>ES002381</NptgLocalityRef>
+<Town>Linton</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>377534</Easting>
+<Northing>626122</Northing>
+<Longitude>-2.357436</Longitude>
+<Latitude>55.528311</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>377561</Easting>
+<Northing>626294</Northing>
+<Longitude>-2.3570234</Longitude>
+<Latitude>55.5298591</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>377494</Easting>
+<Northing>625948</Northing>
+<Longitude>-2.3580574</Longitude>
+<Latitude>55.5267466</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+<Degrees>225</Degrees>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-25T14:50:44.596" ModificationDateTime="2026-08-28T14:51:18.510" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>69002395</AtcoCode>
+<NaptanCode>7272395</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Linton Mill Hail &amp; Ride</CommonName>
+<ShortCommonName xml:lang="en">Linton mill</ShortCommonName>
+<Landmark xml:lang="en">Linton Mill Road End</Landmark>
+<Street xml:lang="en">B6436</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-08-25T14:50:44.596" Modification="new" Status="active">
+<CommonName>Linton Mill RE</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>ES002381</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>377531</Easting>
+<Northing>626133</Northing>
+<Longitude>-2.3574837</Longitude>
+<Latitude>55.5284035</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<Easting>377472</Easting>
+<Northing>625990</Northing>
+<Longitude>-2.3584074</Longitude>
+<Latitude>55.5271225</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<Easting>377510</Easting>
+<Northing>626312</Northing>
+<Longitude>-2.3578257</Longitude>
+<Latitude>55.5300158</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+<Degrees>45</Degrees>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-25T15:21:16.758" ModificationDateTime="2026-08-28T14:47:55.795" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>69002389</AtcoCode>
+<NaptanCode>7272389</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Easter Wooden Road End</CommonName>
+<ShortCommonName xml:lang="en">Easter Wooden Rd End</ShortCommonName>
+<Landmark xml:lang="en">Easter Wooden Road End</Landmark>
+<Street xml:lang="en">B6401</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-08-25T15:21:16.758" Modification="new" Status="active">
+<CommonName>Easter Wooden RE</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>ES001261</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>372895</Easting>
+<Northing>626249</Northing>
+<Longitude>-2.4309400</Longitude>
+<Latitude>55.5292112</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+<Degrees>135</Degrees>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-25T15:25:29.673" ModificationDateTime="2026-08-28T14:45:13.974" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>69002396</AtcoCode>
+<NaptanCode>7272396</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Marlefield Farm</CommonName>
+<ShortCommonName xml:lang="en">Marlefield Fm</ShortCommonName>
+<Landmark xml:lang="en">Marlefield Farm</Landmark>
+<Street xml:lang="en">B6401</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-08-25T15:25:29.673" Modification="new" Status="active">
+<CommonName>Marlefield Farm</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>ES002679</NptgLocalityRef>
+<Town>Morebattle</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>373772</Easting>
+<Northing>626011</Northing>
+<Longitude>-2.4170297</Longitude>
+<Latitude>55.5271251</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+<Degrees>90</Degrees>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>115</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-08-25T15:28:15.479" ModificationDateTime="2026-08-28T14:43:56.288" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>69002432</AtcoCode>
+<NaptanCode>7272432</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Cessford Road End</CommonName>
+<ShortCommonName xml:lang="en">Cessford Rd End</ShortCommonName>
+<Landmark xml:lang="en">Cessford Road End</Landmark>
+<Street xml:lang="en">B6401</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-08-25T15:28:15.479" Modification="new" Status="active">
+<CommonName>Cessford RE</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
+<Place>
+<NptgLocalityRef>ES002679</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>374556</Easting>
+<Northing>625549</Northing>
+<Longitude>-2.4045662</Longitude>
+<Latitude>55.5230171</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SE</CompassPoint>
+<Degrees>135</Degrees>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
