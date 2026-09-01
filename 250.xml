@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-06-30T15:11:14.9033048Z" ModificationDateTime="2026-06-30T15:11:14.9033048Z" Modification="new" RevisionNumber="1" FileName="250.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-27T09:31:44.7930729Z" ModificationDateTime="2026-08-27T09:31:44.7930729Z" Modification="new" RevisionNumber="1" FileName="250.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T10:26:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>250000358</AtcoCode>
@@ -3685,7 +3685,7 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-04-29T11:55:02" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:13:06" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>25001025</AtcoCode>
       <NaptanCode>lanadgmp</NaptanCode>
       <Descriptor>
@@ -3695,7 +3695,7 @@
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-03T15:15:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:13:06" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Standing Stone Lane</CommonName>
           <Landmark>Standing Stone Lane</Landmark>
           <Street>High Lane</Street>
@@ -3721,14 +3721,14 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <MarkedPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
                 <Degrees>0</Degrees>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -6653,17 +6653,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T09:42:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T14:53:34" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>250010725</AtcoCode>
       <NaptanCode>lanadmpm</NaptanCode>
       <Descriptor>
         <CommonName>Bolton By Bowland CEPS</CommonName>
         <Landmark>School</Landmark>
-        <Street>Main Street</Street>
-        <Indicator>o/s</Indicator>
+        <Street>Gisburn Road</Street>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T09:42:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T14:53:34" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Bolton By Bowland CEPS</CommonName>
           <Landmark>School</Landmark>
           <Street>Main Street</Street>
@@ -6678,10 +6678,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>378867</Easting>
-            <Northing>449358</Northing>
-            <Longitude>-2.323411939</Longitude>
-            <Latitude>53.939900675</Latitude>
+            <Easting>378812</Easting>
+            <Northing>449376</Northing>
+            <Longitude>-2.324250933</Longitude>
+            <Latitude>53.940055675</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -15498,14 +15498,14 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-17T14:48:00" Modification="revise" RevisionNumber="3" Status="active">PRST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:51:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:29:06" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>250011240</AtcoCode>
       <NaptanCode>lanagagw</NaptanCode>
       <Descriptor>
-        <CommonName>Sainsburys</CommonName>
-        <Landmark>Sainsburys</Landmark>
+        <CommonName>Holmes Mill</CommonName>
+        <Landmark>Holmes Mill</Landmark>
         <Street>Moor Lane</Street>
-        <Indicator>opp</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:51:00" Modification="revise" RevisionNumber="1" Status="active">
@@ -15596,18 +15596,18 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:50:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:27:49" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>250011243</AtcoCode>
       <NaptanCode>lanagajd</NaptanCode>
       <Descriptor>
         <CommonName>Pendle Club</CommonName>
-        <ShortCommonName>Pendle Club Std L</ShortCommonName>
+        <ShortCommonName>Pendle Club</ShortCommonName>
         <Landmark>Pendle Club</Landmark>
         <Street>Lowergate</Street>
-        <Indicator>Stand L</Indicator>
+        <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:50:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:27:49" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Pendle Club</CommonName>
           <ShortCommonName>Pendle Club Std L</ShortCommonName>
           <Landmark>Pendle Club</Landmark>
@@ -23717,17 +23717,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-17T09:26:00" Modification="revise" RevisionNumber="1" Status="active">PRST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-10T12:44:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T14:13:12" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>250011781</AtcoCode>
       <NaptanCode>lanagmwg</NaptanCode>
       <Descriptor>
-        <CommonName>Primary School</CommonName>
-        <Landmark>Primary School</Landmark>
+        <CommonName>Pavilion</CommonName>
+        <Landmark>Pavilion</Landmark>
         <Street>Sawley Road</Street>
-        <Indicator>o/s</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-10T12:44:00" Modification="revise" RevisionNumber="3" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T14:13:12" Modification="revise" RevisionNumber="4" Status="active">
           <CommonName>Primary School</CommonName>
           <Landmark>Primary School</Landmark>
           <Street>Sawley Road</Street>
@@ -23742,10 +23742,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>376173</Easting>
-            <Northing>445642</Northing>
-            <Longitude>-2.364158529</Longitude>
-            <Latitude>53.906385229</Latitude>
+            <Easting>376119</Easting>
+            <Northing>445614</Northing>
+            <Longitude>-2.364978176</Longitude>
+            <Latitude>53.906126560</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -32982,17 +32982,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-17T14:50:00" Modification="revise" RevisionNumber="3" Status="active">PRST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T11:27:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T14:52:23" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>25001235</AtcoCode>
       <NaptanCode>lanajapg</NaptanCode>
       <Descriptor>
-        <CommonName>St Peters and St Pauls Church</CommonName>
-        <Landmark>Church</Landmark>
-        <Street>Main Street</Street>
+        <CommonName>Bolton by Bowland CEPS</CommonName>
+        <Landmark>School</Landmark>
+        <Street>Gisburn Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T11:27:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T14:52:24" Modification="revise" RevisionNumber="4" Status="active">
           <CommonName>St Peters and St Pauls Church</CommonName>
           <Landmark>Church</Landmark>
           <Street>Main Street</Street>
@@ -33007,10 +33007,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>378625</Easting>
-            <Northing>449355</Northing>
-            <Longitude>-2.327098114</Longitude>
-            <Latitude>53.939863723</Latitude>
+            <Easting>378796</Easting>
+            <Northing>449370</Northing>
+            <Longitude>-2.324494244</Longitude>
+            <Latitude>53.940001091</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -33018,13 +33018,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -34503,14 +34503,14 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-09-21T10:34:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:23:29" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>25001244</AtcoCode>
       <NaptanCode>lanajdgt</NaptanCode>
       <Descriptor>
-        <CommonName>King Lane</CommonName>
-        <Landmark>King Lane</Landmark>
+        <CommonName>Bowland Court</CommonName>
+        <Landmark>Bowland Court</Landmark>
         <Street>King Lane</Street>
-        <Indicator>Stand F</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-09-21T10:34:00" Modification="revise" RevisionNumber="2" Status="active">
@@ -34552,14 +34552,14 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:34:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:47:26" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>25001245</AtcoCode>
       <NaptanCode>lanajdgw</NaptanCode>
       <Descriptor>
-        <CommonName>Interchange</CommonName>
-        <Landmark>Dawsons</Landmark>
+        <CommonName>Police Station</CommonName>
+        <Landmark>Police Station</Landmark>
         <Street>King Street</Street>
-        <Indicator>Stand 8</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:34:00" Modification="revise" RevisionNumber="1" Status="active">
@@ -35143,17 +35143,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:19:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:22:56" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>25001247</AtcoCode>
       <NaptanCode>lanajdmp</NaptanCode>
       <Descriptor>
-        <CommonName>Lowergate</CommonName>
-        <Landmark>Lowergate</Landmark>
+        <CommonName>Bowland Court</CommonName>
+        <Landmark>Bowland Court</Landmark>
         <Street>Lowergate</Street>
-        <Indicator>Stand H</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:19:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:22:56" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Lowergate</CommonName>
           <Landmark>Lowergate</Landmark>
           <Street>Lowergate</Street>
@@ -35401,17 +35401,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:49:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:24:24" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>25001248</AtcoCode>
       <NaptanCode>lanajdpg</NaptanCode>
       <Descriptor>
         <CommonName>Market Place</CommonName>
         <Landmark>Market Place</Landmark>
         <Street>Market Place</Street>
-        <Indicator>Stand A</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:49:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:24:24" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Market Place</CommonName>
           <Landmark>Market Place</Landmark>
           <Street>Market Place</Street>
@@ -35606,17 +35606,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-19T11:40:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:34:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:46:49" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>25001249</AtcoCode>
       <NaptanCode>lanajdpw</NaptanCode>
       <Descriptor>
-        <CommonName>Interchange</CommonName>
-        <Landmark>Station Hotel</Landmark>
+        <CommonName>Police Station</CommonName>
+        <Landmark>Police Station</Landmark>
         <Street>King Street</Street>
-        <Indicator>Stand 7</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:34:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:46:49" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Interchange</CommonName>
           <Landmark>Station Hotel</Landmark>
           <Street>King Street</Street>
@@ -35756,17 +35756,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-14T12:33:00" Modification="revise" RevisionNumber="1" Status="active">BLKB</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:35:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:48:37" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>25001250</AtcoCode>
       <NaptanCode>lanajdtg</NaptanCode>
       <Descriptor>
-        <CommonName>Interchange</CommonName>
-        <Landmark>Railway Station Forecourt</Landmark>
+        <CommonName>Railway Station</CommonName>
+        <Landmark>Railway Station</Landmark>
         <Street>Station Road</Street>
-        <Indicator>Stand 3</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:35:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:48:37" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Interchange</CommonName>
           <Landmark>Railway Station Forecourt</Landmark>
           <Street>Station Road</Street>
@@ -36855,17 +36855,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-06T10:32:00" Modification="revise" RevisionNumber="1" Status="active">LANCSTR</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-24T12:56:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:46:04" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>25001254</AtcoCode>
       <NaptanCode>lanajgdm</NaptanCode>
       <Descriptor>
-        <CommonName>Station Road</CommonName>
-        <Landmark>Booths</Landmark>
+        <CommonName>Market</CommonName>
+        <Landmark>Market</Landmark>
         <Street>Station Road</Street>
-        <Indicator>Stand J</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-24T12:56:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:46:05" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Station Road</CommonName>
           <Landmark>Booths</Landmark>
           <Street>Station Road</Street>
@@ -41834,17 +41834,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-04-01T12:48:00" Modification="revise" RevisionNumber="1" Status="active">BLCKPLN</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T12:37:00" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T13:56:58" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>25001282</AtcoCode>
       <NaptanCode>lanajpdt</NaptanCode>
       <Descriptor>
-        <CommonName>Buck Inn</CommonName>
-        <Landmark>Duke of York</Landmark>
+        <CommonName>The Rum Fox</CommonName>
+        <Landmark>The Rum Fox</Landmark>
         <Street>Sawley Road</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T12:37:00" Modification="revise" RevisionNumber="5" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T13:56:58" Modification="revise" RevisionNumber="7" Status="active">
           <CommonName>Buck Inn</CommonName>
           <Landmark>Duke of York</Landmark>
           <Street>Sawley Road</Street>
@@ -41870,13 +41870,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -46330,17 +46330,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-08-01T10:50:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:57:00" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>25001306</AtcoCode>
       <NaptanCode>lanajwat</NaptanCode>
       <Descriptor>
         <CommonName>Spread Eagle</CommonName>
         <Landmark>Spread Eagle</Landmark>
         <Street>Sawley Road</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-08-01T10:50:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:57:00" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Spread Eagle</CommonName>
           <Landmark>Spread Eagle</Landmark>
           <Street>Sawley Road</Street>
@@ -46350,15 +46350,15 @@
       <Place>
         <NptgLocalityRef>E0047523</NptgLocalityRef>
         <Suburb>Sawley (Lancs)</Suburb>
-        <Town>Ribble Valley</Town>
+        <Town>Clitheroe</Town>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>377645</Easting>
-            <Northing>446548</Northing>
-            <Longitude>-2.341820079</Longitude>
-            <Latitude>53.914593922</Latitude>
+            <Easting>377682</Easting>
+            <Northing>446590</Northing>
+            <Longitude>-2.341259803</Longitude>
+            <Latitude>53.914968487</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -46370,7 +46370,7 @@
             <TimingStatus>TIP</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -179485,17 +179485,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:33:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:49:11" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500DCL477</AtcoCode>
       <NaptanCode>landmapa</NaptanCode>
       <Descriptor>
         <CommonName>Interchange</CommonName>
         <Landmark>Interchange</Landmark>
         <Street>Railway View Road</Street>
-        <Indicator>Stand 4</Indicator>
+        <Indicator>Stand 1</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:33:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:49:11" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Interchange</CommonName>
           <Landmark>Interchange</Landmark>
           <Street>Railway View Road</Street>
@@ -221166,23 +221166,15 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-18T15:50:00" Modification="revise" RevisionNumber="5" Status="active">PRST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-02-03T09:38:26" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:05:36" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>2500IMG1590</AtcoCode>
       <NaptanCode>landtmdp</NaptanCode>
       <Descriptor>
-        <CommonName>Higher Lane</CommonName>
-        <Landmark>Higher Lane</Landmark>
-        <Street>Higher Lane</Street>
-        <Indicator>by</Indicator>
+        <CommonName>HodgeLane</CommonName>
+        <Landmark>HodgeLane</Landmark>
+        <Street>Manchester Road</Street>
+        <Indicator>opp</Indicator>
       </Descriptor>
-      <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-02-03T09:38:26" Modification="revise" RevisionNumber="4" Status="active">
-          <CommonName>Higher Lane</CommonName>
-          <Landmark>Higher Lane</Landmark>
-          <Street>Higher Lane</Street>
-          <Indicator>by</Indicator>
-        </Descriptor>
-      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0016059</NptgLocalityRef>
         <Suburb>Gillians</Suburb>
@@ -221191,10 +221183,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>387848</Easting>
-            <Northing>445259</Northing>
-            <Longitude>-2.186438540</Longitude>
-            <Latitude>53.903350732</Latitude>
+            <Easting>387763</Easting>
+            <Northing>445472</Northing>
+            <Longitude>-2.187740753</Longitude>
+            <Latitude>53.905258584</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -221214,25 +221206,25 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2026-02-03T09:38:26" ModificationDateTime="2026-02-03T09:38:26" Modification="new">
+        <StopValidity CreationDateTime="2026-02-03T09:38:26" ModificationDateTime="2026-08-27T09:04:09" Modification="revise" RevisionNumber="1">
           <DateRange>
-            <StartDate>2026-02-03</StartDate>
+            <StartDate>2026-08-27</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-04-30T08:12:47" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:05:02" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2500IMG1591</AtcoCode>
       <NaptanCode>landtmdt</NaptanCode>
       <Descriptor>
-        <CommonName>Higher Lane</CommonName>
-        <Landmark>Higher Lane</Landmark>
+        <CommonName>HodgeLane</CommonName>
+        <Landmark>HodgeLane</Landmark>
         <Street>Manchester Road</Street>
-        <Indicator>adj</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2016-05-09T15:19:00" Modification="revise" RevisionNumber="3" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:05:02" Modification="revise" RevisionNumber="4" Status="active">
           <CommonName>Higher Lane</CommonName>
           <Landmark>Higher Lane</Landmark>
           <Street>Higher Lane</Street>
@@ -221411,12 +221403,12 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2024-12-13T15:13:31" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T13:18:45" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>2500IMG1599</AtcoCode>
       <NaptanCode>landtmgj</NaptanCode>
       <Descriptor>
-        <CommonName>Greenberfield Lane</CommonName>
-        <Landmark>Greenberfield Lane</Landmark>
+        <CommonName>Banks Hill</CommonName>
+        <Landmark>Banks Hill</Landmark>
         <Street>Bracewell Lane</Street>
         <Indicator>by</Indicator>
       </Descriptor>
@@ -221447,13 +221439,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>S</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -239460,12 +239452,12 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-02-03T09:48:16" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T13:23:27" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2500IMG2315</AtcoCode>
       <NaptanCode>langapmt</NaptanCode>
       <Descriptor>
-        <CommonName>Castle Cement</CommonName>
-        <Landmark>Castle Cemetery</Landmark>
+        <CommonName>Cement Works</CommonName>
+        <Landmark>Cement Works</Landmark>
         <Street>West Bradford Road</Street>
         <Indicator>by</Indicator>
       </Descriptor>
@@ -239481,7 +239473,7 @@
         <NptgLocalityRef>E0016206</NptgLocalityRef>
         <Suburb>Horrocksford</Suburb>
         <Town>Ribble Valley</Town>
-        <LocalityCentre>true</LocalityCentre>
+        <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
@@ -239509,11 +239501,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2026-02-03T09:48:16" ModificationDateTime="2026-02-03T09:48:16" Modification="new">
+        <StopValidity CreationDateTime="2026-02-03T09:48:16" ModificationDateTime="2026-08-26T13:23:27" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2026-02-03</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-08-26T13:23:27" ModificationDateTime="2026-08-26T13:23:27" Modification="new">
+          <DateRange>
+            <StartDate>2026-08-26</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -239811,17 +239809,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:20:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:21:16" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2323</AtcoCode>
       <NaptanCode>langaptw</NaptanCode>
       <Descriptor>
         <CommonName>Tesco</CommonName>
         <Landmark>Tesco</Landmark>
         <Street>Duck Street</Street>
-        <Indicator>Stand G</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:20:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:21:17" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Tesco</CommonName>
           <Landmark>Tesco</Landmark>
           <Street>Duck Street</Street>
@@ -240448,17 +240446,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:49:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:26:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2336</AtcoCode>
       <NaptanCode>langatat</NaptanCode>
       <Descriptor>
-        <CommonName>King Street</CommonName>
-        <Landmark>CLITHEROE York Street</Landmark>
+        <CommonName>Post Office</CommonName>
+        <Landmark>Post Office</Landmark>
         <Street>King Street</Street>
-        <Indicator>Stand E</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-06-10T10:49:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:26:44" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>King Street</CommonName>
           <Landmark>CLITHEROE York Street</Landmark>
           <Street>King Street</Street>
@@ -240497,14 +240495,14 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:31:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:51:45" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2337</AtcoCode>
       <NaptanCode>langataw</NaptanCode>
       <Descriptor>
         <CommonName>Interchange</CommonName>
         <Landmark>Interchange</Landmark>
         <Street>Railway View Road</Street>
-        <Indicator>Stand 10</Indicator>
+        <Indicator>Stand 5</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:31:00" Modification="revise" RevisionNumber="2" Status="active">
@@ -240522,10 +240520,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>374251</Easting>
-            <Northing>442118</Northing>
-            <Longitude>-2.393115203</Longitude>
-            <Latitude>53.874620571</Latitude>
+            <Easting>374269</Easting>
+            <Northing>442138</Northing>
+            <Longitude>-2.392843046</Longitude>
+            <Latitude>53.874796699</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -240546,17 +240544,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-12T09:04:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:50:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2338</AtcoCode>
       <NaptanCode>langatda</NaptanCode>
       <Descriptor>
         <CommonName>Interchange</CommonName>
         <Landmark>Interchange</Landmark>
         <Street>Railway View Road</Street>
-        <Indicator>Stand 9</Indicator>
+        <Indicator>Stand 4</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-12T09:04:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:50:28" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Interchange</CommonName>
           <Landmark>Interchange</Landmark>
           <Street>Railway View Road</Street>
@@ -240595,17 +240593,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:32:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:50:07" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2339</AtcoCode>
       <NaptanCode>langatdg</NaptanCode>
       <Descriptor>
         <CommonName>Interchange</CommonName>
         <Landmark>Interchange</Landmark>
         <Street>Railway View Road</Street>
-        <Indicator>Stand 6</Indicator>
+        <Indicator>Stand 3</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:32:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:50:07" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Interchange</CommonName>
           <Landmark>Interchange</Landmark>
           <Street>Railway View Road</Street>
@@ -240644,17 +240642,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:32:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:49:41" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2340</AtcoCode>
       <NaptanCode>langatdj</NaptanCode>
       <Descriptor>
         <CommonName>Interchange</CommonName>
         <Landmark>Interchange</Landmark>
         <Street>Railway View Road</Street>
-        <Indicator>Stand 5</Indicator>
+        <Indicator>Stand 2</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:32:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:49:41" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Interchange</CommonName>
           <Landmark>Interchange</Landmark>
           <Street>Railway View Road</Street>
@@ -241045,17 +241043,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-04-24T13:09:24" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:27:13" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2500IMG2348</AtcoCode>
       <NaptanCode>langatgm</NaptanCode>
       <Descriptor>
         <CommonName>Castle Gate</CommonName>
         <Landmark>Castle Gate</Landmark>
         <Street>Moor Lane</Street>
-        <Indicator>Stand K</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-11T14:59:00" Modification="revise" RevisionNumber="3" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:27:13" Modification="revise" RevisionNumber="4" Status="active">
           <CommonName>Castle Gate</CommonName>
           <Landmark>Castle Gate</Landmark>
           <Street>Castle Gate</Street>
@@ -241094,17 +241092,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-04-30T08:26:49" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:38:35" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2500IMG2349</AtcoCode>
       <NaptanCode>langatgp</NaptanCode>
       <Descriptor>
-        <CommonName>Queensway</CommonName>
-        <Landmark>Queensway</Landmark>
+        <CommonName>Highfield Road</CommonName>
+        <Landmark>Highfield Road</Landmark>
         <Street>Queensway</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2012-04-18T15:24:00" Modification="revise" RevisionNumber="3" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:38:35" Modification="revise" RevisionNumber="4" Status="active">
           <CommonName>Queensway</CommonName>
           <Landmark>Queensway</Landmark>
           <Street>Waterloo Road</Street>
@@ -241119,10 +241117,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>374314</Easting>
-            <Northing>441370</Northing>
-            <Longitude>-2.392094102</Longitude>
-            <Latitude>53.867900958</Latitude>
+            <Easting>374415</Easting>
+            <Northing>441446</Northing>
+            <Longitude>-2.390564512</Longitude>
+            <Latitude>53.868584507</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -241130,13 +241128,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -244379,17 +244377,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:17:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:28:31" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500IMG2460</AtcoCode>
       <NaptanCode>langdapj</NaptanCode>
       <Descriptor>
-        <CommonName>Greenacre Street</CommonName>
-        <Landmark>Greenacre Street</Landmark>
+        <CommonName>Holmes Mill</CommonName>
+        <Landmark>Holmes Mill</Landmark>
         <Street>Whalley Road</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:17:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:28:31" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Greenacre Street</CommonName>
           <Landmark>Greenacre Street</Landmark>
           <Street>Whalley Road</Street>
@@ -306515,17 +306513,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-02-03T09:55:45" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T10:29:03" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>2500LA00375</AtcoCode>
       <NaptanCode>langptjw</NaptanCode>
       <Descriptor>
-        <CommonName>Turner Street</CommonName>
-        <Landmark>TURNER STREET</Landmark>
-        <Street>TURNER STREET</Street>
+        <CommonName>Ribblesdale CHS</CommonName>
+        <Landmark>Ribblesdale CHS</Landmark>
+        <Street>Turner Street</Street>
         <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-02-03T09:55:45" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T10:29:03" Modification="revise" RevisionNumber="6" Status="active">
           <CommonName>Turner Street</CommonName>
           <Landmark>TURNER STREET</Landmark>
           <Street>TURNER STREET</Street>
@@ -306535,15 +306533,15 @@
       <Place>
         <NptgLocalityRef>E0016217</NptgLocalityRef>
         <Suburb>Little Moor (Lancs)</Suburb>
-        <Town>Ribble Valley</Town>
+        <Town>Clitheroe</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>374285</Easting>
-            <Northing>441254</Northing>
-            <Longitude>-2.392525330</Longitude>
-            <Latitude>53.866856949</Latitude>
+            <Easting>374347</Easting>
+            <Northing>441223</Northing>
+            <Longitude>-2.391579854</Longitude>
+            <Latitude>53.866576892</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -306564,25 +306562,25 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2026-02-03T09:55:45" ModificationDateTime="2026-02-03T09:55:45" Modification="new">
+        <StopValidity CreationDateTime="2026-08-27T10:27:00" ModificationDateTime="2026-08-27T10:29:04" Modification="revise" RevisionNumber="1">
           <DateRange>
-            <StartDate>2026-02-03</StartDate>
+            <StartDate>2026-08-25</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2016-06-20T09:30:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:44:02" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500LA00376</AtcoCode>
       <NaptanCode>langptma</NaptanCode>
       <Descriptor>
-        <CommonName>Turner Street</CommonName>
+        <CommonName>Ribblesdale CHS</CommonName>
         <Landmark>Turner Street</Landmark>
         <Street>Turner Street</Street>
-        <Indicator>adj</Indicator>
+        <Indicator>oppj</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2016-06-20T09:30:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:44:02" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Turner Street</CommonName>
           <Landmark>Turner Street</Landmark>
           <Street>Turner Street</Street>
@@ -306592,15 +306590,15 @@
       <Place>
         <NptgLocalityRef>E0016217</NptgLocalityRef>
         <Suburb>Little Moor (Lancs)</Suburb>
-        <Town>Ribble Valley</Town>
+        <Town>Clitheroe</Town>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>374442</Easting>
-            <Northing>441171</Northing>
-            <Longitude>-2.390130988</Longitude>
-            <Latitude>53.866118764</Latitude>
+            <Easting>374314</Easting>
+            <Northing>441229</Northing>
+            <Longitude>-2.392082165</Longitude>
+            <Latitude>53.866629178</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -334745,17 +334743,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-04T15:17:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T13:05:14" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2500LAA07195</AtcoCode>
       <NaptanCode>langwtdj</NaptanCode>
       <Descriptor>
-        <CommonName>Andrew Avenue</CommonName>
-        <Landmark>Andrew Ave</Landmark>
+        <CommonName>Lomas Lane</CommonName>
+        <Landmark>Lomas Lane</Landmark>
         <Street>Bury Road</Street>
-        <Indicator>opp</Indicator>
+        <Indicator>by</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-04T15:17:00" Modification="revise" RevisionNumber="1" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-26T13:05:14" Modification="revise" RevisionNumber="2" Status="active">
           <CommonName>Andrew Avenue</CommonName>
           <Landmark>Andrew Ave</Landmark>
           <Street>Bury Road</Street>
@@ -334770,10 +334768,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>380798</Easting>
-            <Northing>422160</Northing>
-            <Longitude>-2.292289444</Longitude>
-            <Latitude>53.695525961</Latitude>
+            <Easting>380876</Easting>
+            <Northing>422220</Northing>
+            <Longitude>-2.291111808</Longitude>
+            <Latitude>53.696063582</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -354985,17 +354983,17 @@
         <PlusbusZoneRef CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2013-04-17T09:41:00" Modification="revise" RevisionNumber="4" Status="active">PRST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:36:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:45:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2500LAA07696</AtcoCode>
       <NaptanCode>lanjpwma</NaptanCode>
       <Descriptor>
-        <CommonName>Station Road</CommonName>
-        <Landmark>Stand O</Landmark>
+        <CommonName>Market</CommonName>
+        <Landmark>Market</Landmark>
         <Street>Station Road</Street>
-        <Indicator>Stand I</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2010-05-14T12:36:00" Modification="revise" RevisionNumber="2" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-08-27T09:45:28" Modification="revise" RevisionNumber="3" Status="active">
           <CommonName>Station Road</CommonName>
           <Landmark>Stand O</Landmark>
           <Street>Station Road</Street>
@@ -379559,7 +379557,7 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-07-08T09:44:00" ModificationDateTime="2026-02-03T11:18:14" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2009-07-08T09:44:00" ModificationDateTime="2026-08-27T09:19:32" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>2500LAA16182</AtcoCode>
       <Descriptor>
         <CommonName>Waller Hill</CommonName>
@@ -379594,27 +379592,33 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2026-02-03T11:18:15" ModificationDateTime="2026-02-03T11:18:15" Modification="new">
+        <StopValidity CreationDateTime="2026-02-03T11:18:15" ModificationDateTime="2026-08-27T09:19:17" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2026-02-03</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-08-27T09:19:17" ModificationDateTime="2026-08-27T09:19:17" Modification="new">
+          <DateRange>
+            <StartDate>2026-08-27</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-07-08T09:46:00" ModificationDateTime="2026-02-03T11:18:25" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2009-07-08T09:46:00" ModificationDateTime="2026-08-27T09:18:33" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>2500LAA16183</AtcoCode>
       <NaptanCode>lanwpwg</NaptanCode>
       <Descriptor>
@@ -379624,7 +379628,7 @@
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2009-07-08T09:46:00" ModificationDateTime="2026-02-03T11:18:25" Modification="revise" RevisionNumber="3" Status="active">
+        <Descriptor CreationDateTime="2009-07-08T09:46:00" ModificationDateTime="2026-08-27T09:18:33" Modification="revise" RevisionNumber="5" Status="active">
           <CommonName>Waller Hill</CommonName>
           <Landmark>Waller Hill</Landmark>
           <Street>Lowther Lane</Street>
@@ -379663,11 +379667,18 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2026-02-03T11:18:25" ModificationDateTime="2026-02-03T11:18:25" Modification="new">
+        <StopValidity CreationDateTime="2026-02-03T11:18:25" ModificationDateTime="2026-08-27T09:18:33" Modification="revise" RevisionNumber="2">
           <DateRange>
             <StartDate>2026-02-03</StartDate>
+            <EndDate>2026-08-26</EndDate>
           </DateRange>
           <Suspended />
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-08-27T09:18:34" ModificationDateTime="2026-08-27T09:18:34" Modification="new">
+          <DateRange>
+            <StartDate>2026-08-27</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -387710,14 +387721,14 @@
         <PlusbusZoneRef CreationDateTime="2010-11-11T12:14:00" ModificationDateTime="2010-11-11T12:14:00" Modification="new" RevisionNumber="0" Status="active">PRST</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-11-11T12:15:00" ModificationDateTime="2020-09-03T13:41:04" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2010-11-11T12:15:00" ModificationDateTime="2026-08-27T09:22:02" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2500LAA16337</AtcoCode>
       <NaptanCode>lanpadwj</NaptanCode>
       <Descriptor>
-        <CommonName>Holden Street</CommonName>
-        <Landmark>Holden Street</Landmark>
+        <CommonName>Duck Street</CommonName>
+        <Landmark>Duck Street</Landmark>
         <Street>Waterloo Road</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056139</NptgLocalityRef>
@@ -420434,6 +420445,411 @@
                 <CompassPoint>S</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T13:11:56" ModificationDateTime="2026-08-26T13:10:13" Modification="new" Status="active">
+      <AtcoCode>2500LAA17119</AtcoCode>
+      <NaptanCode>lanpdtga</NaptanCode>
+      <Descriptor>
+        <CommonName>Park Lane</CommonName>
+        <Landmark>Park Lane</Landmark>
+        <Street>Marshall's Brow</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0016432</NptgLocalityRef>
+        <Suburb>Middleforth Green</Suburb>
+        <Town>Preston</Town>
+        <Location>
+          <Translation>
+            <Easting>353079</Easting>
+            <Northing>427381</Northing>
+            <Longitude>-2.712859082</Longitude>
+            <Latitude>53.740683906</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T13:15:30" ModificationDateTime="2026-08-26T13:14:11" Modification="new" Status="active">
+      <AtcoCode>2500LAA17120</AtcoCode>
+      <NaptanCode>lanpdtgd</NaptanCode>
+      <Descriptor>
+        <CommonName>Park Lane</CommonName>
+        <Landmark>Park Lane</Landmark>
+        <Street>Marshall's Brow</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0016432</NptgLocalityRef>
+        <Suburb>Middleforth Green</Suburb>
+        <Town>Preston</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>353073</Easting>
+            <Northing>427396</Northing>
+            <Longitude>-2.712952324</Longitude>
+            <Latitude>53.740818175</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T13:59:42" ModificationDateTime="2026-08-26T13:58:10" Modification="new" Status="active">
+      <AtcoCode>2500LAA17121</AtcoCode>
+      <NaptanCode>lanpdtgj</NaptanCode>
+      <Descriptor>
+        <CommonName>The Rum Fox</CommonName>
+        <Landmark>The Rum Fox</Landmark>
+        <Street>Sawley Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047504</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>375970</Easting>
+            <Northing>445527</Northing>
+            <Longitude>-2.367239190</Longitude>
+            <Latitude>53.905337718</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T14:10:34" ModificationDateTime="2026-08-26T14:05:27" Modification="new" Status="active">
+      <AtcoCode>2500LAA17122</AtcoCode>
+      <NaptanCode>lanpdtgm</NaptanCode>
+      <Descriptor>
+        <CommonName>Pavilion</CommonName>
+        <Landmark>Pavilion</Landmark>
+        <Street>Sawley Road</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047504</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>376118</Easting>
+            <Northing>445621</Northing>
+            <Longitude>-2.364993946</Longitude>
+            <Latitude>53.906189427</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T14:29:40" ModificationDateTime="2026-08-26T14:28:25" Modification="new" Status="active">
+      <AtcoCode>2500LAA17123</AtcoCode>
+      <NaptanCode>lanpdtgp</NaptanCode>
+      <Descriptor>
+        <CommonName>Coach and Horses</CommonName>
+        <Landmark>Coach and Horses</Landmark>
+        <Street>Main Street</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047489</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>378510</Easting>
+            <Northing>449369</Northing>
+            <Longitude>-2.328850822</Longitude>
+            <Latitude>53.939980247</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T14:34:37" ModificationDateTime="2026-08-26T14:33:12" Modification="new" Status="active">
+      <AtcoCode>2500LAA17124</AtcoCode>
+      <NaptanCode>lanpdtgt</NaptanCode>
+      <Descriptor>
+        <CommonName>Coach and Horses</CommonName>
+        <Landmark>Coach and Horses</Landmark>
+        <Street>Main Street</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047489</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>378498</Easting>
+            <Northing>449383</Northing>
+            <Longitude>-2.329034609</Longitude>
+            <Latitude>53.940105572</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T08:46:46" ModificationDateTime="2026-08-27T08:45:21" Modification="new" Status="active">
+      <AtcoCode>2500LAA17125</AtcoCode>
+      <NaptanCode>lanpdtgw</NaptanCode>
+      <Descriptor>
+        <CommonName>Industrial Estate</CommonName>
+        <Landmark>Industrial Estate</Landmark>
+        <Street>Mill Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047501</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>382587</Easting>
+            <Northing>448954</Northing>
+            <Longitude>-2.266721648</Longitude>
+            <Latitude>53.936404471</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T08:56:25" ModificationDateTime="2026-08-27T08:55:32" Modification="new" Status="active">
+      <AtcoCode>2500LAA17126</AtcoCode>
+      <NaptanCode>lanpdtja</NaptanCode>
+      <Descriptor>
+        <CommonName>Industrial Estate</CommonName>
+        <Landmark>Industrial Estate</Landmark>
+        <Street>Mill Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047501</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>382579</Easting>
+            <Northing>448966</Northing>
+            <Longitude>-2.266844191</Longitude>
+            <Latitude>53.936512052</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T09:08:44" ModificationDateTime="2026-08-27T09:08:58" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>2500LAA17127</AtcoCode>
+      <NaptanCode>lanpdtjd</NaptanCode>
+      <Descriptor>
+        <CommonName>Dales View Park</CommonName>
+        <Landmark>Dales View Park</Landmark>
+        <Street>Higher Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0016059</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>387917</Easting>
+            <Northing>445094</Northing>
+            <Longitude>-2.185381723</Longitude>
+            <Latitude>53.901864862</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T09:10:41" ModificationDateTime="2026-08-27T09:09:54" Modification="new" Status="active">
+      <AtcoCode>2500LAA17128</AtcoCode>
+      <NaptanCode>lanpdtjg</NaptanCode>
+      <Descriptor>
+        <CommonName>Dales View Park</CommonName>
+        <Landmark>Dales View Park</Landmark>
+        <Street>Higher Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0016059</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>387927</Easting>
+            <Northing>445094</Northing>
+            <Longitude>-2.185229530</Longitude>
+            <Latitude>53.901865097</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T09:16:36" ModificationDateTime="2026-08-27T09:14:31" Modification="new" Status="active">
+      <AtcoCode>2500LAA17129</AtcoCode>
+      <NaptanCode>lanpdtjm</NaptanCode>
+      <Descriptor>
+        <CommonName>Standing Stone Lane</CommonName>
+        <Landmark>Standing Stone Lane</Landmark>
+        <Street>Whitemoor Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047467</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>387993</Easting>
+            <Northing>442946</Northing>
+            <Longitude>-2.184140051</Longitude>
+            <Latitude>53.882560922</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
