@@ -34740,7 +34740,7 @@
       </StopAreas>
       <AdministrativeAreaRef>071</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-11-01T00:00:00" ModificationDateTime="2011-10-03T16:09:46" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-11-01T00:00:00" ModificationDateTime="2026-08-26T16:09:46" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>0500SCALD004</AtcoCode>
       <NaptanCode>CMBDTWDP</NaptanCode>
       <Descriptor>
@@ -34780,7 +34780,7 @@
       </StopAreas>
       <AdministrativeAreaRef>071</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-11-01T00:00:00" ModificationDateTime="2011-10-03T16:10:25" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-11-01T00:00:00" ModificationDateTime="2026-08-26T16:10:25" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>0500SCALD003</AtcoCode>
       <NaptanCode>CMBDTWDM</NaptanCode>
       <Descriptor>
@@ -149242,6 +149242,45 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>071</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-26T00:00:00" ModificationDateTime="2026-08-26T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>0500SCALD009</AtcoCode>
+      <NaptanCode>CMBGDGWG</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Bourn Quarter</CommonName>
+        <ShortCommonName xml:lang="en">Bourn Quarter</ShortCommonName>
+        <Landmark xml:lang="en">Bourn Quarter</Landmark>
+        <Street xml:lang="en">Wellington Way</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0001205</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>535005</Easting>
+          <Northing>259536</Northing>
+          <Longitude>-0.025234558</Longitude>
+          <Latitude>52.217502</Latitude>
+        </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>TIP</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
