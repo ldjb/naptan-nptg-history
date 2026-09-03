@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-27T22:55:13.7716266Z" ModificationDateTime="2026-08-27T22:55:13.7716266Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-02T21:29:28.5007649Z" ModificationDateTime="2026-09-02T21:29:28.5007649Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -10801,14 +10801,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-09-02T13:17:13" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>4200F017700</AtcoCode>
       <NaptanCode>waramwtw</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Church</CommonName>
-        <Landmark xml:lang="en">St Marys Church</Landmark>
-        <Street xml:lang="en">High Street</Street>
-        <Indicator xml:lang="en">Nr</Indicator>
+        <CommonName>Bus Shelter</CommonName>
+        <Street>High Street</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0052027</NptgLocalityRef>
@@ -10816,10 +10815,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>434369</Easting>
-            <Northing>268252</Northing>
-            <Longitude>-1.497293824</Longitude>
-            <Latitude>52.311306547</Latitude>
+            <Easting>434367</Easting>
+            <Northing>268245</Northing>
+            <Longitude>-1.497323871</Longitude>
+            <Latitude>52.311243742</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10839,14 +10838,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-09-02T22:24:52" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>4200F017701</AtcoCode>
       <NaptanCode>warapada</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Windmill Hill</CommonName>
-        <Street xml:lang="en">Queen Street</Street>
-        <Crossing xml:lang="en">Windmill Hill</Crossing>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Windmill Hill</CommonName>
+        <Street>Queen Street</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0052027</NptgLocalityRef>
@@ -10854,10 +10852,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>433922</Easting>
-            <Northing>268179</Northing>
-            <Longitude>-1.503857534</Longitude>
-            <Latitude>52.310677990</Latitude>
+            <Easting>433926</Easting>
+            <Northing>268184</Northing>
+            <Longitude>-1.503798363</Longitude>
+            <Latitude>52.310722693</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10951,14 +10949,83 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2026-09-02T13:19:20" ModificationDateTime="2026-09-02T13:18:15" Modification="new" Status="active">
+      <AtcoCode>4200F017704</AtcoCode>
+      <NaptanCode>waramwtx</NaptanCode>
+      <Descriptor>
+        <CommonName>Bus Shelter</CommonName>
+        <Street>High Street</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052027</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>434373</Easting>
+            <Northing>268237</Northing>
+            <Longitude>-1.497236681</Longitude>
+            <Latitude>52.311171449</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-02T22:27:51" ModificationDateTime="2026-09-02T22:26:50" Modification="new" Status="active">
+      <AtcoCode>4200F017705</AtcoCode>
+      <NaptanCode>warapadb</NaptanCode>
+      <Descriptor>
+        <CommonName>Windmill Hill</CommonName>
+        <Street>Queen Street</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052027</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>433929</Easting>
+            <Northing>268172</Northing>
+            <Longitude>-1.503755567</Longitude>
+            <Latitude>52.310614630</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-09-02T22:20:48" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>4200F017900</AtcoCode>
       <NaptanCode>warapadg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Queens Head</CommonName>
-        <Landmark xml:lang="en">Church</Landmark>
-        <Street xml:lang="en">Queen Street</Street>
-        <Indicator xml:lang="en">Opp</Indicator>
+        <CommonName>Church</CommonName>
+        <Street>Queen Street</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0052027</NptgLocalityRef>
@@ -10966,10 +11033,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>434100</Easting>
-            <Northing>268202</Northing>
-            <Longitude>-1.501244432</Longitude>
-            <Latitude>52.310873769</Latitude>
+            <Easting>434103</Easting>
+            <Northing>268201</Northing>
+            <Longitude>-1.501200531</Longitude>
+            <Latitude>52.310864593</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10989,14 +11056,48 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2026-09-02T22:19:49" ModificationDateTime="2026-09-02T22:20:25" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>4200F017901</AtcoCode>
+      <NaptanCode>warapadh</NaptanCode>
+      <Descriptor>
+        <CommonName>Church</CommonName>
+        <Street>Queen Street</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052027</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>434102</Easting>
+            <Northing>268193</Northing>
+            <Longitude>-1.501216006</Longitude>
+            <Latitude>52.310792736</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-09-02T10:21:23" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>4200F018000</AtcoCode>
       <NaptanCode>warapadj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Broadway</CommonName>
-        <Street xml:lang="en">Rugby Road</Street>
-        <Crossing xml:lang="en">Broadway</Crossing>
-        <Indicator xml:lang="en">Opp</Indicator>
+        <CommonName>Broadway</CommonName>
+        <Street>Rugby Road</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0052027</NptgLocalityRef>
@@ -11004,10 +11105,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>434096</Easting>
-            <Northing>268567</Northing>
-            <Longitude>-1.501266243</Longitude>
-            <Latitude>52.314155320</Latitude>
+            <Easting>434093</Easting>
+            <Northing>268576</Northing>
+            <Longitude>-1.501309339</Longitude>
+            <Latitude>52.314236415</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11022,6 +11123,41 @@
                 <CompassPoint>W</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-02T10:29:45" ModificationDateTime="2026-09-02T10:22:14" Modification="new" Status="active">
+      <AtcoCode>4200F018001</AtcoCode>
+      <NaptanCode>warapadk</NaptanCode>
+      <Descriptor>
+        <CommonName>Blackberry Way</CommonName>
+        <Street>Rugby Road</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052027</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>434110</Easting>
+            <Northing>268587</Northing>
+            <Longitude>-1.501058864</Longitude>
+            <Latitude>52.314334251</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -106084,14 +106220,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-09-02T10:11:34" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>4200F151701</AtcoCode>
       <NaptanCode>warapwjp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Rugby Road</CommonName>
-        <Landmark xml:lang="en">Bus Shelter</Landmark>
-        <Street xml:lang="en">Rugby Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Bus Shelter</CommonName>
+        <Street>Rugby Road</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0052027</NptgLocalityRef>
@@ -106099,10 +106234,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>433822</Easting>
-            <Northing>268486</Northing>
-            <Longitude>-1.505293514</Longitude>
-            <Latitude>52.313444031</Latitude>
+            <Easting>433867</Easting>
+            <Northing>268508</Northing>
+            <Longitude>-1.504631237</Longitude>
+            <Latitude>52.313639044</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -106117,6 +106252,41 @@
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-02T10:13:54" ModificationDateTime="2026-09-02T10:12:35" Modification="new" Status="active">
+      <AtcoCode>4200F151702</AtcoCode>
+      <NaptanCode>warapwjq</NaptanCode>
+      <Descriptor>
+        <CommonName>Bus Shelter</CommonName>
+        <Street>Rugby Road</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0052027</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>433861</Easting>
+            <Northing>268516</Northing>
+            <Longitude>-1.504718445</Longitude>
+            <Latitude>52.313711332</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>

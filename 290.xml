@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2026-08-26T16:14:13" ModificationDateTime="2026-08-26T16:14:13" Modification="revise" RevisionNumber="548" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2026-09-02T14:57:05" ModificationDateTime="2026-09-02T14:57:05" Modification="revise" RevisionNumber="549" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-05-18T11:53:59" ModificationDateTime="2016-02-23T14:56:19" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2900FLEX1</AtcoCode>
@@ -32745,7 +32745,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2014-08-20T00:00:00" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-02T00:00:00" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>2900B653</AtcoCode>
       <NaptanCode>NFOAGPMJ</NaptanCode>
       <Descriptor>
@@ -32779,15 +32779,15 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2014-08-19T09:09:53" ModificationDateTime="2014-08-19T09:09:53">
+        <StopValidity CreationDateTime="2026-09-01T18:43:21" ModificationDateTime="2026-09-01T18:43:21">
           <DateRange>
-            <StartDate>2014-08-19</StartDate>
+            <StartDate>2026-09-01</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2014-08-20T00:00:00" Modification="revise" RevisionNumber="5" Status="inactive">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-02T00:00:00" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>2900B654</AtcoCode>
       <NaptanCode>NFOAGPMP</NaptanCode>
       <Descriptor>
@@ -32821,11 +32821,11 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2014-08-19T09:10:14" ModificationDateTime="2014-08-19T09:10:14">
+        <StopValidity CreationDateTime="2026-09-01T18:44:14" ModificationDateTime="2026-09-01T18:44:14">
           <DateRange>
-            <StartDate>2014-08-19</StartDate>
+            <StartDate>2026-09-01</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -53217,43 +53217,6 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-06-08T08:56:54" Modification="revise" RevisionNumber="4" Status="active">
-      <AtcoCode>2900D1587</AtcoCode>
-      <NaptanCode>NFOAMTJP</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">School Lane</CommonName>
-        <Landmark xml:lang="en">School Lane</Landmark>
-        <Street xml:lang="en">Westfield Road</Street>
-        <Indicator xml:lang="en">opp</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0017545</NptgLocalityRef>
-        <AlternativeNptgLocalities>
-          <NptgLocalityRef CreationDateTime="2007-02-06T00:00:00" ModificationDateTime="2007-02-06T00:00:00">E0017679</NptgLocalityRef>
-        </AlternativeNptgLocalities>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>599385</Easting>
-          <Northing>311387</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2005-02-28T11:40:04" ModificationDateTime="2025-09-02T08:28:19" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900D32528</AtcoCode>
@@ -202168,6 +202131,39 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T10:41:21" ModificationDateTime="2026-08-27T10:41:21" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900S1336</AtcoCode>
+      <NaptanCode>NFOJAGTW</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Waveney Arts and Crafts Centre</CommonName>
+        <Street xml:lang="en">Harvey Lane</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048831</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>630206</Easting>
+          <Northing>295838</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2026-08-26T14:30:47" ModificationDateTime="2026-08-26T14:30:47" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900S1333</AtcoCode>
       <NaptanCode>NFOJAGTG</NaptanCode>
@@ -202201,6 +202197,39 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T10:51:46" ModificationDateTime="2026-08-27T10:51:46" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900S1337</AtcoCode>
+      <NaptanCode>NFOJAGWA</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Biggotts Lane</CommonName>
+        <Street xml:lang="en">Seething Road</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048831</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>631836</Easting>
+          <Northing>297030</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2026-08-26T14:34:54" ModificationDateTime="2026-08-26T14:34:54" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900S1334</AtcoCode>
       <NaptanCode>NFOJAGTJ</NaptanCode>
@@ -202227,6 +202256,39 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T10:53:52" ModificationDateTime="2026-08-27T10:53:52" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900S1338</AtcoCode>
+      <NaptanCode>NFOJAGWD</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">War Memorial Green</CommonName>
+        <Street xml:lang="en">Seething Road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048831</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>631969</Easting>
+          <Northing>297776</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -246863,6 +246925,40 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-02T14:54:05" Modification="revise" RevisionNumber="6" Status="active">
+      <AtcoCode>2900D1587</AtcoCode>
+      <NaptanCode>NFOAMTJP</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">School Lane</CommonName>
+        <Landmark xml:lang="en">School Lane</Landmark>
+        <Street xml:lang="en">Westfield Road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0017679</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>599385</Easting>
+          <Northing>311387</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2012-02-02T14:04:31" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2900T289</AtcoCode>
       <NaptanCode>NFOGAMDM</NaptanCode>
@@ -267746,6 +267842,39 @@
       <StopAreas>
         <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1670</StopAreaRef>
       </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-08-27T10:38:29" ModificationDateTime="2026-08-27T10:38:29" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900W448</AtcoCode>
+      <NaptanCode>NFOJAGTP</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Council Houses</CommonName>
+        <Street xml:lang="en">Church Road</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048858</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>629185</Easting>
+          <Northing>294626</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2026-08-26T14:26:00" ModificationDateTime="2026-08-26T14:26:00" Modification="new" RevisionNumber="0" Status="active">
