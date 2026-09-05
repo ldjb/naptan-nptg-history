@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-19T12:21:30.7014264Z" ModificationDateTime="2026-08-19T12:21:30.7014264Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-04T08:17:30.2271528Z" ModificationDateTime="2026-09-04T08:17:30.2271528Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-19T00:00:00" ModificationDateTime="2013-04-15T12:12:06" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>270000007470</AtcoCode>
@@ -22031,7 +22031,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-11-19T00:00:00" ModificationDateTime="2025-10-23T14:46:49" Modification="revise" RevisionNumber="3" Status="inactive">
+    <StopPoint CreationDateTime="2003-11-19T00:00:00" ModificationDateTime="2026-09-04T09:16:19" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>270000007982</AtcoCode>
       <NaptanCode>lingmpmj</NaptanCode>
       <Descriptor>
@@ -22046,10 +22046,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>529098</Easting>
-            <Northing>398021</Northing>
-            <Longitude>-0.056872000</Longitude>
-            <Latitude>53.463115000</Latitude>
+            <Easting>529049</Easting>
+            <Northing>398001</Northing>
+            <Longitude>-0.057627000</Longitude>
+            <Latitude>53.462950000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -22072,8 +22072,16 @@
         <StopAreaRef RevisionNumber="0">270G00013655</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-04T09:10:38" ModificationDateTime="2026-09-04T09:10:38" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-04</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-11-19T00:00:00" ModificationDateTime="2025-10-23T14:48:22" Modification="revise" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2003-11-19T00:00:00" ModificationDateTime="2026-09-04T09:13:43" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>270000007983</AtcoCode>
       <NaptanCode>lingmpmp</NaptanCode>
       <Descriptor>
@@ -22088,10 +22096,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>529097</Easting>
-            <Northing>398029</Northing>
-            <Longitude>-0.056894000</Longitude>
-            <Latitude>53.463186000</Latitude>
+            <Easting>529070</Easting>
+            <Northing>398018</Northing>
+            <Longitude>-0.057308000</Longitude>
+            <Latitude>53.463097000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -22114,6 +22122,14 @@
         <StopAreaRef RevisionNumber="0">270G00013655</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-04T09:10:26" ModificationDateTime="2026-09-04T09:10:26" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-04</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2007-09-10T14:12:02" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270000007984</AtcoCode>
@@ -31863,7 +31879,7 @@
         <PlusbusZoneRef CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2008-10-24T10:59:41" Modification="revise" RevisionNumber="2" Status="active">SKEGNES</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2026-08-19T13:17:14" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2026-08-19T13:25:54" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270000008206</AtcoCode>
       <NaptanCode>lingpgdm</NaptanCode>
       <Descriptor>
@@ -31889,13 +31905,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -31904,7 +31920,7 @@
         <PlusbusZoneRef CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2010-07-28T08:25:40" Modification="revise" RevisionNumber="2" Status="active">SKEGNES</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2026-08-19T13:19:24" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2026-08-19T13:25:32" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270000008207</AtcoCode>
       <NaptanCode>lingpgdp</NaptanCode>
       <Descriptor>
@@ -31930,13 +31946,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -32692,7 +32708,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2008-12-17T08:31:04" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-03-06T00:00:00" ModificationDateTime="2026-08-19T14:04:48" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270000008225</AtcoCode>
       <NaptanCode>lingpgpd</NaptanCode>
       <Descriptor>
@@ -32719,14 +32735,14 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>MKD</BusStopType>
+            <BusStopType>CUS</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
+            <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
                 <Degrees>225</Degrees>
               </Bearing>
-            </MarkedPoint>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -32862,7 +32878,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-11-18T00:00:00" ModificationDateTime="2007-01-18T15:25:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2004-11-18T00:00:00" ModificationDateTime="2026-08-19T14:17:02" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>270000008229</AtcoCode>
       <NaptanCode>lingpgpt</NaptanCode>
       <Descriptor>
@@ -32878,10 +32894,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>550511</Easting>
-            <Northing>359570</Northing>
-            <Longitude>0.247206414</Longitude>
-            <Latitude>53.112084361</Latitude>
+            <Easting>550499</Easting>
+            <Northing>359566</Northing>
+            <Longitude>0.247028000</Longitude>
+            <Latitude>53.112048000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -32905,7 +32921,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-05-23T00:00:00" ModificationDateTime="2008-11-06T10:47:01" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-05-23T00:00:00" ModificationDateTime="2026-08-19T14:09:24" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270000008230</AtcoCode>
       <NaptanCode>lingpgpw</NaptanCode>
       <Descriptor>
@@ -32943,10 +32959,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>549809</Easting>
-            <Northing>358930</Northing>
-            <Longitude>0.236428808</Longitude>
-            <Latitude>53.106533203</Latitude>
+            <Easting>549818</Easting>
+            <Northing>358933</Northing>
+            <Longitude>0.236565000</Longitude>
+            <Latitude>53.106552000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -32962,7 +32978,7 @@
                 <Degrees>270</Degrees>
               </Bearing>
             </MarkedPoint>
-            <AnnotatedCoachRef CreationDateTime="2005-05-23T00:00:00" ModificationDateTime="2008-11-06T10:47:01" Modification="revise" RevisionNumber="2">
+            <AnnotatedCoachRef CreationDateTime="2005-05-23T00:00:00" ModificationDateTime="2026-08-19T14:09:24" Modification="revise" RevisionNumber="3">
               <CoachRef>900031103A</CoachRef>
               <Name>Market Place</Name>
               <LongName>Market Place</LongName>
@@ -116129,7 +116145,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-16T00:00:00" ModificationDateTime="2008-10-13T08:37:02" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-06-16T00:00:00" ModificationDateTime="2026-08-19T14:24:58" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270000010174</AtcoCode>
       <NaptanCode>linjmajp</NaptanCode>
       <Descriptor>
@@ -116144,10 +116160,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>546444</Easting>
-            <Northing>354814</Northing>
-            <Longitude>0.184328650</Longitude>
-            <Latitude>53.070494588</Latitude>
+            <Easting>546448</Easting>
+            <Northing>354796</Northing>
+            <Longitude>0.184387000</Longitude>
+            <Latitude>53.070330000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -180436,7 +180452,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-09-10T13:54:35" ModificationDateTime="2026-05-11T14:54:48" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2007-09-10T13:54:35" ModificationDateTime="2026-09-04T08:53:13" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>270002701194</AtcoCode>
       <NaptanCode>linaptpw</NaptanCode>
       <Descriptor>
@@ -180477,6 +180493,14 @@
         <StopAreaRef RevisionNumber="0">270G02701195</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-04T08:53:13" ModificationDateTime="2026-09-04T08:53:13" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-04</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2007-09-10T14:03:28" ModificationDateTime="2010-06-25T14:29:39" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270002701196</AtcoCode>
@@ -213835,7 +213859,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2011-11-24T07:59:58" ModificationDateTime="2011-11-30T10:39:25" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2011-11-24T07:59:58" ModificationDateTime="2026-08-19T14:32:53" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270002702131</AtcoCode>
       <NaptanCode>linawtjm</NaptanCode>
       <Descriptor>
@@ -213850,10 +213874,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>542654</Easting>
-            <Northing>351194</Northing>
-            <Longitude>0.126201590</Longitude>
-            <Latitude>53.039001000</Latitude>
+            <Easting>542664</Easting>
+            <Northing>351200</Northing>
+            <Longitude>0.126354000</Longitude>
+            <Latitude>53.039044000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -214898,7 +214922,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2012-05-08T13:50:43" ModificationDateTime="2019-04-29T11:26:08" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2012-05-08T13:50:43" ModificationDateTime="2026-08-19T14:26:41" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>270002702167</AtcoCode>
       <NaptanCode>lindadgt</NaptanCode>
       <Descriptor>
@@ -214913,10 +214937,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>543708</Easting>
-            <Northing>351519</Northing>
-            <Longitude>0.142054547</Longitude>
-            <Latitude>53.041638542</Latitude>
+            <Easting>543715</Easting>
+            <Northing>351528</Northing>
+            <Longitude>0.142167000</Longitude>
+            <Latitude>53.041716000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -232854,7 +232878,7 @@
       </StopClassification>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-07-14T08:30:38" ModificationDateTime="2025-07-14T08:35:51" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2025-07-14T08:30:38" ModificationDateTime="2026-08-19T14:03:42" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270002703954</AtcoCode>
       <NaptanCode>lindgagj</NaptanCode>
       <Descriptor>
@@ -232868,10 +232892,10 @@
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
-            <Easting>554984</Easting>
-            <Northing>363165</Northing>
-            <Longitude>0.315708000</Longitude>
-            <Latitude>53.143089000</Latitude>
+            <Easting>554987</Easting>
+            <Northing>363164</Northing>
+            <Longitude>0.315758000</Longitude>
+            <Latitude>53.143079000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -243682,7 +243706,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-17T00:00:00" ModificationDateTime="2010-07-28T16:32:51" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2005-11-17T00:00:00" ModificationDateTime="2026-08-19T14:41:32" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2700LBPH0174</AtcoCode>
       <NaptanCode>linadgmw</NaptanCode>
       <Descriptor>
@@ -243698,9 +243722,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>533793</Easting>
-            <Northing>345612</Northing>
-            <Longitude>-0.008178997</Longitude>
-            <Latitude>52.991141732</Latitude>
+            <Northing>345652</Northing>
+            <Longitude>-0.008167000</Longitude>
+            <Latitude>52.991497000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -244467,14 +244491,14 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-23T00:00:00" ModificationDateTime="2011-01-24T10:58:48" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-06-23T00:00:00" ModificationDateTime="2026-08-19T14:42:43" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2700LBSR1110</AtcoCode>
       <NaptanCode>linajatp</NaptanCode>
       <Descriptor>
         <CommonName>Mill Inn</CommonName>
         <Landmark>Mill Inn</Landmark>
         <Street>Spilsby Road</Street>
-        <Indicator>o/s</Indicator>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056213</NptgLocalityRef>
@@ -244482,10 +244506,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>533839</Easting>
-            <Northing>345294</Northing>
-            <Longitude>-0.007625635</Longitude>
-            <Latitude>52.988273425</Latitude>
+            <Easting>533845</Easting>
+            <Northing>345304</Northing>
+            <Longitude>-0.007534000</Longitude>
+            <Latitude>52.988353000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -254486,7 +254510,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-16T00:00:00" ModificationDateTime="2020-01-30T08:54:16" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-06-16T00:00:00" ModificationDateTime="2026-08-19T14:20:22" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2700LFEP3903</AtcoCode>
       <NaptanCode>lindgmwp</NaptanCode>
       <Descriptor>
@@ -254502,10 +254526,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>547406</Easting>
-            <Northing>355872</Northing>
-            <Longitude>0.199159992</Longitude>
-            <Latitude>53.079733694</Latitude>
+            <Easting>547410</Easting>
+            <Northing>355876</Northing>
+            <Longitude>0.199220000</Longitude>
+            <Latitude>53.079768000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -255462,7 +255486,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2007-09-10T12:16:18" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-04T08:52:09" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>2700LFPL0373</AtcoCode>
       <NaptanCode>linadmtg</NaptanCode>
       <Descriptor>
@@ -255503,6 +255527,14 @@
         <StopAreaRef RevisionNumber="0">270GLF000004</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-04T08:52:09" ModificationDateTime="2026-09-04T08:52:09" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-04</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-11-16T00:00:00" ModificationDateTime="2026-02-07T18:48:16" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2700LFPO1546</AtcoCode>
@@ -320293,7 +320325,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-01-14T00:00:00" ModificationDateTime="2009-06-10T13:51:27" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2004-01-14T00:00:00" ModificationDateTime="2026-08-19T13:59:46" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2700LSTA0656</AtcoCode>
       <NaptanCode>linagatw</NaptanCode>
       <Descriptor>
@@ -320308,10 +320340,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>556782</Easting>
-            <Northing>363130</Northing>
-            <Longitude>0.342551115</Longitude>
-            <Latitude>53.142253951</Latitude>
+            <Easting>556791</Easting>
+            <Northing>363128</Northing>
+            <Longitude>0.342686000</Longitude>
+            <Latitude>53.142228000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -328538,7 +328570,7 @@
       </StopClassification>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-15T00:00:00" ModificationDateTime="2010-06-03T15:24:22" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2005-06-15T00:00:00" ModificationDateTime="2026-08-19T14:28:00" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2700LWCB3935</AtcoCode>
       <NaptanCode>lindgpjm</NaptanCode>
       <Descriptor>
@@ -328576,6 +328608,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-08-19T14:28:00" ModificationDateTime="2026-08-19T14:28:00" Modification="new">
+          <DateRange>
+            <StartDate>2026-08-19</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2008-11-05T13:45:57" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2700LWCBS886</AtcoCode>
@@ -351311,7 +351351,7 @@
         </Translation>
       </Location>
     </StopArea>
-    <StopArea CreationDateTime="2003-11-19T00:00:00" ModificationDateTime="2025-10-23T14:49:12" Modification="revise" RevisionNumber="3" Status="active">
+    <StopArea CreationDateTime="2003-11-19T00:00:00" ModificationDateTime="2026-09-04T09:16:59" Modification="revise" RevisionNumber="4" Status="active">
       <StopAreaCode>270G00013655</StopAreaCode>
       <Name>Lincolnfield Nurseries</Name>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
@@ -351319,10 +351359,10 @@
       <Location>
         <Translation>
           <GridType>UKOS</GridType>
-          <Easting>529097</Easting>
-          <Northing>398025</Northing>
-          <Longitude>-0.056892293</Longitude>
-          <Latitude>53.463150871</Latitude>
+          <Easting>529060</Easting>
+          <Northing>398009</Northing>
+          <Longitude>-0.057455832</Longitude>
+          <Latitude>53.463016196</Latitude>
         </Translation>
       </Location>
     </StopArea>
