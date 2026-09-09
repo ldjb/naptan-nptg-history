@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-08-20T17:00:30.123" ModificationDateTime="2026-08-20T17:00:30.123" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-08T10:32:22.985" ModificationDateTime="2026-09-08T10:32:22.985" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -113763,6 +113763,117 @@
 <CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-09-08T09:55:55.887" ModificationDateTime="2026-09-08T10:16:04.933" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>630034995</AtcoCode>
+<NaptanCode>23634949</NaptanCode>
+<Descriptor>
+<CommonName>Hospital Campus</CommonName>
+<Street>Unclassified Road</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001883</NptgLocalityRef>
+<Town>Inverurie</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>377239</Easting>
+<Northing>820782</Northing>
+<Longitude>-2.3791248</Longitude>
+<Latitude>57.2770938</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-09-08T10:09:02.371" ModificationDateTime="2026-09-08T10:15:36.297" Modification="revise" RevisionNumber="1" Status="active">
+<AtcoCode>630030243</AtcoCode>
+<NaptanCode>23634952</NaptanCode>
+<Descriptor>
+<CommonName>Kellands Avenue</CommonName>
+<Street>Selbie Drive</Street>
+<Indicator>adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001883</NptgLocalityRef>
+<Town>Inverurie</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>377087</Easting>
+<Northing>821121</Northing>
+<Longitude>-2.3816674</Longitude>
+<Latitude>57.2801351</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-09-08T10:15:47.306" ModificationDateTime="2026-09-08T10:31:53.122" Modification="revise" RevisionNumber="1" Status="inactive">
+<AtcoCode>630030244</AtcoCode>
+<NaptanCode>23634953</NaptanCode>
+<Descriptor>
+<CommonName>Kellands Avenue</CommonName>
+<Street>Selbie Drive</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES001883</NptgLocalityRef>
+<Town>Inverurie</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>377078</Easting>
+<Northing>821110</Northing>
+<Longitude>-2.3818169</Longitude>
+<Latitude>57.2800343</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

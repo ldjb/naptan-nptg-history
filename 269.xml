@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-07-07T12:28:59.436" ModificationDateTime="2026-07-07T12:28:59.436" Modification="new" RevisionNumber="0" FileName="NaPTAN269.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-08T14:18:49.289" ModificationDateTime="2026-09-08T14:18:49.289" Modification="new" RevisionNumber="0" FileName="NaPTAN269_20260908_141851.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-03-22T00:00:00.000" ModificationDateTime="2011-05-11T11:44:23.000" Modification="revise" RevisionNumber="3" Status="inactive">
 <AtcoCode>269000T01</AtcoCode>
@@ -2900,7 +2900,7 @@
 <PlusbusZoneRef Modification="new" Status="active">LESTER</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T15:49:28.088" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:42:44.563" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269030070</AtcoCode>
 <NaptanCode>lecdjwap</NaptanCode>
 <Descriptor>
@@ -2923,25 +2923,21 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>PTP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC30614</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T15:50:41.035" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:26:53.454" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>269030071</AtcoCode>
 <NaptanCode>lecdjwat</NaptanCode>
 <Descriptor>
@@ -35123,7 +35119,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-19T00:00:00.000" ModificationDateTime="2020-01-10T10:43:23.432" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2005-05-19T00:00:00.000" ModificationDateTime="2026-08-26T19:23:35.327" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>269044999</AtcoCode>
 <NaptanCode>lecdapgd</NaptanCode>
 <Descriptor>
@@ -35145,14 +35141,18 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCS</StopType>
-<OffStreet>
-<BusAndCoach>
-<Bay>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-</Bay>
-</BusAndCoach>
-</OffStreet>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
@@ -46428,7 +46428,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:30:54.405" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:16:21.870" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>269051001</AtcoCode>
 <NaptanCode>lecdjagm</NaptanCode>
 <Descriptor>
@@ -46451,18 +46451,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -49892,7 +49888,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:23:44.331" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:07:25.802" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269052056</AtcoCode>
 <NaptanCode>lecdpgwp</NaptanCode>
 <Descriptor>
@@ -49915,18 +49911,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -52938,7 +52930,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-07-23T00:00:00.000" ModificationDateTime="2016-04-04T14:12:52.250" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-07-23T00:00:00.000" ModificationDateTime="2026-08-26T19:36:51.215" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>269053077</AtcoCode>
 <NaptanCode>lecdptpw</NaptanCode>
 <Descriptor>
@@ -52961,25 +52953,21 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-07-23T00:00:00.000" ModificationDateTime="2016-04-04T14:13:41.772" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2010-07-23T00:00:00.000" ModificationDateTime="2026-08-26T19:31:10.674" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>269053078</AtcoCode>
 <NaptanCode>lecdptwa</NaptanCode>
 <Descriptor>
@@ -53002,18 +52990,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -56098,7 +56082,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:14:19.427" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:38:49.279" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>269055033</AtcoCode>
 <NaptanCode>lecdjdpt</NaptanCode>
 <Descriptor>
@@ -56121,25 +56105,21 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:14:57.042" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:38:04.428" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>269055034</AtcoCode>
 <NaptanCode>lecdjdpw</NaptanCode>
 <Descriptor>
@@ -56162,18 +56142,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -58485,7 +58461,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:16:54.618" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:33:44.876" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269057005</AtcoCode>
 <NaptanCode>lecdagpt</NaptanCode>
 <Descriptor>
@@ -58508,25 +58484,21 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:19:08.097" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:15:05.121" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269057006</AtcoCode>
 <NaptanCode>lecdagpw</NaptanCode>
 <Descriptor>
@@ -58549,18 +58521,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>TIP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -58608,7 +58576,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:19:40.507" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:39:32.467" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269057008</AtcoCode>
 <NaptanCode>lecdagtd</NaptanCode>
 <Descriptor>
@@ -58631,18 +58599,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -59403,7 +59367,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:24:19.761" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:07:45.787" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269057027</AtcoCode>
 <NaptanCode>lecdawmg</NaptanCode>
 <Descriptor>
@@ -59426,18 +59390,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -59606,7 +59566,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:33:38.387" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:37:31.076" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>269057032</AtcoCode>
 <NaptanCode>lecdgjtd</NaptanCode>
 <Descriptor>
@@ -59629,18 +59589,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -61520,7 +61476,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:34:04.597" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:26:39.780" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>269057081</AtcoCode>
 <NaptanCode>lecdjdjm</NaptanCode>
 <Descriptor>
@@ -61591,7 +61547,7 @@
 </StopClassification>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:34:45.397" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:31:41.896" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057082</AtcoCode>
 <NaptanCode>lecdjdjt</NaptanCode>
 <Descriptor>
@@ -61628,7 +61584,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:35:06.738" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:27:10.915" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>269057083</AtcoCode>
 <NaptanCode>lecdjdjw</NaptanCode>
 <Descriptor>
@@ -61665,7 +61621,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:35:36.154" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:32:46.247" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057084</AtcoCode>
 <NaptanCode>lecdjdma</NaptanCode>
 <Descriptor>
@@ -61702,7 +61658,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:36:01.945" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:33:13.806" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057085</AtcoCode>
 <NaptanCode>lecdjdmd</NaptanCode>
 <Descriptor>
@@ -61739,7 +61695,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:36:26.956" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:28:46.522" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>269057086</AtcoCode>
 <NaptanCode>lecdjdmg</NaptanCode>
 <Descriptor>
@@ -61776,7 +61732,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:36:55.707" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:34:44.649" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057087</AtcoCode>
 <NaptanCode>lecdjdmj</NaptanCode>
 <Descriptor>
@@ -61813,7 +61769,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:37:19.376" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:35:09.008" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057088</AtcoCode>
 <NaptanCode>lecdjdmp</NaptanCode>
 <Descriptor>
@@ -61850,7 +61806,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:07:41.296" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:35:46.565" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057089</AtcoCode>
 <NaptanCode>lecdjdmt</NaptanCode>
 <Descriptor>
@@ -61887,7 +61843,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:08:26.737" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:37:19.570" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>269057090</AtcoCode>
 <NaptanCode>lecdgjma</NaptanCode>
 <Descriptor>
@@ -61924,7 +61880,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2016-04-04T14:09:13.438" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T16:37:46.192" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>269057091</AtcoCode>
 <NaptanCode>lecdgjmd</NaptanCode>
 <Descriptor>
@@ -61961,7 +61917,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2012-08-06T14:39:21.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-08-26T19:40:00.929" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>269057092</AtcoCode>
 <NaptanCode>lecdgjmg</NaptanCode>
 <Descriptor>
@@ -61984,18 +61940,14 @@
 </Location>
 </Place>
 <StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
+<StopType>BCS</StopType>
+<OffStreet>
+<BusAndCoach>
+<Bay>
 <TimingStatus>PTP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
+</Bay>
+</BusAndCoach>
+</OffStreet>
 </StopClassification>
 <StopAreas>
 <StopAreaRef Modification="new" Status="active">269GLC57081</StopAreaRef>
@@ -64891,7 +64843,7 @@
 </StopAreas>
 <AdministrativeAreaRef>027</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-03-28T17:18:11.791" ModificationDateTime="2022-03-28T17:18:11.791" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2022-03-28T17:18:11.791" ModificationDateTime="2026-08-26T19:52:31.811" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>269030095</AtcoCode>
 <NaptanCode>lecdtgpj</NaptanCode>
 <Descriptor>

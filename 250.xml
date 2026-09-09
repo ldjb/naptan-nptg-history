@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-27T09:31:44.7930729Z" ModificationDateTime="2026-08-27T09:31:44.7930729Z" Modification="new" RevisionNumber="1" FileName="250.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-07T07:46:04.1017987Z" ModificationDateTime="2026-09-07T07:46:04.1017987Z" Modification="new" RevisionNumber="1" FileName="250.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T10:26:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>250000358</AtcoCode>
@@ -420848,6 +420848,78 @@
             <UnmarkedPoint>
               <Bearing>
                 <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-07T08:03:33" ModificationDateTime="2026-09-07T08:02:33" Modification="new" Status="active">
+      <AtcoCode>2500LAA17130</AtcoCode>
+      <NaptanCode>lanpdtjp</NaptanCode>
+      <Descriptor>
+        <CommonName>Park Close</CommonName>
+        <Landmark>Park Close</Landmark>
+        <Street>Lancaster Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047555</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>349460</Easting>
+            <Northing>411054</Northing>
+            <Longitude>-2.765058856</Longitude>
+            <Latitude>53.593608480</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-07T08:04:48" ModificationDateTime="2026-09-07T08:04:03" Modification="new" Status="active">
+      <AtcoCode>2500LAA17131</AtcoCode>
+      <Descriptor>
+        <CommonName>Park Close</CommonName>
+        <Landmark>Park Close</Landmark>
+        <Street>Lancaster Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047555</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>349467</Easting>
+            <Northing>411055</Northing>
+            <Longitude>-2.764953269</Longitude>
+            <Latitude>53.593618143</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
