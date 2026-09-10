@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-08T13:55:26.127" ModificationDateTime="2026-09-08T13:55:26.127" Modification="new" RevisionNumber="0" FileName="NaPTAN440.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-09T10:03:36.283" ModificationDateTime="2026-09-09T10:03:36.283" Modification="new" RevisionNumber="0" FileName="NaPTAN440.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2012-12-05T10:38:00.000" ModificationDateTime="2012-12-05T14:48:00.000" Modification="delete" RevisionNumber="1" Status="inactive">
 <AtcoCode>440000MS0426</AtcoCode>
@@ -284368,6 +284368,42 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>106</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-09-09T10:01:53.332" ModificationDateTime="2026-09-09T10:01:53.332" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>4400CH0745</AtcoCode>
+<NaptanCode>wsxamjp</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Elder Drive</CommonName>
+<Street xml:lang="en">Shopwhyke Road</Street>
+<Indicator xml:lang="en">adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0026578</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>488310</Easting>
+<Northing>105080</Northing>
+<Longitude>-0.74721</Longitude>
+<Latitude>50.838513</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
