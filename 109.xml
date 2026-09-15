@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-08-27T10:10:10.628" ModificationDateTime="2026-08-27T10:10:10.628" Modification="new" RevisionNumber="0" FileName="NaPTAN109_20260827_101013.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-14T16:40:08.349" ModificationDateTime="2026-09-14T16:40:08.349" Modification="new" RevisionNumber="0" FileName="NaPTAN109.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2013-12-03T10:37:07.000" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>109000000535</AtcoCode>
@@ -70703,6 +70703,43 @@
 </StopClassification>
 <AdministrativeAreaRef>017</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2026-09-14T16:23:50.643" ModificationDateTime="2026-09-14T16:23:50.643" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>109052245</AtcoCode>
+<NaptanCode>dbyapmat</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Kensey Road</CommonName>
+<Street xml:lang="en">Kensey Road</Street>
+<Indicator xml:lang="en">Opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0036824</NptgLocalityRef>
+<Town>Mickleover</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>429866</Easting>
+<Northing>333891</Northing>
+<Longitude>-1.557442</Longitude>
+<Latitude>52.901655</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+</StopPoint>
 </StopPoints>
 <StopAreas>
 <StopArea CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2008-10-21T00:00:00.000" Modification="revise" RevisionNumber="0" Status="active">
@@ -74429,7 +74466,7 @@
 </StopArea>
 <StopArea CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2015-08-12T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>109G00015442</StopAreaCode>
-<Name>Langley Country Park</Name>
+<Name>Moorgate</Name>
 <AdministrativeAreaRef>017</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
@@ -80162,6 +80199,21 @@
 <Northing>332940</Northing>
 <Longitude>-1.5246822</Longitude>
 <Latitude>52.8929790</Latitude>
+</Translation>
+</Location>
+</StopArea>
+<StopArea CreationDateTime="2026-08-27T10:32:18.971" ModificationDateTime="2026-08-27T10:32:18.971" Modification="new" RevisionNumber="0" Status="active">
+<StopAreaCode>109G052245</StopAreaCode>
+<Name>Langley Country Park</Name>
+<AdministrativeAreaRef>017</AdministrativeAreaRef>
+<StopAreaType>GBCS</StopAreaType>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>431332</Easting>
+<Northing>336654</Northing>
+<Longitude>-1.5353806</Longitude>
+<Latitude>52.9264114</Latitude>
 </Translation>
 </Location>
 </StopArea>

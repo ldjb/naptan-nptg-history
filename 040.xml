@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-09-01T14:37:44.158" ModificationDateTime="2026-09-01T14:37:44.158" Modification="new" RevisionNumber="0" FileName="NaPTAN040.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-09-14T09:21:06.810" ModificationDateTime="2026-09-14T09:21:06.810" Modification="new" RevisionNumber="0" FileName="NaPTAN040.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-12T00:00:00.000" ModificationDateTime="2008-05-30T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>040000001091</AtcoCode>
@@ -144769,7 +144769,7 @@
 </StopClassification>
 <AdministrativeAreaRef>070</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-05-19T11:00:47.835" ModificationDateTime="2026-05-19T11:00:47.835" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2026-05-19T11:00:47.835" ModificationDateTime="2026-09-14T09:14:41.321" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>04000SCH0476</AtcoCode>
 <NaptanCode>bucgmdwg</NaptanCode>
 <Descriptor>
@@ -144793,13 +144793,31 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>MKD</BusStopType>
+<BusStopType>HAR</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>494314</Easting>
+<Northing>190316</Northing>
+<Longitude>-0.6395719</Longitude>
+<Latitude>51.6038014</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>494314</Easting>
+<Northing>190316</Northing>
+<Longitude>-0.6395719</Longitude>
+<Latitude>51.6038014</Latitude>
+</Translation>
+</EndPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</MarkedPoint>
+</HailAndRideSection>
 </Bus>
 </OnStreet>
 </StopClassification>
