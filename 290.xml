@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2026-09-02T14:57:05" ModificationDateTime="2026-09-02T14:57:05" Modification="revise" RevisionNumber="549" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2026-09-17T09:12:43" ModificationDateTime="2026-09-17T09:12:43" Modification="revise" RevisionNumber="550" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-05-18T11:53:59" ModificationDateTime="2016-02-23T14:56:19" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2900FLEX1</AtcoCode>
@@ -31840,12 +31840,12 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-01-26T12:36:31" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-14T09:45:38" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2900B432</AtcoCode>
       <NaptanCode>NFOAGDPJ</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Delgate Market</CommonName>
-        <ShortCommonName xml:lang="en">Delgate Lane</ShortCommonName>
+        <CommonName xml:lang="en">Dalegate Market</CommonName>
+        <ShortCommonName xml:lang="en">Dalegate Lane</ShortCommonName>
         <Landmark xml:lang="en">bus shelter</Landmark>
         <Street xml:lang="en">A149</Street>
         <Indicator xml:lang="en">adj</Indicator>
@@ -43499,11 +43499,11 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2010-09-14T10:17:23" ModificationDateTime="2026-08-19T10:28:53" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2010-09-14T10:17:23" ModificationDateTime="2026-09-09T13:39:21" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2900C2787</AtcoCode>
       <NaptanCode>NFOGTDPG</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Brittania Way</CommonName>
+        <CommonName xml:lang="en">Britannia Way</CommonName>
         <Street xml:lang="en">Lord Nelson Drive</Street>
         <Indicator xml:lang="en">opp</Indicator>
       </Descriptor>
@@ -45104,6 +45104,39 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2025-06-19T14:17:45" ModificationDateTime="2026-09-09T13:38:37" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>2900C27882</AtcoCode>
+      <NaptanCode>NFOGWTWA</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Normandy Grove</CommonName>
+        <Street xml:lang="en">Britannia Way</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048772</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>616052</Easting>
+          <Northing>310254</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2026-08-19T11:55:01" ModificationDateTime="2026-08-19T11:55:01" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900C27871</AtcoCode>
       <NaptanCode>NFOJAGPM</NaptanCode>
@@ -45137,45 +45170,12 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-06-19T14:17:45" ModificationDateTime="2026-08-19T10:23:05" Modification="revise" RevisionNumber="2" Status="active">
-      <AtcoCode>2900C27882</AtcoCode>
-      <NaptanCode>NFOGWTWA</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Normandy Grove</CommonName>
-        <Street xml:lang="en">Brittania Way</Street>
-        <Indicator xml:lang="en">opp</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048772</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>616052</Easting>
-          <Northing>310254</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>E</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2025-06-19T14:02:54" ModificationDateTime="2025-06-19T14:02:54" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2025-06-19T14:02:54" ModificationDateTime="2026-09-09T13:39:53" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2900C27881</AtcoCode>
       <NaptanCode>NFOGWTPW</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="en">Normandy Grove</CommonName>
-        <Street xml:lang="en">Brittania Way</Street>
+        <Street xml:lang="en">Brittannia Way</Street>
         <Indicator xml:lang="en">adj</Indicator>
       </Descriptor>
       <Place>
@@ -147723,6 +147723,138 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-09-16T16:02:33" ModificationDateTime="2026-09-16T16:02:33" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900N017</AtcoCode>
+      <NaptanCode>NFOJAGWM</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Chalk Meadows</CommonName>
+        <Street xml:lang="en">Chalk Lane</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048388</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>575013</Easting>
+          <Northing>312203</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-16T16:00:29" ModificationDateTime="2026-09-16T16:00:29" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900N016</AtcoCode>
+      <NaptanCode>NFOJAGWJ</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Eastfields</CommonName>
+        <Street xml:lang="en">Chalk Lane</Street>
+        <Indicator xml:lang="en">adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048388</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>574986</Easting>
+          <Northing>312624</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-16T16:04:23" ModificationDateTime="2026-09-16T16:04:23" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900N018</AtcoCode>
+      <NaptanCode>NFOJAGWP</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Chalk Meadows</CommonName>
+        <Street xml:lang="en">Chalk Lane</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048388</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>575004</Easting>
+          <Northing>312158</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-16T15:58:13" ModificationDateTime="2026-09-16T15:58:13" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900N015</AtcoCode>
+      <NaptanCode>NFOJAGWG</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Eastfields</CommonName>
+        <Street xml:lang="en">Chalk Lane</Street>
+        <Indicator xml:lang="en">opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048388</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>574971</Easting>
+          <Northing>312648</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2018-03-22T12:50:46" ModificationDateTime="2019-10-14T14:08:43" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2900B3041</AtcoCode>
       <NaptanCode>NFOGWAGM</NaptanCode>
@@ -234396,7 +234528,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-11-21T09:44:30" ModificationDateTime="2019-06-26T09:48:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2006-11-21T09:44:30" ModificationDateTime="2026-09-11T00:00:00" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>2900T39174</AtcoCode>
       <NaptanCode>NFOGMWPA</NaptanCode>
       <Descriptor>
@@ -234429,6 +234561,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-10T09:53:30" ModificationDateTime="2026-09-10T09:53:30">
+          <DateRange>
+            <StartDate>2026-09-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2006-11-21T09:49:06" ModificationDateTime="2019-06-26T09:49:05" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2900T39175</AtcoCode>
@@ -234539,7 +234679,7 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T10:01:06" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-11T00:00:00" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>2900T3991</AtcoCode>
       <NaptanCode>NFOGAWDA</NaptanCode>
       <Descriptor>
@@ -234572,6 +234712,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-10T09:52:40" ModificationDateTime="2026-09-10T09:52:40">
+          <DateRange>
+            <StartDate>2026-09-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2010-07-07T11:55:54" Modification="revise" RevisionNumber="5" Status="inactive">
       <AtcoCode>2900T3962</AtcoCode>
@@ -234756,7 +234904,7 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2014-02-19T10:21:27" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-11T00:00:00" Modification="revise" RevisionNumber="7" Status="inactive">
       <AtcoCode>2900T39102</AtcoCode>
       <NaptanCode>NFOGAPAG</NaptanCode>
       <Descriptor>
@@ -234792,6 +234940,14 @@
         <StopAreaRef CreationDateTime="2006-04-27T10:33:31" ModificationDateTime="2006-04-27T10:33:31" Modification="revise" RevisionNumber="0" Status="active">290G1901</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-10T09:51:59" ModificationDateTime="2026-09-10T09:51:59">
+          <DateRange>
+            <StartDate>2026-09-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-04-06T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2900T39104</AtcoCode>
@@ -235510,7 +235666,7 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-06-26T09:17:28" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-11T00:00:00" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>2900T39108</AtcoCode>
       <NaptanCode>NFOGAPDA</NaptanCode>
       <Descriptor>
@@ -235543,6 +235699,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-10T09:53:58" ModificationDateTime="2026-09-10T09:53:58">
+          <DateRange>
+            <StartDate>2026-09-10</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2014-08-21T00:00:00" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2900T39106</AtcoCode>
@@ -254465,35 +254629,6 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T15:22:14" ModificationDateTime="2009-09-28T15:21:52" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900WATLGTN1</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Watlington Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">east entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0048611</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>561247</Easting>
-          <Northing>311059</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2009-09-28T15:23:29" ModificationDateTime="2009-09-28T15:23:29" Modification="revise" RevisionNumber="0" Status="active">910GWATLGTN</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
     <StopPoint CreationDateTime="2009-03-19T12:46:35" ModificationDateTime="2009-09-28T15:23:02" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2900WATLGN1</AtcoCode>
       <Descriptor>
@@ -254527,6 +254662,35 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T15:22:14" ModificationDateTime="2009-09-28T15:21:52" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900WATLGTN1</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Watlington Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">east entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048611</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>561247</Easting>
+          <Northing>311059</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2009-09-28T15:23:29" ModificationDateTime="2009-09-28T15:23:29" Modification="revise" RevisionNumber="0" Status="active">910GWATLGTN</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2009-09-28T15:20:02" ModificationDateTime="2009-09-28T15:19:42" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900WATLGTN0</AtcoCode>
@@ -260981,6 +261145,35 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2009-09-28T15:31:22" ModificationDateTime="2009-09-28T15:30:52" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>2900WRUNTON0</AtcoCode>
+      <Descriptor>
+        <CommonName xml:lang="en">West Runton Rail Station</CommonName>
+        <Street xml:lang="en">Station Road</Street>
+        <Indicator xml:lang="en">entrance</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0018173</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>618208</Easting>
+          <Northing>342497</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>RSE</StopType>
+        <OffStreet>
+          <Rail>
+            <Entrance />
+          </Rail>
+        </OffStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2009-09-28T15:32:34" ModificationDateTime="2009-09-28T15:32:34" Modification="revise" RevisionNumber="0" Status="active">910GWRUNTON</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2009-03-19T12:48:40" ModificationDateTime="2009-09-28T15:32:20" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2900WRNTON0</AtcoCode>
       <Descriptor>
@@ -261014,35 +261207,6 @@
           <Suspended />
         </StopValidity>
       </StopAvailability>
-    </StopPoint>
-    <StopPoint CreationDateTime="2009-09-28T15:31:22" ModificationDateTime="2009-09-28T15:30:52" Modification="new" RevisionNumber="0" Status="active">
-      <AtcoCode>2900WRUNTON0</AtcoCode>
-      <Descriptor>
-        <CommonName xml:lang="en">West Runton Rail Station</CommonName>
-        <Street xml:lang="en">Station Road</Street>
-        <Indicator xml:lang="en">entrance</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>E0018173</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>618208</Easting>
-          <Northing>342497</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>RSE</StopType>
-        <OffStreet>
-          <Rail>
-            <Entrance />
-          </Rail>
-        </OffStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2009-09-28T15:32:34" ModificationDateTime="2009-09-28T15:32:34" Modification="revise" RevisionNumber="0" Status="active">910GWRUNTON</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2009-07-03T10:01:18" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2900R2311</AtcoCode>
