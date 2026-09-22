@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-17T09:03:19.070" ModificationDateTime="2026-09-17T09:03:19.070" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-21T15:24:45.801" ModificationDateTime="2026-09-21T15:24:45.801" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -46273,7 +46273,7 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-06-09T09:36:00.000" ModificationDateTime="2026-09-16T13:38:51.515" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2009-06-09T09:36:00.000" ModificationDateTime="2026-09-21T15:03:24.160" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>630040503</AtcoCode>
 <NaptanCode>23629593</NaptanCode>
 <Descriptor>
@@ -46290,10 +46290,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380820</Easting>
-<Northing>768957</Northing>
-<Longitude>-2.315756</Longitude>
-<Latitude>56.811717</Latitude>
+<Easting>380830</Easting>
+<Northing>768973</Northing>
+<Longitude>-2.315599</Longitude>
+<Latitude>56.811862</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -46314,7 +46314,7 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-06-09T09:38:00.000" ModificationDateTime="2026-09-16T13:41:16.061" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2009-06-09T09:38:00.000" ModificationDateTime="2026-09-21T15:03:07.457" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>630040504</AtcoCode>
 <NaptanCode>23629569</NaptanCode>
 <Descriptor>
@@ -46331,10 +46331,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380824</Easting>
-<Northing>768959</Northing>
-<Longitude>-2.315699</Longitude>
-<Latitude>56.811735</Latitude>
+<Easting>380860</Easting>
+<Northing>768999</Northing>
+<Longitude>-2.315101</Longitude>
+<Latitude>56.81209</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -113874,6 +113874,82 @@
 <CompassPoint>W</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-09-21T15:14:32.720" ModificationDateTime="2026-09-21T15:14:32.720" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630040505</AtcoCode>
+<NaptanCode>23634954</NaptanCode>
+<Descriptor>
+<CommonName>Road End</CommonName>
+<Street>A92</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000342</NptgLocalityRef>
+<Suburb>-</Suburb>
+<Town>Benholm</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>380744</Easting>
+<Northing>768854</Northing>
+<Longitude>-2.3169899</Longitude>
+<Latitude>56.8107860</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-09-21T15:19:30.279" ModificationDateTime="2026-09-21T15:19:30.279" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630040506</AtcoCode>
+<NaptanCode>23634956</NaptanCode>
+<Descriptor>
+<CommonName>Road End</CommonName>
+<Street>A92</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>ES000342</NptgLocalityRef>
+<Suburb>-</Suburb>
+<Town>Benholm</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>380751</Easting>
+<Northing>768822</Northing>
+<Longitude>-2.316873</Longitude>
+<Latitude>56.810497</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
