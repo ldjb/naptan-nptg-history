@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.88.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-08-10T07:10:32.0800593Z" ModificationDateTime="2026-08-10T07:10:32.0800593Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-22T08:04:01.1852165Z" ModificationDateTime="2026-09-22T08:04:01.1852165Z" Modification="new" RevisionNumber="1" FileName="NaPTAN389.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-11T00:00:00" ModificationDateTime="2026-03-03T08:15:50" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3890D000100</AtcoCode>
@@ -49296,7 +49296,7 @@
         <PlusbusZoneRef CreationDateTime="2002-11-24T00:00:00" ModificationDateTime="2002-11-24T00:00:00" Modification="new" RevisionNumber="0" Status="active">STOKEOT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-12-18T00:00:00" ModificationDateTime="2018-05-11T17:15:32" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2006-12-18T00:00:00" ModificationDateTime="2026-08-10T13:47:06" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>3890D056602</AtcoCode>
       <NaptanCode>stoajwmw</NaptanCode>
       <Descriptor>
@@ -49311,10 +49311,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>386738</Easting>
-            <Northing>352560</Northing>
-            <Longitude>-2.199381461</Longitude>
-            <Latitude>53.070110380</Latitude>
+            <Easting>386740</Easting>
+            <Northing>352570</Northing>
+            <Longitude>-2.199351958</Longitude>
+            <Latitude>53.070195731</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -49322,13 +49322,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>OTH</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -55379,7 +55379,7 @@
         <PlusbusZoneRef CreationDateTime="2005-08-05T00:00:00" ModificationDateTime="2005-08-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">STOKEOT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2026-03-03T12:49:45" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2026-08-10T13:50:12" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>3890D063601</AtcoCode>
       <NaptanCode>stoamgpm</NaptanCode>
       <Descriptor>
@@ -55405,13 +55405,13 @@
         <StopType>BCT</StopType>
         <OnStreet>
           <Bus>
-            <BusStopType>CUS</BusStopType>
+            <BusStopType>MKD</BusStopType>
             <TimingStatus>TIP</TimingStatus>
-            <UnmarkedPoint>
+            <MarkedPoint>
               <Bearing>
                 <CompassPoint>SW</CompassPoint>
               </Bearing>
-            </UnmarkedPoint>
+            </MarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -55560,13 +55560,13 @@
         <PlusbusZoneRef CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2014-01-20T13:55:27" Modification="revise" RevisionNumber="1" Status="active">STOKEOT</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2009-03-10T17:25:00" Modification="delete" RevisionNumber="4" Status="inactive">
+    <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2026-09-22T09:02:45" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>3890D064001</AtcoCode>
       <NaptanCode>stoamgtd</NaptanCode>
       <Descriptor>
-        <CommonName>deleted stop</CommonName>
-        <Landmark>deleted stop</Landmark>
-        <Street>deleted stop</Street>
+        <CommonName>Laxton Grove</CommonName>
+        <Landmark>Laxton Grove</Landmark>
+        <Street>Jonathan Road</Street>
         <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
@@ -55575,10 +55575,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>388657</Easting>
-            <Northing>339409</Northing>
-            <Longitude>-2.170274713</Longitude>
-            <Latitude>52.951939232</Latitude>
+            <Easting>388112</Easting>
+            <Northing>339913</Northing>
+            <Longitude>-2.178404983</Longitude>
+            <Latitude>52.956453271</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -55597,6 +55597,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>055</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-22T09:02:45" ModificationDateTime="2026-09-22T09:02:45" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-22</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2002-12-22T00:00:00" ModificationDateTime="2009-03-10T17:34:00" Modification="delete" RevisionNumber="2" Status="inactive">
       <AtcoCode>3890D064002</AtcoCode>

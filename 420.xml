@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-15T10:23:23.9489196Z" ModificationDateTime="2026-09-15T10:23:23.9489196Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-21T09:28:24.9214286Z" ModificationDateTime="2026-09-21T09:28:24.9214286Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -3570,14 +3570,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-09-21T10:13:53" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>4200F005300</AtcoCode>
       <NaptanCode>waradgdm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Brick Bus Shelter</CommonName>
-        <Landmark xml:lang="en">Brick Bus Shelter</Landmark>
-        <Street xml:lang="en">Wellesbourne Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Brick Bus Shelter</CommonName>
+        <Street>Wellesbourne Road</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0052020</NptgLocalityRef>
@@ -20905,6 +20904,76 @@
                 <CompassPoint>N</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-21T10:22:22" ModificationDateTime="2026-09-21T10:22:51" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>4200F033401</AtcoCode>
+      <NaptanCode>warapjdx</NaptanCode>
+      <Descriptor>
+        <CommonName>Meadow View</CommonName>
+        <Street>Coventry Road</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0051848</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>421840</Easting>
+            <Northing>295530</Northing>
+            <Longitude>-1.679292827</Longitude>
+            <Latitude>52.557171403</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-21T10:25:30" ModificationDateTime="2026-09-21T10:23:51" Modification="new" Status="active">
+      <AtcoCode>4200F033402</AtcoCode>
+      <NaptanCode>warapdy</NaptanCode>
+      <Descriptor>
+        <CommonName>Meadow View</CommonName>
+        <Street>Coventry Road</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0051848</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>421831</Easting>
+            <Northing>295525</Northing>
+            <Longitude>-1.679425901</Longitude>
+            <Latitude>52.557126813</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
