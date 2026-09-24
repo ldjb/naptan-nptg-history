@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-04T08:17:30.2271528Z" ModificationDateTime="2026-09-04T08:17:30.2271528Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-24T07:35:22.8731507Z" ModificationDateTime="2026-09-24T07:35:22.8731507Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-19T00:00:00" ModificationDateTime="2013-04-15T12:12:06" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>270000007470</AtcoCode>
@@ -12412,14 +12412,14 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-21T00:00:00" ModificationDateTime="2006-08-31T11:08:48" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-06-21T00:00:00" ModificationDateTime="2026-09-10T14:00:54" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>270000007750</AtcoCode>
       <NaptanCode>lingjwtm</NaptanCode>
       <Descriptor>
-        <CommonName>Surgery</CommonName>
-        <Landmark>Surgery</Landmark>
+        <CommonName>Tennyson Street</CommonName>
+        <Landmark>Tennyson Street</Landmark>
         <Street>Spital Terrace</Street>
-        <Indicator>o/s</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0017436</NptgLocalityRef>
@@ -12454,14 +12454,13 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-21T00:00:00" ModificationDateTime="2006-08-31T11:08:48" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-06-21T00:00:00" ModificationDateTime="2026-09-10T13:58:13" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>270000007751</AtcoCode>
       <NaptanCode>lingjwtp</NaptanCode>
       <Descriptor>
-        <CommonName>Surgery</CommonName>
-        <Landmark>Surgery</Landmark>
+        <CommonName>Tennyson Street</CommonName>
         <Street>Spital Terrace</Street>
-        <Indicator>opp</Indicator>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0017436</NptgLocalityRef>
@@ -23410,7 +23409,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2008-11-10T13:19:59" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-04T11:46:21" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>270000008014</AtcoCode>
       <NaptanCode>lingmtga</NaptanCode>
       <Descriptor>
@@ -37837,7 +37836,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2008-11-06T09:10:55" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-24T08:31:58" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>270000008344</AtcoCode>
       <NaptanCode>lingptag</NaptanCode>
       <Descriptor>
@@ -37878,8 +37877,16 @@
         <StopAreaRef RevisionNumber="0">270G00013726</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-24T08:31:58" ModificationDateTime="2026-09-24T08:31:58" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-24</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2008-11-06T09:11:01" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-24T08:32:17" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>270000008345</AtcoCode>
       <NaptanCode>lingptaj</NaptanCode>
       <Descriptor>
@@ -37920,6 +37927,14 @@
         <StopAreaRef RevisionNumber="0">270G00013726</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-24T08:32:17" ModificationDateTime="2026-09-24T08:32:17" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-24</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2008-11-03T13:01:21" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270000008346</AtcoCode>
@@ -77045,7 +77060,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-09T00:00:00" ModificationDateTime="2008-11-07T11:03:50" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2005-06-09T00:00:00" ModificationDateTime="2026-09-22T12:43:13" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>270000009249</AtcoCode>
       <NaptanCode>linjajmp</NaptanCode>
       <Descriptor>
@@ -77060,10 +77075,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>521079</Easting>
-            <Northing>355479</Northing>
-            <Longitude>-0.193784772</Longitude>
-            <Latitude>53.082814224</Latitude>
+            <Easting>521120</Easting>
+            <Northing>355457</Northing>
+            <Longitude>-0.193187303</Longitude>
+            <Latitude>53.082602978</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -77075,7 +77090,7 @@
             <TimingStatus>TIP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>SW</CompassPoint>
+                <CompassPoint>E</CompassPoint>
                 <Degrees>225</Degrees>
               </Bearing>
             </MarkedPoint>
@@ -85750,14 +85765,14 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2019-11-26T13:45:12" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-15T11:39:41" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>270000009459</AtcoCode>
       <NaptanCode>linjawpm</NaptanCode>
       <Descriptor>
-        <CommonName>Darjeeling Restaurant</CommonName>
-        <Landmark>Darjeeling Restaurant</Landmark>
+        <CommonName>Church Gate</CommonName>
+        <Landmark>Church Gate</Landmark>
         <Street>Main Road</Street>
-        <Indicator>opp</Indicator>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0048113</NptgLocalityRef>
@@ -179084,7 +179099,7 @@
         <PlusbusZoneRef CreationDateTime="2007-04-05T08:10:19" ModificationDateTime="2009-04-06T14:49:07" Modification="revise" RevisionNumber="3" Status="active">LINCLNC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-06-04T12:16:33" ModificationDateTime="2020-06-16T09:04:26" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2007-06-04T12:16:33" ModificationDateTime="2026-09-16T10:49:41" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270002701147</AtcoCode>
       <NaptanCode>linajptj</NaptanCode>
       <Descriptor>
@@ -179099,10 +179114,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488901</Easting>
-            <Northing>380853</Northing>
-            <Longitude>-0.666968763</Longitude>
-            <Latitude>53.317155462</Latitude>
+            <Easting>488914</Easting>
+            <Northing>380937</Northing>
+            <Longitude>-0.666746000</Longitude>
+            <Latitude>53.317905000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -180452,7 +180467,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-09-10T13:54:35" ModificationDateTime="2026-09-04T08:53:13" Modification="revise" RevisionNumber="6" Status="inactive">
+    <StopPoint CreationDateTime="2007-09-10T13:54:35" ModificationDateTime="2026-09-24T08:29:48" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>270002701194</AtcoCode>
       <NaptanCode>linaptpw</NaptanCode>
       <Descriptor>
@@ -180494,11 +180509,17 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2026-09-04T08:53:13" ModificationDateTime="2026-09-04T08:53:13" Modification="new">
+        <StopValidity CreationDateTime="2026-09-04T08:53:13" ModificationDateTime="2026-09-24T08:29:48" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2026-09-04</StartDate>
           </DateRange>
-          <Suspended />
+          <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-09-24T08:29:48" ModificationDateTime="2026-09-24T08:29:48" Modification="new">
+          <DateRange>
+            <StartDate>2026-09-24</StartDate>
+          </DateRange>
+          <Active />
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -219066,7 +219087,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-04-24T13:38:56" ModificationDateTime="2026-04-24T13:39:22" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2026-04-24T13:38:56" ModificationDateTime="2026-09-22T13:25:05" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>270002703404</AtcoCode>
       <NaptanCode>lindgawm</NaptanCode>
       <Descriptor>
@@ -219102,6 +219123,9 @@
           </Bus>
         </OnStreet>
       </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2026-09-22T13:25:05" ModificationDateTime="2026-09-22T13:25:05" Modification="new">270G02704016</StopAreaRef>
+      </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2014-06-03T09:32:16" ModificationDateTime="2014-06-12T13:04:25" Modification="revise" RevisionNumber="3" Status="active">
@@ -225346,7 +225370,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2018-08-29T09:05:47" ModificationDateTime="2025-10-09T08:33:26" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2018-08-29T09:05:47" ModificationDateTime="2026-09-22T12:45:58" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>270002703655</AtcoCode>
       <NaptanCode>lintwjpw</NaptanCode>
       <Descriptor>
@@ -225361,10 +225385,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>515744</Easting>
-            <Northing>310222</Northing>
-            <Longitude>-0.289477000</Longitude>
-            <Latitude>52.677340000</Latitude>
+            <Easting>515632</Easting>
+            <Northing>310171</Northing>
+            <Longitude>-0.291144149</Longitude>
+            <Latitude>52.676908730</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -234297,6 +234321,47 @@
           </Bus>
         </OnStreet>
       </StopClassification>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-22T13:21:45" ModificationDateTime="2026-09-22T13:26:15" Modification="revise" RevisionNumber="3" Status="active">
+      <AtcoCode>270002704015</AtcoCode>
+      <NaptanCode>lindgdga</NaptanCode>
+      <Descriptor>
+        <CommonName>Community Diagnostics Centre</CommonName>
+        <Landmark>Community Diagnostics Centre</Landmark>
+        <Street>Poplar Street</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0057558</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>496423</Easting>
+            <Northing>371087</Northing>
+            <Longitude>-0.557051865</Longitude>
+            <Latitude>53.228080112</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2026-09-22T13:25:05" ModificationDateTime="2026-09-22T13:25:05" Modification="new">270G02704016</StopAreaRef>
+      </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2014-01-22T09:20:55" ModificationDateTime="2014-01-22T09:22:18" Modification="revise" RevisionNumber="2" Status="active">
@@ -246084,12 +246149,12 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2010-06-30T10:36:26" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-10T13:59:29" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2700LCBA1613</AtcoCode>
       <NaptanCode>linamdtd</NaptanCode>
       <Descriptor>
-        <CommonName>Beckett Arms PH</CommonName>
-        <Landmark>Beckett Arms PH</Landmark>
+        <CommonName>The Becketts</CommonName>
+        <Landmark>The Becketts</Landmark>
         <Street>High Street</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
@@ -246125,12 +246190,12 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2010-06-30T10:36:22" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-10T14:00:01" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2700LCBA4657</AtcoCode>
       <NaptanCode>lindmpat</NaptanCode>
       <Descriptor>
-        <CommonName>Beckett Arms PH</CommonName>
-        <Landmark>Beckett Arms PH</Landmark>
+        <CommonName>The Becketts</CommonName>
+        <Landmark>The Becketts</Landmark>
         <Street>High Street</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
@@ -249716,7 +249781,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-09T00:00:00" ModificationDateTime="2008-11-07T11:03:11" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-06-09T00:00:00" ModificationDateTime="2026-09-22T12:35:14" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>2700LD001419</AtcoCode>
       <NaptanCode>linajtwg</NaptanCode>
       <Descriptor>
@@ -249731,10 +249796,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>521075</Easting>
-            <Northing>355457</Northing>
-            <Longitude>-0.193852733</Longitude>
-            <Latitude>53.082617470</Latitude>
+            <Easting>521118</Easting>
+            <Northing>355452</Northing>
+            <Longitude>-0.193214237</Longitude>
+            <Latitude>53.082560941</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -288242,7 +288307,7 @@
         <PlusbusZoneRef CreationDateTime="2006-06-21T00:00:00" ModificationDateTime="2010-04-28T15:03:16" Modification="revise" RevisionNumber="1" Status="active">LINCLNC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2008-11-10T13:20:06" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-04T11:14:39" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2700LLNR3481</AtcoCode>
       <NaptanCode>lindamda</NaptanCode>
       <Descriptor>
@@ -288257,10 +288322,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>533338</Easting>
-            <Northing>386870</Northing>
-            <Longitude>0.002234425</Longitude>
-            <Latitude>53.361894263</Latitude>
+            <Easting>533351</Easting>
+            <Northing>386864</Northing>
+            <Longitude>0.002433000</Longitude>
+            <Latitude>53.361833000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -332429,14 +332494,14 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2019-11-26T13:45:54" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2005-11-10T00:00:00" ModificationDateTime="2026-09-15T11:39:05" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2700LWSI0324</AtcoCode>
       <NaptanCode>linadmag</NaptanCode>
       <Descriptor>
-        <CommonName>Darjeeling Restaurant</CommonName>
-        <Landmark>Darjeeling Restaurant</Landmark>
+        <CommonName>Church Gate</CommonName>
+        <Landmark>Church Gate</Landmark>
         <Street>Main Road</Street>
-        <Indicator>adj</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0048113</NptgLocalityRef>
@@ -369757,6 +369822,21 @@
           <Northing>324604</Northing>
           <Longitude>-0.512488815</Longitude>
           <Latitude>52.809651497</Latitude>
+        </Translation>
+      </Location>
+    </StopArea>
+    <StopArea CreationDateTime="2026-09-22T13:24:14" ModificationDateTime="2026-09-22T13:23:00" Modification="new" Status="active">
+      <StopAreaCode>270G02704016</StopAreaCode>
+      <Name xml:lang="en">Community Diagnostics Centre</Name>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAreaType>GPBS</StopAreaType>
+      <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>496422</Easting>
+          <Northing>371077</Northing>
+          <Longitude>-0.557069860</Longitude>
+          <Latitude>53.227990434</Latitude>
         </Translation>
       </Location>
     </StopArea>

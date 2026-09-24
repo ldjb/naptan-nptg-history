@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN CreationDateTime="2016-05-17T11:00:05" ModificationDateTime="2026-09-22T07:07:58" Modification="revise" RevisionNumber="60" FileName="NaPTAN158.xml" SchemaVersion="2.1" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd">
+<NaPTAN CreationDateTime="2016-05-17T11:00:05" ModificationDateTime="2026-09-24T07:38:39" Modification="revise" RevisionNumber="61" FileName="NaPTAN158.xml" SchemaVersion="2.1" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd">
   <StopPoints>
     <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-16T10:49:11" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>15800001</AtcoCode>
@@ -2259,6 +2259,92 @@
       </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-09-24T07:38:35" ModificationDateTime="2026-09-24T07:38:35" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>15800054</AtcoCode>
+      <NaptanCode>soadagtp</NaptanCode>
+      <Descriptor>
+        <CommonName>Ness Road</CommonName>
+        <Street>Ness Road</Street>
+        <Crossing>Church Road</Crossing>
+        <Indicator>N-bound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0042047</NptgLocalityRef>
+        <Suburb>Shoeburyness</Suburb>
+        <Town>Southend-on-Sea</Town>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>593068</Easting>
+            <Northing>184649</Northing>
+            <Longitude>0.78192451</Longitude>
+            <Latitude>51.5277377</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef>158G00000053</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>053</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-24T07:38:35" ModificationDateTime="2026-09-24T07:38:35" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>15800055</AtcoCode>
+      <NaptanCode>soadgpwt</NaptanCode>
+      <Descriptor>
+        <CommonName>Ness Road</CommonName>
+        <Street>Ness Road</Street>
+        <Crossing>Church Road</Crossing>
+        <Indicator>S-bound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0042047</NptgLocalityRef>
+        <Suburb>Shoeburyness</Suburb>
+        <Town>Southend-on-Sea</Town>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>593081</Easting>
+            <Northing>184577</Northing>
+            <Longitude>0.78205785</Longitude>
+            <Latitude>51.5270870</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef>158G00000053</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>053</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-16T10:49:11" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>15800056</AtcoCode>
       <NaptanCode>soadagwp</NaptanCode>
@@ -2551,6 +2637,49 @@
           </Bus>
         </OnStreet>
       </StopClassification>
+      <AdministrativeAreaRef>053</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-24T07:38:35" ModificationDateTime="2026-09-24T07:38:35" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>15800063</AtcoCode>
+      <NaptanCode>soadagtw</NaptanCode>
+      <Descriptor>
+        <CommonName>Church Road</CommonName>
+        <Street>Church Road</Street>
+        <Crossing>Ness Road</Crossing>
+        <Indicator>W-bound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0042047</NptgLocalityRef>
+        <Suburb>Shoeburyness</Suburb>
+        <Town>Southend-on-Sea</Town>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>593036</Easting>
+            <Northing>184619</Northing>
+            <Longitude>0.78144735</Longitude>
+            <Latitude>51.5274792</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef>158G00000053</StopAreaRef>
+      </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-16T10:49:11" Modification="revise" RevisionNumber="58" Status="active">
@@ -7343,7 +7472,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="294" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="295" Status="active">
       <AtcoCode>15800178</AtcoCode>
       <NaptanCode>soadgwdj</NaptanCode>
       <Descriptor>
@@ -10412,7 +10541,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="296" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="297" Status="active">
       <AtcoCode>15800251</AtcoCode>
       <NaptanCode>soadamdp</NaptanCode>
       <Descriptor>
@@ -11434,7 +11563,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>15800276</AtcoCode>
       <NaptanCode>soadgtwj</NaptanCode>
       <Descriptor>
@@ -11470,7 +11599,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>15800277</AtcoCode>
       <NaptanCode>soadgtwm</NaptanCode>
       <Descriptor>
@@ -11506,7 +11635,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>15800278</AtcoCode>
       <NaptanCode>soadgtwp</NaptanCode>
       <Descriptor>
@@ -11542,7 +11671,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>15800279</AtcoCode>
       <NaptanCode>soadgtwt</NaptanCode>
       <Descriptor>
@@ -11578,7 +11707,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>15800280</AtcoCode>
       <NaptanCode>soadgwad</NaptanCode>
       <Descriptor>
@@ -11614,7 +11743,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="7" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="inactive">
       <AtcoCode>15800281</AtcoCode>
       <NaptanCode>soadgwag</NaptanCode>
       <Descriptor>
@@ -17180,7 +17309,7 @@
       </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="215" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="216" Status="active">
       <AtcoCode>15800414</AtcoCode>
       <NaptanCode>soadgpdg</NaptanCode>
       <Descriptor>
@@ -17229,7 +17358,7 @@
       </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="217" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="218" Status="active">
       <AtcoCode>15800415</AtcoCode>
       <NaptanCode>soadgwpg</NaptanCode>
       <Descriptor>
@@ -18544,7 +18673,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="296" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="297" Status="active">
       <AtcoCode>15800446</AtcoCode>
       <NaptanCode>soadgpdw</NaptanCode>
       <Descriptor>
@@ -18591,7 +18720,7 @@
       </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="296" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="297" Status="active">
       <AtcoCode>15800447</AtcoCode>
       <NaptanCode>soadgpga</NaptanCode>
       <Descriptor>
@@ -28308,7 +28437,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="11" Status="inactive">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="12" Status="inactive">
       <AtcoCode>15800678</AtcoCode>
       <NaptanCode>soadgwga</NaptanCode>
       <Descriptor>
@@ -28387,7 +28516,7 @@
       </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-16T10:49:11" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>15800680</AtcoCode>
       <NaptanCode>soadgwpj</NaptanCode>
       <Descriptor>
@@ -28395,7 +28524,7 @@
         <Landmark>Town centre</Landmark>
         <Street>Alexandra St</Street>
         <Crossing>Clarence Road</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>W-bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0057248</NptgLocalityRef>
@@ -28405,9 +28534,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>588134</Easting>
-            <Northing>185289</Northing>
-            <Longitude>0.71120962</Longitude>
-            <Latitude>51.5351591</Latitude>
+            <Northing>185290</Northing>
+            <Longitude>0.7112096</Longitude>
+            <Latitude>51.5351592</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -29985,7 +30114,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-06-26T09:18:40" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="292" Status="active">
+    <StopPoint CreationDateTime="2007-06-26T09:18:40" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="293" Status="active">
       <AtcoCode>15800719</AtcoCode>
       <NaptanCode>soadjdat</NaptanCode>
       <Descriptor>
@@ -31396,7 +31525,7 @@
       </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-06-26T09:18:40" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="292" Status="active">
+    <StopPoint CreationDateTime="2007-06-26T09:18:40" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="293" Status="active">
       <AtcoCode>15800757</AtcoCode>
       <NaptanCode>soadjdpw</NaptanCode>
       <Descriptor>
@@ -31447,7 +31576,7 @@
       </StopAreas>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-06-26T09:18:40" ModificationDateTime="2026-09-22T07:07:55" Modification="revise" RevisionNumber="292" Status="active">
+    <StopPoint CreationDateTime="2007-06-26T09:18:40" ModificationDateTime="2026-09-24T07:38:35" Modification="revise" RevisionNumber="293" Status="active">
       <AtcoCode>15800758</AtcoCode>
       <NaptanCode>soadjdag</NaptanCode>
       <Descriptor>
@@ -32834,6 +32963,45 @@
       <StopAreas>
         <StopAreaRef>158G00000268</StopAreaRef>
       </StopAreas>
+      <AdministrativeAreaRef>053</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-09-24T07:38:35" ModificationDateTime="2026-09-24T07:38:35" Modification="new" RevisionNumber="0" Status="inactive">
+      <AtcoCode>15800914</AtcoCode>
+      <NaptanCode>soadjatp</NaptanCode>
+      <Descriptor>
+        <CommonName>Church Rd</CommonName>
+        <Street>Heygate Avenue</Street>
+        <Indicator>Stop L</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0057248</NptgLocalityRef>
+        <Suburb>Town Centre</Suburb>
+        <Town>Southend-on-Sea</Town>
+        <LocalityCentre>1</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>588433</Easting>
+            <Northing>185340</Northing>
+            <Longitude>0.7155423</Longitude>
+            <Latitude>51.5355086</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
       <AdministrativeAreaRef>053</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-10-02T00:00:00" ModificationDateTime="2024-03-26T09:33:20" Modification="revise" RevisionNumber="3" Status="inactive">

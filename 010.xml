@@ -1,88 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-08-26T14:33:51.8316572+01:00" ModificationDateTime="2026-08-26T14:33:51.8316572+01:00" Modification="new" FileName="NaPTAN010.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-09-23T15:50:04.6977872+01:00" ModificationDateTime="2026-09-23T15:50:04.7007853+01:00" Modification="new" FileName="NaPTAN010.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
-		<StopPoint CreationDateTime="2009-08-25T00:00:00" ModificationDateTime="2019-08-06T11:10:46" Modification="new" RevisionNumber="49" Status="active">
-			<AtcoCode>0100BRP90317</AtcoCode>
-			<NaptanCode>bstjada</NaptanCode>
-			<Descriptor>
-				<CommonName xml:lang="en">Temple Meads Stn</CommonName>
-				<ShortCommonName xml:lang="en">Temple Meads Stn</ShortCommonName>
-				<Street xml:lang="en">Temple Gate</Street>
-				<Indicator xml:lang="en">T1</Indicator>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>N0077020</NptgLocalityRef>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>359581</Easting>
-						<Northing>172304</Northing>
-						<Longitude>-2.58302</Longitude>
-						<Latitude>51.44827</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>BCT</StopType>
-				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>SE</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
-				</OnStreet>
-			</StopClassification>
-			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1671583+01:00" ModificationDateTime="2026-08-26T14:34:04.1671583+01:00">010G0002</StopAreaRef>
-			</StopAreas>
-			<AdministrativeAreaRef>009</AdministrativeAreaRef>
-		</StopPoint>
-		<StopPoint CreationDateTime="2009-08-25T00:00:00" ModificationDateTime="2024-01-12T11:30:59" Modification="new" RevisionNumber="86" Status="active">
-			<AtcoCode>0100BRP90318</AtcoCode>
-			<NaptanCode>bstgwtd</NaptanCode>
-			<Descriptor>
-				<CommonName xml:lang="en">Temple Meads Stn</CommonName>
-				<ShortCommonName xml:lang="en">Temple Meads Stn</ShortCommonName>
-				<Street xml:lang="en">Redcliffe Way</Street>
-				<Indicator xml:lang="en">T4</Indicator>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>N0077020</NptgLocalityRef>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>359438</Easting>
-						<Northing>172366</Northing>
-						<Longitude>-2.58508</Longitude>
-						<Latitude>51.44882</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>BCT</StopType>
-				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>NW</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
-				</OnStreet>
-			</StopClassification>
-			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.171157+01:00" ModificationDateTime="2026-08-26T14:34:04.171157+01:00">010G0002</StopAreaRef>
-			</StopAreas>
-			<AdministrativeAreaRef>009</AdministrativeAreaRef>
-		</StopPoint>
 		<StopPoint CreationDateTime="2009-08-25T00:00:00" ModificationDateTime="2019-09-13T10:41:38" Modification="new" RevisionNumber="73" Status="active">
 			<AtcoCode>0100BRP90311</AtcoCode>
 			<NaptanCode>bstgwpm</NaptanCode>
@@ -120,7 +38,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1751576+01:00" ModificationDateTime="2026-08-26T14:34:04.1751576+01:00">010G0002</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.6988853+01:00" ModificationDateTime="2026-09-23T15:50:16.6988853+01:00">010G0002</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -161,7 +79,129 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1811643+01:00" ModificationDateTime="2026-08-26T14:34:04.1811643+01:00">010G0002</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7028849+01:00" ModificationDateTime="2026-09-23T15:50:16.7028849+01:00">010G0002</StopAreaRef>
+			</StopAreas>
+			<AdministrativeAreaRef>009</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2009-08-25T00:00:00" ModificationDateTime="2019-08-06T11:10:46" Modification="new" RevisionNumber="49" Status="active">
+			<AtcoCode>0100BRP90317</AtcoCode>
+			<NaptanCode>bstjada</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Temple Meads Stn</CommonName>
+				<ShortCommonName xml:lang="en">Temple Meads Stn</ShortCommonName>
+				<Street xml:lang="en">Temple Gate</Street>
+				<Indicator xml:lang="en">T1</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0077020</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>359581</Easting>
+						<Northing>172304</Northing>
+						<Longitude>-2.58302</Longitude>
+						<Latitude>51.44827</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>SE</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<StopAreas>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7098854+01:00" ModificationDateTime="2026-09-23T15:50:16.7098854+01:00">010G0002</StopAreaRef>
+			</StopAreas>
+			<AdministrativeAreaRef>009</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2009-08-25T00:00:00" ModificationDateTime="2024-01-12T11:30:59" Modification="new" RevisionNumber="86" Status="active">
+			<AtcoCode>0100BRP90318</AtcoCode>
+			<NaptanCode>bstgwtd</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Temple Meads Stn</CommonName>
+				<ShortCommonName xml:lang="en">Temple Meads Stn</ShortCommonName>
+				<Street xml:lang="en">Redcliffe Way</Street>
+				<Indicator xml:lang="en">T4</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0077020</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>359438</Easting>
+						<Northing>172366</Northing>
+						<Longitude>-2.58508</Longitude>
+						<Latitude>51.44882</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>NW</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<StopAreas>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7128856+01:00" ModificationDateTime="2026-09-23T15:50:16.7128856+01:00">010G0002</StopAreaRef>
+			</StopAreas>
+			<AdministrativeAreaRef>009</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-04-22T00:00:00" ModificationDateTime="2026-08-11T15:51:27" Modification="new" RevisionNumber="153" Status="active">
+			<AtcoCode>010000150</AtcoCode>
+			<NaptanCode>bstptgp</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Temple Quarter Campus</CommonName>
+				<Street xml:lang="en">Feeder Road</Street>
+				<Indicator xml:lang="en">T10</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0077020</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>359953</Easting>
+						<Northing>172314</Northing>
+						<Longitude>-2.57766</Longitude>
+						<Latitude>51.44839</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<StopAreas>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7168895+01:00" ModificationDateTime="2026-09-23T15:50:16.7168895+01:00">010G0002</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -202,7 +242,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1828212+01:00" ModificationDateTime="2026-08-26T14:34:04.1828212+01:00">010G0002</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7208826+01:00" ModificationDateTime="2026-09-23T15:50:16.7208826+01:00">010G0002</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -243,7 +283,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1828212+01:00" ModificationDateTime="2026-08-26T14:34:04.1828212+01:00">010G0002</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7238846+01:00" ModificationDateTime="2026-09-23T15:50:16.7238846+01:00">010G0002</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -283,7 +323,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1984478+01:00" ModificationDateTime="2026-08-26T14:34:04.1984478+01:00">010G0003</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7488845+01:00" ModificationDateTime="2026-09-23T15:50:16.7488845+01:00">010G0003</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -323,7 +363,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.1984478+01:00" ModificationDateTime="2026-08-26T14:34:04.1984478+01:00">010G0003</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7528822+01:00" ModificationDateTime="2026-09-23T15:50:16.7528822+01:00">010G0003</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -363,7 +403,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.2296962+01:00" ModificationDateTime="2026-08-26T14:34:04.2296962+01:00">010G0004</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7728969+01:00" ModificationDateTime="2026-09-23T15:50:16.7728969+01:00">010G0004</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -403,7 +443,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.2296962+01:00" ModificationDateTime="2026-08-26T14:34:04.2296962+01:00">010G0004</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7768834+01:00" ModificationDateTime="2026-09-23T15:50:16.7768834+01:00">010G0004</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -443,7 +483,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.2296962+01:00" ModificationDateTime="2026-08-26T14:34:04.2296962+01:00">010G0004</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7838847+01:00" ModificationDateTime="2026-09-23T15:50:16.7838847+01:00">010G0004</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -483,7 +523,7 @@
 				</OnStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.2453827+01:00" ModificationDateTime="2026-08-26T14:34:04.2453827+01:00">010G0004</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.7878907+01:00" ModificationDateTime="2026-09-23T15:50:16.7878907+01:00">010G0004</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -515,7 +555,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.2683832+01:00" ModificationDateTime="2026-08-26T14:34:04.2683832+01:00">910GASHYDN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8118862+01:00" ModificationDateTime="2026-09-23T15:50:16.8118862+01:00">910GASHYDN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -547,7 +587,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.270951+01:00" ModificationDateTime="2026-08-26T14:34:04.270951+01:00">910GAVONMTH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8278839+01:00" ModificationDateTime="2026-09-23T15:50:16.8278839+01:00">910GAVONMTH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -579,7 +619,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.2865769+01:00" ModificationDateTime="2026-08-26T14:34:04.2865769+01:00">910GAVONMTH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8318886+01:00" ModificationDateTime="2026-09-23T15:50:16.8318886+01:00">910GAVONMTH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -611,7 +651,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3022111+01:00" ModificationDateTime="2026-08-26T14:34:04.3022111+01:00">910GBDMNSTR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8478858+01:00" ModificationDateTime="2026-09-23T15:50:16.8478858+01:00">910GBDMNSTR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -643,7 +683,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3178276+01:00" ModificationDateTime="2026-08-26T14:34:04.3178276+01:00">910GBRSTLTM</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8638844+01:00" ModificationDateTime="2026-09-23T15:50:16.8638844+01:00">910GBRSTLTM</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -675,7 +715,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3350968+01:00" ModificationDateTime="2026-08-26T14:34:04.3350968+01:00">910GCLFDOWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8808849+01:00" ModificationDateTime="2026-09-23T15:50:16.8808849+01:00">910GCLFDOWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -707,7 +747,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.338104+01:00" ModificationDateTime="2026-08-26T14:34:04.338104+01:00">910GCLFDOWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8828894+01:00" ModificationDateTime="2026-09-23T15:50:16.8828894+01:00">910GCLFDOWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -739,7 +779,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.340103+01:00" ModificationDateTime="2026-08-26T14:34:04.340103+01:00">910GCLFDOWN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.8858882+01:00" ModificationDateTime="2026-09-23T15:50:16.8858882+01:00">910GCLFDOWN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -771,7 +811,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3550992+01:00" ModificationDateTime="2026-08-26T14:34:04.3550992+01:00">910GLAWRNCH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9018851+01:00" ModificationDateTime="2026-09-23T15:50:16.9018851+01:00">910GLAWRNCH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -803,7 +843,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.358104+01:00" ModificationDateTime="2026-08-26T14:34:04.358104+01:00">910GLAWRNCH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9058837+01:00" ModificationDateTime="2026-09-23T15:50:16.9058837+01:00">910GLAWRNCH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -835,7 +875,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3610958+01:00" ModificationDateTime="2026-08-26T14:34:04.3610958+01:00">910GLAWRNCH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9088849+01:00" ModificationDateTime="2026-09-23T15:50:16.9088849+01:00">910GLAWRNCH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -867,7 +907,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3760963+01:00" ModificationDateTime="2026-08-26T14:34:04.3760963+01:00">910GMONPELR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9238834+01:00" ModificationDateTime="2026-09-23T15:50:16.9238834+01:00">910GMONPELR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -899,7 +939,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3790961+01:00" ModificationDateTime="2026-08-26T14:34:04.3790961+01:00">910GMONPELR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9268847+01:00" ModificationDateTime="2026-09-23T15:50:16.9268847+01:00">910GMONPELR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -931,7 +971,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.3941044+01:00" ModificationDateTime="2026-08-26T14:34:04.3941044+01:00">910GPARSNST</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9438847+01:00" ModificationDateTime="2026-09-23T15:50:16.9438847+01:00">910GPARSNST</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -963,7 +1003,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4100965+01:00" ModificationDateTime="2026-08-26T14:34:04.4100965+01:00">910GPATCHWY</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9598979+01:00" ModificationDateTime="2026-09-23T15:50:16.9598979+01:00">910GPATCHWY</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -995,7 +1035,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4250959+01:00" ModificationDateTime="2026-08-26T14:34:04.4250959+01:00">910GPTWYPR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.975887+01:00" ModificationDateTime="2026-09-23T15:50:16.975887+01:00">910GPTWYPR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1027,7 +1067,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4271038+01:00" ModificationDateTime="2026-08-26T14:34:04.4271038+01:00">910GPTWYPR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9788882+01:00" ModificationDateTime="2026-09-23T15:50:16.9788882+01:00">910GPTWYPR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1059,7 +1099,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4430962+01:00" ModificationDateTime="2026-08-26T14:34:04.4430962+01:00">910GREDLAND</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:16.9938838+01:00" ModificationDateTime="2026-09-23T15:50:16.9938838+01:00">910GREDLAND</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1091,7 +1131,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4591047+01:00" ModificationDateTime="2026-08-26T14:34:04.4591047+01:00">910GSADWRD</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0108873+01:00" ModificationDateTime="2026-09-23T15:50:17.0108873+01:00">910GSADWRD</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1123,7 +1163,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4751048+01:00" ModificationDateTime="2026-08-26T14:34:04.4751048+01:00">910GSEMILLS</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0268871+01:00" ModificationDateTime="2026-09-23T15:50:17.0268871+01:00">910GSEMILLS</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1155,7 +1195,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.4900962+01:00" ModificationDateTime="2026-08-26T14:34:04.4900962+01:00">910GSHAMPTN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.042889+01:00" ModificationDateTime="2026-09-23T15:50:17.042889+01:00">910GSHAMPTN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1187,7 +1227,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5060975+01:00" ModificationDateTime="2026-08-26T14:34:04.5060975+01:00">910GSTPLTNR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0588865+01:00" ModificationDateTime="2026-09-23T15:50:17.0588865+01:00">910GSTPLTNR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1219,7 +1259,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5101044+01:00" ModificationDateTime="2026-08-26T14:34:04.5101044+01:00">910GSTPLTNR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0618851+01:00" ModificationDateTime="2026-09-23T15:50:17.0618851+01:00">910GSTPLTNR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1251,7 +1291,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5121045+01:00" ModificationDateTime="2026-08-26T14:34:04.5121045+01:00">910GSTPLTNR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0648853+01:00" ModificationDateTime="2026-09-23T15:50:17.0648853+01:00">910GSTPLTNR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1283,7 +1323,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5151068+01:00" ModificationDateTime="2026-08-26T14:34:04.5151068+01:00">910GSTPLTNR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0678844+01:00" ModificationDateTime="2026-09-23T15:50:17.0678844+01:00">910GSTPLTNR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1315,7 +1355,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.531097+01:00" ModificationDateTime="2026-08-26T14:34:04.531097+01:00">930GARN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.0848896+01:00" ModificationDateTime="2026-09-23T15:50:17.0848896+01:00">930GARN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1347,7 +1387,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5343432+01:00" ModificationDateTime="2026-08-26T14:34:04.5343432+01:00">930GBCC</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1008879+01:00" ModificationDateTime="2026-09-23T15:50:17.1008879+01:00">930GBCC</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1379,7 +1419,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5499711+01:00" ModificationDateTime="2026-08-26T14:34:04.5499711+01:00">930GBHB</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1168945+01:00" ModificationDateTime="2026-09-23T15:50:17.1168945+01:00">930GBHB</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1411,7 +1451,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="delete" Status="inactive" CreationDateTime="2026-08-26T14:34:04.5656004+01:00" ModificationDateTime="2026-08-26T14:34:04.5656004+01:00">930GBRA</StopAreaRef>
+				<StopAreaRef Modification="delete" Status="inactive" CreationDateTime="2026-09-23T15:50:17.1328883+01:00" ModificationDateTime="2026-09-23T15:50:17.1328883+01:00">930GBRA</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1443,7 +1483,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.5812192+01:00" ModificationDateTime="2026-08-26T14:34:04.5812192+01:00">930GBRC</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1478857+01:00" ModificationDateTime="2026-09-23T15:50:17.1478857+01:00">930GBRC</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1475,7 +1515,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6081649+01:00" ModificationDateTime="2026-08-26T14:34:04.6081649+01:00">930GBRD</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1638882+01:00" ModificationDateTime="2026-09-23T15:50:17.1638882+01:00">930GBRD</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1507,7 +1547,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6121737+01:00" ModificationDateTime="2026-08-26T14:34:04.6121737+01:00">930GBRE</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1668858+01:00" ModificationDateTime="2026-09-23T15:50:17.1668858+01:00">930GBRE</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1539,7 +1579,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6271749+01:00" ModificationDateTime="2026-08-26T14:34:04.6271749+01:00">930GBRF</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1818883+01:00" ModificationDateTime="2026-09-23T15:50:17.1818883+01:00">930GBRF</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1571,7 +1611,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6421762+01:00" ModificationDateTime="2026-08-26T14:34:04.6421762+01:00">930GBRG</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.1988881+01:00" ModificationDateTime="2026-09-23T15:50:17.1988881+01:00">930GBRG</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1603,7 +1643,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6581653+01:00" ModificationDateTime="2026-08-26T14:34:04.6581653+01:00">930GBRH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.2138911+01:00" ModificationDateTime="2026-09-23T15:50:17.2138911+01:00">930GBRH</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1635,7 +1675,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6611727+01:00" ModificationDateTime="2026-08-26T14:34:04.6611727+01:00">930GBRL</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.2168886+01:00" ModificationDateTime="2026-09-23T15:50:17.2168886+01:00">930GBRL</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1667,7 +1707,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6761737+01:00" ModificationDateTime="2026-08-26T14:34:04.6761737+01:00">930GBRM</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.2338864+01:00" ModificationDateTime="2026-09-23T15:50:17.2338864+01:00">930GBRM</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1699,7 +1739,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.6921725+01:00" ModificationDateTime="2026-08-26T14:34:04.6921725+01:00">930GBRN</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.249901+01:00" ModificationDateTime="2026-09-23T15:50:17.249901+01:00">930GBRN</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1731,7 +1771,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="delete" Status="inactive" CreationDateTime="2026-08-26T14:34:04.7071719+01:00" ModificationDateTime="2026-08-26T14:34:04.7071719+01:00">930GBRP</StopAreaRef>
+				<StopAreaRef Modification="delete" Status="inactive" CreationDateTime="2026-09-23T15:50:17.266889+01:00" ModificationDateTime="2026-09-23T15:50:17.266889+01:00">930GBRP</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1763,7 +1803,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7231725+01:00" ModificationDateTime="2026-08-26T14:34:04.7231725+01:00">930GBRQ</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.2818907+01:00" ModificationDateTime="2026-09-23T15:50:17.2818907+01:00">930GBRQ</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1795,7 +1835,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7343206+01:00" ModificationDateTime="2026-08-26T14:34:04.7343206+01:00">930GBRR</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.2978909+01:00" ModificationDateTime="2026-09-23T15:50:17.2978909+01:00">930GBRR</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1827,7 +1867,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7499468+01:00" ModificationDateTime="2026-08-26T14:34:04.7499468+01:00">930GBRS</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.3138952+01:00" ModificationDateTime="2026-09-23T15:50:17.3138952+01:00">930GBRS</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1859,7 +1899,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7655825+01:00" ModificationDateTime="2026-08-26T14:34:04.7655825+01:00">930GBRT</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.3298888+01:00" ModificationDateTime="2026-09-23T15:50:17.3298888+01:00">930GBRT</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1891,7 +1931,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7811982+01:00" ModificationDateTime="2026-08-26T14:34:04.7811982+01:00">930GBRW</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.3448877+01:00" ModificationDateTime="2026-09-23T15:50:17.3448877+01:00">930GBRW</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1923,7 +1963,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7979749+01:00" ModificationDateTime="2026-08-26T14:34:04.7979749+01:00">930GGAS</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.3598878+01:00" ModificationDateTime="2026-09-23T15:50:17.3598878+01:00">930GGAS</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1955,7 +1995,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.7979749+01:00" ModificationDateTime="2026-08-26T14:34:04.7979749+01:00">930GHNV</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.362887+01:00" ModificationDateTime="2026-09-23T15:50:17.362887+01:00">930GHNV</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -1987,7 +2027,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.8136132+01:00" ModificationDateTime="2026-08-26T14:34:04.8136132+01:00">930GNLF</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.3798881+01:00" ModificationDateTime="2026-09-23T15:50:17.3798881+01:00">930GNLF</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -2019,7 +2059,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.8292389+01:00" ModificationDateTime="2026-08-26T14:34:04.8292389+01:00">930GOST</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.3948903+01:00" ModificationDateTime="2026-09-23T15:50:17.3948903+01:00">930GOST</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -2051,7 +2091,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.8448703+01:00" ModificationDateTime="2026-08-26T14:34:04.8448703+01:00">930GSTP</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.4098878+01:00" ModificationDateTime="2026-09-23T15:50:17.4098878+01:00">930GSTP</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -2083,45 +2123,8 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:04.8645396+01:00" ModificationDateTime="2026-08-26T14:34:04.8645396+01:00">930GWWH</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:17.4258911+01:00" ModificationDateTime="2026-09-23T15:50:17.4258911+01:00">930GWWH</StopAreaRef>
 			</StopAreas>
-			<AdministrativeAreaRef>009</AdministrativeAreaRef>
-		</StopPoint>
-		<StopPoint CreationDateTime="2003-06-12T00:00:00" ModificationDateTime="2023-12-13T15:24:05" Modification="new" RevisionNumber="4" Status="active">
-			<AtcoCode>0100BRP90111</AtcoCode>
-			<NaptanCode>bstjpgm</NaptanCode>
-			<Descriptor>
-				<CommonName xml:lang="en">Dormer Road</CommonName>
-				<Street xml:lang="en">Muller Road</Street>
-				<Indicator xml:lang="en">NW-bound</Indicator>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>E0035600</NptgLocalityRef>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>360681</Easting>
-						<Northing>175367</Northing>
-						<Longitude>-2.56753</Longitude>
-						<Latitude>51.47589</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>BCT</StopType>
-				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>NW</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
-				</OnStreet>
-			</StopClassification>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
 		<StopPoint CreationDateTime="2009-02-05T00:00:00" ModificationDateTime="2017-10-03T13:41:39" Modification="new" RevisionNumber="14" Status="active">
@@ -25528,7 +25531,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.6915881+01:00" ModificationDateTime="2026-08-26T14:34:09.6915881+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4379329+01:00" ModificationDateTime="2026-09-23T15:50:22.4379329+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25562,7 +25565,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.6945877+01:00" ModificationDateTime="2026-08-26T14:34:09.6945877+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4409361+01:00" ModificationDateTime="2026-09-23T15:50:22.4409361+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25596,7 +25599,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.6975885+01:00" ModificationDateTime="2026-08-26T14:34:09.6975885+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4439314+01:00" ModificationDateTime="2026-09-23T15:50:22.4439314+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25630,7 +25633,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7005883+01:00" ModificationDateTime="2026-08-26T14:34:09.7005883+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4489373+01:00" ModificationDateTime="2026-09-23T15:50:22.4489373+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25664,7 +25667,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7045882+01:00" ModificationDateTime="2026-08-26T14:34:09.7045882+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4519311+01:00" ModificationDateTime="2026-09-23T15:50:22.4519311+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25698,7 +25701,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7075881+01:00" ModificationDateTime="2026-08-26T14:34:09.7075881+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4559293+01:00" ModificationDateTime="2026-09-23T15:50:22.4559293+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25732,7 +25735,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7105882+01:00" ModificationDateTime="2026-08-26T14:34:09.7105882+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4589338+01:00" ModificationDateTime="2026-09-23T15:50:22.4589338+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25766,7 +25769,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7136069+01:00" ModificationDateTime="2026-08-26T14:34:09.7136069+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4619288+01:00" ModificationDateTime="2026-09-23T15:50:22.4619288+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25800,7 +25803,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7166042+01:00" ModificationDateTime="2026-08-26T14:34:09.7166042+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.465931+01:00" ModificationDateTime="2026-09-23T15:50:22.465931+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25834,7 +25837,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.719604+01:00" ModificationDateTime="2026-08-26T14:34:09.719604+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4689332+01:00" ModificationDateTime="2026-09-23T15:50:22.4689332+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25868,7 +25871,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7225897+01:00" ModificationDateTime="2026-08-26T14:34:09.7225897+01:00">010G0001</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4719372+01:00" ModificationDateTime="2026-09-23T15:50:22.4719372+01:00">010G0001</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25902,7 +25905,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7286048+01:00" ModificationDateTime="2026-08-26T14:34:09.7286048+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4789321+01:00" ModificationDateTime="2026-09-23T15:50:22.4789321+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25936,7 +25939,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7326053+01:00" ModificationDateTime="2026-08-26T14:34:09.7326053+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4819289+01:00" ModificationDateTime="2026-09-23T15:50:22.4819289+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -25970,7 +25973,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7355885+01:00" ModificationDateTime="2026-08-26T14:34:09.7355885+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4849314+01:00" ModificationDateTime="2026-09-23T15:50:22.4849314+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -26004,7 +26007,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7385886+01:00" ModificationDateTime="2026-08-26T14:34:09.7385886+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4879307+01:00" ModificationDateTime="2026-09-23T15:50:22.4879307+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -26038,7 +26041,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7425889+01:00" ModificationDateTime="2026-08-26T14:34:09.7425889+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4909311+01:00" ModificationDateTime="2026-09-23T15:50:22.4909311+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -26072,7 +26075,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7455887+01:00" ModificationDateTime="2026-08-26T14:34:09.7455887+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4949288+01:00" ModificationDateTime="2026-09-23T15:50:22.4949288+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -26106,7 +26109,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.748589+01:00" ModificationDateTime="2026-08-26T14:34:09.748589+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4979336+01:00" ModificationDateTime="2026-09-23T15:50:22.4979336+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -26140,7 +26143,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7515887+01:00" ModificationDateTime="2026-08-26T14:34:09.7515887+01:00">010G0005</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.5019328+01:00" ModificationDateTime="2026-09-23T15:50:22.5019328+01:00">010G0005</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
@@ -58684,43 +58687,6 @@
 			</StopClassification>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
-		<StopPoint CreationDateTime="2026-04-22T00:00:00" ModificationDateTime="2026-08-11T15:51:27" Modification="new" RevisionNumber="153" Status="active">
-			<AtcoCode>010000150</AtcoCode>
-			<NaptanCode>bstptgp</NaptanCode>
-			<Descriptor>
-				<CommonName xml:lang="en">Temple Quarter Campus</CommonName>
-				<Street xml:lang="en">Feeder Road</Street>
-				<Indicator xml:lang="en">T10</Indicator>
-			</Descriptor>
-			<Place>
-				<NptgLocalityRef>N0077020</NptgLocalityRef>
-				<LocalityCentre>false</LocalityCentre>
-				<Location>
-					<Translation>
-						<GridType>UKOS</GridType>
-						<Easting>359953</Easting>
-						<Northing>172314</Northing>
-						<Longitude>-2.57766</Longitude>
-						<Latitude>51.44839</Latitude>
-					</Translation>
-				</Location>
-			</Place>
-			<StopClassification>
-				<StopType>BCT</StopType>
-				<OnStreet>
-					<Bus>
-						<BusStopType>MKD</BusStopType>
-						<TimingStatus>OTH</TimingStatus>
-						<MarkedPoint>
-							<Bearing>
-								<CompassPoint>E</CompassPoint>
-							</Bearing>
-						</MarkedPoint>
-					</Bus>
-				</OnStreet>
-			</StopClassification>
-			<AdministrativeAreaRef>009</AdministrativeAreaRef>
-		</StopPoint>
 		<StopPoint CreationDateTime="2026-06-25T00:00:00" ModificationDateTime="2026-08-11T16:08:52" Modification="new" RevisionNumber="105" Status="active">
 			<AtcoCode>010000151</AtcoCode>
 			<NaptanCode>bstptgt</NaptanCode>
@@ -61829,21 +61795,57 @@
 			</StopClassification>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 		</StopPoint>
+		<StopPoint CreationDateTime="2003-06-12T00:00:00" ModificationDateTime="2023-12-13T15:24:05" Modification="new" RevisionNumber="4" Status="active">
+			<AtcoCode>0100BRP90111</AtcoCode>
+			<NaptanCode>bstjpgm</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">Dormer Road</CommonName>
+				<Street xml:lang="en">Muller Road</Street>
+				<Indicator xml:lang="en">NW-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>E0035600</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>360681</Easting>
+						<Northing>175367</Northing>
+						<Longitude>-2.56753</Longitude>
+						<Latitude>51.47589</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>NW</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>009</AdministrativeAreaRef>
+		</StopPoint>
 	</StopPoints>
 	<StopAreas>
-		<StopArea CreationDateTime="2020-11-26T00:00:00" ModificationDateTime="2020-11-26T13:32:01" Modification="new" RevisionNumber="289" Status="active">
+		<StopArea CreationDateTime="2020-11-26T00:00:00" ModificationDateTime="2026-04-16T15:32:35" Modification="new" RevisionNumber="389" Status="active">
 			<StopAreaCode>010G0002</StopAreaCode>
 			<Name xml:lang="en">Temple Meads Station</Name>
-			<ParentStopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:03.8548834+01:00" ModificationDateTime="2026-08-26T14:34:03.8548834+01:00">910GBRSTLTM</ParentStopAreaRef>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
 			<StopAreaType>GBCS</StopAreaType>
 			<Location>
 				<Translation>
 					<GridType>UKOS</GridType>
-					<Easting>359514</Easting>
-					<Northing>172349</Northing>
-					<Longitude>-2.58399</Longitude>
-					<Latitude>51.44867</Latitude>
+					<Easting>359444</Easting>
+					<Northing>172498</Northing>
+					<Longitude>-2.58501</Longitude>
+					<Latitude>51.45001</Latitude>
 				</Translation>
 			</Location>
 		</StopArea>
@@ -61877,7 +61879,7 @@
 				</Translation>
 			</Location>
 		</StopArea>
-		<StopArea Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.6725881+01:00" ModificationDateTime="2025-02-07T10:08:36">
+		<StopArea Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4189304+01:00" ModificationDateTime="2025-02-07T10:08:36">
 			<StopAreaCode>010G0001</StopAreaCode>
 			<Name xml:lang="en">Bristol Bus Station</Name>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
@@ -61892,7 +61894,7 @@
 				</Translation>
 			</Location>
 		</StopArea>
-		<StopArea Modification="new" Status="active" CreationDateTime="2026-08-26T14:34:09.7225897+01:00" ModificationDateTime="2025-02-07T10:08:37">
+		<StopArea Modification="new" Status="active" CreationDateTime="2026-09-23T15:50:22.4719372+01:00" ModificationDateTime="2025-02-07T10:08:37">
 			<StopAreaCode>010G0005</StopAreaCode>
 			<Name xml:lang="en">Bristol Bus Station</Name>
 			<AdministrativeAreaRef>009</AdministrativeAreaRef>
