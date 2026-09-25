@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.95.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-03T16:23:35.070427Z" ModificationDateTime="2026-09-03T16:23:35.070427Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-24T16:59:19.149209Z" ModificationDateTime="2026-09-24T16:59:19.149209Z" Modification="new" RevisionNumber="1" FileName="209.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2013-06-07T15:26:00" ModificationDateTime="2023-06-16T16:48:37" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>20900106286</AtcoCode>
@@ -5337,7 +5337,7 @@
         <PlusbusZoneRef CreationDateTime="2014-01-17T16:48:00" ModificationDateTime="2014-01-17T17:03:00" Modification="revise" RevisionNumber="1" Status="active">HEREFRD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2014-01-30T15:57:00" ModificationDateTime="2015-01-16T10:33:33" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2014-01-30T15:57:00" ModificationDateTime="2026-09-10T14:21:36" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2090A0106304</AtcoCode>
       <NaptanCode>heratmgp</NaptanCode>
       <Descriptor>
@@ -5368,7 +5368,7 @@
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -9000,7 +9000,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-07-17T11:54:58" ModificationDateTime="2026-07-17T11:52:31" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-07-17T11:54:58" ModificationDateTime="2026-09-09T15:42:21" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2090A0106498</AtcoCode>
       <NaptanCode>heratwag</NaptanCode>
       <Descriptor>
@@ -9031,7 +9031,7 @@
             <TimingStatus>OTH</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>SW</CompassPoint>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -13855,7 +13855,7 @@
         <PlusbusZoneRef CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2012-01-27T10:46:00" Modification="revise" RevisionNumber="1" Status="active">HEREFRD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2024-06-13T18:21:04" Modification="revise" RevisionNumber="12" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-24T17:58:17" Modification="revise" RevisionNumber="13" Status="inactive">
       <AtcoCode>2090A041608</AtcoCode>
       <NaptanCode>heradagw</NaptanCode>
       <Descriptor>
@@ -13900,10 +13900,9 @@
         <PlusbusZoneRef CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2012-01-27T10:46:00" Modification="revise" RevisionNumber="1" Status="active">HEREFRD</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-06-13T18:21:04" ModificationDateTime="2024-06-13T18:21:04" Modification="new">
+        <StopValidity CreationDateTime="2024-06-13T18:21:04" ModificationDateTime="2026-09-24T17:58:17" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-06-13</StartDate>
-            <EndDate>2024-06-13</EndDate>
           </DateRange>
           <Suspended />
         </StopValidity>
@@ -13954,7 +13953,7 @@
         <PlusbusZoneRef CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2012-01-27T10:46:00" Modification="revise" RevisionNumber="1" Status="active">HEREFRD</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2024-06-13T18:21:58" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-24T17:58:49" Modification="revise" RevisionNumber="11" Status="inactive">
       <AtcoCode>2090A041610</AtcoCode>
       <NaptanCode>heradajd</NaptanCode>
       <Descriptor>
@@ -13999,10 +13998,9 @@
         <PlusbusZoneRef CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2012-01-27T10:46:00" Modification="revise" RevisionNumber="1" Status="active">HEREFRD</PlusbusZoneRef>
       </PlusbusZones>
       <StopAvailability>
-        <StopValidity CreationDateTime="2024-06-13T18:21:58" ModificationDateTime="2024-06-13T18:21:58" Modification="new">
+        <StopValidity CreationDateTime="2024-06-13T18:21:58" ModificationDateTime="2026-09-24T17:58:49" Modification="revise" RevisionNumber="1">
           <DateRange>
             <StartDate>2024-06-13</StartDate>
-            <EndDate>2024-06-13</EndDate>
           </DateRange>
           <Suspended />
         </StopValidity>
@@ -14569,7 +14567,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2024-01-17T11:16:42" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T13:50:45" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>2090A042200</AtcoCode>
       <NaptanCode>heradadt</NaptanCode>
       <Descriptor>
@@ -14601,7 +14599,7 @@
             <TimingStatus>PTP</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -14883,7 +14881,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2023-11-07T16:27:42" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T14:15:55" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>2090A042701</AtcoCode>
       <NaptanCode>heradatd</NaptanCode>
       <Descriptor>
@@ -14899,10 +14897,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>355189</Easting>
-            <Northing>217539</Northing>
-            <Longitude>-2.652024428</Longitude>
-            <Latitude>51.854628299</Latitude>
+            <Easting>355179</Easting>
+            <Northing>217548</Northing>
+            <Longitude>-2.652170804</Longitude>
+            <Latitude>51.854711403</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -14922,7 +14920,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2005-04-07T00:00:00" Modification="delete" RevisionNumber="0" Status="inactive">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T14:19:17" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>2090A042702</AtcoCode>
       <NaptanCode>herapwdt</NaptanCode>
       <Descriptor>
@@ -14938,10 +14936,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>355184</Easting>
-            <Northing>217542</Northing>
-            <Longitude>-2.652104647</Longitude>
-            <Latitude>51.854661291</Latitude>
+            <Easting>355007</Easting>
+            <Northing>217599</Northing>
+            <Longitude>-2.654674590</Longitude>
+            <Latitude>51.855156035</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -25859,7 +25857,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2007-01-24T12:31:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T13:54:54" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>2090A120100</AtcoCode>
       <NaptanCode>heradtgw</NaptanCode>
       <Descriptor>
@@ -25890,7 +25888,7 @@
             <TimingStatus>PPT</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -25898,7 +25896,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2020-11-09T14:19:06" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T14:12:31" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>2090A120101</AtcoCode>
       <NaptanCode>heradtja</NaptanCode>
       <Descriptor>
@@ -25914,10 +25912,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>360156</Easting>
-            <Northing>224490</Northing>
-            <Longitude>-2.580721869</Longitude>
-            <Latitude>51.917506395</Latitude>
+            <Easting>360146</Easting>
+            <Northing>224491</Northing>
+            <Longitude>-2.580862528</Longitude>
+            <Latitude>51.917509612</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -31263,7 +31261,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2010-05-27T08:51:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T14:26:41" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2090A139600</AtcoCode>
       <NaptanCode>heragdgd</NaptanCode>
       <Descriptor>
@@ -31294,7 +31292,7 @@
             <TimingStatus>PPT</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -31302,13 +31300,13 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2022-06-14T12:57:49" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T14:22:36" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2090A139601</AtcoCode>
       <NaptanCode>heragdgj</NaptanCode>
       <Descriptor>
         <CommonName>Crown Inn</CommonName>
         <Landmark>Crown Inn</Landmark>
-        <Street>unclassiifed road</Street>
+        <Street>unclassified road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
@@ -41819,7 +41817,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2005-04-07T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T13:51:49" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2090A18581</AtcoCode>
       <NaptanCode>heragwja</NaptanCode>
       <Descriptor>
@@ -41851,7 +41849,7 @@
             <TimingStatus>PPT</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>SW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -45516,7 +45514,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2005-04-07T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T14:20:44" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2090A18759</AtcoCode>
       <NaptanCode>herajdgt</NaptanCode>
       <Descriptor>
@@ -45548,7 +45546,7 @@
             <TimingStatus>PPT</TimingStatus>
             <UnmarkedPoint>
               <Bearing>
-                <CompassPoint>S</CompassPoint>
+                <CompassPoint>NW</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -70971,7 +70969,7 @@
       </StopClassification>
       <AdministrativeAreaRef>023</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2020-11-09T16:02:58" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2005-04-07T00:00:00" ModificationDateTime="2026-09-10T13:53:32" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>2090A20116</AtcoCode>
       <NaptanCode>heramwtw</NaptanCode>
       <Descriptor>
@@ -71002,7 +71000,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
