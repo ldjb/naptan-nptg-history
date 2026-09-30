@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xml:lang="en" CreationDateTime="2026-09-17T09:12:43" ModificationDateTime="2026-09-17T09:12:43" Modification="revise" RevisionNumber="550" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
+<NaPTAN xml:lang="en" CreationDateTime="2026-09-29T17:18:51" ModificationDateTime="2026-09-29T17:18:51" Modification="revise" RevisionNumber="551" xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" FileName="NaPTAN290.xml" SchemaVersion="2.1">
   <StopPoints>
     <StopPoint CreationDateTime="2011-05-18T11:53:59" ModificationDateTime="2016-02-23T14:56:19" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>2900FLEX1</AtcoCode>
@@ -71805,7 +71805,7 @@
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-18T00:00:00" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2900E1710</AtcoCode>
       <NaptanCode>NFOAPDWM</NaptanCode>
       <Descriptor>
@@ -71842,8 +71842,16 @@
         <StopAreaRef CreationDateTime="2006-04-27T10:33:32" ModificationDateTime="2006-04-27T10:33:32" Modification="revise" RevisionNumber="0" Status="active">290G2141</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-17T15:40:34" ModificationDateTime="2026-09-17T15:40:34">
+          <DateRange>
+            <StartDate>2026-09-17</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-18T00:00:00" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>2900E1711</AtcoCode>
       <NaptanCode>NFOAPDWP</NaptanCode>
       <Descriptor>
@@ -71880,6 +71888,14 @@
         <StopAreaRef CreationDateTime="2006-04-27T10:33:32" ModificationDateTime="2006-04-27T10:33:32" Modification="revise" RevisionNumber="0" Status="active">290G2141</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-17T15:41:03" ModificationDateTime="2026-09-17T15:41:03">
+          <DateRange>
+            <StartDate>2026-09-17</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2021-10-21T11:08:37" ModificationDateTime="2021-10-21T11:08:37" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>2900D15911</AtcoCode>
@@ -249455,7 +249471,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-02-29T12:12:20" ModificationDateTime="2024-02-29T12:12:20" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2024-02-29T12:12:20" ModificationDateTime="2026-09-29T17:13:12" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>2900N125100</AtcoCode>
       <NaptanCode>NFOGWPGA</NaptanCode>
       <Descriptor>
@@ -249487,78 +249503,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2014-08-18T12:03:02" ModificationDateTime="2019-06-27T11:17:22" Modification="revise" RevisionNumber="3" Status="active">
-      <AtcoCode>2900N129101</AtcoCode>
-      <NaptanCode>NFOGTPAD</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Enterprise Centre</CommonName>
-        <Street xml:lang="en">University Drive</Street>
-        <Indicator xml:lang="en">adj</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0060670</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>619411</Easting>
-          <Northing>307932</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>N</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2014-08-18T12:06:48" ModificationDateTime="2014-08-18T12:06:48" Modification="revise" RevisionNumber="0" Status="active">290G56</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
-    </StopPoint>
-    <StopPoint CreationDateTime="2014-08-18T12:00:27" ModificationDateTime="2019-06-11T14:48:42" Modification="revise" RevisionNumber="1" Status="active">
-      <AtcoCode>2900N129100</AtcoCode>
-      <NaptanCode>NFOGTMWT</NaptanCode>
-      <Descriptor>
-        <CommonName xml:lang="en">Enterprise Centre</CommonName>
-        <Street xml:lang="en">University Drive</Street>
-        <Indicator xml:lang="en">opp</Indicator>
-      </Descriptor>
-      <Place>
-        <NptgLocalityRef>N0060670</NptgLocalityRef>
-        <LocalityCentre>0</LocalityCentre>
-        <Location>
-          <GridType>UKOS</GridType>
-          <Easting>619388</Easting>
-          <Northing>308119</Northing>
-        </Location>
-      </Place>
-      <StopClassification>
-        <StopType>BCT</StopType>
-        <OnStreet>
-          <Bus>
-            <BusStopType>MKD</BusStopType>
-            <TimingStatus>OTH</TimingStatus>
-            <MarkedPoint>
-              <Bearing>
-                <CompassPoint>S</CompassPoint>
-              </Bearing>
-            </MarkedPoint>
-          </Bus>
-        </OnStreet>
-      </StopClassification>
-      <StopAreas>
-        <StopAreaRef CreationDateTime="2014-08-18T12:06:48" ModificationDateTime="2014-08-18T12:06:48" Modification="revise" RevisionNumber="0" Status="active">290G56</StopAreaRef>
-      </StopAreas>
-      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-09-29T17:13:12" ModificationDateTime="2026-09-29T17:13:12">
+          <DateRange>
+            <StartDate>2026-09-28</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2022-06-09T00:00:00" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>2900N12598</AtcoCode>
@@ -249605,13 +249557,85 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-07-18T13:41:54" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2014-08-18T12:03:02" ModificationDateTime="2026-09-29T17:11:48" Modification="revise" RevisionNumber="4" Status="active">
+      <AtcoCode>2900N129101</AtcoCode>
+      <NaptanCode>NFOGTPAD</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">University Drive</CommonName>
+        <Street xml:lang="en">University Drive</Street>
+        <Indicator xml:lang="en">StopH</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0060670</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>619411</Easting>
+          <Northing>307932</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2014-08-18T12:06:48" ModificationDateTime="2014-08-18T12:06:48" Modification="revise" RevisionNumber="0" Status="active">290G56</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2014-08-18T12:00:27" ModificationDateTime="2026-09-29T17:12:23" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>2900N129100</AtcoCode>
+      <NaptanCode>NFOGTMWT</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">University Drive</CommonName>
+        <Street xml:lang="en">University Drive</Street>
+        <Indicator xml:lang="en">Stop J</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0060670</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+          <GridType>UKOS</GridType>
+          <Easting>619388</Easting>
+          <Northing>308119</Northing>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2014-08-18T12:06:48" ModificationDateTime="2014-08-18T12:06:48" Modification="revise" RevisionNumber="0" Status="active">290G56</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>091</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-29T17:10:08" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>2900N12392</AtcoCode>
       <NaptanCode>NFODJPTP</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Admissions Building</CommonName>
+        <CommonName xml:lang="en">Chancellors Drive</CommonName>
         <Street xml:lang="en">Chancellors Drive</Street>
-        <Indicator xml:lang="en">adj</Indicator>
+        <Indicator xml:lang="en">Stop E</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0060670</NptgLocalityRef>
@@ -249671,13 +249695,13 @@
       </StopClassification>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2019-07-18T13:43:01" Modification="revise" RevisionNumber="13" Status="active">
+    <StopPoint CreationDateTime="2003-02-22T14:04:04" ModificationDateTime="2026-09-29T17:11:06" Modification="revise" RevisionNumber="14" Status="active">
       <AtcoCode>2900N12391</AtcoCode>
       <NaptanCode>NFODJPTM</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Admissions Building</CommonName>
+        <CommonName xml:lang="en">Chancellors Drive</CommonName>
         <Street xml:lang="en">Chancellors Drive</Street>
-        <Indicator xml:lang="en">opp</Indicator>
+        <Indicator xml:lang="en">Stop G</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0060670</NptgLocalityRef>
@@ -293256,7 +293280,7 @@
         <Northing>321121</Northing>
       </Location>
     </StopArea>
-    <StopArea CreationDateTime="2006-04-27T10:33:23" ModificationDateTime="2009-06-30T14:27:36" Modification="revise" RevisionNumber="0" Status="active">
+    <StopArea CreationDateTime="2006-04-27T10:33:23" ModificationDateTime="2026-09-18T06:30:44" Modification="delete" RevisionNumber="0" Status="inactive">
       <StopAreaCode>290G2141</StopAreaCode>
       <Name xml:lang="en">Jubilee Close</Name>
       <AdministrativeAreaRef>091</AdministrativeAreaRef>
