@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-14T16:40:24.809" ModificationDateTime="2026-09-14T16:40:24.809" Modification="new" RevisionNumber="0" FileName="NaPTAN100.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-01T13:32:21.578" ModificationDateTime="2026-10-01T13:32:21.578" Modification="new" RevisionNumber="0" FileName="NaPTAN100_20261001_133225.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2008-08-07T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>100000000374</AtcoCode>
@@ -90362,7 +90362,7 @@
 <PlusbusZoneRef CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2008-02-25T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">CHFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2026-09-07T15:53:23.441" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2026-09-30T13:41:08.931" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1000DBCR3106</AtcoCode>
 <NaptanCode>dbsagpta</NaptanCode>
 <Descriptor>
@@ -210110,7 +210110,7 @@
 </StopAreas>
 <AdministrativeAreaRef>075</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-11-17T15:11:22.789" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2026-09-28T10:43:52.386" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1000DIWR5498</AtcoCode>
 <NaptanCode>dbsapwdt</NaptanCode>
 <Descriptor>
@@ -210461,7 +210461,7 @@
 </StopAreas>
 <AdministrativeAreaRef>075</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2025-11-17T15:11:41.412" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2026-09-28T10:41:09.690" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1000DIWRC854</AtcoCode>
 <NaptanCode>dbsamwjp</NaptanCode>
 <Descriptor>
@@ -367487,6 +367487,43 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>075</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-10-01T13:32:01.745" ModificationDateTime="2026-10-01T13:32:01.745" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>100054001</AtcoCode>
+<NaptanCode>dbsjgjwm</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Bus Garage</CommonName>
+<Street xml:lang="en">Chapel Street</Street>
+<Indicator xml:lang="en">Opposite</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0044948</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>434672</Easting>
+<Northing>347349</Northing>
+<Longitude>-1.4845606</Longitude>
+<Latitude>53.0223390</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+<Degrees>180</Degrees>
 </Bearing>
 </MarkedPoint>
 </Bus>
