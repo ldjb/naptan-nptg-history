@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-14T10:59:35" ModificationDateTime="2026-08-14T10:59:35" Modification="revise" RevisionNumber="1" FileName="571.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-10-06T09:16:39" ModificationDateTime="2026-10-06T09:16:39" Modification="revise" RevisionNumber="1" FileName="571.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-20T14:38:21" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>5710AWA10030</AtcoCode>
@@ -67529,7 +67529,7 @@
       <NaptanCode>cdimjgp</NaptanCode>
       <PlateCode>81</PlateCode>
       <Descriptor>
-        <CommonName>Maes y Llech</CommonName>
+        <CommonName xml:lang="cy">Maes y Llech</CommonName>
         <Landmark>Maes y Llech Cottages</Landmark>
         <Street>Llantrisant Road</Street>
         <Crossing>Clos Parc Radyr</Crossing>
@@ -67537,7 +67537,7 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:49:16">
-          <CommonName xml:lang="CY">Maes y Llech</CommonName>
+          <CommonName xml:lang="cy">Maes y Llech</CommonName>
           <Street>Llantrisant Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -67547,10 +67547,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>312998</Easting>
-            <Northing>179506</Northing>
-            <Longitude>-3.254992089</Longitude>
-            <Latitude>51.507763473</Latitude>
+            <Easting>312968</Easting>
+            <Northing>179534</Northing>
+            <Longitude>-3.25542914</Longitude>
+            <Latitude>51.5080106</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -67579,14 +67579,14 @@
       <NaptanCode>cdimjpt</NaptanCode>
       <PlateCode>89</PlateCode>
       <Descriptor>
-        <CommonName>Ty Gwyn</CommonName>
+        <CommonName xml:lang="cy">Ty Gwyn</CommonName>
         <Landmark>Ty Gwyn Farm</Landmark>
         <Street>Llantrisant Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:49:53">
-          <CommonName xml:lang="CY">Ty Gwyn</CommonName>
+          <CommonName xml:lang="cy">Ty Gwyn</CommonName>
           <Street>Llantrisant Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -67596,10 +67596,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>312748</Easting>
-            <Northing>179647</Northing>
-            <Longitude>-3.258628306</Longitude>
-            <Latitude>51.508992364</Latitude>
+            <Easting>312973</Easting>
+            <Northing>179532</Northing>
+            <Longitude>-3.255354817612961</Longitude>
+            <Latitude>51.50799279815639</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -75402,14 +75402,14 @@
     <StopPoint CreationDateTime="2014-03-10T09:56:54" ModificationDateTime="2025-09-15T15:17:23" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710CRDFCEN0</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Cardiff Central Rail Station</CommonName>
+        <CommonName xml:lang="cy">Cardiff Central Station</CommonName>
         <ShortCommonName>Cardiff Central</ShortCommonName>
         <Street>Wood Street</Street>
         <Indicator>Main Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:17:23">
-          <CommonName xml:lang="cy">Gorsaf Reilffordd Caerdydd Ganolog</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Caerdydd Ganolog</CommonName>
           <ShortCommonName>Caerdydd Ganolog</ShortCommonName>
           <Street xml:lang="EN">Wood Street</Street>
         </Descriptor>
@@ -75443,13 +75443,15 @@
     <StopPoint CreationDateTime="2014-03-10T09:57:30" ModificationDateTime="2025-09-15T15:18:41" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710CRDFCEN1</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Cardiff Central Rail Station</CommonName>
+        <CommonName xml:lang="cy">Cardiff Central Station</CommonName>
+        <ShortCommonName>Cardiff Central</ShortCommonName>
         <Street>Saunders Road</Street>
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:18:41">
-          <CommonName xml:lang="cy">Gorsaf Reilffordd Caerdydd Ganolog</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Caerdydd Ganolog</CommonName>
+          <ShortCommonName>Caerdydd Ganolog</ShortCommonName>
           <Street>Saunders Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -75482,13 +75484,13 @@
     <StopPoint CreationDateTime="2014-03-10T09:57:54" ModificationDateTime="2025-09-15T15:24:13" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710CRDFCEN2</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Cardiff Central Rail Station</CommonName>
+        <CommonName xml:lang="cy">Cardiff Central Station</CommonName>
         <Street>Wood Street</Street>
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:24:14">
-          <CommonName xml:lang="cy">Gorsaf Reilffordd Caerdydd Ganolog</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Caerdydd Ganolog</CommonName>
           <Street>Wood Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -75521,13 +75523,13 @@
     <StopPoint CreationDateTime="2014-03-10T09:58:40" ModificationDateTime="2025-09-15T15:24:59" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710CRDFCEN3</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Cardiff Central Rail Station</CommonName>
+        <CommonName xml:lang="cy">Cardiff Central Station</CommonName>
         <Street>Penarth Road</Street>
         <Indicator>Rear Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:24:59">
-          <CommonName xml:lang="cy">Gorsaf Reilffordd Caerdydd Ganolog</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Caerdydd Ganolog</CommonName>
           <Street>Penarth Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -75756,12 +75758,14 @@
       <AtcoCode>5710HEATHHL0</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Heath High Level Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Heath Halt Road</Street>
         <Indicator>SW Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:39:27">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Lefel Uchel y Mynydd Bychan</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Heath Halt Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -75795,12 +75799,14 @@
       <AtcoCode>5710HEATHHL1</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Heath High Level Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Heath Halt Road</Street>
         <Indicator>NE Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:51:28">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Lefel Uchel y Mynydd Bychan</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Heath Halt Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -75834,12 +75840,14 @@
       <AtcoCode>5710HEATHLL0</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Heath Low Level Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Heath Halt Road</Street>
         <Indicator>Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-15T15:52:42">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Lefel Isel y Mynydd Bychan</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Heath Halt Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -76029,12 +76037,14 @@
       <AtcoCode>5710LTHH0</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Lisvane &amp; Thornhill Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Clos Llys Faen</Street>
         <Indicator>Main Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T08:16:20">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Llys-faen a'r Ddraenen</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Clos Llys Faen</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -76068,12 +76078,14 @@
       <AtcoCode>5710LTHH1</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Lisvane &amp; Thornhill Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Cherry Orchard Road</Street>
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T08:17:26">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Llys-faen a'r Ddraenen</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Cherry Orchard Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -76107,12 +76119,14 @@
       <AtcoCode>5710LTHH2</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Lisvane &amp; Thornhill Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Clos Llys Faen</Street>
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T08:18:21">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Llys-faen a'r Ddraenen</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Clos Llys Faen</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -76505,13 +76519,15 @@
     <StopPoint CreationDateTime="2014-03-04T11:40:50" ModificationDateTime="2025-09-16T08:43:31" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710WAUNGRN0</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Waun-gron Park</CommonName>
+        <CommonName xml:lang="cy">Waun-gron Park Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Waun-gron Road</Street>
         <Indicator>East Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T08:43:32">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Parc Waun-gron</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Waun-gron Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -76545,12 +76561,14 @@
       <AtcoCode>5710WAUNGRN1</AtcoCode>
       <Descriptor>
         <CommonName xml:lang="cy">Waun-gron Park Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Waun-gron Road</Street>
         <Indicator>West Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T08:44:12">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Parc Waun-gron</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Waun-gron Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -77065,14 +77083,16 @@
       <NaptanCode>cditgaj</NaptanCode>
       <PlateCode>SW-bound</PlateCode>
       <Descriptor>
-        <CommonName>Dumballs Road Bottom</CommonName>
+        <CommonName xml:lang="cy">Dumballs Road Bottom</CommonName>
+        <ShortCommonName>Viceroy Court</ShortCommonName>
         <Street>Dumballs Road</Street>
         <Crossing>Carlotta Way</Crossing>
         <Indicator>o/s Viceroy Court</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:45">
-          <CommonName xml:lang="CY">Ffordd Dumballs Gwaelod</CommonName>
+          <CommonName xml:lang="cy">Ffordd Dumballs Gwaelod</CommonName>
+          <ShortCommonName>Viceroy Court</ShortCommonName>
           <Street>Dumballs Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -77113,14 +77133,16 @@
       <AtcoCode>5710WDB23324</AtcoCode>
       <NaptanCode>cditgam</NaptanCode>
       <Descriptor>
-        <CommonName>Dumballs Road Top</CommonName>
+        <CommonName xml:lang="cy">Dumballs Road Top</CommonName>
+        <ShortCommonName>KGB</ShortCommonName>
         <Landmark>Taff Workshops</Landmark>
         <Street>Dumballs Road</Street>
         <Indicator>o/s KGB</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:46">
-          <CommonName xml:lang="CY">Ffordd Dumballs Uchaf</CommonName>
+          <CommonName xml:lang="cy">Ffordd Dumballs Uchaf</CommonName>
+          <ShortCommonName>KGB</ShortCommonName>
           <Street>Dumballs Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -77161,14 +77183,16 @@
       <AtcoCode>5710WDB23325</AtcoCode>
       <NaptanCode>cditgap</NaptanCode>
       <Descriptor>
-        <CommonName>Dumballs Road Top</CommonName>
+        <CommonName xml:lang="cy">Dumballs Road Top</CommonName>
+        <ShortCommonName>St William House</ShortCommonName>
         <Landmark>Taff Workshops</Landmark>
         <Street>Dumballs Road</Street>
         <Indicator>o/s St William House</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:46">
-          <CommonName xml:lang="CY">Ffordd Dumballs Uchaf</CommonName>
+          <CommonName xml:lang="cy">Ffordd Dumballs Uchaf</CommonName>
+          <ShortCommonName>St William House</ShortCommonName>
           <Street>Dumballs Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -77209,13 +77233,15 @@
       <AtcoCode>5710WDB23326</AtcoCode>
       <NaptanCode>cditgat</NaptanCode>
       <Descriptor>
-        <CommonName>Dumballs Road Middle</CommonName>
+        <CommonName xml:lang="cy">Dumballs Road Middle</CommonName>
+        <ShortCommonName>Industrial Estate</ShortCommonName>
         <Street>Dumballs Road</Street>
         <Indicator>adj Industrial Estate</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:45">
-          <CommonName xml:lang="CY">Ffordd Dumballs Canol</CommonName>
+          <CommonName xml:lang="cy">Ffordd Dumballs Canol</CommonName>
+          <ShortCommonName>Industrial Estate</ShortCommonName>
           <Street>Dumballs Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -77256,13 +77282,15 @@
       <AtcoCode>5710WDB23327</AtcoCode>
       <NaptanCode>cditgaw</NaptanCode>
       <Descriptor>
-        <CommonName>Dumballs Road Middle</CommonName>
+        <CommonName xml:lang="cy">Dumballs Road Middle</CommonName>
+        <ShortCommonName>Industrial Estate</ShortCommonName>
         <Street>Dumballs Road</Street>
         <Indicator>opp Industrial Estate</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:45">
-          <CommonName xml:lang="CY">Ffordd Dumballs Canol</CommonName>
+          <CommonName xml:lang="cy">Ffordd Dumballs Canol</CommonName>
+          <ShortCommonName>Industrial Estate</ShortCommonName>
           <Street>Dumballs Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -78574,14 +78602,16 @@
       <AtcoCode>5710WDB25062</AtcoCode>
       <NaptanCode>cdipwgt</NaptanCode>
       <Descriptor>
-        <CommonName>Mermaid Quay Waterbus</CommonName>
+        <CommonName xml:lang="cy">Mermaid Quay Waterbus</CommonName>
+        <ShortCommonName>Waterbus</ShortCommonName>
         <Street>Stuart Street</Street>
         <Crossing>Tacoma Square</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T10:52:06">
-          <CommonName xml:lang="EN">Mermaid Quay Waterbus</CommonName>
+          <CommonName xml:lang="cy">Mermaid Quay Waterbus</CommonName>
+          <ShortCommonName>Waterbus</ShortCommonName>
           <Street>Stuart Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -79496,7 +79526,8 @@
       <AtcoCode>5710WDB25312</AtcoCode>
       <NaptanCode>cditapd</NaptanCode>
       <Descriptor>
-        <CommonName>Fishguard Road Shops</CommonName>
+        <CommonName xml:lang="cy">Fishguard Road Shops</CommonName>
+        <ShortCommonName>Shops</ShortCommonName>
         <Landmark>49 Fishguard Road</Landmark>
         <Street>Fishguard Road</Street>
         <Crossing>St Dogmael`s Road</Crossing>
@@ -79504,7 +79535,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:49">
-          <CommonName xml:lang="CY">Siopau Heol Abergwaun</CommonName>
+          <CommonName xml:lang="cy">Siopau Heol Abergwaun</CommonName>
+          <ShortCommonName>Siopau</ShortCommonName>
           <Street>Fishguard Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -79602,6 +79634,7 @@
       <NaptanCode>cditapj</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Hampton Crescent West</CommonName>
+        <ShortCommonName>Hampton Crescent</ShortCommonName>
         <Street>Hampton Crescent West</Street>
         <Crossing>Westminster Drive</Crossing>
         <Indicator>o/s 6</Indicator>
@@ -79842,14 +79875,16 @@
       <AtcoCode>5710WDB25395</AtcoCode>
       <NaptanCode>cditdap</NaptanCode>
       <Descriptor>
-        <CommonName>Colchester Avenue Top</CommonName>
+        <CommonName xml:lang="cy">Colchester Avenue Top</CommonName>
+        <ShortCommonName>Colchester Avenue</ShortCommonName>
         <Street>Colchester Avenue</Street>
         <Crossing>Penylan Road</Crossing>
         <Indicator>o/s 9</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T11:47:52">
-          <CommonName xml:lang="EN">Colchester Avenue Top</CommonName>
+          <CommonName xml:lang="cy">Colchester Avenue Top</CommonName>
+          <ShortCommonName>Colchester Avenue</ShortCommonName>
           <Street>Colchester Avenue</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -80756,7 +80791,8 @@
       <AtcoCode>5710WDB25435</AtcoCode>
       <NaptanCode>cditdmp</NaptanCode>
       <Descriptor>
-        <CommonName>Queen Charlotte Drive</CommonName>
+        <CommonName xml:lang="cy">Queen Charlotte Drive</CommonName>
+        <ShortCommonName>Cardiff Road</ShortCommonName>
         <Landmark>6 Queen Charlotte Drive</Landmark>
         <Street>Cardiff Road</Street>
         <Crossing>Queen Charlotte Drive</Crossing>
@@ -80764,7 +80800,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T13:38:55">
-          <CommonName xml:lang="EN">Queen Charlotte Drive</CommonName>
+          <CommonName xml:lang="cy">Queen Charlotte Drive</CommonName>
+          <ShortCommonName>Cardiff Road</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -80805,14 +80842,16 @@
       <AtcoCode>5710WDB25436</AtcoCode>
       <NaptanCode>cditdmt</NaptanCode>
       <Descriptor>
-        <CommonName>Queen Charlotte Drive</CommonName>
+        <CommonName xml:lang="cy">Queen Charlotte Drive</CommonName>
+        <ShortCommonName>Cardiff Road</ShortCommonName>
         <Street>Cardiff Road</Street>
         <Crossing>Queen Charlotte Drive</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T13:39:49">
-          <CommonName xml:lang="EN">Queen Charlotte Drive</CommonName>
+          <CommonName xml:lang="cy">Queen Charlotte Drive</CommonName>
+          <ShortCommonName>Cardiff Road</ShortCommonName>
           <Street>Cardiff Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -81199,6 +81238,7 @@
       <PlateCode>5601 0786</PlateCode>
       <Descriptor>
         <CommonName xml:lang="cy">Lower Churchill Way HG</CommonName>
+        <ShortCommonName>Churchill Way HG</ShortCommonName>
         <Landmark>CIA</Landmark>
         <Street>Churchill Way</Street>
         <Crossing>Bridge Street</Crossing>
@@ -81207,6 +81247,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:48:57">
           <CommonName xml:lang="cy">Lower Churchill Way HG</CommonName>
+          <ShortCommonName>Churchill Way HG</ShortCommonName>
           <Street>Churchill Way</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -83379,6 +83420,7 @@
       <NaptanCode>cditjpd</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Capital Business Park</CommonName>
+        <ShortCommonName>Business Park</ShortCommonName>
         <Landmark>Capital Business Park</Landmark>
         <Street>Wentloog Avenue</Street>
         <Indicator>adj Aldi Depot</Indicator>
@@ -83386,6 +83428,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T15:32:59">
           <CommonName xml:lang="cy">Parc Busnes y Brifddinas</CommonName>
+          <ShortCommonName>Parc Busnes</ShortCommonName>
           <Street>Wentloog Avenue</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -84669,12 +84712,14 @@
       <PlateCode>5601 1024</PlateCode>
       <Descriptor>
         <CommonName xml:lang="cy">Park &amp; Ride Top</CommonName>
+        <ShortCommonName>Park &amp; Ride</ShortCommonName>
         <Street>Grounds</Street>
         <Indicator>inside</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-16T16:00:19">
           <CommonName xml:lang="cy">Parcio a Theithio Uchaf</CommonName>
+          <ShortCommonName>Parcio a Theithio</ShortCommonName>
           <Street>Grounds</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -86904,6 +86949,7 @@
       <NaptanCode>cditpap</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Cardiff City Stadium</CommonName>
+        <ShortCommonName>Stadium</ShortCommonName>
         <Landmark>Cardiff City Stadium</Landmark>
         <Street>Leckwith Road</Street>
         <Indicator>nr Car Park</Indicator>
@@ -86911,6 +86957,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T09:28:57">
           <CommonName xml:lang="cy">Stadiwm Dinas Caerdydd</CommonName>
+          <ShortCommonName>Stadiwm</ShortCommonName>
           <Street>Leckwith Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -86952,12 +86999,14 @@
       <PlateCode>5601-1997</PlateCode>
       <Descriptor>
         <CommonName xml:lang="cy">Caerphilly Road Aldi</CommonName>
+        <ShortCommonName>Al</ShortCommonName>
         <Street>Caerphilly Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T09:29:38">
           <CommonName xml:lang="cy">Aldi Ffordd Caerffili</CommonName>
+          <ShortCommonName>Aldi</ShortCommonName>
           <Street>Caerphilly Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -87227,14 +87276,16 @@
       <AtcoCode>5710WDB48470</AtcoCode>
       <NaptanCode>cditpgd</NaptanCode>
       <Descriptor>
-        <CommonName>Customhouse Street JW</CommonName>
+        <CommonName xml:lang="cy">Customhouse Street JW</CommonName>
+        <ShortCommonName>Premier Inn</ShortCommonName>
         <Landmark>Old Customhouse</Landmark>
         <Street>Customhouse Street</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T09:42:32">
-          <CommonName xml:lang="EN">Customhouse Street JW</CommonName>
+          <CommonName xml:lang="cy">Customhouse Street JW</CommonName>
+          <ShortCommonName>Premier Inn</ShortCommonName>
           <Street>Customhouse Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -87280,14 +87331,16 @@
       <AtcoCode>5710WDB48472</AtcoCode>
       <NaptanCode>cditpgm</NaptanCode>
       <Descriptor>
-        <CommonName>Lower St Mary Street NB</CommonName>
+        <CommonName xml:lang="cy">Lower St Mary Street NB</CommonName>
+        <ShortCommonName>St Mary Street</ShortCommonName>
         <Landmark>William Hill</Landmark>
         <Street>St Mary Street</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T09:43:12">
-          <CommonName xml:lang="EN">Lower St Mary Street NB</CommonName>
+          <CommonName xml:lang="cy">Lower St Mary Street NB</CommonName>
+          <ShortCommonName>St Mary Street</ShortCommonName>
           <Street>St Mary Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -88076,13 +88129,15 @@
       <AtcoCode>5710WDB48493</AtcoCode>
       <NaptanCode>cditptm</NaptanCode>
       <Descriptor>
-        <CommonName>Wyevale Garden Centre</CommonName>
+        <CommonName xml:lang="cy">Wyevale Garden Centre</CommonName>
+        <ShortCommonName>Garden Centre</ShortCommonName>
         <Street>A48 Newport Road</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:50:03">
-          <CommonName xml:lang="CY">Canolfan Arddio Wyevale</CommonName>
+          <CommonName xml:lang="cy">Canolfan Arddio Wyevale</CommonName>
+          <ShortCommonName>Canolfan Arddio</ShortCommonName>
           <Street>A48 Newport Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -88127,13 +88182,15 @@
       <AtcoCode>5710WDB48494</AtcoCode>
       <NaptanCode>cditptp</NaptanCode>
       <Descriptor>
-        <CommonName>Wyevale Garden Centre</CommonName>
+        <CommonName xml:lang="cy">Wyevale Garden Centre</CommonName>
+        <ShortCommonName>Garden Centre</ShortCommonName>
         <Street>A48 Newport Road</Street>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-01-02T15:50:03">
-          <CommonName xml:lang="CY">Canolfan Arddio Wyevale</CommonName>
+          <CommonName xml:lang="cy">Canolfan Arddio Wyevale</CommonName>
+          <ShortCommonName>Canolfan Arddio</ShortCommonName>
           <Street>A48 Newport Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -88797,6 +88854,7 @@
       <NaptanCode>cditwjg</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">East Park &amp; Ride 2</CommonName>
+        <ShortCommonName>Park &amp; Ride 2</ShortCommonName>
         <Landmark>Park &amp; Ride site office</Landmark>
         <Street>A48 Eastern Avenue</Street>
         <Indicator>in</Indicator>
@@ -88804,6 +88862,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T10:58:27">
           <CommonName xml:lang="cy">Parcio a Theithio Dwyrain 2</CommonName>
+          <ShortCommonName>Parcio a Theithio 2</ShortCommonName>
           <Street>A48 Eastern Avenue</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -88938,12 +88997,14 @@
       <NaptanCode>cditwjt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">East Park &amp; Ride</CommonName>
+        <ShortCommonName>Park &amp; Ride</ShortCommonName>
         <Street>A48 Eastern Ave</Street>
         <Indicator>in</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T11:02:11">
           <CommonName xml:lang="cy">Parcio a Theithio Dwyrain</CommonName>
+          <ShortCommonName>Parcio a Theithio</ShortCommonName>
           <Street>A48 Eastern Ave</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -91081,12 +91142,14 @@
       <NaptanCode>cdiwamw</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Capital Business Park</CommonName>
+        <ShortCommonName>Business Park</ShortCommonName>
         <Street>Wentloog Avenue</Street>
         <Indicator>opp. Aldi depot</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T11:34:48">
           <CommonName xml:lang="cy">Parc Busnes y Brifddinas</CommonName>
+          <ShortCommonName>Parc Busnes</ShortCommonName>
           <Street>Wentloog Avenue</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -92149,10 +92212,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>312752</Easting>
-            <Northing>179658</Northing>
-            <Longitude>-3.258577677468594</Longitude>
-            <Latitude>51.50908886941781</Latitude>
+            <Easting>312640</Easting>
+            <Northing>179706</Northing>
+            <Longitude>-3.2601982115191315</Longitude>
+            <Latitude>51.5095056052876</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -92216,7 +92279,7 @@
       </StopClassification>
       <AdministrativeAreaRef>011</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-07-23T04:10:18" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2026-07-23T04:10:18" ModificationDateTime="2026-08-14T13:13:31" Modification="new" Status="active">
       <AtcoCode>5710WDB48605</AtcoCode>
       <NaptanCode>cdiwdaw</NaptanCode>
       <Descriptor>
@@ -92296,7 +92359,7 @@
             <TimingStatus>OTH</TimingStatus>
 			<UnmarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>E</CompassPoint>
               </Bearing>
             </UnmarkedPoint>
           </Bus>
@@ -92437,13 +92500,15 @@
     <StopPoint CreationDateTime="2014-03-04T12:06:20" ModificationDateTime="2025-09-17T11:40:06" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710WHCH0</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Whitchurch (Cardiff) Rail Station</CommonName>
+        <CommonName xml:lang="cy">Whitchurch Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Northern Avenue</Street>
         <Indicator>Main Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T11:40:06">
           <CommonName xml:lang="cy">Gorsaf Reilffordd yr Eglwys Newydd</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Northern Avenue</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -92476,13 +92541,15 @@
     <StopPoint CreationDateTime="2014-03-04T12:06:52" ModificationDateTime="2025-09-17T11:40:42" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>5710WHCH1</AtcoCode>
       <Descriptor>
-        <CommonName xml:lang="cy">Whitchurch (Cardiff) Rail Station</CommonName>
+        <CommonName xml:lang="cy">Whitchurch Rail Station</CommonName>
+        <ShortCommonName>Railway Station</ShortCommonName>
         <Street>Pen-y-dre</Street>
         <Indicator>Northern Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-09-17T11:40:42">
           <CommonName xml:lang="cy">Gorsaf Reilffordd yr Eglwys Newydd</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Pen-y-dre</Street>
         </Descriptor>
       </AlternativeDescriptors>
