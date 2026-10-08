@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-23T11:24:05.224" ModificationDateTime="2026-09-23T11:24:05.224" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-07T09:40:32.823" ModificationDateTime="2026-10-07T09:40:32.823" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-05-13T12:00:00.000" ModificationDateTime="2025-11-05T11:48:52.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA96813</AtcoCode>
@@ -94668,6 +94668,46 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-10-07T09:37:31.010" Modification="revise" RevisionNumber="3" Status="active">
+<AtcoCode>3200YNA90242</AtcoCode>
+<NaptanCode>32090242</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Coronation Avenue</CommonName>
+<ShortCommonName xml:lang="en">Coronation Avenue</ShortCommonName>
+<Landmark xml:lang="en">Colburn Lane</Landmark>
+<Street xml:lang="en">Coronation Avenue</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049280</NptgLocalityRef>
+<Suburb>Colburn</Suburb>
+<Town>Richmondshire</Town>
+<LocalityCentre>0</LocalityCentre>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>420059</Easting>
+<Northing>498569</Northing>
+<Longitude>-1.692666</Longitude>
+<Latitude>54.382235</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
 <StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2025-07-03T11:16:17.001" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA90243</AtcoCode>
 <NaptanCode>32090243</NaptanCode>
@@ -94745,6 +94785,46 @@
 <CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-10-07T09:38:05.995" Modification="revise" RevisionNumber="3" Status="active">
+<AtcoCode>3200YNA90245</AtcoCode>
+<NaptanCode>32090245</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Forest Drive</CommonName>
+<ShortCommonName xml:lang="en">Forest Drive</ShortCommonName>
+<Landmark xml:lang="en">N/A</Landmark>
+<Street xml:lang="en">Forest Drive</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049280</NptgLocalityRef>
+<Suburb>Colburn</Suburb>
+<Town>Richmondshire</Town>
+<LocalityCentre>0</LocalityCentre>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>420296</Easting>
+<Northing>498728</Northing>
+<Longitude>-1.689006</Longitude>
+<Latitude>54.383654</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -95037,6 +95117,47 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-10-07T09:38:38.963" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>3200YNA90254</AtcoCode>
+<NaptanCode>32090254</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Racecourse</CommonName>
+<ShortCommonName xml:lang="en">Catterick Bridge</ShortCommonName>
+<Landmark xml:lang="en">Catterick Racecourse</Landmark>
+<Street xml:lang="en">Catterick Road</Street>
+<Indicator xml:lang="en">N-bound</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0018813</NptgLocalityRef>
+<Suburb>Catterick Bridge</Suburb>
+<Town>Richmondshire</Town>
+<LocalityCentre>0</LocalityCentre>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>422746</Easting>
+<Northing>499256</Northing>
+<Longitude>-1.651243</Longitude>
+<Latitude>54.388296</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
 <StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
 <AtcoCode>3200YNA90255</AtcoCode>
 <NaptanCode>32090255</NaptanCode>
@@ -95319,6 +95440,47 @@
 <CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-10-07T09:39:38.545" Modification="revise" RevisionNumber="2" Status="active">
+<AtcoCode>3200YNA90262</AtcoCode>
+<NaptanCode>32090262</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Slessor Road</CommonName>
+<ShortCommonName xml:lang="en">Slessor Road</ShortCommonName>
+<Landmark xml:lang="en">Pocock Place</Landmark>
+<Street xml:lang="en">Leeming Lane</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049277</NptgLocalityRef>
+<Suburb>Catterick</Suburb>
+<Town>Richmondshire</Town>
+<LocalityCentre>0</LocalityCentre>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>424180</Easting>
+<Northing>497447</Northing>
+<Longitude>-1.629308</Longitude>
+<Latitude>54.371973</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>S</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

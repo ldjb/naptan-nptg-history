@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-01T15:33:25.345" ModificationDateTime="2026-09-01T15:33:25.345" Modification="new" RevisionNumber="0" FileName="NaPTAN620.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-07T13:34:27.972" ModificationDateTime="2026-10-07T13:34:27.972" Modification="new" RevisionNumber="0" FileName="NaPTAN620.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2003-11-11T00:00:00.000" ModificationDateTime="2003-11-11T00:00:00.000" Modification="new" RevisionNumber="1" Status="inactive">
 <AtcoCode>6200000001</AtcoCode>
@@ -128711,7 +128711,7 @@
 </StopClassification>
 <AdministrativeAreaRef>124</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-01-14T11:24:40.705" ModificationDateTime="2026-01-14T12:14:08.519" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2026-01-14T11:24:40.705" ModificationDateTime="2026-10-07T13:33:53.082" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>6200247556</AtcoCode>
 <NaptanCode>36253858</NaptanCode>
 <Descriptor>
@@ -128735,13 +128735,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -129033,7 +129033,7 @@
 </StopClassification>
 <AdministrativeAreaRef>124</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-07-20T14:16:16.779" ModificationDateTime="2026-07-28T14:22:54.735" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2026-07-20T14:16:16.779" ModificationDateTime="2026-10-07T13:34:06.558" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>6200247557</AtcoCode>
 <NaptanCode>36253869</NaptanCode>
 <Descriptor>
@@ -129056,13 +129056,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>PPT</TimingStatus>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>

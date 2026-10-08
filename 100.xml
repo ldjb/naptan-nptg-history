@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-01T13:32:21.578" ModificationDateTime="2026-10-01T13:32:21.578" Modification="new" RevisionNumber="0" FileName="NaPTAN100_20261001_133225.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-08T09:15:15.864" ModificationDateTime="2026-10-08T09:15:15.864" Modification="new" RevisionNumber="0" FileName="NaPTAN100_20261008_091522.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-26T00:00:00.000" ModificationDateTime="2008-08-07T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>100000000374</AtcoCode>
@@ -367524,6 +367524,79 @@
 <Bearing>
 <CompassPoint>N</CompassPoint>
 <Degrees>180</Degrees>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>075</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-10-08T09:10:43.409" ModificationDateTime="2026-10-08T09:10:43.409" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>100054002</AtcoCode>
+<NaptanCode>dbsjgjwp</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Matlock Spa</CommonName>
+<Street xml:lang="en">Matlock Spa Road</Street>
+<Indicator xml:lang="en">adj</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0055547</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>429105</Easting>
+<Northing>360376</Northing>
+<Longitude>-1.5663715</Longitude>
+<Latitude>53.1397670</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>E</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>075</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-10-08T09:15:01.974" ModificationDateTime="2026-10-08T09:15:01.974" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>100054003</AtcoCode>
+<NaptanCode>dbsjgjwt</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Matlock Spa</CommonName>
+<Street xml:lang="en">Matlock Spa Road</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0055547</NptgLocalityRef>
+<Town>Matlock</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>429113</Easting>
+<Northing>360366</Northing>
+<Longitude>-1.5662512</Longitude>
+<Latitude>53.1396758</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
