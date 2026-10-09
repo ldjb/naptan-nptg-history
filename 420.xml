@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-21T09:28:24.9214286Z" ModificationDateTime="2026-09-21T09:28:24.9214286Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-08T20:55:26.9594339Z" ModificationDateTime="2026-10-08T20:55:26.9594339Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -51128,14 +51128,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-10-08T21:33:50" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>4200F085300</AtcoCode>
       <NaptanCode>waratmga</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">College Interchange</CommonName>
-        <Landmark xml:lang="en">Moreton Morrell College</Landmark>
-        <Street xml:lang="en">Main Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>St Cross Church</CommonName>
+        <Street>Duffus Hill</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0051965</NptgLocalityRef>
@@ -70464,11 +70463,11 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-09-16T14:46:02" ModificationDateTime="2024-10-25T13:41:07" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2024-09-16T14:46:02" ModificationDateTime="2026-10-08T21:52:45" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>4200F124481</AtcoCode>
       <NaptanCode>warawjgy</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Ansty Park Stop C</CommonName>
+        <CommonName>Ansty Park Stop C</CommonName>
         <Street>Pilot Way</Street>
         <Indicator>Adj</Indicator>
       </Descriptor>
@@ -70476,10 +70475,10 @@
         <NptgLocalityRef>E0051864</NptgLocalityRef>
         <Location>
           <Translation>
-            <Easting>440440</Easting>
-            <Northing>281326</Northing>
-            <Longitude>-1.406676497</Longitude>
-            <Latitude>52.428424872</Latitude>
+            <Easting>440441</Easting>
+            <Northing>281368</Northing>
+            <Longitude>-1.406656723</Longitude>
+            <Latitude>52.428802359</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -70491,7 +70490,7 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -99801,13 +99800,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2007-11-27T00:00:00" ModificationDateTime="2011-04-04T00:00:00" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2007-11-27T00:00:00" ModificationDateTime="2026-10-08T21:31:41" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>4200F148250</AtcoCode>
       <NaptanCode>wardjatd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">College Grounds</CommonName>
-        <Street xml:lang="en">Private Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>St Cross Church</CommonName>
+        <Street>Duffus Hill</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0051965</NptgLocalityRef>
@@ -99819,6 +99818,41 @@
             <Northing>255653</Northing>
             <Longitude>-1.547173774</Longitude>
             <Latitude>52.198238467</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-08T21:38:59" ModificationDateTime="2026-10-08T21:36:14" Modification="new" Status="active">
+      <AtcoCode>4200F148251</AtcoCode>
+      <NaptanCode>wardjate</NaptanCode>
+      <Descriptor>
+        <CommonName>Moreton Morrell College</CommonName>
+        <Street>Lime Tree Drive</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0051965</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>430467</Easting>
+            <Northing>255149</Northing>
+            <Longitude>-1.555704541</Longitude>
+            <Latitude>52.193739682</Latitude>
           </Translation>
         </Location>
       </Place>

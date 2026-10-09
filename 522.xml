@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-14T10:41:41" ModificationDateTime="2026-08-14T10:41:41" Modification="revise" RevisionNumber="1" FileName="522.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-10-08T13:32:55" ModificationDateTime="2026-10-08T13:32:55" Modification="revise" RevisionNumber="1" FileName="522.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2014-03-04T12:12:48" ModificationDateTime="2025-06-23T13:57:28" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>5220AMMANFD0</AtcoCode>
@@ -92,6 +92,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:38">
           <CommonName xml:lang="cy">Cae Chwarae Clunderwen</CommonName>
+          <ShortCommonName>Cae Chwarae</ShortCommonName>
           <Street>A478</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -128,13 +129,17 @@
       <AtcoCode>5220AWC51117</AtcoCode>
       <NaptanCode>crmawjm</NaptanCode>
       <Descriptor>
-        <CommonName>Clunderwen Playing Field</CommonName>
+        <CommonName xml:lang="cy">Clunderwen Playing Field</CommonName>
+        <ShortCommonName>Playing Field</ShortCommonName>
         <Landmark>Clunderwen Playing Field</Landmark>
         <Street>A478</Street>
+        <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:38">
-          <CommonName xml:lang="CY">Parc Clunderwen</CommonName>
+          <CommonName xml:lang="cy">Cae Chwarae Clunderwen</CommonName>
+          <ShortCommonName>Cae Chwarae</ShortCommonName>
+          <Street>A478</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -143,8 +148,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>212072</Easting>
-            <Northing>218926</Northing>
+            <Easting>212069</Easting>
+            <Northing>218927</Northing>
             <Longitude>-4.729181829</Longitude>
             <Latitude>51.837244669</Latitude>
           </Translation>
@@ -945,6 +950,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:25">
           <CommonName xml:lang="cy">Clwb Cymdeithasol Llanmiloe</CommonName>
+          <ShortCommonName>Clwb Cymdeithasol</ShortCommonName>
           <Street>A4066</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -1542,6 +1548,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:50">
           <CommonName xml:lang="cy">Ysgol Henllan Amgoed</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
           <Street>Main Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2476,6 +2483,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:44">
           <CommonName xml:lang="cy">Eglwys St Margaret</CommonName>
+          <ShortCommonName>Eglwys</ShortCommonName>
           <Street>New Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -2522,6 +2530,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:44">
           <CommonName xml:lang="cy">Eglwys St Margaret</CommonName>
+          <ShortCommonName>Eglwys</ShortCommonName>
           <Street>New Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3596,7 +3605,8 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:06">
-          <CommonName xml:lang="cy">Gorsaf Reilffordd Bynea</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Bynea</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd Bynea</ShortCommonName>
           <Street>Heol-y-Bwlch</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -3646,6 +3656,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:06">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Bynea</CommonName>
+          <ShortCommonName>Gorsaf Bynea</ShortCommonName>
           <Street>Heol-y-Bwlch</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -5328,6 +5339,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:34">
           <CommonName xml:lang="cy">Llyfrgell Cwmcarnhywel</CommonName>
+          <ShortCommonName>Llyfrgell</ShortCommonName>
           <Street>Heol Elfed</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -8302,6 +8314,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:05">
           <CommonName xml:lang="cy">Gorsaf Heddlu Felinfoel</CommonName>
+          <ShortCommonName>Gorsaf Heddlu</ShortCommonName>
           <Street>Corporation Avenue</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -8668,6 +8681,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:26">
           <CommonName xml:lang="cy">Clwb Rygbi Felinfoel</CommonName>
+          <ShortCommonName>Clwb Rygbi</ShortCommonName>
           <Street>Dafen Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -10448,6 +10462,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:26">
           <CommonName xml:lang="cy">Clwb Rygbi Pontyates</CommonName>
+          <ShortCommonName>Clwb Rygbi</ShortCommonName>
           <Street>Meinciau Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -11128,6 +11143,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:27">
           <CommonName xml:lang="cy">Clwb Rygbi Trimsaran</CommonName>
+          <ShortCommonName>Clwb Rygbi</ShortCommonName>
           <Street>Heol Llanelli</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -11516,6 +11532,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:08">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Llanelli</CommonName>
+          <ShortCommonName>Gorsaf Llanelli</ShortCommonName>
           <Street>Great Western Crescent</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -11796,6 +11813,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:45">
           <CommonName xml:lang="cy">Ysgol Babanod Morfa</CommonName>
+          <ShortCommonName>Ysgol Babanod</ShortCommonName>
           <Street>New Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -11844,6 +11862,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:45">
           <CommonName xml:lang="cy">Ysgol Babanod Morfa</CommonName>
+          <ShortCommonName>Ysgol Babanod</ShortCommonName>
           <Street>New Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -14218,6 +14237,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:32">
           <CommonName xml:lang="cy">Clwb Cymdeithasol Llanesco</CommonName>
+          <ShortCommonName>Clwb Cymdeithasol</ShortCommonName>
           <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -17451,6 +17471,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:26">
           <CommonName xml:lang="cy">Clwb Golff Ashburnham</CommonName>
+          <ShortCommonName>Clwb Golff</ShortCommonName>
           <Street>Furnace Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -17497,6 +17518,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:26">
           <CommonName xml:lang="cy">Clwb Golff Ashburnham</CommonName>
+          <ShortCommonName>Clwb Golff</ShortCommonName>
           <Street>Ashburnham Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -21459,6 +21481,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:26">
           <CommonName xml:lang="cy">Swyddfa'r Post Dryslwyn</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>B4297</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -21504,6 +21527,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:26">
           <CommonName xml:lang="cy">Swyddfa'r Post Dryslwyn</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
           <Street>B4297</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23505,6 +23529,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:45">
           <CommonName xml:lang="cy">Mynedfa Parc Teglan</CommonName>
+          <ShortCommonName>Parc Teglan</ShortCommonName>
           <Street>Penygarn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -23548,6 +23573,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:45">
           <CommonName xml:lang="cy">Mynedfa Parc Teglan</CommonName>
+          <ShortCommonName>Parc Teglan</ShortCommonName>
           <Street>Penygarn Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -26227,6 +26253,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:35">
           <CommonName xml:lang="cy">Llys Santes Margaret</CommonName>
+          <ShortCommonName>Tabernacle Road</ShortCommonName>
           <Street>Tabernacle Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -26359,6 +26386,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:44">
           <CommonName xml:lang="cy">Ysbyty Dyffryn Amman</CommonName>
+          <ShortCommonName>Ysbyty</ShortCommonName>
           <Street>Folland Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -26405,6 +26433,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:44">
           <CommonName xml:lang="cy">Ysbyty Dyffryn Amman</CommonName>
+          <ShortCommonName>Ysbyty</ShortCommonName>
           <Street>Folland Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -27595,6 +27624,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:33">
           <CommonName xml:lang="cy">JJ Motors Cross Hands</CommonName>
+          <ShortCommonName>JJ Motors</ShortCommonName>
           <Street>Heol Stanllyd</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -28324,6 +28354,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:11">
           <CommonName xml:lang="cy">Sgwar Penygroes</CommonName>
+          <ShortCommonName>Sgwar</ShortCommonName>
           <Street>Bridge Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29122,6 +29153,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:56">
           <CommonName xml:lang="cy">Pen-y-groes Pumping Station</CommonName>
+          <ShortCommonName>Pumping Station</ShortCommonName>
           <Street>Heol y Gat</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29506,6 +29538,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:38">
           <CommonName xml:lang="cy">Cyffordd Pant y Llyn</CommonName>
+          <ShortCommonName>Cyffordd</ShortCommonName>
           <Street>Unclassified</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29550,6 +29583,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:38">
           <CommonName xml:lang="cy">Cyffordd Pant y Llyn</CommonName>
+          <ShortCommonName>Cyffordd</ShortCommonName>
           <Street>Unclassified</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -29973,6 +30007,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T15:59:26">
           <CommonName xml:lang="cy">Clwb Rygbi Llandybie</CommonName>
+          <ShortCommonName>Clwb Rygbi</ShortCommonName>
           <Street>Woodfield Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -30017,6 +30052,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:49">
           <CommonName xml:lang="cy">Neuadd Gyhoeddus Llandybie</CommonName>
+          <ShortCommonName>Neuadd Gyhoeddus</ShortCommonName>
           <Street>Woodfield Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -30061,6 +30097,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:49">
           <CommonName xml:lang="cy">Neuadd Gyhoeddus Llandybie</CommonName>
+          <ShortCommonName>Neuadd Gyhoeddus</ShortCommonName>
           <Street>Woodfield Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
@@ -37731,22 +37768,23 @@
       <AtcoCode>5220AWK65752</AtcoCode>
       <NaptanCode>crmdgtg</NaptanCode>
       <Descriptor>
-        <CommonName>Caio Turn</CommonName>
+        <CommonName xml:lang="cy">Caio Turn</CommonName>
         <Street>A482</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:34">
-          <CommonName xml:lang="CY">Tro Caio</CommonName>
+          <CommonName xml:lang="cy">Tro Caio</CommonName>
+          <Street>A482</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035916</NptgLocalityRef>
+        <NptgLocalityRef>E0035948</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>266472</Easting>
-            <Northing>238376</Northing>
+            <Easting>266470</Easting>
+            <Northing>238377</Northing>
             <Longitude>-3.94771314</Longitude>
             <Latitude>52.027687558</Latitude>
           </Translation>
@@ -37772,22 +37810,23 @@
       <AtcoCode>5220AWK65753</AtcoCode>
       <NaptanCode>crmdgtj</NaptanCode>
       <Descriptor>
-        <CommonName>Caio Turn</CommonName>
+        <CommonName xml:lang="cy">Caio Turn</CommonName>
         <Street>A482</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:34">
-          <CommonName xml:lang="CY">Tro Caio</CommonName>
+          <CommonName xml:lang="cy">Tro Caio</CommonName>
+          <Street>A482</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035916</NptgLocalityRef>
+        <NptgLocalityRef>E0035948</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>266489</Easting>
-            <Northing>238383</Northing>
+            <Easting>266487</Easting>
+            <Northing>238384</Northing>
             <Longitude>-3.947468233</Longitude>
             <Latitude>52.027754553</Latitude>
           </Translation>
@@ -40508,23 +40547,24 @@
       <AtcoCode>5220AWK65820</AtcoCode>
       <NaptanCode>crmdgtw</NaptanCode>
       <Descriptor>
-        <CommonName>Drefach Shelter</CommonName>
+        <CommonName xml:lang="cy">Drefach Shelter</CommonName>
         <Landmark>O/S Toilets</Landmark>
         <Street>Unclassified Road</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:33">
-          <CommonName xml:lang="CY">Lloches Drefach</CommonName>
+          <CommonName xml:lang="cy">Lloches Drefach</CommonName>
+          <Street>Unclassified Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035989</NptgLocalityRef>
+        <NptgLocalityRef>E0036007</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>235449</Easting>
-            <Northing>238602</Northing>
+            <Easting>235447</Easting>
+            <Northing>238603</Northing>
             <Longitude>-4.399615679</Longitude>
             <Latitude>52.02137894</Latitude>
           </Translation>
@@ -40550,23 +40590,24 @@
       <AtcoCode>5220AWK65821</AtcoCode>
       <NaptanCode>crmdgtp</NaptanCode>
       <Descriptor>
-        <CommonName>Pont y Capel</CommonName>
+        <CommonName xml:lang="cy">Pont y Capel</CommonName>
         <Landmark>Opp Shelter</Landmark>
         <Street>Unclassified</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:02">
-          <CommonName xml:lang="CY">Pont y Capel</CommonName>
+          <CommonName xml:lang="cy">Pont y Capel</CommonName>
+          <Street>Unclassified</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035989</NptgLocalityRef>
+        <NptgLocalityRef>E0036007</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>235438</Easting>
-            <Northing>238605</Northing>
+            <Easting>235436</Easting>
+            <Northing>238606</Northing>
             <Longitude>-4.399777289</Longitude>
             <Latitude>52.021402625</Latitude>
           </Translation>
@@ -40758,23 +40799,24 @@
       <AtcoCode>5220AWK65830</AtcoCode>
       <NaptanCode>crmdgwg</NaptanCode>
       <Descriptor>
-        <CommonName>Spar Shop - Drefach</CommonName>
+        <CommonName xml:lang="cy">Spar Shop - Drefach</CommonName>
         <Landmark>O/s Spar Shop</Landmark>
         <Street>Unclassified</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:13">
-          <CommonName xml:lang="CY">Siop Spar - Drefach</CommonName>
+          <CommonName xml:lang="cy">Siop Spar - Drefach</CommonName>
+          <Street>Unclassified</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035989</NptgLocalityRef>
+        <NptgLocalityRef>E0036007</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>235404</Easting>
-            <Northing>238465</Northing>
+            <Easting>235402</Easting>
+            <Northing>238466</Northing>
             <Longitude>-4.400205001</Longitude>
             <Latitude>52.020134912</Latitude>
           </Translation>
@@ -40800,23 +40842,24 @@
       <AtcoCode>5220AWK65831</AtcoCode>
       <NaptanCode>crmdgwd</NaptanCode>
       <Descriptor>
-        <CommonName>Spar Shop - Drefach</CommonName>
+        <CommonName xml:lang="cy">Spar Shop - Drefach</CommonName>
         <Landmark>Opp Spar Shop</Landmark>
         <Street>Unclassified</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:01:13">
-          <CommonName xml:lang="CY">Siop Spar - Drefach</CommonName>
+          <CommonName xml:lang="cy">Siop Spar - Drefach</CommonName>
+          <Street>Unclassified</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035989</NptgLocalityRef>
+        <NptgLocalityRef>E0036007</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>235412</Easting>
-            <Northing>238451</Northing>
+            <Easting>235410</Easting>
+            <Northing>238452</Northing>
             <Longitude>-4.400081784</Longitude>
             <Latitude>52.020011524</Latitude>
           </Translation>
@@ -58731,14 +58774,15 @@
       <AtcoCode>5220CMX16731</AtcoCode>
       <NaptanCode>crmawpj</NaptanCode>
       <Descriptor>
-        <CommonName>Cross Hands Library</CommonName>
+        <CommonName xml:lang="cy">Llandeilo Road</CommonName>
         <Landmark>Cross Hands Post Office</Landmark>
         <Street>Llandeilo Road</Street>
         <Crossing>Pontardulais Road</Crossing>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:34">
-          <CommonName xml:lang="CY">Llyfrgell Cross Hands</CommonName>
+          <CommonName xml:lang="cy">Heol Llandeilo</CommonName>
+          <Street>Heol Llandeilo</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -58774,14 +58818,14 @@
       <AtcoCode>5220CMX16732</AtcoCode>
       <NaptanCode>crmawpa</NaptanCode>
       <Descriptor>
-        <CommonName>Cross Hands Library</CommonName>
-        <Landmark>Cross Hands Post Office</Landmark>
+        <CommonName xml:lang="cy">Llandeilo Road</CommonName>
         <Street>Llandeilo Road</Street>
         <Crossing>Pontardulais Road</Crossing>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:34">
-          <CommonName xml:lang="CY">Llyfrgell Cross Hands</CommonName>
+          <CommonName xml:lang="cy">Heol Llandeilo</CommonName>
+          <Street>Heol Llandeilo</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -65924,11 +65968,12 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:10">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Porth Tywyn</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036129</NptgLocalityRef>
+        <NptgLocalityRef>E0035910</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -65961,11 +66006,12 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:10">
           <CommonName xml:lang="cy">Gorsaf Reilffordd Porth Tywyn</CommonName>
+          <ShortCommonName>Gorsaf Reilffordd</ShortCommonName>
           <Street>Ashburnham Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036129</NptgLocalityRef>
+        <NptgLocalityRef>E0035910</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -71672,13 +71718,13 @@
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0054056</NptgLocalityRef>
+        <NptgLocalityRef>N0075409</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>241297</Easting>
-            <Northing>214899</Northing>
+            <Easting>241295</Easting>
+            <Northing>214900</Northing>
             <Longitude>-4.303531835</Longitude>
             <Latitude>51.810141148</Latitude>
           </Translation>
@@ -80383,13 +80429,13 @@
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0054033</NptgLocalityRef>
+        <NptgLocalityRef>E0036082</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>238220</Easting>
-            <Northing>219112</Northing>
+            <Easting>238218</Easting>
+            <Northing>219113</Northing>
             <Longitude>-4.350097147</Longitude>
             <Latitude>51.847106823</Latitude>
           </Translation>
@@ -83498,12 +83544,12 @@
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036080</NptgLocalityRef>
+        <NptgLocalityRef>E0036107</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>242080</Easting>
+            <Easting>242078</Easting>
             <Northing>207466</Northing>
             <Longitude>-4.288800631</Longitude>
             <Latitude>51.743584184</Latitude>
@@ -84421,12 +84467,12 @@
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036080</NptgLocalityRef>
+        <NptgLocalityRef>E0036107</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>242079</Easting>
+            <Easting>242077</Easting>
             <Northing>207455</Northing>
             <Longitude>-4.288810107</Longitude>
             <Latitude>51.743485076</Latitude>
@@ -89153,21 +89199,22 @@
       <AtcoCode>5220WDB48223</AtcoCode>
       <NaptanCode>crmwgap</NaptanCode>
       <Descriptor>
-        <CommonName>Burry Road</CommonName>
+        <CommonName xml:lang="cy">Burry Road</CommonName>
         <Street>Burry Road</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:27">
-          <CommonName xml:lang="CY">Heol Tywyn</CommonName>
+          <CommonName xml:lang="cy">Heol Tywyn</CommonName>
+          <Street>Heol Tywyn</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036024</NptgLocalityRef>
+        <NptgLocalityRef>E0035910</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>243946</Easting>
+            <Easting>243944</Easting>
             <Northing>201011</Northing>
             <Longitude>-4.258902262</Longitude>
             <Latitude>51.68611304</Latitude>
@@ -89194,21 +89241,22 @@
       <AtcoCode>5220WDB48224</AtcoCode>
       <NaptanCode>crmwgat</NaptanCode>
       <Descriptor>
-        <CommonName>Heol Pantycelyn</CommonName>
+        <CommonName xml:lang="cy">Heol Pantycelyn</CommonName>
         <Street>Heol Pantycelyn</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:25">
-          <CommonName xml:lang="CY">Heol Pantycelyn</CommonName>
+          <CommonName xml:lang="cy">Heol Pantycelyn</CommonName>
+          <Street>Heol Pantycelyn</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036024</NptgLocalityRef>
+        <NptgLocalityRef>E0035910</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>244102</Easting>
+            <Easting>244100</Easting>
             <Northing>200837</Northing>
             <Longitude>-4.256569628</Longitude>
             <Latitude>51.684593103</Latitude>
@@ -89567,21 +89615,22 @@
       <AtcoCode>5220WDB48233</AtcoCode>
       <NaptanCode>crmwgja</NaptanCode>
       <Descriptor>
-        <CommonName>Heol Pantycelyn</CommonName>
+        <CommonName xml:lang="cy">Heol Pantycelyn</CommonName>
         <Street>Tirwaun</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:25">
-          <CommonName xml:lang="CY">Heol Pantycelyn</CommonName>
+          <CommonName xml:lang="cy">Heol Pantycelyn</CommonName>
+          <Street>Tirwaun</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0036024</NptgLocalityRef>
+        <NptgLocalityRef>E0035910</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>244081</Easting>
+            <Easting>244079</Easting>
             <Northing>200832</Northing>
             <Longitude>-4.256870924</Longitude>
             <Latitude>51.684542347</Latitude>
@@ -99924,22 +99973,23 @@
       <AtcoCode>5220WDB48525</AtcoCode>
       <NaptanCode>crmadama</NaptanCode>
       <Descriptor>
-        <CommonName>Oaklands</CommonName>
+        <CommonName xml:lang="cy">Oaklands</CommonName>
         <Street>Unnamed Road</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:50">
-          <CommonName xml:lang="CY">Oaklands</CommonName>
+          <CommonName xml:lang="cy">Oaklands</CommonName>
+          <Street>Unnamed Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035989</NptgLocalityRef>
+        <NptgLocalityRef>E0036007</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>235560</Easting>
-            <Northing>239205</Northing>
+            <Easting>235558</Easting>
+            <Northing>239206</Northing>
             <Longitude>-4.398289317</Longitude>
             <Latitude>52.026828633</Latitude>
           </Translation>
@@ -99965,22 +100015,23 @@
       <AtcoCode>5220WDB48526</AtcoCode>
       <NaptanCode>crmadamd</NaptanCode>
       <Descriptor>
-        <CommonName>Oaklands</CommonName>
+        <CommonName xml:lang="cy">Oaklands</CommonName>
         <Street>Unnamed Road</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:50">
-          <CommonName xml:lang="CY">Oaklands</CommonName>
+          <CommonName xml:lang="cy">Oaklands</CommonName>
+          <Street>Unnamed Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0035989</NptgLocalityRef>
+        <NptgLocalityRef>E0036007</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>235548</Easting>
-            <Northing>239207</Northing>
+            <Easting>235546</Easting>
+            <Northing>239208</Northing>
             <Longitude>-4.398465028</Longitude>
             <Latitude>52.02684304</Latitude>
           </Translation>
@@ -102995,11 +103046,12 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-04-26T16:00:46">
           <CommonName xml:lang="cy">Mynwent Llandygwydd</CommonName>
+          <ShortCommonName>Mynwent</ShortCommonName>
           <Street>A484</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0054089</NptgLocalityRef>
+        <NptgLocalityRef>N0075509</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -103937,15 +103989,17 @@
       <AtcoCode>5220WDB48619</AtcoCode>
       <NaptanCode>crmadjwj</NaptanCode>
       <Descriptor>
-        <CommonName>Pentre Awel</CommonName>
+        <CommonName xml:lang="cy">Pentre Awel</CommonName>
+        <Street>Unnamed</Street>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2025-06-19T11:32:36">
-          <CommonName>Pentre Awel</CommonName>
+          <CommonName xml:lang="cy">Pentre Awel</CommonName>
+          <Street>Unnamed</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0054059</NptgLocalityRef>
+        <NptgLocalityRef>E0036092</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
