@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-28T10:22:54.8854928Z" ModificationDateTime="2026-09-28T10:22:54.8854928Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-12T07:46:35.2193219Z" ModificationDateTime="2026-10-12T07:46:35.2193219Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-19T00:00:00" ModificationDateTime="2013-04-15T12:12:06" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>270000007470</AtcoCode>
@@ -134661,14 +134661,14 @@
         <PlusbusZoneRef CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2014-07-03T10:01:37" Modification="revise" RevisionNumber="3" Status="active">LINCLNC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2010-05-12T10:45:47" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2026-10-12T08:36:57" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270000014273</AtcoCode>
       <NaptanCode>linjpgmj</NaptanCode>
       <Descriptor>
-        <CommonName>Primary School</CommonName>
-        <Landmark>Primary School</Landmark>
+        <CommonName>Hawthorn Avenue</CommonName>
+        <Landmark>Hawthorn Avenue</Landmark>
         <Street>Redwood Drive</Street>
-        <Indicator>opp</Indicator>
+        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0059941</NptgLocalityRef>
@@ -134676,10 +134676,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496513</Easting>
-            <Northing>366004</Northing>
-            <Longitude>-0.557239042</Longitude>
-            <Latitude>53.182392542</Latitude>
+            <Easting>496521</Easting>
+            <Northing>366080</Northing>
+            <Longitude>-0.557093000</Longitude>
+            <Latitude>53.183067000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -134705,14 +134705,14 @@
         <PlusbusZoneRef CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2010-05-12T10:45:47" Modification="revise" RevisionNumber="1" Status="active">LINCLNC</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2010-05-12T10:45:43" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2026-10-12T08:37:36" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270000014274</AtcoCode>
       <NaptanCode>linjpgmp</NaptanCode>
       <Descriptor>
-        <CommonName>Primary School</CommonName>
-        <Landmark>Primary School</Landmark>
+        <CommonName>Hawthorn Avenue</CommonName>
+        <Landmark>Hawthorn Avenue</Landmark>
         <Street>Redwood Drive</Street>
-        <Indicator>adj</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0059941</NptgLocalityRef>
@@ -134720,10 +134720,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>496519</Easting>
-            <Northing>365988</Northing>
-            <Longitude>-0.557154114</Longitude>
-            <Latitude>53.182247678</Latitude>
+            <Easting>496528</Easting>
+            <Northing>366077</Northing>
+            <Longitude>-0.556986000</Longitude>
+            <Latitude>53.183040000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -233608,7 +233608,7 @@
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-12-17T08:16:00" ModificationDateTime="2025-12-17T08:17:39" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2025-12-17T08:16:00" ModificationDateTime="2026-10-12T08:33:59" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>270002703982</AtcoCode>
       <NaptanCode>lindgapm</NaptanCode>
       <Descriptor>
@@ -233645,10 +233645,16 @@
       </StopClassification>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2025-12-17T08:16:47" ModificationDateTime="2025-12-17T08:17:39" Modification="revise" RevisionNumber="1">
+        <StopValidity CreationDateTime="2025-12-17T08:16:47" ModificationDateTime="2026-10-12T08:33:59" Modification="revise" RevisionNumber="2">
           <DateRange>
             <StartDate>2026-01-05</StartDate>
             <EndDate>2026-01-24</EndDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+        <StopValidity CreationDateTime="2026-10-12T08:33:59" ModificationDateTime="2026-10-12T08:33:59" Modification="new">
+          <DateRange>
+            <StartDate>2026-10-12</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
@@ -234373,6 +234379,99 @@
         <StopAreaRef CreationDateTime="2026-09-22T13:25:05" ModificationDateTime="2026-09-22T13:25:05" Modification="new">270G02704016</StopAreaRef>
       </StopAreas>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-12T08:29:11" ModificationDateTime="2026-10-12T08:29:51" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>270002704018</AtcoCode>
+      <NaptanCode>lindgdgd</NaptanCode>
+      <Descriptor>
+        <CommonName>Almond Crescent (Temp)</CommonName>
+        <Landmark>Almond Crescent</Landmark>
+        <Street>Rowan Road</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0059941</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>496677</Easting>
+            <Northing>366208</Northing>
+            <Longitude>-0.554728000</Longitude>
+            <Latitude>53.184187000</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-10-12T08:29:51" ModificationDateTime="2026-10-12T08:29:51" Modification="new">
+          <DateRange>
+            <StartDate>2026-11-12</StartDate>
+            <EndDate>2027-03-16</EndDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-12T08:32:51" ModificationDateTime="2026-10-12T08:30:48" Modification="new" Status="active">
+      <AtcoCode>270002704019</AtcoCode>
+      <NaptanCode>lindgdgj</NaptanCode>
+      <Descriptor>
+        <CommonName>Almond Crescent (Temp)</CommonName>
+        <Landmark>Almond Crescent</Landmark>
+        <Street>Rowan Road</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0059941</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>496681</Easting>
+            <Northing>366214</Northing>
+            <Longitude>-0.554657000</Longitude>
+            <Latitude>53.184241000</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>E</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-10-12T08:32:51" ModificationDateTime="2026-10-12T08:32:51" Modification="new">
+          <DateRange>
+            <StartDate>2026-11-12</StartDate>
+            <EndDate>2027-03-16</EndDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2014-01-22T09:20:55" ModificationDateTime="2014-01-22T09:22:18" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>27002703400</AtcoCode>
@@ -357113,18 +357212,18 @@
         </Translation>
       </Location>
     </StopArea>
-    <StopArea CreationDateTime="2005-12-09T00:00:00" ModificationDateTime="2006-08-31T11:55:30" Modification="revise" RevisionNumber="1" Status="active">
+    <StopArea CreationDateTime="2005-12-09T00:00:00" ModificationDateTime="2026-10-12T08:38:33" Modification="revise" RevisionNumber="2" Status="active">
       <StopAreaCode>270G00014275</StopAreaCode>
-      <Name>Primary School</Name>
+      <Name>Hawthorn Avenue</Name>
       <AdministrativeAreaRef>089</AdministrativeAreaRef>
       <StopAreaType>GPBS</StopAreaType>
       <Location>
         <Translation>
           <GridType>UKOS</GridType>
-          <Easting>496516</Easting>
-          <Northing>365996</Northing>
-          <Longitude>-0.557196578</Longitude>
-          <Latitude>53.182320110</Latitude>
+          <Easting>496524</Easting>
+          <Northing>366078</Northing>
+          <Longitude>-0.557052167</Longitude>
+          <Latitude>53.183050934</Latitude>
         </Translation>
       </Location>
     </StopArea>
