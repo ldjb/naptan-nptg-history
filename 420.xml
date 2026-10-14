@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-08T20:55:26.9594339Z" ModificationDateTime="2026-10-08T20:55:26.9594339Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-13T11:47:56.0052356Z" ModificationDateTime="2026-10-13T11:47:56.0052356Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -30935,7 +30935,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2008-09-30T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-10-13T12:46:36" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>4200F050201</AtcoCode>
       <NaptanCode>warawjaw</NaptanCode>
       <Descriptor>
@@ -30949,10 +30949,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>436174</Easting>
-            <Northing>290249</Northing>
-            <Longitude>-1.468448382</Longitude>
-            <Latitude>52.508936962</Latitude>
+            <Easting>436166</Easting>
+            <Northing>290170</Northing>
+            <Longitude>-1.468574808</Longitude>
+            <Latitude>52.508227318</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -96101,14 +96101,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-10-12T14:56:41" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>4200F144302</AtcoCode>
       <NaptanCode>waradwtd</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Charlotte Street</CommonName>
-        <Street xml:lang="en">Tachbrook Road</Street>
-        <Crossing xml:lang="en">Charlotte Street</Crossing>
-        <Indicator xml:lang="en">Opp</Indicator>
+        <CommonName>Charlotte Street</CommonName>
+        <Street>Tachbrook Road</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0072514</NptgLocalityRef>
@@ -96139,20 +96138,90 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2006-06-01T00:00:00" ModificationDateTime="2006-06-01T10:59:31">
-          <DateRange>
-            <StartDate>2006-06-01</StartDate>
-          </DateRange>
-          <Suspended />
-          <Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-        </StopValidity>
         <StopValidity CreationDateTime="2007-03-08T00:00:00" ModificationDateTime="2007-03-08T10:10:33">
           <DateRange>
             <StartDate>2007-03-05</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
+        <StopValidity CreationDateTime="2006-06-01T00:00:00" ModificationDateTime="2026-10-12T14:56:41" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2006-06-01</StartDate>
+          </DateRange>
+          <Suspended />
+          <Note xml:lang="en    ">Added by Trapeze - during 9.6 upgrade</Note>
+        </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-12T14:42:09" ModificationDateTime="2026-10-12T14:33:31" Modification="new" Status="active">
+      <AtcoCode>4200F144303</AtcoCode>
+      <NaptanCode>waradwte</NaptanCode>
+      <Descriptor>
+        <CommonName>Bury Road</CommonName>
+        <Street>Tachbrook Road</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0072514</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>431828</Easting>
+            <Northing>265047</Northing>
+            <Longitude>-1.534865884</Longitude>
+            <Latitude>52.282646428</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-12T14:54:33" ModificationDateTime="2026-10-12T14:53:39" Modification="new" Status="active">
+      <AtcoCode>4200F144304</AtcoCode>
+      <NaptanCode>waradwtf</NaptanCode>
+      <Descriptor>
+        <CommonName>Bury Road</CommonName>
+        <Street>Tachbrook Road</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0072514</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>431844</Easting>
+            <Northing>265044</Northing>
+            <Longitude>-1.534631636</Longitude>
+            <Latitude>52.282618535</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-06-19T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>4200F144400</AtcoCode>

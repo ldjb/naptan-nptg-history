@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-01T16:45:58.107" ModificationDateTime="2026-10-01T16:45:58.107" Modification="new" RevisionNumber="0" FileName="NaPTAN180.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-13T12:53:58.494" ModificationDateTime="2026-10-13T12:53:58.494" Modification="new" RevisionNumber="0" FileName="NaPTAN180.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2014-01-16T00:00:00.000" ModificationDateTime="2023-07-21T09:13:05.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800ALTRNHM0</AtcoCode>
@@ -10537,13 +10537,13 @@
 <PlusbusZoneRef CreationDateTime="2005-02-02T00:00:00.000" ModificationDateTime="2005-02-02T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2017-07-26T16:05:53.000" ModificationDateTime="2026-06-15T14:15:25.633" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2017-07-26T16:05:53.000" ModificationDateTime="2026-10-13T11:39:27.574" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>1800EB00011</AtcoCode>
 <NaptanCode>MANWAGJW</NaptanCode>
 <PlateCode>EB0001</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Stn</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Piccadilly Station Approach</Street>
 <Indicator xml:lang="en">arrivals</Indicator>
 </Descriptor>
@@ -10578,6 +10578,17 @@
 <StopAreaRef Modification="new" Status="active">180GMNCRPIC</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
+<PlusbusZones>
+<PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
+</PlusbusZones>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-10-13</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2018-01-03T11:43:20.000" ModificationDateTime="2023-10-16T14:52:52.001" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800EB00021</AtcoCode>
@@ -11012,7 +11023,7 @@
 <PlusbusZoneRef CreationDateTime="2010-02-04T00:00:00.000" ModificationDateTime="2010-02-04T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2024-06-20T15:30:45.733" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T14:26:05.982" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB00281</AtcoCode>
 <NaptanCode>MANADAMA</NaptanCode>
 <PlateCode>EB0028</PlateCode>
@@ -11190,7 +11201,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2025-07-22T10:52:50.369" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2026-10-09T14:44:37.565" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>1800EB00831</AtcoCode>
 <NaptanCode>MANADAMT</NaptanCode>
 <PlateCode>EB0083</PlateCode>
@@ -11279,7 +11290,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-02-26T11:27:38.987" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-09T15:35:20.901" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>1800EB00851</AtcoCode>
 <NaptanCode>MANADAPA</NaptanCode>
 <PlateCode>EB0085</PlateCode>
@@ -11682,13 +11693,13 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-06-15T14:15:40.289" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-10-13T11:40:15.201" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>1800EB01201</AtcoCode>
 <NaptanCode>MANADATG</NaptanCode>
 <PlateCode>EB0120</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Stn</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">London Road</Street>
 <Crossing xml:lang="en">Fairfield Street</Crossing>
 <Indicator xml:lang="en">Stop A</Indicator>
@@ -11767,12 +11778,12 @@
 <PlusbusZoneRef CreationDateTime="2010-01-29T00:00:00.000" ModificationDateTime="2010-01-29T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-09-24T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="delete" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2010-09-24T00:00:00.000" ModificationDateTime="2026-10-13T12:52:32.803" Modification="delete" RevisionNumber="4" Status="inactive">
 <AtcoCode>1800EB01221</AtcoCode>
 <NaptanCode>MANADATM</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Piccadilly Rail</CommonName>
-<ShortCommonName xml:lang="en">Piccadilly Rail</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">London Road</Street>
 <Indicator xml:lang="en">Stop ER</Indicator>
 </Descriptor>
@@ -11807,7 +11818,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2010-09-24T00:00:00.000" ModificationDateTime="2010-09-24T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="delete" RevisionNumber="2" Status="inactive">
@@ -11897,7 +11908,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-10-09T15:24:26.339" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>1800EB01251</AtcoCode>
 <NaptanCode>MANADAWA</NaptanCode>
 <PlateCode>EB0125</PlateCode>
@@ -12111,7 +12122,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-05-23T14:20:36.126" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T15:31:48.744" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>1800EB01311</AtcoCode>
 <NaptanCode>MANADAWP</NaptanCode>
 <PlateCode>EB0131</PlateCode>
@@ -12335,7 +12346,7 @@
 <PlusbusZoneRef CreationDateTime="2010-03-30T00:00:00.000" ModificationDateTime="2010-03-30T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2009-02-05T00:00:00.000" ModificationDateTime="2026-02-02T15:44:48.967" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2009-02-05T00:00:00.000" ModificationDateTime="2026-10-09T15:41:30.565" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB01551</AtcoCode>
 <NaptanCode>MANADGAM</NaptanCode>
 <PlateCode>EB0155</PlateCode>
@@ -13087,7 +13098,7 @@
 <PlusbusZoneRef CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2010-03-25T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2026-10-09T16:08:47.077" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800EB01821</AtcoCode>
 <NaptanCode>MANADGJW</NaptanCode>
 <PlateCode>EB0182</PlateCode>
@@ -13351,7 +13362,7 @@
 <PlusbusZoneRef CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2010-10-15T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2025-03-21T12:17:26.993" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-09T16:12:55.578" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB01881</AtcoCode>
 <NaptanCode>MANADGMT</NaptanCode>
 <PlateCode>EB0188</PlateCode>
@@ -13576,7 +13587,7 @@
 <PlusbusZoneRef CreationDateTime="2007-12-14T00:00:00.000" ModificationDateTime="2007-12-14T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2026-01-27T13:49:03.364" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2026-10-09T16:18:24.610" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB01931</AtcoCode>
 <NaptanCode>MANADGPJ</NaptanCode>
 <PlateCode>EB0193</PlateCode>
@@ -13755,7 +13766,7 @@
 <PlusbusZoneRef CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2010-03-25T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2008-11-28T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2008-11-28T00:00:00.000" ModificationDateTime="2026-10-09T16:21:48.579" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB01971</AtcoCode>
 <NaptanCode>MANADGTA</NaptanCode>
 <PlateCode>EB0197</PlateCode>
@@ -13890,7 +13901,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2025-10-13T14:52:11.309" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-09T16:25:54.678" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB02031</AtcoCode>
 <NaptanCode>MANADGTJ</NaptanCode>
 <PlateCode>EB0203</PlateCode>
@@ -16969,7 +16980,7 @@
 <PlusbusZoneRef CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2010-03-25T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-03-25T11:44:07.077" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T08:35:16.063" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>1800EB03781</AtcoCode>
 <NaptanCode>MANADMDM</NaptanCode>
 <PlateCode>EB0378</PlateCode>
@@ -17014,7 +17025,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T08:36:20.905" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB03791</AtcoCode>
 <NaptanCode>MANADMDP</NaptanCode>
 <PlateCode>EB0379</PlateCode>
@@ -18825,7 +18836,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-01-27T13:54:10.444" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T09:42:48.338" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB04351</AtcoCode>
 <NaptanCode>MANADPAM</NaptanCode>
 <PlateCode>EB0435</PlateCode>
@@ -19004,7 +19015,7 @@
 <PlusbusZoneRef CreationDateTime="2010-03-25T00:00:00.000" ModificationDateTime="2010-03-25T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-01-27T13:56:05.413" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T09:44:35.819" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB04391</AtcoCode>
 <NaptanCode>MANADPDA</NaptanCode>
 <PlateCode>EB0439</PlateCode>
@@ -20792,7 +20803,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T10:28:21.896" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB05941</AtcoCode>
 <NaptanCode>MANADPWM</NaptanCode>
 <PlateCode>EB0594</PlateCode>
@@ -21999,7 +22010,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2026-10-12T10:46:35.602" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB06311</AtcoCode>
 <NaptanCode>MANADTGW</NaptanCode>
 <PlateCode>EB0631</PlateCode>
@@ -22266,7 +22277,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-29T00:00:00.000" ModificationDateTime="2025-07-22T11:44:46.072" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2010-10-29T00:00:00.000" ModificationDateTime="2026-10-12T10:47:25.202" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>1800EB06441</AtcoCode>
 <NaptanCode>MANADTJT</NaptanCode>
 <PlateCode>EB0644</PlateCode>
@@ -23695,12 +23706,12 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-03-26T00:00:00.000" ModificationDateTime="2025-02-24T13:10:46.601" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-03-26T00:00:00.000" ModificationDateTime="2026-10-13T11:41:29.037" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB07051</AtcoCode>
 <NaptanCode>MANTGDJA</NaptanCode>
 <PlateCode>EB0705</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
 <ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Piccadilly Station Approach</Street>
 <Indicator xml:lang="en">adj</Indicator>
@@ -23742,6 +23753,14 @@
 <PlusbusZones>
 <PlusbusZoneRef CreationDateTime="2010-03-26T00:00:00.000" ModificationDateTime="2010-03-26T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-10-13</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2006-01-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="delete" RevisionNumber="2" Status="inactive">
 <AtcoCode>1800EB07052</AtcoCode>
@@ -24093,7 +24112,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2016-02-16T00:00:00.000" ModificationDateTime="2025-10-20T14:50:47.933" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2016-02-16T00:00:00.000" ModificationDateTime="2026-10-12T11:25:03.786" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>1800EB07741</AtcoCode>
 <NaptanCode>MANADWDM</NaptanCode>
 <PlateCode>EB0774</PlateCode>
@@ -24138,7 +24157,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-10-20T14:55:06.994" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:25:58.752" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB07751</AtcoCode>
 <NaptanCode>MANADWDP</NaptanCode>
 <PlateCode>EB0775</PlateCode>
@@ -24185,7 +24204,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-10-20T14:56:28.543" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:31:37.178" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB07761</AtcoCode>
 <NaptanCode>MANADWDT</NaptanCode>
 <PlateCode>EB0776</PlateCode>
@@ -24232,7 +24251,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-02-07T00:00:00.000" ModificationDateTime="2025-10-20T14:58:50.098" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2013-02-07T00:00:00.000" ModificationDateTime="2026-10-12T11:32:20.570" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800EB07771</AtcoCode>
 <NaptanCode>MANADWDW</NaptanCode>
 <PlateCode>EB0777</PlateCode>
@@ -24277,7 +24296,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-09-24T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2015-09-24T00:00:00.000" ModificationDateTime="2026-10-12T11:33:22.715" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB07781</AtcoCode>
 <NaptanCode>MANADWGA</NaptanCode>
 <PlateCode>EB0778</PlateCode>
@@ -24324,7 +24343,7 @@
 <PlusbusZoneRef CreationDateTime="2015-09-24T00:00:00.000" ModificationDateTime="2015-09-24T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2024-01-29T16:28:57.603" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2026-10-12T11:33:56.260" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>1800EB07791</AtcoCode>
 <NaptanCode>MANADWGD</NaptanCode>
 <PlateCode>EB0779</PlateCode>
@@ -24372,7 +24391,7 @@
 <PlusbusZoneRef CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2015-11-22T00:00:00.000" Modification="new" RevisionNumber="3" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2026-10-12T11:35:09.890" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB07801</AtcoCode>
 <NaptanCode>MANADWGJ</NaptanCode>
 <PlateCode>EB0780</PlateCode>
@@ -24416,7 +24435,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2010-04-14T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2026-10-12T11:35:52.961" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB07811</AtcoCode>
 <NaptanCode>MANADWGM</NaptanCode>
 <PlateCode>EB0781</PlateCode>
@@ -24460,7 +24479,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2010-04-14T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2025-04-25T11:50:54.861" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2026-10-12T11:36:35.143" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB07831</AtcoCode>
 <NaptanCode>MANADWGP</NaptanCode>
 <PlateCode>EB0783</PlateCode>
@@ -24504,7 +24523,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2010-04-14T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2025-10-20T15:21:51.641" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2015-11-22T00:00:00.000" ModificationDateTime="2026-10-12T11:38:25.316" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800EB07841</AtcoCode>
 <NaptanCode>MANADWGT</NaptanCode>
 <PlateCode>EB0784</PlateCode>
@@ -24551,7 +24570,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-04T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2014-02-04T00:00:00.000" ModificationDateTime="2026-10-12T11:40:20.852" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB07851</AtcoCode>
 <NaptanCode>MANADWGW</NaptanCode>
 <PlateCode>EB0785</PlateCode>
@@ -24595,7 +24614,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-04T00:00:00.000" ModificationDateTime="2014-02-04T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:41:21.512" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800EB07861</AtcoCode>
 <NaptanCode>MANADWJA</NaptanCode>
 <PlateCode>EB0786</PlateCode>
@@ -25433,7 +25452,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-03-29T17:52:59.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T17:53:17.068" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB09001</AtcoCode>
 <NaptanCode>MANADWPJ</NaptanCode>
 <PlateCode>EB0900</PlateCode>
@@ -25748,7 +25767,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-01-27T14:03:45.114" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-10-10T16:52:57.219" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800EB10471</AtcoCode>
 <NaptanCode>MANADWTJ</NaptanCode>
 <PlateCode>EB1047</PlateCode>
@@ -27145,7 +27164,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-11-07T14:59:02.090" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T12:02:58.559" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB11371</AtcoCode>
 <NaptanCode>MANAGAMT</NaptanCode>
 <PlateCode>EB1137</PlateCode>
@@ -28441,7 +28460,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2025-03-19T08:36:30.321" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2026-10-12T13:23:52.304" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>1800EB11861</AtcoCode>
 <NaptanCode>MANAGDAW</NaptanCode>
 <PlateCode>EB1186</PlateCode>
@@ -28485,7 +28504,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-14T00:00:00.000" ModificationDateTime="2010-04-14T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-06-15T13:49:19.066" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T13:25:14.237" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB11881</AtcoCode>
 <NaptanCode>MANAGDGA</NaptanCode>
 <PlateCode>EB1188</PlateCode>
@@ -29067,13 +29086,13 @@
 <PlusbusZoneRef CreationDateTime="2015-11-24T00:00:00.000" ModificationDateTime="2015-11-24T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2026-06-15T14:15:57.311" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2026-10-13T11:42:36.076" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>1800EB12831</AtcoCode>
 <NaptanCode>MANAGDMA</NaptanCode>
 <PlateCode>EB1283</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Stn</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Piccadilly Station Approach</Street>
 <Indicator xml:lang="en">at</Indicator>
 </Descriptor>
@@ -29115,11 +29134,11 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="delete" RevisionNumber="2" Status="inactive">
+<StopPoint CreationDateTime="2006-01-20T00:00:00.000" ModificationDateTime="2026-10-13T12:53:50.864" Modification="delete" RevisionNumber="3" Status="inactive">
 <AtcoCode>1800EB12832</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Piccadilly Rail Station</CommonName>
-<Street xml:lang="en">Station Appr'ch</Street>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<Street xml:lang="en">Station Approach</Street>
 <Indicator xml:lang="en">Towards City Centre</Indicator>
 </Descriptor>
 <Place>
@@ -29240,7 +29259,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-10-09T17:54:51.632" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB13541</AtcoCode>
 <NaptanCode>MANTJTJA</NaptanCode>
 <PlateCode>EB1354</PlateCode>
@@ -29373,13 +29392,13 @@
 <PlusbusZoneRef CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2010-04-15T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-06-15T14:16:08.657" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-13T11:43:43.096" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>1800EB13701</AtcoCode>
 <NaptanCode>MANTMTAJ</NaptanCode>
 <PlateCode>EB1370</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Stn</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Fairfield Street</Street>
 <Crossing xml:lang="en">Baring Street</Crossing>
 <Indicator xml:lang="en">o/s</Indicator>
@@ -29468,7 +29487,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-05-16T00:00:00.000" ModificationDateTime="2025-07-22T13:22:40.453" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2013-05-16T00:00:00.000" ModificationDateTime="2026-10-12T13:29:13.663" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB13721</AtcoCode>
 <NaptanCode>MANAGDMP</NaptanCode>
 <PlateCode>EB1372</PlateCode>
@@ -29515,7 +29534,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-05-06T09:50:32.118" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T13:30:32.905" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800EB13741</AtcoCode>
 <NaptanCode>MANAGDMT</NaptanCode>
 <PlateCode>EB1374</PlateCode>
@@ -30045,7 +30064,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T13:42:37.487" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800EB13871</AtcoCode>
 <NaptanCode>MANAGDTJ</NaptanCode>
 <PlateCode>EB1387</PlateCode>
@@ -30630,7 +30649,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2010-04-15T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2011-09-21T00:00:00.000" ModificationDateTime="2026-10-12T14:04:08.942" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>1800EB14411</AtcoCode>
 <NaptanCode>MANAGDWP</NaptanCode>
 <PlateCode>EB1441</PlateCode>
@@ -31059,7 +31078,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2026-06-15T12:57:21.165" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2026-10-12T14:40:43.418" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800EB14611</AtcoCode>
 <NaptanCode>MANAGJAW</NaptanCode>
 <PlateCode>EB1461</PlateCode>
@@ -31546,7 +31565,7 @@
 <PlusbusZoneRef CreationDateTime="2010-10-12T00:00:00.000" ModificationDateTime="2010-10-12T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-04-03T00:00:00.000" ModificationDateTime="2026-01-19T15:05:55.235" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2014-04-03T00:00:00.000" ModificationDateTime="2026-10-12T15:47:26.892" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800EB14841</AtcoCode>
 <NaptanCode>MANTPDPA</NaptanCode>
 <PlateCode>EB1484</PlateCode>
@@ -31945,7 +31964,7 @@
 <PlusbusZoneRef CreationDateTime="2012-09-26T00:00:00.000" ModificationDateTime="2012-09-26T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T15:50:34.274" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800EB17021</AtcoCode>
 <NaptanCode>MANAGJGD</NaptanCode>
 <PlateCode>EB1702</PlateCode>
@@ -33499,7 +33518,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-07-13T00:00:00.000" ModificationDateTime="2025-10-13T14:55:26.342" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2015-07-13T00:00:00.000" ModificationDateTime="2026-10-10T17:01:04.793" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB17921</AtcoCode>
 <NaptanCode>MANTWMGW</NaptanCode>
 <PlateCode>EB1792</PlateCode>
@@ -33671,7 +33690,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2026-07-31T13:08:59.234" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2026-10-12T16:06:47.021" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800EB17971</AtcoCode>
 <NaptanCode>MANAGJWJ</NaptanCode>
 <PlateCode>EB1797</PlateCode>
@@ -34078,7 +34097,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T16:08:50.408" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800EB20291</AtcoCode>
 <NaptanCode>MANAGMAP</NaptanCode>
 <PlateCode>EB2029</PlateCode>
@@ -34340,7 +34359,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2024-07-18T16:10:30.503" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T16:11:34.434" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800EB20361</AtcoCode>
 <NaptanCode>MANAGMDM</NaptanCode>
 <PlateCode>EB2036</PlateCode>
@@ -34434,7 +34453,7 @@
 <PlusbusZoneRef CreationDateTime="2016-01-22T00:00:00.000" ModificationDateTime="2016-01-22T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-03-20T13:58:19.480" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T16:12:52.406" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800EB20421</AtcoCode>
 <NaptanCode>MANAGMDT</NaptanCode>
 <PlateCode>EB2042</PlateCode>
@@ -39393,13 +39412,13 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2025-10-16T14:15:01.691" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2013-01-30T00:00:00.000" ModificationDateTime="2026-10-09T09:20:53.955" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>1800EB32571</AtcoCode>
 <NaptanCode>MANAGTJP</NaptanCode>
 <PlateCode>EB3257</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Coop Live</CommonName>
-<ShortCommonName xml:lang="en">Coop Live</ShortCommonName>
+<CommonName xml:lang="en">Co-op Live</CommonName>
+<ShortCommonName xml:lang="en">Co-op Live</ShortCommonName>
 <Street xml:lang="en">Alan Turing Way</Street>
 <Indicator xml:lang="en">Stop C</Indicator>
 </Descriptor>
@@ -39531,13 +39550,13 @@
 <PlusbusZoneRef CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2010-04-15T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2025-10-16T14:13:25.312" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2026-10-09T09:20:17.248" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB32601</AtcoCode>
 <NaptanCode>MANAGTMA</NaptanCode>
 <PlateCode>EB3260</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Coop Live</CommonName>
-<ShortCommonName xml:lang="en">Coop Live</ShortCommonName>
+<CommonName xml:lang="en">Co-op Live</CommonName>
+<ShortCommonName xml:lang="en">Co-op Live</ShortCommonName>
 <Street xml:lang="en">Alan Turing Way</Street>
 <Indicator xml:lang="en">nr</Indicator>
 </Descriptor>
@@ -39574,6 +39593,14 @@
 <PlusbusZones>
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-10-09</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2010-09-16T00:00:00.000" ModificationDateTime="2026-02-05T09:53:04.739" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800EB32611</AtcoCode>
@@ -44012,13 +44039,13 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-06-15T14:14:21.118" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-13T11:44:51.995" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800EB33741</AtcoCode>
 <NaptanCode>MANAJAPD</NaptanCode>
 <PlateCode>EB3374</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Stn</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Fairfield Street</Street>
 <Crossing xml:lang="en">Wyre Street</Crossing>
 <Indicator xml:lang="en">Stop D</Indicator>
@@ -44060,13 +44087,13 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-06-15T14:14:34.074" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-13T11:58:19.337" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800EB33751</AtcoCode>
 <NaptanCode>MANAJAPG</NaptanCode>
 <PlateCode>EB3375</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Stn</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Fairfield Street</Street>
 <Crossing xml:lang="en">Wyre Street</Crossing>
 <Indicator xml:lang="en">Stop C</Indicator>
@@ -72041,11 +72068,11 @@
 <PlusbusZoneRef CreationDateTime="2004-09-14T00:00:00.000" ModificationDateTime="2004-09-14T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-09-14T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2004-09-14T00:00:00.000" ModificationDateTime="2026-10-13T12:02:52.581" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800EBT0371</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Piccadilly Station</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Taxi Layby</Street>
 <Crossing xml:lang="en">Fairfield Street</Crossing>
 <Indicator xml:lang="en">o/s</Indicator>
@@ -72082,7 +72109,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-09-14T00:00:00.000" ModificationDateTime="2004-09-14T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2004-09-14T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="delete" RevisionNumber="2" Status="inactive">
@@ -72654,7 +72681,7 @@
 <PlusbusZoneRef CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2010-10-15T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:13:28.550" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800ED00381</AtcoCode>
 <NaptanCode>MANAJPGD</NaptanCode>
 <PlateCode>ED0038</PlateCode>
@@ -72701,7 +72728,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-01-13T11:41:01.479" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:30:44.570" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800ED00391</AtcoCode>
 <NaptanCode>MANAJPGJ</NaptanCode>
 <PlateCode>ED0039</PlateCode>
@@ -73052,7 +73079,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-04-07T14:04:29.625" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:34:22.867" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800ED00481</AtcoCode>
 <NaptanCode>MANAJPJM</NaptanCode>
 <PlateCode>ED0048</PlateCode>
@@ -73096,7 +73123,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2025-04-07T14:39:37.816" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2010-04-15T00:00:00.000" ModificationDateTime="2026-10-12T11:40:32.823" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800ED00491</AtcoCode>
 <NaptanCode>MANAJPJP</NaptanCode>
 <PlateCode>ED0049</PlateCode>
@@ -73310,7 +73337,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-07-21T10:48:03.344" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T11:58:42.895" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800ED00631</AtcoCode>
 <NaptanCode>MANAJPMG</NaptanCode>
 <PlateCode>ED0063</PlateCode>
@@ -73969,7 +73996,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-16T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-04-16T00:00:00.000" ModificationDateTime="2026-10-12T12:10:21.081" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800ED00891</AtcoCode>
 <NaptanCode>MANAJPWJ</NaptanCode>
 <PlateCode>ED0089</PlateCode>
@@ -74057,7 +74084,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-16T00:00:00.000" ModificationDateTime="2010-04-16T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-01-11T00:00:00.000" ModificationDateTime="2025-07-23T14:46:58.991" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2014-01-11T00:00:00.000" ModificationDateTime="2026-10-12T12:29:18.380" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800ED00911</AtcoCode>
 <NaptanCode>MANAJPWP</NaptanCode>
 <PlateCode>ED0091</PlateCode>
@@ -74500,7 +74527,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-07-23T14:53:00.323" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T13:16:54.969" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800ED01001</AtcoCode>
 <NaptanCode>MANAJTDG</NaptanCode>
 <PlateCode>ED0100</PlateCode>
@@ -74932,7 +74959,7 @@
 <PlusbusZoneRef CreationDateTime="2006-01-20T00:00:00.000" ModificationDateTime="2006-01-20T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-02-07T00:00:00.000" ModificationDateTime="2025-04-02T15:37:04.608" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2013-02-07T00:00:00.000" ModificationDateTime="2026-10-12T13:24:37.044" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>1800ED01111</AtcoCode>
 <NaptanCode>MANAJTGP</NaptanCode>
 <PlateCode>ED0111</PlateCode>
@@ -75241,7 +75268,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-12T13:54:29.846" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800ED01411</AtcoCode>
 <NaptanCode>MANAJTJP</NaptanCode>
 <PlateCode>ED0141</PlateCode>
@@ -75289,7 +75316,7 @@
 <PlusbusZoneRef CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2010-10-15T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-12T13:32:01.345" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800ED01451</AtcoCode>
 <NaptanCode>MANAJTJT</NaptanCode>
 <PlateCode>ED0145</PlateCode>
@@ -75553,7 +75580,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-10-24T10:12:29.317" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T13:55:24.928" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800ED01681</AtcoCode>
 <NaptanCode>MANAJTMP</NaptanCode>
 <PlateCode>ED0168</PlateCode>
@@ -76302,7 +76329,7 @@
 <PlusbusZoneRef CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2010-10-15T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-12T13:56:52.477" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800ED02191</AtcoCode>
 <NaptanCode>MANAJWAD</NaptanCode>
 <PlateCode>ED0219</PlateCode>
@@ -76873,7 +76900,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2025-07-23T15:05:35.712" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-10-15T00:00:00.000" ModificationDateTime="2026-10-12T14:05:57.039" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800ED02321</AtcoCode>
 <NaptanCode>MANAJWDW</NaptanCode>
 <PlateCode>ED0232</PlateCode>
@@ -77049,7 +77076,7 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:06.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T14:14:10.525" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800ED02361</AtcoCode>
 <NaptanCode>MANAJWGM</NaptanCode>
 <PlateCode>ED0236</PlateCode>
@@ -106176,7 +106203,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-16T00:00:00.000" ModificationDateTime="2025-09-17T10:56:34.155" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-04-16T00:00:00.000" ModificationDateTime="2026-10-08T13:23:21.180" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800ED16611</AtcoCode>
 <NaptanCode>MANAPMJP</NaptanCode>
 <PlateCode>ED1661</PlateCode>
@@ -111081,7 +111108,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-15T00:00:00.000" ModificationDateTime="2025-04-10T14:12:30.804" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-10-15T00:00:00.000" ModificationDateTime="2026-10-08T12:21:24.151" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800ED19261</AtcoCode>
 <NaptanCode>MANAPWJT</NaptanCode>
 <PlateCode>ED1926</PlateCode>
@@ -255084,10 +255111,11 @@
 <PlusbusZoneRef CreationDateTime="2011-03-01T00:00:00.000" ModificationDateTime="2011-03-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2026-10-13T12:05:59.443" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>1800MNCRPIC0</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Station Approach</Street>
 <Indicator xml:lang="en">Entrance</Indicator>
 </Descriptor>
@@ -255114,13 +255142,13 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2026-10-13T12:14:46.881" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>1800MNCRPIC1</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
 <Street xml:lang="en">Fairfield Street</Street>
 <Indicator xml:lang="en">Entrance</Indicator>
 </Descriptor>
@@ -255150,10 +255178,10 @@
 <PlusbusZoneRef CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2026-10-13T12:16:42.396" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>1800MNCRPIC2</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
 <Street xml:lang="en">London Road</Street>
 <Indicator xml:lang="en">Entrance</Indicator>
 </Descriptor>
@@ -255183,10 +255211,10 @@
 <PlusbusZoneRef CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2011-02-28T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2011-02-28T00:00:00.000" ModificationDateTime="2026-10-13T12:47:48.836" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>1800MNCRPIC3</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
 <Street xml:lang="en">Car Park</Street>
 <Indicator xml:lang="en">Entrance</Indicator>
 </Descriptor>
@@ -255845,7 +255873,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T16:38:30.814" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB00111</AtcoCode>
 <NaptanCode>MANDJGTA</NaptanCode>
 <PlateCode>NB0011</PlateCode>
@@ -257081,7 +257109,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T16:49:23.386" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800NB03941</AtcoCode>
 <NaptanCode>MANDJMGA</NaptanCode>
 <PlateCode>NB0394</PlateCode>
@@ -257252,7 +257280,7 @@
 <PlusbusZoneRef CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2010-11-17T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2026-10-10T16:43:43.600" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NB04001</AtcoCode>
 <NaptanCode>MANDJMGP</NaptanCode>
 <PlateCode>NB0400</PlateCode>
@@ -257512,7 +257540,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2026-10-09T17:57:24.025" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800NB04161</AtcoCode>
 <NaptanCode>MANDJMJM</NaptanCode>
 <PlateCode>NB0416</PlateCode>
@@ -257856,7 +257884,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2015-01-29T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2015-01-29T00:00:00.000" ModificationDateTime="2026-10-08T13:58:03.444" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB04271</AtcoCode>
 <NaptanCode>MANDJMPM</NaptanCode>
 <PlateCode>NB0427</PlateCode>
@@ -257943,7 +257971,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T10:57:56.555" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB04321</AtcoCode>
 <NaptanCode>MANDJMPW</NaptanCode>
 <PlateCode>NB0432</PlateCode>
@@ -258375,7 +258403,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T17:59:40.437" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800NB04431</AtcoCode>
 <NaptanCode>MANDJMWD</NaptanCode>
 <PlateCode>NB0443</PlateCode>
@@ -258761,7 +258789,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-05-13T13:19:54.585" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T16:41:49.197" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>1800NB05081</AtcoCode>
 <NaptanCode>MANTGDWG</NaptanCode>
 <PlateCode>NB0508</PlateCode>
@@ -259281,7 +259309,7 @@
 <PlusbusZoneRef CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2010-11-17T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2026-10-08T14:13:56.699" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NB08511</AtcoCode>
 <NaptanCode>MANDJPAW</NaptanCode>
 <PlateCode>NB0851</PlateCode>
@@ -259323,7 +259351,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2026-10-09T10:49:50.138" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NB08521</AtcoCode>
 <NaptanCode>MANDJPDA</NaptanCode>
 <PlateCode>NB0852</PlateCode>
@@ -259365,7 +259393,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2026-10-08T14:06:04.506" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB08531</AtcoCode>
 <NaptanCode>MANDJPDG</NaptanCode>
 <PlateCode>NB0853</PlateCode>
@@ -259407,7 +259435,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T10:52:00.957" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800NB08541</AtcoCode>
 <NaptanCode>MANDJPDJ</NaptanCode>
 <PlateCode>NB0854</PlateCode>
@@ -259449,7 +259477,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-15T00:00:00.000" ModificationDateTime="2025-03-19T10:10:13.194" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2014-10-15T00:00:00.000" ModificationDateTime="2026-10-08T14:03:41.411" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800NB08551</AtcoCode>
 <NaptanCode>MANDJPDM</NaptanCode>
 <PlateCode>NB0855</PlateCode>
@@ -259491,7 +259519,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2026-10-09T10:54:49.598" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB08561</AtcoCode>
 <NaptanCode>MANDJPDP</NaptanCode>
 <PlateCode>NB0856</PlateCode>
@@ -259576,7 +259604,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-15T00:00:00.000" ModificationDateTime="2026-04-17T11:01:06.018" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-10-15T00:00:00.000" ModificationDateTime="2026-10-08T14:00:42.577" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800NB08581</AtcoCode>
 <NaptanCode>MANDJPDW</NaptanCode>
 <PlateCode>NB0858</PlateCode>
@@ -259665,7 +259693,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T10:28:23.622" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800NB09141</AtcoCode>
 <NaptanCode>MANDJPGD</NaptanCode>
 <PlateCode>NB0914</PlateCode>
@@ -261058,7 +261086,7 @@
 <PlusbusZoneRef CreationDateTime="2010-11-17T00:00:00.000" ModificationDateTime="2010-11-17T00:00:00.000" Modification="new" RevisionNumber="5" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2026-10-08T14:16:04.586" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800NB09491</AtcoCode>
 <NaptanCode>MANDJPWP</NaptanCode>
 <PlateCode>NB0949</PlateCode>
@@ -261100,7 +261128,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-03-19T09:28:43.190" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T10:48:22.333" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NB09501</AtcoCode>
 <NaptanCode>MANDJPWT</NaptanCode>
 <PlateCode>NB0950</PlateCode>
@@ -261526,7 +261554,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-09-16T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2014-09-16T00:00:00.000" ModificationDateTime="2026-10-08T16:07:12.050" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800NB10321</AtcoCode>
 <NaptanCode>MANTWJPJ</NaptanCode>
 <PlateCode>NB1032</PlateCode>
@@ -265935,7 +265963,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2026-10-08T15:19:27.349" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NB42831</AtcoCode>
 <NaptanCode>MANDMADA</NaptanCode>
 <PlateCode>NB4283</PlateCode>
@@ -266073,7 +266101,7 @@
 <PlusbusZoneRef CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2011-01-11T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2009-05-20T00:00:00.000" ModificationDateTime="2025-03-24T10:47:10.055" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2009-05-20T00:00:00.000" ModificationDateTime="2026-10-08T15:55:38.895" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NB42861</AtcoCode>
 <NaptanCode>MANDMADM</NaptanCode>
 <PlateCode>NB4286</PlateCode>
@@ -267414,7 +267442,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2026-10-10T16:07:09.079" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB43301</AtcoCode>
 <NaptanCode>MANDMAPW</NaptanCode>
 <PlateCode>NB4330</PlateCode>
@@ -267459,7 +267487,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2026-06-15T13:51:40.625" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2026-10-08T15:14:31.003" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800NB43451</AtcoCode>
 <NaptanCode>MANDMATA</NaptanCode>
 <PlateCode>NB4345</PlateCode>
@@ -268029,7 +268057,7 @@
 <PlusbusZoneRef CreationDateTime="2010-04-20T00:00:00.000" ModificationDateTime="2010-04-20T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-01-05T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2013-01-05T00:00:00.000" ModificationDateTime="2026-10-08T16:02:26.376" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB43651</AtcoCode>
 <NaptanCode>MANDMAWT</NaptanCode>
 <PlateCode>NB4365</PlateCode>
@@ -268587,7 +268615,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2011-01-11T00:00:00.000" ModificationDateTime="2026-10-10T16:47:44.645" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB43911</AtcoCode>
 <NaptanCode>MANDMDGT</NaptanCode>
 <PlateCode>NB4391</PlateCode>
@@ -269748,7 +269776,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T10:30:48.486" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NB44201</AtcoCode>
 <NaptanCode>MANDMDTM</NaptanCode>
 <PlateCode>NB4420</PlateCode>
@@ -269793,7 +269821,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-08T14:18:06.849" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800NB44211</AtcoCode>
 <NaptanCode>MANDMDTP</NaptanCode>
 <PlateCode>NB4421</PlateCode>
@@ -269835,7 +269863,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-03-19T09:14:48.389" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T10:36:34.660" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>1800NB44221</AtcoCode>
 <NaptanCode>MANDMDTW</NaptanCode>
 <PlateCode>NB4422</PlateCode>
@@ -296380,7 +296408,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2013-11-15T00:00:00.000" ModificationDateTime="2025-02-20T12:02:15.607" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2013-11-15T00:00:00.000" ModificationDateTime="2026-10-10T16:01:30.143" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>1800NC10221</AtcoCode>
 <NaptanCode>MANTWDJP</NaptanCode>
 <PlateCode>NC1022</PlateCode>
@@ -309506,7 +309534,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T16:18:19.021" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800NC24571</AtcoCode>
 <NaptanCode>MANDTDMD</NaptanCode>
 <PlateCode>NC2457</PlateCode>
@@ -315555,7 +315583,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-23T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2010-04-23T00:00:00.000" ModificationDateTime="2026-10-10T16:10:10.366" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800NC41341</AtcoCode>
 <NaptanCode>MANDTMGT</NaptanCode>
 <PlateCode>NC4134</PlateCode>
@@ -317544,7 +317572,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-01-27T14:19:01.962" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T15:58:09.081" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800NC42181</AtcoCode>
 <NaptanCode>MANDTPGP</NaptanCode>
 <PlateCode>NC4218</PlateCode>
@@ -318270,7 +318298,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-05T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-05T00:00:00.000" ModificationDateTime="2026-10-10T16:12:58.361" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800NC42351</AtcoCode>
 <NaptanCode>MANDTPTA</NaptanCode>
 <PlateCode>NC4235</PlateCode>
@@ -318315,7 +318343,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-04-23T00:00:00.000" ModificationDateTime="2023-07-21T09:13:08.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2010-04-23T00:00:00.000" ModificationDateTime="2026-10-10T16:14:14.508" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NC42361</AtcoCode>
 <NaptanCode>MANDTPTD</NaptanCode>
 <PlateCode>NC4236</PlateCode>
@@ -397191,7 +397219,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-03-24T13:59:08.450" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-08T17:01:40.559" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NE48481</AtcoCode>
 <NaptanCode>MANGDTMW</NaptanCode>
 <PlateCode>NE4848</PlateCode>
@@ -452957,7 +452985,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-03-03T00:00:00.000" ModificationDateTime="2023-07-21T09:13:10.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2011-03-03T00:00:00.000" ModificationDateTime="2026-10-09T11:32:59.929" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800NF03991</AtcoCode>
 <NaptanCode>MANGJMTP</NaptanCode>
 <PlateCode>NF0399</PlateCode>
@@ -453258,7 +453286,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-07-24T13:54:18.555" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T16:23:20.728" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800NF04521</AtcoCode>
 <NaptanCode>MANGJMWP</NaptanCode>
 <PlateCode>NF0452</PlateCode>
@@ -480179,7 +480207,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:10.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-10T15:51:02.715" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800NF41081</AtcoCode>
 <NaptanCode>MANGPDJG</NaptanCode>
 <PlateCode>NF4108</PlateCode>
@@ -510146,7 +510174,7 @@
 <PlusbusZoneRef CreationDateTime="2008-04-23T00:00:00.000" ModificationDateTime="2008-04-23T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-05-11T00:00:00.000" ModificationDateTime="2026-06-15T12:56:26.775" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2010-05-11T00:00:00.000" ModificationDateTime="2026-10-09T17:37:05.338" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800SB06501</AtcoCode>
 <NaptanCode>MANGPMAT</NaptanCode>
 <PlateCode>SB0650</PlateCode>
@@ -680318,7 +680346,7 @@
 <PlusbusZoneRef CreationDateTime="2014-09-26T00:00:00.000" ModificationDateTime="2014-09-26T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-09-26T00:00:00.000" ModificationDateTime="2023-07-21T09:13:15.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2014-09-26T00:00:00.000" ModificationDateTime="2026-10-08T11:54:12.031" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800SJ03161</AtcoCode>
 <NaptanCode>MANJPDTD</NaptanCode>
 <PlateCode>SJ0316</PlateCode>
@@ -746146,7 +746174,7 @@
 <PlusbusZoneRef CreationDateTime="2014-10-14T00:00:00.000" ModificationDateTime="2014-10-14T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-14T00:00:00.000" ModificationDateTime="2026-01-27T15:19:45.649" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2014-10-14T00:00:00.000" ModificationDateTime="2026-10-09T16:44:29.840" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800WA01831</AtcoCode>
 <NaptanCode>MANJWDPD</NaptanCode>
 <PlateCode>WA0183</PlateCode>
@@ -773663,7 +773691,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-14T00:00:00.000" ModificationDateTime="2026-02-23T13:40:58.382" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2014-10-14T00:00:00.000" ModificationDateTime="2026-10-09T14:16:52.566" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800WA16391</AtcoCode>
 <NaptanCode>MANPAWDT</NaptanCode>
 <PlateCode>WA1639</PlateCode>
@@ -773964,7 +773992,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:18.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T16:48:57.574" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800WA16471</AtcoCode>
 <NaptanCode>MANPAWGP</NaptanCode>
 <PlateCode>WA1647</PlateCode>
@@ -783517,7 +783545,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:19.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T13:59:48.250" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WA19111</AtcoCode>
 <NaptanCode>MANPDMWD</NaptanCode>
 <PlateCode>WA1911</PlateCode>
@@ -783772,7 +783800,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:19.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2026-10-09T15:14:58.825" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WA19171</AtcoCode>
 <NaptanCode>MANPDPAD</NaptanCode>
 <PlateCode>WA1917</PlateCode>
@@ -784102,7 +784130,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-01-27T15:36:50.259" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T16:52:10.938" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>1800WA19251</AtcoCode>
 <NaptanCode>MANPDPDG</NaptanCode>
 <PlateCode>WA1925</PlateCode>
@@ -786153,7 +786181,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:19.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2026-10-09T15:57:25.721" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800WA19851</AtcoCode>
 <NaptanCode>MANPDTAW</NaptanCode>
 <PlateCode>WA1985</PlateCode>
@@ -788204,7 +788232,7 @@
 <PlusbusZoneRef CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2014-05-15T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:19.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2014-05-15T00:00:00.000" ModificationDateTime="2026-10-08T10:25:37.993" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800WA20351</AtcoCode>
 <NaptanCode>MANPDWAP</NaptanCode>
 <PlateCode>WA2035</PlateCode>
@@ -868690,7 +868718,7 @@
 <PlusbusZoneRef CreationDateTime="2013-05-17T00:00:00.000" ModificationDateTime="2013-05-17T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2013-05-17T00:00:00.000" ModificationDateTime="2023-07-21T09:13:21.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2013-05-17T00:00:00.000" ModificationDateTime="2026-10-12T12:32:18.156" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK00091</AtcoCode>
 <NaptanCode>MANPMDPG</NaptanCode>
 <PlateCode>WK0009</PlateCode>
@@ -870438,7 +870466,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2013-05-18T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2013-05-18T00:00:00.000" ModificationDateTime="2026-10-12T14:55:17.927" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK00491</AtcoCode>
 <NaptanCode>MANPMGDG</NaptanCode>
 <PlateCode>WK0049</PlateCode>
@@ -872569,7 +872597,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-12T16:20:05.042" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK00971</AtcoCode>
 <NaptanCode>MANPMJDA</NaptanCode>
 <PlateCode>WK0097</PlateCode>
@@ -876130,7 +876158,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2016-01-11T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2016-01-11T00:00:00.000" ModificationDateTime="2026-10-02T17:53:05.929" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800WK01731</AtcoCode>
 <NaptanCode>MANPMPTP</NaptanCode>
 <PlateCode>WK0173</PlateCode>
@@ -876695,7 +876723,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2025-02-24T13:57:22.804" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-13T12:37:41.647" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK01901</AtcoCode>
 <NaptanCode>MANPMTAG</NaptanCode>
 <PlateCode>WK0190</PlateCode>
@@ -877479,7 +877507,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-01-27T15:37:55.842" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-08T08:22:56.720" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800WK02111</AtcoCode>
 <NaptanCode>MANPMTGT</NaptanCode>
 <PlateCode>WK0211</PlateCode>
@@ -877617,7 +877645,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-01-27T15:38:51.170" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-07T18:01:26.460" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>1800WK02141</AtcoCode>
 <NaptanCode>MANPMTJD</NaptanCode>
 <PlateCode>WK0214</PlateCode>
@@ -878015,7 +878043,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2014-02-18T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2025-04-15T09:25:19.161" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-02T10:47:18.068" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800WK02231</AtcoCode>
 <NaptanCode>MANPMTMJ</NaptanCode>
 <PlateCode>WK0223</PlateCode>
@@ -878365,7 +878393,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-02T08:32:52.780" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK02311</AtcoCode>
 <NaptanCode>MANPMTPM</NaptanCode>
 <PlateCode>WK0231</PlateCode>
@@ -878869,7 +878897,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2025-04-15T09:31:11.242" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-02T10:49:33.883" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800WK02461</AtcoCode>
 <NaptanCode>MANPMWAJ</NaptanCode>
 <PlateCode>WK0246</PlateCode>
@@ -878911,7 +878939,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-04-10T12:49:09.693" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-02T10:51:08.431" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>1800WK02471</AtcoCode>
 <NaptanCode>MANPMWAM</NaptanCode>
 <PlateCode>WK0247</PlateCode>
@@ -879735,7 +879763,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2014-02-18T00:00:00.000" ModificationDateTime="2026-10-07T14:57:41.745" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK02811</AtcoCode>
 <NaptanCode>MANPMWJD</NaptanCode>
 <PlateCode>WK0281</PlateCode>
@@ -882928,7 +882956,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2014-02-17T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2026-10-02T17:07:50.696" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK03871</AtcoCode>
 <NaptanCode>MANPTATM</NaptanCode>
 <PlateCode>WK0387</PlateCode>
@@ -884511,7 +884539,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2026-10-09T17:27:33.079" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK04241</AtcoCode>
 <NaptanCode>MANPTDMJ</NaptanCode>
 <PlateCode>WK0424</PlateCode>
@@ -885079,7 +885107,7 @@
 <PlusbusZoneRef CreationDateTime="2013-05-21T00:00:00.000" ModificationDateTime="2013-05-21T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2025-04-28T09:06:52.901" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-17T00:00:00.000" ModificationDateTime="2026-10-07T17:14:57.306" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800WK04381</AtcoCode>
 <NaptanCode>MANPTDTG</NaptanCode>
 <PlateCode>WK0438</PlateCode>
@@ -886032,7 +886060,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-04-28T08:30:01.825" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-09T17:19:08.462" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800WK04591</AtcoCode>
 <NaptanCode>MANPTGDM</NaptanCode>
 <PlateCode>WK0459</PlateCode>
@@ -887888,7 +887916,7 @@
 <PlusbusZoneRef CreationDateTime="2006-06-07T00:00:00.000" ModificationDateTime="2006-06-07T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:22.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-07T16:48:50.502" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800WK05101</AtcoCode>
 <NaptanCode>MANPTJAJ</NaptanCode>
 <PlateCode>WK0510</PlateCode>
@@ -894579,7 +894607,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2014-02-13T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2023-07-21T09:13:23.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2026-10-07T15:18:41.678" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK06761</AtcoCode>
 <NaptanCode>MANPTWAW</NaptanCode>
 <PlateCode>WK0676</PlateCode>
@@ -895101,7 +895129,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2014-02-13T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2025-04-16T15:27:58.883" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2026-10-02T17:39:18.068" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>1800WK06891</AtcoCode>
 <NaptanCode>MANPTWGP</NaptanCode>
 <PlateCode>WK0689</PlateCode>
@@ -895143,7 +895171,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2023-07-21T09:13:23.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2026-10-02T19:22:44.335" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK06901</AtcoCode>
 <NaptanCode>MANPTWGT</NaptanCode>
 <PlateCode>WK0690</PlateCode>
@@ -896393,7 +896421,7 @@
 <PlusbusZoneRef CreationDateTime="2013-05-21T00:00:00.000" ModificationDateTime="2013-05-21T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2023-07-21T09:13:23.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-13T00:00:00.000" ModificationDateTime="2026-10-08T08:38:47.565" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK07311</AtcoCode>
 <NaptanCode>MANTGMJP</NaptanCode>
 <PlateCode>WK0731</PlateCode>
@@ -904336,7 +904364,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2014-02-12T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2023-07-21T09:13:23.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2026-10-07T17:20:03.475" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK10421</AtcoCode>
 <NaptanCode>MANPWGWG</NaptanCode>
 <PlateCode>WK1042</PlateCode>
@@ -913749,7 +913777,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2023-07-21T09:13:24.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2026-10-08T09:12:39.644" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK22901</AtcoCode>
 <NaptanCode>MANPWMWD</NaptanCode>
 <PlateCode>WK2290</PlateCode>
@@ -913878,7 +913906,7 @@
 <PlusbusZoneRef CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2014-02-12T00:00:00.000" Modification="new" RevisionNumber="1" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2023-07-21T09:13:24.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2014-02-12T00:00:00.000" ModificationDateTime="2026-10-08T09:11:01.734" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK22931</AtcoCode>
 <NaptanCode>MANPWMWM</NaptanCode>
 <PlateCode>WK2293</PlateCode>
@@ -939883,7 +939911,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:25.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-02T13:53:04.107" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800WK38041</AtcoCode>
 <NaptanCode>MANTDMDJ</NaptanCode>
 <PlateCode>WK3804</PlateCode>
@@ -940060,7 +940088,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2025-05-29T12:15:01.306" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-02T18:40:28.832" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800WK38091</AtcoCode>
 <NaptanCode>MANTDMDW</NaptanCode>
 <PlateCode>WK3809</PlateCode>
@@ -943147,7 +943175,7 @@
 <PlusbusZoneRef CreationDateTime="2016-01-15T00:00:00.000" ModificationDateTime="2016-01-15T00:00:00.000" Modification="new" RevisionNumber="2" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2016-01-15T00:00:00.000" ModificationDateTime="2023-07-21T09:13:25.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2016-01-15T00:00:00.000" ModificationDateTime="2026-10-02T16:59:03.526" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>1800WK45951</AtcoCode>
 <NaptanCode>MANTDPTA</NaptanCode>
 <PlateCode>WK4595</PlateCode>
@@ -943499,7 +943527,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:25.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-02T16:30:56.671" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK46031</AtcoCode>
 <NaptanCode>MANTDPWD</NaptanCode>
 <PlateCode>WK4603</PlateCode>
@@ -943715,7 +943743,7 @@
 <PlusbusZoneRef CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2007-11-01T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:25.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-02T17:41:50.386" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK46081</AtcoCode>
 <NaptanCode>MANTDPWT</NaptanCode>
 <PlateCode>WK4608</PlateCode>
@@ -943969,7 +943997,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2023-07-21T09:13:25.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2007-11-01T00:00:00.000" ModificationDateTime="2026-10-07T15:09:34.012" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800WK46151</AtcoCode>
 <NaptanCode>MANTDTAT</NaptanCode>
 <PlateCode>WK4615</PlateCode>
@@ -944231,7 +944259,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-11-02T00:00:00.000" ModificationDateTime="2025-04-09T14:44:32.851" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-11-02T00:00:00.000" ModificationDateTime="2026-10-07T15:21:32.566" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>1800WK46211</AtcoCode>
 <NaptanCode>MANTDTDP</NaptanCode>
 <PlateCode>WK4621</PlateCode>
@@ -944273,7 +944301,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2015-02-06T00:00:00.000" ModificationDateTime="2025-02-28T13:23:16.779" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2015-02-06T00:00:00.000" ModificationDateTime="2026-10-07T15:24:16.863" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>1800WK46221</AtcoCode>
 <NaptanCode>MANTDTDT</NaptanCode>
 <PlateCode>WK4622</PlateCode>
@@ -1005997,11 +1006025,11 @@
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2025-06-19T15:57:27.180" ModificationDateTime="2025-07-14T08:11:31.712" Modification="revise" RevisionNumber="1" Status="inactive">
+<StopPoint CreationDateTime="2025-06-19T15:57:27.180" ModificationDateTime="2026-10-13T12:49:33.448" Modification="revise" RevisionNumber="2" Status="inactive">
 <AtcoCode>1800EB18231</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Piccadilly Rail Station Temporary Bus Stop</CommonName>
-<ShortCommonName xml:lang="en">Piccadilly Rail Station Temporary Bus Stop</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station Temporary Bus Stop</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Station Temporary Bus Stop</ShortCommonName>
 <Indicator xml:lang="en">nr</Indicator>
 </Descriptor>
 <Place>
@@ -1006031,6 +1006059,9 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
+<PlusbusZones>
+<PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
+</PlusbusZones>
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
@@ -1006375,7 +1006406,7 @@
 </StopClassification>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-10-31T15:37:00.951" ModificationDateTime="2025-10-31T15:37:00.951" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2025-10-31T15:37:00.951" ModificationDateTime="2026-10-08T12:22:06.424" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>1800ED18231</AtcoCode>
 <NaptanCode>manwadjw</NaptanCode>
 <PlateCode>ED1823</PlateCode>
@@ -1007510,11 +1007541,11 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-06-16T16:12:00.500" ModificationDateTime="2026-06-16T16:12:00.500" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2026-06-16T16:12:00.500" ModificationDateTime="2026-10-13T12:26:01.682" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>1800MPRSAR1</AtcoCode>
 <Descriptor>
-<CommonName xml:lang="en">Manchester Piccadilly Rail Station</CommonName>
-<ShortCommonName xml:lang="en">Manchester Piccadilly Rail</ShortCommonName>
+<CommonName xml:lang="en">Piccadilly Station</CommonName>
+<ShortCommonName xml:lang="en">Piccadilly Stn</ShortCommonName>
 <Street xml:lang="en">Piccadilly Station Approach</Street>
 <Indicator xml:lang="en">Arrivals</Indicator>
 </Descriptor>
@@ -1007544,6 +1007575,9 @@
 <StopAreaRef Modification="new" Status="active">180GMNCRPIC</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
+<PlusbusZones>
+<PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
+</PlusbusZones>
 <StopAvailability>
 <StopValidity Modification="new" Status="active">
 <DateRange>
@@ -1007734,7 +1007768,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-06-17T12:33:41.179" ModificationDateTime="2026-06-17T12:33:41.179" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2026-06-17T12:33:41.179" ModificationDateTime="2026-10-02T11:26:04.481" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800OMBSAR1</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Oldham Bus Station</CommonName>
@@ -1007769,7 +1007803,7 @@
 </StopAreas>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-06-17T12:50:43.613" ModificationDateTime="2026-06-17T12:50:43.613" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2026-06-17T12:50:43.613" ModificationDateTime="2026-10-02T11:24:55.339" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>1800OMWSAR1</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Oldham Bus Station</CommonName>
@@ -1008775,7 +1008809,7 @@
 </StopArea>
 <StopArea CreationDateTime="2020-07-17T07:30:54.000" ModificationDateTime="2025-05-14T14:43:50.383" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>180GMNCRPIC</StopAreaCode>
-<Name>Piccadilly train station</Name>
+<Name>Piccadilly Station</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 <StopAreaType>GRLS</StopAreaType>
 <Location>
@@ -1009554,11 +1009588,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2020-05-13T12:19:36.000" ModificationDateTime="2020-05-20T08:05:10.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopArea CreationDateTime="2020-05-13T12:19:36.000" ModificationDateTime="2026-10-07T14:51:22.429" Modification="revise" RevisionNumber="5" Status="active">
 <StopAreaCode>180GZZMAEVC</StopAreaCode>
 <Name>Trafford Palazzo</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1009809,11 +1009843,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2020-07-15T06:14:52.000" ModificationDateTime="2020-07-15T06:14:52.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2020-07-15T06:14:52.000" ModificationDateTime="2026-10-08T15:10:22.162" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>180GZZMANAV1</StopAreaCode>
 <Name>Navigation Road</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1009884,11 +1009918,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2020-07-17T06:59:53.000" ModificationDateTime="2020-07-17T06:59:53.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2020-07-17T06:59:53.000" ModificationDateTime="2026-10-08T09:25:54.649" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>180GZZMANMR1</StopAreaCode>
 <Name>Northern Moor</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1010170,11 +1010204,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2020-07-15T06:15:40.000" ModificationDateTime="2020-07-15T06:15:40.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2020-07-15T06:15:40.000" ModificationDateTime="2026-10-07T15:09:34.658" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>180GZZMATIM1</StopAreaCode>
 <Name>Timperley Metrolink Stop</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1010230,11 +1010264,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2020-05-13T12:19:42.000" ModificationDateTime="2021-01-06T08:25:19.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopArea CreationDateTime="2020-05-13T12:19:42.000" ModificationDateTime="2026-10-07T15:10:26.081" Modification="revise" RevisionNumber="4" Status="active">
 <StopAreaCode>180GZZMATRC</StopAreaCode>
 <Name>The Trafford Centre</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1010365,11 +1010399,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2020-07-06T11:10:21.000" ModificationDateTime="2020-07-06T11:10:21.000" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2020-07-06T11:10:21.000" ModificationDateTime="2026-10-07T10:20:04.370" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>180GZZMAWWD1</StopAreaCode>
 <Name>Westwood Metrolink Stop</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1010770,11 +1010804,11 @@
 </Translation>
 </Location>
 </StopArea>
-<StopArea CreationDateTime="2025-05-08T11:49:51.504" ModificationDateTime="2025-05-08T11:49:51.504" Modification="new" RevisionNumber="0" Status="active">
+<StopArea CreationDateTime="2025-05-08T11:49:51.504" ModificationDateTime="2026-10-07T10:16:39.802" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>180GWHRFSIDE</StopAreaCode>
 <Name>Wharfside</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
-<StopAreaType>GPBS</StopAreaType>
+<StopAreaType>GCLS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
@@ -1012662,7 +1012696,7 @@
 </StopArea>
 <StopArea CreationDateTime="2026-01-22T00:00:00.000" ModificationDateTime="2026-01-22T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">
 <StopAreaCode>180GEB07051</StopAreaCode>
-<Name>Manchester Piccadilly Rail Station</Name>
+<Name>Piccadilly Station</Name>
 <AdministrativeAreaRef>083</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
