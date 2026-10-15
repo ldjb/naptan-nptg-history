@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-24T10:13:13.416" ModificationDateTime="2026-09-24T10:13:13.416" Modification="new" RevisionNumber="0" FileName="NaPTAN400.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-14T10:13:38.603" ModificationDateTime="2026-10-14T10:13:38.603" Modification="new" RevisionNumber="0" FileName="NaPTAN400.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2010-06-09T12:01:00.000" ModificationDateTime="2010-06-09T12:37:00.000" Modification="delete" RevisionNumber="1" Status="inactive">
 <AtcoCode>400040004411</AtcoCode>
@@ -76298,13 +76298,13 @@
 <PlusbusZoneRef CreationDateTime="2004-12-01T00:00:00.000" ModificationDateTime="2010-03-24T14:16:00.000" Modification="revise" RevisionNumber="8" Status="active">WOKING</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-12-01T00:00:00.000" ModificationDateTime="2017-05-11T14:45:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2004-12-01T00:00:00.000" ModificationDateTime="2026-10-14T09:59:16.013" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>40004404813H</AtcoCode>
 <NaptanCode>suradmgp</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Linkway</CommonName>
-<Street xml:lang="en">Linkway</Street>
-<Indicator xml:lang="en">S-bound</Indicator>
+<Street xml:lang="en">East Hill</Street>
+<Indicator xml:lang="en">SE-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0025903</NptgLocalityRef>
@@ -76314,10 +76314,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>502399</Easting>
-<Northing>158992</Northing>
-<Longitude>-0.531929</Longitude>
-<Latitude>51.320829</Latitude>
+<Easting>502385</Easting>
+<Northing>158958</Northing>
+<Longitude>-0.532131</Longitude>
+<Latitude>51.320527</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -76347,7 +76347,7 @@
 </Translation>
 </EndPoint>
 <Bearing>
-<CompassPoint>S</CompassPoint>
+<CompassPoint>SE</CompassPoint>
 </Bearing>
 </HailAndRideSection>
 </Bus>
@@ -76361,13 +76361,13 @@
 <PlusbusZoneRef CreationDateTime="2004-12-01T00:00:00.000" ModificationDateTime="2010-04-09T11:35:00.000" Modification="revise" RevisionNumber="2" Status="active">WOKING</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-12-01T00:00:00.000" ModificationDateTime="2017-05-11T14:46:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2004-12-01T00:00:00.000" ModificationDateTime="2026-10-14T10:00:43.526" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>40004404813I</AtcoCode>
 <NaptanCode>suradmgt</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Linkway</CommonName>
-<Street xml:lang="en">Linkway</Street>
-<Indicator xml:lang="en">N-bound</Indicator>
+<Street xml:lang="en">East Hill</Street>
+<Indicator xml:lang="en">NW-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0025903</NptgLocalityRef>
@@ -76377,10 +76377,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>502385</Easting>
-<Northing>158995</Northing>
-<Longitude>-0.532129</Longitude>
-<Latitude>51.320859</Latitude>
+<Easting>502386</Easting>
+<Northing>158944</Northing>
+<Longitude>-0.532121</Longitude>
+<Latitude>51.320394</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -76410,7 +76410,7 @@
 </Translation>
 </EndPoint>
 <Bearing>
-<CompassPoint>N</CompassPoint>
+<CompassPoint>SE</CompassPoint>
 </Bearing>
 </HailAndRideSection>
 </Bus>
