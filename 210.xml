@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:n1="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://naptan.dft.gov.uk/naptan/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-06T00:00:00" ModificationDateTime="2026-10-06T00:00:00" Modification="new" RevisionNumber="1" FileName="Naptan210.xml" SchemaVersion="2.4" LocationSystem="Grid">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:n1="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://naptan.dft.gov.uk/naptan/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-16T00:00:00" ModificationDateTime="2026-10-16T00:00:00" Modification="new" RevisionNumber="1" FileName="Naptan210.xml" SchemaVersion="2.4" LocationSystem="Grid">
   <StopPoints>
     <StopPoint CreationDateTime="2004-06-17T11:22:08" ModificationDateTime="2011-06-20T10:11:27" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>210021000020</AtcoCode>
@@ -341255,11 +341255,11 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-09-02T15:54:37" ModificationDateTime="2026-09-02T15:55:53" Status="active" Modification="new" RevisionNumber="0">
+    <StopPoint CreationDateTime="2026-09-02T15:54:37" ModificationDateTime="2026-10-16T09:20:42" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>210021102810</AtcoCode>
       <NaptanCode>hrtjgdag</NaptanCode>
       <Descriptor>
-        <CommonName>Gurney’s Lane</CommonName>
+        <CommonName>Gurney's Lane</CommonName>
         <ShortCommonName>NA</ShortCommonName>
         <Landmark>Unknown</Landmark>
         <Street>Holwell Road</Street>
@@ -341304,11 +341304,11 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2026-09-02T15:58:20" ModificationDateTime="2026-09-02T15:58:20" Status="active" Modification="new" RevisionNumber="0">
+    <StopPoint CreationDateTime="2026-09-02T15:58:20" ModificationDateTime="2026-10-16T09:21:17" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>210021105425</AtcoCode>
       <NaptanCode>hrtjgdaj</NaptanCode>
       <Descriptor>
-        <CommonName>Gurney’s Lane</CommonName>
+        <CommonName>Gurney's Lane</CommonName>
         <ShortCommonName>NA</ShortCommonName>
         <Landmark>Unknown</Landmark>
         <Street>Holwell Road</Street>
@@ -341348,6 +341348,55 @@
         <StopValidity>
           <DateRange>
             <StartDate>2026-11-01</StartDate>
+          </DateRange>
+          <Active />
+        </StopValidity>
+      </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-16T09:00:32" ModificationDateTime="2026-10-16T09:10:13" Status="active" Modification="revise" RevisionNumber="1">
+      <AtcoCode>210021106730</AtcoCode>
+      <NaptanCode>hrtjgdam</NaptanCode>
+      <Descriptor>
+        <CommonName>Bartlett Way</CommonName>
+        <ShortCommonName>NA</ShortCommonName>
+        <Landmark>Unknown</Landmark>
+        <Street>Forster Way</Street>
+        <Indicator>nr</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0014228</NptgLocalityRef>
+        <Town>Stevenage</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <GridType>UKOS</GridType>
+            <Easting>523692</Easting>
+            <Northing>226896</Northing>
+            <Longitude>-0.202558102730436</Longitude>
+            <Latitude>51.926847633943666</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+                <Degrees>180</Degrees>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>085</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity>
+          <DateRange>
+            <StartDate>2027-01-04</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
