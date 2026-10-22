@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-08-12T14:24:03.2074962+01:00" ModificationDateTime="2026-08-12T14:24:03.2074962+01:00" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-10-21T14:51:27.6220194+01:00" ModificationDateTime="2026-10-21T14:51:27.6260203+01:00" Modification="new" FileName="NaPTAN468.xml" RevisionNumber="3" SchemaVersion="2.1" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
 	<StopPoints>
 		<StopPoint CreationDateTime="2016-10-04T00:00:00" ModificationDateTime="2016-10-04T13:11:26" Modification="new" RevisionNumber="3" Status="active">
 			<AtcoCode>4680SDON0</AtcoCode>
@@ -29,7 +29,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-12T14:24:14.7973778+01:00" ModificationDateTime="2026-08-12T14:24:14.7973778+01:00">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-10-21T14:51:38.2118085+01:00" ModificationDateTime="2026-10-21T14:51:38.2118085+01:00">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -61,7 +61,7 @@
 				</OffStreet>
 			</StopClassification>
 			<StopAreas>
-				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-08-12T14:24:14.8013767+01:00" ModificationDateTime="2026-08-12T14:24:14.8013767+01:00">910GSDON</StopAreaRef>
+				<StopAreaRef Modification="new" Status="active" CreationDateTime="2026-10-21T14:51:38.2158084+01:00" ModificationDateTime="2026-10-21T14:51:38.2158084+01:00">910GSDON</StopAreaRef>
 			</StopAreas>
 			<AdministrativeAreaRef>057</AdministrativeAreaRef>
 		</StopPoint>
@@ -8010,6 +8010,42 @@
 						<MarkedPoint>
 							<Bearing>
 								<CompassPoint>E</CompassPoint>
+							</Bearing>
+						</MarkedPoint>
+					</Bus>
+				</OnStreet>
+			</StopClassification>
+			<AdministrativeAreaRef>057</AdministrativeAreaRef>
+		</StopPoint>
+		<StopPoint CreationDateTime="2026-10-15T00:00:00" ModificationDateTime="2026-10-15T16:46:08" Modification="new" RevisionNumber="50" Status="active">
+			<AtcoCode>468000048</AtcoCode>
+			<NaptanCode>swimtwt</NaptanCode>
+			<Descriptor>
+				<CommonName xml:lang="en">North Swindon Learning Campus</CommonName>
+				<Indicator xml:lang="en">N-bound</Indicator>
+			</Descriptor>
+			<Place>
+				<NptgLocalityRef>N0076667</NptgLocalityRef>
+				<LocalityCentre>false</LocalityCentre>
+				<Location>
+					<Translation>
+						<GridType>UKOS</GridType>
+						<Easting>412732</Easting>
+						<Northing>189324</Northing>
+						<Longitude>-1.81756</Longitude>
+						<Latitude>51.60261</Latitude>
+					</Translation>
+				</Location>
+			</Place>
+			<StopClassification>
+				<StopType>BCT</StopType>
+				<OnStreet>
+					<Bus>
+						<BusStopType>MKD</BusStopType>
+						<TimingStatus>OTH</TimingStatus>
+						<MarkedPoint>
+							<Bearing>
+								<CompassPoint>N</CompassPoint>
 							</Bearing>
 						</MarkedPoint>
 					</Bus>

@@ -8,7 +8,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600MINMARS0,,,,Moreton-in-Marsh Rail Station,,,,,,,,,,Entrance,,,E0046510,Moreton-in-Marsh,,,,,,,false,UKOS,420670,232690,-1.70038,51.99228,RSE,,,,,,081,2015-11-11T00:00:00,2015-11-11T13:08:54,1,new,active
 1600STNHSE0,,,,Stonehouse Rail Station,,,,,,,,,,Entrance,,,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380800,205280,-2.2795,51.74589,RSE,,,,,,081,2015-11-11T00:00:00,2015-11-11T13:26:14,1,new,active
 1600STRUD0,,,,Stroud (Glos) Rail Station,,,,,,,,,,Entrance,,,E0055881,Stroud,,,,,,,false,UKOS,384957,205126,-2.21928,51.74463,RSE,,,,,,081,2015-11-11T00:00:00,2015-11-11T13:32:34,1,new,active
-1600GLO10,,,,Gloucestershire Airport,,,,,,,,,,Entrance,,,E0046683,Staverton,,,,,,,false,UKOS,388250,221950,-2.17216,51.89597,AIR,,,,,,081,2010-11-26T00:00:00,2010-11-26T16:35:16,0,new,active
+1600GLO10,,,,Gloucestershire Airport,,,,,,,,,,Entrance,,,E0046683,Staverton,,,,,,,false,UKOS,388250,221950,-2.17216,51.89597,AIR,,,,,,081,2010-11-26T00:00:00,2026-10-08T13:06:04,2,delete,inactive
 1600LYD0,,,,Lydney Harbour,,,,,,,,,,Entrance,,,E0046573,Lydney,,,,,,,false,UKOS,365095,201395,-2.50658,51.7102,FTD,,,,,,081,2011-03-09T00:00:00,2011-03-09T15:52:17,0,new,active
 1600SHS0,,,,Sharpness Old Docks,,,,,,,,,,Entrance,,,E0012335,Sharpness,,,,,,,false,UKOS,366795,203055,-2.48213,51.72522,FTD,,,,,,081,2011-03-09T00:00:00,2011-03-09T15:52:17,0,new,active
 1600ZZDFLDJ0,,,,Lydney Junction (Dean Forest Railway),,,,,,,,,,,,,E0046573,Lydney,,,,,,,false,UKOS,363369,202053,-2.53162,51.716,TMU,,,,,,081,2011-03-09T00:00:00,2011-03-09T15:52:17,0,new,active
@@ -178,8 +178,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA092,glodpgpd,,,Ansell Close,,,,,,Caernarvon Road,,,,after,,NW,N0074276,Warden Hill,Cheltenham,,,,,,false,UKOS,392514,220718,-2.11017,51.88497,BCT,MKD,OTH,,,,081,2018-02-09T00:00:00,2018-02-09T14:21:49,7,new,active
 1600GLA091,glodpgpt,,,Ansell Close,,,,,,Caernarvon Road,,,,before,,SE,N0074276,Warden Hill,Cheltenham,,,,,,false,UKOS,392534,220709,-2.10988,51.88489,BCT,CUS,OTH,,,,081,2018-02-09T00:00:00,2025-09-10T13:45:11,48,new,active
 1600GLA090,glodtgad,,,Clarence Parade,,,,,,Clarence Parade,,,,Stop,,NE,E0057404,Cheltenham,,,,,,,false,UKOS,394789,222435,-2.07714,51.90043,BCT,MKD,OTH,,,,081,2021-09-07T00:00:00,2026-09-22T12:00:25,97,new,active
-1600GLA087,glodpdtw,,,The Green,,,,,,Long Mynd Avenue,,,,nr,,SW,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,392227,220503,-2.11433,51.88303,BCT,MKD,OTH,,,,081,2017-08-29T00:00:00,2017-08-29T11:32:05,13,new,active
-160000600,glojagat,,,The Green,,,,,,,,,,opp,,NE,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,392213,220494,-2.11454,51.88295,BCT,CUS,OTH,,,,081,2017-08-29T00:00:00,2024-11-04T15:39:04,106,new,active
+1600GLA087,glodpdtw,,,Fernleigh Crescent,,,,,,Long Mynd Avenue,,,,after,,SW,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,392227,220503,-2.11433,51.88303,BCT,MKD,OTH,,,,081,2017-08-29T00:00:00,2026-10-08T16:45:34,50,new,active
+160000600,glojagat,,,Fernleigh Crescent,,,,,,,,,,before,,NE,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,392213,220494,-2.11454,51.88295,BCT,CUS,OTH,,,,081,2017-08-29T00:00:00,2026-10-08T16:45:16,135,new,active
 1600GLA110,glodtmpw,,,Sandy Lane,,,,,,Greenhills Road,,,,nr,,W,E0011708,Moorend,Cheltenham,,,,,,false,UKOS,395666,220291,-2.06437,51.88116,BCT,MKD,OTH,,,,081,2018-03-09T00:00:00,2018-03-09T12:13:06,21,new,active
 1600GLA109,glodtmta,,,Withyholt Park,,,,,,Greenhills Road,,,,opp,,N,E0011708,Moorend,Cheltenham,,,,,,false,UKOS,395703,220342,-2.06383,51.88162,BCT,MKD,OTH,,,,081,2017-02-28T00:00:00,2017-02-28T16:37:58,31,new,active
 1600GLA182,glodtgpg,,,DELETED DO NOT USE,,,,,,Bath Street,,,,on,,NW,E0057404,Cheltenham,,,,,,,false,UKOS,395061,222231,-2.07319,51.8986,BCT,MKD,OTH,,,,081,2018-02-09T00:00:00,2026-09-22T11:42:20,46,delete,inactive
@@ -238,16 +238,16 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA780,glodwadt,,,Memorial,,,,,,Gretton Road,,,,opp,,SE,E0046662,Gotherington,,,,,,,false,UKOS,396482,229565,-2.05261,51.96455,BCT,CUS,OTH,,,,081,2017-09-18T00:00:00,2017-09-18T13:01:38,64,new,active
 1600GLA778,glodtwdt,,,Aggs Lane,,,,,,Malleson Road,,,,opp,,E,E0046662,Gotherington,,,,,,,false,UKOS,396180,229644,-2.05701,51.96526,BCT,MKD,OTH,,,,081,2015-12-17T00:00:00,2015-12-17T09:55:50,8,new,active
 1600GLA777,glodtwdj,,,Aggs Lane,,,,,,Malleson Road,,,,after,,W,E0046662,Gotherington,,,,,,,false,UKOS,396171,229635,-2.05714,51.96518,BCT,MKD,OTH,,,,081,2017-11-08T00:00:00,2017-11-08T15:27:00,7,new,active
-1600GL3649,gloatmgp,,,Skf Works,,,,,,Oldends Lane,,,,o/s,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379476,205489,-2.29869,51.74772,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T15:26:39,11,new,active
-1600GL3650,gloatmja,,,Skf Works,,,,,,Oldends Lane,,,,opp,,N,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379500,205565,-2.29834,51.7484,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T14:00:57,8,new,active
+1600GL3649,gloatmgp,,,Oldends Lane,,,,,,Oldends Lane,,,,in,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379476,205489,-2.29869,51.74772,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2026-10-08T13:45:07,48,new,active
+1600GL3650,gloatmja,,,Oldends Lane,,,,,,Oldends Lane,,,,on,,N,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379500,205565,-2.29834,51.7484,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2026-10-08T13:44:49,47,new,active
 1600GL3615,glogjpgj,,,Home Close,,,,,,,,,,before,,E,N0061227,Lower Oddington,,,,,,,false,UKOS,422916,225935,-1.66812,51.93146,BCT,MKD,OTH,,,,081,2019-03-15T00:00:00,2026-10-06T09:43:38,48,new,active
 1600GL3616,glogjpgd,,,Home Close,,,,,,,,,,after,,W,N0061227,Lower Oddington,,,,,,,false,UKOS,422896,225923,-1.66841,51.93135,BCT,CUS,OTH,,,,081,2019-03-15T00:00:00,2026-10-06T09:44:02,42,new,active
-1600GL3613,glogjpaw,,,Horse and Groom,,,,,,,,,,by,,E,N0074273,Upper Oddington,,,,,,,false,UKOS,422219,225643,-1.67828,51.92886,BCT,CUS,OTH,,,,081,2019-04-23T00:00:00,2019-04-23T11:32:28,12,new,active
-1600GL3614,glogjpat,,,Horse and Groom,,,,,,,,,,opp,,W,N0074273,Upper Oddington,,,,,,,false,UKOS,422208,225628,-1.67844,51.92873,BCT,CUS,OTH,,,,081,2020-03-02T00:00:00,2020-03-02T13:41:00,10,new,active
+1600GL3613,glogjpaw,,,Back Lane,,,,,,,,,,after,,E,N0074273,Upper Oddington,,,,,,,false,UKOS,422219,225643,-1.67828,51.92886,BCT,CUS,OTH,,,,081,2019-04-23T00:00:00,2026-10-08T17:01:37,49,new,active
+1600GL3614,glogjpat,,,Back Lane,,,,,,,,,,before,,W,N0074273,Upper Oddington,,,,,,,false,UKOS,422208,225628,-1.67844,51.92873,BCT,CUS,OTH,,,,081,2020-03-02T00:00:00,2026-10-08T17:01:19,47,new,active
 1600GL361,gloamjaj,,,The Common,,,,,,B4066,,,,after,,W,E0012148,Berkeley Heath,,,,,,,false,UKOS,370039,199283,-2.43484,51.69149,BCT,MKD,OTH,,,,081,2017-10-18T00:00:00,2017-10-18T12:04:49,7,new,active
 1600GL362,gloamgwm,,,The Common,,,,,,B4066,,,,opp,,E,E0012148,Berkeley Heath,,,,,,,false,UKOS,370067,199292,-2.43444,51.69158,BCT,MKD,OTH,,,,081,2015-12-17T00:00:00,2015-12-17T10:55:19,8,new,active
-1600GL3648,gloatmpd,,,Dairy Crest,,,,,,Oldends Lane,,,,adj,,NE,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379624,205701,-2.29656,51.74963,BCT,CUS,OTH,,,,081,2019-04-29T00:00:00,2021-11-30T14:16:02,18,new,active
-1600GL3647,gloatmjt,,,Dairy Crest,,,,,,Oldends Lane,,,,opp,,SW,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379688,205714,-2.29563,51.74975,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T15:24:19,4,new,active
+1600GL3648,gloatmpd,,,Stonedale Road,,,,,,Oldends Lane,,,,after,,NE,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379624,205701,-2.29656,51.74963,BCT,CUS,OTH,,,,081,2019-04-29T00:00:00,2026-10-08T13:20:28,56,new,active
+1600GL3647,gloatmjt,,,Stonedale Road,,,,,,Oldends Lane,,,,before,,SW,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,379688,205714,-2.29563,51.74975,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2026-10-08T13:20:09,43,new,active
 1600GL364,gloamjwm,,,Berkeley Turn,,,,,,B4066,,,,by,,NE,E0012148,Berkeley Heath,,,,,,,false,UKOS,370677,199354,-2.42562,51.69217,BCT,CUS,OTH,,,,081,2018-02-22T00:00:00,2018-02-22T10:42:47,7,new,active
 1600GL363,gloamjwg,,,Berkeley Turn,,,,,,B4066,,,,after,,SW,E0012148,Berkeley Heath,,,,,,,false,UKOS,370641,199322,-2.42614,51.69188,BCT,CUS,OTH,,,,081,2018-02-22T00:00:00,2018-02-22T14:11:10,8,new,active
 1600GL3700,glodgmga,,,Garnalls Road,,,,,,Painswick Road,,,,after,,N,E0012127,Matson,Gloucester,,,,,,false,UKOS,385466,215463,-2.21235,51.83758,BCT,MKD,OTH,,,,081,2018-02-22T00:00:00,2018-02-22T10:44:32,7,new,active
@@ -442,7 +442,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL1381,glodwgwm,,,Memorial,,,,,,School Row,,,,by,,NE,E0046468,Coates,,,,,,,false,UKOS,397869,200889,-2.03224,51.70673,BCT,MKD,OTH,,,,081,2018-02-14T00:00:00,2018-02-14T13:31:57,7,new,active
 1600GL1385,glodtwma,,,The Old Rectory,,,,,,Main Street,,,,opp,,W,E0046469,Coberley,,,,,,,false,UKOS,396260,216010,-2.05569,51.84268,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GL1386,glodtwmp,,,The Old Rectory,,,,,,Main Street,,,,by,,SE,E0046469,Coberley,,,,,,,false,UKOS,396283,216027,-2.05536,51.84283,BCT,CUS,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T09:51:03,8,new,active
-1600GLC358,glodmawj,,,Priory Inn,,,,,,London Road,,,,opp,,NE,E0046538,Tetbury,,,,,,,false,UKOS,388962,193525,-2.1609,51.64042,BCT,MKD,OTH,,,,081,2019-05-08T00:00:00,2025-05-21T08:18:02,107,new,active
+1600GLC358,glodmawj,,,Coombers Way,,,,,,London Road,,,,opp,,NE,E0046538,Tetbury,,,,,,,false,UKOS,388962,193525,-2.1609,51.64042,BCT,MKD,OTH,,,,081,2019-05-08T00:00:00,2026-10-08T15:22:15,133,new,active
 1600GLC337,glogdaja,,,St Michael's Church,,,,,,Church Lane,,,,by,,E,E0046553,Yanworth,,,,,,,false,UKOS,407933,213862,-1.8863,51.82333,BCT,CUS,OTH,,,,081,2018-01-31T00:00:00,2018-01-31T11:16:29,7,new,active
 1600GLC336,glogatdm,,,Hutnage Cottage,,,,,,Withington Road,,,,nr,,N,E0046553,Yanworth,,,,,,,false,UKOS,405569,213919,-1.9206,51.82387,BCT,CUS,OTH,,,,081,2018-01-31T00:00:00,2018-01-31T11:18:28,16,new,active
 1600GLC335,glogatdw,,,Hutnage Cottage,,,,,,Withington Road,,,,by,,S,E0046553,Yanworth,,,,,,,false,UKOS,405588,213918,-1.92033,51.82386,BCT,CUS,OTH,,,,081,2018-02-22T00:00:00,2018-02-22T15:57:52,15,new,active
@@ -518,8 +518,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA56982,glogmtag,,,Gamekeepers Inn,,,,,,Hillcrest Road,,,,nr,,SE,E0011945,Five Acres,,,,,,,false,UKOS,357950,212260,-2.6113,51.80739,BCT,CUS,OTH,,,,081,2007-02-14T00:00:00,2018-01-31T13:12:44,40,new,active
 1600GLF218,gloadtad,,,Crabtree Meadow,,,,,,Lower Road,,,,after,,W,E0011884,Berry Hill,,,,,,,false,UKOS,357617,212073,-2.6161,51.80568,BCT,CUS,OTH,,,,081,2018-01-31T00:00:00,2026-09-14T14:26:45,93,new,active
 1600GLF217,gloadpwg,,,Crabtree Meadow,,,,,,Lower Road,,,,before,,E,E0011884,Berry Hill,,,,,,,false,UKOS,357576,212086,-2.6167,51.80579,BCT,CUS,OTH,,,,081,2018-01-31T00:00:00,2026-09-14T14:32:46,70,new,active
-1600GLF202,gloagmap,,,Sallow Vallets Lodge,,,,,,A4136 Nr Mireystock,,,,opp,,E,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360732,214423,-2.57119,51.82704,BCT,MKD,OTH,,,,081,2016-07-19T00:00:00,2016-07-19T10:01:28,17,new,active
-1600GLF201,gloagmad,,,Sallow Vallets Lodge,,,,,,,,,,by,,W,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360690,214393,-2.5718,51.82676,BCT,MKD,OTH,,,,081,2018-01-31T00:00:00,2018-01-31T13:16:00,45,new,active
+1600GLF202,gloagmap,,,Sallow Vallets,,,,,,A4136 Nr Mireystock,,,,opp,,E,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360732,214423,-2.57119,51.82704,BCT,MKD,OTH,,,,081,2016-07-19T00:00:00,2026-10-08T16:55:22,53,new,active
+1600GLF201,gloagmad,,,Sallow Vallets,,,,,,,,,,by,,W,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360690,214393,-2.5718,51.82676,BCT,MKD,OTH,,,,081,2018-01-31T00:00:00,2026-10-08T16:55:35,81,new,active
 1600GLF199,gloagpgm,,,Brierley Banks,,,,,,High Street,,,,after,,W,E0011905,Brierley,,,,,,,false,UKOS,362175,215078,-2.55033,51.83302,BCT,MKD,OTH,,,,081,2019-09-30T00:00:00,2026-09-21T12:39:39,55,new,active
 1600GLF200,gloagpgp,,,Brierley Banks,,,,,,High Street,,,,before,,E,E0011905,Brierley,,,,,,,false,UKOS,362177,215090,-2.5503,51.83313,BCT,CUS,OTH,,,,081,2018-01-31T00:00:00,2026-09-21T12:39:26,67,new,active
 1600GLF197,gloagtgd,,,The Delves,,,,,,A4136,,,,by,,SW,E0011905,Brierley,,,,,,,false,UKOS,363312,215470,-2.53387,51.83662,BCT,CUS,OTH,,,,081,2018-01-31T00:00:00,2018-01-31T13:25:21,24,new,active
@@ -927,7 +927,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF590,gloagawd,,,High Beeches Avenue,,,,,,Monmouth Road,,,,in,,SW,E0011937,Edge End,,,,,,,false,UKOS,359289,213098,-2.59198,51.81502,BCT,CUS,OTH,,,,081,2019-04-23T00:00:00,2019-04-23T09:31:36,10,new,active
 1600GLF604,gloadjma,,,Horsepool Lane,,,,,,B4228,,,,by,,N,E0046584,St Briavels,,,,,,,false,UKOS,355850,203982,-2.6407,51.7328,BCT,MKD,OTH,,,,081,2018-03-19T00:00:00,2018-03-19T12:11:20,9,new,active
 1600GLF603,gloadjmg,,,Horsepool Lane,,,,,,B4228,,,,opp,,S,E0046584,St Briavels,,,,,,,false,UKOS,355859,203986,-2.64057,51.73284,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
-1600GLF600,gloadgjd,,,White Horse Inn Junction,,,,,,Main Street,,,,on,,NW,E0046586,Staunton,,,,,,,false,UKOS,354802,212638,-2.657,51.81054,BCT,MKD,OTH,,,,081,2018-03-19T00:00:00,2018-03-19T12:31:16,7,new,active
+1600GLF600,gloadgjd,,,Woodcroft,,,,,,Main Street,,,,on,,NW,E0046586,Staunton,,,,,,,false,UKOS,354802,212638,-2.657,51.81054,BCT,MKD,OTH,,,,081,2018-03-19T00:00:00,2026-10-08T13:00:32,42,new,active
 1600GL5382,gloagjad,,,Council Villas,,,,,,,,,,by,,E,E0012111,Worrall Hill,,,,,,,false,UKOS,360152,214357,-2.5796,51.8264,BCT,MKD,OTH,,,,081,2017-12-28T00:00:00,2017-12-28T12:35:16,8,new,active
 1600GLF597,gloagdwm,,,Council Villas,,,,,,Worrall Hill Road,,,,o/s,,N,E0012111,Worrall Hill,,,,,,,false,UKOS,360115,214448,-2.58015,51.82722,BCT,MKD,OTH,,,,081,2017-12-28T00:00:00,2017-12-28T12:35:33,7,new,active
 1600GLF598,gloagdwp,,,Council Villas,,,,,,Worrall Hill Road,,,,adj,,S,E0012111,Worrall Hill,,,,,,,false,UKOS,360122,214459,-2.58005,51.82732,BCT,MKD,OTH,,,,081,2017-12-28T00:00:00,2017-12-28T12:35:52,7,new,active
@@ -981,7 +981,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL5822,glogdpgw,,,Swyre Farm,,,,,,Coln St Aldwyns Road,,,,by,,SW,E0046441,Aldsworth,,,,,,,false,UKOS,415160,208927,-1.78166,51.77881,BCT,MKD,OTH,,,,081,2018-02-07T00:00:00,2018-02-07T14:26:45,7,new,active
 1600GL5821,glogdpgt,,,Swyre Farm,,,,,,Coln St Aldwyns Road,,,,nr,,NE,E0046441,Aldsworth,,,,,,,false,UKOS,415148,208915,-1.78184,51.7787,BCT,MKD,OTH,,,,081,2018-02-07T00:00:00,2018-02-07T14:26:26,7,new,active
 1600GL5820,gloatwtm,,,Globe Inn,,,,,,High Street,,,,opp,,N,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380518,205528,-2.2836,51.74811,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T15:13:30,21,new,active
-1600GL5819,gloawadt,,,Medical Centre,,,,,,High Street,,,,o/s,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380539,205460,-2.28329,51.7475,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T15:09:33,17,new,active
+1600GL5819,gloawadt,,,Orchard Place,,,,,,High Street,,,,opp,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380539,205460,-2.28329,51.7475,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2026-10-08T13:29:24,54,new,active
 1600GL577,glogjawj,,,Fenhill Close,,,,,,A44,,,,by,,W,E0046458,Bourton-on-the-Hill,,,,,,,false,UKOS,417935,232429,-1.74022,51.99003,BCT,MKD,OTH,,,,081,2019-05-31T00:00:00,2019-05-31T11:53:36,19,new,active
 1600GL578,glogjawm,,,Fenhill Close,,,,,,,,,,opp,,E,E0046458,Bourton-on-the-Hill,,,,,,,false,UKOS,417963,232441,-1.73982,51.99013,BCT,MKD,OTH,,,,081,2019-05-23T00:00:00,2019-05-23T10:40:01,15,new,active
 1600GL5779,glodpjdt,,,The Umbrella,,,,,,Orchard Way,,,,o/s,,NW,E0011701,Hesters Way,Cheltenham,,,,,,false,UKOS,392747,223290,-2.10684,51.9081,BCT,MKD,OTH,,,,081,2017-11-13T00:00:00,2017-11-13T15:53:58,7,new,active
@@ -998,7 +998,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL60,glodwmgd,,,Cambridge Square,,,,,,Cambridge Square,,,,on,,SE,E0046647,Alderton,,,,,,,false,UKOS,400144,233327,-1.99931,51.99839,BCT,MKD,OTH,,,,081,2019-09-06T00:00:00,2019-09-06T12:36:28,12,new,active
 1600GL589,glodgmpd,,,Bownham Park,,,,,,Pines Road,,,,after,,S,E0012172,Burleigh,Stroud,,,,,,false,UKOS,385514,202261,-2.21109,51.71888,BCT,CUS,OTH,,,,081,2018-12-07T00:00:00,2026-09-16T11:55:24,44,new,active
 1600GL588,glogadmp,,,Bowling Green,,,,,,Bowling Green Road,,,,in,,E,N0074132,Bowling Green,Cirencester,,,,,,false,UKOS,402201,202873,-1.96954,51.72457,BCT,MKD,OTH,,,,081,2019-06-24T00:00:00,2026-09-17T14:20:41,48,new,active
-1600GL5874,gloamtwd,,,Wildfowl & Wetlands Trust,,,,,,,,,,by,,SE,E0046635,Slimbridge,,,,,,,false,UKOS,372288,204791,-2.40275,51.74113,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2018-02-08T11:27:54,7,new,active
+1600GL5874,gloamtwd,,,WWT Slimbridge,,,,,,,,,,by,,SE,E0046635,Slimbridge,,,,,,,false,UKOS,372288,204791,-2.40275,51.74113,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2026-10-08T10:36:02,42,new,active
 1600GL591,glodgpgp,,,Halfway House Inn,,,,,,Common Road,,,,opp,,NE,E0012163,Box,Nailsworth,,,,,,false,UKOS,385681,200372,-2.2086,51.7019,BCT,MKD,OTH,,,,081,2019-10-01T00:00:00,2019-10-01T12:00:02,17,new,active
 1600GL592,glodgpgw,,,Halfway House Inn,,,,,,Common Road,,,,o/s,,SW,E0012163,Box,Nailsworth,,,,,,false,UKOS,385664,200337,-2.20884,51.70159,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2018-12-19T09:19:48,24,new,active
 1600GL6004,glogjdam,,,Batsford Arboretum,,,,,,A44,,,,nr,,E,E0046458,Bourton-on-the-Hill,,,,,,,false,UKOS,418242,232412,-1.73576,51.98986,BCT,CUS,OTH,,,,081,2019-03-15T00:00:00,2019-03-15T16:29:14,10,new,active
@@ -1186,10 +1186,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL1173,gloajtag,,,Lamb Inn,,,,,,Gloucester Road,,,,before,,SW,E0046574,Mitcheldean,,,,,,,false,UKOS,366544,218310,-2.48724,51.86236,BCT,MKD,OTH,,,,081,2017-12-05T00:00:00,2017-12-05T09:04:35,7,new,active
 1600GLF628,gloajpwt,,,Abenhall House,,,,,,Abenhall Road,,,,nr,,SE,E0046574,Mitcheldean,,,,,,,false,UKOS,366528,218283,-2.48747,51.86212,BCT,CUS,OTH,,,,081,2017-12-05T00:00:00,2017-12-05T09:03:59,33,new,active
 1600GL1174,gloajtam,,,Primary School,,,,,,Merrin Street,,,,opp,,S,E0046574,Mitcheldean,,,,,,,false,UKOS,366499,218304,-2.48789,51.8623,BCT,MKD,OTH,,,,081,2019-12-16T00:00:00,2019-12-16T11:50:55,39,new,active
-1600GLF626,gloadwad,,,Crossroads,,,,,,Lambsquay Road,,,,on,,SW,E0012008,Milkwall,,,,,,,false,UKOS,358050,208863,-2.60943,51.77685,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2018-03-19T13:36:43,32,new,active
+1600GLF626,gloadwad,,,Crossroads,,,,,,Lambsquay Road,,,,on,,SW,E0012008,Milkwall,,,,,,,false,UKOS,358050,208863,-2.60943,51.77685,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2026-10-08T09:03:02,64,new,active
 1600GL2805,gloadtwm,,,Lambsquay Hotel,,,,,,Perrygrove Road B4228,,,,by,,N,E0012008,Milkwall,,,,,,,false,UKOS,358033,208891,-2.60968,51.7771,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2018-03-19T13:38:10,7,new,active
-1600GL2806,gloadtwp,,,Lambsquay Hotel,,,,,,Perrygrove Road B4228,,,,opp,,S,E0012008,Milkwall,,,,,,,false,UKOS,358055,208894,-2.60937,51.77713,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2018-03-19T13:35:45,3,new,active
-1600GLF625,gloadwam,,,Crossroads,,,,,,Lambsquay Road,,,,after,,NE,E0012008,Milkwall,,,,,,,false,UKOS,358072,208901,-2.60912,51.7772,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2018-03-19T13:37:11,32,new,active
+1600GL2806,gloadtwp,,,Lambsquay Hotel,,,,,,Perrygrove Road B4228,,,,opp,,S,E0012008,Milkwall,,,,,,,false,UKOS,358055,208894,-2.60937,51.77713,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2026-10-08T08:57:29,36,new,active
+1600GLF625,gloadwam,,,Crossroads,,,,,,Lambsquay Road,,,,after,,NE,E0012008,Milkwall,,,,,,,false,UKOS,358072,208901,-2.60912,51.7772,BCT,CUS,OTH,,,,081,2018-03-19T00:00:00,2026-10-08T09:01:53,64,new,active
 1600GLF624,gloagagj,,,Parkend Road,,,,,,Parkend Road,,,,on,,SE,E0011926,Coalway,,,,,,,false,UKOS,358788,210318,-2.59891,51.78999,BCT,MKD,OTH,,,,081,2019-08-12T00:00:00,2019-08-12T11:42:03,7,new,active
 1600GLF615,gloadjaj,,,Brook Farm,,,,,,,,,,by,,SW,E0012014,Mork,,,,,,,false,UKOS,355453,205619,-2.64666,51.74749,BCT,CUS,OTH,,,,081,2018-03-21T00:00:00,2018-03-21T11:58:13,8,new,active
 1600GLF616,gloadjag,,,Brook Farm,,,,,,Stowe Road,,,,opp,,NE,E0012014,Mork,,,,,,,false,UKOS,355450,205631,-2.6467,51.74759,BCT,MKD,OTH,,,,081,2017-01-09T00:00:00,2017-01-09T11:05:46,5,new,active
@@ -1328,7 +1328,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA90844,glogpatm,,,Monks Corner,,,,,,Hempsted Lane,,,,by,,NE,E0012120,Hempsted,Gloucester,,,,,,false,UKOS,382016,217597,-2.26253,51.85667,BCT,MKD,OTH,,,,081,2007-02-06T00:00:00,2019-08-09T11:25:25,19,new,active
 1600GLA90849,glogpawg,,,Jasmin Way,,,,,,,,,,opp,,NW,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,392891,219942,-2.10468,51.878,BCT,MKD,OTH,,,,081,2007-02-07T00:00:00,2018-02-28T14:34:39,9,new,active
 1600GLA90850,glogpawj,,,Jasmin Way,,,,,,,,,,after,,SE,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,392921,219934,-2.10424,51.87793,BCT,MKD,OTH,,,,081,2007-02-07T00:00:00,2018-02-28T14:35:01,7,new,active
-1600GLA90854,glogpdad,,,Dobbies Garden World,,,,,,,,,,in,,NW,E0046530,Siddington,,,,,,,false,UKOS,404286,200164,-1.93938,51.7002,BCT,MKD,OTH,,,,081,2007-04-25T00:00:00,2018-04-26T10:21:45,8,new,active
+1600GLA90854,glogpdad,,,Dobbies,,,,,,,,,,in,,NW,E0046530,Siddington,,,,,,,false,UKOS,404286,200164,-1.93938,51.7002,BCT,MKD,OTH,,,,081,2007-04-25T00:00:00,2026-10-08T10:24:56,43,new,active
 1600GLA90853,glogpawt,,,Church Farm,,,,,,Peter's Street,,,,nr,,E,E0046611,Frocester,,,,,,,false,UKOS,377289,203422,-2.33023,51.72905,BCT,MKD,OTH,,,,081,2007-02-23T00:00:00,2018-02-28T14:38:39,7,new,active
 1600GLS1054,gloatdpg,,,Church Farm,,,,,,Peter's Street,,,,opp,,W,E0046611,Frocester,,,,,,,false,UKOS,377276,203417,-2.33042,51.729,BCT,MKD,OTH,,,,081,2007-02-23T00:00:00,2018-02-28T14:38:18,7,new,active
 1600GL467,glodgmgd,,,Tern Close,,,,,,Bittern Avenue,,,,nr,,SE,N0074120,Abbeydale,Gloucester,,,,,,false,UKOS,385473,216887,-2.2123,51.85039,BCT,MKD,OTH,,,,081,2017-10-16T00:00:00,2017-10-16T10:53:55,14,new,active
@@ -1402,7 +1402,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL3505,glogadam,,,North Cerney Manor,,,,,,Dark Lane,,,,nr,,W,E0046512,North Cerney,,,,,,,false,UKOS,402027,207980,-1.97203,51.77049,BCT,MKD,OTH,,,,081,2019-04-18T00:00:00,2026-10-06T11:44:31,48,new,active
 1600GLA26335,glogpjmj,,,Palmer Avenue,,,,,,,,,,before,,SW,N0077080,Abbeymead,Gloucester,,,,,,false,UKOS,386673,216225,-2.19486,51.84446,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2018-12-27T15:13:05,16,new,active
 1600GLA26334,glogpjmg,,,Jubilee Way,,,,,,A38,,,,on,,E,E0046687,Tewkesbury,,,,,,,false,UKOS,390024,231303,-2.14666,51.9801,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2024-03-18T11:29:52,76,new,active
-1600GLA26333,glogpjmd,,,Monterey Road Roundabout,,,,,,Monterey Road,,,,nr,,E,E0046687,Tewkesbury,,,,,,,false,UKOS,390396,231475,-2.14125,51.98165,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2024-10-22T10:27:24,93,new,active
+1600GLA26333,glogpjmd,,,Monterey Road,,,,,,Monterey Road,,,,on,,E,E0046687,Tewkesbury,,,,,,,false,UKOS,390396,231475,-2.14125,51.98165,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2026-10-08T15:40:46,121,new,active
 1600GLA26339,glogpjpa,,,Cox's Way,,,,,,Lobleys Drive,,,,after,,SW,N0077080,Abbeymead,Gloucester,,,,,,false,UKOS,386992,216490,-2.19024,51.84685,BCT,MKD,OTH,,,,081,2009-03-31T00:00:00,2018-12-27T15:15:19,10,new,active
 1600GLA26340,glogpjtg,,,Cox's Way,,,,,,Lobleys Drive,,,,before,,NE,N0077080,Abbeymead,Gloucester,,,,,,false,UKOS,386940,216487,-2.19099,51.84683,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2024-10-16T08:55:34,42,new,active
 1600GLA26344,glogpjpm,,,Weavers Cottage,,,,,,Brimscombe Hill,,,,nr,,SW,E0012168,Brimscombe,Stroud,,,,,,false,UKOS,386434,201772,-2.19776,51.71451,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2026-09-21T12:46:53,57,new,active
@@ -1413,8 +1413,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA26357,glogpjwp,,,Queens Road,,,,,,Queens Road,,,,on,,SE,E0057404,Cheltenham,,,,,,,false,UKOS,393792,221689,-2.09162,51.89372,BCT,CUS,OTH,,,,081,2009-04-07T00:00:00,2026-09-07T10:47:55,45,new,active
 1600GLA266,glodmtag,,,Village Hall,,,,,,Badgeworth Lane,,,,opp,,NW,E0046650,Badgeworth,,,,,,,false,UKOS,390502,219347,-2.13936,51.87261,BCT,MKD,OTH,,,,081,2018-02-09T00:00:00,2018-02-09T09:28:54,7,new,active
 1600GLA265,glodmtad,,,Village Hall,,,,,,Badgeworth Lane,,,,by,,SE,E0046650,Badgeworth,,,,,,,false,UKOS,390510,219347,-2.13925,51.87261,BCT,MKD,OTH,,,,081,2018-02-09T00:00:00,2018-02-09T09:29:12,7,new,active
-1600GLA264,glodmpmw,,,Chestnut Nurseries,,,,,,The Reddings,,,,by,,W,E0011714,The Reddings,,,,,,,false,UKOS,390315,220877,-2.14212,51.88637,BCT,MKD,OTH,,,,081,2020-11-26T00:00:00,2020-11-26T10:04:49,8,new,active
-1600GLA263,glodmptg,,,Chestnut Nurseries,,,,,,The Reddings,,,,nr,,E,E0011714,The Reddings,,,,,,,false,UKOS,390329,220882,-2.14192,51.88641,BCT,MKD,OTH,,,,081,2020-11-26T00:00:00,2020-11-26T10:05:32,8,new,active
+1600GLA264,glodmpmw,,,Badgeworth Road,,,,,,The Reddings,,,,by,,W,E0011714,The Reddings,,,,,,,false,UKOS,390315,220877,-2.14212,51.88637,BCT,MKD,OTH,,,,081,2020-11-26T00:00:00,2026-10-08T15:53:12,43,new,active
+1600GLA263,glodmptg,,,Badgeworth Road,,,,,,The Reddings,,,,nr,,E,E0011714,The Reddings,,,,,,,false,UKOS,390329,220882,-2.14192,51.88641,BCT,MKD,OTH,,,,081,2020-11-26T00:00:00,2026-10-08T15:52:56,43,new,active
 1600GLA26371,glogpmdt,,,Newcombe House,,,,,,,,,,opp,,NE,N0078194,Stancombe,,,,,,,false,UKOS,389137,206625,-2.15879,51.7582,BCT,MKD,OTH,,,,081,2008-10-30T00:00:00,2019-01-22T17:00:18,0,new,active
 1600GLA06385,glogpmjp,,,Newcombe House,,,,,,Bisley Road,,,,nr,,NE,N0078194,Stancombe,,,,,,,false,UKOS,389100,206614,-2.15932,51.7581,BCT,MKD,OTH,,,,081,2009-04-06T00:00:00,2017-11-22T14:38:48,10,new,active
 1600GLA26370,glogpmdp,,,George Pearce House,,,,,,Summersfield Road,,,,rear entrance,,W,E0046624,Minchinhampton,Stroud,,,,,,false,UKOS,387693,200999,-2.17951,51.70759,BCT,MKD,OTH,,,,081,2009-04-01T00:00:00,2018-08-07T15:24:19,8,new,active
@@ -1769,8 +1769,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA840,glodpjpg,,,Wells Close,,,,,,Salisbury Avenue,,,,after,,NW,N0074276,Warden Hill,Cheltenham,,,,,,false,UKOS,393018,220511,-2.10284,51.88312,BCT,CUS,OTH,,,,081,2020-08-04T00:00:00,2026-09-17T11:23:53,137,new,active
 1600GLA838,glodpdtd,,,Vicarage Close,,,,,,Church Lane,,,,opp,,NW,E0046678,Shurdington,,,,,,,false,UKOS,392205,218666,-2.11461,51.86652,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLA837,glodpdpm,,,Vicarage Close,,,,,,Church Lane,,,,by,,SE,E0046678,Shurdington,,,,,,,false,UKOS,392186,218692,-2.11489,51.86675,BCT,CUS,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T11:18:03,6,new,active
-1600GLA827,glodpdmt,,,The Plant Centre,,,,,,Tewkesbury Road,,,,opp,,NW,E0046692,Uckington,,,,,,,false,UKOS,392213,224636,-2.11463,51.92019,BCT,MKD,OTH,,,,081,2018-12-31T00:00:00,2018-12-31T11:08:57,10,new,active
-1600GLA828,glodpdtp,,,The Plant Centre,,,,,,Tewkesbury Road,,,,o/s,,SE,E0046692,Uckington,,,,,,,false,UKOS,392222,224646,-2.1145,51.92028,BCT,MKD,OTH,,,,081,2018-12-31T00:00:00,2018-12-31T11:09:55,9,new,active
+1600GLA827,glodpdmt,,,Homecroft Drive,,,,,,Tewkesbury Road,,,,before,,NW,E0046692,Uckington,,,,,,,false,UKOS,392213,224636,-2.11463,51.92019,BCT,MKD,OTH,,,,081,2018-12-31T00:00:00,2026-10-08T16:33:36,47,new,active
+1600GLA828,glodpdtp,,,Homecroft Drive,,,,,,Tewkesbury Road,,,,after,,SE,E0046692,Uckington,,,,,,,false,UKOS,392222,224646,-2.1145,51.92028,BCT,MKD,OTH,,,,081,2018-12-31T00:00:00,2026-10-08T16:33:56,46,new,active
 1600GLA820,glodwpjp,,,The Royal Oak,,,,,,Gretton Road,,,,opp,,W,E0046664,Gretton,,,,,,,false,UKOS,401446,230477,-1.98036,51.97276,BCT,CUS,OTH,,,,081,2018-04-27T00:00:00,2018-04-27T10:46:35,5,new,active
 1600GLA819,glodwpjw,,,The Royal Oak,,,,,,Gretton Road,,,,by,,E,E0046664,Gretton,,,,,,,false,UKOS,401474,230489,-1.97995,51.97287,BCT,CUS,OTH,,,,081,2018-03-01T00:00:00,2018-03-01T09:38:19,11,new,active
 1600GLA814,glodtptp,,,Dale Walk North,,,,,,Dale Walk,,,,on,,NE,E0046651,Bishops Cleeve,,,,,,,false,UKOS,396098,227140,-2.05817,51.94275,BCT,MKD,OTH,,,,081,2018-03-01T00:00:00,2018-03-01T09:43:59,11,new,active
@@ -1847,7 +1847,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLB426,gloawtpw,,,Fox and Elm,,,,,,Stroud Road,,,,after,,N,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383209,214927,-2.24508,51.8327,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T11:34:23,13,new,active
 1600GLB425,gloawtwj,,,Fox and Elm,,,,,,Stroud Road,,,,o/s,,S,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383216,214826,-2.24497,51.83179,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2017-12-22T13:33:44,9,new,active
 1600GLB415,gloawtpa,,,Fox and Elm,,,,,,Tuffley Lane,,,,nr,,W,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383158,214837,-2.24581,51.83189,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:29:30,35,new,active
-1600GLB424,gloawmwp,,,Allotments,,,,,,Robert Raikes Avenue,,,,nr,,NE,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,382705,214637,-2.25238,51.83008,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T12:40:07,8,new,active
+1600GLB424,gloawmwp,,,Goddard Way,,,,,,Robert Raikes Avenue,,,,after,,NE,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,382705,214637,-2.25238,51.83008,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2026-10-08T16:21:00,45,new,active
 1600GLB434,glodadaw,,,Linden Road,,,,,,Calton Road,,,,opp,,N,N0074194,Linden,Gloucester,,,,,,false,UKOS,383295,216711,-2.24392,51.84874,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLB439,glodgtag,,,The Richmonds,,,,,,Wheatway,,,,opp,,SW,N0074120,Abbeydale,Gloucester,,,,,,false,UKOS,385723,215387,-2.20861,51.83691,BCT,MKD,OTH,,,,081,2019-04-17T00:00:00,2019-04-17T11:14:47,12,new,active
 1600GLB440,glodgtgp,,,The Richmonds,,,,,,Wheatway,,,,corner of,,NE,N0074120,Abbeydale,Gloucester,,,,,,false,UKOS,385714,215397,-2.20874,51.837,BCT,CUS,OTH,,,,081,2019-04-17T00:00:00,2019-04-17T11:15:02,9,new,active
@@ -2090,7 +2090,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4484,gloatwdm,,,Ryelands Road,,,,,,Park Road,,,,after,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380204,205767,-2.28816,51.75024,BCT,CUS,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T14:06:55,20,new,active
 1600GL4483,gloatwdg,,,Ryelands Road,,,,,,Park Road,,,,before,,N,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380188,205741,-2.28839,51.75001,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T15:18:16,11,new,active
 1600GL4538,glodwtat,,,Haresfield,,,,,,Stratton Heights,,,,before,,NW,E0011852,Stratton,Cirencester,,,,,,false,UKOS,401777,203884,-1.97567,51.73366,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T15:48:41,7,new,active
-1600GL4580,glodjdwa,,,Summer Crescent North,,,,,,Summer Crescent,,,,on,,SW,E0055881,Stroud,,,,,,,false,UKOS,386564,205502,-2.19602,51.74805,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T10:59:51,11,new,active
+1600GL4580,glodjdwa,,,Summer Crescent,,,,,,Summer Crescent,,,,on,,SW,E0055881,Stroud,,,,,,,false,UKOS,386564,205502,-2.19602,51.74805,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2026-10-08T15:07:16,46,new,active
 1600GL457,glodjgwd,,,Mason Road,,,,,,Bisley Road,,,,corner of,,NE,E0055881,Stroud,,,,,,,false,UKOS,386855,205053,-2.19179,51.74402,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T10:31:24,11,new,active
 1600GL458,glodjgwg,,,Mason Road,,,,,,Bisley Road,,,,opp,,SW,E0055881,Stroud,,,,,,,false,UKOS,386878,205068,-2.19146,51.74416,BCT,MKD,OTH,,,,081,2019-04-17T00:00:00,2022-05-16T09:46:24,9,new,active
 1600GL4573,glodgjma,,,Cornhill,,,,,,Cornhill,,,,on,,N,E0055881,Stroud,,,,,,,false,UKOS,385233,205109,-2.21528,51.74448,BCT,MKD,OTH,,,,081,2019-09-27T00:00:00,2019-09-27T10:47:04,20,new,active
@@ -2136,8 +2136,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA57039,glogmwdg,,,Newton Close,,,,,,Westwick Road,,,,corner of,,S,E0046568,Huntley,,,,,,,false,UKOS,372470,219480,-2.40128,51.87321,BCT,MKD,OTH,,,,081,2009-04-06T00:00:00,2018-02-08T15:36:47,7,new,active
 1600GLA57032,glogmwag,,,Westdown Gardens,,,,,,Hewlett Road,,,,by,,SW,E0011695,Fairview,Cheltenham,,,,,,false,UKOS,395699,222407,-2.06392,51.90019,BCT,MKD,OTH,,,,081,2007-06-19T00:00:00,2018-03-29T13:13:01,10,new,active
 1600GLA57031,glogmwad,,,Westdown Gardens,,,,,,Hewlett Road,,,,opp,,NE,E0011695,Fairview,Cheltenham,,,,,,false,UKOS,395664,222392,-2.06443,51.90005,BCT,CUS,OTH,,,,081,2007-06-19T00:00:00,2017-02-09T16:14:48,11,new,active
-1600GL4942,gloatjwm,,,Church Hall,,,,,,The Street B4066,,,,just before,,SW,E0046641,Uley,,,,,,,false,UKOS,379147,198546,-2.30304,51.68528,BCT,MKD,OTH,,,,081,2019-04-08T00:00:00,2019-04-08T16:29:47,13,new,active
-1600GLA57024,glogmtwd,,,St Giles's Church,,,,,,The Street B4066,,,,nr,,NE,E0046641,Uley,,,,,,,false,UKOS,379157,198588,-2.30289,51.68566,BCT,CUS,OTH,,,,081,2006-03-27T00:00:00,2019-08-12T13:24:51,15,new,active
+1600GL4942,gloatjwm,,,St Giles's,,,,,,The Street B4066,,,,by,,SW,E0046641,Uley,,,,,,,false,UKOS,379147,198546,-2.30304,51.68528,BCT,MKD,OTH,,,,081,2019-04-08T00:00:00,2026-10-08T16:39:37,56,new,active
+1600GLA57024,glogmtwd,,,St Giles's,,,,,,The Street B4066,,,,nr,,NE,E0046641,Uley,,,,,,,false,UKOS,379157,198588,-2.30289,51.68566,BCT,CUS,OTH,,,,081,2006-03-27T00:00:00,2026-10-08T16:38:57,50,new,active
 1600GLA57023,glogmtwa,,,Cotswold Mill,,,,,,Lewis Lane,,,,by,,SW,E0055852,Cirencester,,,,,,,false,UKOS,402453,201734,-1.96589,51.71433,BCT,CUS,OTH,,,,081,2007-06-14T00:00:00,2018-02-08T15:40:07,7,new,active
 1600GLA57021,glogmtpt,,,Ruscombe Road,,,,,,Ruscombe Road,,,,on,,NW,N0074281,Whiteshill,Stroud,,,,,,false,UKOS,383880,207302,-2.23498,51.76416,BCT,CUS,OTH,,,,081,2006-03-14T00:00:00,2020-12-23T12:00:48,21,new,active
 1600GLA57026,glogmtwg,,,Perrinsfield,,,,,,Off Vennymore,,,,on,,N,E0046502,Lechlade,,,,,,,false,UKOS,421635,200784,-1.68831,51.70538,BCT,CUS,OTH,,,,081,2006-05-19T00:00:00,2018-02-08T15:44:13,7,new,active
@@ -2210,8 +2210,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4555,glodadmp,,,St Barnabas Church,,,,,,Stroud Road,,,,o/s,,SE,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383350,215818,-2.24307,51.84071,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T14:51:28,8,new,active
 1600GL4556,glodadjp,,,St Barnabas Church,,,,,,Stroud Road,,,,opp,,NW,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383357,215798,-2.24297,51.84053,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T14:50:38,8,new,active
 1600GLA90994,glogtawa,,,St Barnabas Church,,,,,,Finlay Road,,,,after,,NE,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383442,215801,-2.24174,51.84056,BCT,MKD,OTH,,,,081,2010-08-06T00:00:00,2017-12-22T13:43:25,32,new,active
-1600GL4562,glodadjd,,,Rosebank Surgery,,,,,,Stroud Road,,,,after,,NW,E0012134,Tredworth,Gloucester,,,,,,false,UKOS,383337,217275,-2.24333,51.85381,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T10:52:44,25,new,active
-1600GL4561,glodadmw,,,Rosebank Surgery,,,,,,Stroud Road,,,,o/s,,SE,E0012134,Tredworth,Gloucester,,,,,,false,UKOS,383381,217204,-2.24269,51.85318,BCT,MKD,OTH,,,,081,2020-11-25T00:00:00,2025-09-10T13:49:33,52,new,active
+1600GL4562,glodadjd,,,Tredworth Road,,,,,,Stroud Road,,,,opp,,NW,E0012134,Tredworth,Gloucester,,,,,,false,UKOS,383337,217275,-2.24333,51.85381,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2026-10-08T16:19:27,63,new,active
+1600GL4561,glodadmw,,,Tredworth Road,,,,,,Stroud Road,,,,after,,SE,E0012134,Tredworth,Gloucester,,,,,,false,UKOS,383381,217204,-2.24269,51.85318,BCT,MKD,OTH,,,,081,2020-11-25T00:00:00,2026-10-08T16:18:45,80,new,active
 1600GL4410,gloamwpd,,,Council Houses,,,,,,Rock Lane,,,,by,,N,E0012077,Stantway,,,,,,,false,UKOS,373337,213807,-2.38825,51.82224,BCT,MKD,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T13:09:10,7,new,active
 1600GL4409,gloamwpg,,,Council Houses,,,,,,Rock Lane,,,,opp,,S,E0012077,Stantway,,,,,,,false,UKOS,373344,213806,-2.38815,51.82224,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GL442,glodtmpd,,,St Michael's Court,,,,,,Cheltenham Road,,,,before,,S,E0046651,Bishops Cleeve,,,,,,,false,UKOS,395639,227031,-2.06485,51.94176,BCT,MKD,OTH,,,,081,2018-03-21T00:00:00,2026-09-17T13:38:26,54,new,active
@@ -2226,16 +2226,16 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4414,glogatwa,,,House,,,,,,Cockpit,,,,by,,S,E0046682,Stanway,,,,,,,false,UKOS,406119,232342,-1.9123,51.9895,BCT,CUS,OTH,,,,081,2018-04-26T00:00:00,2018-04-26T10:51:05,13,new,active
 1600GL4395,gloatpdg,,,Downton Farm,,,,,,,,,,nr,,S,E0012350,Stanley Downton,Stroud,,,,,,false,UKOS,379913,204058,-2.29227,51.73487,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T13:39:15,16,new,active
 1600GL4396,gloatpap,,,Downton Farm,,,,,,,,,,before,,N,E0012350,Stanley Downton,Stroud,,,,,,false,UKOS,379885,203975,-2.29268,51.73412,BCT,MKD,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T13:38:55,7,new,active
-1600GL4394,gloatpta,,,St Nicholas's Church,,,,,,B4008,,,,by,,NW,E0046636,Standish,Stroud,,,,,,false,UKOS,380119,208422,-2.28954,51.77411,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T16:16:05,11,new,active
-1600GL4393,gloatptp,,,Court Farms,,,,,,B4008,,,,opp,,SE,E0046636,Standish,Stroud,,,,,,false,UKOS,380258,208365,-2.28753,51.7736,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T16:21:14,24,new,active
+1600GL4394,gloatpta,,,St Nicholas's,,,,,,B4008,,,,by,,NW,E0046636,Standish,Stroud,,,,,,false,UKOS,380119,208422,-2.28954,51.77411,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2026-10-08T11:18:56,46,new,active
+1600GL4393,gloatptp,,,St Nicholas's,,,,,,B4008,,,,after,,SE,E0046636,Standish,Stroud,,,,,,false,UKOS,380258,208365,-2.28753,51.7736,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2026-10-08T11:19:17,64,new,active
 1600GL440,glodwdta,,,Britannia Way,,,,,,Two Hedges Road,,,,opp,,W,E0046695,Woodmancote,,,,,,,false,UKOS,396923,226968,-2.04617,51.94121,BCT,MKD,OTH,,,,081,2017-09-27T00:00:00,2017-09-27T11:19:59,7,new,active
 1600GL439,glodwdpw,,,Britannia Way,,,,,,Two Hedges Road,,,,before,,E,E0046695,Woodmancote,,,,,,,false,UKOS,396858,226997,-2.04712,51.94147,BCT,MKD,OTH,,,,081,2017-12-28T00:00:00,2017-12-28T11:13:00,20,new,active
 1600GL4403,glogawdg,,,Stanton North Turn,,,,,,B4632,,,,after,,NE,E0046681,Stanton,,,,,,,false,UKOS,406629,235231,-1.90482,52.01547,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T12:00:13,15,new,active
 1600GL4404,glogawdp,,,Stanton North Turn,,,,,,B4632,,,,before,,SW,E0046681,Stanton,,,,,,,false,UKOS,406634,235225,-1.90475,52.01541,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T11:59:59,16,new,active
-1600GL4402,glogawjt,,,Old Manor Farm House,,,,,,Stanway Road,,,,by,,S,E0046681,Stanton,,,,,,,false,UKOS,406798,234238,-1.90238,52.00654,BCT,CUS,OTH,,,,081,2018-05-08T00:00:00,2018-05-08T11:54:22,14,new,active
-1600GL4401,glogawjm,,,Old Manor Farm House,,,,,,Stanway Road,,,,opp,,N,E0046681,Stanton,,,,,,,false,UKOS,406793,234245,-1.90245,52.0066,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T13:45:13,7,new,active
-1600GL4447,gloapaga,,,Village Hall,,,,,,The Street B4060,,,,opp,,SW,E0046637,Stinchcombe,,,,,,,false,UKOS,373540,199107,-2.38418,51.69009,BCT,CUS,OTH,,,,081,2017-06-19T00:00:00,2017-06-19T11:55:37,7,new,active
-1600GL4448,gloapadt,,,Village Hall,,,,,,The Street B4060,,,,o/s,,NE,E0046637,Stinchcombe,,,,,,,false,UKOS,373524,199105,-2.38441,51.69007,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T12:17:23,7,new,active
+1600GL4402,glogawjt,,,High Street,,,,,,Stanway Road,,,,after,,S,E0046681,Stanton,,,,,,,false,UKOS,406798,234238,-1.90238,52.00654,BCT,CUS,OTH,,,,081,2018-05-08T00:00:00,2026-10-08T11:21:26,51,new,active
+1600GL4401,glogawjm,,,High Street,,,,,,Stanway Road,,,,before,,N,E0046681,Stanton,,,,,,,false,UKOS,406793,234245,-1.90245,52.0066,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2026-10-08T11:21:05,44,new,active
+1600GL4447,gloapaga,,,Northfields,,,,,,The Street B4060,,,,after,,SW,E0046637,Stinchcombe,,,,,,,false,UKOS,373540,199107,-2.38418,51.69009,BCT,CUS,OTH,,,,081,2017-06-19T00:00:00,2026-10-08T13:17:03,44,new,active
+1600GL4448,gloapadt,,,Northfields,,,,,,The Street B4060,,,,before,,NE,E0046637,Stinchcombe,,,,,,,false,UKOS,373524,199105,-2.38441,51.69007,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2026-10-08T13:17:23,44,new,active
 1600GL4446,glogamwp,,,Trenchard Gardens,,,,,,Preston Road,,,,opp,,N,E0046532,South Cerney,,,,,,,false,UKOS,404472,198918,-1.93671,51.689,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GL4445,glogamwt,,,Trenchard Gardens,,,,,,Preston Road,,,,after,,S,E0046532,South Cerney,,,,,,,false,UKOS,404484,198915,-1.93653,51.68897,BCT,MKD,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T13:50:42,7,new,active
 1600GLC082,glogdjwa,,,School Lane,,,,,,High Street,,,,after,,N,E0011819,Meysey Hampton,,,,,,,false,UKOS,412004,199946,-1.82771,51.69813,BCT,CUS,OTH,,,,081,2018-01-22T00:00:00,2018-01-22T15:26:31,7,new,active
@@ -2342,9 +2342,9 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF019,gloaptgj,,,Mill,,,,,,B4215,,,,opp,,W,E0012002,Malswick,,,,,,,false,UKOS,375607,224692,-2.35609,51.92021,BCT,CUS,OTH,,,,081,2017-01-18T00:00:00,2017-01-18T11:33:38,6,new,active
 1600GLF017,gloaptwt,,,The Alderleys,,,,,,B4215,,,,by,,NW,E0012002,Malswick,,,,,,,false,UKOS,375976,224465,-2.35071,51.91819,BCT,CUS,OTH,,,,081,2018-02-01T00:00:00,2018-02-01T15:42:11,26,new,active
 1600GLF018,gloapwap,,,The Alderleys,,,,,,,,,,opp,,SE,E0012002,Malswick,,,,,,,false,UKOS,376005,224449,-2.35028,51.91804,BCT,MKD,OTH,,,,081,2017-01-18T00:00:00,2017-01-18T11:32:50,6,new,active
-1600GLC609,glogawgt,,,Outdoor Education Centre,,,,,,Spine Road East,,,,corner of,,NE,E0046532,South Cerney,,,,,,,false,UKOS,406747,196775,-1.90384,51.66971,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T14:02:41,7,new,active
-1600GLC610,glogawja,,,Outdoor Education Centre,,,,,,Spine Road East,,,,opp,,SW,E0046532,South Cerney,,,,,,,false,UKOS,406770,196784,-1.9035,51.66979,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
-1600GLC608,glogatda,,,Hoburne Main Reception,,,,,,Internal Road,,,,o/s,,E,E0046532,South Cerney,,,,,,,false,UKOS,405551,195614,-1.92115,51.65928,BCT,MKD,OTH,,,,081,2018-02-01T00:00:00,2018-02-01T15:43:34,15,new,active
+1600GLC609,glogawgt,,,Summer Lake,,,,,,Spine Road East,,,,nr,,NE,E0046532,South Cerney,,,,,,,false,UKOS,406747,196775,-1.90384,51.66971,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2026-10-08T10:51:48,44,new,active
+1600GLC610,glogawja,,,Summer Lake,,,,,,Spine Road East,,,,by,,SW,E0046532,South Cerney,,,,,,,false,UKOS,406770,196784,-1.9035,51.66979,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T10:51:31,39,new,active
+1600GLC608,glogatda,,,Hoburne Reception,,,,,,Internal Road,,,,o/s,,E,E0046532,South Cerney,,,,,,,false,UKOS,405551,195614,-1.92115,51.65928,BCT,MKD,OTH,,,,081,2018-02-01T00:00:00,2026-10-08T10:49:42,50,new,active
 1600GLC601,glogjpam,,,Ditchford On Fosse,,,,,,Fosse Way,,,,by,,S,E0011734,Aston Magna,,,,,,,false,UKOS,422151,237024,-1.67853,52.03119,BCT,MKD,OTH,,,,081,2018-02-01T00:00:00,2018-02-01T15:48:04,7,new,active
 1600GLC602,glogjpaj,,,Ditchford On Fosse,,,,,,Fosse Way,,,,nr,,N,E0011734,Aston Magna,,,,,,,false,UKOS,422147,237050,-1.67859,52.03142,BCT,MKD,OTH,,,,081,2018-02-01T00:00:00,2018-02-01T15:47:41,7,new,active
 1600GLC599,glogjgwp,,,Inn For All Seasons,,,,,,A40,,,,by,,E,E0011807,Little Barrington,,,,,,,false,UKOS,420514,212065,-1.70387,51.80685,BCT,MKD,OTH,,,,081,2018-02-01T00:00:00,2026-10-05T13:33:25,43,new,active
@@ -2443,8 +2443,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF130,gloamatj,,,Bullo Cross,,,,,,A48,,,,by,,N,N0074142,Bullo,,,,,,,false,UKOS,368638,209834,-2.45606,51.78628,BCT,CUS,OTH,,,,081,2018-02-02T00:00:00,2018-02-02T15:00:01,7,new,active
 1600GLF094,gloamdgt,,,The Rock Farm,,,,,,A40,,,,nr,,E,N0074133,Boxbush,,,,,,,false,UKOS,369021,220125,-2.45144,51.87882,BCT,CUS,OTH,,,,081,2018-02-02T00:00:00,2018-02-02T15:04:16,22,new,active
 1600GLF093,gloamdgm,,,The Rock Farm,,,,,,A40,,,,by,,W,N0074133,Boxbush,,,,,,,false,UKOS,369007,220112,-2.45164,51.87871,BCT,CUS,OTH,,,,081,2018-02-02T00:00:00,2018-02-02T15:04:38,29,new,active
-1600GLF051,gloapwpg,,,Phone Box,,,,,,Buttermilk Lane,,,,opp,,W,E0046588,Tibberton,,,,,,,false,UKOS,376261,221873,-2.34638,51.8949,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2024-11-05T07:46:42,41,new,active
-1600GLF052,gloapwpa,,,Phone Box,,,,,,Buttermilk Lane,,,,by,,E,E0046588,Tibberton,,,,,,,false,UKOS,376253,221885,-2.3465,51.895,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2024-11-05T07:47:45,44,new,active
+1600GLF051,gloapwpg,,,Thorneycroft Lane,,,,,,Buttermilk Lane,,,,by,,W,E0046588,Tibberton,,,,,,,false,UKOS,376261,221873,-2.34638,51.8949,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2026-10-08T16:02:50,69,new,active
+1600GLF052,gloapwpa,,,Thorneycroft Lane,,,,,,Buttermilk Lane,,,,nr,,E,E0046588,Tibberton,,,,,,,false,UKOS,376253,221885,-2.3465,51.895,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2026-10-08T16:03:08,72,new,active
 1600GLF049,gloamwtg,,,Greenfields,,,,,,Tibberton Road,,,,opp,,SW,E0046587,Taynton,,,,,,,false,UKOS,373405,221934,-2.38789,51.89531,BCT,CUS,OTH,,,,081,2019-01-22T00:00:00,2019-01-22T17:00:18,0,new,active
 1600GLF050,gloamwtd,,,Greenfields,,,,,,Tibberton Road,,,,by,,NE,E0046587,Taynton,,,,,,,false,UKOS,373397,221934,-2.38801,51.89531,BCT,CUS,OTH,,,,081,2018-02-02T00:00:00,2018-02-02T15:06:52,7,new,active
 1600GLF048,gloamwjd,,,Moat Lane,,,,,,Tibberton Road,,,,opp,,E,E0046587,Taynton,,,,,,,false,UKOS,372947,221713,-2.39453,51.89331,BCT,CUS,OTH,,,,081,2017-01-17T00:00:00,2017-01-17T17:23:49,10,new,active
@@ -2506,29 +2506,29 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLB118,glodajda,,,GL1 Leisure Centre,,,,,,Bruton Way,,,,o/s,,NE,E0055873,Gloucester,,,,,,,false,UKOS,383701,218231,-2.23809,51.86242,BCT,MKD,OTH,,,,081,2017-11-08T00:00:00,2024-11-05T11:06:13,89,new,active
 1600GLB115,glodgtpd,,,Wotton Hall Club,,,,,,Barnwood Road,,,,opp,,SE,E0012117,Barnwood,Gloucester,,,,,,false,UKOS,385859,218178,-2.20675,51.862,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T09:05:33,8,new,active
 1600GLB116,glodgtpg,,,Wotton Hall Club,,,,,,Barnwood Road,,,,o/s,,NW,E0012117,Barnwood,Gloucester,,,,,,false,UKOS,385860,218168,-2.20674,51.86191,BCT,MKD,OTH,,,,081,2020-11-25T00:00:00,2020-11-25T11:06:55,9,new,active
-1600GL4441,gloajdpw,,,Garage,,,,,,Steam Mills Road,,,,opp,,NW,E0012078,Steam Mills,,,,,,,false,UKOS,364836,215667,-2.51177,51.83849,BCT,MKD,OTH,,,,081,2017-05-16T00:00:00,2017-05-16T10:26:17,41,new,active
-1600GL4442,gloajdtd,,,Garage,,,,,,Steam Mills Road,,,,by,,SE,E0012078,Steam Mills,,,,,,,false,UKOS,364843,215673,-2.51167,51.83855,BCT,CUS,OTH,,,,081,2018-08-31T00:00:00,2018-08-31T15:13:27,39,new,active
+1600GL4441,gloajdpw,,,Newtown Road,,,,,,Steam Mills Road,,,,after,,NW,E0012078,Steam Mills,,,,,,,false,UKOS,364836,215667,-2.51177,51.83849,BCT,MKD,OTH,,,,081,2017-05-16T00:00:00,2026-10-08T13:11:18,79,new,active
+1600GL4442,gloajdtd,,,Newtown Road,,,,,,Steam Mills Road,,,,before,,SE,E0012078,Steam Mills,,,,,,,false,UKOS,364843,215673,-2.51167,51.83855,BCT,CUS,OTH,,,,081,2018-08-31T00:00:00,2026-10-08T13:11:44,77,new,active
 1600GL4463,gloamapg,,,All Saints' Church,,,,,,,,,,opp,,S,N0074250,Stone,,,,,,,false,UKOS,368491,195447,-2.45689,51.65692,BCT,MKD,OTH,,,,081,2021-07-15T00:00:00,2021-07-15T10:39:15,10,new,active
 1600GL4464,gloamapj,,,All Saints' Church,,,,,,A38,,,,by,,NE,N0074250,Stone,,,,,,,false,UKOS,368501,195508,-2.45675,51.65747,BCT,MKD,OTH,,,,081,2021-07-15T00:00:00,2021-07-15T10:38:47,10,new,active
 1600GL4459,glodmwtw,,,St James's Church,,,,,,Stoke Road,,,,by,,SW,E0046684,Stoke Orchard,Tewkesbury,,,,,,false,UKOS,391724,228211,-2.12183,51.95233,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T12:24:47,7,new,active
 1600GL4460,glodmwtg,,,The Orchard,,,,,,Stoke Road,,,,nr,,E,E0046684,Stoke Orchard,Tewkesbury,,,,,,false,UKOS,391939,228286,-2.1187,51.953,BCT,MKD,OTH,,,,081,2018-02-28T00:00:00,2018-02-28T12:08:32,28,new,active
-1600GL4429,glodjtpd,,,Ashville Business Park,,,,,,Cheltenham Road East,,,,after,,NE,E0046683,Staverton,,,,,,,false,UKOS,388386,222225,-2.1702,51.89845,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T11:56:01,11,new,active
+1600GL4429,glodjtpd,,,Business Park,,,,,,Cheltenham Road East,,,,by,,NE,E0046683,Staverton,,,,,,,false,UKOS,388386,222225,-2.1702,51.89845,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2026-10-08T13:02:23,49,new,active
 1600GL4424,gloadgdt,,,White Horse Inn,,,,,,Staunton Road,,,,opp,,E,E0046586,Staunton,,,,,,,false,UKOS,354789,212659,-2.65719,51.81073,BCT,CUS,OTH,,,,081,2019-05-02T00:00:00,2019-05-02T10:38:56,11,new,active
 1600GL4423,gloadgdw,,,White Horse Inn,,,,,,Staunton Road,,,,by,,W,E0046586,Staunton,,,,,,,false,UKOS,354770,212646,-2.65747,51.81061,BCT,CUS,OTH,,,,081,2019-08-30T00:00:00,2019-08-30T12:44:09,12,new,active
 1600GL4422,gloatmat,,,Swan Inn,,,,,,Gloucester Road A417,,,,opp,,S,E0046585,Staunton,,,,,,,false,UKOS,379221,229286,-2.30382,51.96166,BCT,MKD,OTH,,,,081,2014-08-15T00:00:00,2014-08-15T12:23:18,2,new,active
 1600GL4421,gloatmap,,,Swan Inn,,,,,,Gloucester Road A417,,,,before,,N,E0046585,Staunton,,,,,,,false,UKOS,379212,229319,-2.30395,51.96196,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T11:47:03,7,new,active
 1600GL4431,glodmdtd,,,The Old School,,,,,,Main Street,,,,nr,,NE,E0046683,Staverton,,,,,,,false,UKOS,389171,223486,-2.15883,51.9098,BCT,CUS,OTH,,,,081,2020-02-10T00:00:00,2020-02-10T12:43:19,13,new,active
 1600GL4432,glodmdtj,,,The Old School,,,,,,Main Street,,,,by,,SW,E0046683,Staverton,,,,,,,false,UKOS,389173,223475,-2.1588,51.9097,BCT,CUS,OTH,,,,081,2020-02-10T00:00:00,2020-02-10T12:42:44,12,new,active
-1600GL4437,glodmdam,,,St Catherine's Church,,,,,,Brock Farm Lane,,,,by,,NW,E0046683,Staverton,,,,,,,false,UKOS,389004,223617,-2.16126,51.91098,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T14:18:18,7,new,active
-1600GL4438,glodmdat,,,St Catherine's Church,,,,,,Brock Farm Lane,,,,opp,,SE,E0046683,Staverton,,,,,,,false,UKOS,389007,223620,-2.16122,51.911,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T14:17:56,7,new,active
-1600GL4435,glodmdmw,,,Bamfurlong Industrial Park,,,,,,,,,,on,,SE,E0046683,Staverton,,,,,,,false,UKOS,389115,222233,-2.1596,51.89853,BCT,CUS,OTH,,,,081,2020-02-10T00:00:00,2020-02-10T12:44:27,13,new,active
-1600GL4436,glodmdmp,,,Bamfurlong Industrial Park,,,,,,,,,,in,,NW,E0046683,Staverton,,,,,,,false,UKOS,389106,222226,-2.15973,51.89847,BCT,CUS,OTH,,,,081,2020-02-10T00:00:00,2025-10-29T13:48:53,46,new,active
+1600GL4437,glodmdam,,,St Catherine's,,,,,,Brock Farm Lane,,,,by,,NW,E0046683,Staverton,,,,,,,false,UKOS,389004,223617,-2.16126,51.91098,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2026-10-08T13:09:25,42,new,active
+1600GL4438,glodmdat,,,St Catherine's,,,,,,Brock Farm Lane,,,,opp,,SE,E0046683,Staverton,,,,,,,false,UKOS,389007,223620,-2.16122,51.911,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2026-10-08T13:09:12,42,new,active
+1600GL4435,glodmdmw,,,Industrial Park,,,,,,,,,,on,,SE,E0046683,Staverton,,,,,,,false,UKOS,389115,222233,-2.1596,51.89853,BCT,CUS,OTH,,,,081,2020-02-10T00:00:00,2026-10-08T13:03:57,48,new,active
+1600GL4436,glodmdmp,,,Industrial Park,,,,,,,,,,in,,NW,E0046683,Staverton,,,,,,,false,UKOS,389106,222226,-2.15973,51.89847,BCT,CUS,OTH,,,,081,2020-02-10T00:00:00,2026-10-08T13:04:13,72,new,active
 1600GL4599,glodpwad,,,Maud's Elm,,,,,,Swindon Road,,,,nr,,N,E0057404,Cheltenham,,,,,,,false,UKOS,393799,223715,-2.09155,51.91193,BCT,MKD,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T10:36:04,6,new,active
 1600GL4600,glodpwgd,,,Elm Street,,,,,,Swindon Road,,,,opp,,SE,E0057404,Cheltenham,,,,,,,false,UKOS,393896,223616,-2.09014,51.91104,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T10:39:13,13,new,active
 1600GL4793,gloapgdp,,,Cam Pitch,,,,,,Tilsdown,,,,after,,SE,E0012370,Tilsdown,,,,,,,false,UKOS,374638,199771,-2.36835,51.69611,BCT,MKD,OTH,,,,081,2019-07-03T00:00:00,2019-07-03T12:19:04,48,new,active
 1600GL4794,gloapdwp,,,Cam Pitch,,,,,,Tilsdown,,,,before,,NW,E0012370,Tilsdown,,,,,,,false,UKOS,374604,199799,-2.36884,51.69636,BCT,MKD,OTH,,,,081,2019-07-03T00:00:00,2019-07-03T12:14:47,45,new,active
-1600GL4782,gloadjdj,,,St Michael & All Angels Church,,,,,,B4228,,,,by,,NE,N0074263,Tidenham Chase,,,,,,,false,UKOS,355616,198779,-2.64342,51.686,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T15:44:33,12,new,active
-1600GL4781,gloadjdt,,,St Michael & All Angels Church,,,,,,B4228,,,,opp,,SW,N0074263,Tidenham Chase,,,,,,,false,UKOS,355663,198800,-2.64274,51.6862,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T15:44:10,10,new,active
+1600GL4782,gloadjdj,,,Rosemary Lane,,,,,,B4228,,,,before,,NE,N0074263,Tidenham Chase,,,,,,,false,UKOS,355616,198779,-2.64342,51.686,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2026-10-08T16:06:00,49,new,active
+1600GL4781,gloadjdt,,,Rosemary Lane,,,,,,B4228,,,,after,,SW,N0074263,Tidenham Chase,,,,,,,false,UKOS,355663,198800,-2.64274,51.6862,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2026-10-08T16:05:39,47,new,active
 1600GL478,gloamjgj,,,The Red Hart Inn,,,,,,Main Street,,,,before,,N,E0046557,Blaisdon,,,,,,,false,UKOS,370231,216813,-2.43357,51.84911,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T10:51:17,26,new,active
 1600GL477,gloamjgp,,,The Red Hart Inn,,,,,,Main Street,,,,opp,,S,E0046557,Blaisdon,,,,,,,false,UKOS,370240,216804,-2.43344,51.84903,BCT,MKD,OTH,,,,081,2019-04-23T00:00:00,2019-04-23T12:43:14,7,new,active
 1600GL4798,glodawdt,,,Tipputs Inn,,,,,,A46,,,,before,,N,E0012371,Tiltups End,,,,,,,false,UKOS,384469,197107,-2.22599,51.67252,BCT,CUS,OTH,,,,081,2018-02-20T00:00:00,2018-02-20T10:52:59,7,new,active
@@ -2554,10 +2554,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4840,glogaptj,,,Station Cottages,,,,,,Stanway Road B4077,,,,by,,W,E0046689,Toddington,,,,,,,false,UKOS,405065,232403,-1.92765,51.99006,BCT,MKD,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T09:25:45,6,new,active
 1600GL483,gloajtja,,,Orchard Gate,,,,,,Cinderford Road,,,,corner of,,NW,E0011891,Blakeney,,,,,,,false,UKOS,366945,206940,-2.48033,51.76016,BCT,MKD,OTH,,,,081,2019-10-01T00:00:00,2019-10-01T11:34:29,17,new,active
 1600GL484,gloajtjd,,,Orchard Gate,,,,,,Cinderford Road,,,,opp,,NW,E0011891,Blakeney,,,,,,,false,UKOS,366938,206937,-2.48043,51.76013,BCT,MKD,OTH,,,,081,2019-12-13T00:00:00,2019-12-13T13:44:25,15,new,active
-1600GL4837,glogamtd,,,Toddington Village Hall,,,,,,Tewkesbury Road B4077,,,,opp,,E,E0046689,Toddington,,,,,,,false,UKOS,404125,232449,-1.94134,51.99048,BCT,MKD,OTH,,,,081,2020-04-29T00:00:00,2020-04-29T14:23:48,21,new,active
-1600GL4838,glogampj,,,Toddington Village Hall,,,,,,Tewkesbury Road B4077,,,,o/s,,W,E0046689,Toddington,,,,,,,false,UKOS,404092,232435,-1.94182,51.99035,BCT,MKD,OTH,,,,081,2020-04-29T00:00:00,2020-04-29T14:24:35,28,new,active
-1600GL4866,glodmtam,,,St John the Baptist's Church,,,,,,Stoke Road,,,,nr,,SE,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,390542,229413,-2.13906,51.96311,BCT,CUS,OTH,,,,081,2019-01-30T00:00:00,2019-01-30T16:47:04,11,new,active
-1600GL4865,glodmtaj,,,St John the Baptist's Church,,,,,,Stoke Road,,,,before,,NW,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,390529,229415,-2.13925,51.96313,BCT,MKD,OTH,,,,081,2019-01-30T00:00:00,2019-01-30T16:46:10,11,new,active
+1600GL4837,glogamtd,,,Nursery Lane,,,,,,Tewkesbury Road B4077,,,,before,,E,E0046689,Toddington,,,,,,,false,UKOS,404125,232449,-1.94134,51.99048,BCT,MKD,OTH,,,,081,2020-04-29T00:00:00,2026-10-08T16:12:48,58,new,active
+1600GL4838,glogampj,,,Nursery Lane,,,,,,Tewkesbury Road B4077,,,,after,,W,E0046689,Toddington,,,,,,,false,UKOS,404092,232435,-1.94182,51.99035,BCT,MKD,OTH,,,,081,2020-04-29T00:00:00,2026-10-08T16:13:08,65,new,active
+1600GL4866,glodmtam,,,Stoke Road,,,,,,Stoke Road,,,,on,,SE,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,390542,229413,-2.13906,51.96311,BCT,CUS,OTH,,,,081,2019-01-30T00:00:00,2026-10-08T16:15:27,48,new,active
+1600GL4865,glodmtaj,,,Stoke Road,,,,,,Stoke Road,,,,in,,NW,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,390529,229415,-2.13925,51.96313,BCT,MKD,OTH,,,,081,2019-01-30T00:00:00,2026-10-08T16:15:46,48,new,active
 1600GL486,gloajtma,,,King's Head,,,,,,High Street,,,,opp,,E,E0011891,Blakeney,,,,,,,false,UKOS,367064,206969,-2.47861,51.76043,BCT,MKD,OTH,,,,081,2019-03-13T00:00:00,2019-03-13T11:02:52,14,new,active
 1600GL485,gloajtjw,,,King's Head,,,,,,High Street,,,,o/s,,W,E0011891,Blakeney,,,,,,,false,UKOS,367095,206972,-2.47816,51.76046,BCT,MKD,OTH,,,,081,2017-10-19T00:00:00,2017-10-19T08:39:05,7,new,active
 1600GL4846,glogjpjg,,,Village Hall,,,,,,Main Street,,,,opp,,SW,E0046540,Todenham,,,,,,,false,UKOS,424133,236298,-1.64969,52.02458,BCT,CUS,OTH,,,,081,2015-03-16T00:00:00,2015-03-16T14:09:15,4,new,active
@@ -2574,8 +2574,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4833,glogapgp,,,The Pheasant,,,,,,Winchcombe Road B4632,,,,opp,,N,E0046689,Toddington,,,,,,,false,UKOS,404774,232405,-1.93189,51.99008,BCT,CUS,OTH,,,,081,2019-01-22T00:00:00,2019-01-22T17:00:18,0,new,active
 1600GL4714,glodpwam,,,St Stephen's Road,,,,,,The Park,,,,after,,SW,E0011721,The Park,Cheltenham,,,,,,false,UKOS,393836,221053,-2.09097,51.888,BCT,MKD,OTH,,,,081,2020-11-25T00:00:00,2020-11-25T11:26:30,9,new,active
 1600GL4713,glodptwp,,,St Stephen's Road,,,,,,The Park,,,,before,,N,E0011721,The Park,Cheltenham,,,,,,false,UKOS,393777,220965,-2.09182,51.88721,BCT,MKD,OTH,,,,081,2018-12-28T00:00:00,2018-12-28T15:26:23,9,new,active
-1600GL4628,glodtwtw,,,Teddington Hands Garage,,,,,,,,,,opp,,SW,N0074256,Teddington Hands,,,,,,,false,UKOS,396367,233854,-2.05433,52.00311,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
-1600GL4627,glodtwtm,,,Teddington Hands Garage,,,,,,,,,,by,,NE,N0074256,Teddington Hands,,,,,,,false,UKOS,396351,233850,-2.05457,52.00308,BCT,CUS,OTH,,,,081,2018-02-16T00:00:00,2018-02-16T15:18:24,7,new,active
+1600GL4628,glodtwtw,,,Teddington Hands,,,,,,,,,,opp,,SW,N0074256,Teddington Hands,,,,,,,false,UKOS,396367,233854,-2.05433,52.00311,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T15:17:13,37,new,active
+1600GL4627,glodtwtm,,,Teddington Hands,,,,,,,,,,by,,NE,N0074256,Teddington Hands,,,,,,,false,UKOS,396351,233850,-2.05457,52.00308,BCT,CUS,OTH,,,,081,2018-02-16T00:00:00,2026-10-08T15:17:26,42,new,active
 1600GLF038,gloamawa,,,Christ Church,,,,,,B4221,,,,nr,,SE,E0011952,Gorsley,,,,,,,false,UKOS,368645,225813,-2.45742,51.92994,BCT,CUS,OTH,,,,081,2017-12-12T00:00:00,2017-12-12T13:25:17,36,new,active
 1600GLF037,gloamawj,,,Christ Church,,,,,,B4221,,,,o/s,,NW,E0011952,Gorsley,,,,,,,false,UKOS,368672,225782,-2.45702,51.92966,BCT,MKD,OTH,,,,081,2017-12-12T00:00:00,2017-12-12T13:24:44,10,new,active
 1600GLF036,gloamjtp,,,Conigree Road,,,,,,Ross Road B4221,,,,after,,E,E0046575,Newent,,,,,,,false,UKOS,370525,225866,-2.43008,51.93052,BCT,CUS,OTH,,,,081,2018-02-02T00:00:00,2018-02-02T15:19:04,35,new,active
@@ -2668,8 +2668,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS140,glodajmw,,,Constance Close,,,,,,Dudbridge Road,,,,after,,NW,E0012199,Dudbridge,Stroud,,,,,,false,UKOS,383797,204404,-2.23605,51.73811,BCT,MKD,OTH,,,,081,2017-11-21T00:00:00,2017-11-21T14:46:43,7,new,active
 1600GLS128,glodawpa,,,Homebase,,,,,,Cainscross Road,,,,after,,E,E0055881,Stroud,,,,,,,false,UKOS,384591,205160,-2.22458,51.74492,BCT,MKD,OTH,,,,081,2018-05-10T00:00:00,2018-05-10T10:11:43,16,new,active
 1600GLS127,glodawpm,,,Homebase,,,,,,Cainscross Road,,,,o/s,,W,E0055881,Stroud,,,,,,,false,UKOS,384523,205169,-2.22557,51.745,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T14:52:04,16,new,active
-1600GLS121,glodgapg,,,Painswick Valley Car Sales,,,,,,Painswick Road,,,,by,,S,E0055881,Stroud,,,,,,,false,UKOS,384776,206938,-2.22198,51.76092,BCT,CUS,OTH,,,,081,2019-06-10T00:00:00,2019-06-10T11:06:01,27,new,active
-1600GLS122,glodgapm,,,Painswick Valley Car Sales,,,,,,Painswick Road,,,,opp,,N,E0055881,Stroud,,,,,,,false,UKOS,384761,206924,-2.2222,51.76079,BCT,MKD,OTH,,,,081,2020-01-07T00:00:00,2020-01-07T09:49:21,37,new,active
+1600GLS121,glodgapg,,,Squirrel Cottage,,,,,,Painswick Road,,,,nr,,S,E0055881,Stroud,,,,,,,false,UKOS,384776,206938,-2.22198,51.76092,BCT,CUS,OTH,,,,081,2019-06-10T00:00:00,2026-10-08T14:05:44,65,new,active
+1600GLS122,glodgapm,,,Squirrel Cottage,,,,,,Painswick Road,,,,by,,N,E0055881,Stroud,,,,,,,false,UKOS,384761,206924,-2.2222,51.76079,BCT,MKD,OTH,,,,081,2020-01-07T00:00:00,2026-10-08T14:05:25,75,new,active
 1600GLS119,glodgdwt,,,Old Weavers House,,,,,,Gloucester Road A4173,,,,opp,,S,E0046632,Pitchcombe,Stroud,,,,,,false,UKOS,385119,208082,-2.21706,51.77121,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GLS120,glodgdtw,,,Old Weavers House,,,,,,Gloucester Road A4173,,,,by,,N,E0046632,Pitchcombe,Stroud,,,,,,false,UKOS,385100,208065,-2.21734,51.77106,BCT,MKD,OTH,,,,081,2018-03-22T00:00:00,2018-03-22T15:31:13,7,new,active
 1600GLS118,glodgdjg,,,Resthaven,,,,,,Gloucester Road A4173,,,,by,,NW,E0046632,Pitchcombe,Stroud,,,,,,false,UKOS,385007,208476,-2.2187,51.77475,BCT,MKD,OTH,,,,081,2018-03-22T00:00:00,2018-03-22T15:35:02,7,new,active
@@ -2682,8 +2682,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS170,glodjtdg,,,Lypiatt Park Lodge,,,,,,Bisley Road,,,,entrance,,SW,E0055881,Stroud,,,,,,,false,UKOS,388108,205980,-2.17367,51.75238,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T14:28:45,7,new,active
 1600GLS167,glodjmtw,,,Forty Acre Lane,,,,,,Bisley Road,,,,opp,,NE,E0055881,Stroud,,,,,,,false,UKOS,387389,205394,-2.18407,51.7471,BCT,MKD,OTH,,,,081,2019-01-22T00:00:00,2019-01-22T17:00:18,0,new,active
 1600GLS168,glodjmwa,,,Forty Acre Lane,,,,,,Bisley Road,,,,after,,SW,E0055881,Stroud,,,,,,,false,UKOS,387391,205381,-2.18404,51.74698,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T14:15:51,7,new,active
-1600GLS173,glodmjgj,,,Farm,,,,,,Bisley Road,,,,nr,,NE,N0078194,Stancombe,,,,,,,false,UKOS,389631,206881,-2.15164,51.76052,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T14:42:41,16,new,active
-1600GLS174,glodmjdw,,,Farm,,,,,,Bisley Road,,,,opp,,SW,N0078194,Stancombe,,,,,,,false,UKOS,389570,206854,-2.15252,51.76027,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T14:41:58,14,new,active
+1600GLS173,glodmjgj,,,Catswood Lane,,,,,,Bisley Road,,,,before,,NE,N0078194,Stancombe,,,,,,,false,UKOS,389631,206881,-2.15164,51.76052,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2026-10-08T11:16:59,54,new,active
+1600GLS174,glodmjdw,,,Catswood Lane,,,,,,Bisley Road,,,,after,,SW,N0078194,Stancombe,,,,,,,false,UKOS,389570,206854,-2.15252,51.76027,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2026-10-08T11:16:38,52,new,active
 1600GLS171,glodjtwd,,,Daw's Lane,,,,,,,,,,corner of,,NE,E0055881,Stroud,,,,,,,false,UKOS,388428,206169,-2.16904,51.75409,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T14:32:53,18,new,active
 1600GLS172,glodjtwg,,,Daw's Lane,,,,,,,,,,opp,,SW,E0055881,Stroud,,,,,,,false,UKOS,388441,206170,-2.16885,51.7541,BCT,MKD,OTH,,,,081,2016-08-10T00:00:00,2016-08-10T09:55:55,7,new,active
 1600GLS163,glodjdpj,,,Valley View Road,,,,,,Bisley Road,,,,after,,E,E0055881,Stroud,,,,,,,false,UKOS,386476,204894,-2.19727,51.74258,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T10:24:41,11,new,active
@@ -2712,12 +2712,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4634,glogdgap,,,Primary School,,,,,,,,,,opp,,S,E0046537,Temple Guiting,,,,,,,false,UKOS,409023,227822,-1.87013,51.94882,BCT,CUS,OTH,,,,081,2019-03-15T00:00:00,2019-03-15T17:20:07,6,new,active
 1600GL4650,glodmtpt,,,School Grounds,,,,,,,,,,in,,E,E0012469,Newtown,Tewkesbury,,,,,,false,UKOS,391198,233097,-2.12961,51.99625,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2026-09-16T14:11:01,45,new,active
 1600GL4648,glodmdga,,,The Retreat,,,,,,Off London Road,,,,on,,NW,E0046538,Tetbury,,,,,,,false,UKOS,389019,193867,-2.16009,51.64349,BCT,MKD,OTH,,,,081,2018-02-16T00:00:00,2018-02-16T15:20:37,7,new,active
-1600GL4640,glodmawg,,,Bank,,,,,,Long Street,,,,nr,,NW,E0046538,Tetbury,,,,,,,false,UKOS,388966,193220,-2.16084,51.63767,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2018-12-19T09:57:54,8,new,active
-1600GL4639,glodmdag,,,The Ormond at Tetbury,,,,,,Long Street,,,,o/s,,SE,E0046538,Tetbury,,,,,,,false,UKOS,388999,193199,-2.16036,51.63749,BCT,MKD,OTH,,,,081,2020-02-03T00:00:00,2020-02-03T12:52:03,17,new,active
+1600GL4640,glodmawg,,,Long Street,,,,,,Long Street,,,,on,,NW,E0046538,Tetbury,,,,,,,false,UKOS,388966,193220,-2.16084,51.63767,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2026-10-08T15:20:30,45,new,active
+1600GL4639,glodmdag,,,The Ormond,,,,,,Long Street,,,,o/s,,SE,E0046538,Tetbury,,,,,,,false,UKOS,388999,193199,-2.16036,51.63749,BCT,MKD,OTH,,,,081,2020-02-03T00:00:00,2026-10-08T15:27:40,52,new,active
 1600GL4603,glodptdw,,,The Firs,,,,,,Quat Goose Lane,,,,after,,NW,E0046438,Swindon Village,Cheltenham,,,,,,false,UKOS,393554,225220,-2.09515,51.92546,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:07:56,26,new,active
 1600GL4604,glodptgt,,,The Firs,,,,,,Quat Goose Lane,,,,before,,SE,E0046438,Swindon Village,Cheltenham,,,,,,false,UKOS,393568,225217,-2.09494,51.92543,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:07:31,10,new,active
-1600GL4602,glogjtdg,,,St Lawrence's Church,,,,,,Church Road,,,,by,,NW,E0046438,Swindon Village,Cheltenham,,,,,,false,UKOS,393467,224930,-2.0964,51.92285,BCT,MKD,OTH,,,,081,2018-02-16T00:00:00,2018-02-16T15:22:29,7,new,active
-160000431,glogwjgd,,,St Lawrence's Church,,,,,,,,,,opp,,SE,E0046438,Swindon Village,Cheltenham,,,,,,false,UKOS,393480,224931,-2.09622,51.92286,BCT,CUS,OTH,,,,081,2015-08-25T00:00:00,2024-11-04T15:38:13,110,new,active
+1600GL4602,glogjtdg,,,St Lawrence's,,,,,,Church Road,,,,by,,NW,E0046438,Swindon Village,Cheltenham,,,,,,false,UKOS,393467,224930,-2.0964,51.92285,BCT,MKD,OTH,,,,081,2018-02-16T00:00:00,2026-10-08T15:11:19,42,new,active
+160000431,glogwjgd,,,St Lawrence's,,,,,,,,,,opp,,SE,E0046438,Swindon Village,Cheltenham,,,,,,false,UKOS,393480,224931,-2.09622,51.92286,BCT,CUS,OTH,,,,081,2015-08-25T00:00:00,2026-10-08T15:11:35,141,new,active
 1600GL4619,glodtpta,,,Crossroads,,,,,,The Green,,,,by,,W,E0011857,Tarlton,,,,,,,false,UKOS,396026,199503,-2.05889,51.69426,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:38:50,11,new,active
 1600GL4620,glodtptd,,,Crossroads,,,,,,The Green,,,,corner of,,SE,E0011857,Tarlton,,,,,,,false,UKOS,396031,199514,-2.05882,51.69436,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:37:58,16,new,active
 1600GL4617,glogagtg,,,Coln Bridge North,,,,,,,,,,nr,,NW,E0011856,Syreford,,,,,,,false,UKOS,402818,220439,-1.96047,51.88251,BCT,CUS,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:35:13,8,new,active
@@ -2846,8 +2846,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLN100,glogmagt,,,St Marys Church,,,,,,,,,,by,,NE,E0046575,Newent,,,,,,,false,UKOS,372351,225903,-2.40353,51.93095,BCT,CUS,OTH,,,,081,2015-07-16T00:00:00,2026-09-08T12:39:43,55,new,active
 1600GLN098,glogmagp,,,Three Ashes Lane,,,,,,Redmarley Road,,,,opp,,S,N0074261,The Scarr,,,,,,,false,UKOS,372370,227556,-2.40339,51.94581,BCT,CUS,OTH,,,,081,2018-03-23T00:00:00,2018-03-23T14:11:32,34,new,active
 1600GLN097,glogmagm,,,Three Ashes Lane,,,,,,Redmarley Road,,,,before,,N,N0074261,The Scarr,,,,,,,false,UKOS,372362,227559,-2.4035,51.94584,BCT,CUS,OTH,,,,081,2018-03-23T00:00:00,2018-03-23T14:11:53,31,new,active
-1600GL4965,gloapmam,,,The Cross,,,,,,Gloucester Road,,,,opp,,N,E0046590,Upleadon,,,,,,,false,UKOS,375174,227030,-2.36255,51.94121,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2017-12-22T14:56:13,33,new,active
-1600GLN096,glogmagj,,,The Cross,,,,,,Gloucester Road,,,,nr,,S,E0046590,Upleadon,,,,,,,false,UKOS,375185,227024,-2.36239,51.94116,BCT,CUS,OTH,,,,081,2018-03-26T00:00:00,2022-03-21T08:27:34,24,new,active
+1600GL4965,gloapmam,,,Tewkesbury Road,,,,,,Gloucester Road,,,,before,,N,E0046590,Upleadon,,,,,,,false,UKOS,375174,227030,-2.36255,51.94121,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2026-10-08T16:51:22,71,new,active
+1600GLN096,glogmagj,,,Forge Lane,,,,,,Gloucester Road,,,,after,,S,E0046590,Upleadon,,,,,,,false,UKOS,375185,227024,-2.36239,51.94116,BCT,CUS,OTH,,,,081,2018-03-26T00:00:00,2026-10-08T16:52:00,62,new,active
 1600GLN094,glogmagd,,,Middletown Farm,,,,,,Middletown Lane,,,,by,,SW,E0046590,Upleadon,,,,,,,false,UKOS,376328,226474,-2.34573,51.93626,BCT,CUS,OTH,,,,081,2018-03-23T00:00:00,2018-03-23T14:14:40,7,new,active
 1600GLN093,glogmaga,,,Middletown Farm,,,,,,Middletown Lane,,,,opp,,NE,E0046590,Upleadon,,,,,,,false,UKOS,376355,226502,-2.34534,51.93652,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GLN102,glogmaja,,,The Down House Turn,,,,,,Down House Lane,,,,before,,SW,E0046580,Redmarley DAbitot,,,,,,,false,UKOS,376763,230375,-2.33967,51.97136,BCT,CUS,OTH,,,,081,2018-03-23T00:00:00,2018-03-23T14:19:49,7,new,active
@@ -2871,7 +2871,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLN010,gloatpdj,,,Corsend Road,,,,,,A417,,,,opp,,S,E0046566,Hartpury,,,,,,,false,UKOS,379913,225073,-2.2935,51.92381,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GLN007,gloatmwj,,,Old School,,,,,,Gloucester Road A417,,,,opp,,N,E0046566,Hartpury,,,,,,,false,UKOS,379823,223785,-2.29473,51.91223,BCT,CUS,OTH,,,,081,2018-01-23T00:00:00,2018-01-23T12:10:40,32,new,active
 1600GLN008,gloatmwm,,,Old School,,,,,,Gloucester Road A417,,,,by,,S,E0046566,Hartpury,,,,,,,false,UKOS,379835,223782,-2.29456,51.9122,BCT,CUS,OTH,,,,081,2018-03-23T00:00:00,2018-03-23T15:00:43,28,new,active
-1600GLA57004,glogmtjg,,,Community Centre,,,,,,Brooklyn Road,,,,by,,N,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392485,222524,-2.11063,51.90121,BCT,MKD,OTH,,,,081,2006-02-03T00:00:00,2017-12-18T10:34:55,14,new,active
+1600GLA57004,glogmtjg,,,Kipling Road,,,,,,Brooklyn Road,,,,after,,N,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392485,222524,-2.11063,51.90121,BCT,MKD,OTH,,,,081,2006-02-03T00:00:00,2026-10-08T11:11:28,51,new,active
 1600GLA57003,glogmtjd,,,Barclay Court,,,,,,Trafalgar Road,,,,opp,,NW,E0055852,Cirencester,,,,,,,false,UKOS,402187,202451,-1.96974,51.72078,BCT,MKD,OTH,,,,081,2006-03-03T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GLA57002,glogmtja,,,Barton Court,,,,,,Gloucester Street,,,,opp,,SE,E0055852,Cirencester,,,,,,,false,UKOS,402032,202478,-1.97198,51.72102,BCT,MKD,OTH,,,,081,2006-03-03T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GLA57001,glogmtgw,,,Mill Close,,,,,,Boxbush Road,,,,corner of,,NE,E0046532,South Cerney,,,,,,,false,UKOS,405241,197235,-1.92561,51.67386,BCT,MKD,OTH,,,,081,2007-02-14T00:00:00,2018-02-08T15:04:49,7,new,active
@@ -2970,10 +2970,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLB366,glodgmpg,,,Meadowleaze,,,,,,Elmleaze,,,,before,,S,N0078141,Elmbridge,Gloucester,,,,,,false,UKOS,385524,219187,-2.21166,51.87107,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T12:09:22,8,new,active
 1600GLB364,glodgwgm,,,Sandstar Close,,,,,,Greyhound Gardens,,,,before,,NW,E0012125,Longlevens,Gloucester,,,,,,false,UKOS,385977,220015,-2.20512,51.87852,BCT,CUS,OTH,,,,081,2017-11-30T00:00:00,2026-10-06T09:24:48,60,new,active
 1600GLB363,glodgwgt,,,Sandstar Close,,,,,,Greyhound Gardens,,,,after,,SE,E0012125,Longlevens,Gloucester,,,,,,false,UKOS,385989,220008,-2.20494,51.87846,BCT,MKD,OTH,,,,081,2017-11-30T00:00:00,2026-10-06T09:24:26,56,new,active
-1600GLB395,glodadat,,,Church,,,,,,Stroud Road,,,,nr,,SE,N0074248,St Pauls,Gloucester,,,,,,false,UKOS,383273,217326,-2.24426,51.85427,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:32:42,26,new,active
-1600GLB386,glodadam,,,Church,,,,,,Park End Road,,,,by,,N,N0074248,St Pauls,Gloucester,,,,,,false,UKOS,383248,217379,-2.24463,51.85475,BCT,MKD,OTH,,,,081,2018-03-07T00:00:00,2018-03-07T14:13:51,16,new,active
-1600GLB412,glodadjw,,,The Knoll Nursing Home,,,,,,Stroud Road,,,,opp,,N,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383345,215402,-2.24313,51.83697,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T11:38:01,11,new,active
-1600GLB411,glodadmd,,,The Knoll Nursing Home,,,,,,Stroud Road,,,,o/s,,S,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383353,215385,-2.24301,51.83682,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2017-12-22T13:50:00,7,new,active
+1600GLB395,glodadat,,,Park End Road,,,,,,Stroud Road,,,,after,,SE,N0074248,St Pauls,Gloucester,,,,,,false,UKOS,383273,217326,-2.24426,51.85427,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T11:13:19,63,new,active
+1600GLB386,glodadam,,,St Paul's Road,,,,,,Park End Road,,,,before,,N,N0074248,St Pauls,Gloucester,,,,,,false,UKOS,383248,217379,-2.24463,51.85475,BCT,MKD,OTH,,,,081,2018-03-07T00:00:00,2026-10-08T11:14:35,54,new,active
+1600GLB412,glodadjw,,,Barnpear Court,,,,,,Stroud Road,,,,before,,N,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383345,215402,-2.24313,51.83697,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2026-10-08T16:27:03,48,new,active
+1600GLB411,glodadmd,,,Barnpear Court,,,,,,Stroud Road,,,,after,,S,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383353,215385,-2.24301,51.83682,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2026-10-08T16:27:26,44,new,active
 1600GLB408,glodadgd,,,Tuffley Avenue,,,,,,Stroud Road,,,,after,,N,E0055873,Gloucester,,,,,,,false,UKOS,383306,216137,-2.24373,51.84358,BCT,MKD,OTH,,,,081,2018-03-07T00:00:00,2018-03-07T14:18:55,9,new,active
 1600GLB407,glodadgm,,,Tuffley Avenue,,,,,,Stroud Road,,,,opp,,S,E0055873,Gloucester,,,,,,,false,UKOS,383317,216059,-2.24356,51.84288,BCT,MKD,OTH,,,,081,2020-11-25T00:00:00,2020-11-25T10:30:45,20,new,active
 1600GLB406,glodadaj,,,Romney Close,,,,,,Tuffley Avenue,,,,before,,NW,N0074194,Linden,Gloucester,,,,,,false,UKOS,383246,216115,-2.2446,51.84338,BCT,MKD,OTH,,,,081,2018-03-07T00:00:00,2018-03-07T14:23:51,7,new,active
@@ -3073,8 +3073,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL3315,gloamdtd,,,Mobley Farm,,,,,,Alkington Lane,,,,by,,N,E0012280,Mobley,,,,,,,false,UKOS,369310,199061,-2.44537,51.68946,BCT,MKD,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T09:00:23,7,new,active
 1600GLS863,gloapapm,,,The Quarry,,,,,,Tait's Hill Road,,,,opp,,NW,E0046637,Stinchcombe,,,,,,,false,UKOS,373808,199402,-2.38033,51.69275,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLS864,gloapapt,,,The Quarry,,,,,,Tait's Hill Road,,,,by,,SE,E0046637,Stinchcombe,,,,,,,false,UKOS,373808,199416,-2.38033,51.69288,BCT,CUS,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T09:01:33,7,new,active
-1600GLS859,gloatwaj,,,Magpies Football Ground,,,,,,Oldends Lane,,,,opp,,W,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380165,205969,-2.28874,51.75206,BCT,CUS,OTH,,,,081,2019-10-22T00:00:00,2019-10-22T11:19:28,7,new,active
-1600GLS860,gloatwap,,,Magpies Football Ground,,,,,,Oldends Lane,,,,by,,E,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380180,205986,-2.28852,51.75221,BCT,CUS,OTH,,,,081,2019-10-22T00:00:00,2019-10-22T11:19:15,12,new,active
+1600GLS859,gloatwaj,,,Midland Road,,,,,,Oldends Lane,,,,after,,W,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380165,205969,-2.28874,51.75206,BCT,CUS,OTH,,,,081,2019-10-22T00:00:00,2026-10-08T13:23:13,48,new,active
+1600GLS860,gloatwap,,,Midland Road,,,,,,Oldends Lane,,,,before,,E,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380180,205986,-2.28852,51.75221,BCT,CUS,OTH,,,,081,2019-10-22T00:00:00,2026-10-08T13:24:14,53,new,active
 1600GLS882,gloamjmj,,,Bushy Farm,,,,,,Pool Farm Lane,,,,opp,,SE,E0012166,Breadstone,,,,,,,false,UKOS,370291,200962,-2.43134,51.7066,BCT,MKD,OTH,,,,081,2015-03-18T00:00:00,2015-03-18T18:24:50,4,new,active
 1600GLS881,gloamjmg,,,Bushy Farm,,,,,,Pool Farm Lane,,,,by,,NW,E0012166,Breadstone,,,,,,,false,UKOS,370288,200951,-2.43138,51.7065,BCT,MKD,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T12:29:11,14,new,active
 1600GLS897,gloamama,,,Canon Park,,,,,,Station Road,,,,nr,,S,E0046598,Berkeley,,,,,,,false,UKOS,368422,199786,-2.45828,51.69593,BCT,MKD,OTH,,,,081,2017-10-18T00:00:00,2017-10-18T12:08:38,7,new,active
@@ -3267,7 +3267,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA90915,glogpwdp,,,Crooked End Farm,,,,,,,,,,nr,,W,E0011929,Crooked End,,,,,,,false,UKOS,362945,217581,-2.53942,51.85558,BCT,CUS,OTH,,,,081,2009-09-04T00:00:00,2018-02-05T09:30:34,33,new,active
 1600GLA90908,glogpwap,,,Cidermill,,,,,,,,,,by,,NE,E0011971,Joys Green,,,,,,,false,UKOS,361164,216892,-2.5652,51.84926,BCT,CUS,OTH,,,,081,2009-08-28T00:00:00,2018-02-05T09:31:54,8,new,active
 1600GLA90907,glogpwam,,,Cidermill,,,,,,,,,,opp,,SW,E0011971,Joys Green,,,,,,,false,UKOS,361106,216839,-2.56604,51.84878,BCT,CUS,OTH,,,,081,2009-08-28T00:00:00,2018-08-08T14:02:18,12,new,active
-1600GLA90906,glogpwaj,,,Sir William Romney's,,,,,,unnamed access road,,,,inside,,SE,E0046538,Tetbury,,,,,,,false,UKOS,388943,194197,-2.1612,51.64646,BCT,MKD,OTH,,,,081,2009-08-28T00:00:00,2019-08-09T10:24:32,27,new,active
+1600GLA90906,glogpwaj,,,School,,,,,,unnamed access road,,,,inside,,SE,E0046538,Tetbury,,,,,,,false,UKOS,388943,194197,-2.1612,51.64646,BCT,MKD,OTH,,,,081,2009-08-28T00:00:00,2026-10-08T15:23:48,63,new,active
 1600GLA90905,glogpwag,,,Marians Walk,,,,,,Grove Road,,,,before,,N,E0011884,Berry Hill,,,,,,,false,UKOS,357173,212577,-2.6226,51.81018,BCT,CUS,OTH,,,,081,2009-08-26T00:00:00,2018-02-05T09:35:35,22,new,active
 1600GLA90904,glogpwad,,,Forest Patch,,,,,,Grove Road,,,,before,,S,E0011884,Berry Hill,,,,,,,false,UKOS,357190,212554,-2.62236,51.80997,BCT,CUS,OTH,,,,081,2009-08-26T00:00:00,2018-02-05T09:35:50,21,new,active
 1600GLA90909,glogpwat,,,Memorial Hall,,,,,,Drybrook Road,,,,opp,,S,E0046563,Drybrook,,,,,,,false,UKOS,364528,217186,-2.5164,51.85213,BCT,MKD,OTH,,,,081,2009-08-28T00:00:00,2017-02-22T10:37:56,11,new,active
@@ -3342,10 +3342,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4329,glogjgja,,,The Swan,,,,,,Main Road,,,,opp,,SW,E0046533,Southrop,,,,,,,false,UKOS,419996,203500,-1.71188,51.72986,BCT,CUS,OTH,,,,081,2019-06-28T00:00:00,2019-06-28T14:54:37,9,new,active
 1600GL4323,glodwgmt,,,Sunset Lane,,,,,,Main Road B4632,,,,opp,,N,E0046680,Southam,,,,,,,false,UKOS,397339,225562,-2.04011,51.92857,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T14:23:39,26,new,active
 1600GL4324,glodwgmw,,,Sunset Lane,,,,,,,,,,corner of,,S,E0046680,Southam,,,,,,,false,UKOS,397357,225590,-2.03985,51.92882,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T14:22:45,7,new,active
-1600GL4287,glodwtmp,,,Telephone Box,,,,,,Main Street,,,,opp,,S,E0046531,Somerford Keynes,,,,,,,false,UKOS,401961,195149,-1.97305,51.65513,BCT,CUS,OTH,,,,081,2019-12-13T00:00:00,2025-04-29T14:46:04,87,new,active
-1600GL4288,glodwtmj,,,Telephone Box,,,,,,Main Street,,,,by,,N,E0046531,Somerford Keynes,,,,,,,false,UKOS,401955,195140,-1.97314,51.65505,BCT,CUS,OTH,,,,081,2019-12-13T00:00:00,2025-04-29T14:47:43,82,new,active
-1600GL4279,gloadwjp,,,Club,,,,,,Milestone Walk,,,,opp,,NE,E0012070,Sling,,,,,,,false,UKOS,358269,207897,-2.60614,51.76818,BCT,MKD,OTH,,,,081,2017-11-24T00:00:00,2017-11-24T15:17:50,11,new,active
-1600GL4280,gloadwjg,,,Club,,,,,,Milestone Walk,,,,o/s,,SW,E0012070,Sling,,,,,,,false,UKOS,358251,207853,-2.6064,51.76779,BCT,MKD,OTH,,,,081,2018-01-16T00:00:00,2018-01-16T11:34:40,14,new,active
+1600GL4287,glodwtmp,,,Arlingdon Fields,,,,,,Main Street,,,,before,,S,E0046531,Somerford Keynes,,,,,,,false,UKOS,401961,195149,-1.97305,51.65513,BCT,CUS,OTH,,,,081,2019-12-13T00:00:00,2026-10-08T10:44:08,115,new,active
+1600GL4288,glodwtmj,,,Arlingdon Fields,,,,,,Main Street,,,,aftert,,N,E0046531,Somerford Keynes,,,,,,,false,UKOS,401955,195140,-1.97314,51.65505,BCT,CUS,OTH,,,,081,2019-12-13T00:00:00,2026-10-08T10:44:27,110,new,active
+1600GL4279,gloadwjp,,,Miners Close,,,,,,Milestone Walk,,,,after,,NE,E0012070,Sling,,,,,,,false,UKOS,358269,207897,-2.60614,51.76818,BCT,MKD,OTH,,,,081,2017-11-24T00:00:00,2026-10-08T10:38:23,48,new,active
+1600GL4280,gloadwjg,,,Miners Close,,,,,,Milestone Walk,,,,nr,,SW,E0012070,Sling,,,,,,,false,UKOS,358251,207853,-2.6064,51.76779,BCT,MKD,OTH,,,,081,2018-01-16T00:00:00,2026-10-08T10:38:44,51,new,active
 1600GL427,glodtpdj,,,Mill Parade,,,,,,Church Road,,,,by,,NW,E0046651,Bishops Cleeve,,,,,,,false,UKOS,395850,227661,-2.06179,51.94743,BCT,MKD,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T12:59:53,21,new,active
 1600GL428,glodtpdg,,,Mill Parade,,,,,,Church Road,,,,opp,,SE,E0046651,Bishops Cleeve,,,,,,,false,UKOS,395892,227659,-2.06118,51.94741,BCT,MKD,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T12:59:34,18,new,active
 1600GL430,glodtpwp,,,St Michael & All Angels,,,,,,School Road,,,,o/s,,NE,E0046651,Bishops Cleeve,,,,,,,false,UKOS,396111,227740,-2.05799,51.94814,BCT,MKD,OTH,,,,081,2017-10-18T00:00:00,2026-09-17T13:40:35,42,new,active
@@ -3373,7 +3373,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA57091,glogpagp,,,Residential Park,,,,,,,,,,by,,S,E0046502,Lechlade,,,,,,,false,UKOS,422305,199281,-1.67871,51.69184,BCT,CUS,OTH,,,,081,2007-07-17T00:00:00,2026-10-05T13:07:40,52,new,active
 1600GL4338,gloagtwa,,,Forest Road,,,,,,Spring Meadow Road,,,,before,,SW,E0046573,Lydney,,,,,,,false,UKOS,363243,203523,-2.5336,51.72921,BCT,MKD,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T10:01:19,7,new,active
 1600GL4336,glodpdgm,,,Community Centre,,,,,,Springbank Way,,,,nr,,W,N0074246,Springbank,Cheltenham,,,,,,false,UKOS,392041,223930,-2.11712,51.91384,BCT,MKD,OTH,,,,081,2018-04-26T00:00:00,2025-09-15T08:55:52,65,new,active
-1600GL4356,gloadjtj,,,Playing Fields Pavilion,,,,,,B4228,,,,nr,,NE,E0046584,St Briavels,,,,,,,false,UKOS,356208,204505,-2.63558,51.73753,BCT,CUS,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T13:57:16,7,new,active
+1600GL4356,gloadjtj,,,The Pavilion,,,,,,B4228,,,,nr,,NE,E0046584,St Briavels,,,,,,,false,UKOS,356208,204505,-2.63558,51.73753,BCT,CUS,OTH,,,,081,2018-02-15T00:00:00,2026-10-08T11:03:51,42,new,active
 1600GL4355,gloadjtd,,,Cross Keys,,,,,,B4228,,,,by,,S,E0046584,St Briavels,,,,,,,false,UKOS,356195,204425,-2.63576,51.73681,BCT,CUS,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T13:59:46,7,new,active
 1600GL4353,gloadjgp,,,St Mary's Church,,,,,,Mork Road,,,,by,,S,E0046584,St Briavels,,,,,,,false,UKOS,355835,204627,-2.641,51.7386,BCT,MKD,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T14:01:36,7,new,active
 1600GL4354,gloadjgm,,,St Mary's Church,,,,,,Mork Road,,,,opp,,N,E0046584,St Briavels,,,,,,,false,UKOS,355828,204631,-2.6411,51.73863,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
@@ -3401,14 +3401,14 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4193,glogjatj,,,Sherborne Farm,,,,,,Windrush Road,,,,nr,,S,E0046527,Sherborne,,,,,,,false,UKOS,417713,214423,-1.74438,51.82815,BCT,CUS,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T14:15:02,17,new,active
 1600GL4244,glodpamj,,,Cheese Rollers,,,,,,Shurdington Road,,,,o/s,,SW,E0046678,Shurdington,,,,,,,false,UKOS,391888,218273,-2.11921,51.86298,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T12:35:28,7,new,active
 1600GL4243,glodpajm,,,Cheese Rollers,,,,,,,,,,before,,NE,E0046678,Shurdington,,,,,,,false,UKOS,391856,218263,-2.11967,51.86289,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T12:34:59,7,new,active
-1600GL4268,gloapdpd,,,Crossroads,,,,,,Bristol Road,,,,after,,NE,E0046635,Slimbridge,,,,,,,false,UKOS,374438,202914,-2.37147,51.72436,BCT,MKD,OTH,,,,081,2019-07-03T00:00:00,2019-07-03T12:57:25,27,new,active
-1600GL4267,gloapdmd,,,Slimbridge Crossroads,,,,,,A38,,,,after,,SW,E0046635,Slimbridge,,,,,,,false,UKOS,374355,202754,-2.37266,51.72292,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T13:34:53,11,new,active
+1600GL4268,gloapdpd,,,St John's Road,,,,,,Bristol Road,,,,after,,NE,E0046635,Slimbridge,,,,,,,false,UKOS,374438,202914,-2.37147,51.72436,BCT,MKD,OTH,,,,081,2019-07-03T00:00:00,2026-10-08T10:33:23,63,new,active
+1600GL4267,gloapdmd,,,St John's Road,,,,,,A38,,,,nr,,SW,E0046635,Slimbridge,,,,,,,false,UKOS,374355,202754,-2.37266,51.72292,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2026-10-08T10:32:44,48,new,active
 1600GL4261,glodjmta,,,War Memorial,,,,,,,,,,opp,,NE,E0012340,Slad,Stroud,,,,,,false,UKOS,387337,207861,-2.18491,51.76928,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GL4262,glodjmpt,,,War Memorial,,,,,,,,,,by,,SW,E0012340,Slad,Stroud,,,,,,false,UKOS,387335,207838,-2.18494,51.76907,BCT,MKD,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T14:16:13,7,new,active
 1600GL425,glodtpwg,,,War Memorial,,,,,,Pecked Lane,,,,nr,,NW,E0046651,Bishops Cleeve,,,,,,,false,UKOS,396096,227605,-2.05821,51.94693,BCT,MKD,OTH,,,,081,2017-10-18T00:00:00,2017-10-18T16:21:55,7,new,active
 1600GL426,glodtpwd,,,War Memorial,,,,,,Pecked Lane,,,,opp,,SE,E0046651,Bishops Cleeve,,,,,,,false,UKOS,396098,227614,-2.05818,51.94701,BCT,MKD,OTH,,,,081,2017-10-18T00:00:00,2017-10-18T16:19:41,7,new,active
-1600GL4277,gloadwjt,,,Shop,,,,,,Oakwood Road,,,,o/s,,NW,E0012070,Sling,,,,,,,false,UKOS,358214,208033,-2.60696,51.7694,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T13:46:01,10,new,active
-1600GL4278,gloadwjw,,,Shop,,,,,,Oakwood Road,,,,opp,,SE,E0012070,Sling,,,,,,,false,UKOS,358220,208029,-2.60687,51.76937,BCT,MKD,OTH,,,,081,2015-12-17T00:00:00,2015-12-17T11:43:14,10,new,active
+1600GL4277,gloadwjt,,,Gorse Lane,,,,,,Oakwood Road,,,,before,,NW,E0012070,Sling,,,,,,,false,UKOS,358214,208033,-2.60696,51.7694,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2026-10-08T10:42:04,47,new,active
+1600GL4278,gloadwjw,,,Gorse Lane,,,,,,Oakwood Road,,,,after,,SE,E0012070,Sling,,,,,,,false,UKOS,358220,208029,-2.60687,51.76937,BCT,MKD,OTH,,,,081,2015-12-17T00:00:00,2026-10-08T10:41:39,47,new,active
 1600GL4275,gloamwgd,,,Tudor Arms,,,,,,Kingston Road,,,,by,,NW,E0046635,Slimbridge,,,,,,,false,UKOS,372836,204162,-2.39476,51.7355,BCT,MKD,OTH,,,,081,2018-02-15T00:00:00,2018-02-15T14:17:37,14,new,active
 1600GL4276,gloamwgw,,,Tudor Arms,,,,,,Kingston Road,,,,opp,,SE,E0046635,Slimbridge,,,,,,,false,UKOS,372865,204150,-2.39434,51.7354,BCT,MKD,OTH,,,,081,2016-10-28T00:00:00,2016-10-28T12:35:47,7,new,active
 1600GL4274,gloapdaw,,,Tyning Crescent,,,,,,St John's Road,,,,after,,SE,E0046635,Slimbridge,,,,,,,false,UKOS,374145,203106,-2.37573,51.72607,BCT,MKD,OTH,,,,081,2018-02-15T00:00:00,2023-05-18T11:29:10,37,new,active
@@ -3485,7 +3485,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL2218,glodtpjp,,,Shutter Lane,,,,,,Malleson Road,,,,nr,,E,E0046662,Gotherington,,,,,,,false,UKOS,395960,229704,-2.06021,51.9658,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2026-09-30T11:52:49,40,new,active
 1600GL2216,glodwagp,,,Post Office,,,,,,Cleeve Road,,,,by,,SW,E0046662,Gotherington,,,,,,,false,UKOS,396422,229491,-2.05348,51.96389,BCT,CUS,OTH,,,,081,2018-02-12T00:00:00,2018-02-12T08:44:58,7,new,active
 1600GL2215,glodwagw,,,Post Office,,,,,,Cleeve Road,,,,opp,,NE,E0046662,Gotherington,,,,,,,false,UKOS,396423,229513,-2.05347,51.96408,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
-1600GL2226,glodgjwt,,,Grange View Flats,,,,,,Grange View,,,,main entrance,,NE,E0012378,Uplands,Stroud,,,,,,false,UKOS,385394,205891,-2.21298,51.75152,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T14:10:48,9,new,active
+1600GL2226,glodgjwt,,,Grange View,,,,,,Grange View,,,,on,,NE,E0012378,Uplands,Stroud,,,,,,false,UKOS,385394,205891,-2.21298,51.75152,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2026-10-08T16:49:51,46,new,active
 1600GL2241,glodwjmg,,,Church Lane,,,,,,,,,,by,,N,E0012444,Great Washbourne,,,,,,,false,UKOS,398752,234393,-2.01959,52.00797,BCT,MKD,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T12:55:15,8,new,active
 1600GL2242,glodwjmj,,,Church Lane,,,,,,,,,,opp,,S,E0012444,Great Washbourne,,,,,,,false,UKOS,398759,234386,-2.01949,52.00791,BCT,MKD,OTH,,,,081,2015-12-17T00:00:00,2015-12-17T09:35:53,8,new,active
 1600GL2237,glogjgdg,,,Lamb Inn,,,,,,,,,,by,,NW,E0046493,Great Rissington,,,,,,,false,UKOS,419958,217363,-1.71163,51.8545,BCT,MKD,OTH,,,,081,2019-12-09T00:00:00,2019-12-09T11:08:15,12,new,active
@@ -3497,7 +3497,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA36574,glogjptg,,,Eldon Road,,,,,,Hewlett Road,,,,by,,SW,E0011695,Fairview,Cheltenham,,,,,,false,UKOS,395827,222495,-2.06206,51.90098,BCT,MKD,OTH,,,,081,2007-06-19T00:00:00,2018-02-12T08:54:12,9,new,active
 1600GLA36572,glodpgwt,,,Hewlett Road,,,,,,Hewlett Road,,,,after,,SW,E0011695,Fairview,Cheltenham,,,,,,false,UKOS,395974,222549,-2.05992,51.90147,BCT,CUS,OTH,,,,081,2007-06-19T00:00:00,2026-09-30T09:51:47,52,new,active
 1600GLA36571,glodtpjw,,,Hewlett Road,,,,,,Hewlett Road,,,,before,,NE,E0011695,Fairview,Cheltenham,,,,,,false,UKOS,395972,222557,-2.05995,51.90154,BCT,MKD,OTH,,,,081,2007-06-19T00:00:00,2026-09-30T09:51:32,44,new,active
-1600GLA36579,glogjptw,,,Park Campus Benton House,,,,,,The Park,,,,opp,,N,E0011721,The Park,Cheltenham,,,,,,false,UKOS,394137,220912,-2.08659,51.88673,BCT,MKD,OTH,,,,081,2007-06-21T00:00:00,2017-07-04T10:52:05,0,new,active
+1600GLA36579,glogjptw,,,Harefield Grove,,,,,,The Park,,,,opp,,N,E0011721,The Park,Cheltenham,,,,,,false,UKOS,394137,220912,-2.08659,51.88673,BCT,MKD,OTH,,,,081,2007-06-21T00:00:00,2026-10-08T15:49:38,37,new,active
 1600GLA36577,glodpjwj,,,Hayden Road,,,,,,Tewkesbury Road,,,,before,,NW,N0074187,Kingsditch,Cheltenham,,,,,,false,UKOS,392977,224147,-2.10351,51.91581,BCT,MKD,OTH,,,,081,2007-02-13T00:00:00,2018-12-31T10:47:08,9,new,active
 1600GLA36570,glodagad,,,James Donovan Court,,,,,,Hewlett Road,,,,o/s,,W,E0011687,Battledown,Cheltenham,,,,,,false,UKOS,396144,222531,-2.05745,51.90131,BCT,MKD,OTH,,,,081,2007-02-13T00:00:00,2018-02-12T08:56:28,7,new,active
 1600GLA36569,glodtwam,,,James Donovan Court,,,,,,Hewlett Road,,,,opp,,E,E0011687,Battledown,Cheltenham,,,,,,false,UKOS,396149,222542,-2.05738,51.90141,BCT,MKD,OTH,,,,081,2007-02-13T00:00:00,2017-07-04T10:52:05,0,new,active
@@ -3592,7 +3592,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA90858,glogpdap,,,Crest Way,,,,,,Barnett Way,,,,after,,N,E0012117,Barnwood,Gloucester,,,,,,false,UKOS,386512,218448,-2.19728,51.86445,BCT,MKD,OTH,,,,081,2007-03-22T00:00:00,2026-09-14T11:30:19,53,new,active
 1600GLA90855,glogpdag,,,Keynes Country Park,,,,,,Spratsgate Lane,,,,by,,S,E0011845,Shorncote,,,,,,,false,UKOS,402561,195849,-1.96437,51.66142,BCT,MKD,OTH,,,,081,2007-04-03T00:00:00,2018-02-05T10:21:40,7,new,active
 1600GLA90856,glogpdaj,,,Keynes Country Park,,,,,,Spratsgate Lane,,,,opp,,N,E0011845,Shorncote,,,,,,,false,UKOS,402547,195844,-1.96458,51.66137,BCT,MKD,OTH,,,,081,2007-04-03T00:00:00,2018-02-22T16:39:08,8,new,active
-1600GLA90861,glogpdga,,,The Chipping Car Park,,,,,,Chipping Street,,,,in,,SW,E0046538,Tetbury,,,,,,,false,UKOS,389109,193199,-2.15877,51.63749,BCT,MKD,OTH,,,,081,2007-03-29T00:00:00,2018-02-05T10:23:09,7,new,active
+1600GLA90861,glogpdga,,,Car Park,,,,,,Chipping Street,,,,in,,SW,E0046538,Tetbury,,,,,,,false,UKOS,389109,193199,-2.15877,51.63749,BCT,MKD,OTH,,,,081,2007-03-29T00:00:00,2026-10-08T15:25:05,42,new,active
 1600GLA90879,glogptjm,,,Church Walk,,,,,,North Road,,,,after,,S,E0011909,Broadwell,,,,,,,false,UKOS,358827,211177,-2.59845,51.79771,BCT,MKD,OTH,,,,081,2009-07-02T00:00:00,2017-10-19T16:17:33,7,new,active
 1600GLA90897,glogptwa,,,Mushet Place,,,,,,High Nash,,,,before,,N,E0011964,High Nash,,,,,,,false,UKOS,357536,210269,-2.61706,51.78945,BCT,CUS,OTH,,,,081,2009-08-18T00:00:00,2018-02-05T10:31:18,7,new,active
 1600GLA90896,glogptpw,,,Mushet Place,,,,,,High Nash,,,,opp,,S,E0011964,High Nash,,,,,,,false,UKOS,357546,210256,-2.61691,51.78934,BCT,CUS,OTH,,,,081,2009-08-18T00:00:00,2017-07-04T10:52:05,0,new,active
@@ -3661,8 +3661,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLN047,glodjgjg,,,Chaceley Crossroads,,,,,,Chaceley Road,,,,after,,SW,E0046661,Forthampton,Tewkesbury,,,,,,false,UKOS,386660,231692,-2.19565,51.98352,BCT,CUS,OTH,,,,081,2018-03-28T00:00:00,2026-09-30T10:02:58,51,new,active
 1600GLN023,gloatmad,,,School Crescent,,,,,,Gloucester Road A417,,,,opp,,N,E0046562,Corse,,,,,,,false,UKOS,379168,228878,-2.30457,51.95799,BCT,CUS,OTH,,,,081,2017-10-31T00:00:00,2017-10-31T10:29:23,24,new,active
 1600GLN024,gloatmag,,,School Crescent,,,,,,Gloucester Road A417,,,,before,,S,E0046562,Corse,,,,,,,false,UKOS,379180,228877,-2.30439,51.95798,BCT,MKD,OTH,,,,081,2017-10-31T00:00:00,2017-10-31T10:28:52,7,new,active
-1600GL4256,glogajwd,,,Post Office,,,,,,Ashton Road,,,,opp,,NE,E0046530,Siddington,,,,,,,false,UKOS,403452,199880,-1.95145,51.69766,BCT,CUS,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T13:05:53,2,new,active
-1600GL4255,glogajwj,,,Post Office,,,,,,Ashton Road,,,,before,,SW,E0046530,Siddington,,,,,,,false,UKOS,403463,199875,-1.95129,51.69761,BCT,MKD,OTH,,,,081,2019-05-31T00:00:00,2019-05-31T11:46:44,18,new,active
+1600GL4256,glogajwd,,,Parkway,,,,,,Ashton Road,,,,after,,NE,E0046530,Siddington,,,,,,,false,UKOS,403452,199880,-1.95145,51.69766,BCT,CUS,OTH,,,,081,2017-12-14T00:00:00,2026-10-08T10:26:51,41,new,active
+1600GL4255,glogajwj,,,Post Office Square,,,,,,Ashton Road,,,,before,,SW,E0046530,Siddington,,,,,,,false,UKOS,403463,199875,-1.95129,51.69761,BCT,MKD,OTH,,,,081,2019-05-31T00:00:00,2026-10-08T10:27:12,53,new,active
 1600GLB322,gloawmta,,,Alma Place,,,,,,Bristol Road,,,,opp,,NE,E0055873,Gloucester,,,,,,,false,UKOS,382614,217326,-2.25383,51.85425,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T11:42:41,21,new,active
 1600GLB321,gloawmjw,,,Frampton Road,,,,,,Bristol Road,,,,before,,SW,E0055873,Gloucester,,,,,,,false,UKOS,382568,217246,-2.2545,51.85353,BCT,MKD,OTH,,,,081,2018-01-05T00:00:00,2018-01-05T13:27:55,7,new,active
 1600GLB320,gloawpad,,,Madleaze Road,,,,,,Bristol Road,,,,after,,NE,E0055873,Gloucester,,,,,,,false,UKOS,382720,217508,-2.2523,51.85589,BCT,MKD,OTH,,,,081,2018-12-27T00:00:00,2018-12-27T10:51:46,11,new,active
@@ -3712,11 +3712,11 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS559,glodgdjw,,,Post Office,,,,,,Rodborough Road,,,,by,,SW,E0012140,Amberley,Stroud,,,,,,false,UKOS,385021,201439,-2.21819,51.71148,BCT,CUS,OTH,,,,081,2018-03-08T00:00:00,2018-03-08T10:42:51,7,new,active
 1600GLS560,glodgdma,,,Post Office,,,,,,Rodborough Road,,,,opp,,NE,E0012140,Amberley,Stroud,,,,,,false,UKOS,385022,201450,-2.21818,51.71158,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLS553,glodgtdw,,,Garage,,,,,,Butterrow Hill,,,,nr,,SW,E0012161,Bowbridge,Stroud,,,,,,false,UKOS,385786,204303,-2.20724,51.73725,BCT,MKD,OTH,,,,081,2017-11-15T00:00:00,2017-11-15T11:27:31,11,new,active
-1600GLS158,glodgpmt,,,General Hospital,,,,,,Trinity Road,,,,entrance,,SW,E0055881,Stroud,,,,,,,false,UKOS,385694,204988,-2.2086,51.74341,BCT,MKD,OTH,,,,081,2017-11-23T00:00:00,2017-11-23T11:44:33,14,new,active
-1600GLS157,glodgpmj,,,General Hospital,,,,,,Bisley Road,,,,nr,,E,E0055881,Stroud,,,,,,,false,UKOS,385724,205015,-2.20817,51.74365,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2018-01-23T10:43:11,14,new,active
-1600GLA36786,glogmpgw,,,General Hospital,,,,,,Bisley Road,,,,by,,W,E0055881,Stroud,,,,,,,false,UKOS,385728,205006,-2.20811,51.74357,BCT,MKD,OTH,,,,081,2006-02-03T00:00:00,2019-04-17T10:58:08,9,new,active
-1600GLS552,glodgptd,,,General Hospital,,,,,,Bowbridge Lane,,,,o/s,,SE,E0055881,Stroud,,,,,,,false,UKOS,385713,204918,-2.20832,51.74278,BCT,MKD,OTH,,,,081,2017-11-23T00:00:00,2017-11-23T11:44:57,8,new,active
-1600GLS551,glodgpta,,,General Hospital,,,,,,Bowbridge Lane,,,,opp,,NW,E0055881,Stroud,,,,,,,false,UKOS,385706,204911,-2.20842,51.74272,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
+1600GLS158,glodgpmt,,,Hospital,,,,,,Trinity Road,,,,entrance,,SW,E0055881,Stroud,,,,,,,false,UKOS,385694,204988,-2.2086,51.74341,BCT,MKD,OTH,,,,081,2017-11-23T00:00:00,2026-10-08T13:58:47,49,new,active
+1600GLS157,glodgpmj,,,Hospital,,,,,,Bisley Road,,,,nr,,E,E0055881,Stroud,,,,,,,false,UKOS,385724,205015,-2.20817,51.74365,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2026-10-08T13:58:24,52,new,active
+1600GLA36786,glogmpgw,,,Hospital,,,,,,Bisley Road,,,,by,,W,E0055881,Stroud,,,,,,,false,UKOS,385728,205006,-2.20811,51.74357,BCT,MKD,OTH,,,,081,2006-02-03T00:00:00,2026-10-08T13:59:01,44,new,active
+1600GLS552,glodgptd,,,Hospital,,,,,,Bowbridge Lane,,,,o/s,,SE,E0055881,Stroud,,,,,,,false,UKOS,385713,204918,-2.20832,51.74278,BCT,MKD,OTH,,,,081,2017-11-23T00:00:00,2026-10-08T13:58:10,43,new,active
+1600GLS551,glodgpta,,,Hospital,,,,,,Bowbridge Lane,,,,opp,,NW,E0055881,Stroud,,,,,,,false,UKOS,385706,204911,-2.20842,51.74272,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T13:57:56,37,new,active
 1600GLS550,glodgtmp,,,Cowle Road,,,,,,Bowbridge Lane,,,,opp,,SE,E0055881,Stroud,,,,,,,false,UKOS,385854,204813,-2.20628,51.74184,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:59:44,16,new,active
 1600GLS549,glodgtma,,,Cowle Road,,,,,,Bowbridge Lane,,,,corner of,,NW,E0055881,Stroud,,,,,,,false,UKOS,385845,204808,-2.20641,51.74179,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:55:18,18,new,active
 1600GLS558,glodgmdt,,,Moor Court,,,,,,,,,,by,,NE,E0012140,Amberley,Stroud,,,,,,false,UKOS,385468,202079,-2.21175,51.71725,BCT,CUS,OTH,,,,081,2018-12-07T00:00:00,2018-12-07T10:39:34,9,new,active
@@ -3871,8 +3871,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLC226,glogdjaj,,,Telephone Exchange,,,,,,,,,,NW-bound,,NW,E0055858,Northleach,,,,,,,false,UKOS,410941,214848,-1.84263,51.83214,BCT,CUS,OTH,,,,081,2015-04-25T00:00:00,2023-07-19T15:27:19,35,new,active
 1600GLC222,glodwpmw,,,Albion Street,,,,,,Gloucester Road,,,,opp,,NW,E0011852,Stratton,Cirencester,,,,,,false,UKOS,401643,203116,-1.97761,51.72676,BCT,CUS,OTH,,,,081,2017-07-12T00:00:00,2017-07-12T10:31:00,23,new,active
 1600GLC221,glodwptg,,,Albion Street,,,,,,Gloucester Road,,,,nr,,SE,E0011852,Stratton,Cirencester,,,,,,false,UKOS,401632,203161,-1.97777,51.72716,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T15:39:15,17,new,active
-1600GLC217,glogatwt,,,The Watermark Spring Lake,,,,,,Station Road,,,,opp,,SE,E0046532,South Cerney,,,,,,,false,UKOS,406256,196679,-1.91094,51.66885,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
-1600GLC218,glogatwj,,,The Watermark Spring Lake,,,,,,Station Road,,,,by,,NW,E0046532,South Cerney,,,,,,,false,UKOS,406252,196673,-1.911,51.6688,BCT,CUS,OTH,,,,081,2018-01-30T00:00:00,2018-01-30T11:46:59,7,new,active
+1600GLC217,glogatwt,,,Spring Lake,,,,,,Station Road,,,,opp,,SE,E0046532,South Cerney,,,,,,,false,UKOS,406256,196679,-1.91094,51.66885,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T10:59:24,37,new,active
+1600GLC218,glogatwj,,,Spring Lake,,,,,,Station Road,,,,by,,NW,E0046532,South Cerney,,,,,,,false,UKOS,406252,196673,-1.911,51.6688,BCT,CUS,OTH,,,,081,2018-01-30T00:00:00,2026-10-08T10:59:40,42,new,active
 1600GLC228,glogdpmd,,,Cidermill Lane,,,,,,Leysbourne,,,,after,,S,E0046465,Chipping Campden,,,,,,,false,UKOS,415316,239478,-1.77805,52.05348,BCT,CUS,OTH,,,,081,2018-01-30T00:00:00,2018-01-30T11:48:33,7,new,active
 1600GLC227,glogdpjw,,,Cidermill Lane,,,,,,Leysbourne,,,,before,,N,E0046465,Chipping Campden,,,,,,,false,UKOS,415306,239490,-1.7782,52.05359,BCT,CUS,OTH,,,,081,2018-01-30T00:00:00,2018-01-30T11:48:16,7,new,active
 1600GLC233,glogdajw,,,Hawling Lodge,,,,,,Guiting Road,,,,o/s,,SE,E0046666,Hawling,,,,,,,false,UKOS,408150,223534,-1.88293,51.91028,BCT,CUS,OTH,,,,081,2018-01-30T00:00:00,2018-01-30T11:55:01,7,new,active
@@ -4038,8 +4038,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS629,glodjwgt,,,Beeches Park,,,,,,Chalford Road,,,,by,,S,N0074172,Hampton Fields,,,,,,,false,UKOS,388584,200012,-2.16658,51.69874,BCT,CUS,OTH,,,,081,2018-12-07T00:00:00,2018-12-07T10:20:04,9,new,active
 1600GLS636,glodjtwj,,,Golf Clubb,,,,,,Hampton Hill,,,,opp,,N,E0046448,Avening,,,,,,,false,UKOS,388449,198599,-2.16849,51.68603,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2026-09-14T10:41:24,45,new,active
 1600GLS635,glodjtwm,,,Golf Club,,,,,,Hampton Hill,,,,by,,S,E0046448,Avening,,,,,,,false,UKOS,388458,198614,-2.16836,51.68616,BCT,CUS,OTH,,,,081,2018-11-26T00:00:00,2026-09-14T10:41:10,43,new,active
-1600GLS639,glodjpjt,,,Chavenage Green Turn,,,,,,B4014,,,,opp,,SE,E0046539,Tetbury Upton,,,,,,,false,UKOS,387745,196063,-2.17858,51.66321,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2018-12-19T09:40:08,9,new,active
-1600GLS640,glodjpma,,,Chavenage Green Turn,,,,,,B4014,,,,by,,NW,E0046539,Tetbury Upton,,,,,,,false,UKOS,387754,196006,-2.17845,51.6627,BCT,CUS,OTH,,,,081,2019-08-09T00:00:00,2019-08-09T10:27:07,10,new,active
+1600GLS639,glodjpjt,,,Chavenage Green,,,,,,B4014,,,,opp,,SE,E0046539,Tetbury Upton,,,,,,,false,UKOS,387745,196063,-2.17858,51.66321,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2026-10-08T15:31:17,44,new,active
+1600GLS640,glodjpma,,,Chavenage Green,,,,,,B4014,,,,by,,NW,E0046539,Tetbury Upton,,,,,,,false,UKOS,387754,196006,-2.17845,51.6627,BCT,CUS,OTH,,,,081,2019-08-09T00:00:00,2026-10-08T15:31:26,43,new,active
 1600GLS638,glodjtda,,,Pound Hill,,,,,,Tetbury Hill,,,,opp,,NE,E0046448,Avening,,,,,,,false,UKOS,388118,197562,-2.17324,51.6767,BCT,MKD,OTH,,,,081,2018-12-19T00:00:00,2018-12-19T10:52:30,17,new,active
 1600GLS637,glodjtdm,,,Pound Hill,,,,,,,,,,by,,SW,E0046448,Avening,,,,,,,false,UKOS,388128,197548,-2.17309,51.67657,BCT,CUS,OTH,,,,081,2018-12-07T00:00:00,2018-12-07T10:45:16,10,new,active
 1600GLS653,glodmjwd,,,Burcombe Road,,,,,,Burcombe Road,,,,opp,,SW,E0046603,Chalford Hill,Stroud,,,,,,false,UKOS,389874,203210,-2.14801,51.72751,BCT,MKD,OTH,,,,081,2021-09-06T00:00:00,2021-09-06T13:32:05,25,new,active
@@ -4223,10 +4223,10 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLC353,glodwgwg,,,Glebe House,,,,,,Trewsbury Road,,,,o/s,,NW,E0046468,Coates,,,,,,,false,UKOS,397767,200698,-2.03371,51.70502,BCT,MKD,OTH,,,,081,2019-04-23T00:00:00,2019-04-23T14:55:08,9,new,active
 1600GLC351,glodwjpj,,,Church Road,,,,,,School Road,,,,after,,NW,E0046499,Kemble,,,,,,,false,UKOS,398988,197217,-2.01603,51.67372,BCT,MKD,OTH,,,,081,2017-11-17T00:00:00,2026-09-16T12:21:15,56,new,active
 1600GLC352,glodwjpm,,,Church Road,,,,,,School Road,,,,opp,,SE,E0046499,Kemble,,,,,,,false,UKOS,399029,197208,-2.01544,51.67364,BCT,MKD,OTH,,,,081,2017-11-17T00:00:00,2026-09-16T12:20:40,54,new,active
-1600GLF644,gloadagw,,,Police Station,,,,,,Beachley Road,,,,by,,S,N0074266,Tutshill,,,,,,,false,UKOS,353937,194620,-2.66716,51.64848,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2017-12-22T14:10:08,8,new,active
+1600GLF644,gloadagw,,,Gloucester Road,,,,,,Beachley Road,,,,after,,S,N0074266,Tutshill,,,,,,,false,UKOS,353937,194620,-2.66716,51.64848,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2026-10-08T16:31:02,45,new,active
 1600GLF643,gloadagp,,,Watchtower Way,,,,,,Beachley Road,,,,by,,N,N0074266,Tutshill,,,,,,,false,UKOS,353925,194633,-2.66733,51.64859,BCT,MKD,OTH,,,,081,2019-05-31T00:00:00,2019-05-31T14:57:44,21,new,active
-1600GL4911,gloadaja,,,Police Station,,,,,,Gloucester Road,,,,o/s,,W,N0074266,Tutshill,,,,,,,false,UKOS,353948,194671,-2.667,51.64894,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2017-12-22T14:09:45,12,new,active
-1600GL4912,gloadagj,,,Police Station,,,,,,Castleford Hill,,,,nr,,E,N0074266,Tutshill,,,,,,,false,UKOS,353913,194670,-2.66751,51.64892,BCT,MKD,OTH,,,,081,2019-10-01T00:00:00,2019-10-01T11:36:10,16,new,active
+1600GL4911,gloadaja,,,Beachley Road,,,,,,Gloucester Road,,,,by,,W,N0074266,Tutshill,,,,,,,false,UKOS,353948,194671,-2.667,51.64894,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2026-10-08T16:29:54,49,new,active
+1600GL4912,gloadagj,,,Beachley Road,,,,,,Castleford Hill,,,,nr,,E,N0074266,Tutshill,,,,,,,false,UKOS,353913,194670,-2.66751,51.64892,BCT,MKD,OTH,,,,081,2019-10-01T00:00:00,2026-10-08T16:29:31,55,new,active
 1600GLF634,gloadjap,,,Hazeldene,,,,,,Chickadee,,,,by,,N,E0011927,Coldharbour,,,,,,,false,UKOS,355458,203998,-2.64638,51.73291,BCT,MKD,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T12:27:54,7,new,active
 1600GLF633,gloadjam,,,Hazeldene,,,,,,Chickadee,,,,opp,,S,E0011927,Coldharbour,,,,,,,false,UKOS,355458,203980,-2.64637,51.73275,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLF631,gloajtpt,,,Spout Lane,,,,,,Main Road,,,,before,,NW,N0074239,Shapridge,,,,,,,false,UKOS,367246,216372,-2.47686,51.84498,BCT,CUS,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T12:32:00,21,new,active
@@ -4256,8 +4256,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF662,gloapjwg,,,Village Hall,,,,,,Tibberton Road,,,,opp,,E,E0046587,Taynton,,,,,,,false,UKOS,375133,222616,-2.36283,51.90153,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T14:01:27,9,new,active
 1600GLF659,gloapjda,,,Wynford Villas,,,,,,Tibberton Road,,,,o/s,,W,E0046587,Taynton,,,,,,,false,UKOS,374920,222538,-2.36592,51.90082,BCT,MKD,OTH,,,,081,2017-12-19T00:00:00,2017-12-19T10:47:15,11,new,active
 1600GLF660,gloapjaw,,,Wynford Villas,,,,,,Tibberton Road,,,,opp,,E,E0046587,Taynton,,,,,,,false,UKOS,374915,222548,-2.36599,51.90091,BCT,CUS,OTH,,,,081,2019-01-22T00:00:00,2019-01-22T17:00:18,0,new,active
-1600GLF657,gloapajg,,,St Lawrence's Church,,,,,,Tibberton Road,,,,by,,SW,E0046587,Taynton,,,,,,,false,UKOS,373740,222192,-2.38304,51.89765,BCT,MKD,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T13:55:55,7,new,active
-1600GLF658,gloapajm,,,St Lawrence's Church,,,,,,Tibberton Road,,,,opp,,NE,E0046587,Taynton,,,,,,,false,UKOS,373740,222201,-2.38304,51.89773,BCT,MKD,OTH,,,,081,2019-01-22T00:00:00,2019-01-22T17:00:18,0,new,active
+1600GLF657,gloapajg,,,St Lawrence's,,,,,,Tibberton Road,,,,by,,SW,E0046587,Taynton,,,,,,,false,UKOS,373740,222192,-2.38304,51.89765,BCT,MKD,OTH,,,,081,2018-03-15T00:00:00,2026-10-08T15:13:37,42,new,active
+1600GLF658,gloapajm,,,St Lawrence's,,,,,,Tibberton Road,,,,opp,,NE,E0046587,Taynton,,,,,,,false,UKOS,373740,222201,-2.38304,51.89773,BCT,MKD,OTH,,,,081,2019-01-22T00:00:00,2026-10-08T15:13:52,43,new,active
 1600GLF665,gloaptmj,,,The Homestead,,,,,,Gloucester Road,,,,opp,,N,E0046590,Upleadon,,,,,,,false,UKOS,375824,226011,-2.35303,51.93208,BCT,CUS,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T13:59:52,38,new,active
 1600GLF666,gloaptmt,,,The Homestead,,,,,,Gloucester Road,,,,by,,S,E0046590,Upleadon,,,,,,,false,UKOS,375832,226025,-2.35291,51.93221,BCT,CUS,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T12:44:38,31,new,active
 1600GLF664,gloatawt,,,Burway Farm,,,,,,Buttermilk Lane,,,,by,,E,N0074232,Rudford,,,,,,,false,UKOS,376915,221805,-2.33688,51.89431,BCT,CUS,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T12:45:49,7,new,active
@@ -4272,14 +4272,14 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF824,gloagmpj,,,Beechenhurst Lodge,,,,,,,,,,in,,S,E0011917,Cannop,,,,,,,false,UKOS,361402,211941,-2.5612,51.80477,BCT,MKD,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T15:47:53,7,new,active
 1600GLF822,gloajpjg,,,Heritage Museum,,,,,,Cinderford Road,,,,by,,NW,E0011997,Lower Soudley,,,,,,,false,UKOS,366492,210592,-2.48725,51.79297,BCT,MKD,OTH,,,,081,2019-04-09T00:00:00,2026-10-06T09:48:17,75,new,active
 1600GLA36719,glogmjpa,,,Heritage Museum,,,,,,Cinderford Road,,,,opp,,SE,E0011997,Lower Soudley,,,,,,,false,UKOS,366491,210602,-2.48726,51.79306,BCT,CUS,OTH,,,,081,2006-03-22T00:00:00,2026-10-06T09:48:03,66,new,active
-1600GL2658,gloagjmd,,,Jovial Colliers Inn,,,,,,B4234,,,,opp,,SE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360322,215576,-2.57728,51.83737,BCT,CUS,OTH,,,,081,2017-03-28T00:00:00,2017-03-28T14:09:33,9,new,active
-1600GL2657,gloagjma,,,Jovial Colliers Inn,,,,,,B4234,,,,after,,NW,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360312,215572,-2.57742,51.83734,BCT,MKD,OTH,,,,081,2019-12-02T00:00:00,2019-12-02T14:04:16,14,new,active
+1600GL2658,gloagjmd,,,School Road,,,,,,B4234,,,,after,,SE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360322,215576,-2.57728,51.83737,BCT,CUS,OTH,,,,081,2017-03-28T00:00:00,2026-10-08T16:53:32,46,new,active
+1600GL2657,gloagjma,,,School Road,,,,,,B4234,,,,before,,NW,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360312,215572,-2.57742,51.83734,BCT,MKD,OTH,,,,081,2019-12-02T00:00:00,2026-10-08T16:54:12,51,new,active
 1600GLF807,gloamdap,,,The Slad,,,,,,New Road,,,,opp,,SW,N0074228,Popes Hill,,,,,,,false,UKOS,368842,214408,-2.45352,51.82741,BCT,CUS,OTH,,,,081,2018-03-15T00:00:00,2026-10-06T13:39:45,44,new,active
 1600GLF808,gloamdaj,,,The Slad,,,,,,New Road,,,,before,,NE,N0074228,Popes Hill,,,,,,,false,UKOS,368833,214413,-2.45365,51.82746,BCT,CUS,OTH,,,,081,2019-07-02T00:00:00,2026-10-06T13:39:24,39,new,active
 1600GLA36763,glogmpdm,,,Royal George Hotel,,,,,,Ermin Way B4070,,,,opp,,NW,E0011743,Birdlip,,,,,,,false,UKOS,392523,214373,-2.1099,51.82792,BCT,MKD,OTH,,,,081,2007-07-13T00:00:00,2019-04-23T15:24:52,9,new,active
 1600GL5514,glodpgtj,,,Royal George Hotel,,,,,,Ermin Way B4070,,,,by,,SE,E0011743,Birdlip,,,,,,,false,UKOS,392564,214369,-2.1093,51.82789,BCT,MKD,OTH,,,,081,2019-04-23T00:00:00,2019-04-23T14:43:00,8,new,active
 1600GLA36774,glogmpga,,,Puzzle Wood,,,,,,Off Perrygrove Road B4228,,,,in,,SE,E0012008,Milkwall,,,,,,,false,UKOS,357994,209221,-2.61029,51.78007,BCT,MKD,OTH,,,,081,2007-02-14T00:00:00,2026-10-06T10:26:45,36,new,active
-1600GLA36781,glogmpgp,,,Lloyd's Bank,,,,,,King Street,,,,o/s,,NE,E0055881,Stroud,,,,,,,false,UKOS,384998,205213,-2.21869,51.74541,BCT,MKD,OTH,,,,081,2007-05-23T00:00:00,2026-06-03T10:13:34,138,new,active
+1600GLA36781,glogmpgp,,,King Street,,,,,,King Street,,,,on,,NE,E0055881,Stroud,,,,,,,false,UKOS,384998,205213,-2.21869,51.74541,BCT,MKD,OTH,,,,081,2007-05-23T00:00:00,2026-10-08T14:02:23,166,new,active
 1600GLA36780,glogmpgm,,,Car Park,,,,,,Highmeadow Woods,,,,in,,N,E0012083,Symonds Yat Rock,,,,,,,false,UKOS,356266,215633,-2.63615,51.83758,BCT,MKD,OTH,,,,081,2009-03-27T00:00:00,2018-02-08T12:28:20,7,new,active
 1600GLA36777,glogmpgj,,,Dean Forest Railway Station,,,,,,,,,,by,,S,E0046573,Lydney,,,,,,,false,UKOS,363339,202055,-2.53206,51.71602,BCT,MKD,OTH,,,,081,2007-06-21T00:00:00,2018-02-08T12:30:02,7,new,active
 1600GLA36776,glogmpgd,,,Taurus Crafts Village,,,,,,Old Park Off A48,,,,in,,E,E0046573,Lydney,,,,,,,false,UKOS,362207,202163,-2.54845,51.71691,BCT,MKD,OTH,,,,081,2007-02-14T00:00:00,2018-02-08T12:32:23,15,new,active
@@ -4372,8 +4372,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA461,glodtgam,,,Pilley Lane,,,,,,Leckhampton Road,,,,before,,S,E0046436,Leckhampton,Cheltenham,,,,,,false,UKOS,394810,219838,-2.0768,51.87708,BCT,MKD,OTH,,,,081,2017-11-28T00:00:00,2017-11-28T15:54:46,7,new,active
 1600GLA459,glodtgdt,,,Montpellier Terrace,,,,,,Bath Road,,,,opp,,S,E0057404,Cheltenham,,,,,,,false,UKOS,394876,221694,-2.07587,51.89377,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLA460,glodtgdj,,,Montpellier Terrace,,,,,,Bath Road,,,,nr,,N,E0057404,Cheltenham,,,,,,,false,UKOS,394862,221683,-2.07607,51.89367,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2018-02-08T11:42:44,7,new,active
-1600GLA470,glodpgjg,,,Byron Road Footpath Link,,,,,,Tennyson Road,,,,nr,,NW,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392408,222161,-2.11174,51.89794,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2018-02-08T11:45:34,7,new,active
-1600GLA469,glodpgma,,,Byron Road Footpath Link,,,,,,Tennyson Road,,,,by,,SE,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392425,222136,-2.11149,51.89772,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2018-02-08T11:45:52,7,new,active
+1600GLA470,glodpgjg,,,Spenser Road,,,,,,Tennyson Road,,,,aftert,,NW,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392408,222161,-2.11174,51.89794,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2026-10-08T11:09:10,44,new,active
+1600GLA469,glodpgma,,,Milton Road,,,,,,Tennyson Road,,,,before,,SE,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392425,222136,-2.11149,51.89772,BCT,MKD,OTH,,,,081,2018-02-08T00:00:00,2026-10-08T11:09:51,44,new,active
 1600GLA467,glodpjga,,,Byron Road,,,,,,Tennyson Road,,,,corner of,,NW,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392779,222349,-2.10635,51.89964,BCT,MKD,OTH,,,,081,2017-12-14T00:00:00,2017-12-14T14:59:42,7,new,active
 1600GLA468,glodpjgm,,,Byron Road,,,,,,Tennyson Road,,,,opp,,SE,N0074247,St Marks,Cheltenham,,,,,,false,UKOS,392802,222336,-2.10602,51.89952,BCT,MKD,OTH,,,,081,2017-02-14T00:00:00,2017-02-14T16:42:57,9,new,active
 1600GLA485,glodtpgp,,,Beaufort Arms,,,,,,London Road,,,,after,,SE,E0057404,Cheltenham,,,,,,,false,UKOS,395923,221364,-2.06065,51.89081,BCT,MKD,OTH,,,,081,2017-10-24T00:00:00,2017-10-24T15:52:51,17,new,active
@@ -4445,7 +4445,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS665,glodatma,,,Stringer's Drive,,,,,,Chandos Road,,,,nr,,SE,E0012253,Lightpill,Stroud,,,,,,false,UKOS,384304,204187,-2.2287,51.73617,BCT,MKD,OTH,,,,081,2017-11-29T00:00:00,2017-11-29T09:30:38,22,new,active
 1600GLS663,glodawmj,,,Rodborough Primary,,,,,,Rodborough Hill,,,,before,,S,E0012324,Rodborough,Stroud,,,,,,false,UKOS,384544,204822,-2.22525,51.74188,BCT,MKD,OTH,,,,081,2017-12-13T00:00:00,2026-09-16T14:33:33,68,new,active
 1600GLS664,glodawma,,,Rodborough Primary,,,,,,Rodborough Hill,,,,nr,,N,E0012324,Rodborough,Stroud,,,,,,false,UKOS,384523,204847,-2.22555,51.74211,BCT,MKD,OTH,,,,081,2017-12-13T00:00:00,2026-09-16T14:33:47,55,new,active
-1600GLS598,glodjajg,,,Kingfisher Business Park,,,,,,London Road A419,,,,o/s,,NW,E0046640,Thrupp,Stroud,,,,,,false,UKOS,386189,203111,-2.20136,51.72654,BCT,MKD,OTH,,,,081,2018-02-22T00:00:00,2018-02-22T09:58:43,24,new,active
+1600GLS598,glodjajg,,,Business Park,,,,,,London Road A419,,,,nr,,NW,E0046640,Thrupp,Stroud,,,,,,false,UKOS,386189,203111,-2.20136,51.72654,BCT,MKD,OTH,,,,081,2018-02-22T00:00:00,2026-10-08T16:01:04,61,new,active
 1600GLS597,glodjadp,,,Middle Road,,,,,,London Road A419,,,,corner of,,SE,E0046640,Thrupp,Stroud,,,,,,false,UKOS,386156,203195,-2.20184,51.7273,BCT,MKD,OTH,,,,081,2019-06-18T00:00:00,2019-06-18T13:58:40,15,new,active
 1600GLS595,glodgwjg,,,Griffin Mill Estate,,,,,,London Road A419,,,,opp,,S,E0046640,Thrupp,Stroud,,,,,,false,UKOS,386014,203631,-2.20391,51.73122,BCT,MKD,OTH,,,,081,2018-12-07T00:00:00,2018-12-07T11:09:49,18,new,active
 1600GLS596,glodgwja,,,Griffin Mill Estate,,,,,,London Road A419,,,,adj,,N,E0046640,Thrupp,Stroud,,,,,,false,UKOS,385997,203683,-2.20416,51.73168,BCT,MKD,OTH,,,,081,2017-12-18T00:00:00,2017-12-18T14:36:54,15,new,active
@@ -4461,8 +4461,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS602,glodjmdw,,,Bourne Estate,,,,,,London Road A419,,,,by,,NW,E0012168,Brimscombe,Stroud,,,,,,false,UKOS,387034,202316,-2.18909,51.71942,BCT,MKD,OTH,,,,081,2019-10-01T00:00:00,2019-10-01T12:02:00,43,new,active
 1600GLS584,glodtatg,,,Hartley Lane,,,,,,Leckhampton Hill,,,,opp,,N,E0046436,Leckhampton,Cheltenham,,,,,,false,UKOS,394424,217856,-2.08237,51.85926,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2026-10-05T13:15:18,38,new,active
 1600GLS583,glodtatw,,,Hartley Lane,,,,,,Leckhampton Hill,,,,by,,S,E0046436,Leckhampton,Cheltenham,,,,,,false,UKOS,394438,217807,-2.08217,51.85882,BCT,CUS,OTH,,,,081,2018-03-08T00:00:00,2026-10-05T13:15:33,43,new,active
-1600GLS580,glodmtwa,,,Wishanger Crossroads,,,,,,Wishanger Lane,,,,before,,NW,E0012361,The Camp,,,,,,,false,UKOS,391209,209718,-2.12885,51.78605,BCT,MKD,OTH,,,,081,2020-12-23T00:00:00,2020-12-23T11:54:57,13,new,active
-1600GLS579,glodmtpw,,,Wishanger Crossroads,,,,,,Wishanger Lane,,,,after,,SE,E0012361,The Camp,,,,,,,false,UKOS,391209,209728,-2.12885,51.78614,BCT,CUS,OTH,,,,081,2019-04-17T00:00:00,2019-04-17T13:10:55,9,new,active
+1600GLS580,glodmtwa,,,Wishanger Cross,,,,,,Wishanger Lane,,,,before,,NW,E0012361,The Camp,,,,,,,false,UKOS,391209,209718,-2.12885,51.78605,BCT,MKD,OTH,,,,081,2020-12-23T00:00:00,2026-10-08T15:46:32,48,new,active
+1600GLS579,glodmtpw,,,Wishanger Cross,,,,,,Wishanger Lane,,,,after,,SE,E0012361,The Camp,,,,,,,false,UKOS,391209,209728,-2.12885,51.78614,BCT,CUS,OTH,,,,081,2019-04-17T00:00:00,2026-10-08T15:46:46,44,new,active
 1600GLS587,glodmpjd,,,The Knoll,,,,,,Main Street,,,,opp,,SE,E0046605,Cranham,,,,,,,false,UKOS,390100,212741,-2.14501,51.81321,BCT,CUS,OTH,,,,081,2019-04-30T00:00:00,2019-04-30T13:16:18,5,new,active
 1600GLS588,glodmpgj,,,The Knoll,,,,,,Main Street,,,,by,,NW,E0046605,Cranham,,,,,,,false,UKOS,390060,212756,-2.14559,51.81335,BCT,CUS,OTH,,,,081,2018-03-08T00:00:00,2018-03-08T13:10:03,7,new,active
 1600GLS592,glodmgwm,,,Scouts Centre,,,,,,Main Street,,,,opp,,SW,E0046605,Cranham,,,,,,,false,UKOS,389493,213033,-2.15382,51.81583,BCT,MKD,OTH,,,,081,2019-01-22T00:00:00,2026-09-24T13:20:23,37,new,active
@@ -4488,8 +4488,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLS609,glodjptj,,,Merlins Mill,,,,,,Toadsmoor Road,,,,by,,NE,E0012168,Brimscombe,Stroud,,,,,,false,UKOS,387892,203005,-2.1767,51.72563,BCT,MKD,OTH,,,,081,2018-03-08T00:00:00,2018-03-08T13:25:52,7,new,active
 1600GLS608,glodjpgd,,,Gussage Mills,,,,,,Toadsmoor Road,,,,opp,,SW,E0012168,Brimscombe,Stroud,,,,,,false,UKOS,387630,202474,-2.18047,51.72085,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GLS607,glodjpgj,,,Gussage Mills,,,,,,,,,,by,,NE,E0012168,Brimscombe,Stroud,,,,,,false,UKOS,387639,202508,-2.18034,51.72116,BCT,MKD,OTH,,,,081,2018-03-08T00:00:00,2018-03-08T13:26:58,14,new,active
-1600GLS612,glodjtag,,,Garage,,,,,,Vatch Lane,,,,opp,,SW,E0012372,Toadsmoor,Stroud,,,,,,false,UKOS,388069,203852,-2.17416,51.73325,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
-1600GLS611,glodjtad,,,Garage,,,,,,Vatch Lane,,,,by,,NE,E0012372,Toadsmoor,Stroud,,,,,,false,UKOS,388063,203864,-2.17425,51.73336,BCT,MKD,OTH,,,,081,2018-03-08T00:00:00,2018-03-08T13:28:06,7,new,active
+1600GLS612,glodjtag,,,Toadsmoor Road,,,,,,Vatch Lane,,,,before,,SW,E0012372,Toadsmoor,Stroud,,,,,,false,UKOS,388069,203852,-2.17416,51.73325,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T16:08:26,39,new,active
+1600GLS611,glodjtad,,,Vatch Lane,,,,,,Vatch Lane,,,,before,,NE,E0012372,Toadsmoor,Stroud,,,,,,false,UKOS,388063,203864,-2.17425,51.73336,BCT,MKD,OTH,,,,081,2018-03-08T00:00:00,2026-10-08T16:09:12,44,new,active
 1600GLS616,glodjwmp,,,Lypiatt View,,,,,,The Ridgeway,,,,after,,NE,E0012173,Bussage,Stroud,,,,,,false,UKOS,388633,203774,-2.16599,51.73256,BCT,MKD,OTH,,,,081,2017-10-24T00:00:00,2017-10-24T10:27:09,7,new,active
 1600GLS615,glodjwmj,,,Lypiatt View,,,,,,The Ridgeway,,,,opp,,SW,E0012173,Bussage,Stroud,,,,,,false,UKOS,388619,203738,-2.1662,51.73224,BCT,MKD,OTH,,,,081,2018-02-27T00:00:00,2018-02-27T12:18:52,11,new,active
 1600GLS613,glodmadw,,,Ferris Court View,,,,,,The Ridgeway,,,,after,,SW,E0012173,Bussage,Stroud,,,,,,false,UKOS,388761,203887,-2.16414,51.73358,BCT,MKD,OTH,,,,081,2017-10-24T00:00:00,2026-09-15T11:05:09,56,new,active
@@ -4517,9 +4517,9 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF852,glogjwpj,,,The White House,,,,,,B4226,,,,opp,,NE,E0011909,Broadwell,,,,,,,false,UKOS,358790,211069,-2.59897,51.79674,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLF851,glogjwpg,,,The White House,,,,,,B4226,,,,by,,SW,E0011909,Broadwell,,,,,,,false,UKOS,358778,211048,-2.59914,51.79655,BCT,CUS,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T16:06:20,9,new,active
 1600GLF865,glogjwtj,,,Football Ground,,,,,,Bromley Road,,,,by,,E,E0011939,Ellwood,,,,,,,false,UKOS,359315,208180,-2.59102,51.77081,BCT,MKD,OTH,,,,081,2018-03-15T00:00:00,2018-03-15T16:08:26,7,new,active
-1600GLF864,glogjwtg,,,Glendene,,,,,,Worrall Hill Road,,,,on,,NE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360695,215192,-2.57182,51.83395,BCT,CUS,OTH,,,,081,2018-03-16T00:00:00,2018-03-16T09:15:49,14,new,active
-1600GL3111,gloagmaw,,,Telephone Exchange,,,,,,B4234,,,,by,,SE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360733,215173,-2.57127,51.83378,BCT,CUS,OTH,,,,081,2020-01-06T00:00:00,2020-01-06T10:27:00,15,new,active
-1600GL3112,gloagmat,,,Telephone Exchange,,,,,,B4234,,,,opp,,NW,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360734,215159,-2.57125,51.83365,BCT,MKD,OTH,,,,081,2020-01-06T00:00:00,2020-01-06T10:26:43,12,new,active
+1600GLF864,glogjwtg,,,Yew Tree Cottages,,,,,,Worrall Hill Road,,,,before,,NE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360695,215192,-2.57182,51.83395,BCT,CUS,OTH,,,,081,2018-03-16T00:00:00,2026-10-08T16:59:55,52,new,active
+1600GL3111,gloagmaw,,,Glendene,,,,,,B4234,,,,by,,SE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360733,215173,-2.57127,51.83378,BCT,CUS,OTH,,,,081,2020-01-06T00:00:00,2026-10-08T16:58:40,50,new,active
+1600GL3112,gloagmat,,,Glendene,,,,,,B4234,,,,before,,NW,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360734,215159,-2.57125,51.83365,BCT,MKD,OTH,,,,081,2020-01-06T00:00:00,2026-10-08T16:58:16,49,new,active
 1600GLF862,glogjwtd,,,Camomile Green,,,,,,Worrall Hill Road,,,,on,,NE,N0061315,Upper Lydbrook,,,,,,,false,UKOS,360431,215107,-2.57564,51.83316,BCT,MKD,OTH,,,,081,2018-03-16T00:00:00,2018-03-16T09:22:17,7,new,active
 1600GLF859,gloamdgj,,,High St Junction,,,,,,Dean Road,,,,nr,,W,E0046577,Newnham,,,,,,,false,UKOS,369006,211701,-2.4509,51.80308,BCT,MKD,OTH,,,,081,2018-03-16T00:00:00,2018-03-16T09:40:46,7,new,active
 1600GL2955,gloajtpg,,,Oakway,,,,,,Church Street,,,,after,,SW,E0046570,Littledean,,,,,,,false,UKOS,367260,213625,-2.4764,51.82028,BCT,MKD,OTH,,,,081,2017-11-29T00:00:00,2026-09-16T13:20:51,74,new,active
@@ -4563,8 +4563,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLF738,gloampwg,,,School Grounds,,,,,,,,,,in,,SW,E0046575,Newent,,,,,,,false,UKOS,371727,225476,-2.41257,51.92708,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2026-09-16T14:08:06,43,new,active
 1600GLF745,gloadjwt,,,Cowshill Dairy,,,,,,B4228,,,,opp,,S,E0011963,Hewelsfield,,,,,,,false,UKOS,356459,201307,-2.63154,51.7088,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
 1600GLF746,gloadjwp,,,Cowshill Dairy,,,,,,B4228,,,,by,,N,E0011963,Hewelsfield,,,,,,,false,UKOS,356451,201357,-2.63167,51.70925,BCT,CUS,OTH,,,,081,2018-03-16T00:00:00,2018-03-16T13:48:48,7,new,active
-1600GLF743,gloadjtg,,,Aylesmore Court Lodge,,,,,,B4228,,,,by,,S,E0046584,St Briavels,,,,,,,false,UKOS,356213,203035,-2.63532,51.72432,BCT,CUS,OTH,,,,081,2018-03-16T00:00:00,2018-03-16T13:49:59,7,new,active
-1600GLF744,gloadjta,,,Aylesmore Court Lodge,,,,,,B4228,,,,opp,,N,E0046584,St Briavels,,,,,,,false,UKOS,356201,203049,-2.6355,51.72444,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
+1600GLF743,gloadjtg,,,Aylesmore Court,,,,,,B4228,,,,by,,S,E0046584,St Briavels,,,,,,,false,UKOS,356213,203035,-2.63532,51.72432,BCT,CUS,OTH,,,,081,2018-03-16T00:00:00,2026-10-08T11:02:16,42,new,active
+1600GLF744,gloadjta,,,Aylesmore Court,,,,,,B4228,,,,opp,,N,E0046584,St Briavels,,,,,,,false,UKOS,356201,203049,-2.6355,51.72444,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T11:02:00,37,new,active
 1600GLF780,gloapgmg,,,Primary School,,,,,,Goose Lane,,,,by,,NW,E0012101,Walmore Hill,,,,,,,false,UKOS,374758,214575,-2.36769,51.82921,BCT,CUS,OTH,,,,081,2018-01-23T00:00:00,2026-09-17T11:50:39,84,new,active
 1600GLF779,gloapgmj,,,Primary School,,,,,,Goose Lane,,,,nr,,SE,E0012101,Walmore Hill,,,,,,,false,UKOS,374772,214577,-2.36749,51.82923,BCT,CUS,OTH,,,,081,2018-01-23T00:00:00,2026-09-17T11:48:54,62,new,active
 1600GL5056,gloapgma,,,Goose Lane,,,,,,A48,,,,opp,,NE,E0012101,Walmore Hill,,,,,,,false,UKOS,374735,214587,-2.36802,51.82932,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2026-09-17T11:49:34,44,new,active
@@ -4733,8 +4733,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLA726,glodmwpg,,,Sedgewick Gardens,,,,,,Up Hatherley Way,,,,opp,,NW,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,391597,220539,-2.12349,51.88335,BCT,CUS,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T11:09:50,14,new,active
 1600GLA731,glodtpgt,,,Cromwell Road,,,,,,Prestbury Road,,,,opp,,NE,E0057404,Cheltenham,,,,,,,false,UKOS,395901,223263,-2.06099,51.90789,BCT,MKD,OTH,,,,081,2020-10-07T00:00:00,2025-07-15T09:47:26,49,new,active
 1600GLA732,glodtpjg,,,Cromwell Road,,,,,,Prestbury Road,,,,before,,SW,E0057404,Cheltenham,,,,,,,false,UKOS,395950,223292,-2.06028,51.90815,BCT,MKD,OTH,,,,081,2020-10-07T00:00:00,2024-06-04T14:39:41,74,new,active
-1600GLS307,gloawajg,,,The Nippy Chippy,,,,,,Gloucester Road,,,,by,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380578,205865,-2.28275,51.75114,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T15:19:25,16,new,active
-1600GLS308,gloawagm,,,The Nippy Chippy,,,,,,Gloucester Road,,,,opp,,N,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380561,205854,-2.28299,51.75104,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T15:23:13,8,new,active
+1600GLS307,gloawajg,,,Greenstreet,,,,,,Gloucester Road,,,,after,,S,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380578,205865,-2.28275,51.75114,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2026-10-08T13:50:21,53,new,active
+1600GLS308,gloawagm,,,Greenstreet,,,,,,Gloucester Road,,,,before,,N,E0046638,Stonehouse,Stroud,,,,,,false,UKOS,380561,205854,-2.28299,51.75104,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2026-10-08T13:50:34,57,new,active
 1600GLS316,gloatwpj,,,Haven Avenue,,,,,,Downton Road,,,,corner of,,N,E0012167,Bridgend,Stroud,,,,,,false,UKOS,380460,204714,-2.28439,51.74079,BCT,MKD,OTH,,,,081,2019-09-26T00:00:00,2019-09-26T14:48:32,12,new,active
 1600GLS315,gloatwpt,,,Haven Avenue,,,,,,Downton Road,,,,opp,,S,E0012167,Bridgend,Stroud,,,,,,false,UKOS,380473,204737,-2.2842,51.74099,BCT,CUS,OTH,,,,081,2019-12-16T00:00:00,2019-12-16T11:58:10,13,new,active
 1600GLS320,gloatpad,,,Seven Waters,,,,,,Bath Road,,,,opp,,W,E0046622,Leonard Stanley,Stroud,,,,,,false,UKOS,379888,203445,-2.2926,51.72936,BCT,MKD,OTH,,,,081,2019-04-29T00:00:00,2019-04-29T15:46:05,20,new,active
@@ -4870,8 +4870,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLT108,glodmjgt,,,Neville Road,,,,,,Queen's Road,,,,nr,,NW,E0012485,Priors Park,Tewkesbury,,,,,,false,UKOS,389660,232280,-2.15199,51.98887,BCT,MKD,OTH,,,,081,2017-12-07T00:00:00,2024-11-21T10:39:50,7,new,active
 1600GL3617,glodmgaj,,,Odessa Inn,,,,,,Gloucester Road,,,,opp,,N,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,389235,229823,-2.1581,51.96678,BCT,MKD,OTH,,,,081,2017-06-28T00:00:00,2017-06-28T15:15:49,11,new,active
 1600GL3618,glodmgda,,,Odessa Inn,,,,,,Gloucester Road,,,,after,,S,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,389252,229774,-2.15785,51.96634,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2017-12-20T13:28:59,11,new,active
-1600GLT085,glodtwpt,,,Teddington Hands,,,,,,Tewkesbury Road A46,,,,opp,,E,N0074256,Teddington Hands,,,,,,,false,UKOS,396306,233963,-2.05522,52.00409,BCT,MKD,OTH,,,,081,2018-03-12T00:00:00,2018-03-12T09:56:27,13,new,active
-1600GLT086,glodtwpj,,,Teddington Hands,,,,,,,,,,by,,W,N0074256,Teddington Hands,,,,,,,false,UKOS,396305,233955,-2.05524,52.00402,BCT,MKD,OTH,,,,081,2018-03-12T00:00:00,2018-03-12T09:56:43,12,new,active
+1600GLT085,glodtwpt,,,Teddington Hands,,,,,,Tewkesbury Road A46,,,,nr,,E,N0074256,Teddington Hands,,,,,,,false,UKOS,396306,233963,-2.05522,52.00409,BCT,MKD,OTH,,,,081,2018-03-12T00:00:00,2026-10-08T15:18:11,46,new,active
+1600GLT086,glodtwpj,,,Teddington Hands,,,,,,,,,,adj,,W,N0074256,Teddington Hands,,,,,,,false,UKOS,396305,233955,-2.05524,52.00402,BCT,MKD,OTH,,,,081,2018-03-12T00:00:00,2026-10-08T15:18:34,45,new,active
 1600GLT083,glodpwmd,,,Pamington Farm,,,,,,Pamington Lane,,,,by,,E,E0012479,Pamington,,,,,,,false,UKOS,394014,233173,-2.0886,51.99697,BCT,MKD,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T12:13:32,6,new,active
 1600GLT084,glodpwjw,,,Pamington Farm,,,,,,Pamington Lane,,,,opp,,W,E0012479,Pamington,,,,,,,false,UKOS,394000,233170,-2.0888,51.99694,BCT,MKD,OTH,,,,081,2018-03-12T00:00:00,2018-03-12T09:59:02,7,new,active
 1600GLT089,glodmjtp,,,Southend Farm,,,,,,Stoke Road,,,,opp,,W,E0012503,Tredington,Tewkesbury,,,,,,false,UKOS,389809,229794,-2.14974,51.96653,BCT,MKD,OTH,,,,081,2018-11-26T00:00:00,2018-11-26T15:15:31,6,new,active
@@ -4890,7 +4890,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600SWA11041,glogjwjg,,,The Knoll,,,,,,,,,,by,,SW,E0046500,Kempsford,,,,,,,false,UKOS,415773,197271,-1.7733,51.67399,BCT,CUS,OTH,,,,081,2007-07-17T00:00:00,2018-03-29T12:14:50,10,new,active
 1600GLT133,glogmawm,,,Nut Orchard Lane,,,,,,Paxhill Lane,,,,after,,W,E0046691,Twyning,Tewkesbury,,,,,,false,UKOS,389868,237028,-2.1491,52.03157,BCT,MKD,OTH,,,,081,2020-08-04T00:00:00,2020-08-04T13:05:14,11,new,active
 1600GLT126,glodmagt,,,Evington Villa,,,,,,,,,,o/s,,SW,E0012431,Coombe Hill,,,,,,,false,UKOS,388784,226938,-2.16457,51.94083,BCT,MKD,OTH,,,,081,2017-10-31T00:00:00,2017-10-31T09:45:39,11,new,active
-1600GLT124,glodmaja,,,Council Offices Grounds,,,,,,,,,,in,,N,E0046687,Tewkesbury,,,,,,,false,UKOS,388800,232063,-2.1645,51.98691,BCT,MKD,OTH,,,,081,2018-03-29T00:00:00,2018-03-29T12:16:17,6,new,active
+1600GLT124,glodmaja,,,Council Grounds,,,,,,,,,,in,,N,E0046687,Tewkesbury,,,,,,,false,UKOS,388800,232063,-2.1645,51.98691,BCT,MKD,OTH,,,,081,2018-03-29T00:00:00,2026-10-08T15:39:37,47,new,active
 1600GL9107,glodgtjg,,,New Dawn Inn,,,,,,Old Road,,,,opp,,NE,E0046674,Norton,,,,,,,false,UKOS,385815,224195,-2.20764,51.9161,BCT,MKD,OTH,,,,081,2019-01-22T00:00:00,2024-08-12T10:15:49,37,new,active
 1600GL9108,glodgtdt,,,New Dawn Inn,,,,,,Old Road,,,,by,,SW,E0046674,Norton,,,,,,,false,UKOS,385785,224176,-2.20808,51.91593,BCT,CUS,OTH,,,,081,2019-07-19T00:00:00,2024-08-12T10:15:23,47,new,active
 1600GLT120,glodmjmp,,,Digby Drive,,,,,,Carrant Road,,,,opp,,NW,E0012465,Mitton,Tewkesbury,,,,,,false,UKOS,389719,233404,-2.15116,51.99898,BCT,MKD,OTH,,,,081,2017-12-05T00:00:00,2017-12-05T09:24:55,14,new,active
@@ -5103,8 +5103,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLC405,glogdgpm,,,Hay Lane,,,,,,B4425,,,,before,,NE,E0011730,Arlington,,,,,,,false,UKOS,410432,206478,-1.85027,51.7569,BCT,CUS,OTH,,,,081,2019-04-23T00:00:00,2026-09-14T10:00:27,45,new,active
 1600GLC413,glogapgj,,,Berkeley Close,,,,,,Broadway Lane,,,,after,,S,E0046532,South Cerney,,,,,,,false,UKOS,404771,196852,-1.93241,51.67042,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T13:41:23,7,new,active
 1600GLC414,glogapgd,,,Berkeley Close,,,,,,Broadway Lane,,,,before,,N,E0046532,South Cerney,,,,,,,false,UKOS,404757,196850,-1.93261,51.6704,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2024-11-25T11:55:13,7,new,active
-1600GLC411,glogaptg,,,Evergreen Industrial Park,,,,,,Broadway Lane,,,,by,,SE,E0046532,South Cerney,,,,,,,false,UKOS,405019,196377,-1.92883,51.66615,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T13:43:04,7,new,active
-1600GLC412,glogapta,,,Evergreen Industrial Park,,,,,,Broadway Lane,,,,nr,,NW,E0046532,South Cerney,,,,,,,false,UKOS,405011,196375,-1.92895,51.66613,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T13:42:46,7,new,active
+1600GLC411,glogaptg,,,Industrial Park,,,,,,Broadway Lane,,,,by,,SE,E0046532,South Cerney,,,,,,,false,UKOS,405019,196377,-1.92883,51.66615,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2026-10-08T10:47:53,42,new,active
+1600GLC412,glogapta,,,Industrial Park,,,,,,Broadway Lane,,,,nr,,NW,E0046532,South Cerney,,,,,,,false,UKOS,405011,196375,-1.92895,51.66613,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2026-10-08T10:47:40,42,new,active
 1600GLC403,glogdgwp,,,Arlington Fields,,,,,,B4425,,,,after,,E,E0011730,Arlington,,,,,,,false,UKOS,410744,206642,-1.84574,51.75836,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2022-05-16T14:26:40,17,new,active
 1600GLC404,glogdgwm,,,Arlington Fields,,,,,,B4425,,,,opp,,W,E0011730,Arlington,,,,,,,false,UKOS,410764,206633,-1.84545,51.75828,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2022-05-16T14:27:17,15,new,active
 1600GLC398,glogawpa,,,War Memorial,,,,,,Hensons Hill,,,,by,,SW,E0011813,Lower Chedworth,,,,,,,false,UKOS,406947,211108,-1.90066,51.79858,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T13:52:44,7,new,active
@@ -5142,8 +5142,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLC527,glogjdma,,,St Edward's Well,,,,,,Burford Road A424,,,,nr,,NW,E0011849,Stow-on-the-Wold,,,,,,,false,UKOS,419024,224326,-1.72481,51.91714,BCT,CUS,OTH,,,,081,2019-03-14T00:00:00,2019-03-14T17:25:17,12,new,active
 1600GLC536,glogajtg,,,Church Avenue,,,,,,Siddington Road,,,,opp,,NW,E0046530,Siddington,,,,,,,false,UKOS,403417,200030,-1.95196,51.69901,BCT,CUS,OTH,,,,081,2019-01-10T00:00:00,2019-01-10T12:08:23,8,new,active
 1600GLC535,glogajtj,,,Church Avenue,,,,,,Siddington Road,,,,by,,SE,E0046530,Siddington,,,,,,,false,UKOS,403433,200034,-1.95173,51.69904,BCT,CUS,OTH,,,,081,2019-08-09T00:00:00,2019-08-09T09:53:34,11,new,active
-1600GLC534,glogajta,,,Village Hall,,,,,,Ashton Road,,,,after,,N,E0046530,Siddington,,,,,,,false,UKOS,403411,199742,-1.95205,51.69642,BCT,MKD,OTH,,,,081,2017-12-29T00:00:00,2017-12-29T08:43:47,11,new,active
-1600GLC533,glogajtd,,,Village Hall,,,,,,Ashton Road,,,,opp,,S,E0046530,Siddington,,,,,,,false,UKOS,403417,199714,-1.95196,51.69616,BCT,CUS,OTH,,,,081,2017-07-12T00:00:00,2017-07-12T09:31:14,14,new,active
+1600GLC534,glogajta,,,Elizabeth Way,,,,,,Ashton Road,,,,by,,N,E0046530,Siddington,,,,,,,false,UKOS,403411,199742,-1.95205,51.69642,BCT,MKD,OTH,,,,081,2017-12-29T00:00:00,2026-10-08T10:30:05,48,new,active
+1600GLC533,glogajtd,,,Elizabeth Way,,,,,,Ashton Road,,,,after,,S,E0046530,Siddington,,,,,,,false,UKOS,403417,199714,-1.95196,51.69616,BCT,CUS,OTH,,,,081,2017-07-12T00:00:00,2026-10-08T10:29:39,51,new,active
 1600GLC558,glogadgw,,,Crossfields,,,,,,Gloucester Road,,,,after,,NE,E0046445,Andoversford,,,,,,,false,UKOS,402105,219297,-1.97083,51.87224,BCT,MKD,OTH,,,,081,2019-03-19T00:00:00,2026-09-14T09:19:29,45,new,active
 1600GLC557,glogadgt,,,Crossfields,,,,,,Gloucester Road,,,,opp,,SW,E0046445,Andoversford,,,,,,,false,UKOS,402095,219278,-1.97098,51.87207,BCT,MKD,OTH,,,,081,2019-03-19T00:00:00,2026-09-14T09:19:44,46,new,active
 1600GLC575,glogjatp,,,Business Centre,,,,,,Draycott Road,,,,nr,,E,E0011766,Draycott,,,,,,,false,UKOS,417760,235625,-1.74261,52.01877,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:23:19,35,new,active
@@ -5154,8 +5154,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLC578,glogjadw,,,Northwick Park,,,,,,,,,,by,,SE,E0046457,Blockley,,,,,,,false,UKOS,417117,237041,-1.75191,52.03152,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:37:38,25,new,active
 1600GLC584,glogagda,,,Station Road,,,,,,Gloucester Road,,,,nr,,E,E0046445,Andoversford,,,,,,,false,UKOS,402437,219592,-1.96601,51.87489,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:39:15,7,new,active
 1600GLC583,glogagat,,,Station Road,,,,,,Gloucester Road,,,,by,,W,E0046445,Andoversford,,,,,,,false,UKOS,402431,219583,-1.96609,51.87481,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:39:38,6,new,active
-1600GLC581,glogagwj,,,Shipton Sollars turn,,,,,,Shipton Road,,,,before,,NE,E0011843,Shipton Oliffe,,,,,,,false,UKOS,402985,218406,-1.95806,51.86423,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:46:36,34,new,active
-1600GLC582,glogagwm,,,Shipton Sollars turn,,,,,,Shipton Road,,,,after,,SW,E0011843,Shipton Oliffe,,,,,,,false,UKOS,402988,218401,-1.95801,51.86418,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:47:12,40,new,active
+1600GLC581,glogagwj,,,West Barn,,,,,,Shipton Road,,,,before,,NE,E0011843,Shipton Oliffe,,,,,,,false,UKOS,402985,218406,-1.95806,51.86423,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2026-10-08T10:22:31,70,new,active
+1600GLC582,glogagwm,,,West Barn,,,,,,Shipton Road,,,,after,,SW,E0011843,Shipton Oliffe,,,,,,,false,UKOS,402988,218401,-1.95801,51.86418,BCT,CUS,OTH,,,,081,2018-01-29T00:00:00,2026-10-08T10:22:45,76,new,active
 1600GLC593,glogjtwm,,,Crossroads,,,,,,A40,,,,after,,S,E0011843,Shipton Oliffe,,,,,,,false,UKOS,402984,218339,-1.95807,51.86362,BCT,MKD,OTH,,,,081,2018-01-29T00:00:00,2018-01-29T15:47:37,25,new,active
 1600GLC580,glogdjdt,,,Market Place,,,,,,Market Place,,,,on,,NW,E0055858,Northleach,,,,,,,false,UKOS,411348,214596,-1.83673,51.82987,BCT,MKD,OTH,,,,081,2017-12-06T00:00:00,2024-04-17T15:17:50,28,new,active
 1600GL3538,glogdjdp,,,Market Place,,,,,,,,,,inside,,S,E0055858,Northleach,,,,,,,false,UKOS,411330,214608,-1.83699,51.82997,BCT,MKD,OTH,,,,081,2019-01-30T00:00:00,2024-04-17T15:14:09,99,new,active
@@ -5207,12 +5207,12 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GLT048,glodwjmw,,,St Mary's Church,,,,,,B4077,,,,nr,,NW,E0012461,Little Washbourne,,,,,,,false,UKOS,398851,233324,-2.01815,51.99836,BCT,CUS,OTH,,,,081,2019-07-02T00:00:00,2026-10-05T13:45:08,40,new,active
 1600GLT046,glodwjwm,,,Alderton Garage,,,,,,B4077,,,,by,,NW,E0046647,Alderton,,,,,,,false,UKOS,399701,232744,-2.00576,51.99314,BCT,CUS,OTH,,,,081,2018-03-13T00:00:00,2018-03-13T13:39:00,7,new,active
 1600GLT045,glodwmad,,,Alderton Garage,,,,,,B4077,,,,opp,,SE,E0046647,Alderton,,,,,,,false,UKOS,399715,232745,-2.00556,51.99315,BCT,CUS,OTH,,,,081,2019-01-22T00:00:00,2019-01-22T17:00:18,0,new,active
-1600GLT035,glodmgma,,,The Cross,,,,,,Barton Street,,,,after,,NE,E0046687,Tewkesbury,,,,,,,false,UKOS,389333,232697,-2.15676,51.99262,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2017-12-20T10:25:29,13,new,active
-1600GLT036,glodmgjd,,,The Cross,,,,,,Barton Street,,,,before,,SW,E0046687,Tewkesbury,,,,,,,false,UKOS,389301,232681,-2.15723,51.99247,BCT,MKD,OTH,,,,081,2019-03-04T00:00:00,2019-03-04T11:02:46,17,new,active
+1600GLT035,glodmgma,,,High Street,,,,,,Barton Street,,,,after,,NE,E0046687,Tewkesbury,,,,,,,false,UKOS,389333,232697,-2.15676,51.99262,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2026-10-08T15:45:09,48,new,active
+1600GLT036,glodmgjd,,,Church Street,,,,,,Barton Street,,,,before,,SW,E0046687,Tewkesbury,,,,,,,false,UKOS,389301,232681,-2.15723,51.99247,BCT,MKD,OTH,,,,081,2019-03-04T00:00:00,2026-10-08T15:44:42,52,new,active
 1600GLT026,glodmgjg,,,Stokes Court,,,,,,Oldbury Road,,,,opp,,NE,E0046687,Tewkesbury,,,,,,,false,UKOS,389397,232827,-2.15583,51.99379,BCT,CUS,OTH,,,,081,2019-03-19T00:00:00,2019-03-19T10:29:46,9,new,active
 1600GLT025,glodmgpd,,,Stokes Court,,,,,,Oldbury Road,,,,by,,SW,E0046687,Tewkesbury,,,,,,,false,UKOS,389405,232824,-2.15572,51.99376,BCT,MKD,OTH,,,,081,2019-03-19T00:00:00,2019-03-19T10:30:04,9,new,active
-1600GLT021,glodmamw,,,Council Offices,,,,,,Gloucester Road,,,,o/s,,NW,E0046687,Tewkesbury,,,,,,,false,UKOS,388899,232018,-2.16306,51.9865,BCT,MKD,OTH,,,,081,2019-05-31T00:00:00,2019-05-31T12:08:19,11,new,active
-1600GLT022,glodmapa,,,Council Offices,,,,,,Gloucester Road,,,,opp,,SE,E0046687,Tewkesbury,,,,,,,false,UKOS,388916,232019,-2.16281,51.98651,BCT,MKD,OTH,,,,081,2017-08-11T00:00:00,2024-10-22T10:43:00,60,new,active
+1600GLT021,glodmamw,,,Shephard Mead,,,,,,Gloucester Road,,,,before,,NW,E0046687,Tewkesbury,,,,,,,false,UKOS,388899,232018,-2.16306,51.9865,BCT,MKD,OTH,,,,081,2019-05-31T00:00:00,2026-10-08T15:36:44,48,new,active
+1600GLT022,glodmapa,,,Shephard Mead,,,,,,Gloucester Road,,,,after,,SE,E0046687,Tewkesbury,,,,,,,false,UKOS,388916,232019,-2.16281,51.98651,BCT,MKD,OTH,,,,081,2017-08-11T00:00:00,2026-10-08T15:36:22,88,new,active
 1600GL5802,glodmdpw,,,Abbot's Road,,,,,,Gloucester Road,,,,before,,SE,E0046687,Tewkesbury,,,,,,,false,UKOS,389141,231772,-2.15953,51.9843,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2017-12-20T09:26:56,7,new,active
 1600GLT019,glodmdpm,,,Abbot's Road,,,,,,Gloucester Road,,,,after,,NW,E0046687,Tewkesbury,,,,,,,false,UKOS,389136,231761,-2.1596,51.9842,BCT,MKD,OTH,,,,081,2018-11-26T00:00:00,2018-11-26T15:00:48,9,new,active
 1600GLT034,glodmjdj,,,Hospital,,,,,,Barton Road,,,,corner of,,W,E0046687,Tewkesbury,,,,,,,false,UKOS,389567,232734,-2.15335,51.99295,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2017-12-20T10:04:03,12,new,active
@@ -5449,8 +5449,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL2401,glogdtad,,,Hatherop Estate,,,,,,Coln Road,,,,o/s,,W,E0046496,Hatherop,,,,,,,false,UKOS,415697,205173,-1.77405,51.74504,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2026-09-16T12:02:41,43,new,active
 1600GL2400,glodpdjg,,,Fernleigh Crescent,,,,,,Long Mynd Avenue,,,,opp,,E,E0011698,Hatherley,Cheltenham,,,,,,false,UKOS,392064,220744,-2.11671,51.8852,BCT,MKD,OTH,,,,081,2017-08-29T00:00:00,2017-08-29T11:45:42,5,new,active
 160000602,glojagda,,,Fernleigh Crescent,,,,,,,,,,nr,,W,E0011698,Hatherley,Cheltenham,,,,,,false,UKOS,392058,220741,-2.1168,51.88517,BCT,CUS,OTH,,,,081,2017-08-29T00:00:00,2024-11-04T15:39:04,97,new,active
-1600GLA26365,glogpmat,,,Village Hall,,,,,,Cold Pool Lane,,,,opp,,SW,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,391610,220765,-2.1233,51.88538,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2021-10-05T13:19:04,38,new,active
-1600GL2396,glodmwpd,,,Village Hall,,,,,,Cold Pool Lane,,,,by,,NE,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,391596,220766,-2.12351,51.88539,BCT,MKD,OTH,,,,081,2021-10-05T00:00:00,2021-10-05T13:17:57,29,new,active
+1600GLA26365,glogpmat,,,The Oaks,,,,,,Cold Pool Lane,,,,before,,SW,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,391610,220765,-2.1233,51.88538,BCT,MKD,OTH,,,,081,2008-06-01T00:00:00,2026-10-08T16:48:00,76,new,active
+1600GL2396,glodmwpd,,,The Oaks,,,,,,Cold Pool Lane,,,,by,,NE,E0046439,Up Hatherley,Cheltenham,,,,,,false,UKOS,391596,220766,-2.12351,51.88539,BCT,MKD,OTH,,,,081,2021-10-05T00:00:00,2026-10-08T16:48:13,65,new,active
 1600GL2376,gloatpgd,,,Danford Lane,,,,,,,,,,after,,S,E0046566,Hartpury,,,,,,,false,UKOS,379949,224589,-2.29295,51.91946,BCT,MKD,OTH,,,,081,2017-12-13T00:00:00,2026-09-30T13:41:20,43,new,active
 1600GL2375,gloatpga,,,Danford Lane,,,,,,Gloucester Road A417,,,,by,,N,E0046566,Hartpury,,,,,,,false,UKOS,379946,224639,-2.293,51.91991,BCT,CUS,OTH,,,,081,2019-08-12T00:00:00,2026-09-30T13:41:33,64,new,active
 1600GL2416,glogawap,,,Methodist Church,,,,,,Main Street,,,,opp,,SW,E0046666,Hawling,,,,,,,false,UKOS,406597,223047,-1.90552,51.90592,BCT,CUS,OTH,,,,081,2019-04-23T00:00:00,2022-01-25T10:45:26,9,new,active
@@ -5602,8 +5602,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4919,glodawam,,,Lodge Hotel,,,,,,,,,,after,,NE,E0046690,Twigworth,,,,,,,false,UKOS,384411,221912,-2.22795,51.89554,BCT,MKD,OTH,,,,081,2017-12-22T00:00:00,2025-09-30T13:49:24,96,new,active
 1600GL4947,glodtawd,,,Star College,,,,,,,,,,after,,SE,E0011860,Ullenwood,,,,,,,false,UKOS,394444,216828,-2.08206,51.85002,BCT,CUS,OTH,,,,081,2018-02-07T00:00:00,2018-02-07T11:00:33,12,new,active
 1600GL4948,glodtatd,,,Star College,,,,,,,,,,before,,NW,E0011860,Ullenwood,,,,,,,false,UKOS,394420,216832,-2.08241,51.85005,BCT,CUS,OTH,,,,081,2018-02-07T00:00:00,2018-02-07T11:00:13,12,new,active
-1600GL4944,glogmawj,,,Post Office,,,,,,The Street B4066,,,,opp,,SW,E0046641,Uley,,,,,,,false,UKOS,379005,198449,-2.30508,51.6844,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T09:57:44,11,new,active
-1600GL4943,glogmawg,,,Post Office,,,,,,The Street B4066,,,,o/s,,NE,E0046641,Uley,,,,,,,false,UKOS,379009,198462,-2.30503,51.68452,BCT,MKD,OTH,,,,081,2019-04-08T00:00:00,2019-04-08T16:26:03,10,new,active
+1600GL4944,glogmawj,,,Woodstock Terrace,,,,,,The Street B4066,,,,after,,SW,E0046641,Uley,,,,,,,false,UKOS,379005,198449,-2.30508,51.6844,BCT,CUS,OTH,,,,081,2019-04-18T00:00:00,2026-10-08T16:41:54,48,new,active
+1600GL4943,glogmawg,,,Woodstock Terrace,,,,,,The Street B4066,,,,before,,NE,E0046641,Uley,,,,,,,false,UKOS,379009,198462,-2.30503,51.68452,BCT,MKD,OTH,,,,081,2019-04-08T00:00:00,2026-10-08T16:42:16,47,new,active
 1600GL4962,glodjadj,,,Vatch View,,,,,,Swifts Hill View,,,,opp,,N,E0012378,Uplands,Stroud,,,,,,false,UKOS,386148,206069,-2.20207,51.75314,BCT,MKD,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:05,0,new,active
 1600GL4957,glodgpga,,,Thompson Road,,,,,,Folly Lane,,,,opp,,NE,E0012378,Uplands,Stroud,,,,,,false,UKOS,385626,205966,-2.20963,51.7522,BCT,MKD,OTH,,,,081,2019-04-17T00:00:00,2019-04-17T10:38:19,11,new,active
 1600GL4958,glodgpat,,,Thompson Road,,,,,,Folly Lane,,,,after,,SW,E0012378,Uplands,Stroud,,,,,,false,UKOS,385614,205950,-2.2098,51.75206,BCT,MKD,OTH,,,,081,2017-11-22T00:00:00,2017-11-22T13:50:17,11,new,active
@@ -5618,8 +5618,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL4933,glodmpam,,,Village Store,,,,,,High Street,,,,by,,SE,E0046691,Twyning,Tewkesbury,,,,,,false,UKOS,389983,236777,-2.14742,52.02931,BCT,CUS,OTH,,,,081,2018-02-07T00:00:00,2018-02-07T11:05:44,39,new,active
 1600GL9157,gloadwmt,,,Noxon Farm,,,,,,Bream Avenue B4231,,,,opp,,NW,E0012089,Trow Green,,,,,,,false,UKOS,358444,206229,-2.60341,51.7532,BCT,MKD,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T13:58:47,4,new,active
 1600GL9158,gloadwmw,,,Noxon Farm,,,,,,Bream Avenue B4231,,,,by,,SE,E0012089,Trow Green,,,,,,,false,UKOS,358469,206239,-2.60305,51.75329,BCT,MKD,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T14:00:28,7,new,active
-1600GL9166,gloadmag,,,Traveller's Rest Inn,,,,,,Main Road,,,,nr,,NE,E0012081,Stowe Green,,,,,,,false,UKOS,356506,206665,-2.63154,51.75697,BCT,MKD,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T14:04:21,9,new,active
-1600GL9165,gloadmad,,,Traveller's Rest Inn,,,,,,Main Road,,,,opp,,SW,E0012081,Stowe Green,,,,,,,false,UKOS,356484,206645,-2.63185,51.75679,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2017-07-04T10:52:06,0,new,active
+1600GL9166,gloadmag,,,Margery Lane,,,,,,Main Road,,,,after,,NE,E0012081,Stowe Green,,,,,,,false,UKOS,356506,206665,-2.63154,51.75697,BCT,MKD,OTH,,,,081,2018-02-06T00:00:00,2026-10-08T13:54:09,46,new,active
+1600GL9165,gloadmad,,,Margery Lane,,,,,,Main Road,,,,before,,SW,E0012081,Stowe Green,,,,,,,false,UKOS,356484,206645,-2.63185,51.75679,BCT,CUS,OTH,,,,081,2017-07-04T00:00:00,2026-10-08T13:53:48,39,new,active
 1600GL9173,gloatajw,,,Wortley House,,,,,,Wotton Cresent,,,,by,,SE,E0012410,Wortley,,,,,,,false,UKOS,376553,191802,-2.3401,51.62454,BCT,MKD,OTH,,,,081,2018-09-21T00:00:00,2023-07-25T13:25:31,56,new,active
 1600GL9174,gloatajm,,,Wortley House,,,,,,Wotton Cresent,,,,opp,,N,E0012410,Wortley,,,,,,,false,UKOS,376525,191816,-2.34051,51.62467,BCT,CUS,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T14:07:20,16,new,active
 1600GL9172,gloagadj,,,Junior School,,,,,,Coalway Road,,,,o/s,,E,E0011926,Coalway,,,,,,,false,UKOS,358678,210359,-2.60051,51.79035,BCT,CUS,OTH,,,,081,2019-12-13T00:00:00,2019-12-13T14:11:43,15,new,active
@@ -5974,8 +5974,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600GL9087,glodpapm,,,Alexandra Way,,,,,,Ashchurch Road,,,,before,,E,E0046648,Ashchurch,Tewkesbury,,,,,,false,UKOS,391888,233159,-2.11956,51.99682,BCT,CUS,OTH,,,,081,2018-02-06T00:00:00,2024-10-22T12:26:13,79,new,active
 1600GL9086,glodmtpa,,,Tewkesbury School,,,,,,Ashchurch Road,,,,o/s,,W,E0012469,Newtown,Tewkesbury,,,,,,false,UKOS,391135,233164,-2.13053,51.99685,BCT,MKD,OTH,,,,081,2017-10-11T00:00:00,2017-10-11T12:21:08,19,new,active
 1600GL9085,glodmtmw,,,Tewkesbury School,,,,,,Ashchurch Road,,,,opp,,E,E0012469,Newtown,Tewkesbury,,,,,,false,UKOS,391163,233178,-2.13012,51.99697,BCT,MKD,OTH,,,,081,2017-06-14T00:00:00,2017-06-14T17:15:07,7,new,active
-1600GL9072,glodmtgp,,,Withy Bridge Gardens,,,,,,,,,,by,,SE,E0046692,Uckington,,,,,,,false,UKOS,390810,225399,-2.13505,51.92703,BCT,MKD,OTH,,,,081,2019-04-18T00:00:00,2019-04-18T13:26:05,13,new,active
-1600GL9071,glodmtdw,,,Withy Bridge Gardens,,,,,,,,,,nr,,NW,E0046692,Uckington,,,,,,,false,UKOS,390783,225389,-2.13545,51.92694,BCT,MKD,OTH,,,,081,2020-02-10T00:00:00,2020-02-10T12:42:07,14,new,active
+1600GL9072,glodmtgp,,,Withybridge Lane,,,,,,,,,,by,,SE,E0046692,Uckington,,,,,,,false,UKOS,390810,225399,-2.13505,51.92703,BCT,MKD,OTH,,,,081,2019-04-18T00:00:00,2026-10-08T16:37:29,46,new,active
+1600GL9071,glodmtdw,,,Withybridge Lane,,,,,,,,,,nr,,NW,E0046692,Uckington,,,,,,,false,UKOS,390783,225389,-2.13545,51.92694,BCT,MKD,OTH,,,,081,2020-02-10T00:00:00,2026-10-08T16:37:18,49,new,active
 1600GL9070,glodjamd,,,War Memorial,,,,,,,,,,nr,,S,E0012414,Apperley,,,,,,,false,UKOS,386198,228207,-2.20224,51.95218,BCT,CUS,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T09:10:25,21,new,active
 1600GL9069,glodjagt,,,War Memorial,,,,,,,,,,by,,N,E0012414,Apperley,,,,,,,false,UKOS,386185,228195,-2.20242,51.95207,BCT,CUS,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T09:10:04,18,new,active
 1600GL9074,glodmpjm,,,Stanboro Lodge,,,,,,Cheltenham Road,,,,by,,SE,E0012482,Piffs Elm,,,,,,,false,UKOS,390138,225846,-2.14484,51.93104,BCT,MKD,OTH,,,,081,2018-02-06T00:00:00,2018-02-06T09:13:55,8,new,active
@@ -6108,8 +6108,8 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 160000022,glogtdma,,,Sir Thomas Rich's,,,,,,Oakleaze,,,,o/s,,SW,N0078141,Elmbridge,Gloucester,,,,,,false,UKOS,385865,219454,-2.20672,51.87348,BCT,CUS,OTH,,,,081,2017-08-16T00:00:00,2026-09-16T11:33:57,46,new,active
 160000023,glogtdmd,,,College Baths Road,,,,,,Old Bath Road,,,,after,,NE,N0074152,Charlton Park,Cheltenham,,,,,,false,UKOS,395492,221466,-2.06691,51.89173,BCT,CUS,OTH,,,,081,2018-01-11T00:00:00,2026-09-07T10:08:13,48,new,active
 160000024,glogtdmg,,,College Baths Road,,,,,,Old Bath Road,,,,before,,SW,N0074152,Charlton Park,Cheltenham,,,,,,false,UKOS,395500,221454,-2.0668,51.89162,BCT,CUS,OTH,,,,081,2018-01-11T00:00:00,2026-09-07T10:07:05,48,new,active
-160000025,glogtdmj,,,Cotswold Motor,,,,,,Grovefield Way,,,,before,,N,E0011714,The Reddings,,,,,,,false,UKOS,390785,221187,-2.1353,51.88916,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2017-12-20T12:13:23,24,new,active
-160000026,glogtdmp,,,Cotswold Motor,,,,,,Grovefield Way,,,,after,,S,E0011714,The Reddings,,,,,,,false,UKOS,390822,221202,-2.13477,51.8893,BCT,MKD,OTH,,,,081,2019-05-17T00:00:00,2024-09-30T12:14:47,59,new,active
+160000025,glogtdmj,,,Grovefield Way,,,,,,Grovefield Way,,,,on,,N,E0011714,The Reddings,,,,,,,false,UKOS,390785,221187,-2.1353,51.88916,BCT,MKD,OTH,,,,081,2017-12-20T00:00:00,2026-10-08T15:57:16,61,new,active
+160000026,glogtdmp,,,Grovefield Way,,,,,,Grovefield Way,,,,in,,S,E0011714,The Reddings,,,,,,,false,UKOS,390822,221202,-2.13477,51.8893,BCT,MKD,OTH,,,,081,2019-05-17T00:00:00,2026-10-08T15:57:35,87,new,active
 160000027,glogtdmt,,,Bennetts Depot,,,,,,Eastern Avenue,,,,o/s,,SE,E0012118,Coney Hill,Gloucester,,,,,,false,UKOS,385125,217822,-2.2174,51.85878,BCT,CUS,OTH,,,,081,2018-02-01T00:00:00,2018-02-01T14:36:29,11,new,active
 160000032,glogtdpd,,,Crematorium,,,,,,Coney Hill Road,,,,by,,SE,E0012118,Coney Hill,Gloucester,,,,,,false,UKOS,384832,217255,-2.22163,51.85368,BCT,MKD,OTH,,,,081,2021-05-12T00:00:00,2021-05-12T10:29:22,11,new,active
 1600GL3701,glodgdat,,,Gloucester Academy,,,,,,Painswick Road,,,,opp,,SE,E0012131,Saintbridge,Gloucester,,,,,,false,UKOS,384924,216310,-2.22025,51.84518,BCT,MKD,OTH,,,,081,2017-09-27T00:00:00,2017-09-27T10:15:56,20,new,active
@@ -6475,17 +6475,17 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 160000322,glogwawj,,,Kites Nest Lane,,,,,,,,,,before,,SE,E0011914,Bulley,,,,,,,false,UKOS,376229,219746,-2.3467,51.87577,BCT,CUS,OTH,,,,081,2014-04-23T00:00:00,2026-09-03T15:28:19,106,new,active
 160000323,glogwawm,,,Huntley Manor,,,,,,Newent Lane,,,,nr,,NE,E0046568,Huntley,,,,,,,false,UKOS,371849,220117,-2.41035,51.8789,BCT,CUS,OTH,,,,081,2014-04-23T00:00:00,2026-09-08T09:39:35,108,new,active
 160000324,glogwawp,,,Huntley Manor,,,,,,Newent Lane,,,,by,,SW,E0046568,Huntley,,,,,,,false,UKOS,371857,220114,-2.41024,51.87888,BCT,CUS,OTH,,,,081,2014-04-23T00:00:00,2026-09-08T09:39:23,109,new,active
-160000327,glogwdag,,,Duke of Gloucester Barracks,,,,,,,,,,inside,,SW,E0046532,South Cerney,,,,,,,false,UKOS,404962,199100,-1.92962,51.69063,BCT,CUS,OTH,,,,081,2014-04-24T00:00:00,2018-02-05T14:20:14,70,new,active
+160000327,glogwdag,,,Barracks,,,,,,,,,,inside,,SW,E0046532,South Cerney,,,,,,,false,UKOS,404962,199100,-1.92962,51.69063,BCT,CUS,OTH,,,,081,2014-04-24T00:00:00,2026-10-08T10:46:27,105,new,active
 160000330,glogwdap,,,Blaisdon Road,,,,,,,,,,after,,NW,E0046557,Blaisdon,,,,,,,false,UKOS,370500,215790,-2.42958,51.83993,BCT,CUS,OTH,,,,081,2014-04-28T00:00:00,2026-09-03T10:46:05,108,new,active
 160000331,glogwdat,,,Blaisdon Road,,,,,,,,,,before,,SE,E0046557,Blaisdon,,,,,,,false,UKOS,370503,215803,-2.42954,51.84005,BCT,CUS,OTH,,,,081,2014-04-28T00:00:00,2026-09-03T10:46:38,106,new,active
-1600GLS162,glodjamg,,,Cemetery,,,,,,Bisley Road,,,,o/s,,NW,E0055881,Stroud,,,,,,,false,UKOS,386204,204877,-2.20121,51.74242,BCT,CUS,OTH,,,,081,2017-11-23T00:00:00,2017-11-23T11:31:21,41,new,active
-1600GLS161,glodjapg,,,Cemetery,,,,,,Bisley Road,,,,opp,,E,E0055881,Stroud,,,,,,,false,UKOS,386197,204887,-2.20131,51.74251,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2018-01-23T10:44:53,50,new,active
+1600GLS162,glodjamg,,,Belmont Road,,,,,,Bisley Road,,,,nr,,NW,E0055881,Stroud,,,,,,,false,UKOS,386204,204877,-2.20121,51.74242,BCT,CUS,OTH,,,,081,2017-11-23T00:00:00,2026-10-08T13:56:43,79,new,active
+1600GLS161,glodjapg,,,Belmont Road,,,,,,Bisley Road,,,,before,,E,E0055881,Stroud,,,,,,,false,UKOS,386197,204887,-2.20131,51.74251,BCT,MKD,OTH,,,,081,2018-01-23T00:00:00,2026-10-08T13:56:23,88,new,active
 160000333,glogwdga,,,Mulberry Court,,,,,,Middle Mead,,,,by,,SW,N0074185,Kings Hill,,,,,,,false,UKOS,403426,201211,-1.95182,51.70962,BCT,MKD,OTH,,,,081,2014-06-25T00:00:00,2019-09-06T12:55:12,90,new,active
 160000334,glogwdgd,,,Woodmancote Vale,,,,,,,,,,before,,N,E0046695,Woodmancote,,,,,,,false,UKOS,396790,227394,-2.04811,51.94503,BCT,MKD,OTH,,,,081,2014-06-25T00:00:00,2017-12-04T12:53:48,88,new,active
 160000335,glogwdgj,,,Woodmancote Vale,,,,,,,,,,opp,,S,E0046695,Woodmancote,,,,,,,false,UKOS,396809,227405,-2.04783,51.94513,BCT,CUS,OTH,,,,081,2014-06-25T00:00:00,2017-04-07T12:25:00,79,new,active
 160000336,glogwdgm,,,Coronation Road,,,,,,,,,,opp,,NE,N0074206,Lynworth,Cheltenham,,,,,,false,UKOS,396468,223657,-2.05275,51.91143,BCT,CUS,OTH,,,,081,2014-06-26T00:00:00,2020-02-10T09:27:50,78,new,active
 160000337,glogwdgp,,,Coronation Road,,,,,,,,,,by,,SW,N0074206,Lynworth,Cheltenham,,,,,,false,UKOS,396469,223644,-2.05274,51.91132,BCT,CUS,OTH,,,,081,2014-06-26T00:00:00,2020-02-10T09:28:30,76,new,active
-160000343,glogwdjp,,,Gloucestershire Airport_1,,,,,,,,,,by,,N,E0046683,Staverton,,,,,,,false,UKOS,389272,221649,-2.1573,51.89329,BCT,MKD,OTH,,,,081,2014-07-08T00:00:00,2025-09-10T14:48:58,117,new,active
+160000343,glogwdjp,,,Airport,,,,,,,,,,by,,N,E0046683,Staverton,,,,,,,false,UKOS,389272,221649,-2.1573,51.89329,BCT,MKD,OTH,,,,081,2014-07-08T00:00:00,2026-10-08T13:08:08,127,new,active
 160000347,glogwdmg,,,Hill Road,,,,,,,,,,after,,SW,N0077576,White City,Gloucester,,,,,,false,UKOS,383441,215781,-2.24175,51.84038,BCT,CUS,OTH,,,,081,2014-08-18T00:00:00,2026-09-10T14:31:41,125,new,active
 160000351,glogwdmw,,,St Lawrence Church,,,,,,,,,,o/s,,N,E0012117,Barnwood,Gloucester,,,,,,false,UKOS,385873,217740,-2.20653,51.85807,BCT,CUS,OTH,,,,081,2014-09-05T00:00:00,2026-09-03T09:21:33,123,new,active
 160000352,glogwdpa,,,St Lawrence Church,,,,,,,,,,opp,,S,E0012117,Barnwood,Gloucester,,,,,,false,UKOS,385884,217727,-2.20637,51.85795,BCT,CUS,OTH,,,,081,2014-09-05T00:00:00,2026-09-03T09:21:52,123,new,active
@@ -6757,7 +6757,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 1600FLX125,,,,Demand Responsive Area,,,,,,,,,,,,,E0046683,Staverton,,,,,,,false,UKOS,389126,223595,-2.15948,51.91078,BCT,FLX,OTH,,,,081,2018-04-25T00:00:00,2024-11-04T15:39:20,78,new,active
 1600FLX126,,,,Demand Responsive Area,,,,,,,,,,,,,E0012419,Bamfurlong,,,,,,,false,UKOS,389352,222314,-2.15616,51.89927,BCT,FLX,OTH,,,,081,2018-04-25T00:00:00,2024-11-04T15:39:20,80,new,active
 160000619,glojagjd,,,Longford Park,,,,,,,,,,near,,SW,E0046671,Longford,Gloucester,,,,,,false,UKOS,384357,220546,-2.22867,51.88325,BCT,MKD,OTH,,,,081,2018-05-24T00:00:00,2024-11-04T15:39:20,116,new,active
-160000620,glojagjg,,,Gloucestershire College,,,,,,,,,,nr,,E,E0012078,Steam Mills,,,,,,,false,UKOS,364703,215313,-2.51367,51.8353,BCT,MKD,OTH,,,,081,2018-06-18T00:00:00,2024-11-04T15:39:21,110,new,active
+160000620,glojagjg,,,College,,,,,,,,,,nr,,E,E0012078,Steam Mills,,,,,,,false,UKOS,364703,215313,-2.51367,51.8353,BCT,MKD,OTH,,,,081,2018-06-18T00:00:00,2026-10-08T13:13:25,138,new,active
 160000622,glojagjp,,,The Perry Centre,,,,,,,,,,by,,NE,E0046594,Quedgeley,,,,,,,false,UKOS,380833,212730,-2.27943,51.81287,BCT,MKD,OTH,,,,081,2018-08-01T00:00:00,2026-10-06T14:08:44,120,new,active
 160000623,glojagjt,,,The Perry Centre,,,,,,,,,,opp,,SW,E0046594,Quedgeley,,,,,,,false,UKOS,380851,212734,-2.27917,51.81291,BCT,MKD,OTH,,,,081,2018-08-01T00:00:00,2026-10-06T14:08:31,118,new,active
 160000624,glojagjw,,,Lock House,,,,,,,,,,by,,W,E0055873,Gloucester,,,,,,,false,UKOS,382738,218475,-2.25209,51.86458,BCT,MKD,OTH,,,,081,2018-08-02T00:00:00,2024-11-04T15:39:22,92,new,active
@@ -6793,7 +6793,7 @@ ATCOCode,NaptanCode,PlateCode,CleardownCode,CommonName,CommonNameLang,ShortCommo
 160000671,glojajgd,,,Blackfriars,,,,,,,,,,nr,,SE,E0055873,Gloucester,,,,,,,false,UKOS,382882,218421,-2.25,51.8641,BCT,CUS,OTH,,,,081,2019-06-03T00:00:00,2026-09-30T11:16:07,120,new,active
 160000672,glojajgj,,,Beechwood Grove,,,,,,,,,,opp,,S,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383198,215442,-2.24526,51.83733,BCT,MKD,OTH,,,,081,2019-06-13T00:00:00,2024-11-04T15:39:28,95,new,active
 160000673,glojajgm,,,Flaxley Road,,,,,,,,,,opp,,S,E0012135,Tuffley,Gloucester,,,,,,false,UKOS,383106,215202,-2.24658,51.83517,BCT,MKD,OTH,,,,081,2019-06-13T00:00:00,2024-11-04T15:39:29,94,new,active
-160000674,glojajgp,,,Orchard Industrial Estate,,,,,,,,,,adj,,SE,E0046689,Toddington,,,,,,,false,UKOS,402352,232747,-1.96716,51.99317,BCT,CUS,OTH,,,,081,2019-07-11T00:00:00,2024-11-04T15:39:29,91,new,active
+160000674,glojajgp,,,Industrial Estate,,,,,,,,,,adj,,SE,E0046689,Toddington,,,,,,,false,UKOS,402352,232747,-1.96716,51.99317,BCT,CUS,OTH,,,,081,2019-07-11T00:00:00,2026-10-08T16:11:04,118,new,active
 160000675,glojajgt,,,Aldi,,,,,,,,,,inside,,W,E0046510,Moreton-in-Marsh,,,,,,,false,UKOS,420312,231785,-1.70565,51.98416,BCT,CUS,OTH,,,,081,2019-08-06T00:00:00,2024-11-04T15:39:29,89,new,active
 1600GLB128,glodagtd,,,Trier Way,,,,,,Eastgate Street,,,,after,,NW,E0055873,Gloucester,,,,,,,false,UKOS,383609,218176,-2.23943,51.86192,BCT,MKD,OTH,,,,081,2019-08-14T00:00:00,2026-09-30T10:12:53,109,new,active
 1600GLB127,glogjtpd,,,Bruton Way,,,,,,Eastgate Street,,,,before,,SE,E0055873,Gloucester,,,,,,,false,UKOS,383598,218197,-2.23959,51.86211,BCT,MKD,OTH,,,,081,2019-08-14T00:00:00,2026-09-30T10:13:34,104,new,active
