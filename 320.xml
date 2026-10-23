@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-21T14:30:10.025" ModificationDateTime="2026-10-21T14:30:10.025" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-22T11:34:34.336" ModificationDateTime="2026-10-22T11:34:34.336" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-05-13T12:00:00.000" ModificationDateTime="2025-11-05T11:48:52.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA96813</AtcoCode>
@@ -66049,14 +66049,14 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2026-10-22T09:20:04.658" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3200YNA01438</AtcoCode>
 <NaptanCode>32001438</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Roseberry</CommonName>
 <ShortCommonName xml:lang="en">Roseberry</ShortCommonName>
 <Landmark xml:lang="en">N/A</Landmark>
-<Street xml:lang="en">Wandell Balk</Street>
+<Street xml:lang="en">Roseberry Lane</Street>
 <Indicator xml:lang="en">SE-bound</Indicator>
 </Descriptor>
 <Place>
@@ -66067,10 +66067,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>457445</Easting>
-<Northing>467286</Northing>
-<Longitude>-1.123079</Longitude>
-<Latitude>54.098283</Latitude>
+<Easting>457466</Easting>
+<Northing>467308</Northing>
+<Longitude>-1.122746</Longitude>
+<Latitude>54.098483</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -66082,7 +66082,7 @@
 <TimingStatus>OTH</TimingStatus>
 <UnmarkedPoint>
 <Bearing>
-<CompassPoint>SE</CompassPoint>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </UnmarkedPoint>
 </Bus>
@@ -211714,6 +211714,41 @@
 <CompassPoint>SE</CompassPoint>
 </Bearing>
 </MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>092</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-10-22T10:09:54.572" ModificationDateTime="2026-10-22T10:09:54.572" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>3200TNA97263</AtcoCode>
+<Descriptor>
+<CommonName xml:lang="en">Ravensdale</CommonName>
+<Street xml:lang="en">Stillington Road</Street>
+<Indicator xml:lang="en">opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0049007</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>457781</Easting>
+<Northing>466443</Northing>
+<Longitude>-1.118099</Longitude>
+<Latitude>54.09067</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>CUS</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<UnmarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
