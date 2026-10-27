@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-22T11:34:34.336" ModificationDateTime="2026-10-22T11:34:34.336" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-26T15:27:07.695" ModificationDateTime="2026-10-26T15:27:07.695" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-05-13T12:00:00.000" ModificationDateTime="2025-11-05T11:48:52.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA96813</AtcoCode>
@@ -96060,15 +96060,15 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2005-05-09T12:00:00.000" ModificationDateTime="2026-10-26T15:26:29.653" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3200YNA90280</AtcoCode>
 <NaptanCode>32090280</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Catterick Road Old Dental Centre</CommonName>
+<CommonName xml:lang="en">Integrated Care Centre</CommonName>
 <ShortCommonName xml:lang="en">Catterick Road</ShortCommonName>
 <Landmark xml:lang="en">Scotton Road</Landmark>
-<Street xml:lang="en">Berwick Road</Street>
-<Indicator xml:lang="en">adj</Indicator>
+<Street xml:lang="en">Scotton Road</Street>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0056349</NptgLocalityRef>
@@ -96078,10 +96078,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>418436</Easting>
-<Northing>497302</Northing>
-<Longitude>-1.717732</Longitude>
-<Latitude>54.370909</Latitude>
+<Easting>418304</Easting>
+<Northing>497462</Northing>
+<Longitude>-1.719749</Longitude>
+<Latitude>54.372345</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -96089,13 +96089,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -203945,15 +203945,15 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2010-06-14T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2010-06-14T12:00:00.000" ModificationDateTime="2026-10-26T15:24:35.307" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3200YNA96743</AtcoCode>
 <NaptanCode>32096743</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Dental Centre</CommonName>
+<CommonName xml:lang="en">Integrated Care Centre</CommonName>
 <ShortCommonName xml:lang="en">Dental Centre</ShortCommonName>
 <Landmark xml:lang="en">Newbigging Park</Landmark>
 <Street xml:lang="en">Scotton Road</Street>
-<Indicator xml:lang="en">Opp</Indicator>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0056349</NptgLocalityRef>
@@ -203963,10 +203963,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>418451</Easting>
-<Northing>497305</Northing>
-<Longitude>-1.717501</Longitude>
-<Latitude>54.370935</Latitude>
+<Easting>418350</Easting>
+<Northing>497430</Northing>
+<Longitude>-1.719041</Longitude>
+<Latitude>54.372062</Latitude>
 </Translation>
 </Location>
 </Place>
