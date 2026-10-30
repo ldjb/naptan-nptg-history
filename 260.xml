@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-15T14:07:21.735" ModificationDateTime="2026-10-15T14:07:21.735" Modification="new" RevisionNumber="0" FileName="NaPTAN260.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-29T13:40:23.779" ModificationDateTime="2026-10-29T13:40:23.779" Modification="new" RevisionNumber="0" FileName="NaPTAN260_20261029_134027.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2013-05-10T10:22:22.000" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>260000001</AtcoCode>
@@ -79505,14 +79505,14 @@
 </StopClassification>
 <AdministrativeAreaRef>088</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-17T00:00:00.000" ModificationDateTime="2012-09-14T13:04:54.000" Modification="revise" RevisionNumber="7" Status="inactive">
+<StopPoint CreationDateTime="2005-06-17T00:00:00.000" ModificationDateTime="2026-10-26T14:39:31.097" Modification="revise" RevisionNumber="15" Status="inactive">
 <AtcoCode>260010647</AtcoCode>
 <NaptanCode>leijapjt</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">The Plough</CommonName>
+<CommonName xml:lang="en">Lochmore Close</CommonName>
 <Landmark xml:lang="en">The Plough Public House</Landmark>
-<Street xml:lang="en">Church Street</Street>
-<Indicator xml:lang="en">outside</Indicator>
+<Street xml:lang="en">Roston Drive</Street>
+<Indicator xml:lang="en">opposite</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0016714</NptgLocalityRef>
@@ -79520,10 +79520,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>441134</Easting>
+<Northing>293947</Northing>
+<Longitude>-1.394916</Longitude>
+<Latitude>52.541847</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -79532,7 +79532,7 @@
 <OnStreet>
 <Bus>
 <BusStopType>MKD</BusStopType>
-<TimingStatus>OTH</TimingStatus>
+<TimingStatus>TIP</TimingStatus>
 <MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
@@ -89901,11 +89901,11 @@
 </StopClassification>
 <AdministrativeAreaRef>088</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2012-02-21T14:58:20.000" Modification="revise" RevisionNumber="10" Status="inactive">
+<StopPoint CreationDateTime="2002-12-10T00:00:00.000" ModificationDateTime="2026-10-29T13:40:00.496" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>260011620</AtcoCode>
 <NaptanCode>leijdgpa</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Cottage Close</CommonName>
+<CommonName xml:lang="en">Overfield Close</CommonName>
 <Landmark xml:lang="en">Overfield Close</Landmark>
 <Street xml:lang="en">Dane Hill</Street>
 <Indicator xml:lang="en">adj</Indicator>
@@ -89916,10 +89916,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>7</Easting>
-<Northing>0</Northing>
-<Longitude>-7.5571602</Longitude>
-<Latitude>49.7668072</Latitude>
+<Easting>451493</Easting>
+<Northing>305944</Northing>
+<Longitude>-1.240322</Longitude>
+<Latitude>52.648813</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -89927,17 +89927,25 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>TIP</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>088</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-10-29</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2003-01-13T00:00:00.000" ModificationDateTime="2026-09-15T08:00:02.642" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>260011621</AtcoCode>
@@ -133245,7 +133253,7 @@
 </StopClassification>
 <AdministrativeAreaRef>088</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2001-12-31T00:00:00.000" ModificationDateTime="2008-11-12T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2001-12-31T00:00:00.000" ModificationDateTime="2026-10-20T18:21:42.032" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>260017931</AtcoCode>
 <NaptanCode>leidjaja</NaptanCode>
 <Descriptor>

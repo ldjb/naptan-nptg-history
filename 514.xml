@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-08-14T10:40:58" ModificationDateTime="2026-08-14T10:40:58" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-10-29T13:53:57" ModificationDateTime="2026-10-29T13:53:57" Modification="revise" RevisionNumber="1" FileName="514.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-08-01T16:13:39" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>5140ACX17028</AtcoCode>
@@ -995,14 +995,17 @@
       <AtcoCode>5140AWD70632</AtcoCode>
       <NaptanCode>wreadjg</NaptanCode>
       <Descriptor>
-        <CommonName>St Margaret`s Church</CommonName>
+        <CommonName xml:lang="cy">St Margaret`s Church</CommonName>
+        <ShortCommonName>Church</ShortCommonName>
         <Street>Chester Road</Street>
         <Crossing>Sandway Road</Crossing>
         <Indicator>after</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:03">
-          <CommonName xml:lang="CY">Eglwys St Margaret</CommonName>
+          <CommonName xml:lang="cy">Eglwys St Margaret</CommonName>
+          <ShortCommonName>Eglwys</ShortCommonName>
+          <Street>Chester Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -9870,14 +9873,17 @@
       <AtcoCode>5140AWD70930</AtcoCode>
       <NaptanCode>wregjga</NaptanCode>
       <Descriptor>
-        <CommonName>St Marcellus` Church</CommonName>
+        <CommonName xml:lang="cy">St Marcellus` Church</CommonName>
+        <ShortCommonName>Church</ShortCommonName>
         <Street>Station Road</Street>
         <Crossing>Bangor Road</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:03">
-          <CommonName xml:lang="CY">Eglwys Sant Marcellus</CommonName>
+          <CommonName xml:lang="cy">Eglwys Sant Marcellus</CommonName>
+          <ShortCommonName>Eglwys</ShortCommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -10134,7 +10140,7 @@
       <AtcoCode>5140AWD70939</AtcoCode>
       <NaptanCode>wreagat</NaptanCode>
       <Descriptor>
-        <CommonName>Bangor on Dee Race Course</CommonName>
+        <CommonName xml:lang="cy">Bangor on Dee Race Course</CommonName>
         <ShortCommonName>Race Course</ShortCommonName>
         <Landmark>Althrey Farm</Landmark>
         <Street>B5069</Street>
@@ -10142,7 +10148,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:28:54">
-          <CommonName xml:lang="CY">Cae Ras Dyfrdwy Bangor</CommonName>
+          <CommonName xml:lang="cy">Cae Ras Dyfrdwy Bangor</CommonName>
+          <ShortCommonName>Cae Ras</ShortCommonName>
+          <Street>B5069</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -18338,14 +18346,17 @@
       <AtcoCode>5140AWF80255</AtcoCode>
       <NaptanCode>wreadpt</NaptanCode>
       <Descriptor>
-        <CommonName>Trem-y-Gardden North</CommonName>
+        <CommonName xml:lang="cy">Trem-y-Gardden North</CommonName>
+        <ShortCommonName>Trem-y-Gardden</ShortCommonName>
         <Street>Ffordd Llanerch</Street>
         <Crossing>Trem-y-Gardden</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:34">
-          <CommonName xml:lang="CY">Trem-y-Gardden</CommonName>
+          <CommonName xml:lang="cy">Trem-y-Gardden</CommonName>
+          <ShortCommonName>Trem-y-Gardden</ShortCommonName>
+          <Street>Ffordd Llanerch</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -18662,11 +18673,19 @@
       <AtcoCode>5140AWF80265</AtcoCode>
       <NaptanCode>wregtjp</NaptanCode>
       <Descriptor>
-        <CommonName>Gardden Road Surgery</CommonName>
+        <CommonName xml:lang="cy">Gardden Road Surgery</CommonName>
+        <ShortCommonName>Surgery</ShortCommonName>
         <Street>Gardden Road</Street>
         <Crossing>Hill Street</Crossing>
         <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-09-06T15:00:29">
+          <CommonName xml:lang="cy">Gardden Road Surgery</CommonName>
+          <ShortCommonName>Surgery</ShortCommonName>
+          <Street>Gardden Road</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
         <NptgLocalityRef>E0054807</NptgLocalityRef>
         <LocalityCentre>true</LocalityCentre>
@@ -18704,14 +18723,17 @@
       <AtcoCode>5140AWF80266</AtcoCode>
       <NaptanCode>wregtjt</NaptanCode>
       <Descriptor>
-        <CommonName>Rhosllanerchrugog War Memorial</CommonName>
+        <CommonName xml:lang="cy">Rhosllanerchrugog War Memorial</CommonName>
+        <ShortCommonName>War Memorial</ShortCommonName>
         <Street>Hill Street</Street>
         <Crossing>Gardden Road</Crossing>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:28:58">
-          <CommonName xml:lang="CY">Cofeb Rhyfel Rhosllanerchrugog</CommonName>
+          <CommonName xml:lang="cy">Cofeb Rhyfel Rhosllanerchrugog</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
+          <Street>Hill Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -18844,14 +18866,17 @@
       <AtcoCode>5140AWF80270</AtcoCode>
       <NaptanCode>wreadat</NaptanCode>
       <Descriptor>
-        <CommonName>Plas Telford Extra Care</CommonName>
+        <CommonName xml:lang="cy">Plas Telford Extra Care</CommonName>
+        <ShortCommonName>Plas Telford</ShortCommonName>
         <Street>Hampden Way</Street>
         <Crossing>Oak Road</Crossing>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:07">
-          <CommonName xml:lang="CY">Gofal Ychwanegol Plas Telford</CommonName>
+          <CommonName xml:lang="cy">Gofal Ychwanegol Plas Telford</CommonName>
+          <ShortCommonName>Plas Telford</ShortCommonName>
+          <Street>Hampden Way</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -20469,14 +20494,17 @@
       <AtcoCode>5140AWF80307</AtcoCode>
       <NaptanCode>wreamtp</NaptanCode>
       <Descriptor>
-        <CommonName>Old Chirk Post Office</CommonName>
+        <CommonName xml:lang="cy">Old Chirk Post Office</CommonName>
+        <ShortCommonName>Old Post Office</ShortCommonName>
         <Street>Colliery Road</Street>
         <Crossing>B5070</Crossing>
         <Indicator>opp Post Box</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:13">
-          <CommonName xml:lang="CY">Hen Safle Bost Y Waun</CommonName>
+          <CommonName xml:lang="cy">Hen Swyddfa'r Post Y Waun</CommonName>
+          <ShortCommonName>Hen Swyddfa'r Post</ShortCommonName>
+          <Street>Colliery Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -21347,13 +21375,16 @@
       <AtcoCode>5140AWF80545</AtcoCode>
       <NaptanCode>wreamdg</NaptanCode>
       <Descriptor>
-        <CommonName>Chirk Railway Station</CommonName>
+        <CommonName xml:lang="cy">Chirk Railway Station</CommonName>
+        <ShortCommonName>Chirk Station</ShortCommonName>
         <Street>Station Road</Street>
         <Indicator>before</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:09">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Y Waun</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Y Waun</CommonName>
+          <ShortCommonName>Gorsaf Y Waun</ShortCommonName>
+          <Street>Station Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -22818,14 +22849,18 @@
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-07T15:45:05" ModificationDateTime="2025-06-11T10:59:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5140GWRSYLT0</AtcoCode>
+      <NaptanCode>GWRSYLT0</NaptanCode>
       <Descriptor>
-        <CommonName>Gwersyllt Rail Station</CommonName>
+        <CommonName xml:lang="cy">Gwersyllt Rail Station</CommonName>
+        <ShortCommonName>Gwersyllt Station</ShortCommonName>
         <Street>Hope Street</Street>
         <Indicator>Main Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:09">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Gwersyllt</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Gwersyllt</CommonName>
+          <ShortCommonName>Gorsaf Gwersyllt</ShortCommonName>
+          <Street>Hope Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -22834,8 +22869,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>331915</Easting>
-            <Northing>353314</Northing>
+            <Easting>331914</Easting>
+            <Northing>353316</Northing>
             <Longitude>-3.017677513</Longitude>
             <Latitude>53.072721256</Latitude>
           </Translation>
@@ -22856,14 +22891,18 @@
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-07T15:45:53" ModificationDateTime="2025-06-11T10:59:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5140GWRSYLT1</AtcoCode>
+      <NaptanCode>GWRSYLT1</NaptanCode>
       <Descriptor>
-        <CommonName>Gwersyllt Rail Station</CommonName>
+        <CommonName xml:lang="cy">Gwersyllt Rail Station</CommonName>
+        <ShortCommonName>Gwersyllt Station</ShortCommonName>
         <Street>Hope Street</Street>
         <Indicator>South Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:09">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Gwersyllt</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Gwersyllt</CommonName>
+          <ShortCommonName>Gorsaf Gwersyllt</ShortCommonName>
+          <Street>Hope Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -22872,8 +22911,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>331925</Easting>
-            <Northing>353289</Northing>
+            <Easting>331924</Easting>
+            <Northing>353291</Northing>
             <Longitude>-3.01752298</Longitude>
             <Latitude>53.072497835</Latitude>
           </Translation>
@@ -22894,14 +22933,18 @@
     </StopPoint>
     <StopPoint CreationDateTime="2014-03-07T15:46:24" ModificationDateTime="2025-06-11T10:59:30" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>5140GWRSYLT2</AtcoCode>
+      <NaptanCode>GWRSYLT2</NaptanCode>
       <Descriptor>
-        <CommonName>Gwersyllt Rail Station</CommonName>
+        <CommonName xml:lang="cy">Gwersyllt Rail Station</CommonName>
+        <ShortCommonName>Gwersyllt Station</ShortCommonName>
         <Street>Hope Street</Street>
         <Indicator>SE Entrance</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:09">
-          <CommonName xml:lang="CY">Gorsaf Reilffordd Gwersyllt</CommonName>
+          <CommonName xml:lang="cy">Gorsaf Reilffordd Gwersyllt</CommonName>
+          <ShortCommonName>Gorsaf Gwersyllt</ShortCommonName>
+          <Street>Hope Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -22910,8 +22953,8 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>331945</Easting>
-            <Northing>353295</Northing>
+            <Easting>331944</Easting>
+            <Northing>353297</Northing>
             <Longitude>-3.017225782</Longitude>
             <Latitude>53.072554314</Latitude>
           </Translation>
@@ -27232,14 +27275,17 @@
       <AtcoCode>5140WDB22666</AtcoCode>
       <NaptanCode>wrejwaw</NaptanCode>
       <Descriptor>
-        <CommonName>Bangor on Dee Race Course</CommonName>
+        <CommonName xml:lang="cy">Bangor on Dee Race Course</CommonName>
+        <ShortCommonName>Race Course</ShortCommonName>
         <Landmark>Althrey Farm</Landmark>
         <Street>B5069</Street>
         <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:28:54">
-          <CommonName xml:lang="CY">Cae Ras Dyfrdwy Bangor</CommonName>
+          <CommonName xml:lang="cy">Cae Ras Dyfrdwy Bangor</CommonName>
+          <ShortCommonName>Cae Ras</ShortCommonName>
+          <Street>B5069</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -41384,13 +41430,21 @@
       <AtcoCode>5140WDB48202</AtcoCode>
       <NaptanCode>wremwmd</NaptanCode>
       <Descriptor>
-        <CommonName>Penley Maelor School</CommonName>
+        <CommonName xml:lang="cy">Penley Maelor School</CommonName>
         <ShortCommonName>School</ShortCommonName>
         <Street>A539</Street>
         <Crossing>Penlet Industrial Estate</Crossing>
+        <Indicator>opp</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-10-05T14:23:44">
+          <CommonName xml:lang="cy">Ysgol Penley Maelor</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
+          <Street>A539</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0054800</NptgLocalityRef>
+        <NptgLocalityRef>E0043504</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -41430,12 +41484,21 @@
       <AtcoCode>5140WDB48203</AtcoCode>
       <NaptanCode>wremwmg</NaptanCode>
       <Descriptor>
-        <CommonName>Penley Maelor School</CommonName>
+        <CommonName xml:lang="cy">Penley Maelor School</CommonName>
         <ShortCommonName>School</ShortCommonName>
+        <Street>A539</Street>
         <Crossing>Penley Industrial Estate</Crossing>
+        <Indicator>o/s</Indicator>
       </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-10-05T14:22:15">
+          <CommonName xml:lang="cy">Ysgol Penley Maelor</CommonName>
+          <ShortCommonName>Ysgol</ShortCommonName>
+          <Street>A539</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
       <Place>
-        <NptgLocalityRef>E0054800</NptgLocalityRef>
+        <NptgLocalityRef>E0043504</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -41835,14 +41898,17 @@
       <AtcoCode>5140WRX02029</AtcoCode>
       <NaptanCode>wreapda</NaptanCode>
       <Descriptor>
-        <CommonName>Old Chirk Post Office</CommonName>
+        <CommonName xml:lang="cy">Old Chirk Post Office</CommonName>
+        <ShortCommonName>Post Office</ShortCommonName>
         <Street>Colliery Road</Street>
         <Crossing>B5070</Crossing>
         <Indicator>o/s Post Box</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:13">
-          <CommonName xml:lang="CY">Hen Safle Bost Y Waun</CommonName>
+          <CommonName xml:lang="cy">Hen Swyddfa'r Post Y Waun</CommonName>
+          <ShortCommonName>Swyddfa'r Post</ShortCommonName>
+          <Street>Colliery Road</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -42820,7 +42886,7 @@
       <AtcoCode>5140WRX02054</AtcoCode>
       <NaptanCode>wreadgd</NaptanCode>
       <Descriptor>
-        <CommonName>Plas Telford Extra Care</CommonName>
+        <CommonName xml:lang="cy">Plas Telford Extra Care</CommonName>
         <ShortCommonName>Plas Telford</ShortCommonName>
         <Street>Hampden Way</Street>
         <Crossing>Oak Road</Crossing>
@@ -42828,7 +42894,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:29:07">
-          <CommonName xml:lang="CY">Gofal Ychwanegol Plas Telford</CommonName>
+          <CommonName xml:lang="cy">Gofal Ychwanegol Plas Telford</CommonName>
+          <ShortCommonName>Plas Telford</ShortCommonName>
+          <Street>Hampden Way</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -43287,7 +43355,7 @@
       <AtcoCode>5140WRX02067</AtcoCode>
       <NaptanCode>wregtjw</NaptanCode>
       <Descriptor>
-        <CommonName>Rhosllanerchrugog War Memorial</CommonName>
+        <CommonName xml:lang="cy">Rhosllanerchrugog War Memorial</CommonName>
         <ShortCommonName>War Memorial</ShortCommonName>
         <Street>Hill Street</Street>
         <Crossing>Gardden Road</Crossing>
@@ -43295,7 +43363,9 @@
       </Descriptor>
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2024-05-02T10:28:58">
-          <CommonName xml:lang="CY">Cofeb Rhyfel Rhosllanerchrugog</CommonName>
+          <CommonName xml:lang="cy">Cofeb Rhyfel Rhosllanerchrugog</CommonName>
+          <ShortCommonName>Cofeb Rhyfel</ShortCommonName>
+          <Street>Hill Street</Street>
         </Descriptor>
       </AlternativeDescriptors>
       <Place>
@@ -50773,6 +50843,7 @@
       <NaptanCode>wremwpm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+        <ShortCommonName>Carlton Meadows</ShortCommonName>
         <Street>Carlton Meadows</Street>
         <Crossing>Straight Mile</Crossing>
         <Indicator>o/s</Indicator>
@@ -50780,6 +50851,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-04-23T11:04:43">
           <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+          <ShortCommonName>Carlton Meadows</ShortCommonName>
           <Street>Carlton Meadows</Street>
           <Indicator>o/s</Indicator>
         </Descriptor>
@@ -50818,6 +50890,7 @@
       <NaptanCode>wremwpm</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+        <ShortCommonName>Carlton Meadows</ShortCommonName>
         <Street>Carlton Meadows</Street>
         <Crossing>Straight Mile</Crossing>
         <Indicator>o/s</Indicator>
@@ -50825,6 +50898,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-04-23T11:14:49">
           <CommonName xml:lang="cy">Carlton Meadows North</CommonName>
+          <ShortCommonName>Carlton Meadows</ShortCommonName>
           <Street>Carlton Meadows</Street>
           <Indicator>o/s</Indicator>
         </Descriptor>
@@ -50863,6 +50937,7 @@
       <NaptanCode>wremwpt</NaptanCode>
       <Descriptor>
         <CommonName xml:lang="cy">Carlton Meadows South</CommonName>
+        <ShortCommonName>Carlton Meadows</ShortCommonName>
         <Street>Carlton Meadows</Street>
         <Crossing>Gresford Road</Crossing>
         <Indicator>o/s</Indicator>
@@ -50870,6 +50945,7 @@
       <AlternativeDescriptors>
         <Descriptor CreationDateTime="2026-04-23T11:21:40">
           <CommonName xml:lang="cy">Carlton Meadows South</CommonName>
+          <ShortCommonName>Carlton Meadows</ShortCommonName>
           <Street>Carlton Meadows</Street>
           <Indicator>o/s</Indicator>
         </Descriptor>
