@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-22T15:40:24.570" ModificationDateTime="2026-09-22T15:40:24.570" Modification="new" RevisionNumber="0" FileName="NaPTAN330.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-30T15:19:08.520" ModificationDateTime="2026-10-30T15:19:08.520" Modification="new" RevisionNumber="0" FileName="NaPTAN330.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-03-24T00:00:00.000" ModificationDateTime="2022-05-16T12:40:32.158" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300AS0001</AtcoCode>
@@ -57716,16 +57716,21 @@
 <PlusbusZoneRef CreationDateTime="2005-10-03T00:00:00.000" ModificationDateTime="2009-02-03T12:37:00.000" Modification="revise" RevisionNumber="6" Status="active">WORKSOP</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-04-18T00:00:00.000" ModificationDateTime="2009-02-13T08:29:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-04-18T00:00:00.000" ModificationDateTime="2026-10-29T15:12:35.349" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>3300BA0523</AtcoCode>
 <NaptanCode>ntsdgadp</NaptanCode>
 <PlateCode>BA0523</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Tuxford Road</CommonName>
+<CommonName xml:lang="en">Orchardside Road</CommonName>
 <Street xml:lang="en">Mark Lane</Street>
-<Crossing xml:lang="en">Tuxford Road</Crossing>
-<Indicator xml:lang="en">adj</Indicator>
+<Crossing xml:lang="en">Orchardside Road</Crossing>
+<Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-10-29T15:12:35.349" Modification="new" Status="active">
+<CommonName>Orchardside Road</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0050036</NptgLocalityRef>
 <LocalityCentre>0</LocalityCentre>
@@ -59091,15 +59096,15 @@
 <PlusbusZoneRef CreationDateTime="2004-04-15T00:00:00.000" ModificationDateTime="2009-02-18T15:14:00.000" Modification="revise" RevisionNumber="6" Status="active">WORKSOP</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-04-18T00:00:00.000" ModificationDateTime="2011-11-18T09:28:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-04-18T00:00:00.000" ModificationDateTime="2026-10-29T15:10:52.409" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>3300BA0554</AtcoCode>
 <NaptanCode>ntsgajwg</NaptanCode>
 <PlateCode>BA0554</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Tuxford Road</CommonName>
-<Street xml:lang="en">Tuxford Road</Street>
-<Crossing xml:lang="en">Mark Lane</Crossing>
-<Indicator xml:lang="en">N-bound</Indicator>
+<CommonName xml:lang="en">Orchardside Road</CommonName>
+<Street xml:lang="en">Mark Lane</Street>
+<Crossing xml:lang="en">Orchardside Road</Crossing>
+<Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0050036</NptgLocalityRef>
@@ -59107,10 +59112,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>473692</Easting>
-<Northing>372709</Northing>
-<Longitude>-0.897099</Longitude>
-<Latitude>53.246316</Latitude>
+<Easting>473761</Easting>
+<Northing>372741</Northing>
+<Longitude>-0.896064</Longitude>
+<Latitude>53.246595</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -59122,7 +59127,7 @@
 <TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
-<CompassPoint>N</CompassPoint>
+<CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
@@ -107071,14 +107076,13 @@
 <PlusbusZoneRef CreationDateTime="2008-02-28T11:37:00.000" ModificationDateTime="2009-10-19T11:03:00.000" Modification="revise" RevisionNumber="3" Status="active">NTNG</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2008-02-28T11:39:00.000" ModificationDateTime="2025-11-14T13:37:58.317" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2008-02-28T11:39:00.000" ModificationDateTime="2026-10-29T14:58:30.374" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300BR0562</AtcoCode>
 <NaptanCode>ntsgpgmg</NaptanCode>
 <PlateCode>BR0562</PlateCode>
 <Descriptor>
 <CommonName xml:lang="en">Glendale Court</CommonName>
 <Street xml:lang="en">Long Lane</Street>
-<Crossing xml:lang="en">Glendale Court</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -107087,10 +107091,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>452499</Easting>
-<Northing>335465</Northing>
-<Longitude>-1.220737</Longitude>
-<Latitude>52.914074</Latitude>
+<Easting>452502</Easting>
+<Northing>335427</Northing>
+<Longitude>-1.220687</Longitude>
+<Latitude>52.91373</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -107098,13 +107102,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>PPT</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>S</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -146399,14 +146403,13 @@
 <PlusbusZoneRef CreationDateTime="2004-03-19T00:00:00.000" ModificationDateTime="2009-01-08T09:18:00.000" Modification="delete" RevisionNumber="4" Status="inactive">MFLDTWN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-11T00:00:00.000" ModificationDateTime="2008-12-17T14:50:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2005-07-11T00:00:00.000" ModificationDateTime="2026-10-29T14:50:31.368" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3300MA0008</AtcoCode>
 <NaptanCode>ntsamtpj</NaptanCode>
 <PlateCode>MA0008</PlateCode>
 <Descriptor>
 <CommonName xml:lang="en">Carter Lane</CommonName>
-<Street xml:lang="en">Skerry Hill</Street>
-<Crossing xml:lang="en">Carter Lane</Crossing>
+<Street xml:lang="en">Eakring Road</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -146415,10 +146418,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>455223</Easting>
-<Northing>360949</Northing>
-<Longitude>-1.175877</Longitude>
-<Latitude>53.142854</Latitude>
+<Easting>455227</Easting>
+<Northing>360946</Northing>
+<Longitude>-1.175813</Longitude>
+<Latitude>53.142827</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -156498,7 +156501,7 @@
 <PlusbusZoneRef CreationDateTime="2005-01-31T00:00:00.000" ModificationDateTime="2008-12-22T09:14:00.000" Modification="revise" RevisionNumber="4" Status="active">MFLDTWN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-31T00:00:00.000" ModificationDateTime="2025-08-27T08:58:54.170" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2005-01-31T00:00:00.000" ModificationDateTime="2026-10-29T15:20:22.579" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>3300MA0246</AtcoCode>
 <NaptanCode>ntsdpjap</NaptanCode>
 <PlateCode>MA0246</PlateCode>
@@ -156513,10 +156516,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>451965</Easting>
-<Northing>360053</Northing>
-<Longitude>-1.224717</Longitude>
-<Latitude>53.135133</Latitude>
+<Easting>451849</Easting>
+<Northing>360014</Northing>
+<Longitude>-1.226456</Longitude>
+<Latitude>53.134793</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -165081,14 +165084,13 @@
 <PlusbusZoneRef CreationDateTime="2005-03-23T00:00:00.000" ModificationDateTime="2013-11-13T09:41:00.000" Modification="revise" RevisionNumber="5" Status="active">MFLDTWN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-31T00:00:00.000" ModificationDateTime="2009-01-08T14:20:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-01-31T00:00:00.000" ModificationDateTime="2026-10-29T14:57:13.600" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300MA0433</AtcoCode>
 <NaptanCode>ntsdjtdm</NaptanCode>
 <PlateCode>MA0433</PlateCode>
 <Descriptor>
 <CommonName xml:lang="en">Vallance Street</CommonName>
 <Street xml:lang="en">Park Road</Street>
-<Crossing xml:lang="en">Vallance Street</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -165097,10 +165099,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>453920</Easting>
-<Northing>363455</Northing>
-<Longitude>-1.194934</Longitude>
-<Latitude>53.165512</Latitude>
+<Easting>453916</Easting>
+<Northing>363451</Northing>
+<Longitude>-1.194989</Longitude>
+<Latitude>53.165483</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -214163,12 +214165,12 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-06-26T14:49:00.000" ModificationDateTime="2019-06-28T10:48:54.001" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2007-06-26T14:49:00.000" ModificationDateTime="2026-10-29T14:53:00.090" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300NS0864</AtcoCode>
 <NaptanCode>ntsgmwjg</NaptanCode>
 <PlateCode>NS0864</PlateCode>
 <Descriptor>
-<CommonName xml:lang="en">Station Road</CommonName>
+<CommonName xml:lang="en">Marlock Close</CommonName>
 <Street xml:lang="en">Station Road</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
@@ -214178,10 +214180,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>473600</Easting>
-<Northing>351368</Northing>
-<Longitude>-0.903374</Longitude>
-<Latitude>53.054535</Latitude>
+<Easting>473574</Easting>
+<Northing>351399</Northing>
+<Longitude>-0.903764</Longitude>
+<Latitude>53.054815</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -235031,7 +235033,7 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-08T00:00:00.000" ModificationDateTime="2013-04-12T10:33:00.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2005-07-08T00:00:00.000" ModificationDateTime="2026-10-30T11:11:56.586" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300RU0296</AtcoCode>
 <NaptanCode>ntsagpda</NaptanCode>
 <PlateCode>RU0296</PlateCode>
@@ -235752,7 +235754,7 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-26T00:00:00.000" ModificationDateTime="2008-11-06T09:31:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2005-07-26T00:00:00.000" ModificationDateTime="2026-10-30T11:06:26.695" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>3300RU0313</AtcoCode>
 <NaptanCode>ntsajgjt</NaptanCode>
 <PlateCode>RU0313</PlateCode>
@@ -248843,7 +248845,7 @@
 </StopClassification>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-25T00:00:00.000" ModificationDateTime="2025-03-12T09:12:35.637" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2005-07-25T00:00:00.000" ModificationDateTime="2026-10-30T11:13:30.739" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>3300RU0619</AtcoCode>
 <NaptanCode>ntsagajt</NaptanCode>
 <PlateCode>RU0619</PlateCode>
@@ -263445,7 +263447,7 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-05T20:31:05.000" ModificationDateTime="2022-03-08T12:26:43.792" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2014-10-05T20:31:05.000" ModificationDateTime="2026-10-30T11:13:15.560" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>3300RU0911</AtcoCode>
 <NaptanCode>ntsgwdgd</NaptanCode>
 <PlateCode>RU0911</PlateCode>
@@ -263454,6 +263456,11 @@
 <Street xml:lang="en">Tithby Road</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-10-30T11:08:48.116" Modification="new" Status="active">
+<CommonName>Langar Road</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0050192</NptgLocalityRef>
 <Town>Bingham</Town>
@@ -263485,8 +263492,16 @@
 <StopAreaRef Modification="new" Status="active">330GRU0445</StopAreaRef>
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-10-30</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2014-10-05T20:32:37.000" ModificationDateTime="2022-03-08T12:32:20.001" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2014-10-05T20:32:37.000" ModificationDateTime="2026-10-30T11:13:41.598" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>3300RU0912</AtcoCode>
 <NaptanCode>ntsgwdgj</NaptanCode>
 <PlateCode>RU0912</PlateCode>
@@ -263495,6 +263510,11 @@
 <Street xml:lang="en">Tithby Road</Street>
 <Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
+<AlternativeDescriptors>
+<Descriptor CreationDateTime="2026-10-30T11:11:00.057" Modification="new" Status="active">
+<CommonName>Langar Road</CommonName>
+</Descriptor>
+</AlternativeDescriptors>
 <Place>
 <NptgLocalityRef>E0050192</NptgLocalityRef>
 <Location>
@@ -266512,7 +266532,7 @@
 </StopAreas>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2016-07-01T14:59:40.000" ModificationDateTime="2025-08-19T08:44:30.431" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2016-07-01T14:59:40.000" ModificationDateTime="2026-10-30T11:12:40.049" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>3300RU0921</AtcoCode>
 <NaptanCode>ntsgwgjt</NaptanCode>
 <PlateCode>RU0921</PlateCode>
@@ -278443,7 +278463,7 @@
 </StopClassification>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-11-26T08:56:36.028" ModificationDateTime="2025-11-27T18:12:43.014" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2025-11-26T08:56:36.028" ModificationDateTime="2026-10-29T15:00:55.242" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3300BA1182</AtcoCode>
 <NaptanCode>ntsjadad</NaptanCode>
 <PlateCode>BA1182</PlateCode>
@@ -278458,9 +278478,9 @@
 <Translation>
 <GridType>UKOS</GridType>
 <Easting>459235</Easting>
-<Northing>378432</Northing>
-<Longitude>-1.1126624</Longitude>
-<Latitude>53.2995619</Latitude>
+<Northing>378430</Northing>
+<Longitude>-1.112667</Longitude>
+<Latitude>53.299544</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -286648,16 +286668,16 @@
 </StopArea>
 <StopArea CreationDateTime="2006-11-29T09:47:00.000" ModificationDateTime="2009-02-02T14:46:00.000" Modification="revise" RevisionNumber="1" Status="active">
 <StopAreaCode>330GBA0151</StopAreaCode>
-<Name>Tuxford Road</Name>
+<Name>Orchardside Road</Name>
 <AdministrativeAreaRef>095</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>473705</Easting>
-<Northing>372725</Northing>
-<Longitude>-0.8969002</Longitude>
-<Latitude>53.2464580</Latitude>
+<Easting>473741</Easting>
+<Northing>372741</Northing>
+<Longitude>-0.896356</Longitude>
+<Latitude>53.2466</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -295217,10 +295237,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>452495</Easting>
-<Northing>335462</Northing>
-<Longitude>-1.2207973</Longitude>
-<Latitude>52.9140474</Latitude>
+<Easting>452500</Easting>
+<Northing>335442</Northing>
+<Longitude>-1.220727</Longitude>
+<Latitude>52.913871</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -307344,10 +307364,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>451895</Easting>
-<Northing>360023</Northing>
-<Longitude>-1.2257765</Longitude>
-<Latitude>53.1348647</Latitude>
+<Easting>451854</Easting>
+<Northing>360008</Northing>
+<Longitude>-1.226387</Longitude>
+<Latitude>53.134737</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -321053,10 +321073,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>456552</Easting>
-<Northing>333502</Northing>
-<Longitude>-1.1608113</Longitude>
-<Latitude>52.8960188</Latitude>
+<Easting>456503</Easting>
+<Northing>333528</Northing>
+<Longitude>-1.161536</Longitude>
+<Latitude>52.896254</Latitude>
 </Translation>
 </Location>
 </StopArea>
