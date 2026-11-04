@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-10-29T13:59:48" ModificationDateTime="2026-10-29T13:59:48" Modification="revise" RevisionNumber="1" FileName="534.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-11-03T15:46:02" ModificationDateTime="2026-11-03T15:46:02" Modification="revise" RevisionNumber="1" FileName="534.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2024-05-02T09:56:00" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>5340ANZ12709</AtcoCode>
@@ -35197,6 +35197,170 @@
           <Active />
         </StopValidity>
       </StopAvailability>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-03T15:18:57" Modification="new" Status="active">
+      <AtcoCode>5340WDB47364</AtcoCode>
+      <NaptanCode>torgmjd</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">St Johns Ambulance</CommonName>
+        <Street>Golwg Yr Afon</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-11-03T15:18:57">
+          <CommonName xml:lang="cy">St Johns Ambulance</CommonName>
+          <Street>Golwg Yr Afon</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054368</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307279</Easting>
+            <Northing>200014</Northing>
+            <Longitude>-3.3428005</Longitude>
+            <Latitude>51.691194</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>061</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-03T15:34:23" Modification="new" Status="active">
+      <AtcoCode>5340WDB47365</AtcoCode>
+      <NaptanCode>torgmjg</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Kingfisher Crescent</CommonName>
+        <Street>Golwg Yr Afon</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-11-03T15:34:23">
+          <CommonName xml:lang="cy">Kingfisher Crescent</CommonName>
+          <Street>Golwg Yr Afon</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054368</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307327</Easting>
+            <Northing>200143</Northing>
+            <Longitude>-3.3421406</Longitude>
+            <Latitude>51.692362</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>061</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-03T15:39:57" Modification="new" Status="active">
+      <AtcoCode>5340WDB47366</AtcoCode>
+      <NaptanCode>torgmjm</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Heron Way</CommonName>
+        <Street>Golwg Yr Afon</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-11-03T15:39:57">
+          <CommonName xml:lang="cy">Heron Way</CommonName>
+          <Street>Golwg Yr Afon</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054368</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307467</Easting>
+            <Northing>199803</Northing>
+            <Longitude>-3.3400255</Longitude>
+            <Latitude>51.689329</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>061</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-03T15:45:46" Modification="new" Status="active">
+      <AtcoCode>5340WDB47367</AtcoCode>
+      <NaptanCode>torgmjp</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Heron Way</CommonName>
+        <Street>Golwg Yr Afon</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-11-03T15:45:46">
+          <CommonName xml:lang="cy">Heron Way</CommonName>
+          <Street>Golwg Yr Afon</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0054368</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307477</Easting>
+            <Northing>199778</Northing>
+            <Longitude>-3.3398742</Longitude>
+            <Latitude>51.689106</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>061</AdministrativeAreaRef>
     </StopPoint>
   </StopPoints>
 </NaPTAN>
