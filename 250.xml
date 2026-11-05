@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.84.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-11T12:09:15.4141402Z" ModificationDateTime="2026-10-11T12:09:15.4141402Z" Modification="new" RevisionNumber="1" FileName="250.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-03T09:16:34.931072Z" ModificationDateTime="2026-11-03T09:16:34.931072Z" Modification="new" RevisionNumber="1" FileName="250.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-01-13T10:26:00" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>250000358</AtcoCode>
@@ -7218,11 +7218,11 @@
           <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0047509</NptgLocalityRef>
           <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0047521</NptgLocalityRef>
           <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0048885</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0048917</NptgLocalityRef>
-          <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0048932</NptgLocalityRef>
           <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0056131</NptgLocalityRef>
           <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0057500</NptgLocalityRef>
           <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0057517</NptgLocalityRef>
+          <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0048932</NptgLocalityRef>
+          <NptgLocalityRef CreationDateTime="2014-01-14T06:00:46" ModificationDateTime="2014-01-14T06:00:46" RevisionNumber="0">E0048917</NptgLocalityRef>
         </MainNptgLocalities>
         <Suburb>Brierfield</Suburb>
         <Town>Pendle</Town>
@@ -332003,17 +332003,17 @@
       </StopClassification>
       <AdministrativeAreaRef>087</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2020-05-01T12:55:18" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-10-24T09:14:25" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>2500LAA07138</AtcoCode>
       <NaptanCode>langwpdg</NaptanCode>
       <Descriptor>
-        <CommonName>Lavender Hill</CommonName>
-        <Landmark>Lavender Hill</Landmark>
+        <CommonName>Almond Terrace</CommonName>
+        <Landmark>Almond Terrace</Landmark>
         <Street>Lavender Hill</Street>
-        <Indicator>by</Indicator>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <AlternativeDescriptors>
-        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2011-10-12T09:30:00" Modification="revise" RevisionNumber="3" Status="active">
+        <Descriptor CreationDateTime="2006-08-24T00:00:00" ModificationDateTime="2026-10-24T09:14:25" Modification="revise" RevisionNumber="4" Status="active">
           <CommonName>Lavender Hill</CommonName>
           <Landmark>Lavender Hill</Landmark>
           <Street>Sycamore Crescent</Street>
@@ -420918,6 +420918,154 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>W</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-24T09:07:15" ModificationDateTime="2026-10-24T09:05:48" Modification="new" Status="active">
+      <AtcoCode>2500LAA17133</AtcoCode>
+      <NaptanCode>lanpdtjw</NaptanCode>
+      <Descriptor>
+        <CommonName>Cherry Crescent</CommonName>
+        <Street>Chestnut Drive</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0016267</NptgLocalityRef>
+        <Suburb>Balladen</Suburb>
+        <Town>Rawtenstall</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>380715</Easting>
+            <Northing>421856</Northing>
+            <Longitude>-2.293527354</Longitude>
+            <Latitude>53.692785997</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-24T09:13:13" ModificationDateTime="2026-10-24T09:12:04" Modification="new" Status="active">
+      <AtcoCode>2500LAA17134</AtcoCode>
+      <NaptanCode>lanpdtma</NaptanCode>
+      <Descriptor>
+        <CommonName>Almond Crescent</CommonName>
+        <Landmark>Almond Crescent</Landmark>
+        <Street>Lavender Hill</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0016267</NptgLocalityRef>
+        <Suburb>Balladen</Suburb>
+        <Town>Rawtenstall</Town>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>380783</Easting>
+            <Northing>422017</Northing>
+            <Longitude>-2.292507622</Longitude>
+            <Latitude>53.694235585</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-24T09:25:01" ModificationDateTime="2026-10-24T09:23:57" Modification="new" Status="active">
+      <AtcoCode>2500LAA17135</AtcoCode>
+      <Descriptor>
+        <CommonName>Victoria Court (Sch)</CommonName>
+        <Landmark>Victoria Court</Landmark>
+        <Street>Ribble Lane</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047493</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>376737</Easting>
+            <Northing>444220</Northing>
+            <Longitude>-2.355465366</Longitude>
+            <Latitude>53.893626049</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>087</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-10-24T09:26:50" ModificationDateTime="2026-10-24T09:25:51" Modification="new" Status="active">
+      <AtcoCode>2500LAA17136</AtcoCode>
+      <Descriptor>
+        <CommonName>Victoria Court (Sch)</CommonName>
+        <Landmark>Victoria Court</Landmark>
+        <Street>Ribble Lane</Street>
+        <Indicator>by</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0047493</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>376754</Easting>
+            <Northing>444207</Northing>
+            <Longitude>-2.355205701</Longitude>
+            <Latitude>53.893509976</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
