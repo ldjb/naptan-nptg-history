@@ -150064,6 +150064,88 @@
       </StopAreas>
       <AdministrativeAreaRef>071</AdministrativeAreaRef>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-11-05T00:00:00" ModificationDateTime="2026-11-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>0500HCHES003</AtcoCode>
+      <NaptanCode>CMBGDJGA</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Sheepwalk Farm</CommonName>
+        <Landmark xml:lang="en">Sheepwalk Farm</Landmark>
+        <Street xml:lang="en">Oundle Road</Street>
+        <Indicator xml:lang="en">NE-Bound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043726</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>511304</Easting>
+          <Northing>294544</Northing>
+          <Longitude>-0.36038227</Longitude>
+          <Latitude>52.537394</Latitude>
+        </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2026-11-05T00:00:00" ModificationDateTime="2026-11-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">050GCS001001</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>071</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-05T00:00:00" ModificationDateTime="2026-11-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+      <AtcoCode>0500HCHES004</AtcoCode>
+      <NaptanCode>CMBGDJGD</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="en">Sheepwalk Farm</CommonName>
+        <Landmark xml:lang="en">Sheepwalk Farm</Landmark>
+        <Street xml:lang="en">Oundle Road</Street>
+        <Indicator xml:lang="en">SW-Bound</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0043726</NptgLocalityRef>
+        <LocalityCentre>0</LocalityCentre>
+        <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>511302</Easting>
+          <Northing>294529</Northing>
+          <Longitude>-0.36042251</Longitude>
+          <Latitude>52.537255</Latitude>
+        </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2026-11-05T00:00:00" ModificationDateTime="2026-11-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">050GCS001001</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>071</AdministrativeAreaRef>
+    </StopPoint>
   </StopPoints>
   <StopAreas>
     <StopArea CreationDateTime="2013-10-01T00:00:00" ModificationDateTime="2013-10-01T00:00:00" Modification="delete" RevisionNumber="0" Status="inactive">
@@ -167637,6 +167719,21 @@
         <Northing>266255</Northing>
         <Longitude>-0.011229068</Longitude>
         <Latitude>52.27768</Latitude>
+      </Translation>
+      </Location>
+    </StopArea>
+    <StopArea CreationDateTime="2026-11-05T00:00:00" ModificationDateTime="2026-11-05T00:00:00" Modification="new" RevisionNumber="0" Status="active">
+      <StopAreaCode>050GCS001001</StopAreaCode>
+      <Name xml:lang="en">Sheepwalk Farm</Name>
+      <AdministrativeAreaRef>071</AdministrativeAreaRef>
+      <StopAreaType>GPBS</StopAreaType>
+      <Location>
+      <Translation>
+        <GridType>UKOS</GridType>
+        <Easting>511304</Easting>
+        <Northing>294537</Northing>
+        <Longitude>-0.36039166</Longitude>
+        <Latitude>52.537333</Latitude>
       </Translation>
       </Location>
     </StopArea>

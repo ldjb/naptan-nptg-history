@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-09-09T15:53:12.432" ModificationDateTime="2026-09-09T15:53:12.432" Modification="new" RevisionNumber="0" FileName="NaPTAN060.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-04T13:39:22.985" ModificationDateTime="2026-11-04T13:39:22.985" Modification="new" RevisionNumber="0" FileName="NaPTAN060.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
-<StopPoint CreationDateTime="2004-05-10T00:00:00.000" ModificationDateTime="2021-06-10T13:33:20.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2004-05-10T00:00:00.000" ModificationDateTime="2026-10-01T13:44:43.221" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600200410</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">ent</Indicator>
 </Descriptor>
@@ -36,7 +35,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-05-10T00:00:00.000" ModificationDateTime="2009-09-09T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-02-11T00:00:00.000" ModificationDateTime="2018-11-21T12:26:03.000" Modification="revise" RevisionNumber="6" Status="inactive">
@@ -74,7 +73,7 @@
 <PlusbusZoneRef CreationDateTime="2003-02-11T00:00:00.000" ModificationDateTime="2012-02-22T08:50:57.000" Modification="revise" RevisionNumber="4" Status="inactive">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-02-12T00:00:00.000" ModificationDateTime="2021-06-10T13:33:23.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-02-12T00:00:00.000" ModificationDateTime="2026-10-01T13:44:48.644" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600205811</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
@@ -109,7 +108,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-02-11T00:00:00.000" ModificationDateTime="2024-08-01T08:39:54.123" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-02-11T00:00:00.000" ModificationDateTime="2026-10-01T13:44:50.836" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600205911</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
@@ -835,7 +834,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-12-06T12:12:42.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:57.828" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO003</AtcoCode>
 <NaptanCode>CHEJADW</NaptanCode>
 <Descriptor>
@@ -907,7 +906,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-07T08:28:34.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:02:36.344" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO004</AtcoCode>
 <NaptanCode>CHEJAGA</NaptanCode>
 <Descriptor>
@@ -915,7 +914,6 @@
 <ShortCommonName xml:lang="en">Lawton Manor</ShortCommonName>
 <Landmark xml:lang="en">Lawton Manor</Landmark>
 <Street xml:lang="en">Liverpool Road West</Street>
-<Crossing xml:lang="en">Lawton Hall Drive</Crossing>
 <Indicator xml:lang="en">nr</Indicator>
 </Descriptor>
 <Place>
@@ -924,10 +922,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>382127</Easting>
-<Northing>355476</Northing>
-<Longitude>-2.268361</Longitude>
-<Latitude>53.096205</Latitude>
+<Easting>382131</Easting>
+<Northing>355478</Northing>
+<Longitude>-2.268302</Longitude>
+<Latitude>53.096222</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -948,7 +946,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T08:34:09.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:02:39.619" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO005</AtcoCode>
 <NaptanCode>CHEJAGD</NaptanCode>
 <Descriptor>
@@ -956,7 +954,6 @@
 <ShortCommonName xml:lang="en">Lawton Manor</ShortCommonName>
 <Landmark xml:lang="en">Lawton Manor</Landmark>
 <Street xml:lang="en">Liverpool Road West</Street>
-<Crossing xml:lang="en">Lawton Hall Drive</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -965,10 +962,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>382065</Easting>
-<Northing>355506</Northing>
-<Longitude>-2.269289</Longitude>
-<Latitude>53.096472</Latitude>
+<Easting>382068</Easting>
+<Northing>355510</Northing>
+<Longitude>-2.269239</Longitude>
+<Latitude>53.096506</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -989,7 +986,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T08:43:27.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:33.856" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO006</AtcoCode>
 <NaptanCode>CHEJAGJ</NaptanCode>
 <Descriptor>
@@ -1029,7 +1026,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T08:36:13.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:39.502" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO007</AtcoCode>
 <NaptanCode>CHEJAGM</NaptanCode>
 <Descriptor>
@@ -1069,7 +1066,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2021-08-04T09:08:19.536" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:02:11.972" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO008</AtcoCode>
 <NaptanCode>CHEADTM</NaptanCode>
 <Descriptor>
@@ -1077,7 +1074,6 @@
 <ShortCommonName xml:lang="en">Lawton Arms PH</ShortCommonName>
 <Landmark xml:lang="en">Lawton Arms PH</Landmark>
 <Street xml:lang="en">Liverpool Road West</Street>
-<Crossing xml:lang="en">The Grove</Crossing>
 <Indicator xml:lang="en">SE-bound</Indicator>
 </Descriptor>
 <Place>
@@ -1086,10 +1082,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>381059</Easting>
-<Northing>355858</Northing>
-<Longitude>-2.284333</Longitude>
-<Latitude>53.099601</Latitude>
+<Easting>381064</Easting>
+<Northing>355861</Northing>
+<Longitude>-2.284254</Longitude>
+<Latitude>53.09963</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1110,15 +1106,14 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-11-03T15:14:45.128" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:02:25.898" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CO009</AtcoCode>
 <NaptanCode>CHEADTP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Lawton Arms</CommonName>
 <ShortCommonName xml:lang="en">Lawton Arms PH</ShortCommonName>
 <Landmark xml:lang="en">Lawton Arms PH</Landmark>
-<Street xml:lang="en">Crewe Road</Street>
-<Crossing xml:lang="en">Dairylands Road</Crossing>
+<Street xml:lang="en">Liverpool Road West</Street>
 <Indicator xml:lang="en">nr</Indicator>
 </Descriptor>
 <Place>
@@ -1127,10 +1122,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>381001</Easting>
-<Northing>355822</Northing>
-<Longitude>-2.285197</Longitude>
-<Latitude>53.099276</Latitude>
+<Easting>380999</Easting>
+<Northing>355829</Northing>
+<Longitude>-2.285226</Longitude>
+<Latitude>53.099336</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1151,7 +1146,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-19T13:21:47.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:03:12.117" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO010</AtcoCode>
 <NaptanCode>CHEJAGP</NaptanCode>
 <Descriptor>
@@ -1159,7 +1154,6 @@
 <ShortCommonName xml:lang="en">Linley Lane</ShortCommonName>
 <Landmark xml:lang="en">Crossroads</Landmark>
 <Street xml:lang="en">Crewe Road</Street>
-<Crossing xml:lang="en">Linley Lane</Crossing>
 <Indicator xml:lang="en">cnr</Indicator>
 </Descriptor>
 <Place>
@@ -1168,10 +1162,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380823</Easting>
-<Northing>355752</Northing>
-<Longitude>-2.287851</Longitude>
-<Latitude>53.09864</Latitude>
+<Easting>380812</Easting>
+<Northing>355758</Northing>
+<Longitude>-2.288024</Longitude>
+<Latitude>53.098697</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1195,7 +1189,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-19T13:21:54.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:03:15.718" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO011</AtcoCode>
 <NaptanCode>CHEJAGT</NaptanCode>
 <Descriptor>
@@ -1203,7 +1197,6 @@
 <ShortCommonName xml:lang="en">Linley Lane</ShortCommonName>
 <Landmark xml:lang="en">Field</Landmark>
 <Street xml:lang="en">Crewe Road</Street>
-<Crossing xml:lang="en">Linley Lane</Crossing>
 <Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
@@ -1212,10 +1205,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380829</Easting>
-<Northing>355768</Northing>
-<Longitude>-2.287762</Longitude>
-<Latitude>53.098784</Latitude>
+<Easting>380833</Easting>
+<Northing>355773</Northing>
+<Longitude>-2.287704</Longitude>
+<Latitude>53.098833</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1239,7 +1232,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-19T13:23:31.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:19.291" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO012</AtcoCode>
 <NaptanCode>CHEJAGW</NaptanCode>
 <Descriptor>
@@ -1247,7 +1240,6 @@
 <ShortCommonName xml:lang="en">Moorhouse Avenue</ShortCommonName>
 <Landmark xml:lang="en">Caradon Tyyfords</Landmark>
 <Street xml:lang="en">Lawton Road</Street>
-<Crossing xml:lang="en">Moorhouse Avenue</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -1256,10 +1248,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380569</Easting>
-<Northing>355722</Northing>
-<Longitude>-2.291642</Longitude>
-<Latitude>53.098361</Latitude>
+<Easting>380560</Easting>
+<Northing>355725</Northing>
+<Longitude>-2.291779</Longitude>
+<Latitude>53.098387</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1280,15 +1272,14 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-19T13:23:21.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:24.559" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO013</AtcoCode>
 <NaptanCode>CHEJAJA</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Moorhouse Avenue</CommonName>
 <ShortCommonName xml:lang="en">Moorhouse Avenue</ShortCommonName>
 <Landmark xml:lang="en">Moorhouse Avenue</Landmark>
-<Street xml:lang="en">Lawton Road</Street>
-<Crossing xml:lang="en">Moorhouse Avenue</Crossing>
+<Street xml:lang="en">Crewe Road</Street>
 <Indicator xml:lang="en">cnr</Indicator>
 </Descriptor>
 <Place>
@@ -1297,10 +1288,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380613</Easting>
-<Northing>355748</Northing>
-<Longitude>-2.290987</Longitude>
-<Latitude>53.098597</Latitude>
+<Easting>380615</Easting>
+<Northing>355754</Northing>
+<Longitude>-2.290953</Longitude>
+<Latitude>53.098654</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1321,7 +1312,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-19T13:22:50.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:09:10.620" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO014</AtcoCode>
 <NaptanCode>CHEJAJD</NaptanCode>
 <Descriptor>
@@ -1329,7 +1320,6 @@
 <ShortCommonName xml:lang="en">St Gabriels Church</ShortCommonName>
 <Landmark xml:lang="en">St Gabriels Church</Landmark>
 <Street xml:lang="en">Lawton Road</Street>
-<Crossing xml:lang="en">Edwards Way</Crossing>
 <Indicator xml:lang="en">nr</Indicator>
 </Descriptor>
 <Place>
@@ -1338,10 +1328,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>380423</Easting>
-<Northing>355683</Northing>
-<Longitude>-2.29382</Longitude>
-<Latitude>53.098005</Latitude>
+<Easting>380417</Easting>
+<Northing>355692</Northing>
+<Longitude>-2.293909</Longitude>
+<Latitude>53.098086</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1362,7 +1352,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:11:21.820" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CO015</AtcoCode>
 <NaptanCode>CHEJAJG</NaptanCode>
 <Descriptor>
@@ -1403,7 +1393,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T09:50:04.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:11:49.989" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO015A</AtcoCode>
 <NaptanCode>CHEMADM</NaptanCode>
 <Descriptor>
@@ -1444,7 +1434,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:08:54.747" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO016</AtcoCode>
 <NaptanCode>CHEJAJM</NaptanCode>
 <Descriptor>
@@ -1485,15 +1475,13 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-17T09:45:51.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:57:48.532" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CO017</AtcoCode>
 <NaptanCode>CHEADTW</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bank Corner</CommonName>
 <ShortCommonName xml:lang="en">Alsager Bank Corner</ShortCommonName>
-<Landmark xml:lang="en">Top Cats</Landmark>
 <Street xml:lang="en">Lawton Road</Street>
-<Crossing xml:lang="en">Ashmore's Lane</Crossing>
 <Indicator xml:lang="en">Stand B</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -1509,9 +1497,9 @@
 <Translation>
 <GridType>UKOS</GridType>
 <Easting>379772</Easting>
-<Northing>355481</Northing>
-<Longitude>-2.30353</Longitude>
-<Latitude>53.096165</Latitude>
+<Northing>355489</Northing>
+<Longitude>-2.303537</Longitude>
+<Latitude>53.096234</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1535,15 +1523,13 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-17T09:44:53.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:57:55.517" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CO018</AtcoCode>
 <NaptanCode>CHEADWA</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bank Corner</CommonName>
 <ShortCommonName xml:lang="en">Alsager Bank Corner</ShortCommonName>
-<Landmark xml:lang="en">Council Offices</Landmark>
 <Street xml:lang="en">Lawton Road</Street>
-<Crossing xml:lang="en">Sandbach Road North</Crossing>
 <Indicator xml:lang="en">Stand A</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -1558,10 +1544,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>379734</Easting>
-<Northing>355481</Northing>
-<Longitude>-2.304097</Longitude>
-<Latitude>53.096164</Latitude>
+<Easting>379739</Easting>
+<Northing>355492</Northing>
+<Longitude>-2.304022</Longitude>
+<Latitude>53.096263</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -1585,7 +1571,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-11-03T15:11:37.681" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:09:23.131" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO019</AtcoCode>
 <NaptanCode>CHEJAJP</NaptanCode>
 <Descriptor>
@@ -1627,7 +1613,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T10:25:25.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:08:02.614" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO020</AtcoCode>
 <NaptanCode>CHEJAJT</NaptanCode>
 <Descriptor>
@@ -1668,7 +1654,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-08-16T11:12:28.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:10:32.907" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO021</AtcoCode>
 <NaptanCode>CHEJAJW</NaptanCode>
 <Descriptor>
@@ -1709,7 +1695,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T10:27:04.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:10:36.997" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO022</AtcoCode>
 <NaptanCode>CHEJAMA</NaptanCode>
 <Descriptor>
@@ -1750,7 +1736,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-01-15T08:36:01.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:57:22.462" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO023</AtcoCode>
 <NaptanCode>CHEJAMD</NaptanCode>
 <Descriptor>
@@ -1791,7 +1777,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-11-06T08:05:30.029" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:57:35.386" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO024</AtcoCode>
 <NaptanCode>CHEJAMG</NaptanCode>
 <Descriptor>
@@ -1832,7 +1818,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:43:25.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:12.158" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO025</AtcoCode>
 <NaptanCode>CHEJAMJ</NaptanCode>
 <Descriptor>
@@ -1873,7 +1859,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2021-12-16T09:31:39.706" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:24.599" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO026</AtcoCode>
 <NaptanCode>CHEJAMP</NaptanCode>
 <Descriptor>
@@ -1913,7 +1899,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2023-09-27T15:42:33.552" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:55:51.646" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO027</AtcoCode>
 <NaptanCode>CHEJAMT</NaptanCode>
 <Descriptor>
@@ -1957,7 +1943,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:41:59.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:55:55.382" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO028</AtcoCode>
 <NaptanCode>CHEJAMW</NaptanCode>
 <Descriptor>
@@ -2001,7 +1987,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2022-09-06T08:15:39.526" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:58:20.905" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CO029</AtcoCode>
 <NaptanCode>CHEJAPA</NaptanCode>
 <Descriptor>
@@ -2045,7 +2031,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2022-09-06T08:15:30.541" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:01:35.145" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO029A</AtcoCode>
 <NaptanCode>CHEGPTA</NaptanCode>
 <Descriptor>
@@ -2386,7 +2372,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2021-11-04T17:40:50.001" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-08T14:53:45.664" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO037</AtcoCode>
 <NaptanCode>CHEMAGW</NaptanCode>
 <Descriptor>
@@ -2733,7 +2719,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-11-04T12:30:27.697" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CO045</AtcoCode>
 <NaptanCode>CHEMAJT</NaptanCode>
 <Descriptor>
@@ -2741,7 +2727,6 @@
 <ShortCommonName xml:lang="en">Mill Lane</ShortCommonName>
 <Landmark xml:lang="en">The Newlands</Landmark>
 <Street xml:lang="en">London Road</Street>
-<Crossing xml:lang="en">Mill Lane</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
@@ -2750,10 +2735,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>373562</Easting>
-<Northing>361950</Northing>
-<Longitude>-2.396801</Longitude>
-<Latitude>53.154041</Latitude>
+<Easting>373573</Easting>
+<Northing>361949</Northing>
+<Longitude>-2.396641</Longitude>
+<Latitude>53.15403</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -3182,7 +3167,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-09-11T13:13:00.752" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:39:28.101" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO056</AtcoCode>
 <NaptanCode>CHEMAMP</NaptanCode>
 <Descriptor>
@@ -3223,7 +3208,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-02-15T15:50:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:39:56.676" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO057</AtcoCode>
 <NaptanCode>CHEMAMT</NaptanCode>
 <Descriptor>
@@ -4433,7 +4418,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-01-08T09:01:26.000" Modification="revise" RevisionNumber="5" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-05-21T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T12:57:11.409" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO085</AtcoCode>
 <NaptanCode>CHEAPGP</NaptanCode>
 <Descriptor>
@@ -5319,7 +5304,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-22T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-06-30T15:17:30.419" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T15:21:04.247" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CO105</AtcoCode>
 <NaptanCode>CHEAPJG</NaptanCode>
 <Descriptor>
@@ -5362,7 +5347,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-22T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-10-01T14:10:09.501" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T12:58:24.724" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO106</AtcoCode>
 <NaptanCode>CHEMDGW</NaptanCode>
 <Descriptor>
@@ -6315,7 +6300,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:38:30.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:42.526" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO134</AtcoCode>
 <NaptanCode>CHEAPTD</NaptanCode>
 <Descriptor>
@@ -6331,10 +6316,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>382992</Easting>
-<Northing>355139</Northing>
-<Longitude>-2.255426</Longitude>
-<Latitude>53.093204</Latitude>
+<Easting>382996</Easting>
+<Northing>355142</Northing>
+<Longitude>-2.255372</Longitude>
+<Latitude>53.093234</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -6358,7 +6343,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-04-28T00:00:00.000" Modification="revise" RevisionNumber="5" Status="active">STOKEOT</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:37:43.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:49.553" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO135</AtcoCode>
 <NaptanCode>CHEAPTG</NaptanCode>
 <Descriptor>
@@ -7362,7 +7347,7 @@
 <PlusbusZoneRef CreationDateTime="2004-03-01T00:00:00.000" ModificationDateTime="2011-09-20T07:59:47.000" Modification="revise" RevisionNumber="5" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2021-08-09T11:31:27.979" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-08T14:55:03.348" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO157</AtcoCode>
 <NaptanCode>CHEMDJD</NaptanCode>
 <Descriptor>
@@ -7865,13 +7850,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-03-05T09:58:23.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T14:03:09.467" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO169</AtcoCode>
 <NaptanCode>CHEAPWP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bull Ring</CommonName>
-<ShortCommonName xml:lang="en">Bull Ring</ShortCommonName>
-<Landmark xml:lang="en">Bull Ring</Landmark>
+<ShortCommonName xml:lang="en">Middlewich Bull Ring</ShortCommonName>
 <Street xml:lang="en">The Bull Ring</Street>
 <Indicator xml:lang="en">o/s</Indicator>
 </Descriptor>
@@ -8152,13 +8136,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-08-13T08:46:15.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T14:03:33.594" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO172</AtcoCode>
 <NaptanCode>CHEMDWM</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Waters Edge Medical Centre</CommonName>
 <ShortCommonName xml:lang="en">Waters Edge Medical Centre</ShortCommonName>
-<Landmark xml:lang="en">Waters Edge Medical Centre</Landmark>
 <Street xml:lang="en">Leadsmithy Street</Street>
 <Crossing xml:lang="en">Kinderton Street</Crossing>
 <Indicator xml:lang="en">nr</Indicator>
@@ -11951,7 +11934,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-08-06T00:00:00.000" ModificationDateTime="2019-07-04T15:49:47.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-08-06T00:00:00.000" ModificationDateTime="2026-09-14T14:49:10.648" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO19021</AtcoCode>
 <NaptanCode>CHEWAGD</NaptanCode>
 <Descriptor>
@@ -11959,7 +11942,6 @@
 <ShortCommonName xml:lang="en">Trinity Place</ShortCommonName>
 <Landmark xml:lang="en">Trinity Place</Landmark>
 <Street xml:lang="en">Boundary Lane</Street>
-<Crossing xml:lang="en">Trinity Place</Crossing>
 <Indicator xml:lang="en">cnr</Indicator>
 </Descriptor>
 <Place>
@@ -11969,9 +11951,9 @@
 <Translation>
 <GridType>UKOS</GridType>
 <Easting>387464</Easting>
-<Northing>361778</Northing>
-<Longitude>-2.18891</Longitude>
-<Latitude>53.153006</Latitude>
+<Northing>361783</Northing>
+<Longitude>-2.188909</Longitude>
+<Latitude>53.15305</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -11995,7 +11977,7 @@
 <PlusbusZoneRef CreationDateTime="2007-08-06T00:00:00.000" ModificationDateTime="2009-07-30T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-08-06T00:00:00.000" ModificationDateTime="2019-07-04T15:49:27.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2007-08-06T00:00:00.000" ModificationDateTime="2026-09-14T14:44:37.153" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO19022</AtcoCode>
 <NaptanCode>CHEWAGJ</NaptanCode>
 <Descriptor>
@@ -13689,7 +13671,7 @@
 <PlusbusZoneRef CreationDateTime="2009-02-10T00:00:00.000" ModificationDateTime="2013-02-15T15:54:49.000" Modification="revise" RevisionNumber="5" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2009-06-04T00:00:00.000" ModificationDateTime="2026-01-26T10:53:51.121" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2009-06-04T00:00:00.000" ModificationDateTime="2026-09-21T11:24:11.549" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CO19068</AtcoCode>
 <NaptanCode>CHEWMTW</NaptanCode>
 <Descriptor>
@@ -14713,16 +14695,15 @@
 <PlusbusZoneRef CreationDateTime="2010-09-23T00:00:00.000" ModificationDateTime="2014-05-07T12:37:31.000" Modification="revise" RevisionNumber="4" Status="inactive">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2010-09-29T00:00:00.000" ModificationDateTime="2011-11-16T08:19:49.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2010-09-29T00:00:00.000" ModificationDateTime="2026-11-04T13:38:51.878" Modification="revise" RevisionNumber="12" Status="inactive">
 <AtcoCode>0600CO19097</AtcoCode>
 <NaptanCode>cheadgwj</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Cledford Bridge</CommonName>
-<ShortCommonName xml:lang="en">Cledford Bridge</ShortCommonName>
-<Landmark xml:lang="en">Cledford Bridge</Landmark>
+<CommonName xml:lang="en">Cross Lane</CommonName>
+<ShortCommonName xml:lang="en">Cross Lane</ShortCommonName>
 <Street xml:lang="en">Cross Lane</Street>
 <Crossing xml:lang="en">Booth Lane</Crossing>
-<Indicator xml:lang="en">nr</Indicator>
+<Indicator xml:lang="en">NE-bound</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0044269</NptgLocalityRef>
@@ -14752,6 +14733,15 @@
 </OnStreet>
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-11-04</StartDate>
+</DateRange>
+<Suspended />
+<Note>Agreed with operator to remove inaccessible stop</Note>
+</StopValidity>
+</StopAvailability>
 </StopPoint>
 <StopPoint CreationDateTime="2010-10-26T00:00:00.000" ModificationDateTime="2021-08-02T15:24:32.896" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>0600CO19098</AtcoCode>
@@ -17774,7 +17764,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2013-07-05T11:49:47.000" ModificationDateTime="2018-05-30T08:27:35.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2013-07-05T11:49:47.000" ModificationDateTime="2026-09-16T08:57:08.988" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CO19169</AtcoCode>
 <NaptanCode>cheadwja</NaptanCode>
 <Descriptor>
@@ -18940,13 +18930,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:34:53.201" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:45:08.254" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CO210</AtcoCode>
 <NaptanCode>chepwjg</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Congleton Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Congleton Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Stand 1</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -18987,16 +18976,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">CONGLTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:34:10.287" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:45:22.420" Modification="revise" RevisionNumber="18" Status="active">
 <AtcoCode>0600CO211</AtcoCode>
 <NaptanCode>cheptwa</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Congleton Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Congleton Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Stand 2</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -19037,16 +19025,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">CONGLTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:33:37.606" Modification="revise" RevisionNumber="16" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:45:34.277" Modification="revise" RevisionNumber="18" Status="active">
 <AtcoCode>0600CO212</AtcoCode>
 <NaptanCode>cheptwd</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Congleton Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Congleton Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Stand 3</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -19087,7 +19074,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="9" Status="active">CONGLTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-10-17T09:05:58.151" Modification="revise" RevisionNumber="8" Status="inactive">
@@ -19297,7 +19284,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-10-02T09:05:13.495" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:57:42.980" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO218</AtcoCode>
 <NaptanCode>cheagpdp</NaptanCode>
 <Descriptor>
@@ -19388,7 +19375,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-06-18T14:27:31.000" Modification="revise" RevisionNumber="3" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:49:38.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:57:19.423" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO220</AtcoCode>
 <NaptanCode>CHEMGJM</NaptanCode>
 <Descriptor>
@@ -19432,7 +19419,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-02-15T15:04:49.000" Modification="revise" RevisionNumber="4" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:51:00.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:56:55.990" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO221</AtcoCode>
 <NaptanCode>CHEMGJP</NaptanCode>
 <Descriptor>
@@ -19476,7 +19463,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-07-13T11:56:01.000" Modification="revise" RevisionNumber="4" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-12-10T11:22:32.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:53:49.949" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO222</AtcoCode>
 <NaptanCode>CHEMGJT</NaptanCode>
 <Descriptor>
@@ -19520,7 +19507,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-12-10T11:22:32.000" Modification="revise" RevisionNumber="4" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:57:08.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:51:20.209" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO223</AtcoCode>
 <NaptanCode>CHEMGJW</NaptanCode>
 <Descriptor>
@@ -19564,7 +19551,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-12-10T09:02:16.000" Modification="revise" RevisionNumber="3" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:56:58.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:52:26.505" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO224</AtcoCode>
 <NaptanCode>CHEMGMA</NaptanCode>
 <Descriptor>
@@ -19691,7 +19678,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-07-04T14:51:43.000" Modification="revise" RevisionNumber="7" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:57:16.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:50:57.687" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO226</AtcoCode>
 <NaptanCode>CHEMGMG</NaptanCode>
 <Descriptor>
@@ -20773,7 +20760,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-08-21T10:51:31.000" Modification="revise" RevisionNumber="4" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-10-16T14:55:52.118" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:59:29.386" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO249</AtcoCode>
 <NaptanCode>CHEATJT</NaptanCode>
 <Descriptor>
@@ -20994,7 +20981,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-02-15T12:36:28.000" Modification="revise" RevisionNumber="5" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:56:39.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:53:18.404" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO254</AtcoCode>
 <NaptanCode>CHEMGTW</NaptanCode>
 <Descriptor>
@@ -21125,7 +21112,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-02-15T15:50:30.000" Modification="revise" RevisionNumber="3" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:56:48.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:50:38.265" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO257</AtcoCode>
 <NaptanCode>CHEMGWG</NaptanCode>
 <Descriptor>
@@ -21213,7 +21200,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-02-15T15:05:04.000" Modification="revise" RevisionNumber="3" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:49:18.000" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:49:45.198" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO259</AtcoCode>
 <NaptanCode>CHEATMA</NaptanCode>
 <Descriptor>
@@ -21345,7 +21332,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-08-29T13:08:14.841" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T14:50:09.007" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO262</AtcoCode>
 <NaptanCode>CHEMGWP</NaptanCode>
 <Descriptor>
@@ -21388,7 +21375,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-07-04T15:52:17.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-14T15:15:43.890" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO263</AtcoCode>
 <NaptanCode>CHEMGWT</NaptanCode>
 <Descriptor>
@@ -23308,7 +23295,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-18T08:44:49.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-17T14:44:44.487" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CO5044</AtcoCode>
 <NaptanCode>CHEPJWA</NaptanCode>
 <Descriptor>
@@ -24572,7 +24559,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-03-11T00:00:00.000" ModificationDateTime="2011-05-20T09:28:49.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2003-03-11T00:00:00.000" ModificationDateTime="2026-09-16T12:58:46.321" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CO5085</AtcoCode>
 <NaptanCode>chepmjw</NaptanCode>
 <Descriptor>
@@ -26223,12 +26210,11 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-05-16T00:00:00.000" ModificationDateTime="2026-07-09T12:35:44.412" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-05-16T00:00:00.000" ModificationDateTime="2026-10-01T13:45:45.263" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO661TAX</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Congleton Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Congleton Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Taxi Rank</Indicator>
 </Descriptor>
 <Place>
@@ -26257,7 +26243,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-05-16T00:00:00.000" ModificationDateTime="2010-03-30T00:00:00.000" Modification="revise" RevisionNumber="5" Status="active">CONGLTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-08-14T00:00:00.000" ModificationDateTime="2009-06-10T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
@@ -26500,12 +26486,11 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-26T00:00:00.000" ModificationDateTime="2026-07-09T12:36:30.151" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-08-26T00:00:00.000" ModificationDateTime="2026-10-01T13:45:59.828" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600COBSENT</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Congleton Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Congleton Bus Station</ShortCommonName>
 <Indicator xml:lang="en">ent</Indicator>
 </Descriptor>
 <Place>
@@ -26534,7 +26519,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-08-26T00:00:00.000" ModificationDateTime="2009-07-31T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">CONGLTN</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CONGLTN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2009-08-25T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
@@ -27818,7 +27803,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:32:51.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:09:53.566" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR001</AtcoCode>
 <NaptanCode>CHEJAPD</NaptanCode>
 <Descriptor>
@@ -27859,7 +27844,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:30:42.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:09:57.244" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR002</AtcoCode>
 <NaptanCode>CHEJAPG</NaptanCode>
 <Descriptor>
@@ -27900,7 +27885,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-10-01T12:13:31.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:05:45.573" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR003</AtcoCode>
 <NaptanCode>CHEJAPJ</NaptanCode>
 <Descriptor>
@@ -27973,7 +27958,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2021-11-24T15:55:12.282" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:05:50.164" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR004</AtcoCode>
 <NaptanCode>CHEJAPM</NaptanCode>
 <Descriptor>
@@ -28013,7 +27998,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-02-03T00:00:00.000" ModificationDateTime="2018-05-30T10:07:52.000" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2003-02-03T00:00:00.000" ModificationDateTime="2026-09-16T09:07:14.494" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR005</AtcoCode>
 <NaptanCode>CHEGPMW</NaptanCode>
 <Descriptor>
@@ -28054,7 +28039,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T10:16:02.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:10:55.518" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR006</AtcoCode>
 <NaptanCode>CHEJAPT</NaptanCode>
 <Descriptor>
@@ -28094,7 +28079,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-28T07:57:55.968" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:54:57.954" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR007</AtcoCode>
 <NaptanCode>CHEJAPW</NaptanCode>
 <Descriptor>
@@ -28136,7 +28121,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-28T15:07:46.547" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:53:10.507" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR008</AtcoCode>
 <NaptanCode>CHEJATA</NaptanCode>
 <Descriptor>
@@ -28179,7 +28164,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:26:56.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:07:33.093" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR009</AtcoCode>
 <NaptanCode>CHEJATD</NaptanCode>
 <Descriptor>
@@ -28223,7 +28208,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-16T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:26:32.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:07:44.011" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR010</AtcoCode>
 <NaptanCode>CHEJATG</NaptanCode>
 <Descriptor>
@@ -28267,7 +28252,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-16T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-04-02T11:02:18.129" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:57:58.943" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR011</AtcoCode>
 <NaptanCode>CHEJATJ</NaptanCode>
 <Descriptor>
@@ -28309,7 +28294,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:24:11.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:58:01.744" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR012</AtcoCode>
 <NaptanCode>CHEJATM</NaptanCode>
 <Descriptor>
@@ -28352,7 +28337,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-09-26T13:21:59.000" Modification="revise" RevisionNumber="5" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-06-11T10:18:48.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:53:12.872" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR013</AtcoCode>
 <NaptanCode>CHEJATP</NaptanCode>
 <Descriptor>
@@ -28398,7 +28383,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-09T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:10:23.778" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:29.514" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR014</AtcoCode>
 <NaptanCode>chejatw</NaptanCode>
 <Descriptor>
@@ -28444,7 +28429,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-06-23T08:42:47.000" Modification="revise" RevisionNumber="5" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:42:24.731" Modification="revise" RevisionNumber="16" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:55:18.968" Modification="revise" RevisionNumber="17" Status="active">
 <AtcoCode>0600CR015</AtcoCode>
 <NaptanCode>chejawa</NaptanCode>
 <Descriptor>
@@ -28496,7 +28481,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-01-07T15:29:57.000" Modification="revise" RevisionNumber="9" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:42:31.549" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:55:24.602" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR016</AtcoCode>
 <NaptanCode>chejawd</NaptanCode>
 <Descriptor>
@@ -28548,7 +28533,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-01-07T15:30:07.000" Modification="revise" RevisionNumber="7" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:27:58.916" Modification="revise" RevisionNumber="18" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:53:22.730" Modification="revise" RevisionNumber="19" Status="active">
 <AtcoCode>0600CR017</AtcoCode>
 <NaptanCode>chejawg</NaptanCode>
 <Descriptor>
@@ -28591,7 +28576,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-22T15:49:42.000" Modification="revise" RevisionNumber="10" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:49:45.514" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:53.813" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR018</AtcoCode>
 <NaptanCode>chejawj</NaptanCode>
 <Descriptor>
@@ -28634,7 +28619,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-08-17T11:30:18.000" Modification="revise" RevisionNumber="7" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:48:56.733" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T08:56:29.253" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR019</AtcoCode>
 <NaptanCode>cheadwg</NaptanCode>
 <Descriptor>
@@ -28735,7 +28720,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-02-27T12:22:14.000" Modification="revise" RevisionNumber="8" Status="inactive">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-03-02T17:06:09.356" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:08:16.384" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR021</AtcoCode>
 <NaptanCode>chejawm</NaptanCode>
 <Descriptor>
@@ -28786,11 +28771,11 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-07-01T10:15:14.000" Modification="revise" RevisionNumber="10" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:06:20.046" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:11.297" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR023</AtcoCode>
 <NaptanCode>chejawp</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Mill Street Alighting Only</CommonName>
+<CommonName xml:lang="en">Mill Street</CommonName>
 <ShortCommonName xml:lang="en">Mill Street</ShortCommonName>
 <Landmark xml:lang="en">Mill Street</Landmark>
 <Street xml:lang="en">Nantwich Road</Street>
@@ -28873,7 +28858,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-15T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-10-01T09:17:59.685" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-24T15:28:11.981" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR025</AtcoCode>
 <NaptanCode>CHEJDAD</NaptanCode>
 <Descriptor>
@@ -29005,7 +28990,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-05-22T12:03:03.000" Modification="revise" RevisionNumber="5" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:00:09.091" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:35.698" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR028</AtcoCode>
 <NaptanCode>CHEJDAM</NaptanCode>
 <Descriptor>
@@ -29049,7 +29034,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:44.792" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:41.291" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR029</AtcoCode>
 <NaptanCode>cheadwm</NaptanCode>
 <Descriptor>
@@ -29093,7 +29078,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-09-26T13:50:59.000" Modification="revise" RevisionNumber="4" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:42:38.135" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:06.130" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR030</AtcoCode>
 <NaptanCode>CHEADWP</NaptanCode>
 <Descriptor>
@@ -29137,7 +29122,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-09-26T13:48:43.000" Modification="revise" RevisionNumber="4" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:58:08.663" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:13.817" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR031</AtcoCode>
 <NaptanCode>CHEJDAP</NaptanCode>
 <Descriptor>
@@ -29181,7 +29166,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-15T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-12-15T12:31:14.256" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:10:02.036" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR032</AtcoCode>
 <NaptanCode>CHEJDAT</NaptanCode>
 <Descriptor>
@@ -29224,7 +29209,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-08-23T13:39:10.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-12-15T13:42:26.935" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:10:06.077" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR033</AtcoCode>
 <NaptanCode>chejdaw</NaptanCode>
 <Descriptor>
@@ -30953,7 +30938,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-09T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-05T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-28T07:19:18.487" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR070</AtcoCode>
 <NaptanCode>CHEJDPW</NaptanCode>
 <Descriptor>
@@ -30997,7 +30982,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-05T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-05T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-28T07:17:54.632" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR071</AtcoCode>
 <NaptanCode>CHEJDTA</NaptanCode>
 <Descriptor>
@@ -32084,7 +32069,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:15:02.572" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:33.885" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR088</AtcoCode>
 <NaptanCode>CHEJDWP</NaptanCode>
 <Descriptor>
@@ -32653,7 +32638,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-02-22T09:12:09.000" Modification="revise" RevisionNumber="3" Status="inactive">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-06T13:57:55.957" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-28T07:52:55.035" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR101</AtcoCode>
 <NaptanCode>CHEAGMA</NaptanCode>
 <Descriptor>
@@ -34739,7 +34724,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-03-18T14:13:03.000" Modification="revise" RevisionNumber="4" Status="inactive">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-04-09T10:25:46.901" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-17T10:22:19.300" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR123</AtcoCode>
 <NaptanCode>cheagpm</NaptanCode>
 <Descriptor>
@@ -35855,7 +35840,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2017-03-06T15:48:01.000" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-24T15:27:54.570" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR145</AtcoCode>
 <NaptanCode>CHEJGMW</NaptanCode>
 <Descriptor>
@@ -35987,7 +35972,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-19T14:59:02.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T09:54:11.898" Modification="revise" RevisionNumber="18" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-28T06:49:44.928" Modification="revise" RevisionNumber="19" Status="active">
 <AtcoCode>0600CR147</AtcoCode>
 <NaptanCode>CHEAGTM</NaptanCode>
 <Descriptor>
@@ -37186,7 +37171,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:00:07.056" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:23.074" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR169</AtcoCode>
 <NaptanCode>CHEJGWG</NaptanCode>
 <Descriptor>
@@ -37230,7 +37215,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-15T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:00:10.001" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:26.015" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR170</AtcoCode>
 <NaptanCode>CHEJGWJ</NaptanCode>
 <Descriptor>
@@ -37281,7 +37266,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-07T10:30:17.712" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:30:27.055" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR171</AtcoCode>
 <NaptanCode>CHEJGWM</NaptanCode>
 <Descriptor>
@@ -37324,7 +37309,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:04:47.067" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:30:37.990" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR172</AtcoCode>
 <NaptanCode>CHEJGWP</NaptanCode>
 <Descriptor>
@@ -37655,7 +37640,7 @@
 <PlusbusZoneRef CreationDateTime="2005-06-01T00:00:00.000" ModificationDateTime="2011-07-05T13:36:50.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:09:37.874" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:58.198" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR173</AtcoCode>
 <NaptanCode>CHEJGWT</NaptanCode>
 <Descriptor>
@@ -37699,7 +37684,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-04T00:00:00.000" ModificationDateTime="2026-05-13T11:12:34.365" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2005-07-04T00:00:00.000" ModificationDateTime="2026-09-16T09:34:57.330" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR17318</AtcoCode>
 <NaptanCode>CHETGJG</NaptanCode>
 <Descriptor>
@@ -37827,7 +37812,7 @@
 <PlusbusZoneRef CreationDateTime="2005-07-07T00:00:00.000" ModificationDateTime="2011-10-06T09:03:01.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-07-12T00:00:00.000" ModificationDateTime="2026-05-13T11:07:46.339" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2005-07-12T00:00:00.000" ModificationDateTime="2026-09-16T09:32:05.304" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR17350</AtcoCode>
 <NaptanCode>CHETGJP</NaptanCode>
 <Descriptor>
@@ -38304,7 +38289,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:10:06.144" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:01.271" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR174</AtcoCode>
 <NaptanCode>CHEJMAD</NaptanCode>
 <Descriptor>
@@ -38467,7 +38452,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-30T00:00:00.000" ModificationDateTime="2026-05-13T11:10:28.275" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2005-08-30T00:00:00.000" ModificationDateTime="2026-09-16T09:33:20.052" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR17443</AtcoCode>
 <NaptanCode>CHETGWA</NaptanCode>
 <Descriptor>
@@ -38510,7 +38495,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-08-30T00:00:00.000" ModificationDateTime="2026-05-13T11:10:32.283" Modification="revise" RevisionNumber="17" Status="active">
+<StopPoint CreationDateTime="2005-08-30T00:00:00.000" ModificationDateTime="2026-09-16T09:33:23.622" Modification="revise" RevisionNumber="18" Status="active">
 <AtcoCode>0600CR17445</AtcoCode>
 <NaptanCode>CHETJAG</NaptanCode>
 <Descriptor>
@@ -38600,7 +38585,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:25.809" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:25.322" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR175</AtcoCode>
 <NaptanCode>CHEAGWJ</NaptanCode>
 <Descriptor>
@@ -38684,7 +38669,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:33.051" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:27.980" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR176</AtcoCode>
 <NaptanCode>CHEAGWM</NaptanCode>
 <Descriptor>
@@ -38886,7 +38871,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T10:59:48.332" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:07.049" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR177</AtcoCode>
 <NaptanCode>chejmag</NaptanCode>
 <Descriptor>
@@ -39571,7 +39556,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T10:59:52.384" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:10.436" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR178</AtcoCode>
 <NaptanCode>CHEJMAJ</NaptanCode>
 <Descriptor>
@@ -39936,7 +39921,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-01-17T00:00:00.000" ModificationDateTime="2026-05-13T11:10:17.903" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-01-17T00:00:00.000" ModificationDateTime="2026-09-16T09:33:13.670" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR17877</AtcoCode>
 <NaptanCode>CHETJGJ</NaptanCode>
 <Descriptor>
@@ -40500,7 +40485,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:04:41.023" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:30:23.543" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR188</AtcoCode>
 <NaptanCode>CHEJMDA</NaptanCode>
 <Descriptor>
@@ -40544,7 +40529,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-15T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:35.840" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:31.572" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR189</AtcoCode>
 <NaptanCode>CHEJMDG</NaptanCode>
 <Descriptor>
@@ -40928,7 +40913,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-01-22T00:00:00.000" ModificationDateTime="2018-06-11T09:49:02.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2007-01-22T00:00:00.000" ModificationDateTime="2026-09-16T08:53:16.820" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR19028</AtcoCode>
 <NaptanCode>CHETWJT</NaptanCode>
 <Descriptor>
@@ -41110,7 +41095,7 @@
 <PlusbusZoneRef CreationDateTime="2007-03-05T00:00:00.000" ModificationDateTime="2009-06-15T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2007-03-20T00:00:00.000" ModificationDateTime="2026-05-13T11:04:49.556" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2007-03-20T00:00:00.000" ModificationDateTime="2026-09-16T09:30:40.954" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR19032</AtcoCode>
 <NaptanCode>CHETWPD</NaptanCode>
 <Descriptor>
@@ -41492,7 +41477,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-06-04T00:00:00.000" ModificationDateTime="2026-05-13T11:14:53.099" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2007-06-04T00:00:00.000" ModificationDateTime="2026-09-16T09:35:26.986" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR19041</AtcoCode>
 <NaptanCode>CHETWTW</NaptanCode>
 <Descriptor>
@@ -41897,7 +41882,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-04T00:00:00.000" ModificationDateTime="2026-05-13T11:05:43.860" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2007-09-04T00:00:00.000" ModificationDateTime="2026-09-16T09:31:09.446" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR19052</AtcoCode>
 <NaptanCode>CHEWAJG</NaptanCode>
 <Descriptor>
@@ -41940,7 +41925,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2007-09-04T00:00:00.000" ModificationDateTime="2026-05-13T11:05:54.068" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2007-09-04T00:00:00.000" ModificationDateTime="2026-09-16T09:31:12.655" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR19053</AtcoCode>
 <NaptanCode>CHEWAJM</NaptanCode>
 <Descriptor>
@@ -44199,7 +44184,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2009-08-24T00:00:00.000" ModificationDateTime="2026-05-13T11:06:55.805" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2009-08-24T00:00:00.000" ModificationDateTime="2026-09-16T09:31:20.070" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR19118</AtcoCode>
 <NaptanCode>CHEWTDW</NaptanCode>
 <Descriptor>
@@ -45615,7 +45600,7 @@
 <PlusbusZoneRef CreationDateTime="2009-09-28T00:00:00.000" ModificationDateTime="2011-03-11T16:46:33.000" Modification="revise" RevisionNumber="1" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2009-09-28T00:00:00.000" ModificationDateTime="2026-05-13T11:10:24.134" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2009-09-28T00:00:00.000" ModificationDateTime="2026-09-16T09:33:16.942" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR19152</AtcoCode>
 <NaptanCode>cheadatp</NaptanCode>
 <Descriptor>
@@ -45697,7 +45682,7 @@
 <PlusbusZoneRef CreationDateTime="2009-10-22T00:00:00.000" ModificationDateTime="2010-04-28T00:00:00.000" Modification="revise" RevisionNumber="4" Status="inactive">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2009-10-23T00:00:00.000" ModificationDateTime="2026-05-13T11:04:34.194" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2009-10-23T00:00:00.000" ModificationDateTime="2026-09-16T09:30:17.212" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR19155</AtcoCode>
 <NaptanCode>cheadawp</NaptanCode>
 <Descriptor>
@@ -46400,7 +46385,7 @@
 <PlusbusZoneRef CreationDateTime="2010-12-23T09:38:24.000" ModificationDateTime="2010-12-23T00:00:00.000" Modification="new" RevisionNumber="0" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2011-03-02T11:40:30.000" ModificationDateTime="2026-05-13T11:10:37.521" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2011-03-02T11:40:30.000" ModificationDateTime="2026-09-16T09:33:27.797" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR19173</AtcoCode>
 <NaptanCode>cheadmga</NaptanCode>
 <Descriptor>
@@ -47316,7 +47301,7 @@
 <PlusbusZoneRef CreationDateTime="2012-06-20T15:01:04.000" ModificationDateTime="2012-06-20T15:01:04.000" Modification="new" RevisionNumber="0" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2012-07-31T13:46:34.000" ModificationDateTime="2026-05-13T11:07:51.182" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2012-07-31T13:46:34.000" ModificationDateTime="2026-09-16T09:32:10.872" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR19199</AtcoCode>
 <NaptanCode>cheadtgt</NaptanCode>
 <Descriptor>
@@ -48522,7 +48507,7 @@
 <PlusbusZoneRef CreationDateTime="2012-12-07T14:53:22.000" ModificationDateTime="2012-12-07T14:53:22.000" Modification="new" RevisionNumber="0" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2012-12-07T14:59:56.000" ModificationDateTime="2014-07-01T10:14:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2012-12-07T14:59:56.000" ModificationDateTime="2026-10-27T08:19:26.691" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR19225</AtcoCode>
 <NaptanCode>cheadwat</NaptanCode>
 <Descriptor>
@@ -51040,7 +51025,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:05:58.586" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:04.133" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR237</AtcoCode>
 <NaptanCode>CHEJWTP</NaptanCode>
 <Descriptor>
@@ -51084,7 +51069,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-06-12T15:16:42.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:48:38.672" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:16.199" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR238</AtcoCode>
 <NaptanCode>CHEJWTW</NaptanCode>
 <Descriptor>
@@ -51606,7 +51591,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-06-17T10:46:22.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T14:17:55.847" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR248</AtcoCode>
 <NaptanCode>CHEJWTJ</NaptanCode>
 <Descriptor>
@@ -51850,7 +51835,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:48.767" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:08.166" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR254</AtcoCode>
 <NaptanCode>CHEJMTP</NaptanCode>
 <Descriptor>
@@ -51890,7 +51875,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:10:56.164" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:56.917" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR255</AtcoCode>
 <NaptanCode>CHEJMTW</NaptanCode>
 <Descriptor>
@@ -51930,7 +51915,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:10:58.392" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:59.841" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR256</AtcoCode>
 <NaptanCode>CHEJMWA</NaptanCode>
 <Descriptor>
@@ -52093,7 +52078,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:18:37.377" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:50.481" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR259</AtcoCode>
 <NaptanCode>CHEJMWJ</NaptanCode>
 <Descriptor>
@@ -52549,7 +52534,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:43.361" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:01.636" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR270</AtcoCode>
 <NaptanCode>CHEJPAJ</NaptanCode>
 <Descriptor>
@@ -52630,7 +52615,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:10:46.302" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:31.108" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR272</AtcoCode>
 <NaptanCode>CHEJPAP</NaptanCode>
 <Descriptor>
@@ -52673,7 +52658,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:09:32.042" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:46.740" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR273</AtcoCode>
 <NaptanCode>CHEAJMJ</NaptanCode>
 <Descriptor>
@@ -52714,7 +52699,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:09:35.208" Modification="revise" RevisionNumber="16" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:54.830" Modification="revise" RevisionNumber="17" Status="active">
 <AtcoCode>0600CR274</AtcoCode>
 <NaptanCode>CHEAJMP</NaptanCode>
 <Descriptor>
@@ -53159,7 +53144,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:12:37.986" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:00.725" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR285</AtcoCode>
 <NaptanCode>CHEJPDT</NaptanCode>
 <Descriptor>
@@ -53200,13 +53185,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-02-25T14:08:53.226" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:46:19.317" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR286</AtcoCode>
 <NaptanCode>cheptpj</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Street xml:lang="en">Beam Street</Street>
 <Indicator xml:lang="en">Stand E</Indicator>
 </Descriptor>
@@ -53245,13 +53229,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-02-25T14:07:58.290" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:46:30.637" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR287</AtcoCode>
 <NaptanCode>chepwj</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Street xml:lang="en">Beam Street</Street>
 <Indicator xml:lang="en">Stand B</Indicator>
 </Descriptor>
@@ -53290,13 +53273,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:04:58.587" Modification="revise" RevisionNumber="16" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:46:43.791" Modification="revise" RevisionNumber="19" Status="active">
 <AtcoCode>0600CR288</AtcoCode>
 <NaptanCode>cheptpm</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Street xml:lang="en">Beam Street</Street>
 <Indicator xml:lang="en">Stand A</Indicator>
 </Descriptor>
@@ -53335,13 +53317,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-02-25T14:08:34.241" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:46:55.080" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR289</AtcoCode>
 <NaptanCode>cheptpt</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Street xml:lang="en">Beam Street</Street>
 <Indicator xml:lang="en">Stand D</Indicator>
 </Descriptor>
@@ -53380,13 +53361,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:05:25.316" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:47:07.178" Modification="revise" RevisionNumber="17" Status="active">
 <AtcoCode>0600CR290</AtcoCode>
 <NaptanCode>cheptpw</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Street xml:lang="en">Beam Street</Street>
 <Indicator xml:lang="en">Stand C</Indicator>
 </Descriptor>
@@ -55607,7 +55587,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-10-30T07:44:56.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:12:14.084" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:50.930" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR338</AtcoCode>
 <NaptanCode>CHEAJTW</NaptanCode>
 <Descriptor>
@@ -55650,7 +55630,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:02.009" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:27.726" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR339</AtcoCode>
 <NaptanCode>CHEJPWT</NaptanCode>
 <Descriptor>
@@ -55692,7 +55672,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:06:59.208" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:24.609" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR340</AtcoCode>
 <NaptanCode>CHEJTAD</NaptanCode>
 <Descriptor>
@@ -55779,7 +55759,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-11-03T15:16:43.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:12:25.296" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:53.865" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR342</AtcoCode>
 <NaptanCode>CHEJTAJ</NaptanCode>
 <Descriptor>
@@ -55822,7 +55802,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:14:58.231" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:30.088" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR343</AtcoCode>
 <NaptanCode>CHEJTAM</NaptanCode>
 <Descriptor>
@@ -55865,7 +55845,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:08:38.911" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:27.852" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR344</AtcoCode>
 <NaptanCode>CHEAJWA</NaptanCode>
 <Descriptor>
@@ -55908,7 +55888,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:03.075" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:04.106" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR345</AtcoCode>
 <NaptanCode>CHEAJWD</NaptanCode>
 <Descriptor>
@@ -55952,7 +55932,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-10T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-12T10:05:24.574" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:09.573" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR346</AtcoCode>
 <NaptanCode>CHEAJWG</NaptanCode>
 <Descriptor>
@@ -56435,13 +56415,12 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-22T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-19T15:04:37.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:54:42.803" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR357</AtcoCode>
 <NaptanCode>CHEJTDT</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">White Lion Inn</CommonName>
 <ShortCommonName xml:lang="en">Weston White Lion</ShortCommonName>
-<Landmark xml:lang="en">St John's Church</Landmark>
 <Street xml:lang="en">Main Road</Street>
 <Crossing xml:lang="en">Cemetery Road</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
@@ -56481,16 +56460,15 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-19T15:04:37.000" Modification="revise" RevisionNumber="7" Status="active">CREWE</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-19T15:04:23.000" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:54:51.315" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR358</AtcoCode>
 <NaptanCode>CHEJTDW</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">White Lion Inn</CommonName>
 <ShortCommonName xml:lang="en">Weston White Lion</ShortCommonName>
-<Landmark xml:lang="en">St John's Church</Landmark>
 <Street xml:lang="en">Main Road</Street>
 <Crossing xml:lang="en">Cemetery Road</Crossing>
 <Indicator xml:lang="en">nr</Indicator>
@@ -56530,7 +56508,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-11-19T15:04:23.000" Modification="revise" RevisionNumber="7" Status="active">CREWE</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-08-23T11:23:00.000" Modification="revise" RevisionNumber="3" Status="active">
@@ -56698,7 +56676,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-10-16T14:24:51.891" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:08:59.397" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR363</AtcoCode>
 <NaptanCode>CHEJTGP</NaptanCode>
 <Descriptor>
@@ -56741,7 +56719,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-06-23T09:12:03.000" Modification="revise" RevisionNumber="6" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-12-15T16:27:56.566" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:08:23.209" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR364</AtcoCode>
 <NaptanCode>chejtgt</NaptanCode>
 <Descriptor>
@@ -56786,7 +56764,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-06-23T09:14:17.000" Modification="revise" RevisionNumber="6" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:13:04.226" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:37.666" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR365</AtcoCode>
 <NaptanCode>cheajwp</NaptanCode>
 <Descriptor>
@@ -56833,7 +56811,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-22T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:13:30.582" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:43.443" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR366</AtcoCode>
 <NaptanCode>cheajwt</NaptanCode>
 <Descriptor>
@@ -56880,7 +56858,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-06-09T10:52:59.000" Modification="revise" RevisionNumber="5" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T12:10:54.744" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:06:33.583" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR367</AtcoCode>
 <NaptanCode>chejtgw</NaptanCode>
 <Descriptor>
@@ -58323,7 +58301,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-08-06T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:11:05.033" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR411</AtcoCode>
 <NaptanCode>CHEJTPJ</NaptanCode>
 <Descriptor>
@@ -58363,7 +58341,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2018-05-30T10:08:04.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:07:20.647" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR413</AtcoCode>
 <NaptanCode>CHEJTPM</NaptanCode>
 <Descriptor>
@@ -58442,7 +58420,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T10:59:57.251" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:13.577" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR419</AtcoCode>
 <NaptanCode>CHEJTPW</NaptanCode>
 <Descriptor>
@@ -58482,7 +58460,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:00:00.187" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:16.959" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR420</AtcoCode>
 <NaptanCode>CHEJTWA</NaptanCode>
 <Descriptor>
@@ -58522,7 +58500,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:29.754" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:44.178" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR421</AtcoCode>
 <NaptanCode>CHEJTWD</NaptanCode>
 <Descriptor>
@@ -58560,7 +58538,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:32.575" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:47.213" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR422</AtcoCode>
 <NaptanCode>CHEJTWG</NaptanCode>
 <Descriptor>
@@ -58600,7 +58578,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T13:14:28.831" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:35.006" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR423</AtcoCode>
 <NaptanCode>CHEJTWJ</NaptanCode>
 <Descriptor>
@@ -58647,7 +58625,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:41.697" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:38.108" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR424</AtcoCode>
 <NaptanCode>CHEJTWM</NaptanCode>
 <Descriptor>
@@ -58694,7 +58672,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:00:27.935" Modification="revise" RevisionNumber="16" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:53.093" Modification="revise" RevisionNumber="19" Status="active">
 <AtcoCode>0600CR425</AtcoCode>
 <NaptanCode>CHEJWAG</NaptanCode>
 <Descriptor>
@@ -58746,7 +58724,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:00:48.332" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:29:55.652" Modification="revise" RevisionNumber="17" Status="active">
 <AtcoCode>0600CR426</AtcoCode>
 <NaptanCode>CHEJWAJ</NaptanCode>
 <Descriptor>
@@ -58797,7 +58775,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:04.679" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:33.356" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR427</AtcoCode>
 <NaptanCode>CHEJWAM</NaptanCode>
 <Descriptor>
@@ -58838,7 +58816,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:07.317" Modification="revise" RevisionNumber="16" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:36.834" Modification="revise" RevisionNumber="17" Status="active">
 <AtcoCode>0600CR428</AtcoCode>
 <NaptanCode>CHEJWAP</NaptanCode>
 <Descriptor>
@@ -58876,7 +58854,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:13.289" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-13T08:43:12.830" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR429</AtcoCode>
 <NaptanCode>CHEJWAT</NaptanCode>
 <Descriptor>
@@ -58919,7 +58897,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:16.105" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:22.108" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR430</AtcoCode>
 <NaptanCode>CHEJWAW</NaptanCode>
 <Descriptor>
@@ -58962,7 +58940,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:08:19.644" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:16.466" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR431</AtcoCode>
 <NaptanCode>CHEJWDA</NaptanCode>
 <Descriptor>
@@ -59002,7 +58980,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:08:28.563" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:19.008" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR432</AtcoCode>
 <NaptanCode>CHEJWDG</NaptanCode>
 <Descriptor>
@@ -59042,7 +59020,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:08:33.034" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:21.972" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR433</AtcoCode>
 <NaptanCode>CHEJWDJ</NaptanCode>
 <Descriptor>
@@ -59082,7 +59060,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:08:35.388" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:24.992" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR434</AtcoCode>
 <NaptanCode>CHEJWDM</NaptanCode>
 <Descriptor>
@@ -59121,7 +59099,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:11:59.811" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:44.841" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR435</AtcoCode>
 <NaptanCode>CHEJWDP</NaptanCode>
 <Descriptor>
@@ -59161,7 +59139,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:12:05.162" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:34:47.657" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR436</AtcoCode>
 <NaptanCode>CHEJWDT</NaptanCode>
 <Descriptor>
@@ -59201,7 +59179,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:10:12.361" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:07.338" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR437</AtcoCode>
 <NaptanCode>CHEJWDW</NaptanCode>
 <Descriptor>
@@ -59249,7 +59227,7 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:10:15.119" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:10.741" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR438</AtcoCode>
 <NaptanCode>CHEJWGA</NaptanCode>
 <Descriptor>
@@ -59289,7 +59267,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:12:44.710" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:11.670" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR439</AtcoCode>
 <NaptanCode>CHEJWGD</NaptanCode>
 <Descriptor>
@@ -59332,7 +59310,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:12:47.642" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:14.354" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR440</AtcoCode>
 <NaptanCode>CHEJWGJ</NaptanCode>
 <Descriptor>
@@ -59375,7 +59353,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T12:06:03.509" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:36:00.253" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600CR441</AtcoCode>
 <NaptanCode>chejwgm</NaptanCode>
 <Descriptor>
@@ -59467,7 +59445,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:05:37.627" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:02.803" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR443</AtcoCode>
 <NaptanCode>CHEJWGT</NaptanCode>
 <Descriptor>
@@ -59507,7 +59485,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:00:54.891" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:30:08.116" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR444</AtcoCode>
 <NaptanCode>CHEJWGW</NaptanCode>
 <Descriptor>
@@ -59547,7 +59525,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T12:08:24.034" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:30:11.413" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR445</AtcoCode>
 <NaptanCode>CHEJWJA</NaptanCode>
 <Descriptor>
@@ -59587,7 +59565,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T13:29:18.266" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:55.648" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR446</AtcoCode>
 <NaptanCode>CHEJWJD</NaptanCode>
 <Descriptor>
@@ -59626,7 +59604,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:07:39.989" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:31:58.427" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR447</AtcoCode>
 <NaptanCode>CHEJWJG</NaptanCode>
 <Descriptor>
@@ -59666,7 +59644,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T13:28:10.692" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:43.003" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CR448</AtcoCode>
 <NaptanCode>CHEAMJA</NaptanCode>
 <Descriptor>
@@ -59715,7 +59693,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T13:30:05.784" Modification="revise" RevisionNumber="20" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:33:53.328" Modification="revise" RevisionNumber="22" Status="active">
 <AtcoCode>0600CR449</AtcoCode>
 <NaptanCode>CHEAMJD</NaptanCode>
 <Descriptor>
@@ -59763,7 +59741,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-08-10T13:57:05.371" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:39.985" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR450</AtcoCode>
 <NaptanCode>CHEJWJM</NaptanCode>
 <Descriptor>
@@ -59804,7 +59782,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:09:03.204" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:32:43.245" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600CR451</AtcoCode>
 <NaptanCode>CHEJWJP</NaptanCode>
 <Descriptor>
@@ -59845,7 +59823,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:15:06.580" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:37.171" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR452</AtcoCode>
 <NaptanCode>CHEJWJT</NaptanCode>
 <Descriptor>
@@ -59886,7 +59864,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:18:15.633" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:40.675" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR453</AtcoCode>
 <NaptanCode>CHEJWJW</NaptanCode>
 <Descriptor>
@@ -59927,7 +59905,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:04:56.291" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:30:43.717" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR454</AtcoCode>
 <NaptanCode>CHEJWMA</NaptanCode>
 <Descriptor>
@@ -59968,7 +59946,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:18:28.736" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:44.086" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR455</AtcoCode>
 <NaptanCode>CHEJWMD</NaptanCode>
 <Descriptor>
@@ -60008,7 +59986,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:18:32.794" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:47.240" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR456</AtcoCode>
 <NaptanCode>CHEJWMG</NaptanCode>
 <Descriptor>
@@ -60047,7 +60025,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:18:45.607" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:53.719" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR457</AtcoCode>
 <NaptanCode>CHEJWMJ</NaptanCode>
 <Descriptor>
@@ -60088,7 +60066,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:19:54.239" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:56.651" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR458</AtcoCode>
 <NaptanCode>CHEJWMP</NaptanCode>
 <Descriptor>
@@ -60129,7 +60107,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:14:29.922" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:18.762" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR459</AtcoCode>
 <NaptanCode>CHEJWMT</NaptanCode>
 <Descriptor>
@@ -60170,7 +60148,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-13T11:14:45.265" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:35:22.389" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR460</AtcoCode>
 <NaptanCode>CHEJWMW</NaptanCode>
 <Descriptor>
@@ -61070,7 +61048,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2011-07-04T09:10:42.000" Modification="revise" RevisionNumber="4" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-05-21T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:12:19.236" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR494</AtcoCode>
 <NaptanCode>CHEGDTG</NaptanCode>
 <Descriptor>
@@ -61110,7 +61088,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-05-21T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T09:12:14.162" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR495</AtcoCode>
 <NaptanCode>CHEADWD</NaptanCode>
 <Descriptor>
@@ -62933,7 +62911,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2025-06-19T11:58:02.857" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2026-10-28T07:25:29.543" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR638</AtcoCode>
 <NaptanCode>CHEGMTG</NaptanCode>
 <Descriptor>
@@ -62960,13 +62938,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>N</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -63055,7 +63033,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2014-07-01T10:14:25.000" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2026-10-28T06:47:05.313" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR641</AtcoCode>
 <NaptanCode>CHEGMTM</NaptanCode>
 <Descriptor>
@@ -65195,7 +65173,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-24T00:00:00.000" ModificationDateTime="2026-05-13T11:00:03.007" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2004-02-24T00:00:00.000" ModificationDateTime="2026-09-16T09:29:20.019" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600CR694</AtcoCode>
 <NaptanCode>CHEPTJW</NaptanCode>
 <Descriptor>
@@ -65238,7 +65216,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2026-05-13T11:07:27.312" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2026-09-16T09:31:40.621" Modification="revise" RevisionNumber="14" Status="active">
 <AtcoCode>0600CR695</AtcoCode>
 <NaptanCode>CHEPWPJ</NaptanCode>
 <Descriptor>
@@ -65282,7 +65260,7 @@
 <PlusbusZoneRef CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2009-06-18T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2026-05-13T11:07:35.214" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2026-09-16T09:31:50.915" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CR696</AtcoCode>
 <NaptanCode>CHEPWPG</NaptanCode>
 <Descriptor>
@@ -65326,7 +65304,7 @@
 <PlusbusZoneRef CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2009-06-09T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2026-05-13T11:11:10.605" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2004-02-25T00:00:00.000" ModificationDateTime="2026-09-16T09:34:12.880" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR697</AtcoCode>
 <NaptanCode>CHEPWTA</NaptanCode>
 <Descriptor>
@@ -65369,7 +65347,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-27T00:00:00.000" ModificationDateTime="2025-12-15T16:06:37.663" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2004-02-27T00:00:00.000" ModificationDateTime="2026-09-16T09:09:05.503" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600CR698</AtcoCode>
 <NaptanCode>CHEPWPT</NaptanCode>
 <Descriptor>
@@ -65422,7 +65400,7 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-27T00:00:00.000" ModificationDateTime="2026-05-13T11:39:28.359" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2004-02-27T00:00:00.000" ModificationDateTime="2026-09-16T08:55:02.977" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600CR699</AtcoCode>
 <NaptanCode>CHEPWPW</NaptanCode>
 <Descriptor>
@@ -66125,7 +66103,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-07-08T00:00:00.000" ModificationDateTime="2019-07-08T11:33:49.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2004-07-08T00:00:00.000" ModificationDateTime="2026-10-28T07:20:40.114" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR711</AtcoCode>
 <NaptanCode>CHEPWJT</NaptanCode>
 <Descriptor>
@@ -67624,12 +67602,11 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-09-27T00:00:00.000" ModificationDateTime="2026-02-25T14:05:31.532" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2004-09-27T00:00:00.000" ModificationDateTime="2026-10-01T13:47:18.233" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR993TAX</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Street xml:lang="en">Beam Street</Street>
 <Indicator xml:lang="en">Taxi Rank</Indicator>
 </Descriptor>
@@ -67659,12 +67636,11 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-07-04T00:00:00.000" ModificationDateTime="2024-08-01T08:40:48.650" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-07-04T00:00:00.000" ModificationDateTime="2026-10-01T13:47:30.051" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CRBSENT</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
 <Street xml:lang="en">Delamere Street</Street>
 <Indicator xml:lang="en">Delamere Street Entrance</Indicator>
 </Descriptor>
@@ -67694,7 +67670,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-07-04T00:00:00.000" ModificationDateTime="2010-05-04T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">CREWE</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2005-10-07T00:00:00.000" ModificationDateTime="2012-02-20T13:52:00.000" Modification="revise" RevisionNumber="4" Status="inactive">
@@ -74277,7 +74253,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-09-04T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T15:43:36.760" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>0600MA0060</AtcoCode>
 <NaptanCode>CHEGTMJ</NaptanCode>
 <Descriptor>
@@ -74321,7 +74297,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2005-01-12T00:00:00.000" ModificationDateTime="2009-06-08T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2005-01-12T00:00:00.000" ModificationDateTime="2026-09-16T15:44:12.265" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600MA0060A</AtcoCode>
 <NaptanCode>CHETAWM</NaptanCode>
 <Descriptor>
@@ -74365,7 +74341,7 @@
 <PlusbusZoneRef CreationDateTime="2005-01-12T00:00:00.000" ModificationDateTime="2009-06-08T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2024-09-11T10:34:44.755" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T15:50:00.062" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600MA0061</AtcoCode>
 <NaptanCode>CHEGTMP</NaptanCode>
 <Descriptor>
@@ -74409,7 +74385,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2014-06-10T15:15:04.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-08T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T15:50:12.824" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>0600MA0062</AtcoCode>
 <NaptanCode>CHEGTMT</NaptanCode>
 <Descriptor>
@@ -74541,7 +74517,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-10T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-09-16T14:08:57.978" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600MA0065</AtcoCode>
 <NaptanCode>CHEGTMW</NaptanCode>
 <Descriptor>
@@ -90779,13 +90755,12 @@
 </StopValidity>
 </StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-06T15:14:23.792" Modification="revise" RevisionNumber="15" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:55:20.275" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600MA0440</AtcoCode>
 <NaptanCode>CHEGADP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Cotton Tree</CommonName>
-<ShortCommonName xml:lang="en">Cotton Tree</ShortCommonName>
-<Landmark xml:lang="en">Cotton Tree</Landmark>
+<ShortCommonName xml:lang="en">Bollington Cotton Tree</ShortCommonName>
 <Street xml:lang="en">Ingersley Road</Street>
 <Crossing xml:lang="en">Shrigley Road</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
@@ -92408,13 +92383,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-11-12T07:54:57.262" Modification="revise" RevisionNumber="5" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T14:01:42.773" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600MA0477</AtcoCode>
 <NaptanCode>CHEGAGP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">St George's Church</CommonName>
-<ShortCommonName xml:lang="en">St George's Church</ShortCommonName>
-<Landmark xml:lang="en">St George's Church</Landmark>
+<ShortCommonName xml:lang="en">Poynton St George's Church</ShortCommonName>
 <Street xml:lang="en">London Road North</Street>
 <Crossing xml:lang="en">Park Avenue</Crossing>
 <Indicator xml:lang="en">adj</Indicator>
@@ -92449,13 +92423,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:40:32.274" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T14:01:04.265" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600MA0478</AtcoCode>
 <NaptanCode>CHEGAGT</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">St George's Church</CommonName>
-<ShortCommonName xml:lang="en">St George's Church</ShortCommonName>
-<Landmark xml:lang="en">St George's Church</Landmark>
+<ShortCommonName xml:lang="en">Poynton St George's Church</ShortCommonName>
 <Street xml:lang="en">London Road South</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
@@ -93486,13 +93459,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:39:47.043" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T14:00:01.998" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600MA0500</AtcoCode>
 <NaptanCode>CHEPAWM</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">St George's Church</CommonName>
-<ShortCommonName xml:lang="en">St George's Church</ShortCommonName>
-<Landmark xml:lang="en">St George's Church</Landmark>
+<ShortCommonName xml:lang="en">Poynton St George's Church</ShortCommonName>
 <Street xml:lang="en">Chester Road</Street>
 <Indicator xml:lang="en">o/s</Indicator>
 </Descriptor>
@@ -97121,13 +97093,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-11-06T14:16:41.192" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:58:40.594" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600MA0587</AtcoCode>
 <NaptanCode>CHEGATP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bank Square</CommonName>
-<ShortCommonName xml:lang="en">Wilmslow Bank Sq A</ShortCommonName>
-<Landmark xml:lang="en">St Teresa's Church</Landmark>
+<ShortCommonName xml:lang="en">Wilmslow Bank Square Stand A</ShortCommonName>
 <Street xml:lang="en">Green Lane</Street>
 <Indicator xml:lang="en">Stand A</Indicator>
 </Descriptor>
@@ -97166,13 +97137,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2025-11-06T14:05:11.114" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:59:04.335" Modification="revise" RevisionNumber="7" Status="active">
 <AtcoCode>0600MA0588</AtcoCode>
 <NaptanCode>CHEGATW</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bank Square</CommonName>
-<ShortCommonName xml:lang="en">Wilmslow Bank Sq B</ShortCommonName>
-<Landmark xml:lang="en">The Victoria</Landmark>
+<ShortCommonName xml:lang="en">Wilmslow Bank Square Stand B</ShortCommonName>
 <Street xml:lang="en">Green Lane</Street>
 <Indicator xml:lang="en">Stand B</Indicator>
 </Descriptor>
@@ -101332,7 +101302,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-07-27T00:00:00.000" ModificationDateTime="2025-05-28T09:47:48.926" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-07-27T00:00:00.000" ModificationDateTime="2026-09-16T14:07:12.933" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600MA19011</AtcoCode>
 <NaptanCode>CHETWAG</NaptanCode>
 <Descriptor>
@@ -107357,13 +107327,12 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2012-02-22T08:52:44.000" Modification="revise" RevisionNumber="2" Status="inactive">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-06-01T10:31:04.248" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:57:23.705" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600MA6004</AtcoCode>
 <NaptanCode>CHEPJWP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">General Hospital</CommonName>
-<ShortCommonName xml:lang="en">Maccles'ld Hospital</ShortCommonName>
-<Landmark xml:lang="en">Macclesfield General Hospital</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Hospital</ShortCommonName>
 <Street xml:lang="en">Victoria Road</Street>
 <Crossing xml:lang="en">Birch Avenue</Crossing>
 <Indicator xml:lang="en">E-bound</Indicator>
@@ -107409,7 +107378,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2010-10-21T00:00:00.000" Modification="revise" RevisionNumber="5" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-04-23T12:07:12.382" Modification="revise" RevisionNumber="6" Status="active">
@@ -108047,13 +108016,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:49:15.250" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:47:44.099" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MA6020</AtcoCode>
 <NaptanCode>chepwjm</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Knutsford Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Knutsford Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Stand 1</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -108091,13 +108059,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:50:32.822" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:48:03.836" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600MA6021</AtcoCode>
 <NaptanCode>CHEPTWM</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Knutsford Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Knutsford Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Stand 2</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -108133,13 +108100,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-07-09T12:50:03.743" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-01T13:48:39.888" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MA6022</AtcoCode>
 <NaptanCode>CHEPTWP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Knutsford Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Knutsford Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Stand 3</Indicator>
 </Descriptor>
 <AlternativeDescriptors>
@@ -108821,7 +108787,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2009-06-17T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2019-10-02T13:55:05.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-10-26T11:01:49.536" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600MA6038</AtcoCode>
 <NaptanCode>CHEPMGM</NaptanCode>
 <Descriptor>
@@ -111853,13 +111819,12 @@
 <PlusbusZoneRef CreationDateTime="2003-08-13T00:00:00.000" ModificationDateTime="2009-06-15T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2003-08-12T00:00:00.000" ModificationDateTime="2024-09-23T08:59:42.235" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2003-08-12T00:00:00.000" ModificationDateTime="2026-10-01T13:48:58.602" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600MA6110</AtcoCode>
 <NaptanCode>CHEPWJP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Stand 9</Indicator>
 </Descriptor>
@@ -111896,7 +111861,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-08-12T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="6" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2001-02-09T00:00:00.000" ModificationDateTime="2012-02-22T08:56:07.000" Modification="revise" RevisionNumber="4" Status="inactive">
@@ -112382,13 +112347,12 @@
 <PlusbusZoneRef CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2012-02-21T08:14:43.000" Modification="revise" RevisionNumber="5" Status="inactive">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-02-09T00:00:00.000" ModificationDateTime="2025-11-06T14:29:51.734" Modification="revise" RevisionNumber="12" Status="active">
+<StopPoint CreationDateTime="2004-02-09T00:00:00.000" ModificationDateTime="2026-10-01T13:57:03.046" Modification="revise" RevisionNumber="13" Status="active">
 <AtcoCode>0600MA6124</AtcoCode>
 <NaptanCode>CHEGPAP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">General Hospital</CommonName>
-<ShortCommonName xml:lang="en">Maccles'ld Hospital</ShortCommonName>
-<Landmark xml:lang="en">Macclesfield General Hospital</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Hospital</ShortCommonName>
 <Street xml:lang="en">Grounds</Street>
 <Indicator xml:lang="en">o/s</Indicator>
 </Descriptor>
@@ -112433,7 +112397,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-02-09T00:00:00.000" ModificationDateTime="2011-02-25T00:00:00.000" Modification="revise" RevisionNumber="9" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-09-11T00:00:00.000" ModificationDateTime="2009-06-22T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
@@ -113291,13 +113255,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2024-09-23T09:03:06.834" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-26T11:42:12.813" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600MA6147</AtcoCode>
 <NaptanCode>CHEPWGT</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 2</Indicator>
 </Descriptor>
@@ -113334,16 +113297,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-08-05T14:18:07.881" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-01T13:49:19.680" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600MA6148</AtcoCode>
 <NaptanCode>CHEPWGP</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 3</Indicator>
 </Descriptor>
@@ -113380,16 +113342,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2024-09-23T09:05:39.955" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-01T13:49:28.995" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MA6149</AtcoCode>
 <NaptanCode>CHEPWGM</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 4</Indicator>
 </Descriptor>
@@ -113426,16 +113387,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="8" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-05-13T11:42:05.854" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-01T13:49:41.662" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600MA6150</AtcoCode>
 <NaptanCode>CHEPWGJ</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 5</Indicator>
 </Descriptor>
@@ -113472,16 +113432,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="8" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2024-09-23T09:23:10.922" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-01T13:49:51.166" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600MA6151</AtcoCode>
 <NaptanCode>CHEPWGD</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 6</Indicator>
 </Descriptor>
@@ -113518,16 +113477,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2025-11-06T15:00:35.399" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-01T13:50:02.520" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MA6152</AtcoCode>
 <NaptanCode>CHEPWGA</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 7</Indicator>
 </Descriptor>
@@ -113564,16 +113522,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2024-09-23T09:24:04.947" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-26T10:43:17.703" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MA6153</AtcoCode>
 <NaptanCode>CHEPWDW</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 8</Indicator>
 </Descriptor>
@@ -113610,16 +113567,15 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2024-09-23T09:24:30.349" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2026-10-01T13:50:23.335" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MA6154</AtcoCode>
 <NaptanCode>CHEPWGW</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Bay 1</Indicator>
 </Descriptor>
@@ -113656,7 +113612,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-25T00:00:00.000" ModificationDateTime="2010-04-19T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2004-04-23T00:00:00.000" ModificationDateTime="2014-03-14T15:39:44.000" Modification="revise" RevisionNumber="3" Status="inactive">
@@ -116776,12 +116732,11 @@
 <PlusbusZoneRef CreationDateTime="2003-07-04T00:00:00.000" ModificationDateTime="2012-02-22T08:51:26.000" Modification="revise" RevisionNumber="3" Status="inactive">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2024-09-23T09:24:56.105" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2026-10-01T13:50:44.712" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>0600MABSENT1</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">N entrance</Indicator>
 </Descriptor>
@@ -116811,15 +116766,14 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2011-01-21T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2024-09-23T09:26:40.482" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2026-10-01T13:50:54.963" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MABSENT2</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">South entrance</Indicator>
 </Descriptor>
@@ -116849,15 +116803,14 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2011-01-21T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2024-09-23T09:26:30.531" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2026-10-01T13:51:25.919" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MACBSENT</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Macclesf'ld Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Macclesfield Bus Station</ShortCommonName>
 <Street xml:lang="en">Queen Victoria Street</Street>
 <Indicator xml:lang="en">Front entrance</Indicator>
 </Descriptor>
@@ -116887,7 +116840,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2004-03-26T00:00:00.000" ModificationDateTime="2011-02-01T00:00:00.000" Modification="revise" RevisionNumber="5" Status="active">MACLSFD</PlusbusZoneRef>
+<PlusbusZoneRef Modification="new" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
 <StopPoint CreationDateTime="2003-01-14T00:00:00.000" ModificationDateTime="2011-02-18T00:00:00.000" Modification="revise" RevisionNumber="7" Status="active">
@@ -118572,12 +118525,11 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2005-06-01T00:00:00.000" ModificationDateTime="2026-07-09T12:51:02.545" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2005-06-01T00:00:00.000" ModificationDateTime="2026-10-01T13:51:27.852" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600MAKTENT</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Knutsford Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Knutsford Bus Station</ShortCommonName>
 <Indicator xml:lang="en">ent</Indicator>
 </Descriptor>
 <Place>
@@ -118838,12 +118790,11 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-09-09T00:00:00.000" ModificationDateTime="2026-02-25T14:05:06.250" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2003-09-09T00:00:00.000" ModificationDateTime="2026-10-01T13:51:46.333" Modification="revise" RevisionNumber="11" Status="active">
 <AtcoCode>0600NABSENT</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
-<ShortCommonName xml:lang="en">Nantwich Bus Stn</ShortCommonName>
-<Landmark xml:lang="en">Bus Station</Landmark>
+<ShortCommonName xml:lang="en">Nantwich Bus Station</ShortCommonName>
 <Indicator xml:lang="en">Main Entrance</Indicator>
 </Descriptor>
 <Place>
@@ -126770,7 +126721,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2021-07-20T16:03:15.250" ModificationDateTime="2021-07-22T16:21:49.452" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2021-07-20T16:03:15.250" ModificationDateTime="2026-09-16T14:20:13.902" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>0600CO000030</AtcoCode>
 <NaptanCode>cheagmtw</NaptanCode>
 <Descriptor>
@@ -126810,11 +126761,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2021-07-20T16:10:58.260" ModificationDateTime="2021-07-22T16:24:27.160" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2021-07-20T16:10:58.260" ModificationDateTime="2026-10-01T14:05:25.310" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CO000031</AtcoCode>
 <NaptanCode>cheagmtj</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bramhall Drive</CommonName>
+<ShortCommonName xml:lang="en">Bramhall Drive</ShortCommonName>
 <Street xml:lang="en">Middlewich Road</Street>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
@@ -127057,7 +127009,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2022-10-20T08:41:31.838" ModificationDateTime="2022-10-20T09:02:57.824" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2022-10-20T08:41:31.838" ModificationDateTime="2026-09-16T14:25:29.537" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>0600MA000048</AtcoCode>
 <NaptanCode>cheagpat</NaptanCode>
 <Descriptor>
@@ -127086,7 +127038,7 @@
 <OnStreet>
 <Bus>
 <BusStopType>MKD</BusStopType>
-<TimingStatus>TIP</TimingStatus>
+<TimingStatus>OTH</TimingStatus>
 <MarkedPoint>
 <Bearing>
 <CompassPoint>E</CompassPoint>
@@ -127434,11 +127386,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2023-02-16T11:01:17.102" ModificationDateTime="2023-02-16T11:01:17.102" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2023-02-16T11:01:17.102" ModificationDateTime="2026-11-04T11:11:54.591" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>0600CO000061</AtcoCode>
 <NaptanCode>cheagpda</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Thatch Close</CommonName>
+<ShortCommonName xml:lang="en">Thatch Close</ShortCommonName>
 <Street xml:lang="en">Manor Lane</Street>
 <Indicator xml:lang="en">nr</Indicator>
 </Descriptor>
@@ -127449,10 +127402,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>376878</Easting>
-<Northing>366820</Northing>
-<Longitude>-2.3475634</Longitude>
-<Latitude>53.1979665</Latitude>
+<Easting>376895</Easting>
+<Northing>366855</Northing>
+<Longitude>-2.347321</Longitude>
+<Latitude>53.198284</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -127996,13 +127949,12 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-15T09:17:56.721" ModificationDateTime="2024-10-16T14:21:32.640" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2024-04-15T09:17:56.721" ModificationDateTime="2026-10-01T14:07:51.026" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CO000038</AtcoCode>
 <NaptanCode>cheagpmt</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Walhill Roundabout</CommonName>
-<ShortCommonName xml:lang="en">Walhill Roundabout</ShortCommonName>
-<Landmark xml:lang="en">Walhill Roundabout</Landmark>
+<CommonName xml:lang="en">Wallhill Roundabout</CommonName>
+<ShortCommonName xml:lang="en">Wallhill Roundabout</ShortCommonName>
 <Street xml:lang="en">Sandbach Road</Street>
 <Indicator xml:lang="en">W-bound</Indicator>
 </Descriptor>
@@ -128039,13 +127991,12 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T11:56:31.688" ModificationDateTime="2024-04-18T12:29:34.996" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2024-04-18T11:56:31.688" ModificationDateTime="2026-10-01T13:52:05.529" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR000061</AtcoCode>
 <NaptanCode>cheagpdt</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 1</Indicator>
 </Descriptor>
@@ -128082,13 +128033,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T11:57:52.663" ModificationDateTime="2024-04-18T12:29:17.399" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2024-04-18T11:57:52.663" ModificationDateTime="2026-10-01T13:52:13.972" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR000062</AtcoCode>
 <NaptanCode>cheagpdw</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 2</Indicator>
 </Descriptor>
@@ -128125,13 +128075,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T11:58:50.503" ModificationDateTime="2024-04-18T12:29:00.920" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2024-04-18T11:58:50.503" ModificationDateTime="2026-10-01T13:52:24.975" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR000063</AtcoCode>
 <NaptanCode>cheagpga</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 3</Indicator>
 </Descriptor>
@@ -128168,13 +128117,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T11:59:55.256" ModificationDateTime="2025-08-27T16:04:42.563" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2024-04-18T11:59:55.256" ModificationDateTime="2026-10-01T13:52:34.674" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>0600CR000064</AtcoCode>
 <NaptanCode>cheagpgd</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 4</Indicator>
 </Descriptor>
@@ -128211,13 +128159,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T12:00:46.429" ModificationDateTime="2026-05-13T11:05:32.607" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2024-04-18T12:00:46.429" ModificationDateTime="2026-10-01T13:52:44.290" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CR000065</AtcoCode>
 <NaptanCode>cheagpgj</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 5</Indicator>
 </Descriptor>
@@ -128254,13 +128201,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T12:02:02.001" ModificationDateTime="2025-08-21T14:32:05.478" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2024-04-18T12:02:02.001" ModificationDateTime="2026-10-01T13:52:52.953" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR000066</AtcoCode>
 <NaptanCode>cheagpgm</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 6</Indicator>
 </Descriptor>
@@ -128297,13 +128243,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T12:02:51.822" ModificationDateTime="2026-06-10T14:08:35.856" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2024-04-18T12:02:51.822" ModificationDateTime="2026-10-01T13:53:02.145" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>0600CR000067</AtcoCode>
 <NaptanCode>cheagpgp</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 7</Indicator>
 </Descriptor>
@@ -128340,13 +128285,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T12:04:18.830" ModificationDateTime="2024-04-18T12:25:45.554" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2024-04-18T12:04:18.830" ModificationDateTime="2026-10-01T13:53:10.880" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR000068</AtcoCode>
 <NaptanCode>cheagpgt</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 8</Indicator>
 </Descriptor>
@@ -128383,13 +128327,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T12:05:06.356" ModificationDateTime="2026-05-13T12:56:27.136" Modification="revise" RevisionNumber="6" Status="active">
+<StopPoint CreationDateTime="2024-04-18T12:05:06.356" ModificationDateTime="2026-10-01T13:53:19.449" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CR000069</AtcoCode>
 <NaptanCode>cheagpgw</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 9</Indicator>
 </Descriptor>
@@ -128426,13 +128369,12 @@
 <PlusbusZoneRef Modification="new" Status="active">CREWE</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2024-04-18T12:05:52.611" ModificationDateTime="2024-04-18T12:25:20.316" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2024-04-18T12:05:52.611" ModificationDateTime="2026-10-01T13:53:28.851" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR000070</AtcoCode>
 <NaptanCode>cheagpja</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Bus Station</CommonName>
 <ShortCommonName xml:lang="en">Crewe Bus Station</ShortCommonName>
-<Landmark xml:lang="en">Crewe Bus Station</Landmark>
 <Street xml:lang="en">Bus Station</Street>
 <Indicator xml:lang="en">Bay 10</Indicator>
 </Descriptor>
@@ -128751,7 +128693,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-02-13T13:55:06.126" ModificationDateTime="2026-05-13T11:08:42.383" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2025-02-13T13:55:06.126" ModificationDateTime="2026-09-16T09:32:32.620" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>0600CR000104</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Jacksons Corner</CommonName>
@@ -129020,7 +128962,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-06-19T09:54:26.261" ModificationDateTime="2025-06-19T09:54:26.261" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2025-06-19T09:54:26.261" ModificationDateTime="2026-10-28T07:26:35.199" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>0600CR000113</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Coleridge Way</CommonName>
@@ -129045,13 +128987,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>W</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -129166,7 +129108,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T09:03:33.542" ModificationDateTime="2025-11-26T09:22:20.657" Modification="revise" RevisionNumber="14" Status="active">
+<StopPoint CreationDateTime="2025-09-29T09:03:33.542" ModificationDateTime="2026-09-14T15:20:00.091" Modification="revise" RevisionNumber="15" Status="active">
 <AtcoCode>0600CO000118</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Roundabout</CommonName>
@@ -129244,7 +129186,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T09:29:00.184" ModificationDateTime="2026-01-22T07:34:38.004" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2025-09-29T09:29:00.184" ModificationDateTime="2026-09-14T15:19:36.377" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO000120</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Radnor Park</CommonName>
@@ -129395,7 +129337,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T10:06:54.800" ModificationDateTime="2025-11-26T11:20:37.771" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2025-09-29T10:06:54.800" ModificationDateTime="2026-09-14T15:19:00.595" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO000124</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Congleton Retail Park</CommonName>
@@ -129434,7 +129376,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T10:11:57.547" ModificationDateTime="2025-11-26T11:19:13.401" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2025-09-29T10:11:57.547" ModificationDateTime="2026-09-14T15:18:44.369" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO000125</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Congleton Retail Park</CommonName>
@@ -129473,7 +129415,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T10:14:00.192" ModificationDateTime="2025-11-26T10:32:54.073" Modification="revise" RevisionNumber="7" Status="active">
+<StopPoint CreationDateTime="2025-09-29T10:14:00.192" ModificationDateTime="2026-09-14T15:18:24.475" Modification="revise" RevisionNumber="8" Status="active">
 <AtcoCode>0600CO000126</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Turner Drive</CommonName>
@@ -129551,7 +129493,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T10:35:42.723" ModificationDateTime="2025-11-26T11:01:20.140" Modification="revise" RevisionNumber="10" Status="active">
+<StopPoint CreationDateTime="2025-09-29T10:35:42.723" ModificationDateTime="2026-09-14T15:18:04.467" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600CO000128</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Viking Park</CommonName>
@@ -129587,7 +129529,7 @@
 </StopClassification>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2025-09-29T10:39:20.508" ModificationDateTime="2025-11-26T11:06:18.188" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2025-09-29T10:39:20.508" ModificationDateTime="2026-09-14T15:17:43.988" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>0600CO000129</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Viking Park</CommonName>
@@ -130637,7 +130579,7 @@
 </StopAreas>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2026-08-13T11:13:25.370" ModificationDateTime="2026-08-13T11:13:25.370" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2026-08-13T11:13:25.370" ModificationDateTime="2026-09-16T15:50:57.012" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>0600CR000170</AtcoCode>
 <Descriptor>
 <CommonName xml:lang="en">Leighton Brook Park</CommonName>
@@ -130661,13 +130603,13 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -130977,10 +130919,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>379753</Easting>
-<Northing>355481</Northing>
-<Longitude>-2.303813</Longitude>
-<Latitude>53.096164</Latitude>
+<Easting>379755</Easting>
+<Northing>355489</Northing>
+<Longitude>-2.303781</Longitude>
+<Latitude>53.096239</Latitude>
 </Translation>
 </Location>
 </StopArea>
@@ -148733,7 +148675,7 @@
 </StopArea>
 <StopArea CreationDateTime="2024-04-15T09:22:53.713" ModificationDateTime="2024-04-15T09:22:53.713" Modification="new" RevisionNumber="0" Status="active">
 <StopAreaCode>060GCO000075</StopAreaCode>
-<Name>Walhill Roundabout</Name>
+<Name>Wallhill Roundabout</Name>
 <AdministrativeAreaRef>072</AdministrativeAreaRef>
 <StopAreaType>GPBS</StopAreaType>
 <Location>

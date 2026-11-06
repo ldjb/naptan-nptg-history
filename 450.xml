@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:n1="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://naptan.dft.gov.uk/naptan/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-30T00:00:00" ModificationDateTime="2026-10-30T00:00:00" Modification="new" RevisionNumber="1" FileName="Naptan450.xml" SchemaVersion="2.4" LocationSystem="Grid">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gms="http://www.govtalk.gov.uk/CM/gms" xmlns:n1="http://www.govtalk.gov.uk/CM/gms-xs" xmlns:core="http://www.govtalk.gov.uk/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://naptan.dft.gov.uk/naptan/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-05T00:00:00" ModificationDateTime="2026-11-05T00:00:00" Modification="new" RevisionNumber="1" FileName="Naptan450.xml" SchemaVersion="2.4" LocationSystem="Grid">
   <StopPoints>
     <StopPoint CreationDateTime="1998-11-18T00:00:00" ModificationDateTime="2020-12-01T20:21:00" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450010001</AtcoCode>
@@ -220588,16 +220588,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2006-12-21T14:27:10" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2026-11-04T17:12:33" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450014977</AtcoCode>
       <NaptanCode>45014977</NaptanCode>
       <PlateCode>45014977</PlateCode>
       <Descriptor>
-        <CommonName>Denholme Gate Rd Southfield Terrace</CommonName>
+        <CommonName>Southfield Terrace</CommonName>
         <ShortCommonName>Southfield Terrace</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Denholme Gate Road</Street>
         <Crossing>Opp Southfield Terrace</Crossing>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032881</NptgLocalityRef>
@@ -220606,10 +220607,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>412229</Easting>
-            <Northing>426197</Northing>
-            <Longitude>-1.816111149638351</Longitude>
-            <Latitude>53.732025789037522</Latitude>
+            <Easting>412232</Easting>
+            <Northing>426179</Northing>
+            <Longitude>-1.816066381055657</Longitude>
+            <Latitude>53.731863935202306</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -220641,17 +220642,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2008-04-18T14:58:49" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2026-11-04T17:13:57" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450014978</AtcoCode>
       <NaptanCode>45014978</NaptanCode>
       <PlateCode>45014978</PlateCode>
       <Descriptor>
-        <CommonName>Denholme Gate Rd Southfield Terrace</CommonName>
+        <CommonName>Southfield Terrace</CommonName>
         <ShortCommonName>Southfield Terrace</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Denholme Gate Road</Street>
         <Crossing>At Southfield Terrace</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032881</NptgLocalityRef>
@@ -220695,12 +220695,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2025-12-10T21:37:48" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2026-11-04T17:15:17" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450014979</AtcoCode>
       <NaptanCode>45014979</NaptanCode>
       <PlateCode>45014979</PlateCode>
       <Descriptor>
-        <CommonName>Denholme Gate Road Northedge Ln</CommonName>
+        <CommonName>Northedge Lane</CommonName>
         <ShortCommonName>Northedge Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Denholme Gate Road</Street>
@@ -220749,17 +220749,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2012-11-29T10:28:07" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2026-11-05T12:21:08" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450014980</AtcoCode>
       <NaptanCode>45014980</NaptanCode>
       <PlateCode>45014980</PlateCode>
       <Descriptor>
-        <CommonName>Denholme Gate Road Towngate</CommonName>
-        <ShortCommonName>Towngate</ShortCommonName>
-        <Landmark>*</Landmark>
+        <CommonName>Hipperholme Grammar School</CommonName>
+        <ShortCommonName>Hipperholme Grammar</ShortCommonName>
+        <Landmark>Hipperholme Grammar School</Landmark>
         <Street>Denholme Gate Road</Street>
         <Crossing>At Towngate</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032881</NptgLocalityRef>
@@ -220803,16 +220802,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2008-04-21T08:55:50" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1998-12-22T00:00:00" ModificationDateTime="2026-11-05T12:20:39" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450014981</AtcoCode>
       <NaptanCode>45014981</NaptanCode>
       <PlateCode>45014981</PlateCode>
       <Descriptor>
-        <CommonName>Denholme Gate Road Towngate</CommonName>
-        <ShortCommonName>Towngate</ShortCommonName>
-        <Landmark>School</Landmark>
+        <CommonName>Hipperholme Grammar School</CommonName>
+        <ShortCommonName>Hipperholme Grammar</ShortCommonName>
+        <Landmark>Hipperholme Grammar School</Landmark>
         <Street>Denholme Gate Road</Street>
         <Crossing>Towngate</Crossing>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032881</NptgLocalityRef>
@@ -418345,7 +418345,7 @@
       <StopAvailability>
         <StopValidity>
           <DateRange>
-            <StartDate>2026-10-30</StartDate>
+            <StartDate>2026-11-05</StartDate>
           </DateRange>
           <Active />
         </StopValidity>
@@ -470788,7 +470788,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-01-26T00:00:00" ModificationDateTime="2008-11-17T17:22:01" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-01-26T00:00:00" ModificationDateTime="2026-11-02T17:18:49" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450020350</AtcoCode>
       <NaptanCode>45020350</NaptanCode>
       <PlateCode>45020350</PlateCode>
@@ -470842,7 +470842,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-01-26T00:00:00" ModificationDateTime="2008-11-17T17:22:49" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-01-26T00:00:00" ModificationDateTime="2026-11-02T17:16:51" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450020351</AtcoCode>
       <NaptanCode>45020351</NaptanCode>
       <PlateCode>45020351</PlateCode>
@@ -470852,7 +470852,7 @@
         <Landmark>Kirkwood Hospice</Landmark>
         <Street>Albany Road</Street>
         <Crossing>Albany Road</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032564</NptgLocalityRef>
@@ -487068,7 +487068,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-01T00:00:00" ModificationDateTime="2024-08-12T17:33:04" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-01T00:00:00" ModificationDateTime="2026-11-02T09:19:54" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450020668</AtcoCode>
       <NaptanCode>45020668</NaptanCode>
       <PlateCode>45020668</PlateCode>
@@ -487086,10 +487086,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>418487</Easting>
-            <Northing>416030</Northing>
-            <Longitude>-1.721855616519891</Longitude>
-            <Latitude>53.640461732088049</Latitude>
+            <Easting>418515</Easting>
+            <Northing>415995</Northing>
+            <Longitude>-1.721434187929315</Longitude>
+            <Latitude>53.640146165349812</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -514030,13 +514030,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T17:03:03" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:15:16" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021236</AtcoCode>
       <NaptanCode>45021236</NaptanCode>
       <PlateCode>45021236</PlateCode>
       <Descriptor>
-        <CommonName>Greenfield Ave West Avenue</CommonName>
-        <ShortCommonName>West Avenue</ShortCommonName>
+        <CommonName>Greenfield Avenue</CommonName>
+        <ShortCommonName>Greenfield Avenue</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Greenfield Avenue</Street>
         <Crossing>At West Avenue</Crossing>
@@ -514083,13 +514083,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T17:03:21" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:14:39" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021237</AtcoCode>
       <NaptanCode>45021237</NaptanCode>
       <PlateCode>45021237</PlateCode>
       <Descriptor>
-        <CommonName>Greenfield Ave East Street</CommonName>
-        <ShortCommonName>East Street</ShortCommonName>
+        <CommonName>Greenfield Avenue</CommonName>
+        <ShortCommonName>Greenfield Avenue</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Greenfield Avenue</Street>
         <Crossing>At East Street</Crossing>
@@ -514136,17 +514136,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T17:02:34" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:12:26" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021238</AtcoCode>
       <NaptanCode>45021238</NaptanCode>
       <PlateCode>45021238</PlateCode>
       <Descriptor>
-        <CommonName>Bentley Ave Shirley Grove</CommonName>
-        <ShortCommonName>Holtby Grove</ShortCommonName>
+        <CommonName>Shirley Grove</CommonName>
+        <ShortCommonName>Shirley Grove</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Bentley Avenue</Street>
         <Crossing>Opp Holtby Grove</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033043</NptgLocalityRef>
@@ -514190,12 +514189,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T17:02:12" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:13:04" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021239</AtcoCode>
       <NaptanCode>45021239</NaptanCode>
       <PlateCode>45021239</PlateCode>
       <Descriptor>
-        <CommonName>Bentley Ave Shirley Grove</CommonName>
+        <CommonName>Shirley Grove</CommonName>
         <ShortCommonName>Shirley Grove</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Bentley Avenue</Street>
@@ -514244,17 +514243,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T17:01:50" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:16:46" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021240</AtcoCode>
       <NaptanCode>45021240</NaptanCode>
       <PlateCode>45021240</PlateCode>
       <Descriptor>
-        <CommonName>Bentley Avenue Aysgarth Ave</CommonName>
+        <CommonName>Aysgarth Avenue</CommonName>
         <ShortCommonName>Aysgarth Avenue</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Bentley Avenue</Street>
         <Crossing>At Aysgarth Avenue</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033043</NptgLocalityRef>
@@ -514298,12 +514296,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T17:01:28" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:16:25" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021241</AtcoCode>
       <NaptanCode>45021241</NaptanCode>
       <PlateCode>45021241</PlateCode>
       <Descriptor>
-        <CommonName>Bentley Avenue Aysgarth Ave</CommonName>
+        <CommonName>Aysgarth Avenue</CommonName>
         <ShortCommonName>Aysgarth Avenue</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Bentley Avenue</Street>
@@ -514780,17 +514778,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2013-02-19T19:20:25" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:05:35" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021250</AtcoCode>
       <NaptanCode>45021250</NaptanCode>
       <PlateCode>45021250</PlateCode>
       <Descriptor>
-        <CommonName>Whinney Hill Park Smith House Lane</CommonName>
-        <ShortCommonName>Smith House Lane</ShortCommonName>
+        <CommonName>Whinney Hill Park End</CommonName>
+        <ShortCommonName>Whinney Hill End</ShortCommonName>
         <Landmark>Field</Landmark>
         <Street>Whinney Hill Park</Street>
         <Crossing>Adj Smith House Lane</Crossing>
-        <Indicator>before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032345</NptgLocalityRef>
@@ -514834,17 +514831,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2013-02-19T19:16:31" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:06:43" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021251</AtcoCode>
       <NaptanCode>45021251</NaptanCode>
       <PlateCode>45021251</PlateCode>
       <Descriptor>
-        <CommonName>Whinney Hill Park Hoyle House Beck</CommonName>
+        <CommonName>Hoyle House Beck</CommonName>
         <ShortCommonName>Hoyle House Beck</ShortCommonName>
-        <Landmark>Field</Landmark>
+        <Landmark>Hoyle House Beck Field</Landmark>
         <Street>Whinney Hill Park</Street>
         <Crossing>*</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032345</NptgLocalityRef>
@@ -514888,13 +514884,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2013-02-19T19:24:19" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:09:56" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021252</AtcoCode>
       <NaptanCode>45021252</NaptanCode>
       <PlateCode>45021252</PlateCode>
       <Descriptor>
         <CommonName>Whinney Hill Park</CommonName>
-        <ShortCommonName>Play Area</ShortCommonName>
+        <ShortCommonName>Whinney Hill Park</ShortCommonName>
         <Landmark>Stairs</Landmark>
         <Street>Whinney Hill Park</Street>
         <Crossing>*</Crossing>
@@ -514942,17 +514938,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2012-01-09T12:30:08" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:04:19" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021253</AtcoCode>
       <NaptanCode>45021253</NaptanCode>
       <PlateCode>45021253</PlateCode>
       <Descriptor>
-        <CommonName>Whinney Hill Park Bracken Ave</CommonName>
+        <CommonName>Bracken Avenue</CommonName>
         <ShortCommonName>Bracken Avenue</ShortCommonName>
         <Landmark>Cemetery</Landmark>
         <Street>Whinney Hill Park</Street>
         <Crossing>Nr/Opp Bracken Avenue</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032345</NptgLocalityRef>
@@ -514996,17 +514991,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2018-11-30T12:25:22" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T12:03:16" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021254</AtcoCode>
       <NaptanCode>45021254</NaptanCode>
       <PlateCode>45021254</PlateCode>
       <Descriptor>
-        <CommonName>Whinney Hill Park Cemetery</CommonName>
-        <ShortCommonName>Brighouse Cemetery</ShortCommonName>
-        <Landmark>Brighouse Cemetery</Landmark>
+        <CommonName>Whinney Hill Community Centre</CommonName>
+        <ShortCommonName>Whinney Hill Centre</ShortCommonName>
+        <Landmark>Community Centre - Brighouse Cemetery</Landmark>
         <Street>Whinney Hill Park</Street>
         <Crossing>*</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032345</NptgLocalityRef>
@@ -515050,17 +515044,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2013-02-19T19:19:03" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-10T00:00:00" ModificationDateTime="2026-11-05T11:58:29" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450021255</AtcoCode>
       <NaptanCode>45021255</NaptanCode>
       <PlateCode>45021255</PlateCode>
       <Descriptor>
-        <CommonName>Whinney Hill Park</CommonName>
-        <ShortCommonName>Whinney Hill Pk</ShortCommonName>
+        <CommonName>Whinney Hill Park Top</CommonName>
+        <ShortCommonName>Whinney Hill Pk Top</ShortCommonName>
         <Landmark>Garages</Landmark>
         <Street>Whinney Hill Park</Street>
         <Crossing>*</Crossing>
-        <Indicator>S bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032345</NptgLocalityRef>
@@ -554572,12 +554565,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-02-12T00:00:00" ModificationDateTime="2021-04-03T15:48:15" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-02-12T00:00:00" ModificationDateTime="2026-11-02T16:46:00" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022055</AtcoCode>
       <NaptanCode>45022055</NaptanCode>
       <PlateCode>45022055</PlateCode>
       <Descriptor>
-        <CommonName>Newsome Road Castle Hill School</CommonName>
+        <CommonName>Castle Hill School</CommonName>
         <ShortCommonName>Castle Hill School</ShortCommonName>
         <Landmark>Castle Hill School</Landmark>
         <Street>Newsome Road South</Street>
@@ -582563,13 +582556,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T11:12:44" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:59:11" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022633</AtcoCode>
       <NaptanCode>45022633</NaptanCode>
       <PlateCode>45022633</PlateCode>
       <Descriptor>
-        <CommonName>Marshalls Works</CommonName>
-        <ShortCommonName>South Holme Lane</ShortCommonName>
+        <CommonName>Brookfoot Works</CommonName>
+        <ShortCommonName>Brookfoot Works</ShortCommonName>
         <Landmark>Marshalls Brookfoot Works</Landmark>
         <Street>Brookfoot Lane</Street>
         <Crossing>Opp Marshalls Brookfoot Works</Crossing>
@@ -582617,17 +582610,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T11:14:05" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:58:51" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022634</AtcoCode>
       <NaptanCode>45022634</NaptanCode>
       <PlateCode>45022634</PlateCode>
       <Descriptor>
-        <CommonName>Marshalls Works</CommonName>
-        <ShortCommonName>South Holme Lane</ShortCommonName>
+        <CommonName>Brookfoot Works</CommonName>
+        <ShortCommonName>Brookfoot Works</ShortCommonName>
         <Landmark>Marshalls Brookfoot Works</Landmark>
         <Street>Brookfoot Lane</Street>
         <Crossing>At Marshalls Brookfoot Works</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032358</NptgLocalityRef>
@@ -582671,17 +582664,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2012-12-08T09:46:38" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:56:16" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022635</AtcoCode>
       <NaptanCode>45022635</NaptanCode>
       <PlateCode>45022635</PlateCode>
       <Descriptor>
-        <CommonName>St Annes In The Grove</CommonName>
+        <CommonName>Cow Lane</CommonName>
         <ShortCommonName>Cow Lane</ShortCommonName>
         <Landmark>St Annes In The Grove</Landmark>
         <Street>Brookfoot Lane</Street>
         <Crossing>At Cow Lane</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>near</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032358</NptgLocalityRef>
@@ -582725,17 +582718,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2012-12-08T09:46:57" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:54:53" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022636</AtcoCode>
       <NaptanCode>45022636</NaptanCode>
       <PlateCode>45022636</PlateCode>
       <Descriptor>
-        <CommonName>St Annes In The Grove</CommonName>
+        <CommonName>Cow Lane</CommonName>
         <ShortCommonName>Cow Lane</ShortCommonName>
         <Landmark>St Annes In The Grove</Landmark>
         <Street>Brookfoot Lane</Street>
         <Crossing>Opp Cow Lane</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032358</NptgLocalityRef>
@@ -582779,7 +582771,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2020-06-08T18:16:26" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:53:08" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022637</AtcoCode>
       <NaptanCode>45022637</NaptanCode>
       <PlateCode>45022637</PlateCode>
@@ -582789,6 +582781,7 @@
         <Landmark>Brick Shelter</Landmark>
         <Street>Church Lane</Street>
         <Crossing>Opp Cow Lane (Southowram Side)</Crossing>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032358</NptgLocalityRef>
@@ -582832,7 +582825,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2020-06-08T18:17:02" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:53:24" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022638</AtcoCode>
       <NaptanCode>45022638</NaptanCode>
       <PlateCode>45022638</PlateCode>
@@ -582842,7 +582835,6 @@
         <Landmark>Watson Quarries</Landmark>
         <Street>Brookfoot Lane</Street>
         <Crossing>Nr/At Cow Lane (Southowram Side)</Crossing>
-        <Indicator>E bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032358</NptgLocalityRef>
@@ -582886,12 +582878,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2019-11-05T16:08:53" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:48:46" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022639</AtcoCode>
       <NaptanCode>45022639</NaptanCode>
       <PlateCode>45022639</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane Birks Royd</CommonName>
+        <CommonName>Birks Royd</CommonName>
         <ShortCommonName>Birks Royd</ShortCommonName>
         <Landmark>Cross Platts Quarry</Landmark>
         <Street>Church Lane</Street>
@@ -582940,17 +582932,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2019-11-05T16:03:12" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:46:16" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022640</AtcoCode>
       <NaptanCode>45022640</NaptanCode>
       <PlateCode>45022640</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane Stoney Ln</CommonName>
-        <ShortCommonName>Stony Lane</ShortCommonName>
-        <Landmark>*</Landmark>
+        <CommonName>Cross Platts</CommonName>
+        <ShortCommonName>Cross Platts</ShortCommonName>
+        <Landmark>Cross Platts</Landmark>
         <Street>Church Lane</Street>
         <Crossing>At Stony Lane</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -582994,16 +582985,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2019-11-05T16:00:50" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:46:50" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022641</AtcoCode>
       <NaptanCode>45022641</NaptanCode>
       <PlateCode>45022641</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane Stoney Ln</CommonName>
-        <ShortCommonName>Stony Lane</ShortCommonName>
+        <CommonName>Cross Platts</CommonName>
+        <ShortCommonName>Cross Platts</ShortCommonName>
         <Landmark>Stone Shelter</Landmark>
         <Street>Church Lane</Street>
         <Crossing>Opp Stony Lane</Crossing>
+        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583047,17 +583039,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2019-11-05T16:04:43" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:42:52" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022642</AtcoCode>
       <NaptanCode>45022642</NaptanCode>
       <PlateCode>45022642</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane St Anne's Church</CommonName>
+        <CommonName>St Anne's Church</CommonName>
         <ShortCommonName>St Anne's Church</ShortCommonName>
         <Landmark>St Anne's Church</Landmark>
         <Street>Church Lane</Street>
         <Crossing>Nr/At Stoney Lane (Southowram Side)</Crossing>
-        <Indicator>near</Indicator>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583101,12 +583093,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2019-11-05T16:05:58" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:43:16" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022643</AtcoCode>
       <NaptanCode>45022643</NaptanCode>
       <PlateCode>45022643</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane St Anne's Church</CommonName>
+        <CommonName>St Anne's Church</CommonName>
         <ShortCommonName>St Anne's Church</ShortCommonName>
         <Landmark>St Anne's Church Hall</Landmark>
         <Street>Church Lane</Street>
@@ -583154,12 +583146,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2008-01-23T08:53:13" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:39:20" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022644</AtcoCode>
       <NaptanCode>45022644</NaptanCode>
       <PlateCode>45022644</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane Chapel Ln</CommonName>
+        <CommonName>Chapel Lane</CommonName>
         <ShortCommonName>Chapel Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Church Lane</Street>
@@ -583208,17 +583200,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2008-01-23T09:52:05" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:39:51" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022645</AtcoCode>
       <NaptanCode>45022645</NaptanCode>
       <PlateCode>45022645</PlateCode>
       <Descriptor>
-        <CommonName>Church Lane Chapel Ln</CommonName>
+        <CommonName>Chapel Lane</CommonName>
         <ShortCommonName>Chapel Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Church Lane</Street>
         <Crossing>At Chapel Lane</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583262,12 +583253,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2013-07-26T09:44:11" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:37:34" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022646</AtcoCode>
       <NaptanCode>45022646</NaptanCode>
       <PlateCode>45022646</PlateCode>
       <Descriptor>
-        <CommonName>Cain Lane Cromwell Rd</CommonName>
+        <CommonName>Cromwell Road</CommonName>
         <ShortCommonName>Cromwell Road</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Cain Lane</Street>
@@ -583316,13 +583307,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2013-07-26T09:43:32" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:38:15" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022647</AtcoCode>
       <NaptanCode>45022647</NaptanCode>
       <PlateCode>45022647</PlateCode>
       <Descriptor>
-        <CommonName>Cain Lane Cromwell Rd</CommonName>
-        <ShortCommonName>Adgil Crescent</ShortCommonName>
+        <CommonName>Cromwell Road</CommonName>
+        <ShortCommonName>Cromwell Road</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Cain Lane</Street>
         <Crossing>Cromwell Road</Crossing>
@@ -583370,16 +583361,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T11:27:02" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:36:06" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022648</AtcoCode>
       <NaptanCode>45022648</NaptanCode>
       <PlateCode>45022648</PlateCode>
       <Descriptor>
-        <CommonName>Cain Lane</CommonName>
+        <CommonName>Annes Court</CommonName>
         <ShortCommonName>Annes Court</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Cain Lane</Street>
         <Crossing>At Annes Court</Crossing>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583423,17 +583415,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T11:28:53" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:36:37" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022649</AtcoCode>
       <NaptanCode>45022649</NaptanCode>
       <PlateCode>45022649</PlateCode>
       <Descriptor>
-        <CommonName>Cain Lane</CommonName>
+        <CommonName>Annes Court</CommonName>
         <ShortCommonName>Annes Court</ShortCommonName>
-        <Landmark>Beacon Hill</Landmark>
+        <Landmark>*</Landmark>
         <Street>Cain Lane</Street>
         <Crossing>Opp Annes Court</Crossing>
-        <Indicator>E bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583477,12 +583468,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2021-01-06T15:46:30" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:33:02" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022650</AtcoCode>
       <NaptanCode>45022650</NaptanCode>
       <PlateCode>45022650</PlateCode>
       <Descriptor>
-        <CommonName>Towngate Ashday Lane</CommonName>
+        <CommonName>Southowram Towngate</CommonName>
         <ShortCommonName>Sthowram Towngate</ShortCommonName>
         <Landmark>Southowram Terminus</Landmark>
         <Street>Towngate</Street>
@@ -583530,16 +583521,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2013-09-02T09:13:18" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:31:25" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022651</AtcoCode>
       <NaptanCode>45022651</NaptanCode>
       <PlateCode>45022651</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane Post Office</CommonName>
-        <ShortCommonName>Cain Lane</ShortCommonName>
+        <CommonName>Miners Way</CommonName>
+        <ShortCommonName>Miners Way</ShortCommonName>
         <Landmark>Post Office</Landmark>
         <Street>Law Lane</Street>
-        <Crossing>*</Crossing>
+        <Crossing>Miners Way</Crossing>
         <Indicator>at</Indicator>
       </Descriptor>
       <Place>
@@ -583584,13 +583575,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2016-12-09T13:21:34" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:32:11" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022652</AtcoCode>
       <NaptanCode>45022652</NaptanCode>
       <PlateCode>45022652</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane Post Office</CommonName>
-        <ShortCommonName>Townley Avenue</ShortCommonName>
+        <CommonName>Miners Way</CommonName>
+        <ShortCommonName>Miners Way</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Law Lane</Street>
         <Crossing>At Townley Avenue</Crossing>
@@ -583638,17 +583629,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2008-04-11T17:31:50" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:19:49" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022653</AtcoCode>
       <NaptanCode>45022653</NaptanCode>
       <PlateCode>45022653</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane Rustic Ave</CommonName>
-        <ShortCommonName>Withinfiled Court</ShortCommonName>
+        <CommonName>Rustic Avenue</CommonName>
+        <ShortCommonName>Rustic Avenue</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Law Lane</Street>
         <Crossing>Opp Withinfield Court</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583692,17 +583682,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-08-06T08:54:12" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:19:22" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022654</AtcoCode>
       <NaptanCode>45022654</NaptanCode>
       <PlateCode>45022654</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane Rustic Ave</CommonName>
-        <ShortCommonName>Law Lane</ShortCommonName>
+        <CommonName>Rustic Avenue</CommonName>
+        <ShortCommonName>Rustic Avenue</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Law Lane</Street>
         <Crossing>Rustic Avenue</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>near</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583746,17 +583736,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2008-01-23T08:32:50" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:16:01" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022655</AtcoCode>
       <NaptanCode>45022655</NaptanCode>
       <PlateCode>45022655</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane Whitley Ln</CommonName>
+        <CommonName>Whitley Lane</CommonName>
         <ShortCommonName>Whitley Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Law Lane</Street>
         <Crossing>At Whitley Lane</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583800,12 +583790,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2006-08-08T15:00:58" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:16:47" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022656</AtcoCode>
       <NaptanCode>45022656</NaptanCode>
       <PlateCode>45022656</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane Whitley Ln</CommonName>
+        <CommonName>Whitley Lane</CommonName>
         <ShortCommonName>Whitley Lane</ShortCommonName>
         <Landmark>Primary School</Landmark>
         <Street>Law Lane</Street>
@@ -583818,10 +583808,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>411129</Easting>
-            <Northing>424152</Northing>
-            <Longitude>-1.832857661802477</Longitude>
-            <Latitude>53.713669654483390</Latitude>
+            <Easting>411137</Easting>
+            <Northing>424148</Northing>
+            <Longitude>-1.832736593494838</Longitude>
+            <Latitude>53.713633533431846</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -583853,16 +583843,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T11:31:48" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:25:23" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022657</AtcoCode>
       <NaptanCode>45022657</NaptanCode>
       <PlateCode>45022657</PlateCode>
       <Descriptor>
         <CommonName>Law Lane</CommonName>
-        <ShortCommonName>Twinge Lane</ShortCommonName>
+        <ShortCommonName>Law Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Law Lane</Street>
         <Crossing>Adj Whitley Lane (Halifax Side)</Crossing>
+        <Indicator>E bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -583906,17 +583897,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T11:32:00" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:26:13" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022658</AtcoCode>
       <NaptanCode>45022658</NaptanCode>
       <PlateCode>45022658</PlateCode>
       <Descriptor>
-        <CommonName>Law Lane</CommonName>
-        <ShortCommonName>Twinge Lane</ShortCommonName>
+        <CommonName>Whitley Lane</CommonName>
+        <ShortCommonName>Whitley Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Law Lane</Street>
         <Crossing>Adj/Opp Whitley Lane (Halifax Side)</Crossing>
-        <Indicator>W bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -584067,17 +584057,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2013-05-21T11:33:58" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:12:52" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022661</AtcoCode>
       <NaptanCode>45022661</NaptanCode>
       <PlateCode>45022661</PlateCode>
       <Descriptor>
-        <CommonName>Bank Top Common Lane</CommonName>
+        <CommonName>Common Lane</CommonName>
         <ShortCommonName>Common Lane</ShortCommonName>
         <Landmark>Cock &amp; Bottle PH</Landmark>
         <Street>Bank Top</Street>
         <Crossing>Opp Common Lane</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -584121,17 +584110,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-03-30T09:51:19" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:12:09" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022662</AtcoCode>
       <NaptanCode>45022662</NaptanCode>
       <PlateCode>45022662</PlateCode>
       <Descriptor>
-        <CommonName>Bank Top Common Lane</CommonName>
+        <CommonName>Common Lane</CommonName>
         <ShortCommonName>Common Lane</ShortCommonName>
         <Landmark>Cock &amp; Bottle PH</Landmark>
         <Street>Bank Top</Street>
         <Crossing>At Common Lane</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -584175,17 +584164,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2013-02-22T14:26:53" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:08:34" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022663</AtcoCode>
       <NaptanCode>45022663</NaptanCode>
       <PlateCode>45022663</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Rd Green Lane</CommonName>
-        <ShortCommonName>Green Lane</ShortCommonName>
+        <CommonName>Crossley's Road</CommonName>
+        <ShortCommonName>Crossley's Road</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>Opp Southowram Bank</Crossing>
-        <Indicator>before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077015</NptgLocalityRef>
@@ -584229,17 +584217,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2008-01-23T10:25:26" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:10:58" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022664</AtcoCode>
       <NaptanCode>45022664</NaptanCode>
       <PlateCode>45022664</PlateCode>
       <Descriptor>
-        <CommonName>Bank Top Marsh Lane</CommonName>
+        <CommonName>Marsh Lane</CommonName>
         <ShortCommonName>Marsh Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>At Trooper Lane</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -584283,17 +584270,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2013-02-22T14:26:32" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:09:24" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022665</AtcoCode>
       <NaptanCode>45022665</NaptanCode>
       <PlateCode>45022665</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Rd Green Lane</CommonName>
-        <ShortCommonName>Green Lane</ShortCommonName>
+        <CommonName>Crossley's Road</CommonName>
+        <ShortCommonName>Crossley's Road</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>At Southowram Bank</Crossing>
-        <Indicator>opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077015</NptgLocalityRef>
@@ -584302,10 +584288,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>410209</Easting>
-            <Northing>424757</Northing>
-            <Longitude>-1.846777173516405</Longitude>
-            <Latitude>53.719126025174596</Latitude>
+            <Easting>410213</Easting>
+            <Northing>424751</Northing>
+            <Longitude>-1.846716756026490</Longitude>
+            <Latitude>53.719072019535339</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -584337,17 +584323,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-05-12T13:38:47" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:04:24" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022666</AtcoCode>
       <NaptanCode>45022666</NaptanCode>
       <PlateCode>45022666</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Rd Southowram Bank</CommonName>
+        <CommonName>Beacon Hill</CommonName>
         <ShortCommonName>Beacon Hill</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>Nr/Opp Southowram Bank</Crossing>
-        <Indicator>opp</Indicator>
+        <Indicator>S bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077015</NptgLocalityRef>
@@ -584356,10 +584342,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>410202</Easting>
-            <Northing>424816</Northing>
-            <Longitude>-1.846881323925210</Longitude>
-            <Latitude>53.719656454985177</Latitude>
+            <Easting>410182</Easting>
+            <Northing>424954</Northing>
+            <Longitude>-1.847179905308258</Longitude>
+            <Latitude>53.720897190779482</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -584391,17 +584377,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2009-02-24T15:07:58" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T21:04:46" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022667</AtcoCode>
       <NaptanCode>45022667</NaptanCode>
       <PlateCode>45022667</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Rd Southowram Bank</CommonName>
+        <CommonName>Beacon Hill</CommonName>
         <ShortCommonName>Beacon Hill</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>Nr/At Southowram Bank</Crossing>
-        <Indicator>adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077015</NptgLocalityRef>
@@ -584410,10 +584395,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>410191</Easting>
-            <Northing>424823</Northing>
-            <Longitude>-1.847047784539074</Longitude>
-            <Latitude>53.719719583787182</Latitude>
+            <Easting>410173</Easting>
+            <Northing>424952</Northing>
+            <Longitude>-1.847316355814074</Longitude>
+            <Latitude>53.720879388254915</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -584445,12 +584430,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2016-11-30T11:38:06" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T19:55:40" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022668</AtcoCode>
       <NaptanCode>45022668</NaptanCode>
       <PlateCode>45022668</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Road Godley Branch Rd</CommonName>
+        <CommonName>Godley Branch Road</CommonName>
         <ShortCommonName>Godley Branch Road</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
@@ -584499,17 +584484,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2014-12-16T15:18:56" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T19:53:26" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022669</AtcoCode>
       <NaptanCode>45022669</NaptanCode>
       <PlateCode>45022669</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Road Godley Branch Rd</CommonName>
+        <CommonName>Godley Branch Road</CommonName>
         <ShortCommonName>Godley Branch Road</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>At Godley Branch Road</Crossing>
-        <Indicator>adj</Indicator>
+        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032458</NptgLocalityRef>
@@ -584518,10 +584503,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>409996</Easting>
-            <Northing>425564</Northing>
-            <Longitude>-1.849979061154141</Longitude>
-            <Latitude>53.726383448299465</Latitude>
+            <Easting>409998</Easting>
+            <Northing>425544</Northing>
+            <Longitude>-1.849949388178595</Longitude>
+            <Latitude>53.726203649766248</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -584553,17 +584538,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2007-11-14T11:14:55" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T19:49:55" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022670</AtcoCode>
       <NaptanCode>45022670</NaptanCode>
       <PlateCode>45022670</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Road Godley Rd</CommonName>
-        <ShortCommonName>New Bank</ShortCommonName>
-        <Landmark>*</Landmark>
+        <CommonName>Godley Road</CommonName>
+        <ShortCommonName>Godley Road</ShortCommonName>
+        <Landmark>Footbridge</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>At Godley Road</Crossing>
-        <Indicator>at</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032458</NptgLocalityRef>
@@ -584607,14 +584591,14 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2007-11-14T11:19:31" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-03-11T00:00:00" ModificationDateTime="2026-11-04T19:49:06" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450022671</AtcoCode>
       <NaptanCode>45022671</NaptanCode>
       <PlateCode>45022671</PlateCode>
       <Descriptor>
-        <CommonName>Beacon Hill Road Godley Rd</CommonName>
-        <ShortCommonName>New Bank</ShortCommonName>
-        <Landmark>*</Landmark>
+        <CommonName>Godley Road</CommonName>
+        <ShortCommonName>Godley Road</ShortCommonName>
+        <Landmark>Footbridge</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>Opp Godley Road</Crossing>
         <Indicator>opp</Indicator>
@@ -622501,17 +622485,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-05-27T00:00:00" ModificationDateTime="2011-08-02T18:25:52" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-05-27T00:00:00" ModificationDateTime="2026-11-05T10:17:01" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450023528</AtcoCode>
       <NaptanCode>45023528</NaptanCode>
       <PlateCode>45023528</PlateCode>
       <Descriptor>
-        <CommonName>Waterloo Rd Lightcliffe Road</CommonName>
-        <ShortCommonName>Lightcliffe Road</ShortCommonName>
-        <Landmark>School</Landmark>
+        <CommonName>St Andrew's Juniors</CommonName>
+        <ShortCommonName>St Andrew's Juniors</ShortCommonName>
+        <Landmark>St Andrew's Junior School</Landmark>
         <Street>Waterloo Road</Street>
         <Crossing>At Lightcliffe Road</Crossing>
-        <Indicator>after</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033787</NptgLocalityRef>
@@ -627247,12 +627230,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-11-22T00:00:00" ModificationDateTime="2013-01-09T18:38:36" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-11-22T00:00:00" ModificationDateTime="2026-10-30T09:55:13" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450023710</AtcoCode>
       <NaptanCode>45023710</NaptanCode>
       <PlateCode>45023710</PlateCode>
       <Descriptor>
-        <CommonName>Park Rd Stainburn Avenue</CommonName>
+        <CommonName>Stainburn Avenue</CommonName>
         <ShortCommonName>Stainburn Avenue</ShortCommonName>
         <Landmark>Car Dealership</Landmark>
         <Street>Park Road</Street>
@@ -627265,10 +627248,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>444128</Easting>
-            <Northing>423956</Northing>
-            <Longitude>-1.332927501121142</Longitude>
-            <Latitude>53.710168709195536</Latitude>
+            <Easting>444120</Easting>
+            <Northing>423971</Northing>
+            <Longitude>-1.333046562722605</Longitude>
+            <Latitude>53.710304195805144</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -666419,17 +666402,17 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2001-12-12T00:00:00" ModificationDateTime="2008-01-23T08:10:20" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="2001-12-12T00:00:00" ModificationDateTime="2026-11-04T21:11:26" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450024876</AtcoCode>
       <NaptanCode>45024876</NaptanCode>
       <PlateCode>45024876</PlateCode>
       <Descriptor>
-        <CommonName>Bank Top Marsh Lane</CommonName>
+        <CommonName>Marsh Lane</CommonName>
         <ShortCommonName>Marsh Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Beacon Hill Road</Street>
         <Crossing>Marsh Lane</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>SE bound</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0033582</NptgLocalityRef>
@@ -823933,7 +823916,7 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:47:35" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:34:57" Status="inactive" Modification="archive" RevisionNumber="1">
       <AtcoCode>450030127</AtcoCode>
       <NaptanCode>45030127</NaptanCode>
       <PlateCode>45030127</PlateCode>
@@ -823982,17 +823965,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:53:22" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:48:00" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030128</AtcoCode>
       <NaptanCode>45030128</NaptanCode>
       <PlateCode>45030128</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Stn stand 1</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 1</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 1</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824031,17 +824013,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:53:00" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:36:16" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030129</AtcoCode>
       <NaptanCode>45030129</NaptanCode>
       <PlateCode>45030129</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 2</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 2</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldam Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 2</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824080,17 +824061,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:52:35" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:36:58" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030130</AtcoCode>
       <NaptanCode>45030130</NaptanCode>
       <PlateCode>45030130</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 3</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 3</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 3</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824129,17 +824109,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:51:50" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:37:53" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030131</AtcoCode>
       <NaptanCode>45030131</NaptanCode>
       <PlateCode>45030131</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 4</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 4</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 4</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824178,17 +824157,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:54:36" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:38:41" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030132</AtcoCode>
       <NaptanCode>45030132</NaptanCode>
       <PlateCode>45030132</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 5</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 5</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 5</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824227,17 +824205,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:55:33" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:39:17" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030133</AtcoCode>
       <NaptanCode>45030133</NaptanCode>
       <PlateCode>45030133</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 6</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 6</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 6</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824276,17 +824253,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:56:28" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:39:57" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030134</AtcoCode>
       <NaptanCode>45030134</NaptanCode>
       <PlateCode>45030134</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 7</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 7</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 7</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824325,17 +824301,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:57:18" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:40:37" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030135</AtcoCode>
       <NaptanCode>45030135</NaptanCode>
       <PlateCode>45030135</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 8</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 8</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 8</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824374,17 +824349,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:58:22" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:41:17" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030136</AtcoCode>
       <NaptanCode>45030136</NaptanCode>
       <PlateCode>45030136</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 9</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 9</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 9</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824423,17 +824397,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:59:05" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:41:57" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030137</AtcoCode>
       <NaptanCode>45030137</NaptanCode>
       <PlateCode>45030137</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 10</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 10</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 10</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824472,17 +824445,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T13:59:51" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:42:36" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030138</AtcoCode>
       <NaptanCode>45030138</NaptanCode>
       <PlateCode>45030138</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 11</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 11</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 11</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824521,17 +824493,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T14:01:14" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:43:13" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030139</AtcoCode>
       <NaptanCode>45030139</NaptanCode>
       <PlateCode>45030139</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 12</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 12</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 12</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824570,17 +824541,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T14:02:02" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:44:12" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030140</AtcoCode>
       <NaptanCode>45030140</NaptanCode>
       <PlateCode>45030140</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbiry Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 13</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 13</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 13</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824619,17 +824589,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T14:03:08" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:44:51" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030141</AtcoCode>
       <NaptanCode>45030141</NaptanCode>
       <PlateCode>45030141</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 14</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 14</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 14</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -824668,17 +824637,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2009-02-04T14:04:38" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="1999-09-28T00:00:00" ModificationDateTime="2026-11-04T12:45:39" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450030142</AtcoCode>
       <NaptanCode>45030142</NaptanCode>
       <PlateCode>45030142</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 15</CommonName>
         <ShortCommonName>Dewsbury Bus Stn 15</ShortCommonName>
         <Landmark>Dewsbury Bus Station</Landmark>
         <Street>Dewsbury Bus Station (Aldams Road)</Street>
         <Crossing>Wilton Street</Crossing>
-        <Indicator>stand 15</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -854115,17 +854083,16 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-02-04T16:17:41" ModificationDateTime="2025-06-17T12:36:14" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="2025-02-04T16:17:41" ModificationDateTime="2026-11-04T12:47:27" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450032521</AtcoCode>
       <NaptanCode>45032521</NaptanCode>
       <PlateCode>45032521</PlateCode>
       <Descriptor>
-        <CommonName>Dewsbury Bus Station</CommonName>
+        <CommonName>Dewsbury Bus Station stand 1</CommonName>
         <ShortCommonName>Dewsbury BS 1</ShortCommonName>
         <Landmark>Unknown</Landmark>
         <Street>Dewsbury Bus Station</Street>
         <Crossing>South Street</Crossing>
-        <Indicator>stop 1</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0032592</NptgLocalityRef>
@@ -863377,12 +863344,12 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-09-01T00:00:00" ModificationDateTime="2009-04-14T08:53:34" Status="active" Modification="revise" RevisionNumber="1">
+    <StopPoint CreationDateTime="2004-09-01T00:00:00" ModificationDateTime="2026-11-04T17:15:46" Status="active" Modification="revise" RevisionNumber="1">
       <AtcoCode>450050245</AtcoCode>
       <NaptanCode>45050245</NaptanCode>
       <PlateCode>45050245</PlateCode>
       <Descriptor>
-        <CommonName>Denholme Gate Road Northedge Ln</CommonName>
+        <CommonName>Northedge Lane</CommonName>
         <ShortCommonName>Northedge Lane</ShortCommonName>
         <Landmark>*</Landmark>
         <Street>Denholme Gate Road</Street>

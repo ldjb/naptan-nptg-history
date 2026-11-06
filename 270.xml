@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-12T07:46:35.2193219Z" ModificationDateTime="2026-10-12T07:46:35.2193219Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-05T14:25:19.1253773Z" ModificationDateTime="2026-11-05T14:25:19.1253773Z" Modification="new" RevisionNumber="1" FileName="NaPTAN270.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2005-08-19T00:00:00" ModificationDateTime="2013-04-15T12:12:06" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>270000007470</AtcoCode>
@@ -234473,6 +234473,160 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
+    <StopPoint CreationDateTime="2026-11-05T14:07:28" ModificationDateTime="2026-11-05T14:12:17" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>270002704030</AtcoCode>
+      <NaptanCode>lindgdgm</NaptanCode>
+      <Descriptor>
+        <CommonName>Curlew Drive</CommonName>
+        <Landmark>Curlew Drive</Landmark>
+        <Street>Backgate</Street>
+        <Indicator>adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048092</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>526590</Easting>
+            <Northing>317599</Northing>
+            <Longitude>-0.126304000</Longitude>
+            <Latitude>52.741203000</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2026-11-05T14:12:17" ModificationDateTime="2026-11-05T14:12:17" Modification="new">270G02704032</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-05T14:10:12" ModificationDateTime="2026-11-05T14:12:17" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>270002704031</AtcoCode>
+      <NaptanCode>lindgdgp</NaptanCode>
+      <Descriptor>
+        <CommonName>Curlew Drive</CommonName>
+        <Landmark>Curlew Drive</Landmark>
+        <Street>Backgate</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048092</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>526608</Easting>
+            <Northing>317652</Northing>
+            <Longitude>-0.126009000</Longitude>
+            <Latitude>52.741674000</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <StopAreas>
+        <StopAreaRef CreationDateTime="2026-11-05T14:12:17" ModificationDateTime="2026-11-05T14:12:17" Modification="new">270G02704032</StopAreaRef>
+      </StopAreas>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-05T14:18:20" ModificationDateTime="2026-11-05T14:15:10" Modification="new" Status="active">
+      <AtcoCode>270002704033</AtcoCode>
+      <NaptanCode>lindgdgt</NaptanCode>
+      <Descriptor>
+        <CommonName>Old Station House</CommonName>
+        <Landmark>Old Station House</Landmark>
+        <Street>Backgate</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048092</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>526606</Easting>
+            <Northing>318003</Northing>
+            <Longitude>-0.125905000</Longitude>
+            <Latitude>52.744827000</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-05T14:21:51" ModificationDateTime="2026-11-05T14:20:09" Modification="new" Status="active">
+      <AtcoCode>270002704034</AtcoCode>
+      <NaptanCode>lindgdgw</NaptanCode>
+      <Descriptor>
+        <CommonName>Croft Close</CommonName>
+        <Landmark>Croft Close</Landmark>
+        <Street>Stonegate</Street>
+        <Indicator>opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0048092</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>526702</Easting>
+            <Northing>318049</Northing>
+            <Longitude>-0.124474000</Longitude>
+            <Latitude>52.745219000</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+    </StopPoint>
     <StopPoint CreationDateTime="2014-01-22T09:20:55" ModificationDateTime="2014-01-22T09:22:18" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>27002703400</AtcoCode>
       <NaptanCode>lindajpj</NaptanCode>
@@ -369946,6 +370100,21 @@
           <Northing>371077</Northing>
           <Longitude>-0.557069860</Longitude>
           <Latitude>53.227990434</Latitude>
+        </Translation>
+      </Location>
+    </StopArea>
+    <StopArea CreationDateTime="2026-11-05T14:11:26" ModificationDateTime="2026-11-05T14:10:37" Modification="new" Status="active">
+      <StopAreaCode>270G02704032</StopAreaCode>
+      <Name xml:lang="en">Curlew Drive</Name>
+      <AdministrativeAreaRef>089</AdministrativeAreaRef>
+      <StopAreaType>GPBS</StopAreaType>
+      <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>526599</Easting>
+          <Northing>317626</Northing>
+          <Longitude>-0.126158619</Longitude>
+          <Latitude>52.741442498</Latitude>
         </Translation>
       </Location>
     </StopArea>
