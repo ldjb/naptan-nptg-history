@@ -179461,7 +179461,7 @@
       </StopAreas>
       <AdministrativeAreaRef>110</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2019-12-10T09:16:00" ModificationDateTime="2019-12-10T09:16:00" Modification="new" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2019-12-10T09:16:00" ModificationDateTime="2026-11-09T11:00:00" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>9100RBRYSTN</AtcoCode>
       <Descriptor>
         <CommonName>Robroyston Railway Station</CommonName>
@@ -179498,6 +179498,9 @@
           </Rail>
         </OffStreet>
       </StopClassification>
+      <StopAreas>
+       <StopAreaRef CreationDateTime="2026-11-09T11:00:00" ModificationDateTime="2026-11-09T11:00:00" Modification="new" RevisionNumber="0" Status="active">910GRBRYSTN</StopAreaRef>
+      </StopAreas>
       <AdministrativeAreaRef>110</AdministrativeAreaRef>
     </StopPoint>
     <StopPoint CreationDateTime="2006-09-08T14:30:00" ModificationDateTime="2007-09-26T13:00:00" Modification="revise" RevisionNumber="1" Status="active">
@@ -293382,6 +293385,21 @@
             <Northing>657455</Northing>
             <Longitude>-4.381326</Longitude>
             <Latitude>55.787299</Latitude>
+        </Translation>
+      </Location>
+    </StopArea>
+	 <StopArea CreationDateTime="2026-11-09T11:00:00" ModificationDateTime="2026-11-09T11:00:00" Modification="new" RevisionNumber="0" Status="active">
+      <StopAreaCode>910GRBRYSTN</StopAreaCode>
+      <Name>Robroyston Railway Station</Name>
+      <AdministrativeAreaRef>110</AdministrativeAreaRef>
+      <StopAreaType>GRLS</StopAreaType>
+      <Location>
+        <Translation>
+          <GridType>UKOS</GridType>
+          <Easting>264157</Easting>
+          <Northing>668131</Northing>
+          <Longitude>-4.173474</Longitude>
+          <Latitude>55.887100</Latitude>
         </Translation>
       </Location>
     </StopArea>
