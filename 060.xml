@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-09T10:30:20.474" ModificationDateTime="2026-11-09T10:30:20.474" Modification="new" RevisionNumber="0" FileName="NaPTAN060.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-11T07:27:17.790" ModificationDateTime="2026-11-11T07:27:17.790" Modification="new" RevisionNumber="0" FileName="NaPTAN060.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-05-10T00:00:00.000" ModificationDateTime="2026-11-09T09:47:17.714" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600200410</AtcoCode>
@@ -109011,7 +109011,7 @@
 <PlusbusZoneRef CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2013-07-01T09:43:22.000" Modification="revise" RevisionNumber="6" Status="active">MACLSFD</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-27T10:52:55.487" Modification="revise" RevisionNumber="13" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-11-11T06:55:33.278" Modification="revise" RevisionNumber="16" Status="active">
 <AtcoCode>0600MA6043</AtcoCode>
 <NaptanCode>CHEMADP</NaptanCode>
 <Descriptor>
@@ -109026,10 +109026,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>385511</Easting>
-<Northing>384526</Northing>
-<Longitude>-2.219157</Longitude>
-<Latitude>53.357431</Latitude>
+<Easting>385505</Easting>
+<Northing>384583</Northing>
+<Longitude>-2.219253</Longitude>
+<Latitude>53.35794</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -109055,8 +109055,16 @@
 <PlusbusZones>
 <PlusbusZoneRef Modification="new" Status="active">MNCRPIC</PlusbusZoneRef>
 </PlusbusZones>
+<StopAvailability>
+<StopValidity Modification="new" Status="active">
+<DateRange>
+<StartDate>2026-11-11</StartDate>
+</DateRange>
+<Suspended />
+</StopValidity>
+</StopAvailability>
 </StopPoint>
-<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-05-27T10:52:02.783" Modification="revise" RevisionNumber="11" Status="active">
+<StopPoint CreationDateTime="2006-04-19T00:00:00.000" ModificationDateTime="2026-11-11T06:54:21.905" Modification="revise" RevisionNumber="12" Status="active">
 <AtcoCode>0600MA6044</AtcoCode>
 <NaptanCode>CHEMADT</NaptanCode>
 <Descriptor>
@@ -109071,10 +109079,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>385524</Easting>
-<Northing>384540</Northing>
-<Longitude>-2.218962</Longitude>
-<Latitude>53.357558</Latitude>
+<Easting>385522</Easting>
+<Northing>384548</Northing>
+<Longitude>-2.218988</Longitude>
+<Latitude>53.357626</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -144672,10 +144680,10 @@
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>385518</Easting>
-<Northing>384533</Northing>
-<Longitude>-2.219052</Longitude>
-<Latitude>53.357494</Latitude>
+<Easting>385513</Easting>
+<Northing>384565</Northing>
+<Longitude>-2.219127</Longitude>
+<Latitude>53.35778</Latitude>
 </Translation>
 </Location>
 </StopArea>
