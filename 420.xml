@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-23T13:17:04.8935504Z" ModificationDateTime="2026-10-23T13:17:04.8935504Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-12T13:15:31.557708Z" ModificationDateTime="2026-11-12T13:15:31.557708Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -47,14 +47,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-26T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="inactive">
+    <StopPoint CreationDateTime="2004-07-26T00:00:00" ModificationDateTime="2026-11-12T12:47:34" Modification="revise" RevisionNumber="2" Status="inactive">
       <AtcoCode>420010473</AtcoCode>
       <NaptanCode>wardajwj</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Suffolk Street</CommonName>
-        <Landmark xml:lang="en"> Suffolk Street</Landmark>
-        <Street xml:lang="en">Leicester Street</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Suffolk Street</CommonName>
+        <Street>Leicester Street</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0072514</NptgLocalityRef>
@@ -47863,7 +47862,7 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2020-10-08T11:41:15" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-11-12T13:09:42" Modification="revise" RevisionNumber="4" Status="inactive">
       <AtcoCode>4200F078900</AtcoCode>
       <NaptanCode>waradtap</NaptanCode>
       <Descriptor>
@@ -47872,7 +47871,7 @@
         <Indicator xml:lang="en">Opp</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>E0052048</NptgLocalityRef>
+        <NptgLocalityRef>N0072514</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
@@ -47900,18 +47899,18 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
       <StopAvailability>
-        <StopValidity CreationDateTime="2006-06-01T00:00:00" ModificationDateTime="2006-06-01T10:59:39">
-          <DateRange>
-            <StartDate>2006-06-01</StartDate>
-          </DateRange>
-          <Suspended />
-          <Note xml:lang="en">Added by Trapeze - during 9.6 upgrade</Note>
-        </StopValidity>
         <StopValidity CreationDateTime="2008-10-28T00:00:00" ModificationDateTime="2008-10-28T15:06:06">
           <DateRange>
             <StartDate>2008-10-27</StartDate>
           </DateRange>
           <Active />
+        </StopValidity>
+        <StopValidity CreationDateTime="2006-06-01T00:00:00" ModificationDateTime="2026-11-12T13:09:42" Modification="revise" RevisionNumber="1">
+          <DateRange>
+            <StartDate>2006-06-01</StartDate>
+          </DateRange>
+          <Suspended />
+          <Note xml:lang="en    ">Added by Trapeze - during 9.6 upgrade</Note>
         </StopValidity>
       </StopAvailability>
     </StopPoint>
@@ -131243,7 +131242,7 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2017-07-10T09:08:26" ModificationDateTime="2017-07-10T09:08:26" Modification="new" RevisionNumber="0" Status="active">
+    <StopPoint CreationDateTime="2017-07-10T09:08:26" ModificationDateTime="2026-11-06T11:20:22" Modification="revise" RevisionNumber="1" Status="inactive">
       <AtcoCode>4200F167112</AtcoCode>
       <NaptanCode>wardpjda</NaptanCode>
       <Descriptor>
@@ -131279,6 +131278,14 @@
         </OnStreet>
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
+      <StopAvailability>
+        <StopValidity CreationDateTime="2026-11-06T11:20:22" ModificationDateTime="2026-11-06T11:20:22" Modification="new">
+          <DateRange>
+            <StartDate>2026-11-06</StartDate>
+          </DateRange>
+          <Suspended />
+        </StopValidity>
+      </StopAvailability>
     </StopPoint>
     <StopPoint CreationDateTime="2017-07-26T14:03:18" ModificationDateTime="2017-07-26T14:03:18" Modification="new" RevisionNumber="0" Status="active">
       <AtcoCode>4200F167171</AtcoCode>
@@ -154467,14 +154474,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2008-09-30T00:00:00" Modification="revise" RevisionNumber="2" Status="inactive">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-11-12T12:51:47" Modification="revise" RevisionNumber="3" Status="inactive">
       <AtcoCode>4200F205101</AtcoCode>
       <NaptanCode>warajtam</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Whitnash Tavern </CommonName>
-        <Landmark xml:lang="en">Whitnash Tavern</Landmark>
-        <Street xml:lang="en">St Margarets Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Whitnash Tavern </CommonName>
+        <Street>St Margarets Road</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0072514</NptgLocalityRef>
