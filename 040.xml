@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-10-27T14:02:19.024" ModificationDateTime="2026-10-27T14:02:19.024" Modification="new" RevisionNumber="0" FileName="NaPTAN040.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-11-13T17:05:38.991" ModificationDateTime="2026-11-13T17:05:38.991" Modification="new" RevisionNumber="0" FileName="NaPTAN040.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2006-06-12T00:00:00.000" ModificationDateTime="2008-05-30T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>040000001091</AtcoCode>
@@ -144859,6 +144859,60 @@
 <Northing>212704</Northing>
 <Longitude>-0.7834352</Longitude>
 <Latitude>51.8066880</Latitude>
+</Translation>
+</EndPoint>
+<Bearing>
+<CompassPoint>N</CompassPoint>
+</Bearing>
+</HailAndRideSection>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>070</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-11-13T16:54:20.447" ModificationDateTime="2026-11-13T16:54:20.447" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>040000000488</AtcoCode>
+<NaptanCode>bucgmdwp</NaptanCode>
+<Descriptor>
+<CommonName>Tancred Road</CommonName>
+<Street>Coates Lane</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0000708</NptgLocalityRef>
+<Town>High Wycombe</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>486134</Easting>
+<Northing>194435</Northing>
+<Longitude>-0.7566414</Longitude>
+<Latitude>51.6421317</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>HAR</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<HailAndRideSection Modification="new" Status="active">
+<StartPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>486134</Easting>
+<Northing>194435</Northing>
+<Longitude>-0.7566414</Longitude>
+<Latitude>51.6421317</Latitude>
+</Translation>
+</StartPoint>
+<EndPoint>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>486134</Easting>
+<Northing>194435</Northing>
+<Longitude>-0.7566414</Longitude>
+<Latitude>51.6421317</Latitude>
 </Translation>
 </EndPoint>
 <Bearing>
