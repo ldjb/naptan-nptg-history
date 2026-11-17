@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-12T13:15:31.557708Z" ModificationDateTime="2026-11-12T13:15:31.557708Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-16T11:38:43.3485335Z" ModificationDateTime="2026-11-16T11:38:43.3485335Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -74343,14 +74343,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-06-22T00:00:00" ModificationDateTime="2026-11-16T09:43:05" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>4200F126710</AtcoCode>
       <NaptanCode>warataga</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Montrose Avenue</CommonName>
-        <Street xml:lang="en">Lime Avenue</Street>
-        <Crossing xml:lang="en">Montrose Avenue</Crossing>
-        <Indicator xml:lang="en">Opp</Indicator>
+        <CommonName>Montrose Avenue</CommonName>
+        <Street>Lime Avenue</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077955</NptgLocalityRef>
@@ -77234,25 +77233,24 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-07-11T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2006-07-11T00:00:00" ModificationDateTime="2026-11-16T11:16:23" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>4200F127831</AtcoCode>
       <NaptanCode>waragpwp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Lillington Avenue</CommonName>
-        <Street xml:lang="en">Lillington Road</Street>
-        <Crossing xml:lang="en">Lillington Avenue</Crossing>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Burman Close</CommonName>
+        <Street>Lillington Road</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
-        <NptgLocalityRef>N0072514</NptgLocalityRef>
+        <NptgLocalityRef>N0077955</NptgLocalityRef>
         <LocalityCentre>false</LocalityCentre>
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>432226</Easting>
-            <Northing>267963</Northing>
-            <Longitude>-1.528753968</Longitude>
-            <Latitude>52.308837974</Latitude>
+            <Easting>432228</Easting>
+            <Northing>267969</Northing>
+            <Longitude>-1.528724062</Longitude>
+            <Latitude>52.308891797</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -77264,9 +77262,44 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>N</CompassPoint>
+                <CompassPoint>NE</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-16T11:14:36" ModificationDateTime="2026-11-16T11:17:00" Modification="revise" RevisionNumber="2" Status="active">
+      <AtcoCode>4200F127832</AtcoCode>
+      <NaptanCode>waragpwq</NaptanCode>
+      <Descriptor>
+        <CommonName>Burman Close</CommonName>
+        <Street>Lillington Road</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077955</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>432240</Easting>
+            <Northing>267963</Northing>
+            <Longitude>-1.528548634</Longitude>
+            <Latitude>52.308837155</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>SW</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>
@@ -108369,14 +108402,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2020-04-29T10:12:52" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-11-12T13:40:17" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>4200F153002</AtcoCode>
       <NaptanCode>warapmjm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Sandy Lane Roundabout</CommonName>
-        <Landmark xml:lang="en">Sandy Lane Roundabout</Landmark>
-        <Street xml:lang="en">Lime Avenue</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Sandy Lane Roundabout</CommonName>
+        <Street>Lime Avenue</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077955</NptgLocalityRef>
@@ -108525,14 +108557,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2009-03-13T00:00:00" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-11-16T11:38:17" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>4200F153101</AtcoCode>
       <NaptanCode>warapmjp</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Castle Froma</CommonName>
-        <Landmark xml:lang="en">Castle Froma</Landmark>
-        <Street xml:lang="en">Lillington Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Castel Froma</CommonName>
+        <Street>Lillington Road</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077955</NptgLocalityRef>
@@ -108544,9 +108575,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>432201</Easting>
-            <Northing>267834</Northing>
-            <Longitude>-1.529132935</Longitude>
-            <Latitude>52.307679736</Latitude>
+            <Northing>267820</Northing>
+            <Longitude>-1.529134269</Longitude>
+            <Latitude>52.307553877</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -108561,6 +108592,41 @@
                 <CompassPoint>N</CompassPoint>
               </Bearing>
             </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-16T11:36:15" ModificationDateTime="2026-11-16T11:27:00" Modification="new" Status="active">
+      <AtcoCode>4200F153102</AtcoCode>
+      <NaptanCode>warapmjq</NaptanCode>
+      <Descriptor>
+        <CommonName>Castel Froma</CommonName>
+        <Street>Lillington Road</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>N0077955</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>432215</Easting>
+            <Northing>267816</Northing>
+            <Longitude>-1.528929322</Longitude>
+            <Latitude>52.307517099</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>CUS</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <UnmarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
+              </Bearing>
+            </UnmarkedPoint>
           </Bus>
         </OnStreet>
       </StopClassification>

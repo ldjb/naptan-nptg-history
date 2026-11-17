@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-03T14:22:59.574" ModificationDateTime="2026-11-03T14:22:59.574" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-16T11:38:00.560" ModificationDateTime="2026-11-16T11:38:00.560" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-05-13T12:00:00.000" ModificationDateTime="2025-11-05T11:48:52.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA96813</AtcoCode>
@@ -32868,11 +32868,11 @@
 </StopClassification>
 <AdministrativeAreaRef>092</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
+<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2026-11-16T11:37:50.767" Modification="revise" RevisionNumber="2" Status="active">
 <AtcoCode>3200YNA00512</AtcoCode>
 <NaptanCode>32000512</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">Highmoor</CommonName>
+<CommonName xml:lang="en">Stutton Crossroads</CommonName>
 <ShortCommonName xml:lang="en">Stutton and Bramham</ShortCommonName>
 <Landmark xml:lang="en">Toulston Polo Ground</Landmark>
 <Street xml:lang="en">Leeds Road</Street>
@@ -59631,50 +59631,6 @@
 <CompassPoint>S</CompassPoint>
 </Bearing>
 </MarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
-<AdministrativeAreaRef>092</AdministrativeAreaRef>
-<PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">SCARBRO</PlusbusZoneRef>
-</PlusbusZones>
-</StopPoint>
-<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2025-11-24T15:54:44.001" Modification="revise" RevisionNumber="1" Status="active">
-<AtcoCode>3200YNA01258</AtcoCode>
-<NaptanCode>32001258</NaptanCode>
-<Descriptor>
-<CommonName xml:lang="en">Westgate Terrace</CommonName>
-<ShortCommonName xml:lang="en">18 Hail And Ride</ShortCommonName>
-<Landmark xml:lang="en">Pond</Landmark>
-<Street xml:lang="en">Main Street</Street>
-<Indicator xml:lang="en">adj</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>E0049509</NptgLocalityRef>
-<Suburb>Seamer</Suburb>
-<Town>Scarborough</Town>
-<LocalityCentre>0</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>501448</Easting>
-<Northing>483882</Northing>
-<Longitude>-0.444842</Longitude>
-<Latitude>54.240602</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
-<Bearing>
-<CompassPoint>NW</CompassPoint>
-</Bearing>
-</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -189939,47 +189895,6 @@
 <Northing>441207</Northing>
 <Longitude>-1.310804</Longitude>
 <Latitude>53.865109</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>NE</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
-<AdministrativeAreaRef>092</AdministrativeAreaRef>
-</StopPoint>
-<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
-<AtcoCode>3200YNF10363</AtcoCode>
-<NaptanCode>32010363</NaptanCode>
-<Descriptor>
-<CommonName xml:lang="en">Crossroads</CommonName>
-<ShortCommonName xml:lang="en">Crossroads</ShortCommonName>
-<Landmark xml:lang="en">Toulston Polo Grounds</Landmark>
-<Street xml:lang="en">Leeds Road</Street>
-<Indicator xml:lang="en">NE-bound</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>E0049582</NptgLocalityRef>
-<Suburb>Stutton</Suburb>
-<Town>Selby</Town>
-<LocalityCentre>0</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>446031</Easting>
-<Northing>442077</Northing>
-<Longitude>-1.301399</Longitude>
-<Latitude>53.872874</Latitude>
 </Translation>
 </Location>
 </Place>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-10-23T16:36:16.909" ModificationDateTime="2026-10-23T16:36:16.909" Modification="new" RevisionNumber="0" FileName="NaPTAN200.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-16T11:46:07.173" ModificationDateTime="2026-11-16T11:46:07.173" Modification="new" RevisionNumber="0" FileName="NaPTAN200.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2005-01-07T00:00:00.000" ModificationDateTime="2015-06-24T00:00:00.000" Modification="revise" RevisionNumber="8" Status="inactive">
 <AtcoCode>2000323417</AtcoCode>
@@ -7837,7 +7837,7 @@
 <PlusbusZoneRef CreationDateTime="2002-02-11T00:00:00.000" ModificationDateTime="2009-11-05T00:00:00.000" Modification="revise" RevisionNumber="4" Status="active">WORCSFS</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-02-11T00:00:00.000" ModificationDateTime="2023-09-19T13:54:56.682" Modification="revise" RevisionNumber="8" Status="active">
+<StopPoint CreationDateTime="2002-02-11T00:00:00.000" ModificationDateTime="2026-11-04T11:40:11.085" Modification="revise" RevisionNumber="9" Status="active">
 <AtcoCode>2000G001598</AtcoCode>
 <NaptanCode>wocdgmwt</NaptanCode>
 <Descriptor>
@@ -84208,25 +84208,25 @@
 <PlusbusZoneRef CreationDateTime="2004-10-29T00:00:00.000" ModificationDateTime="2007-05-11T00:00:00.000" Modification="revise" RevisionNumber="1" Status="inactive">WORCSFS</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-10-29T00:00:00.000" ModificationDateTime="2009-05-20T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">
+<StopPoint CreationDateTime="2004-10-29T00:00:00.000" ModificationDateTime="2026-11-16T11:41:41.205" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>2000G323051</AtcoCode>
 <NaptanCode>wocdwmdm</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Taylors Lane</CommonName>
 <Street xml:lang="en">Norton Road</Street>
-<Crossing xml:lang="en">Taylors Lane</Crossing>
 <Indicator xml:lang="en">opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0052626</NptgLocalityRef>
+<Town>Norton</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>386441</Easting>
-<Northing>251864</Northing>
-<Longitude>-2.1996547</Longitude>
-<Latitude>52.1648864</Latitude>
+<Easting>386390</Easting>
+<Northing>251962</Northing>
+<Longitude>-2.200401</Longitude>
+<Latitude>52.165763</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -84234,13 +84234,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
+<Degrees>145</Degrees>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -84249,25 +84250,25 @@
 <PlusbusZoneRef CreationDateTime="2004-10-29T00:00:00.000" ModificationDateTime="2009-05-20T00:00:00.000" Modification="revise" RevisionNumber="2" Status="active">WORCSFS</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-10-29T00:00:00.000" ModificationDateTime="2007-05-11T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">
+<StopPoint CreationDateTime="2004-10-29T00:00:00.000" ModificationDateTime="2026-11-16T11:39:32.408" Modification="revise" RevisionNumber="3" Status="active">
 <AtcoCode>2000G323052</AtcoCode>
 <NaptanCode>wocdwmdp</NaptanCode>
 <Descriptor>
 <CommonName xml:lang="en">Taylors Lane</CommonName>
 <Street xml:lang="en">Norton Road</Street>
-<Crossing xml:lang="en">Taylors Lane</Crossing>
 <Indicator xml:lang="en">adj</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>E0052626</NptgLocalityRef>
+<Town>Norton</Town>
 <LocalityCentre>0</LocalityCentre>
 <Location>
 <Translation>
 <GridType>UKOS</GridType>
-<Easting>386442</Easting>
-<Northing>251812</Northing>
-<Longitude>-2.1996380</Longitude>
-<Latitude>52.1644189</Latitude>
+<Easting>386391</Easting>
+<Northing>251937</Northing>
+<Longitude>-2.200387</Longitude>
+<Latitude>52.165534</Latitude>
 </Translation>
 </Location>
 </Place>
@@ -84275,13 +84276,14 @@
 <StopType>BCT</StopType>
 <OnStreet>
 <Bus>
-<BusStopType>CUS</BusStopType>
+<BusStopType>MKD</BusStopType>
 <TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
+<MarkedPoint>
 <Bearing>
 <CompassPoint>NW</CompassPoint>
+<Degrees>330</Degrees>
 </Bearing>
-</UnmarkedPoint>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -98475,7 +98477,7 @@
 <PlusbusZoneRef CreationDateTime="2004-12-20T00:00:00.000" ModificationDateTime="2013-01-23T10:21:19.000" Modification="revise" RevisionNumber="4" Status="active">GTMLVRN</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2004-12-20T00:00:00.000" ModificationDateTime="2010-06-03T00:00:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2004-12-20T00:00:00.000" ModificationDateTime="2026-10-27T16:19:48.779" Modification="revise" RevisionNumber="4" Status="active">
 <AtcoCode>2000G323411</AtcoCode>
 <NaptanCode>wocgjgpw</NaptanCode>
 <Descriptor>
@@ -123469,7 +123471,7 @@
 <PlusbusZoneRef CreationDateTime="2002-02-21T00:00:00.000" ModificationDateTime="2007-05-11T00:00:00.000" Modification="revise" RevisionNumber="1" Status="active">KDRMNST</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2002-02-22T00:00:00.000" ModificationDateTime="2010-05-12T00:00:00.000" Modification="revise" RevisionNumber="3" Status="inactive">
+<StopPoint CreationDateTime="2002-02-22T00:00:00.000" ModificationDateTime="2026-11-04T11:40:07.261" Modification="revise" RevisionNumber="4" Status="inactive">
 <AtcoCode>2000G502434</AtcoCode>
 <NaptanCode>wocgmgtw</NaptanCode>
 <Descriptor>

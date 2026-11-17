@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-10-08T14:00:33.660" ModificationDateTime="2026-10-08T14:00:33.660" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" CreationDateTime="2026-11-16T19:27:39.033" ModificationDateTime="2026-11-16T19:27:39.033" Modification="new" RevisionNumber="0" FileName="NaPTAN630.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2004-09-21T00:00:00.000" ModificationDateTime="2023-02-20T17:00:17.538" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630020011</AtcoCode>
@@ -18182,14 +18182,14 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-10-11T00:00:00.000" ModificationDateTime="2011-12-20T11:55:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2004-10-11T00:00:00.000" ModificationDateTime="2026-10-15T16:39:08.590" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>630023181</AtcoCode>
 <NaptanCode>23626569</NaptanCode>
 <Descriptor>
 <CommonName>Post Office</CommonName>
 <Landmark>Old Mill House</Landmark>
 <Street>A948</Street>
-<Indicator>at</Indicator>
+<Indicator>opp</Indicator>
 </Descriptor>
 <Place>
 <NptgLocalityRef>N0066983</NptgLocalityRef>
@@ -29474,7 +29474,7 @@
 </StopClassification>
 <AdministrativeAreaRef>112</AdministrativeAreaRef>
 </StopPoint>
-<StopPoint CreationDateTime="2004-10-20T00:00:00.000" ModificationDateTime="2025-05-22T17:57:35.618" Modification="revise" RevisionNumber="9" Status="active">
+<StopPoint CreationDateTime="2004-10-20T00:00:00.000" ModificationDateTime="2026-10-27T16:26:57.220" Modification="revise" RevisionNumber="10" Status="active">
 <AtcoCode>630030771</AtcoCode>
 <NaptanCode>23625939</NaptanCode>
 <Descriptor>
@@ -29484,7 +29484,7 @@
 <Indicator>opp</Indicator>
 </Descriptor>
 <Place>
-<NptgLocalityRef>ES002772</NptgLocalityRef>
+<NptgLocalityRef>ES002597</NptgLocalityRef>
 <Suburb>-</Suburb>
 <Town>Cairnorrie</Town>
 <LocalityCentre>0</LocalityCentre>
@@ -113936,6 +113936,82 @@
 <Northing>768822</Northing>
 <Longitude>-2.316873</Longitude>
 <Latitude>56.810497</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>SW</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-11-16T19:19:04.769" ModificationDateTime="2026-11-16T19:19:04.769" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630042684</AtcoCode>
+<NaptanCode>23634957</NaptanCode>
+<Descriptor>
+<CommonName>North Water Bridge</CommonName>
+<Landmark>North Water Bridge</Landmark>
+<Street>A90</Street>
+<Indicator>opp</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073386</NptgLocalityRef>
+<Town>Luthermuir</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>365301</Easting>
+<Northing>766368</Northing>
+<Longitude>-2.5695688</Longitude>
+<Latitude>56.7875564</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>NE</CompassPoint>
+</Bearing>
+</MarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>112</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-11-16T19:21:18.882" ModificationDateTime="2026-11-16T19:21:18.882" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>630042685</AtcoCode>
+<NaptanCode>23634958</NaptanCode>
+<Descriptor>
+<CommonName>North Water Bridge</CommonName>
+<Landmark>North Water Bridge</Landmark>
+<Street>A90</Street>
+<Indicator>at</Indicator>
+</Descriptor>
+<Place>
+<NptgLocalityRef>N0073386</NptgLocalityRef>
+<Town>Luthermuir</Town>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>365291</Easting>
+<Northing>766312</Northing>
+<Longitude>-2.5697249</Longitude>
+<Latitude>56.7870526</Latitude>
 </Translation>
 </Location>
 </Place>
