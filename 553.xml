@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-11-10T11:53:29" ModificationDateTime="2026-11-10T11:53:29" Modification="revise" RevisionNumber="1" FileName="553.xml" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" SchemaVersion="2.4" CreationDateTime="2026-11-18T13:43:00" ModificationDateTime="2026-11-18T13:43:00" Modification="revise" RevisionNumber="1" FileName="553.xml" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2000-01-01T00:00:00" ModificationDateTime="2025-07-24T09:57:12" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>5530ANZ12715</AtcoCode>
@@ -27712,6 +27712,88 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>030</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-18T12:59:14" Modification="new" Status="active">
+      <AtcoCode>5530WDB47520</AtcoCode>
+      <NaptanCode>mtygdwt</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Zion Close</CommonName>
+        <Street>Zion Close</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-11-18T12:59:15">
+          <CommonName xml:lang="cy">Zion Close</CommonName>
+          <Street>Zion Close</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0039233</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307213</Easting>
+            <Northing>202154</Northing>
+            <Longitude>-3.3443266657625697</Longitude>
+            <Latitude>51.710422309328536</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>030</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-18T13:41:21" Modification="new" Status="active">
+      <AtcoCode>5530WDB47521</AtcoCode>
+      <NaptanCode>mtygjad</NaptanCode>
+      <Descriptor>
+        <CommonName xml:lang="cy">Zion Close</CommonName>
+        <Street>Zion Close</Street>
+      </Descriptor>
+      <AlternativeDescriptors>
+        <Descriptor CreationDateTime="2026-11-18T13:41:21">
+          <CommonName xml:lang="cy">Zion Close</CommonName>
+          <Street>Zion Close</Street>
+        </Descriptor>
+      </AlternativeDescriptors>
+      <Place>
+        <NptgLocalityRef>E0039233</NptgLocalityRef>
+        <LocalityCentre>false</LocalityCentre>
+        <Location>
+          <Translation>
+            <Easting>307205</Easting>
+            <Northing>202183</Northing>
+            <Longitude>-3.344445822693474</Longitude>
+            <Latitude>51.71067901619666</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>N</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
