@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.97.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-09-08T09:56:14.8577653Z" ModificationDateTime="2026-09-08T09:56:14.8577653Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-24T09:42:35.6857114Z" ModificationDateTime="2026-11-24T09:42:35.6857114Z" Modification="new" RevisionNumber="1" FileName="305.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2024-12-27T16:02:48" ModificationDateTime="2026-04-20T14:43:15" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>3050000042LK</AtcoCode>
@@ -80,14 +80,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-12-27T16:27:05" ModificationDateTime="2026-04-20T15:13:21" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2024-12-27T16:27:05" ModificationDateTime="2026-11-18T16:16:56" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>3050000042M</AtcoCode>
       <NaptanCode>ntnadgdt</NaptanCode>
       <Descriptor>
         <CommonName>(Brigstock) Old Dry Lane North</CommonName>
         <ShortCommonName>A6116</ShortCommonName>
         <Street>A6116</Street>
-        <Indicator>Before</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049681</NptgLocalityRef>
@@ -159,14 +159,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T22:09:48" ModificationDateTime="2025-09-10T12:10:04" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T22:09:48" ModificationDateTime="2026-11-20T16:09:46" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>3050000105AR</AtcoCode>
       <NaptanCode>ntnagdmw</NaptanCode>
       <Descriptor>
-        <CommonName>Mears Ashby Road</CommonName>
+        <CommonName>(Earls Barton) Washbrook Lane</CommonName>
         <Street>Mears Ashby Road</Street>
         <Crossing>Washbrook Lane</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -175,10 +175,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>484277</Easting>
-            <Northing>264756</Northing>
-            <Longitude>-0.766240611</Longitude>
-            <Latitude>52.274502755</Latitude>
+            <Easting>484272</Easting>
+            <Northing>264764</Northing>
+            <Longitude>-0.766307000</Longitude>
+            <Latitude>52.274575000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -508,14 +508,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-24T13:29:12" ModificationDateTime="2025-08-21T11:27:42" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2025-01-24T13:29:12" ModificationDateTime="2026-11-19T15:38:59" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>3050000119GF</AtcoCode>
       <NaptanCode>ntnadpjm</NaptanCode>
       <Descriptor>
-        <CommonName>Laws Lane</CommonName>
+        <CommonName>(Finedon) Laws Lane</CommonName>
         <ShortCommonName>A510</ShortCommonName>
         <Street>Wellingborough Road</Street>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049842</NptgLocalityRef>
@@ -526,8 +526,8 @@
             <GridType>UKOS</GridType>
             <Easting>491672</Easting>
             <Northing>271812</Northing>
-            <Longitude>-0.655970102</Longitude>
-            <Latitude>52.336738669</Latitude>
+            <Longitude>-0.655971000</Longitude>
+            <Latitude>52.336740000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -4915,14 +4915,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-04-20T14:50:33" Modification="revise" RevisionNumber="12" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-18T16:07:04" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>305000042GD</AtcoCode>
       <NaptanCode>ntnadgdm</NaptanCode>
       <Descriptor>
         <CommonName>(Brigstock) Church Street</CommonName>
         <Street>Hall Hill</Street>
         <Crossing>Stable Hill</Crossing>
-        <Indicator>After</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049681</NptgLocalityRef>
@@ -5222,11 +5222,11 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-18T14:20:36" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-18T16:28:29" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000048C</AtcoCode>
       <NaptanCode>ntnadgtg</NaptanCode>
       <Descriptor>
-        <CommonName>Hutchinson Avenue</CommonName>
+        <CommonName>(Broughton) Carter Avenue</CommonName>
         <Street>Wellingborough Road</Street>
         <Crossing>Carter Avenue</Crossing>
         <Indicator>after</Indicator>
@@ -6225,14 +6225,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T20:42:48" ModificationDateTime="2025-10-23T14:18:30" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T20:42:48" ModificationDateTime="2026-11-19T11:19:44" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>305000052CL</AtcoCode>
       <NaptanCode>ntnadgwp</NaptanCode>
       <Descriptor>
-        <CommonName>Library</CommonName>
+        <CommonName>(Burton Latimer) Piggot's Lane</CommonName>
         <Landmark>Library</Landmark>
         <Street>High Street</Street>
-        <Indicator>os</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -6264,11 +6264,11 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T07:51:53" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T11:27:19" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000052CM</AtcoCode>
       <NaptanCode>ntnadgwt</NaptanCode>
       <Descriptor>
-        <CommonName>Meeting Lane</CommonName>
+        <CommonName>(Burton Latimer) Meeting Lane</CommonName>
         <Street>Church Street</Street>
         <Indicator>before</Indicator>
       </Descriptor>
@@ -6281,9 +6281,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>490152</Easting>
-            <Northing>274941</Northing>
-            <Longitude>-0.677433317</Longitude>
-            <Latitude>52.365117591</Latitude>
+            <Northing>274937</Northing>
+            <Longitude>-0.677439000</Longitude>
+            <Latitude>52.365081000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -6350,13 +6350,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T20:47:07" ModificationDateTime="2025-01-10T20:45:31" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T20:47:07" ModificationDateTime="2026-11-19T11:36:03" Modification="revise" RevisionNumber="1" Status="active">
       <AtcoCode>305000052CR</AtcoCode>
       <NaptanCode>ntnadjad</NaptanCode>
       <Descriptor>
-        <CommonName>Cranford Rd</CommonName>
+        <CommonName>(Burton Latimer) Aldwinckle Road</CommonName>
         <Landmark>Hail &amp; Ride</Landmark>
         <Street>Cranford Road</Street>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -6364,7 +6365,7 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>490604</Easting>
-            <Northing>275660</Northing>
+            <Northing>275659</Northing>
             <Longitude>-0.670603386</Longitude>
             <Latitude>52.371496320</Latitude>
           </Translation>
@@ -6666,14 +6667,14 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T07:53:14" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T11:54:37" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000052HA</AtcoCode>
       <NaptanCode>ntnadjat</NaptanCode>
       <Descriptor>
-        <CommonName>1 Hillcrest Avenue</CommonName>
+        <CommonName>(Burton Latimer) Queensway</CommonName>
         <Street>Hillcrest Avenue</Street>
         <Crossing>Finedon Road</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -6927,11 +6928,11 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T07:55:25" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T12:04:53" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000052HS</AtcoCode>
       <NaptanCode>ntnadjdg</NaptanCode>
       <Descriptor>
-        <CommonName>Newman Street</CommonName>
+        <CommonName>(Burton Latimer) Newman Street</CommonName>
         <Street>High Street</Street>
         <Indicator>after</Indicator>
       </Descriptor>
@@ -6943,10 +6944,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>490033</Easting>
-            <Northing>274511</Northing>
-            <Longitude>-0.679295709</Longitude>
-            <Latitude>52.361272397</Latitude>
+            <Easting>490036</Easting>
+            <Northing>274512</Northing>
+            <Longitude>-0.679251415</Longitude>
+            <Latitude>52.361279231</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7301,14 +7302,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-18T14:34:32" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T12:13:21" Modification="revise" RevisionNumber="14" Status="active">
       <AtcoCode>305000052OF</AtcoCode>
       <NaptanCode>ntnadjdm</NaptanCode>
       <Descriptor>
-        <CommonName>Newman Street</CommonName>
+        <CommonName>(Burton Latimer) Higham Road</CommonName>
         <Street>High Street</Street>
         <Crossing>Higham Road</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -7388,14 +7389,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T11:07:06" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T12:20:24" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000052OM</AtcoCode>
       <NaptanCode>ntnadjdp</NaptanCode>
       <Descriptor>
-        <CommonName>Meeting Lane</CommonName>
+        <CommonName>(Burton Latimer) Bakehouse Lane</CommonName>
         <Street>Church Street</Street>
         <Crossing>High Street</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -7631,13 +7632,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T07:58:58" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T12:31:42" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000052Q</AtcoCode>
       <NaptanCode>ntnadjdw</NaptanCode>
       <Descriptor>
-        <CommonName>Eady Road</CommonName>
+        <CommonName>(Burton Latimer) Eady Road</CommonName>
         <Street>Queensway</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -7647,10 +7648,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>489734</Easting>
+            <Easting>489733</Easting>
             <Northing>274218</Northing>
-            <Longitude>-0.683763478</Longitude>
-            <Latitude>52.358683307</Latitude>
+            <Longitude>-0.683775000</Longitude>
+            <Latitude>52.358686000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7753,15 +7754,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T21:47:49" ModificationDateTime="2025-09-08T14:18:28" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T21:47:49" ModificationDateTime="2026-11-19T12:41:26" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>305000052RR</AtcoCode>
       <NaptanCode>ntnadjgd</NaptanCode>
       <Descriptor>
-        <CommonName>A6 Folley Way</CommonName>
+        <CommonName>(Burton Latimer) Kettering Road</CommonName>
         <ShortCommonName>A6</ShortCommonName>
         <Street>Folley Way</Street>
         <Crossing>A14 roundabout</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -7876,13 +7877,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T07:59:56" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T12:47:00" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000052SP</AtcoCode>
       <NaptanCode>ntnadjgm</NaptanCode>
       <Descriptor>
-        <CommonName>Spinney Road</CommonName>
+        <CommonName>(Burton Latimer) Spinney Road</CommonName>
         <Street>Cranford Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -7894,8 +7895,8 @@
             <GridType>UKOS</GridType>
             <Easting>490584</Easting>
             <Northing>275543</Northing>
-            <Longitude>-0.670928347</Longitude>
-            <Latitude>52.370452404</Latitude>
+            <Longitude>-0.670928375</Longitude>
+            <Latitude>52.370455386</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -7965,13 +7966,13 @@
         <PlusbusZoneRef CreationDateTime="2024-08-08T07:27:56" ModificationDateTime="2024-08-08T07:27:56" Modification="new">KETR</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T21:51:49" ModificationDateTime="2025-09-15T08:08:20" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T21:51:49" ModificationDateTime="2026-11-19T12:52:24" Modification="revise" RevisionNumber="6" Status="active">
       <AtcoCode>305000052ST</AtcoCode>
       <NaptanCode>ntnadjgt</NaptanCode>
       <Descriptor>
-        <CommonName>William Street</CommonName>
+        <CommonName>(Burton Latimer) Victoria Street</CommonName>
         <Street>Station Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -7982,8 +7983,8 @@
             <GridType>UKOS</GridType>
             <Easting>489607</Easting>
             <Northing>274989</Northing>
-            <Longitude>-0.685422191</Longitude>
-            <Latitude>52.365633627</Latitude>
+            <Longitude>-0.685422219</Longitude>
+            <Latitude>52.365636609</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8050,14 +8051,14 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T21:54:02" ModificationDateTime="2025-09-08T14:37:39" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T21:54:02" ModificationDateTime="2026-11-19T12:58:39" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>305000052WA</AtcoCode>
       <NaptanCode>ntnadjgw</NaptanCode>
       <Descriptor>
-        <CommonName>Wagon &amp; Horses PH</CommonName>
+        <CommonName>(Burton Latimer) Station Road</CommonName>
         <Street>Kettering Road</Street>
         <Crossing>Station Road</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -8130,14 +8131,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T21:55:32" ModificationDateTime="2025-09-10T11:41:44" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T21:55:32" ModificationDateTime="2026-11-19T13:06:08" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>305000052WH</AtcoCode>
       <NaptanCode>ntnadjma</NaptanCode>
       <Descriptor>
-        <CommonName>Wagon &amp; Horses PH</CommonName>
+        <CommonName>(Burton Latimer) Bakehouse Lane</CommonName>
         <Street>Kettering Road</Street>
         <Crossing>Bakehouse Lane</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -8148,8 +8149,8 @@
             <GridType>UKOS</GridType>
             <Easting>489999</Easting>
             <Northing>275036</Northing>
-            <Longitude>-0.679654194</Longitude>
-            <Latitude>52.365991898</Latitude>
+            <Longitude>-0.679654222</Longitude>
+            <Latitude>52.365994880</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8169,13 +8170,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T08:01:36" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T13:09:34" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>305000052WR</AtcoCode>
       <NaptanCode>ntnadjmd</NaptanCode>
       <Descriptor>
-        <CommonName>Wold Road</CommonName>
+        <CommonName>(Burton Latimer) Wold Road</CommonName>
         <Street>Church Street</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049734</NptgLocalityRef>
@@ -8291,14 +8292,15 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-12T00:00:00" ModificationDateTime="2025-08-14T08:03:28" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2004-08-12T00:00:00" ModificationDateTime="2026-11-19T13:14:56" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000065A6</AtcoCode>
       <NaptanCode>ntnadmdm</NaptanCode>
       <Descriptor>
-        <CommonName>A45 Roundabout</CommonName>
+        <CommonName>(Higham Ferrers) Hecham Way</CommonName>
         <ShortCommonName>A5028</ShortCommonName>
         <Street>Station Road</Street>
-        <Indicator>before</Indicator>
+        <Crossing>Hecham Way</Crossing>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049698</NptgLocalityRef>
@@ -8335,15 +8337,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-03-31T00:00:00" ModificationDateTime="2025-10-30T11:47:45" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-03-31T00:00:00" ModificationDateTime="2026-11-19T13:17:40" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000065CM</AtcoCode>
       <NaptanCode>ntnadmdp</NaptanCode>
       <Descriptor>
-        <CommonName>A45 Roundabout</CommonName>
+        <CommonName>(Higham Ferrers) Nightingale Way</CommonName>
         <ShortCommonName>A5028</ShortCommonName>
         <Street>Station Road</Street>
         <Crossing>Nightingale Way</Crossing>
-        <Indicator>before </Indicator>
+        <Indicator>Before </Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049698</NptgLocalityRef>
@@ -8672,11 +8674,11 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-21T11:35:19" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-19T16:12:47" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>305000075AP</AtcoCode>
       <NaptanCode>ntnadtmp</NaptanCode>
       <Descriptor>
-        <CommonName>Drayton Close</CommonName>
+        <CommonName>(Corby) Althorpe Place</CommonName>
         <Street>Coldermeadow Avenue</Street>
         <Crossing>Althorp Place</Crossing>
         <Indicator>Before </Indicator>
@@ -8689,10 +8691,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486563</Easting>
-            <Northing>287537</Northing>
-            <Longitude>-0.726871109</Longitude>
-            <Latitude>52.478906202</Latitude>
+            <Easting>486567</Easting>
+            <Northing>287535</Northing>
+            <Longitude>-0.726812761</Longitude>
+            <Latitude>52.478885937</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8801,14 +8803,14 @@
         <PlusbusZoneRef CreationDateTime="2005-04-12T00:00:00" ModificationDateTime="2012-02-02T09:57:39" Modification="revise" RevisionNumber="5" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2025-09-10T12:00:32" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2026-11-19T16:21:54" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000075CR</AtcoCode>
       <NaptanCode>ntnadtmw</NaptanCode>
       <Descriptor>
-        <CommonName>(Corby) Conservative Club</CommonName>
+        <CommonName>(Corby) Meadow View</CommonName>
         <Street>Cottingham Road</Street>
         <Crossing>Meadow View</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056377</NptgLocalityRef>
@@ -8817,10 +8819,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488696</Easting>
-            <Northing>288901</Northing>
-            <Longitude>-0.695110759</Longitude>
-            <Latitude>52.490818671</Latitude>
+            <Easting>488699</Easting>
+            <Northing>288903</Northing>
+            <Longitude>-0.695066083</Longitude>
+            <Latitude>52.490839138</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8893,14 +8895,14 @@
         <PlusbusZoneRef CreationDateTime="2005-04-12T00:00:00" ModificationDateTime="2012-02-02T09:57:35" Modification="revise" RevisionNumber="3" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2025-09-15T08:20:11" Modification="revise" RevisionNumber="15" Status="active">
+    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2026-11-19T16:30:00" Modification="revise" RevisionNumber="17" Status="active">
       <AtcoCode>305000075CW</AtcoCode>
       <NaptanCode>ntnadtpd</NaptanCode>
       <Descriptor>
-        <CommonName>(Corby) Conservative Club</CommonName>
+        <CommonName>(Corby) Wheatley Avenue</CommonName>
         <Street>Cottingham Road</Street>
         <Crossing>Wheatley Avenue</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056377</NptgLocalityRef>
@@ -8909,10 +8911,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488665</Easting>
-            <Northing>288885</Northing>
-            <Longitude>-0.695571454</Longitude>
-            <Latitude>52.490679902</Latitude>
+            <Easting>488657</Easting>
+            <Northing>288886</Northing>
+            <Longitude>-0.695689007</Longitude>
+            <Latitude>52.490693167</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -8939,7 +8941,7 @@
         <PlusbusZoneRef CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2011-04-13T11:03:48" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-04-12T00:00:00" ModificationDateTime="2025-09-15T08:20:48" Modification="revise" RevisionNumber="13" Status="active">
+    <StopPoint CreationDateTime="2005-04-12T00:00:00" ModificationDateTime="2026-11-19T16:36:18" Modification="revise" RevisionNumber="14" Status="active">
       <AtcoCode>305000075ED</AtcoCode>
       <NaptanCode>ntnadtpg</NaptanCode>
       <Descriptor>
@@ -8954,10 +8956,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>488502</Easting>
-            <Northing>288807</Northing>
-            <Longitude>-0.697992144</Longitude>
-            <Latitude>52.490005300</Latitude>
+            <Easting>488501</Easting>
+            <Northing>288805</Northing>
+            <Longitude>-0.698010000</Longitude>
+            <Latitude>52.489989000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9289,14 +9291,14 @@
         <PlusbusZoneRef CreationDateTime="2005-09-14T00:00:00" ModificationDateTime="2012-02-02T09:57:40" Modification="revise" RevisionNumber="4" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-21T11:42:53" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-19T16:44:33" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000075GC</AtcoCode>
       <NaptanCode>ntnadtpw</NaptanCode>
       <Descriptor>
-        <CommonName>Glyndebourne Gardens</CommonName>
+        <CommonName>(Corby) Coldermeadow Avenue</CommonName>
         <Street>Gainsborough Road</Street>
         <Crossing>Coldermeadow Avenue</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9378,13 +9380,13 @@
         <PlusbusZoneRef CreationDateTime="2004-08-10T00:00:00" ModificationDateTime="2011-05-20T08:50:02" Modification="revise" RevisionNumber="2" Status="inactive">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-14T08:22:09" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-19T16:54:35" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>305000075GG</AtcoCode>
       <NaptanCode>ntnadtwd</NaptanCode>
       <Descriptor>
-        <CommonName>Glyndebourne Gardens</CommonName>
+        <CommonName>(Corby) Glyndebourne Gardens</CommonName>
         <Street>Gainsborough Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9394,10 +9396,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486440</Easting>
-            <Northing>287655</Northing>
-            <Longitude>-0.728651114</Longitude>
-            <Latitude>52.479986224</Latitude>
+            <Easting>486447</Easting>
+            <Northing>287659</Northing>
+            <Longitude>-0.728547000</Longitude>
+            <Latitude>52.480017000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9469,14 +9471,14 @@
         <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00" ModificationDateTime="2012-02-02T09:57:32" Modification="revise" RevisionNumber="3" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-02-23T00:00:00" ModificationDateTime="2025-09-15T08:23:12" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2004-02-23T00:00:00" ModificationDateTime="2026-11-19T17:02:55" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000075K</AtcoCode>
       <NaptanCode>ntnadtwg</NaptanCode>
       <Descriptor>
-        <CommonName>Kingswood School</CommonName>
+        <CommonName>(Corby) Norway Close</CommonName>
         <Street>Gainsborough Road</Street>
         <Crossing>Danesholme Road</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056377</NptgLocalityRef>
@@ -9516,14 +9518,14 @@
         <PlusbusZoneRef CreationDateTime="2004-02-23T00:00:00" ModificationDateTime="2014-06-11T13:35:31" Modification="revise" RevisionNumber="3" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2025-09-15T08:23:44" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2026-11-19T17:09:17" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000075KI</AtcoCode>
       <NaptanCode>ntnadtwj</NaptanCode>
       <Descriptor>
-        <CommonName>Kingswood School</CommonName>
+        <CommonName>(Corby) Norway Close</CommonName>
         <Street>Gainsborough Road</Street>
         <Crossing>Norway Close</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056377</NptgLocalityRef>
@@ -9533,10 +9535,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486203</Easting>
-            <Northing>287300</Northing>
-            <Longitude>-0.732231572</Longitude>
-            <Latitude>52.476833005</Latitude>
+            <Easting>486208</Easting>
+            <Northing>287313</Northing>
+            <Longitude>-0.732151000</Longitude>
+            <Latitude>52.476943000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9607,14 +9609,14 @@
         <PlusbusZoneRef CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2011-04-13T10:36:41" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-21T11:47:57" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-19T17:20:30" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000075LA</AtcoCode>
       <NaptanCode>ntnadtwp</NaptanCode>
       <Descriptor>
-        <CommonName>7 The Lawns</CommonName>
+        <CommonName>(Corby) 7 The Lawns</CommonName>
         <Street>The Lawns</Street>
         <Crossing>Tower Hill Road </Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9624,10 +9626,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486303</Easting>
-            <Northing>287929</Northing>
-            <Longitude>-0.730596946</Longitude>
-            <Latitude>52.482470519</Latitude>
+            <Easting>486310</Easting>
+            <Northing>287933</Northing>
+            <Longitude>-0.730492875</Longitude>
+            <Latitude>52.482503708</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9651,14 +9653,14 @@
         <PlusbusZoneRef CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2011-04-13T10:39:14" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-21T11:52:29" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-20T11:32:43" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000075PJ</AtcoCode>
       <NaptanCode>ntnadtwt</NaptanCode>
       <Descriptor>
-        <CommonName>Pope John School</CommonName>
+        <CommonName>(Corby) The Lawns</CommonName>
         <Street>Tower Hill Road</Street>
         <Crossing>The Lawns</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9698,14 +9700,14 @@
         <PlusbusZoneRef CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2011-04-13T10:38:42" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-14T08:27:03" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-20T11:39:08" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000075PO</AtcoCode>
       <NaptanCode>ntnadwad</NaptanCode>
       <Descriptor>
-        <CommonName>Pope John School</CommonName>
+        <CommonName>(Corby) Spiers Close</CommonName>
         <Street>Tower Hill Road</Street>
         <Crossing>Spiers Close</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9716,9 +9718,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>486271</Easting>
-            <Northing>287759</Northing>
-            <Longitude>-0.731111985</Longitude>
-            <Latitude>52.480947655</Latitude>
+            <Northing>287755</Northing>
+            <Longitude>-0.731118000</Longitude>
+            <Latitude>52.480906000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9745,13 +9747,13 @@
         <PlusbusZoneRef CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2011-04-13T10:38:24" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2025-08-14T08:29:34" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-20T11:45:58" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000075SC</AtcoCode>
       <NaptanCode>ntnadwag</NaptanCode>
       <Descriptor>
-        <CommonName>Steyning Close</CommonName>
+        <CommonName>(Corby) Steyning Close</CommonName>
         <Street>The Lawns</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9761,10 +9763,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486327</Easting>
-            <Northing>288089</Northing>
-            <Longitude>-0.730202232</Longitude>
-            <Latitude>52.483904767</Latitude>
+            <Easting>486332</Easting>
+            <Northing>288093</Northing>
+            <Longitude>-0.730129000</Longitude>
+            <Latitude>52.483936000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9876,14 +9878,14 @@
         <PlusbusZoneRef CreationDateTime="2005-10-10T00:00:00" ModificationDateTime="2011-04-13T10:39:40" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2025-08-21T12:02:44" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2026-11-20T11:59:09" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000075TL</AtcoCode>
       <NaptanCode>ntnadwam</NaptanCode>
       <Descriptor>
-        <CommonName>The Lawns</CommonName>
+        <CommonName>(Corby)The Lawns</CommonName>
         <Street>The Lawns</Street>
         <Crossing>Tower Hill Road</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>N0077182</NptgLocalityRef>
@@ -9895,8 +9897,8 @@
             <GridType>UKOS</GridType>
             <Easting>486419</Easting>
             <Northing>288039</Northing>
-            <Longitude>-0.728860766</Longitude>
-            <Latitude>52.483436203</Latitude>
+            <Longitude>-0.728867000</Longitude>
+            <Latitude>52.483441000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9920,7 +9922,7 @@
         <PlusbusZoneRef CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2011-04-13T10:40:29" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T21:58:50" ModificationDateTime="2025-08-21T12:04:43" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T21:58:50" ModificationDateTime="2026-11-20T12:07:55" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>305000082OH</AtcoCode>
       <NaptanCode>ntnadwdp</NaptanCode>
       <Descriptor>
@@ -9936,10 +9938,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>482908</Easting>
-            <Northing>277048</Northing>
-            <Longitude>-0.783272739</Longitude>
-            <Latitude>52.385193129</Latitude>
+            <Easting>482920</Easting>
+            <Northing>277006</Northing>
+            <Longitude>-0.783106874</Longitude>
+            <Latitude>52.384816797</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -9998,14 +10000,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T22:01:57" ModificationDateTime="2025-08-21T11:15:04" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T22:01:57" ModificationDateTime="2026-11-19T13:22:13" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>305000082TC</AtcoCode>
       <NaptanCode>ntnadmjg</NaptanCode>
       <Descriptor>
-        <CommonName>Three Cranes Inn</CommonName>
+        <CommonName>(Great Cransley) Bridle Way</CommonName>
         <Street>Broughton Hill</Street>
         <Crossing>Bridle Way</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0019323</NptgLocalityRef>
@@ -10037,14 +10039,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T22:03:28" ModificationDateTime="2025-09-25T11:13:43" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T22:03:28" ModificationDateTime="2026-11-19T13:33:24" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>305000082VH</AtcoCode>
       <NaptanCode>ntnadmjm</NaptanCode>
       <Descriptor>
-        <CommonName>Village Hall</CommonName>
+        <CommonName>(Great Cransley) Northfield Road</CommonName>
         <Street>Loddington Road</Street>
         <Crossing>Church Lane</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0019323</NptgLocalityRef>
@@ -10053,10 +10055,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>482920</Easting>
-            <Northing>277006</Northing>
-            <Longitude>-0.783106847</Longitude>
-            <Latitude>52.384813816</Latitude>
+            <Easting>482903</Easting>
+            <Northing>277058</Northing>
+            <Longitude>-0.783348000</Longitude>
+            <Latitude>52.385283000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10076,7 +10078,7 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-05-26T14:58:35" Modification="revise" RevisionNumber="11" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-19T13:44:09" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>305000089D</AtcoCode>
       <NaptanCode>ntnadmwd</NaptanCode>
       <Descriptor>
@@ -10093,10 +10095,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486603</Easting>
-            <Northing>286771</Northing>
-            <Longitude>-0.726481077</Longitude>
-            <Latitude>52.472013598</Latitude>
+            <Easting>486609</Easting>
+            <Northing>286769</Northing>
+            <Longitude>-0.726393000</Longitude>
+            <Latitude>52.471997000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10123,7 +10125,7 @@
         <PlusbusZoneRef CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2011-05-27T09:02:24" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-05-26T15:03:26" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2026-11-19T13:46:09" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000089DA</AtcoCode>
       <NaptanCode>ntnadmwg</NaptanCode>
       <Descriptor>
@@ -10139,10 +10141,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486628</Easting>
-            <Northing>286792</Northing>
-            <Longitude>-0.726107655</Longitude>
-            <Latitude>52.472195401</Latitude>
+            <Easting>486633</Easting>
+            <Northing>286788</Northing>
+            <Longitude>-0.726039000</Longitude>
+            <Latitude>52.472163000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10169,14 +10171,14 @@
         <PlusbusZoneRef CreationDateTime="2005-01-11T00:00:00" ModificationDateTime="2011-05-27T09:02:38" Modification="revise" RevisionNumber="2" Status="active">CORBY</PlusbusZoneRef>
       </PlusbusZones>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T08:36:01" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T12:21:32" Modification="revise" RevisionNumber="14" Status="active">
       <AtcoCode>305000093C</AtcoCode>
       <NaptanCode>ntnagapd</NaptanCode>
       <Descriptor>
-        <CommonName>(Denford)The Cock Inn</CommonName>
+        <CommonName>(Denford) Child’s Street</CommonName>
         <Street>High Street</Street>
         <Crossing>Child's Street</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049689</NptgLocalityRef>
@@ -10186,10 +10188,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>499245</Easting>
-            <Northing>276614</Northing>
-            <Longitude>-0.543441764</Longitude>
-            <Latitude>52.378579287</Latitude>
+            <Easting>499249</Easting>
+            <Northing>276616</Northing>
+            <Longitude>-0.543382458</Longitude>
+            <Latitude>52.378599519</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10213,14 +10215,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T08:37:02" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T12:25:36" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000093OC</AtcoCode>
       <NaptanCode>ntnagapg</NaptanCode>
       <Descriptor>
-        <CommonName>(Denford) The Cock Inn</CommonName>
+        <CommonName>(Denford) Meadow Lane</CommonName>
         <Street>High Street</Street>
         <Crossing>Meadow Lane</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049689</NptgLocalityRef>
@@ -10299,14 +10301,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T12:09:40" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T12:40:58" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000096BR</AtcoCode>
       <NaptanCode>ntnagatm</NaptanCode>
       <Descriptor>
-        <CommonName>Ash Grove</CommonName>
+        <CommonName>(Desborough) Matlock Way</CommonName>
         <Street>Braybrooke Road</Street>
         <Crossing>The Ridings</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10316,10 +10318,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>479367</Easting>
-            <Northing>283702</Northing>
-            <Longitude>-0.833711518</Longitude>
-            <Latitude>52.445524480</Latitude>
+            <Easting>479354</Easting>
+            <Northing>283705</Northing>
+            <Longitude>-0.833902058</Longitude>
+            <Latitude>52.445556310</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10383,13 +10385,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2025-08-14T08:44:33" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2026-11-20T12:47:14" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000096CD</AtcoCode>
       <NaptanCode>ntnagatp</NaptanCode>
       <Descriptor>
-        <CommonName>Chestnut Drive</CommonName>
+        <CommonName>(Desborough) Chestnut Drive</CommonName>
         <Street>Broadlands</Street>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10400,9 +10402,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>481237</Easting>
-            <Northing>282919</Northing>
-            <Longitude>-0.806395080</Longitude>
-            <Latitude>52.438217057</Latitude>
+            <Northing>282922</Northing>
+            <Longitude>-0.806394363</Longitude>
+            <Latitude>52.438242363</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10423,14 +10425,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-05-08T00:00:00" ModificationDateTime="2025-08-14T08:39:34" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2003-05-08T00:00:00" ModificationDateTime="2026-11-20T14:37:45" Modification="revise" RevisionNumber="14" Status="active">
       <AtcoCode>305000096CH</AtcoCode>
       <NaptanCode>ntnagatw</NaptanCode>
       <Descriptor>
-        <CommonName>Paddock Lane</CommonName>
+        <CommonName>(Desborough) Lower Street</CommonName>
         <Street>Lower Street</Street>
         <Crossing>Dunkirk Avenue</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10440,10 +10442,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>480267</Easting>
-            <Northing>283122</Northing>
-            <Longitude>-0.820612176</Longitude>
-            <Latitude>52.440180108</Latitude>
+            <Easting>480270</Easting>
+            <Northing>283117</Northing>
+            <Longitude>-0.820569280</Longitude>
+            <Latitude>52.440137708</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10508,14 +10510,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2025-08-21T12:11:56" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2026-11-20T13:03:38" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>305000096DA</AtcoCode>
       <NaptanCode>ntnagawa</NaptanCode>
       <Descriptor>
-        <CommonName>Breakleys Road</CommonName>
+        <CommonName>(Desborough) Princes Avenue</CommonName>
         <Street>Dunkirk Avenue</Street>
         <Crossing>Princes Avenue</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10525,10 +10527,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>480686</Easting>
+            <Easting>480683</Easting>
             <Northing>283145</Northing>
-            <Longitude>-0.814444128</Longitude>
-            <Latitude>52.440329865</Latitude>
+            <Longitude>-0.814488262</Longitude>
+            <Latitude>52.440328650</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10552,13 +10554,13 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2025-10-30T12:04:14" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2004-01-27T00:00:00" ModificationDateTime="2026-11-20T13:06:55" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>305000096DU</AtcoCode>
       <NaptanCode>ntnagawd</NaptanCode>
       <Descriptor>
-        <CommonName>Breakleys Road</CommonName>
+        <CommonName>(Desborough) Church View Road</CommonName>
         <Street>Dunkirk Avenue</Street>
-        <Indicator>after</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10634,14 +10636,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-06-03T00:00:00" ModificationDateTime="2025-08-21T12:18:03" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2005-06-03T00:00:00" ModificationDateTime="2026-11-20T13:15:47" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>305000096GS</AtcoCode>
       <NaptanCode>ntnagawg</NaptanCode>
       <Descriptor>
-        <CommonName>Harrington Road</CommonName>
+        <CommonName>(Desborough) Oak Tree Close</CommonName>
         <Street>Gold Street</Street>
         <Crossing>Oak Tree Close</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10651,10 +10653,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>479996</Easting>
-            <Northing>283441</Northing>
-            <Longitude>-0.824521670</Longitude>
-            <Latitude>52.443086995</Latitude>
+            <Easting>479988</Easting>
+            <Northing>283448</Northing>
+            <Longitude>-0.824637693</Longitude>
+            <Latitude>52.443154061</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10678,13 +10680,13 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-08-10T00:00:00" ModificationDateTime="2025-08-14T08:41:59" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2004-08-10T00:00:00" ModificationDateTime="2026-11-20T13:23:55" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>305000096H</AtcoCode>
       <NaptanCode>ntnagawj</NaptanCode>
       <Descriptor>
-        <CommonName>Station Road</CommonName>
+        <CommonName>(Desborough) Station Road</CommonName>
         <Street>High Street</Street>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10694,10 +10696,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>480200</Easting>
-            <Northing>283335</Northing>
-            <Longitude>-0.821546518</Longitude>
-            <Latitude>52.442104398</Latitude>
+            <Easting>480201</Easting>
+            <Northing>283337</Northing>
+            <Longitude>-0.821532000</Longitude>
+            <Latitude>52.442128000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10762,13 +10764,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2025-09-10T12:05:10" Modification="revise" RevisionNumber="5" Status="active">
+    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2026-11-20T13:33:46" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>305000096HI</AtcoCode>
       <NaptanCode>ntnagawm</NaptanCode>
       <Descriptor>
-        <CommonName>Ash Grove</CommonName>
+        <CommonName>(Desborough) Ash Grove</CommonName>
         <Street>Braybrooke Road</Street>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10778,10 +10780,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>479380</Easting>
-            <Northing>283700</Northing>
-            <Longitude>-0.833520768</Longitude>
-            <Latitude>52.445504619</Latitude>
+            <Easting>479385</Easting>
+            <Northing>283699</Northing>
+            <Longitude>-0.833447486</Longitude>
+            <Latitude>52.445497885</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10846,14 +10848,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T12:20:48" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T13:55:23" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000096HT</AtcoCode>
       <NaptanCode>ntnagawt</NaptanCode>
       <Descriptor>
-        <CommonName>Sports Ground</CommonName>
+        <CommonName>(Desborough) The Ridings</CommonName>
         <Street>Braybrooke Road</Street>
         <Crossing>The Ridings</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10863,10 +10865,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>479493</Easting>
-            <Northing>283647</Northing>
-            <Longitude>-0.831871208</Longitude>
-            <Latitude>52.445016482</Latitude>
+            <Easting>479490</Easting>
+            <Northing>283650</Northing>
+            <Longitude>-0.831914633</Longitude>
+            <Latitude>52.445042224</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10931,14 +10933,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2004-07-16T00:00:00" ModificationDateTime="2025-08-14T08:57:09" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2004-07-16T00:00:00" ModificationDateTime="2026-11-20T14:04:08" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000096IB</AtcoCode>
       <NaptanCode>ntnagdad</NaptanCode>
       <Descriptor>
-        <CommonName>41 Ise Vale Ave</CommonName>
+        <CommonName>(Desborough) Broadlands</CommonName>
         <Street>Ise Vale Avenue</Street>
         <Crossing>Broadlands</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -10949,9 +10951,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>481046</Easting>
-            <Northing>282893</Northing>
-            <Longitude>-0.809210414</Longitude>
-            <Latitude>52.438011681</Latitude>
+            <Northing>282898</Northing>
+            <Longitude>-0.809209213</Longitude>
+            <Latitude>52.438054963</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -10972,11 +10974,11 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2025-08-14T09:00:21" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2026-11-20T14:12:08" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000096IV</AtcoCode>
       <NaptanCode>ntnagdag</NaptanCode>
       <Descriptor>
-        <CommonName>1 Ise Vale Ave</CommonName>
+        <CommonName>(Deborough) Dunkirk Avenue</CommonName>
         <Street>Ise Vale Avenue</Street>
         <Crossing>Dunkirk Avenue</Crossing>
         <Indicator>after</Indicator>
@@ -10990,9 +10992,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>480941</Easting>
-            <Northing>283136</Northing>
-            <Longitude>-0.810695824</Longitude>
-            <Latitude>52.440206684</Latitude>
+            <Northing>283138</Northing>
+            <Longitude>-0.810695368</Longitude>
+            <Latitude>52.440227640</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11098,14 +11100,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2025-08-21T12:25:22" Modification="revise" RevisionNumber="10" Status="active">
+    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2026-11-20T14:22:34" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>305000096OR</AtcoCode>
       <NaptanCode>ntnagdap</NaptanCode>
       <Descriptor>
-        <CommonName>Red Wood Close</CommonName>
+        <CommonName>(Desborough) Willow Close</CommonName>
         <Street>Broadlands</Street>
         <Crossing>Willow Close</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11115,10 +11117,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>481357</Easting>
-            <Northing>282992</Northing>
-            <Longitude>-0.804612490</Longitude>
-            <Latitude>52.438855363</Latitude>
+            <Easting>481361</Easting>
+            <Northing>283000</Northing>
+            <Longitude>-0.804551726</Longitude>
+            <Latitude>52.438925015</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11142,13 +11144,13 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2025-08-14T09:00:59" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2005-09-26T00:00:00" ModificationDateTime="2026-11-20T14:28:51" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000096OT</AtcoCode>
       <NaptanCode>ntnagdat</NaptanCode>
       <Descriptor>
-        <CommonName>Harrington Road</CommonName>
+        <CommonName>(Desborough) Harrington Road</CommonName>
         <Street>Braybrooke Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11158,10 +11160,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>479942</Easting>
-            <Northing>283459</Northing>
-            <Longitude>-0.825311654</Longitude>
-            <Latitude>52.443261309</Latitude>
+            <Easting>479952</Easting>
+            <Northing>283456</Northing>
+            <Longitude>-0.825165294</Longitude>
+            <Latitude>52.443231226</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11228,13 +11230,13 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2025-08-14T09:04:03" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2026-11-20T14:34:53" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000096PL</AtcoCode>
       <NaptanCode>ntnagdaw</NaptanCode>
       <Descriptor>
-        <CommonName>Paddock Lane</CommonName>
+        <CommonName>(Desborough) Paddock Lane</CommonName>
         <Street>Dunkirk Avenue</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11315,13 +11317,13 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-05-31T00:00:00" ModificationDateTime="2025-08-14T09:04:32" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2005-05-31T00:00:00" ModificationDateTime="2026-11-20T14:46:29" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000096RM</AtcoCode>
       <NaptanCode>ntnagdga</NaptanCode>
       <Descriptor>
-        <CommonName>Mayfield Road</CommonName>
+        <CommonName>(Desborough) Mayfield Road</CommonName>
         <Street>Rushton Road</Street>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11331,10 +11333,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>481175</Easting>
-            <Northing>283371</Northing>
-            <Longitude>-0.807197217</Longitude>
-            <Latitude>52.442288863</Latitude>
+            <Easting>481181</Easting>
+            <Northing>283375</Northing>
+            <Longitude>-0.807103000</Longitude>
+            <Latitude>52.442320000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11355,13 +11357,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2005-05-31T00:00:00" ModificationDateTime="2025-08-14T09:05:31" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2005-05-31T00:00:00" ModificationDateTime="2026-11-20T14:55:00" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000096RP</AtcoCode>
       <NaptanCode>ntnagdgd</NaptanCode>
       <Descriptor>
-        <CommonName>Brooke Close</CommonName>
+        <CommonName>(Desborough) Brooke Close</CommonName>
         <Street>Rothwell Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11371,10 +11373,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>480237</Easting>
-            <Northing>282786</Northing>
-            <Longitude>-0.821134018</Longitude>
-            <Latitude>52.437169138</Latitude>
+            <Easting>480239</Easting>
+            <Northing>282784</Northing>
+            <Longitude>-0.821100000</Longitude>
+            <Latitude>52.437148000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11443,13 +11445,13 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2025-08-14T09:06:02" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2026-11-20T15:03:51" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000096S</AtcoCode>
       <NaptanCode>ntnagdgj</NaptanCode>
       <Descriptor>
-        <CommonName>Queen Street</CommonName>
+        <CommonName>(Desborough) King Street</CommonName>
         <Street>Rushton Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11459,10 +11461,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>480516</Easting>
-            <Northing>283543</Northing>
-            <Longitude>-0.816848609</Longitude>
-            <Latitude>52.443927525</Latitude>
+            <Easting>480505</Easting>
+            <Northing>283540</Northing>
+            <Longitude>-0.817011157</Longitude>
+            <Latitude>52.443905159</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11688,13 +11690,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2025-08-14T09:06:44" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2003-12-10T00:00:00" ModificationDateTime="2026-11-20T15:29:38" Modification="revise" RevisionNumber="9" Status="active">
       <AtcoCode>305000096US</AtcoCode>
       <NaptanCode>ntnagdgp</NaptanCode>
       <Descriptor>
-        <CommonName>Union Street</CommonName>
+        <CommonName>(Desborough) Union Street</CommonName>
         <Street>Rushton Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049737</NptgLocalityRef>
@@ -11705,9 +11707,9 @@
           <Translation>
             <GridType>UKOS</GridType>
             <Easting>480863</Easting>
-            <Northing>283476</Northing>
-            <Longitude>-0.811760818</Longitude>
-            <Latitude>52.443274161</Latitude>
+            <Northing>283480</Northing>
+            <Longitude>-0.811763000</Longitude>
+            <Latitude>52.443311000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11811,13 +11813,13 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-10T22:07:35" ModificationDateTime="2025-10-30T12:08:39" Modification="revise" RevisionNumber="2" Status="active">
+    <StopPoint CreationDateTime="2025-01-10T22:07:35" ModificationDateTime="2026-11-20T15:06:58" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>305000101OM</AtcoCode>
       <NaptanCode>ntnagdjp</NaptanCode>
       <Descriptor>
-        <CommonName>Cordon Crescent</CommonName>
+        <CommonName>(Earls Barton) Cordon Crescent</CommonName>
         <Street>Dowthorpe Hill</Street>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -11849,14 +11851,14 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-14T09:14:06" Modification="revise" RevisionNumber="8" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T15:54:42" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>305000105B</AtcoCode>
       <NaptanCode>ntnagdpa</NaptanCode>
       <Descriptor>
-        <CommonName>The Old Swan PH</CommonName>
+        <CommonName>(Earls Barton) High Street</CommonName>
         <Street>West Street</Street>
         <Crossing>High Street</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -11866,10 +11868,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>485181</Easting>
-            <Northing>263748</Northing>
-            <Longitude>-0.753248977</Longitude>
-            <Latitude>52.265308230</Latitude>
+            <Easting>485173</Easting>
+            <Northing>263760</Northing>
+            <Longitude>-0.753363161</Longitude>
+            <Latitude>52.265415659</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11893,15 +11895,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-09-15T08:39:35" Modification="revise" RevisionNumber="11" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T16:00:07" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>305000105BO</AtcoCode>
       <NaptanCode>ntnagdpd</NaptanCode>
       <Descriptor>
-        <CommonName>Northampton Road</CommonName>
+        <CommonName>(Earls Barton) Leys Road</CommonName>
         <ShortCommonName>B573</ShortCommonName>
         <Street>West Street</Street>
         <Crossing>Leys Road</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -11911,10 +11913,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>484942</Easting>
-            <Northing>263779</Northing>
-            <Longitude>-0.756742397</Longitude>
-            <Latitude>52.265623776</Latitude>
+            <Easting>484946</Easting>
+            <Northing>263781</Northing>
+            <Longitude>-0.756683309</Longitude>
+            <Latitude>52.265639470</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11938,14 +11940,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T12:58:45" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T16:14:19" Modification="revise" RevisionNumber="12" Status="active">
       <AtcoCode>305000105BT</AtcoCode>
       <NaptanCode>ntnagdpg</NaptanCode>
       <Descriptor>
-        <CommonName>New Lodge</CommonName>
+        <CommonName>(Earls Barton) Main Road</CommonName>
         <Street>Northampton Road</Street>
         <Crossing>Elizabeth Way</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -11955,10 +11957,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>484623</Easting>
-            <Northing>264514</Northing>
-            <Longitude>-0.761231497</Longitude>
-            <Latitude>52.272279196</Latitude>
+            <Easting>484625</Easting>
+            <Northing>264517</Northing>
+            <Longitude>-0.761200000</Longitude>
+            <Latitude>52.272301000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -11982,14 +11984,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-08-07T17:37:39" ModificationDateTime="2025-09-16T09:43:24" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2024-08-07T17:37:39" ModificationDateTime="2026-11-20T16:21:17" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>305000105C</AtcoCode>
       <NaptanCode>ntnagdpj</NaptanCode>
       <Descriptor>
-        <CommonName>Earls Barton Cemetery</CommonName>
+        <CommonName>(Earls Barton) Baron Avenue</CommonName>
         <Street>Wellingborough Road</Street>
         <Crossing>Baron Avenue</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -11999,10 +12001,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>485619</Easting>
-            <Northing>264716</Northing>
-            <Longitude>-0.746587199</Longitude>
-            <Latitude>52.273936168</Latitude>
+            <Easting>485623</Easting>
+            <Northing>264722</Northing>
+            <Longitude>-0.746527097</Longitude>
+            <Latitude>52.273992460</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12033,14 +12035,14 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-08-07T17:39:45" ModificationDateTime="2025-09-16T09:51:51" Modification="revise" RevisionNumber="6" Status="active">
+    <StopPoint CreationDateTime="2024-08-07T17:39:45" ModificationDateTime="2026-11-20T16:29:48" Modification="revise" RevisionNumber="8" Status="active">
       <AtcoCode>305000105CE</AtcoCode>
       <NaptanCode>ntnagdpm</NaptanCode>
       <Descriptor>
-        <CommonName>Earls Barton Cemetery</CommonName>
+        <CommonName>(Earls Barton) Titley Bawk Avenue</CommonName>
         <Street>Wellingborough Road</Street>
-        <Crossing>Tilly Bawk Avenue</Crossing>
-        <Indicator>before</Indicator>
+        <Crossing>Titley Bawk Avenue</Crossing>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -12050,10 +12052,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>485644</Easting>
-            <Northing>264677</Northing>
-            <Longitude>-0.746230783</Longitude>
-            <Latitude>52.273581743</Latitude>
+            <Easting>485645</Easting>
+            <Northing>264681</Northing>
+            <Longitude>-0.746215145</Longitude>
+            <Latitude>52.273620525</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12084,14 +12086,14 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T13:02:24" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T16:38:36" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000105D</AtcoCode>
       <NaptanCode>ntnagdpt</NaptanCode>
       <Descriptor>
-        <CommonName>St Crispin Road</CommonName>
+        <CommonName>(Earls Barton) St Crispin Road</CommonName>
         <ShortCommonName>B573</ShortCommonName>
         <Street>Doddington Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -12101,10 +12103,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>486025</Easting>
-            <Northing>263724</Northing>
-            <Longitude>-0.740891034</Longitude>
-            <Latitude>52.264961329</Latitude>
+            <Easting>486033</Easting>
+            <Northing>263725</Northing>
+            <Longitude>-0.740778000</Longitude>
+            <Latitude>52.264966000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12128,14 +12130,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T13:05:08" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-20T16:42:41" Modification="revise" RevisionNumber="10" Status="active">
       <AtcoCode>305000105DN</AtcoCode>
       <NaptanCode>ntnagdpw</NaptanCode>
       <Descriptor>
-        <CommonName>Clarke Court</CommonName>
+        <CommonName>(Earls Barton) New Street</CommonName>
+        <ShortCommonName>B573</ShortCommonName>
         <Street>Doddington Road</Street>
         <Crossing>New Street</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -12172,15 +12175,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-05-08T00:00:00" ModificationDateTime="2025-08-21T13:07:20" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2003-05-08T00:00:00" ModificationDateTime="2026-11-20T16:48:33" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000105DR</AtcoCode>
       <NaptanCode>ntnagdta</NaptanCode>
       <Descriptor>
-        <CommonName>St Crispin Road</CommonName>
+        <CommonName>(Earls Barton) Dowthorpe Hill</CommonName>
         <ShortCommonName>B573</ShortCommonName>
         <Street>Doddington Road</Street>
         <Crossing>Dowthorpe Hill</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049839</NptgLocalityRef>
@@ -12190,10 +12193,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>485952</Easting>
-            <Northing>263723</Northing>
-            <Longitude>-0.741960683</Longitude>
-            <Latitude>52.264963739</Latitude>
+            <Easting>485955</Easting>
+            <Northing>263725</Northing>
+            <Longitude>-0.741917000</Longitude>
+            <Latitude>52.264982000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12771,15 +12774,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-09-16T08:44:58" Modification="revise" RevisionNumber="9" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T15:21:09" Modification="revise" RevisionNumber="11" Status="active">
       <AtcoCode>305000112W</AtcoCode>
       <NaptanCode>ntnadpag</NaptanCode>
       <Descriptor>
-        <CommonName>Worlds End PH</CommonName>
+        <CommonName>(Ecton) Northampton Road</CommonName>
         <ShortCommonName>A4500</ShortCommonName>
         <Street>Wellingborough Road</Street>
         <Crossing>Northampton Road</Crossing>
-        <Indicator>before</Indicator>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049841</NptgLocalityRef>
@@ -12792,10 +12795,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>482607</Easting>
-            <Northing>263792</Northing>
-            <Longitude>-0.790946215</Longitude>
-            <Latitude>52.266091156</Latitude>
+            <Easting>482605</Easting>
+            <Northing>263788</Northing>
+            <Longitude>-0.790979000</Longitude>
+            <Latitude>52.266058000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12811,7 +12814,7 @@
                 <Degrees>225</Degrees>
               </Bearing>
             </MarkedPoint>
-            <AnnotatedCoachRef CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-09-16T08:44:58" Modification="revise" RevisionNumber="6">
+            <AnnotatedCoachRef CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T15:21:09" Modification="revise" RevisionNumber="8">
               <CoachRef>900098072</CoachRef>
               <Name>Worlds End PH</Name>
               <LongName>Worlds End PH</LongName>
@@ -12829,15 +12832,15 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-08-21T11:25:27" Modification="revise" RevisionNumber="13" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T15:25:58" Modification="revise" RevisionNumber="15" Status="active">
       <AtcoCode>305000119A</AtcoCode>
       <NaptanCode>ntnadpjg</NaptanCode>
       <Descriptor>
-        <CommonName>(Finedon) Dolben Arms PH</CommonName>
+        <CommonName>(Finedon) Allen Road</CommonName>
         <ShortCommonName>A6</ShortCommonName>
         <Street>Irthlingborough Road</Street>
         <Crossing>Allen Road</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049842</NptgLocalityRef>
@@ -12847,10 +12850,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>492266</Easting>
-            <Northing>272048</Northing>
-            <Longitude>-0.647189981</Longitude>
-            <Latitude>52.338760303</Latitude>
+            <Easting>492268</Easting>
+            <Northing>272047</Northing>
+            <Longitude>-0.647157000</Longitude>
+            <Latitude>52.338754000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12874,14 +12877,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-01-24T13:31:19" ModificationDateTime="2025-08-21T11:29:17" Modification="revise" RevisionNumber="4" Status="active">
+    <StopPoint CreationDateTime="2025-01-24T13:31:19" ModificationDateTime="2026-11-19T15:45:13" Modification="revise" RevisionNumber="7" Status="active">
       <AtcoCode>305000119HC</AtcoCode>
       <NaptanCode>ntnadpjp</NaptanCode>
       <Descriptor>
-        <CommonName>Kenmuir Road</CommonName>
+        <CommonName>(Finedon) Harrowden Lane</CommonName>
         <ShortCommonName>A510</ShortCommonName>
         <Street>Wellingborough Road</Street>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049842</NptgLocalityRef>
@@ -12890,10 +12893,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>491533</Easting>
-            <Northing>271553</Northing>
-            <Longitude>-0.658080026</Longitude>
-            <Latitude>52.334434033</Latitude>
+            <Easting>491532</Easting>
+            <Northing>271581</Northing>
+            <Longitude>-0.658087109</Longitude>
+            <Latitude>52.334688838</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12913,15 +12916,15 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2025-09-15T08:17:16" Modification="revise" RevisionNumber="12" Status="active">
+    <StopPoint CreationDateTime="2006-06-26T00:00:00" ModificationDateTime="2026-11-19T15:53:26" Modification="revise" RevisionNumber="16" Status="active">
       <AtcoCode>305000119IR</AtcoCode>
       <NaptanCode>ntnadpjt</NaptanCode>
       <Descriptor>
-        <CommonName>(Finedon) The Tower</CommonName>
+        <CommonName>(Finedon) Oxford Street</CommonName>
         <ShortCommonName>A6</ShortCommonName>
         <Street>Irthlingborough Road</Street>
         <Crossing>Oxford Street</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049842</NptgLocalityRef>
@@ -12931,10 +12934,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>492456</Easting>
-            <Northing>271833</Northing>
-            <Longitude>-0.644461186</Longitude>
-            <Latitude>52.336796005</Latitude>
+            <Easting>492462</Easting>
+            <Northing>271827</Northing>
+            <Longitude>-0.644374829</Longitude>
+            <Latitude>52.336744053</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -12955,15 +12958,15 @@
       </StopClassification>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2024-08-07T12:52:18" ModificationDateTime="2025-09-16T08:51:47" Modification="revise" RevisionNumber="7" Status="active">
+    <StopPoint CreationDateTime="2024-08-07T12:52:18" ModificationDateTime="2026-11-19T16:03:00" Modification="revise" RevisionNumber="13" Status="active">
       <AtcoCode>305000119O</AtcoCode>
       <NaptanCode>ntnadpjw</NaptanCode>
       <Descriptor>
-        <CommonName>(Finedon) Dolben Arms PH</CommonName>
+        <CommonName>(Finedon) Hawthorne Road</CommonName>
         <ShortCommonName>A6</ShortCommonName>
         <Street>Irthlingborough Road</Street>
         <Crossing>Hawthorne Road</Crossing>
-        <Indicator>after</Indicator>
+        <Indicator>After</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049842</NptgLocalityRef>
@@ -12973,10 +12976,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>492317</Easting>
-            <Northing>271980</Northing>
-            <Longitude>-0.646460315</Longitude>
-            <Latitude>52.338140572</Latitude>
+            <Easting>492307</Easting>
+            <Northing>271987</Northing>
+            <Longitude>-0.646608000</Longitude>
+            <Latitude>52.338209000</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -23884,15 +23887,14 @@
       </StopAreas>
       <AdministrativeAreaRef>153</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2025-12-12T11:00:02" ModificationDateTime="2025-12-12T10:58:01" Modification="new" Status="active">
+    <StopPoint CreationDateTime="2025-12-12T11:00:02" ModificationDateTime="2026-11-24T09:40:27" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>305000293WW</AtcoCode>
       <NaptanCode>ntnapwdg</NaptanCode>
       <Descriptor>
-        <CommonName>&lt;Common Name&gt;</CommonName>
-        <ShortCommonName>Ramsey Close</ShortCommonName>
+        <CommonName>(Raunds) Ramsay Close</CommonName>
         <Street>Whitefield Way</Street>
-        <Crossing>Ramsey Close</Crossing>
-        <Indicator>adj</Indicator>
+        <Crossing>Ramsay Close</Crossing>
+        <Indicator>Before</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0049713</NptgLocalityRef>
@@ -23901,10 +23903,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>499219</Easting>
+            <Easting>499222</Easting>
             <Northing>273142</Northing>
-            <Longitude>-0.544849092</Longitude>
-            <Latitude>52.347380315</Latitude>
+            <Longitude>-0.544809000</Longitude>
+            <Latitude>52.347381000</Latitude>
           </Translation>
         </Location>
       </Place>
