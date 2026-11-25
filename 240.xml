@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-09T13:27:40.319" ModificationDateTime="2026-11-09T13:27:40.319" Modification="new" RevisionNumber="0" FileName="NaPTAN240.xml" SchemaVersion="2.4" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-24T17:24:31.885" ModificationDateTime="2026-11-24T17:24:31.885" Modification="new" RevisionNumber="0" FileName="NaPTAN240.xml" SchemaVersion="2.4" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2007-07-13T12:46:00.000" ModificationDateTime="2018-02-20T14:56:00.000" Modification="delete" RevisionNumber="10" Status="inactive">
 <AtcoCode>240004144ARR</AtcoCode>
@@ -252224,11 +252224,11 @@
 <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2014-07-04T08:43:00.000" Modification="revise" RevisionNumber="2" Status="active">DOVERP</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2018-05-02T13:00:00.000" Modification="revise" RevisionNumber="4" Status="active">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-11-24T17:23:24.660" Modification="revise" RevisionNumber="6" Status="active">
 <AtcoCode>2400A030830A</AtcoCode>
 <NaptanCode>kntdjdgp</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">The Railway Bell</CommonName>
+<CommonName xml:lang="en">Kearsney Avenue</CommonName>
 <Landmark xml:lang="en">The Railway Bell</Landmark>
 <Street xml:lang="en">London Road</Street>
 <Indicator xml:lang="en">opp</Indicator>
@@ -254863,11 +254863,11 @@
 <PlusbusZoneRef CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2013-12-02T13:35:00.000" Modification="revise" RevisionNumber="2" Status="active">DOVERP</PlusbusZoneRef>
 </PlusbusZones>
 </StopPoint>
-<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2018-05-02T12:59:00.000" Modification="revise" RevisionNumber="3" Status="active">
+<StopPoint CreationDateTime="2006-06-13T00:00:00.000" ModificationDateTime="2026-11-24T17:24:19.380" Modification="revise" RevisionNumber="5" Status="active">
 <AtcoCode>2400A031470A</AtcoCode>
 <NaptanCode>kntdjgmp</NaptanCode>
 <Descriptor>
-<CommonName xml:lang="en">The Railway Bell</CommonName>
+<CommonName xml:lang="en">Kearsney Avenue</CommonName>
 <Landmark xml:lang="en">The Railway Bell</Landmark>
 <Street xml:lang="en">London Road</Street>
 <Indicator xml:lang="en">o/s</Indicator>
@@ -384765,6 +384765,41 @@
 <Degrees>270</Degrees>
 </Bearing>
 </UnmarkedPoint>
+</Bus>
+</OnStreet>
+</StopClassification>
+<AdministrativeAreaRef>086</AdministrativeAreaRef>
+</StopPoint>
+<StopPoint CreationDateTime="2026-11-19T11:18:52.148" ModificationDateTime="2026-11-19T11:18:52.148" Modification="new" RevisionNumber="0" Status="active">
+<AtcoCode>2400109751</AtcoCode>
+<NaptanCode>kntjdjpw</NaptanCode>
+<Descriptor>
+<CommonName xml:lang="en">Mereworth Castle</CommonName>
+<Street xml:lang="en">Tonbridge Road</Street>
+</Descriptor>
+<Place>
+<NptgLocalityRef>E0047349</NptgLocalityRef>
+<Location>
+<Translation>
+<GridType>UKOS</GridType>
+<Easting>566490</Easting>
+<Northing>153742</Northing>
+<Longitude>0.3846691</Longitude>
+<Latitude>51.2585326</Latitude>
+</Translation>
+</Location>
+</Place>
+<StopClassification>
+<StopType>BCT</StopType>
+<OnStreet>
+<Bus>
+<BusStopType>MKD</BusStopType>
+<TimingStatus>OTH</TimingStatus>
+<MarkedPoint>
+<Bearing>
+<CompassPoint>W</CompassPoint>
+</Bearing>
+</MarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
