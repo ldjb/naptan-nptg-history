@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-16T11:38:00.560" ModificationDateTime="2026-11-16T11:38:00.560" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
+<NaPTAN xmlns="http://www.naptan.org.uk/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.1/NaPTAN.xsd" xml:lang="en" CreationDateTime="2026-11-25T15:22:56.045" ModificationDateTime="2026-11-25T15:22:56.045" Modification="new" RevisionNumber="0" FileName="NaPTAN320.xml" SchemaVersion="2.1" LocationSystem="WGS84">
 <StopPoints>
 <StopPoint CreationDateTime="2013-05-13T12:00:00.000" ModificationDateTime="2025-11-05T11:48:52.000" Modification="revise" RevisionNumber="1" Status="active">
 <AtcoCode>3200YNA96813</AtcoCode>
@@ -8800,47 +8800,6 @@
 <CompassPoint>E</CompassPoint>
 </Bearing>
 </MarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
-<AdministrativeAreaRef>092</AdministrativeAreaRef>
-</StopPoint>
-<StopPoint CreationDateTime="2019-08-27T12:00:00.000" ModificationDateTime="2019-08-27T12:15:30.000" Modification="new" RevisionNumber="0" Status="active">
-<AtcoCode>3200YNA97029</AtcoCode>
-<NaptanCode>32097029</NaptanCode>
-<Descriptor>
-<CommonName xml:lang="en">Hall Lane</CommonName>
-<ShortCommonName xml:lang="en">Hall Lane</ShortCommonName>
-<Landmark xml:lang="en">Bachelor Gardens</Landmark>
-<Street xml:lang="en">Tennyson Avenue</Street>
-<Indicator xml:lang="en">adj</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>E0018628</NptgLocalityRef>
-<Suburb>Bilton</Suburb>
-<Town>Harrogate</Town>
-<LocalityCentre>0</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>430555</Easting>
-<Northing>457437</Northing>
-<Longitude>-1.535232</Longitude>
-<Latitude>54.01206</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>CUS</BusStopType>
-<TimingStatus>OTH</TimingStatus>
-<UnmarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
-</Bearing>
-</UnmarkedPoint>
 </Bus>
 </OnStreet>
 </StopClassification>
@@ -162892,50 +162851,6 @@
 <MarkedPoint>
 <Bearing>
 <CompassPoint>SE</CompassPoint>
-</Bearing>
-</MarkedPoint>
-</Bus>
-</OnStreet>
-</StopClassification>
-<AdministrativeAreaRef>092</AdministrativeAreaRef>
-<PlusbusZones>
-<PlusbusZoneRef CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">HAGT</PlusbusZoneRef>
-</PlusbusZones>
-</StopPoint>
-<StopPoint CreationDateTime="2003-11-17T12:00:00.000" ModificationDateTime="2011-05-18T12:00:00.000" Modification="new" RevisionNumber="0" Status="active">
-<AtcoCode>3200YND81210</AtcoCode>
-<NaptanCode>32081210</NaptanCode>
-<Descriptor>
-<CommonName xml:lang="en">Wellfield Court</CommonName>
-<ShortCommonName xml:lang="en">Pannal Ash Rdbt</ShortCommonName>
-<Landmark xml:lang="en">School</Landmark>
-<Street xml:lang="en">Pannal Ash Road</Street>
-<Indicator xml:lang="en">opp</Indicator>
-</Descriptor>
-<Place>
-<NptgLocalityRef>E0018747</NptgLocalityRef>
-<Suburb>Pannal Ash</Suburb>
-<Town>Harrogate</Town>
-<LocalityCentre>0</LocalityCentre>
-<Location>
-<Translation>
-<GridType>UKOS</GridType>
-<Easting>429288</Easting>
-<Northing>453399</Northing>
-<Longitude>-1.554952</Longitude>
-<Latitude>53.975842</Latitude>
-</Translation>
-</Location>
-</Place>
-<StopClassification>
-<StopType>BCT</StopType>
-<OnStreet>
-<Bus>
-<BusStopType>MKD</BusStopType>
-<TimingStatus>PTP</TimingStatus>
-<MarkedPoint>
-<Bearing>
-<CompassPoint>N</CompassPoint>
 </Bearing>
 </MarkedPoint>
 </Bus>
