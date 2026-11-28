@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Created by Omnibus OmniFLAG (4.0.91.0)-->
-<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-16T11:38:43.3485335Z" ModificationDateTime="2026-11-16T11:38:43.3485335Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
+<NaPTAN xsi:schemaLocation="http://www.naptan.org.uk/ http://www.naptan.org.uk/schema/2.4/NaPTAN.xsd" CreationDateTime="2026-11-27T19:02:50.1999221Z" ModificationDateTime="2026-11-27T19:02:50.1999221Z" Modification="new" RevisionNumber="1" FileName="420.xml" SchemaVersion="2.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naptan.org.uk/">
   <StopPoints>
     <StopPoint CreationDateTime="2016-10-17T11:20:53" ModificationDateTime="2026-04-08T13:43:38" Modification="revise" RevisionNumber="6" Status="inactive">
       <AtcoCode>4200100014</AtcoCode>
@@ -41801,14 +41801,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-04-08T14:09:55" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-11-18T10:38:45" Modification="revise" RevisionNumber="4" Status="active">
       <AtcoCode>4200F067200</AtcoCode>
       <NaptanCode>waragdja</NaptanCode>
       <Descriptor>
         <CommonName>NatWest Bank</CommonName>
-        <Landmark>NatWest Bank</Landmark>
         <Street>Wood Street</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0051992</NptgLocalityRef>
@@ -58621,13 +58620,13 @@
         </StopValidity>
       </StopAvailability>
     </StopPoint>
-    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2007-03-22T00:00:00" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2003-01-28T00:00:00" ModificationDateTime="2026-11-19T12:55:13" Modification="revise" RevisionNumber="2" Status="active">
       <AtcoCode>4200F109202</AtcoCode>
       <NaptanCode>warajpjg</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Thickthorn Island</CommonName>
-        <Landmark xml:lang="en">Thickthorn Island</Landmark>
-        <Street xml:lang="en">Leamington Road</Street>
+        <CommonName>Thickthorn Island</CommonName>
+        <Landmark>Thickthorn Island</Landmark>
+        <Street>Leamington Road</Street>
         <Indicator xml:lang="en">Adj</Indicator>
       </Descriptor>
       <Place>
@@ -58636,10 +58635,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>429716</Easting>
-            <Northing>270563</Northing>
-            <Longitude>-1.565338845</Longitude>
-            <Latitude>52.332352871</Latitude>
+            <Easting>429707</Easting>
+            <Northing>270574</Northing>
+            <Longitude>-1.565469948</Longitude>
+            <Latitude>52.332452246</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -128020,13 +128019,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2015-08-19T10:09:46" ModificationDateTime="2020-11-25T11:13:40" Modification="revise" RevisionNumber="1" Status="active">
+    <StopPoint CreationDateTime="2015-08-19T10:09:46" ModificationDateTime="2026-11-27T14:07:35" Modification="revise" RevisionNumber="3" Status="active">
       <AtcoCode>4200F165191</AtcoCode>
       <NaptanCode>wardpdpm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Rugby Gateway</CommonName>
-        <Street xml:lang="en">Leicester Road</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Waver Way</CommonName>
+        <Street>Overview Way</Street>
+        <Indicator>Adj</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056779</NptgLocalityRef>
@@ -128049,7 +128048,77 @@
             <TimingStatus>OTH</TimingStatus>
             <MarkedPoint>
               <Bearing>
-                <CompassPoint>W</CompassPoint>
+                <CompassPoint>SE</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-27T14:16:01" ModificationDateTime="2026-11-27T14:10:04" Modification="new" Status="active">
+      <AtcoCode>4200F165192</AtcoCode>
+      <NaptanCode>wardpdpn</NaptanCode>
+      <Descriptor>
+        <CommonName>Stretton Close</CommonName>
+        <Street>Overview Way</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0056779</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>451169</Easting>
+            <Northing>278698</Northing>
+            <Longitude>-1.249299661</Longitude>
+            <Latitude>52.403904494</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-27T15:28:43" ModificationDateTime="2026-11-27T15:28:56" Modification="revise" RevisionNumber="1" Status="active">
+      <AtcoCode>4200F165193</AtcoCode>
+      <NaptanCode>wardpdpo</NaptanCode>
+      <Descriptor>
+        <CommonName>Platinum Jubilee Road</CommonName>
+        <Street>Lower Lodge Avenue</Street>
+        <Indicator>Opp</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0056779</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>450972</Easting>
+            <Northing>278214</Northing>
+            <Longitude>-1.252268600</Longitude>
+            <Latitude>52.399572011</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>S</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
@@ -128779,13 +128848,13 @@
       </StopClassification>
       <AdministrativeAreaRef>104</AdministrativeAreaRef>
     </StopPoint>
-    <StopPoint CreationDateTime="2018-10-01T10:23:49" ModificationDateTime="2021-08-20T10:55:36" Modification="revise" RevisionNumber="3" Status="active">
+    <StopPoint CreationDateTime="2018-10-01T10:23:49" ModificationDateTime="2026-11-27T19:02:25" Modification="revise" RevisionNumber="5" Status="active">
       <AtcoCode>4200F165631</AtcoCode>
       <NaptanCode>wardpmgm</NaptanCode>
       <Descriptor>
-        <CommonName xml:lang="en">Brownsover Lane</CommonName>
-        <Street xml:lang="en">Lower Lodge Avenue</Street>
-        <Indicator xml:lang="en">Adj</Indicator>
+        <CommonName>Brownsover Lane</CommonName>
+        <Street>Lower Lodge Avenue</Street>
+        <Indicator>Opp</Indicator>
       </Descriptor>
       <Place>
         <NptgLocalityRef>E0056779</NptgLocalityRef>
@@ -128793,10 +128862,10 @@
         <Location>
           <Translation>
             <GridType>UKOS</GridType>
-            <Easting>451122</Easting>
-            <Northing>277721</Northing>
-            <Longitude>-1.250139292</Longitude>
-            <Latitude>52.395126320</Latitude>
+            <Easting>451129</Easting>
+            <Northing>277712</Northing>
+            <Longitude>-1.250037801</Longitude>
+            <Latitude>52.395044764</Latitude>
           </Translation>
         </Location>
       </Place>
@@ -128809,6 +128878,41 @@
             <MarkedPoint>
               <Bearing>
                 <CompassPoint>NW</CompassPoint>
+              </Bearing>
+            </MarkedPoint>
+          </Bus>
+        </OnStreet>
+      </StopClassification>
+      <AdministrativeAreaRef>104</AdministrativeAreaRef>
+    </StopPoint>
+    <StopPoint CreationDateTime="2026-11-27T19:00:17" ModificationDateTime="2026-11-27T18:59:04" Modification="new" Status="active">
+      <AtcoCode>4200F165632</AtcoCode>
+      <NaptanCode>wardpmgn</NaptanCode>
+      <Descriptor>
+        <CommonName>Brownsover Lane</CommonName>
+        <Street>Lower Lodge Avenue</Street>
+        <Indicator>Adj</Indicator>
+      </Descriptor>
+      <Place>
+        <NptgLocalityRef>E0056779</NptgLocalityRef>
+        <Location>
+          <Translation>
+            <Easting>451142</Easting>
+            <Northing>277726</Northing>
+            <Longitude>-1.249844639</Longitude>
+            <Latitude>52.395169403</Latitude>
+          </Translation>
+        </Location>
+      </Place>
+      <StopClassification>
+        <StopType>BCT</StopType>
+        <OnStreet>
+          <Bus>
+            <BusStopType>MKD</BusStopType>
+            <TimingStatus>OTH</TimingStatus>
+            <MarkedPoint>
+              <Bearing>
+                <CompassPoint>SE</CompassPoint>
               </Bearing>
             </MarkedPoint>
           </Bus>
